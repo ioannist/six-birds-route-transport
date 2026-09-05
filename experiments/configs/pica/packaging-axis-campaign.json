@@ -1,0 +1,138 @@
+{
+  "search_format_version": "packaging-axis-search.v1",
+  "search_id": "packaging_axis_th5",
+  "fixed_pilot_config_artifact": "experiments/configs/pica/pilot-exp104-p6-row-all-n64.json",
+  "preparation_id": "prep_pica_default",
+  "protocol_id": "protocol_pica_multiscale_scan",
+  "trajectories": 24,
+  "seed_list": [
+    0
+  ],
+  "points": [
+    {
+      "point_id": "packaging_control_same_step_k4",
+      "selected_protocol_step_ids": [
+        "protocol_pica_multiscale_scan_step_1"
+      ],
+      "selected_step_indices": [
+        1
+      ],
+      "selected_resolution_ids": [
+        "resolution_k_4"
+      ],
+      "allow_cross_resolution_pairs": false,
+      "notes": [
+        "same_step_packaging_control",
+        "fixed_support_same_step_pkg_vs_nonpkg"
+      ]
+    },
+    {
+      "point_id": "packaging_same_step_k20",
+      "selected_protocol_step_ids": [
+        "protocol_pica_multiscale_scan_step_4"
+      ],
+      "selected_step_indices": [
+        4
+      ],
+      "selected_resolution_ids": [
+        "resolution_k_20"
+      ],
+      "allow_cross_resolution_pairs": false,
+      "notes": [
+        "same_step_packaging_divergent_k20",
+        "richer_same_step_packaging_branch_case"
+      ]
+    },
+    {
+      "point_id": "packaging_cross_res_k4_k20",
+      "selected_protocol_step_ids": [
+        "protocol_pica_multiscale_scan_step_1",
+        "protocol_pica_multiscale_scan_step_4"
+      ],
+      "selected_step_indices": [
+        1,
+        4
+      ],
+      "selected_resolution_ids": [
+        "resolution_k_4",
+        "resolution_k_20"
+      ],
+      "allow_cross_resolution_pairs": true,
+      "notes": [
+        "richest_packaging_candidate",
+        "cross_resolution_packaging_strict_extension_k4_k20"
+      ]
+    }
+  ],
+  "projection_families": [
+    {
+      "projection_id": "obs_primary",
+      "label": "observation label",
+      "source_field": "observation_label",
+      "projection_kind": "packaging_outcome",
+      "allowed_roles": [
+        "primary_context"
+      ],
+      "projection": {
+        "projection_mode": "observation_label"
+      },
+      "notes": [
+        "fixed_primary_packaging_outcome"
+      ]
+    }
+  ],
+  "fixed_projection_family_ids": [
+    "obs_primary"
+  ],
+  "fixed_mechanism_label": "exp104_p6_row_all_n64",
+  "fixed_lens_label": "obs_primary_observation_label",
+  "event_generation_thresholds": {
+    "event_basis_mode": "singleton_plus_small_unions",
+    "event_algebra_mode": "conservative_truncation",
+    "max_full_powerset_atom_count": 4,
+    "max_union_size": 2,
+    "min_event_support_count": 1,
+    "min_event_support_fraction": 0.0,
+    "include_empty_and_full_in_truncation": false,
+    "match_empty_for_inference": false,
+    "match_full_for_inference": false
+  },
+  "shared_event_inference_thresholds": {
+    "inference_mode": "structural_primary",
+    "min_common_probes": 1,
+    "min_conditioning_count": 3,
+    "min_probe_atom_support_count": 1,
+    "max_mean_tv": 1.0,
+    "exact_tolerance": 1e-06,
+    "proposal_constraint_kind": "soft"
+  },
+  "candidate_classification_thresholds": {
+    "strong_nonextendable_min_gpd_str": 1.0,
+    "near_zero_gpd_stat": 1e-06,
+    "min_accepted_coarse_proposal_count": 1
+  },
+  "adequacy_floor": {
+    "min_total_point_count": 3,
+    "min_admissible_built_package_count": 2,
+    "min_points_with_proper_coarse_events": 1,
+    "min_points_with_accepted_proper_coarse_structural_proposals": 1,
+    "min_points_with_same_support_packaging_divergent_pairs": 1,
+    "min_points_with_dual_mode_difference": 1,
+    "min_points_with_nontrivial_quotient_result_recorded": 1
+  },
+  "include_natural_pairing_control": true,
+  "quotient_subset_search_enabled": true,
+  "quotient_max_subset_size": 2,
+  "quotient_stop_at_first_witness": true,
+  "provenance_required": true,
+  "claim_ceiling": "provenance_admissible_packaging_obstruction",
+  "output_category": "search",
+  "output_label": "packaging-axis",
+  "metadata": {
+    "axis": "packaging",
+    "notes": [
+      "Mechanism and primary lens remain fixed while package selector branch outcomes vary on the same support.",
+      "Quotient-backed feasibility is the default theorem-facing exact backend."
+    ]
+  }
+}

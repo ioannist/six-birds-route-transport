@@ -1,0 +1,24 @@
+relation,identifier,scheme,resource_type,bibkey,title
+Cites,10.1126/science.177.4047.393,DOI,publication-article,Anderson1972,More is Different
+Cites,10.1016/0370-1573(74)90023-4,DOI,publication-article,WilsonKogut1974,The Renormalization Group and the epsilon Expansion
+Cites,10.1063/1.1731409,DOI,publication-article,Zwanzig1960,Ensemble Method in the Theory of Irreversibility
+Cites,10.1023/A:1004589714161,DOI,publication-article,LebowitzSpohn1999,A Gallavotti-Cohen-Type Symmetry in the Large Deviation Functional for Stochastic Dynamics
+Cites,10.1103/PhysRevE.60.2721,DOI,publication-article,Crooks1999,Entropy production fluctuation theorem and the nonequilibrium work relation for free energy differences
+Cites,10.1088/0034-4885/75/12/126001,DOI,publication-article,Seifert2012,"Stochastic thermodynamics, fluctuation theorems and molecular machines"
+Cites,10.1103/PhysRevE.82.011143,DOI,publication-article,EspositoVanDenBroeck2010,Three faces of the second law. I. Master equation formulation
+Cites,10.1103/RevModPhys.48.571,DOI,publication-article,Schnakenberg1976,Network theory of microscopic and macroscopic behavior of master equation systems
+Cites,10.1103/PhysRevE.85.041125,DOI,publication-article,Esposito2012CoarseGraining,Stochastic thermodynamics under coarse graining
+Cites,10.1103/PhysRevE.88.022147,DOI,publication-article,KawaguchiNakayama2013,Fluctuation theorem for hidden entropy production
+Cites,10.1063/1.3565032,DOI,publication-article,Prinz2011,Markov models of molecular kinetics: Generation and validation
+Cites,10.1137/090764049,DOI,publication-article,SarichNoeSchuette2010,On the Approximation Quality of Markov State Models
+Cites,10.1137/110858616,DOI,publication-article,NoeNuske2013,A variational approach to modeling slow processes in stochastic dynamical systems
+Cites,10.1016/j.laa.2004.10.026,DOI,publication-article,DeuflhardWeber2005,Robust Perron cluster analysis in conformation dynamics
+Cites,10.1007/s11222-007-9033-z,DOI,publication-article,VonLuxburg2007,A tutorial on spectral clustering
+Cites,10.1016/j.acha.2006.04.006,DOI,publication-article,CoifmanLafon2006,Diffusion maps
+Cites,978-0-387-90192-3,ISBN,publication-book,KemenySnell1976,Finite Markov Chains
+Cites,10.2307/3215235,DOI,publication-article,Buchholz1994,Exact and ordinary lumpability in finite Markov chains
+Cites,10.48550/arXiv.2602.00134,DOI,publication-preprint,Tsiokos2026SixBirds,Six Birds: Foundations of Emergence Calculus
+Cites,10.20944/preprints202602.1699.v1,DOI,publication-preprint,Tsiokos2026MinSubstrate,"To Lay a Stone with Six Birds: Finite-State Semantics for Packaging, Directionality, and Coarse-Graining"
+Cites,10.1103/PhysRev.91.1505,DOI,publication-article,OnsagerMachlup1953,Fluctuations and Irreversible Processes
+Cites,10.1103/RevModPhys.85.1115,DOI,publication-article,PresseEtAl2013,Principles of maximum entropy and maximum caliber in statistical physics
+Cites,10.5281/zenodo.18420406,DOI,other,Tsiokos2026Life,To Wake a Stone with Six Birds: A Life is A Theory

@@ -1,0 +1,68 @@
+{
+  "trace_format_version": "observation-trace.v1",
+  "trace_id": "trace_smoke_clean",
+  "instance_id": "inst_smoke_exact_extendable",
+  "instance_artifact": "experiments/instances/smoke/exact-extendable.json",
+  "observations": [
+    {
+      "atom_ids": [
+        "a0"
+      ],
+      "context_id": "ctx_a",
+      "count": 10,
+      "probability": 1.0,
+      "status": "observed"
+    },
+    {
+      "atom_ids": [
+        "b0"
+      ],
+      "context_id": "ctx_b",
+      "count": 10,
+      "probability": 1.0,
+      "status": "observed"
+    }
+  ],
+  "repeated_read_sequences": [
+    {
+      "context_id": "ctx_a",
+      "reads": [
+        [
+          "a0"
+        ],
+        [
+          "a0"
+        ],
+        [
+          "a0"
+        ]
+      ]
+    }
+  ],
+  "downstream_probes": [
+    {
+      "payload": {
+        "mode": "clean",
+        "stable_atom_ids": [
+          "a0"
+        ]
+      },
+      "probe_id": "probe_ctx_a",
+      "signature": "clean:ctx_a:0001"
+    }
+  ],
+  "route_trace": {
+    "notes": "clean deterministic smoke trace",
+    "route_id": "route_clean",
+    "steps": [
+      "read",
+      "repeat",
+      "probe",
+      "record"
+    ]
+  },
+  "metadata": {
+    "generator": "clean",
+    "seed": 7
+  }
+}

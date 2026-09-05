@@ -1,0 +1,43 @@
+{
+  "adequacy_floor_result": {
+    "adequate": true,
+    "checks": {
+      "admissible_built_package_count": true,
+      "points_with_accepted_proper_coarse_structural_proposals": true,
+      "points_with_dual_mode_difference": true,
+      "points_with_nontrivial_quotient_result_recorded": true,
+      "points_with_proper_coarse_events": true,
+      "points_with_same_support_packaging_divergent_pairs": true,
+      "total_point_count": true
+    },
+    "counts": {
+      "admissible_built_package_count": 3,
+      "points_with_accepted_proper_coarse_structural_proposals": 1,
+      "points_with_dual_mode_difference": 1,
+      "points_with_nontrivial_quotient_result_recorded": 3,
+      "points_with_proper_coarse_events": 3,
+      "points_with_same_support_packaging_divergent_pairs": 3,
+      "total_point_count": 3
+    },
+    "thresholds": {
+      "min_admissible_built_package_count": 2,
+      "min_points_with_accepted_proper_coarse_structural_proposals": 1,
+      "min_points_with_dual_mode_difference": 1,
+      "min_points_with_nontrivial_quotient_result_recorded": 1,
+      "min_points_with_proper_coarse_events": 1,
+      "min_points_with_same_support_packaging_divergent_pairs": 1,
+      "min_total_point_count": 3
+    }
+  },
+  "best_point_id": "packaging_cross_res_k4_k20",
+  "counts_by_claim_level": {
+    "packaging_conflict_tension": 2,
+    "provenance_admissible_packaging_obstruction": 1
+  },
+  "counts_by_quotient_witness_status": {
+    "accepted_proposal_obstruction": 1,
+    "candidate_subset_quotient_witness": 2
+  },
+  "outcome_kind": "best_candidate",
+  "search_id": "packaging_axis_th5"
+}

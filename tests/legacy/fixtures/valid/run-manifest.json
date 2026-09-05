@@ -1,0 +1,26 @@
+{
+  "manifest_format_version": "run-manifest.v1",
+  "run_id": "run_demo_001",
+  "timestamp": "2026-03-25T00:00:00Z",
+  "command": ["python", "-m", "sixbirds_event", "validate", "tests/legacy/fixtures/valid/event-package-instance.json"],
+  "seed": 12345,
+  "input_artifacts": {
+    "instance": "tests/legacy/fixtures/valid/event-package-instance.json"
+  },
+  "output_artifacts": {
+    "stdout": "results/search/run_demo_001.stdout.txt"
+  },
+  "software_version": {
+    "python": "3.10.12",
+    "package": "0.0.0",
+    "tooling": {
+      "pytest": "9.0.2",
+      "ruff": "0.15.4"
+    }
+  },
+  "status": "succeeded",
+  "git_commit": "deadbeef",
+  "metadata": {
+    "executor": "fixture"
+  }
+}

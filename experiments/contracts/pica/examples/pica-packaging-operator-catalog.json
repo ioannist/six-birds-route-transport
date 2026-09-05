@@ -1,0 +1,24 @@
+{
+  "schema_version": "pica-packaging-operator-catalog.v1",
+  "packaging_operator_catalog_id": "packaging_operator_catalog_example",
+  "export_bundle_id": "pica_export_bundle_example_v1",
+  "campaign_id": "campaign_example_v1",
+  "run_id": "run_triadic_branch_seed123",
+  "point_id": "point_example_v1",
+  "row_count": 1,
+  "rows": [
+    {
+      "packaging_operator_id": "packaging_operator_p5_from_p4",
+      "packaging_family_id": "packaging_family_p5",
+      "packaging_source": "p5_from_p4",
+      "producer_id": "p4",
+      "operator_label": "p5 from p4",
+      "family_label": "p5",
+      "operator_kind": "bridge_selector_outcome",
+      "parameter_digest": "abc123def456",
+      "support_metadata": {
+        "selector_token": "p5"
+      }
+    }
+  ]
+}

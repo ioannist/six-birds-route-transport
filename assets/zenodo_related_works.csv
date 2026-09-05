@@ -1,0 +1,24 @@
+relation,identifier,scheme,resource_type,bibkey,title
+Cites,10.48550/arXiv.2602.00134,DOI,other,Tsiokos2026Foundations,Six Birds: Foundations of Emergence Calculus
+Cites,10.5281/zenodo.18608833,DOI,other,Tsiokos2026Quantum,"A Six-Birds' Eye View of Quantum Theory: Operational Closure Semantics for Measurement, Contextuality, and Record Stability"
+Cites,10.5281/zenodo.19201835,DOI,other,Tsiokos2026PackageChange,"Six Birds for Incompleteness: Fixed Packages, Package Change, and Conditional Arithmetic Lift"
+Cites,10.5281/zenodo.19189353,DOI,other,Tsiokos2026Cantor,Strict Theory Extension on a Lawful Continuous Cantor Shell
+Cites,10.5281/zenodo.19187777,DOI,other,Tsiokos2026NoGo,Six Birds No-Go Theorems for Audited Emergence
+Cites,10.5281/zenodo.18906902,DOI,other,Tsiokos2026ProtocolTrap,Six Birds Protocol Trap: Holonomy Without Entropy Production
+Cites,10.1103/RevModPhys.38.447,DOI,publication-article,Bell1966HiddenVariables,On the Problem of Hidden Variables in Quantum Mechanics
+Cites,10.1512/iumj.1968.17.17004,DOI,publication-article,KochenSpecker1967Problem,The Problem of Hidden Variables in Quantum Mechanics
+Cites,10.1088/1367-2630/13/11/113036,DOI,publication-article,AbramskyBrandenburger2011Sheaf,The Sheaf-Theoretic Structure of Non-Locality and Contextuality
+Cites,10.1063/1.1665890,DOI,publication-article,FoulisRandall1972Operational,Operational Statistics. I. Basic Concepts
+Cites,10.1002/mana.19911540113,DOI,publication-article,NavaraRogalewicz1991Pasting,The Pasting Constructions for Orthomodular Posets
+Cites,10.1103/PhysRevA.71.052108,DOI,publication-article,Spekkens2005Contextuality,"Contextuality for Preparations, Transformations, and Unsharp Measurements"
+Cites,10.1103/PRXQuantum.2.010331,DOI,publication-article,SchmidEtAl2021Noncontextuality,The Characterization of Noncontextuality in the Framework of Generalized Probabilistic Theories
+Cites,10.1103/PhysRevA.75.032110,DOI,publication-article,Spekkens2007ToyTheory,Evidence for the Epistemic View of Quantum States: A Toy Theory
+Cites,10.1016/0375-9601(90)90172-K,DOI,publication-article,Peres1990IncompatibleResults,Incompatible Results of Quantum Measurements
+Cites,10.1103/RevModPhys.65.803,DOI,publication-article,Mermin1993HiddenVariables,Hidden Variables and the Two Theorems of John Bell
+Cites,10.1103/PhysRevLett.119.050504,DOI,publication-article,AbramskyBarbosaMansfield2017ContextualFraction,Contextual Fraction as a Measure of Contextuality
+Cites,10.1103/PhysRevLett.48.291,DOI,publication-article,Fine1982HiddenVariables,"Hidden Variables, Joint Probability, and the Bell Inequalities"
+Cites,10.1103/PhysRevLett.112.040401,DOI,publication-article,CabelloSeveriniWinter2014Graph,Graph-Theoretic Approach to Quantum Correlations
+Cites,10.1007/s00220-014-2260-1,DOI,publication-article,AcinEtAl2015Combinatorial,A Combinatorial Approach to Nonlocality and Contextuality
+Cites,10.1103/RevModPhys.94.045007,DOI,publication-article,BudroniEtAl2022KochenSpecker,Kochen-Specker Contextuality
+Cites,10.1007/978-3-642-54943-4_18,DOI,publication-conferencepaper,DzhafarovKujala2014QualifiedKolmogorovian,A Qualified Kolmogorovian Account of Probabilistic Contextuality
+Cites,9780471908548,ISBN,publication-book,Schrijver1986TheoryLIP,Theory of Linear and Integer Programming

@@ -1,0 +1,5 @@
+search_id,candidate_id,support_size,interface_count,carrier_family,route_update_family,observable_family,continuation_catalog_family,internal_state_count,history_count,continuation_count,loop_count,primary_interface_id,primary_current_quotient_size,primary_predictive_quotient_size,primary_max_fiber_size,primary_witness_count,primary_discrepancy_metric_value,primary_current_loop_score,primary_predictive_loop_score,class_label
+fixed_support_core_small,cand_0000,2,2,none,identity_only,support_indicator_basis,forward_only,2,2,2,1,i0,2,2,1,0,0.0,0.0,0.0,flat
+fixed_support_core_small,cand_0001,2,2,none,identity_only,coarse_support_only,forward_only,2,2,2,1,i0,2,2,1,0,0.0,0.0,0.0,flat
+fixed_support_core_small,cand_0002,2,2,none,binary_swap,support_indicator_basis,forward_only,2,2,2,1,i0,2,2,1,0,0.0,0.0,0.0,flat
+fixed_support_core_small,cand_0003,2,2,none,binary_swap,coarse_support_only,forward_only,2,2,2,1,i0,2,2,1,0,0.0,0.0,0.0,flat

@@ -1,0 +1,63 @@
+{
+  "point_format_version": "pica-closure-diverse-search-point.v1",
+  "point_id": "multi_closure_same_resolution",
+  "pilot_config_artifact": "experiments/configs/pica/pilot-exp107-chain-a24.json",
+  "preparation_id": "prep_pica_default",
+  "protocol_id": "protocol_pica_multiscale_scan",
+  "trajectories": 32,
+  "seed_list": [
+    0,
+    1,
+    2
+  ],
+  "discovery_thresholds": {
+    "min_row_count": 2,
+    "min_atom_count": 2,
+    "min_atom_support_count": 1,
+    "min_atom_support_fraction": 0.0,
+    "min_coverage": 1.0,
+    "max_batch_tv": 1.0,
+    "batch_count": 2
+  },
+  "projection_families": [
+    {
+      "projection_id": "macro_gap_chain",
+      "projection": {
+        "projection_mode": "payload_numeric_bins",
+        "payload_key": "macro_gap",
+        "bin_edges": [
+          0.25,
+          0.45,
+          0.65
+        ]
+      },
+      "context_label": "macro_gap_chain_family",
+      "notes": [
+        "Control projection for the chain_A24 family."
+      ]
+    },
+    {
+      "projection_id": "step_entropy",
+      "projection": {
+        "projection_mode": "payload_numeric_bins",
+        "payload_key": "step_entropy",
+        "bin_edges": [
+          0.4,
+          0.55,
+          0.7
+        ]
+      },
+      "context_label": "step_entropy_chain_family",
+      "notes": [
+        "Alternative projection family on the same underlying run."
+      ]
+    }
+  ],
+  "notes": [
+    "Multi-closure, same-resolution candidate family drawn from the chain_A24 pilot config."
+  ],
+  "flags": [
+    "multi_closure",
+    "same_resolution"
+  ]
+}

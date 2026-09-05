@@ -1,0 +1,111 @@
+{
+  "audit": {
+    "checksum": null,
+    "created_at": "2026-03-27T06:20:00Z",
+    "created_by": null,
+    "source": null
+  },
+  "contexts": [
+    {
+      "atoms": [
+        {
+          "atom_id": "atom_a0_1",
+          "label": "a0"
+        },
+        {
+          "atom_id": "atom_a1_2",
+          "label": "a1"
+        }
+      ],
+      "context_id": "ctx_pica_prep_pairmatch_protocol_pairmatch_scan_level_l0_resolution_pairmatch_a_closure_pairmatch_a_lens_pairmatch_a_protocol_pairmatch_step_0",
+      "label": "prep_pairmatch/protocol_pairmatch_scan/level_l0/resolution_pairmatch_a/closure_pairmatch_a/lens_pairmatch_a/protocol_pairmatch_step_0"
+    },
+    {
+      "atoms": [
+        {
+          "atom_id": "atom_b0_1",
+          "label": "b0"
+        },
+        {
+          "atom_id": "atom_b1_2",
+          "label": "b1"
+        }
+      ],
+      "context_id": "ctx_pica_prep_pairmatch_protocol_pairmatch_scan_level_l0_resolution_pairmatch_b_closure_pairmatch_b_lens_pairmatch_b_protocol_pairmatch_step_1",
+      "label": "prep_pairmatch/protocol_pairmatch_scan/level_l0/resolution_pairmatch_b/closure_pairmatch_b/lens_pairmatch_b/protocol_pairmatch_step_1"
+    },
+    {
+      "atoms": [
+        {
+          "atom_id": "atom_p_left_1",
+          "label": "p_left"
+        },
+        {
+          "atom_id": "atom_p_right_2",
+          "label": "p_right"
+        }
+      ],
+      "context_id": "ctx_pica_prep_pairmatch_protocol_pairmatch_scan_level_l0_resolution_pairmatch_probe_closure_pairmatch_probe_lens_pairmatch_probe_protocol_pairmatch_step_2",
+      "label": "prep_pairmatch/protocol_pairmatch_scan/level_l0/resolution_pairmatch_probe/closure_pairmatch_probe/lens_pairmatch_probe/protocol_pairmatch_step_2"
+    }
+  ],
+  "equality_proposals": [],
+  "events": [
+    {
+      "atom_ids": [
+        "atom_a0_1"
+      ],
+      "context_id": "ctx_pica_prep_pairmatch_protocol_pairmatch_scan_level_l0_resolution_pairmatch_a_closure_pairmatch_a_lens_pairmatch_a_protocol_pairmatch_step_0",
+      "event_id": "event_ctx_pica_prep_pairmatch_protocol_pairmatch_scan_level_l0_resolution_pairmatch_a_closure_pairmatch_a_lens_pairmatch_a_protocol_pairmatch_step_0_atom_a0_1",
+      "label": "a0"
+    },
+    {
+      "atom_ids": [
+        "atom_a1_2"
+      ],
+      "context_id": "ctx_pica_prep_pairmatch_protocol_pairmatch_scan_level_l0_resolution_pairmatch_a_closure_pairmatch_a_lens_pairmatch_a_protocol_pairmatch_step_0",
+      "event_id": "event_ctx_pica_prep_pairmatch_protocol_pairmatch_scan_level_l0_resolution_pairmatch_a_closure_pairmatch_a_lens_pairmatch_a_protocol_pairmatch_step_0_atom_a1_2",
+      "label": "a1"
+    },
+    {
+      "atom_ids": [
+        "atom_b0_1"
+      ],
+      "context_id": "ctx_pica_prep_pairmatch_protocol_pairmatch_scan_level_l0_resolution_pairmatch_b_closure_pairmatch_b_lens_pairmatch_b_protocol_pairmatch_step_1",
+      "event_id": "event_ctx_pica_prep_pairmatch_protocol_pairmatch_scan_level_l0_resolution_pairmatch_b_closure_pairmatch_b_lens_pairmatch_b_protocol_pairmatch_step_1_atom_b0_1",
+      "label": "b0"
+    },
+    {
+      "atom_ids": [
+        "atom_b1_2"
+      ],
+      "context_id": "ctx_pica_prep_pairmatch_protocol_pairmatch_scan_level_l0_resolution_pairmatch_b_closure_pairmatch_b_lens_pairmatch_b_protocol_pairmatch_step_1",
+      "event_id": "event_ctx_pica_prep_pairmatch_protocol_pairmatch_scan_level_l0_resolution_pairmatch_b_closure_pairmatch_b_lens_pairmatch_b_protocol_pairmatch_step_1_atom_b1_2",
+      "label": "b1"
+    },
+    {
+      "atom_ids": [
+        "atom_p_left_1"
+      ],
+      "context_id": "ctx_pica_prep_pairmatch_protocol_pairmatch_scan_level_l0_resolution_pairmatch_probe_closure_pairmatch_probe_lens_pairmatch_probe_protocol_pairmatch_step_2",
+      "event_id": "event_ctx_pica_prep_pairmatch_protocol_pairmatch_scan_level_l0_resolution_pairmatch_probe_closure_pairmatch_probe_lens_pairmatch_probe_protocol_pairmatch_step_2_atom_p_left_1",
+      "label": "p_left"
+    },
+    {
+      "atom_ids": [
+        "atom_p_right_2"
+      ],
+      "context_id": "ctx_pica_prep_pairmatch_protocol_pairmatch_scan_level_l0_resolution_pairmatch_probe_closure_pairmatch_probe_lens_pairmatch_probe_protocol_pairmatch_step_2",
+      "event_id": "event_ctx_pica_prep_pairmatch_protocol_pairmatch_scan_level_l0_resolution_pairmatch_probe_closure_pairmatch_probe_lens_pairmatch_probe_protocol_pairmatch_step_2_atom_p_right_2",
+      "label": "p_right"
+    }
+  ],
+  "instance_format_version": "event-package-instance.v1",
+  "instance_id": "inst_family_pica_exp110_pairmatch_contexts_skeleton",
+  "metadata": {
+    "family_id": "family_pica_exp110_pairmatch_contexts",
+    "source_kind": "discovered_context_family"
+  },
+  "notes": null,
+  "weights": {}
+}

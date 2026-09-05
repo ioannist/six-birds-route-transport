@@ -1,0 +1,142 @@
+---
+# Canonical Primitive Specification (machine-readable)
+# Source: Tsiokos (2026), "Six Birds: Foundations of Emergence Calculus"
+
+version: "0.1.0"
+source_paper: "arxiv:2602.00134"
+
+# Foundational conditions that force P1-P6
+forcing_conditions:
+  composability:
+    id: D-META-PROC-01
+    description: "Process soup with partially defined associative composition"
+  limited_access:
+    id: D-META-LENS-01
+    description: "Interface lens f: P -> X inducing kernel equivalence"
+  bounded_interfaces:
+    id: D-META-BND-01
+    description: "|P/~_j| <= C_0(j+1) for refinement depth j"
+
+# Minimal substrate definition
+minimal_substrate:
+  state_space:
+    name: Z
+    type: finite_set
+    description: "Finite microstate space"
+  dynamics:
+    type: markov_kernel
+    description: "Autonomous finite stochastic dynamics P on Z"
+  extended_state:
+    form: "Z := X x Phi"
+    description: "Phase-in-state (autonomy requirement)"
+  lens:
+    type: deterministic_surjection
+    form: "f: Z -> X"
+    description: "Coarse-graining map"
+  packaging_endomap:
+    form: "E_{tau,f}"
+    description: "Dynamics-induced packaging on Delta(Z)"
+  audit_functionals:
+    - name: "path_reversal_kl_asymmetry"
+      symbol: "Sigma_T"
+      description: "KL divergence between path law and time-reversed pushforward"
+    - name: "acc_affinities"
+      description: "Graph 1-form cycle integrals (log P(z,z')/P(z',z))"
+
+# Theory package structure
+theory_package:
+  components:
+    - {name: Z, role: carrier, type: finite_set}
+    - {name: f, role: lens, type: "Z -> X"}
+    - {name: Sigma_f, role: definability, type: sigma_algebra}
+    - {name: E, role: completion, type: "V -> V (idempotent endomap)"}
+    - {name: A, role: audit, type: "monotone functional under coarse maps"}
+
+# The six primitives
+primitives:
+  P1:
+    name: "Operator Rewrite"
+    short: "Replace substrate kernel P by P'"
+    trigger: "Macro-dynamics fails to descend through lens"
+    effect: "Changes endomap, can alter cycle rank and spectral gap"
+    closure_changing: true
+    inputs: [kernel_P, lens_f]
+    outputs: [kernel_P_prime]
+
+  P2:
+    name: "Gating / Constraints"
+    short: "Delete edges, renormalize rows"
+    trigger: "Feasibility restriction"
+    effect: "Shrinks cycle space, carves representable macrostates"
+    closure_changing: true
+    inputs: [kernel_P, edge_mask]
+    outputs: [kernel_P_restricted]
+
+  P3:
+    name: "Autonomous Protocol Holonomy"
+    short: "Internal phase-driven route mismatch"
+    trigger: "Multiple admissible closure/evolution routes exist"
+    effect: "Produces route-mismatch/holonomy defect RM(j)"
+    closure_changing: false
+    diagnostic_only: true
+    requires_p6_for_directionality: true
+    inputs: [extended_state_Z, phase_kernel_S, conditioned_kernels_K_phi]
+    outputs: [route_mismatch_RM]
+
+  P4:
+    name: "Sectors / Invariants"
+    short: "Conserved sector label (block decomposition)"
+    trigger: "Support graph has disconnected components"
+    effect: "Preserves sector coordinate, bounds theory index"
+    closure_changing: true
+    inputs: [kernel_P]
+    outputs: [sector_labels, block_structure]
+
+  P5:
+    name: "Packaging"
+    short: "Idempotent endomap; fixed points are objects"
+    trigger: "Limited access forces quotient"
+    effect: "Creates packaged objects as Fix(e)"
+    closure_changing: true
+    key_property: "e(e(x)) = e(x) (idempotent)"
+    inputs: [endomap_e]
+    outputs: [fixed_points, packaging_equivalence]
+
+  P6:
+    name: "Accounting / Audit"
+    short: "Monotone certificate under coarse maps"
+    trigger: "Packaging is lossy"
+    effect: "Tracks information/feasibility/directionality"
+    closure_changing: false
+    audit_only: true
+    specializations:
+      - name: "P6_drive"
+        description: "Non-exact log-ratio 1-form (nonzero cycle integral)"
+        required_for: "Genuine arrow-of-time under autonomy"
+    inputs: [theory_package]
+    outputs: [audit_value, monotonicity_certificate]
+
+# Assumption bundles
+assumption_bundles:
+  A_FIN: "Finite state space"
+  A_LENS: "Deterministic coarse-graining lens"
+  A_AUT: "Autonomous dynamics (phase-in-state)"
+  A_REV: "Microreversibility (bidirected support)"
+  A_ACC: "ACC log-ratio 1-form well-defined on bidirected support"
+
+# No-smuggling rules
+no_smuggling:
+  - "Primitives realized as internal structure, not external oracles"
+  - "No external protocols masquerading as autonomy (protocol trap)"
+  - "No externally declared quotients/objects"
+  - "No external directionality audits violating monotonicity"
+  - "Downward influence factors through P1-P6 compositions (not a 7th primitive)"
+
+# Unknown items requiring resolution experiments
+unknown_todos:
+  - id: UNKNOWN_TODO_001
+    description: "Precise finiteness bounds for minimal substrate in code"
+    resolution_experiment: EXP-RES-001
+  - id: UNKNOWN_TODO_002
+    description: "Operational threshold for 'approximately idempotent' packaging"
+    resolution_experiment: EXP-RES-002

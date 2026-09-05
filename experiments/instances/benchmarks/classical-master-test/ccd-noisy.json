@@ -1,0 +1,74 @@
+{
+  "instance_artifact": "experiments/instances/benchmarks/classical-master-test/instance.json",
+  "instance_id": "inst_classical_master_test",
+  "metadata": {
+    "benchmark_id": "classical-master-test",
+    "mode": "ccd_noisy"
+  },
+  "observations": [
+    {
+      "context_id": "ctx_binary",
+      "atom_ids": [
+        "x0"
+      ],
+      "count": 1
+    }
+  ],
+  "repeated_read_sequences": [
+    {
+      "context_id": "ctx_binary",
+      "reads": [
+        [
+          "x0"
+        ],
+        [
+          "x0",
+          "x1"
+        ],
+        [],
+        [
+          "x1"
+        ],
+        [
+          "x0"
+        ]
+      ]
+    },
+    {
+      "context_id": "ctx_left_refined",
+      "reads": [
+        [
+          "l0"
+        ],
+        [
+          "l1"
+        ],
+        [
+          "l0"
+        ],
+        [
+          "l1"
+        ]
+      ]
+    },
+    {
+      "context_id": "ctx_right_refined",
+      "reads": [
+        [
+          "r1"
+        ],
+        [
+          "r2"
+        ],
+        [
+          "r1"
+        ],
+        [
+          "r2"
+        ]
+      ]
+    }
+  ],
+  "trace_format_version": "observation-trace.v1",
+  "trace_id": "trace_classical_master_test_ccd_noisy"
+}

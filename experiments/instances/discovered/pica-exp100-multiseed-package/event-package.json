@@ -1,0 +1,286 @@
+{
+  "audit": {
+    "checksum": null,
+    "created_at": "2026-03-27T13:00:00Z",
+    "created_by": null,
+    "source": null
+  },
+  "contexts": [
+    {
+      "atoms": [
+        {
+          "atom_id": "atom_macro_gap__0_35_to_0_5_1",
+          "label": "macro_gap__0_35_to_0_5"
+        },
+        {
+          "atom_id": "atom_macro_gap__0_5_to_0_65_2",
+          "label": "macro_gap__0_5_to_0_65"
+        },
+        {
+          "atom_id": "atom_macro_gap__ge_0_65_3",
+          "label": "macro_gap__ge_0_65"
+        }
+      ],
+      "context_id": "ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_2_closure_baseline_k_2_lens_p4_k_2_protocol_pica_multiscale_scan_step_0",
+      "label": "prep_pica_default/protocol_pica_multiscale_scan/level_l0/resolution_k_2/closure_baseline_k_2/lens_p4_k_2/protocol_pica_multiscale_scan_step_0"
+    },
+    {
+      "atoms": [
+        {
+          "atom_id": "atom_macro_gap__0_35_to_0_5_1",
+          "label": "macro_gap__0_35_to_0_5"
+        },
+        {
+          "atom_id": "atom_macro_gap__ge_0_65_2",
+          "label": "macro_gap__ge_0_65"
+        },
+        {
+          "atom_id": "atom_macro_gap__neg_inf_to_0_35_3",
+          "label": "macro_gap__neg_inf_to_0_35"
+        }
+      ],
+      "context_id": "ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_4_closure_baseline_k_4_lens_p4_k_4_protocol_pica_multiscale_scan_step_1",
+      "label": "prep_pica_default/protocol_pica_multiscale_scan/level_l0/resolution_k_4/closure_baseline_k_4/lens_p4_k_4/protocol_pica_multiscale_scan_step_1"
+    },
+    {
+      "atoms": [
+        {
+          "atom_id": "atom_macro_gap__0_5_to_0_65_1",
+          "label": "macro_gap__0_5_to_0_65"
+        },
+        {
+          "atom_id": "atom_macro_gap__neg_inf_to_0_35_2",
+          "label": "macro_gap__neg_inf_to_0_35"
+        }
+      ],
+      "context_id": "ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_8_closure_baseline_k_8_lens_p4_k_8_protocol_pica_multiscale_scan_step_2",
+      "label": "prep_pica_default/protocol_pica_multiscale_scan/level_l0/resolution_k_8/closure_baseline_k_8/lens_p4_k_8/protocol_pica_multiscale_scan_step_2"
+    }
+  ],
+  "equality_proposals": [
+    {
+      "constraint_kind": "soft",
+      "left_event_id": "event_ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_2_closure_baseline_k_2_lens_p4_k_2_protocol_pica_multiscale_scan_step_0__union__atom_macro_gap__0_35_to_0_5_1__atom_macro_gap__0_5_to_0_65_2",
+      "notes": "inferred_shared_event inference_mode=structural_primary structural_match=True mean_tv=0.0 common_probe_count=1",
+      "proposal_id": "proposal_event_ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_2_closure_baseline_k_2_lens_p4_k_2_protocol_pica_multiscale_scan_step_0__union__atom_macro_gap__0_35_to_0_5_1__atom_macro_gap__0_5_to_0_65_2__event_ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_4_closure_baseline_k_4_lens_p4_k_4_protocol_pica_multiscale_scan_step_1__union__atom_macro_gap__0_35_to_0_5_1__atom_macro_gap__neg_inf_to_0_35_3",
+      "right_event_id": "event_ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_4_closure_baseline_k_4_lens_p4_k_4_protocol_pica_multiscale_scan_step_1__union__atom_macro_gap__0_35_to_0_5_1__atom_macro_gap__neg_inf_to_0_35_3",
+      "weight_key": "weight_proposal_event_ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_2_closure_baseline_k_2_lens_p4_k_2_protocol_pica_multiscale_scan_step_0__union__atom_macro_gap__0_35_to_0_5_1__atom_macro_gap__0_5_to_0_65_2__event_ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_4_closure_baseline_k_4_lens_p4_k_4_protocol_pica_multiscale_scan_step_1__union__atom_macro_gap__0_35_to_0_5_1__atom_macro_gap__neg_inf_to_0_35_3"
+    },
+    {
+      "constraint_kind": "soft",
+      "left_event_id": "event_ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_2_closure_baseline_k_2_lens_p4_k_2_protocol_pica_multiscale_scan_step_0__union__atom_macro_gap__0_5_to_0_65_2__atom_macro_gap__ge_0_65_3",
+      "notes": "inferred_shared_event inference_mode=structural_primary structural_match=True mean_tv=0.0 common_probe_count=1",
+      "proposal_id": "proposal_event_ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_2_closure_baseline_k_2_lens_p4_k_2_protocol_pica_multiscale_scan_step_0__union__atom_macro_gap__0_5_to_0_65_2__atom_macro_gap__ge_0_65_3__event_ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_4_closure_baseline_k_4_lens_p4_k_4_protocol_pica_multiscale_scan_step_1__union__atom_macro_gap__0_35_to_0_5_1__atom_macro_gap__ge_0_65_2",
+      "right_event_id": "event_ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_4_closure_baseline_k_4_lens_p4_k_4_protocol_pica_multiscale_scan_step_1__union__atom_macro_gap__0_35_to_0_5_1__atom_macro_gap__ge_0_65_2",
+      "weight_key": "weight_proposal_event_ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_2_closure_baseline_k_2_lens_p4_k_2_protocol_pica_multiscale_scan_step_0__union__atom_macro_gap__0_5_to_0_65_2__atom_macro_gap__ge_0_65_3__event_ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_4_closure_baseline_k_4_lens_p4_k_4_protocol_pica_multiscale_scan_step_1__union__atom_macro_gap__0_35_to_0_5_1__atom_macro_gap__ge_0_65_2"
+    },
+    {
+      "constraint_kind": "soft",
+      "left_event_id": "event_ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_2_closure_baseline_k_2_lens_p4_k_2_protocol_pica_multiscale_scan_step_0__union__atom_macro_gap__0_5_to_0_65_2__atom_macro_gap__ge_0_65_3",
+      "notes": "inferred_shared_event inference_mode=structural_primary structural_match=True mean_tv=0.0 common_probe_count=1",
+      "proposal_id": "proposal_event_ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_2_closure_baseline_k_2_lens_p4_k_2_protocol_pica_multiscale_scan_step_0__union__atom_macro_gap__0_5_to_0_65_2__atom_macro_gap__ge_0_65_3__event_ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_8_closure_baseline_k_8_lens_p4_k_8_protocol_pica_multiscale_scan_step_2_atom_macro_gap__0_5_to_0_65_1",
+      "right_event_id": "event_ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_8_closure_baseline_k_8_lens_p4_k_8_protocol_pica_multiscale_scan_step_2_atom_macro_gap__0_5_to_0_65_1",
+      "weight_key": "weight_proposal_event_ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_2_closure_baseline_k_2_lens_p4_k_2_protocol_pica_multiscale_scan_step_0__union__atom_macro_gap__0_5_to_0_65_2__atom_macro_gap__ge_0_65_3__event_ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_8_closure_baseline_k_8_lens_p4_k_8_protocol_pica_multiscale_scan_step_2_atom_macro_gap__0_5_to_0_65_1"
+    },
+    {
+      "constraint_kind": "soft",
+      "left_event_id": "event_ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_4_closure_baseline_k_4_lens_p4_k_4_protocol_pica_multiscale_scan_step_1__union__atom_macro_gap__0_35_to_0_5_1__atom_macro_gap__ge_0_65_2",
+      "notes": "inferred_shared_event inference_mode=structural_primary structural_match=True mean_tv=0.0 common_probe_count=1",
+      "proposal_id": "proposal_event_ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_4_closure_baseline_k_4_lens_p4_k_4_protocol_pica_multiscale_scan_step_1__union__atom_macro_gap__0_35_to_0_5_1__atom_macro_gap__ge_0_65_2__event_ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_8_closure_baseline_k_8_lens_p4_k_8_protocol_pica_multiscale_scan_step_2_atom_macro_gap__0_5_to_0_65_1",
+      "right_event_id": "event_ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_8_closure_baseline_k_8_lens_p4_k_8_protocol_pica_multiscale_scan_step_2_atom_macro_gap__0_5_to_0_65_1",
+      "weight_key": "weight_proposal_event_ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_4_closure_baseline_k_4_lens_p4_k_4_protocol_pica_multiscale_scan_step_1__union__atom_macro_gap__0_35_to_0_5_1__atom_macro_gap__ge_0_65_2__event_ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_8_closure_baseline_k_8_lens_p4_k_8_protocol_pica_multiscale_scan_step_2_atom_macro_gap__0_5_to_0_65_1"
+    }
+  ],
+  "events": [
+    {
+      "atom_ids": [
+        "atom_macro_gap__0_35_to_0_5_1"
+      ],
+      "context_id": "ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_2_closure_baseline_k_2_lens_p4_k_2_protocol_pica_multiscale_scan_step_0",
+      "event_id": "event_ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_2_closure_baseline_k_2_lens_p4_k_2_protocol_pica_multiscale_scan_step_0_atom_macro_gap__0_35_to_0_5_1",
+      "label": "macro_gap__0_35_to_0_5"
+    },
+    {
+      "atom_ids": [
+        "atom_macro_gap__0_5_to_0_65_2"
+      ],
+      "context_id": "ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_2_closure_baseline_k_2_lens_p4_k_2_protocol_pica_multiscale_scan_step_0",
+      "event_id": "event_ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_2_closure_baseline_k_2_lens_p4_k_2_protocol_pica_multiscale_scan_step_0_atom_macro_gap__0_5_to_0_65_2",
+      "label": "macro_gap__0_5_to_0_65"
+    },
+    {
+      "atom_ids": [
+        "atom_macro_gap__ge_0_65_3"
+      ],
+      "context_id": "ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_2_closure_baseline_k_2_lens_p4_k_2_protocol_pica_multiscale_scan_step_0",
+      "event_id": "event_ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_2_closure_baseline_k_2_lens_p4_k_2_protocol_pica_multiscale_scan_step_0_atom_macro_gap__ge_0_65_3",
+      "label": "macro_gap__ge_0_65"
+    },
+    {
+      "atom_ids": [
+        "atom_macro_gap__0_35_to_0_5_1"
+      ],
+      "context_id": "ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_4_closure_baseline_k_4_lens_p4_k_4_protocol_pica_multiscale_scan_step_1",
+      "event_id": "event_ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_4_closure_baseline_k_4_lens_p4_k_4_protocol_pica_multiscale_scan_step_1_atom_macro_gap__0_35_to_0_5_1",
+      "label": "macro_gap__0_35_to_0_5"
+    },
+    {
+      "atom_ids": [
+        "atom_macro_gap__ge_0_65_2"
+      ],
+      "context_id": "ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_4_closure_baseline_k_4_lens_p4_k_4_protocol_pica_multiscale_scan_step_1",
+      "event_id": "event_ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_4_closure_baseline_k_4_lens_p4_k_4_protocol_pica_multiscale_scan_step_1_atom_macro_gap__ge_0_65_2",
+      "label": "macro_gap__ge_0_65"
+    },
+    {
+      "atom_ids": [
+        "atom_macro_gap__neg_inf_to_0_35_3"
+      ],
+      "context_id": "ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_4_closure_baseline_k_4_lens_p4_k_4_protocol_pica_multiscale_scan_step_1",
+      "event_id": "event_ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_4_closure_baseline_k_4_lens_p4_k_4_protocol_pica_multiscale_scan_step_1_atom_macro_gap__neg_inf_to_0_35_3",
+      "label": "macro_gap__neg_inf_to_0_35"
+    },
+    {
+      "atom_ids": [
+        "atom_macro_gap__0_5_to_0_65_1"
+      ],
+      "context_id": "ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_8_closure_baseline_k_8_lens_p4_k_8_protocol_pica_multiscale_scan_step_2",
+      "event_id": "event_ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_8_closure_baseline_k_8_lens_p4_k_8_protocol_pica_multiscale_scan_step_2_atom_macro_gap__0_5_to_0_65_1",
+      "label": "macro_gap__0_5_to_0_65"
+    },
+    {
+      "atom_ids": [
+        "atom_macro_gap__neg_inf_to_0_35_2"
+      ],
+      "context_id": "ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_8_closure_baseline_k_8_lens_p4_k_8_protocol_pica_multiscale_scan_step_2",
+      "event_id": "event_ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_8_closure_baseline_k_8_lens_p4_k_8_protocol_pica_multiscale_scan_step_2_atom_macro_gap__neg_inf_to_0_35_2",
+      "label": "macro_gap__neg_inf_to_0_35"
+    },
+    {
+      "atom_ids": [],
+      "context_id": "ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_2_closure_baseline_k_2_lens_p4_k_2_protocol_pica_multiscale_scan_step_0",
+      "event_id": "event_ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_2_closure_baseline_k_2_lens_p4_k_2_protocol_pica_multiscale_scan_step_0__empty",
+      "label": "empty"
+    },
+    {
+      "atom_ids": [
+        "atom_macro_gap__0_35_to_0_5_1",
+        "atom_macro_gap__0_5_to_0_65_2"
+      ],
+      "context_id": "ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_2_closure_baseline_k_2_lens_p4_k_2_protocol_pica_multiscale_scan_step_0",
+      "event_id": "event_ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_2_closure_baseline_k_2_lens_p4_k_2_protocol_pica_multiscale_scan_step_0__union__atom_macro_gap__0_35_to_0_5_1__atom_macro_gap__0_5_to_0_65_2",
+      "label": "macro_gap__0_35_to_0_5 | macro_gap__0_5_to_0_65"
+    },
+    {
+      "atom_ids": [
+        "atom_macro_gap__0_35_to_0_5_1",
+        "atom_macro_gap__ge_0_65_3"
+      ],
+      "context_id": "ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_2_closure_baseline_k_2_lens_p4_k_2_protocol_pica_multiscale_scan_step_0",
+      "event_id": "event_ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_2_closure_baseline_k_2_lens_p4_k_2_protocol_pica_multiscale_scan_step_0__union__atom_macro_gap__0_35_to_0_5_1__atom_macro_gap__ge_0_65_3",
+      "label": "macro_gap__0_35_to_0_5 | macro_gap__ge_0_65"
+    },
+    {
+      "atom_ids": [
+        "atom_macro_gap__0_5_to_0_65_2",
+        "atom_macro_gap__ge_0_65_3"
+      ],
+      "context_id": "ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_2_closure_baseline_k_2_lens_p4_k_2_protocol_pica_multiscale_scan_step_0",
+      "event_id": "event_ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_2_closure_baseline_k_2_lens_p4_k_2_protocol_pica_multiscale_scan_step_0__union__atom_macro_gap__0_5_to_0_65_2__atom_macro_gap__ge_0_65_3",
+      "label": "macro_gap__0_5_to_0_65 | macro_gap__ge_0_65"
+    },
+    {
+      "atom_ids": [
+        "atom_macro_gap__0_35_to_0_5_1",
+        "atom_macro_gap__0_5_to_0_65_2",
+        "atom_macro_gap__ge_0_65_3"
+      ],
+      "context_id": "ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_2_closure_baseline_k_2_lens_p4_k_2_protocol_pica_multiscale_scan_step_0",
+      "event_id": "event_ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_2_closure_baseline_k_2_lens_p4_k_2_protocol_pica_multiscale_scan_step_0__full",
+      "label": "full"
+    },
+    {
+      "atom_ids": [],
+      "context_id": "ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_4_closure_baseline_k_4_lens_p4_k_4_protocol_pica_multiscale_scan_step_1",
+      "event_id": "event_ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_4_closure_baseline_k_4_lens_p4_k_4_protocol_pica_multiscale_scan_step_1__empty",
+      "label": "empty"
+    },
+    {
+      "atom_ids": [
+        "atom_macro_gap__0_35_to_0_5_1",
+        "atom_macro_gap__ge_0_65_2"
+      ],
+      "context_id": "ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_4_closure_baseline_k_4_lens_p4_k_4_protocol_pica_multiscale_scan_step_1",
+      "event_id": "event_ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_4_closure_baseline_k_4_lens_p4_k_4_protocol_pica_multiscale_scan_step_1__union__atom_macro_gap__0_35_to_0_5_1__atom_macro_gap__ge_0_65_2",
+      "label": "macro_gap__0_35_to_0_5 | macro_gap__ge_0_65"
+    },
+    {
+      "atom_ids": [
+        "atom_macro_gap__0_35_to_0_5_1",
+        "atom_macro_gap__neg_inf_to_0_35_3"
+      ],
+      "context_id": "ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_4_closure_baseline_k_4_lens_p4_k_4_protocol_pica_multiscale_scan_step_1",
+      "event_id": "event_ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_4_closure_baseline_k_4_lens_p4_k_4_protocol_pica_multiscale_scan_step_1__union__atom_macro_gap__0_35_to_0_5_1__atom_macro_gap__neg_inf_to_0_35_3",
+      "label": "macro_gap__0_35_to_0_5 | macro_gap__neg_inf_to_0_35"
+    },
+    {
+      "atom_ids": [
+        "atom_macro_gap__ge_0_65_2",
+        "atom_macro_gap__neg_inf_to_0_35_3"
+      ],
+      "context_id": "ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_4_closure_baseline_k_4_lens_p4_k_4_protocol_pica_multiscale_scan_step_1",
+      "event_id": "event_ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_4_closure_baseline_k_4_lens_p4_k_4_protocol_pica_multiscale_scan_step_1__union__atom_macro_gap__ge_0_65_2__atom_macro_gap__neg_inf_to_0_35_3",
+      "label": "macro_gap__ge_0_65 | macro_gap__neg_inf_to_0_35"
+    },
+    {
+      "atom_ids": [
+        "atom_macro_gap__0_35_to_0_5_1",
+        "atom_macro_gap__ge_0_65_2",
+        "atom_macro_gap__neg_inf_to_0_35_3"
+      ],
+      "context_id": "ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_4_closure_baseline_k_4_lens_p4_k_4_protocol_pica_multiscale_scan_step_1",
+      "event_id": "event_ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_4_closure_baseline_k_4_lens_p4_k_4_protocol_pica_multiscale_scan_step_1__full",
+      "label": "full"
+    },
+    {
+      "atom_ids": [],
+      "context_id": "ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_8_closure_baseline_k_8_lens_p4_k_8_protocol_pica_multiscale_scan_step_2",
+      "event_id": "event_ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_8_closure_baseline_k_8_lens_p4_k_8_protocol_pica_multiscale_scan_step_2__empty",
+      "label": "empty"
+    },
+    {
+      "atom_ids": [
+        "atom_macro_gap__0_5_to_0_65_1",
+        "atom_macro_gap__neg_inf_to_0_35_2"
+      ],
+      "context_id": "ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_8_closure_baseline_k_8_lens_p4_k_8_protocol_pica_multiscale_scan_step_2",
+      "event_id": "event_ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_8_closure_baseline_k_8_lens_p4_k_8_protocol_pica_multiscale_scan_step_2__full",
+      "label": "full"
+    }
+  ],
+  "instance_format_version": "event-package-instance.v1",
+  "instance_id": "inst_pica_exp100_multiseed",
+  "metadata": {
+    "accepted_coarse_event_count": 6,
+    "accepted_coarse_event_proposal_count": 4,
+    "accepted_shared_event_proposal_count": 4,
+    "accepted_singleton_event_count": 8,
+    "event_algebra_complete": true,
+    "event_algebra_mode": "full_powerset",
+    "event_basis_mode": "singleton_plus_small_unions",
+    "family_id": "family_run_search_20260327t130000z_pica_targeted_obstruction_t41_exp100_baseline_multiseed_discover",
+    "generated_empty_event_count": 3,
+    "generated_full_event_count": 3,
+    "match_eligible_event_count": 14,
+    "observable_only": true,
+    "proposal_constraint_kind": "soft",
+    "source_kind": "inferred_event_package"
+  },
+  "notes": "Built from discovered contexts and observable shared-event inference.",
+  "weights": {
+    "weight_proposal_event_ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_2_closure_baseline_k_2_lens_p4_k_2_protocol_pica_multiscale_scan_step_0__union__atom_macro_gap__0_35_to_0_5_1__atom_macro_gap__0_5_to_0_65_2__event_ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_4_closure_baseline_k_4_lens_p4_k_4_protocol_pica_multiscale_scan_step_1__union__atom_macro_gap__0_35_to_0_5_1__atom_macro_gap__neg_inf_to_0_35_3": 1.0,
+    "weight_proposal_event_ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_2_closure_baseline_k_2_lens_p4_k_2_protocol_pica_multiscale_scan_step_0__union__atom_macro_gap__0_5_to_0_65_2__atom_macro_gap__ge_0_65_3__event_ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_4_closure_baseline_k_4_lens_p4_k_4_protocol_pica_multiscale_scan_step_1__union__atom_macro_gap__0_35_to_0_5_1__atom_macro_gap__ge_0_65_2": 1.0,
+    "weight_proposal_event_ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_2_closure_baseline_k_2_lens_p4_k_2_protocol_pica_multiscale_scan_step_0__union__atom_macro_gap__0_5_to_0_65_2__atom_macro_gap__ge_0_65_3__event_ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_8_closure_baseline_k_8_lens_p4_k_8_protocol_pica_multiscale_scan_step_2_atom_macro_gap__0_5_to_0_65_1": 1.0,
+    "weight_proposal_event_ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_4_closure_baseline_k_4_lens_p4_k_4_protocol_pica_multiscale_scan_step_1__union__atom_macro_gap__0_35_to_0_5_1__atom_macro_gap__ge_0_65_2__event_ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_8_closure_baseline_k_8_lens_p4_k_8_protocol_pica_multiscale_scan_step_2_atom_macro_gap__0_5_to_0_65_1": 1.0
+  }
+}

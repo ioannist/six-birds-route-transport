@@ -1,0 +1,32 @@
+{
+  "rows": [
+    {
+      "accepted_only_survivor_count": 4,
+      "candidate_subset_witness_found": true,
+      "natural_pairing_survivor_count": 4,
+      "point_id": "packaging_control_same_step_k4",
+      "quotient_class_count": 4,
+      "quotient_feasibility_summary_path": "results/results/20260330T191000Z--packaging_control_same_step_k4_quotient_feasibility/quotient-feasibility-summary.json",
+      "quotient_witness_status": "candidate_subset_quotient_witness"
+    },
+    {
+      "accepted_only_survivor_count": 11,
+      "candidate_subset_witness_found": true,
+      "natural_pairing_survivor_count": 11,
+      "point_id": "packaging_same_step_k20",
+      "quotient_class_count": 11,
+      "quotient_feasibility_summary_path": "results/results/20260330T191000Z--packaging_same_step_k20_quotient_feasibility/quotient-feasibility-summary.json",
+      "quotient_witness_status": "candidate_subset_quotient_witness"
+    },
+    {
+      "accepted_only_survivor_count": 3,
+      "candidate_subset_witness_found": true,
+      "natural_pairing_survivor_count": 11,
+      "point_id": "packaging_cross_res_k4_k20",
+      "quotient_class_count": 11,
+      "quotient_feasibility_summary_path": "results/results/20260330T191000Z--packaging_cross_res_k4_k20_quotient_feasibility/quotient-feasibility-summary.json",
+      "quotient_witness_status": "accepted_proposal_obstruction"
+    }
+  ],
+  "search_id": "packaging_axis_th5"
+}

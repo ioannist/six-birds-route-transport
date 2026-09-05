@@ -1,0 +1,955 @@
+{
+  "accepted_contexts": [
+    {
+      "atomic_outcomes": [
+        {
+          "observation_label": "group_11",
+          "outcome_id": "atom_group_11_1",
+          "support_count": 4,
+          "support_fraction": 0.16666666666666666
+        },
+        {
+          "observation_label": "group_12",
+          "outcome_id": "atom_group_12_2",
+          "support_count": 2,
+          "support_fraction": 0.08333333333333333
+        },
+        {
+          "observation_label": "group_2",
+          "outcome_id": "atom_group_2_3",
+          "support_count": 3,
+          "support_fraction": 0.125
+        },
+        {
+          "observation_label": "group_3",
+          "outcome_id": "atom_group_3_4",
+          "support_count": 2,
+          "support_fraction": 0.08333333333333333
+        },
+        {
+          "observation_label": "group_5",
+          "outcome_id": "atom_group_5_5",
+          "support_count": 2,
+          "support_fraction": 0.08333333333333333
+        },
+        {
+          "observation_label": "group_6",
+          "outcome_id": "atom_group_6_6",
+          "support_count": 1,
+          "support_fraction": 0.041666666666666664
+        },
+        {
+          "observation_label": "group_7",
+          "outcome_id": "atom_group_7_7",
+          "support_count": 4,
+          "support_fraction": 0.16666666666666666
+        },
+        {
+          "observation_label": "group_9",
+          "outcome_id": "atom_group_9_8",
+          "support_count": 6,
+          "support_fraction": 0.25
+        }
+      ],
+      "candidate_key": {
+        "closure_id": "closure_P6_row_all_k_14",
+        "lens_id": "lens_p4_k_14",
+        "level_id": "level_l0",
+        "preparation_id": "prep_pica_default",
+        "protocol_id": "protocol_pica_multiscale_scan",
+        "protocol_step_id": "protocol_pica_multiscale_scan_step_3",
+        "resolution_id": "resolution_k_14",
+        "step_index": 3
+      },
+      "context_id": "ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_14_closure_p6_row_all_k_14_lens_p4_k_14_protocol_pica_multiscale_scan_step_3",
+      "diagnostics": {
+        "batch_tv_max": 0.4166666666666667,
+        "coverage_fraction": 1.0,
+        "empirical_entropy": 2.823934896284056,
+        "retained_atom_count": 8,
+        "row_count": 24,
+        "support_by_retained_atom": {
+          "group_11": 4,
+          "group_12": 2,
+          "group_2": 3,
+          "group_3": 2,
+          "group_5": 2,
+          "group_6": 1,
+          "group_7": 4,
+          "group_9": 6
+        },
+        "trajectory_count": 24
+      },
+      "source_metadata": {
+        "campaign_id": "pica_campaign_exp104_p6_row_all",
+        "closure_id": "closure_P6_row_all_k_14",
+        "export_bundle_id": "pica_pilot_exp104_p6_row_all_n64_bundle",
+        "lens_id": "lens_p4_k_14",
+        "level_id": "level_l0",
+        "observable_ledger_ids": [
+          "observable_ledger_point_exp104_p6_row_all_n64_seed0__seed_0"
+        ],
+        "preparation_id": "prep_pica_default",
+        "projection_bin_edges": [],
+        "projection_field": "observation_label",
+        "projection_mode": "observation_label",
+        "protocol_id": "protocol_pica_multiscale_scan",
+        "protocol_step_id": "protocol_pica_multiscale_scan_step_3",
+        "resolution_id": "resolution_k_14",
+        "run_ids": [
+          "point_exp104_p6_row_all_n64_seed0__seed_0"
+        ],
+        "source_kind": "pica_multilayer_group",
+        "source_mode": "pica_export_bundle",
+        "step_index": 3
+      }
+    },
+    {
+      "atomic_outcomes": [
+        {
+          "observation_label": "package_11",
+          "outcome_id": "atom_package_11_1",
+          "support_count": 4,
+          "support_fraction": 0.16666666666666666
+        },
+        {
+          "observation_label": "package_12",
+          "outcome_id": "atom_package_12_2",
+          "support_count": 2,
+          "support_fraction": 0.08333333333333333
+        },
+        {
+          "observation_label": "package_2",
+          "outcome_id": "atom_package_2_3",
+          "support_count": 3,
+          "support_fraction": 0.125
+        },
+        {
+          "observation_label": "package_3",
+          "outcome_id": "atom_package_3_4",
+          "support_count": 2,
+          "support_fraction": 0.08333333333333333
+        },
+        {
+          "observation_label": "package_5",
+          "outcome_id": "atom_package_5_5",
+          "support_count": 2,
+          "support_fraction": 0.08333333333333333
+        },
+        {
+          "observation_label": "package_6",
+          "outcome_id": "atom_package_6_6",
+          "support_count": 1,
+          "support_fraction": 0.041666666666666664
+        },
+        {
+          "observation_label": "package_7",
+          "outcome_id": "atom_package_7_7",
+          "support_count": 4,
+          "support_fraction": 0.16666666666666666
+        },
+        {
+          "observation_label": "package_9",
+          "outcome_id": "atom_package_9_8",
+          "support_count": 6,
+          "support_fraction": 0.25
+        }
+      ],
+      "candidate_key": {
+        "closure_id": "closure_P6_row_all_pkg_k_14",
+        "lens_id": "lens_p5_k_14",
+        "level_id": "level_l0",
+        "preparation_id": "prep_pica_default",
+        "protocol_id": "protocol_pica_multiscale_scan",
+        "protocol_step_id": "protocol_pica_multiscale_scan_step_3",
+        "resolution_id": "resolution_k_14",
+        "step_index": 3
+      },
+      "context_id": "ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_14_closure_p6_row_all_pkg_k_14_lens_p5_k_14_protocol_pica_multiscale_scan_step_3",
+      "diagnostics": {
+        "batch_tv_max": 0.4166666666666667,
+        "coverage_fraction": 1.0,
+        "empirical_entropy": 2.823934896284056,
+        "retained_atom_count": 8,
+        "row_count": 24,
+        "support_by_retained_atom": {
+          "package_11": 4,
+          "package_12": 2,
+          "package_2": 3,
+          "package_3": 2,
+          "package_5": 2,
+          "package_6": 1,
+          "package_7": 4,
+          "package_9": 6
+        },
+        "trajectory_count": 24
+      },
+      "source_metadata": {
+        "campaign_id": "pica_campaign_exp104_p6_row_all",
+        "closure_id": "closure_P6_row_all_pkg_k_14",
+        "export_bundle_id": "pica_pilot_exp104_p6_row_all_n64_bundle",
+        "lens_id": "lens_p5_k_14",
+        "level_id": "level_l0",
+        "observable_ledger_ids": [
+          "observable_ledger_point_exp104_p6_row_all_n64_seed0__seed_0"
+        ],
+        "preparation_id": "prep_pica_default",
+        "projection_bin_edges": [],
+        "projection_field": "observation_label",
+        "projection_mode": "observation_label",
+        "protocol_id": "protocol_pica_multiscale_scan",
+        "protocol_step_id": "protocol_pica_multiscale_scan_step_3",
+        "resolution_id": "resolution_k_14",
+        "run_ids": [
+          "point_exp104_p6_row_all_n64_seed0__seed_0"
+        ],
+        "source_kind": "pica_multilayer_group",
+        "source_mode": "pica_export_bundle",
+        "step_index": 3
+      }
+    },
+    {
+      "atomic_outcomes": [
+        {
+          "observation_label": "group_0",
+          "outcome_id": "atom_group_0_1",
+          "support_count": 11,
+          "support_fraction": 0.4583333333333333
+        },
+        {
+          "observation_label": "group_1",
+          "outcome_id": "atom_group_1_2",
+          "support_count": 13,
+          "support_fraction": 0.5416666666666666
+        }
+      ],
+      "candidate_key": {
+        "closure_id": "closure_P6_row_all_k_2",
+        "lens_id": "lens_p4_k_2",
+        "level_id": "level_l0",
+        "preparation_id": "prep_pica_default",
+        "protocol_id": "protocol_pica_multiscale_scan",
+        "protocol_step_id": "protocol_pica_multiscale_scan_step_0",
+        "resolution_id": "resolution_k_2",
+        "step_index": 0
+      },
+      "context_id": "ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_2_closure_p6_row_all_k_2_lens_p4_k_2_protocol_pica_multiscale_scan_step_0",
+      "diagnostics": {
+        "batch_tv_max": 0.08333333333333334,
+        "coverage_fraction": 1.0,
+        "empirical_entropy": 0.9949848281859701,
+        "retained_atom_count": 2,
+        "row_count": 24,
+        "support_by_retained_atom": {
+          "group_0": 11,
+          "group_1": 13
+        },
+        "trajectory_count": 24
+      },
+      "source_metadata": {
+        "campaign_id": "pica_campaign_exp104_p6_row_all",
+        "closure_id": "closure_P6_row_all_k_2",
+        "export_bundle_id": "pica_pilot_exp104_p6_row_all_n64_bundle",
+        "lens_id": "lens_p4_k_2",
+        "level_id": "level_l0",
+        "observable_ledger_ids": [
+          "observable_ledger_point_exp104_p6_row_all_n64_seed0__seed_0"
+        ],
+        "preparation_id": "prep_pica_default",
+        "projection_bin_edges": [],
+        "projection_field": "observation_label",
+        "projection_mode": "observation_label",
+        "protocol_id": "protocol_pica_multiscale_scan",
+        "protocol_step_id": "protocol_pica_multiscale_scan_step_0",
+        "resolution_id": "resolution_k_2",
+        "run_ids": [
+          "point_exp104_p6_row_all_n64_seed0__seed_0"
+        ],
+        "source_kind": "pica_multilayer_group",
+        "source_mode": "pica_export_bundle",
+        "step_index": 0
+      }
+    },
+    {
+      "atomic_outcomes": [
+        {
+          "observation_label": "package_0",
+          "outcome_id": "atom_package_0_1",
+          "support_count": 11,
+          "support_fraction": 0.4583333333333333
+        },
+        {
+          "observation_label": "package_1",
+          "outcome_id": "atom_package_1_2",
+          "support_count": 10,
+          "support_fraction": 0.4166666666666667
+        },
+        {
+          "observation_label": "package_3",
+          "outcome_id": "atom_package_3_3",
+          "support_count": 3,
+          "support_fraction": 0.125
+        }
+      ],
+      "candidate_key": {
+        "closure_id": "closure_P6_row_all_pkg_k_2",
+        "lens_id": "lens_p5_k_2",
+        "level_id": "level_l0",
+        "preparation_id": "prep_pica_default",
+        "protocol_id": "protocol_pica_multiscale_scan",
+        "protocol_step_id": "protocol_pica_multiscale_scan_step_0",
+        "resolution_id": "resolution_k_2",
+        "step_index": 0
+      },
+      "context_id": "ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_2_closure_p6_row_all_pkg_k_2_lens_p5_k_2_protocol_pica_multiscale_scan_step_0",
+      "diagnostics": {
+        "batch_tv_max": 0.08333333333333331,
+        "coverage_fraction": 1.0,
+        "empirical_entropy": 1.4171326567191826,
+        "retained_atom_count": 3,
+        "row_count": 24,
+        "support_by_retained_atom": {
+          "package_0": 11,
+          "package_1": 10,
+          "package_3": 3
+        },
+        "trajectory_count": 24
+      },
+      "source_metadata": {
+        "campaign_id": "pica_campaign_exp104_p6_row_all",
+        "closure_id": "closure_P6_row_all_pkg_k_2",
+        "export_bundle_id": "pica_pilot_exp104_p6_row_all_n64_bundle",
+        "lens_id": "lens_p5_k_2",
+        "level_id": "level_l0",
+        "observable_ledger_ids": [
+          "observable_ledger_point_exp104_p6_row_all_n64_seed0__seed_0"
+        ],
+        "preparation_id": "prep_pica_default",
+        "projection_bin_edges": [],
+        "projection_field": "observation_label",
+        "projection_mode": "observation_label",
+        "protocol_id": "protocol_pica_multiscale_scan",
+        "protocol_step_id": "protocol_pica_multiscale_scan_step_0",
+        "resolution_id": "resolution_k_2",
+        "run_ids": [
+          "point_exp104_p6_row_all_n64_seed0__seed_0"
+        ],
+        "source_kind": "pica_multilayer_group",
+        "source_mode": "pica_export_bundle",
+        "step_index": 0
+      }
+    },
+    {
+      "atomic_outcomes": [
+        {
+          "observation_label": "group_1",
+          "outcome_id": "atom_group_1_1",
+          "support_count": 1,
+          "support_fraction": 0.041666666666666664
+        },
+        {
+          "observation_label": "group_12",
+          "outcome_id": "atom_group_12_2",
+          "support_count": 2,
+          "support_fraction": 0.08333333333333333
+        },
+        {
+          "observation_label": "group_13",
+          "outcome_id": "atom_group_13_3",
+          "support_count": 2,
+          "support_fraction": 0.08333333333333333
+        },
+        {
+          "observation_label": "group_14",
+          "outcome_id": "atom_group_14_4",
+          "support_count": 2,
+          "support_fraction": 0.08333333333333333
+        },
+        {
+          "observation_label": "group_15",
+          "outcome_id": "atom_group_15_5",
+          "support_count": 1,
+          "support_fraction": 0.041666666666666664
+        },
+        {
+          "observation_label": "group_16",
+          "outcome_id": "atom_group_16_6",
+          "support_count": 2,
+          "support_fraction": 0.08333333333333333
+        },
+        {
+          "observation_label": "group_18",
+          "outcome_id": "atom_group_18_7",
+          "support_count": 3,
+          "support_fraction": 0.125
+        },
+        {
+          "observation_label": "group_19",
+          "outcome_id": "atom_group_19_8",
+          "support_count": 2,
+          "support_fraction": 0.08333333333333333
+        },
+        {
+          "observation_label": "group_4",
+          "outcome_id": "atom_group_4_9",
+          "support_count": 4,
+          "support_fraction": 0.16666666666666666
+        },
+        {
+          "observation_label": "group_6",
+          "outcome_id": "atom_group_6_10",
+          "support_count": 4,
+          "support_fraction": 0.16666666666666666
+        },
+        {
+          "observation_label": "group_7",
+          "outcome_id": "atom_group_7_11",
+          "support_count": 1,
+          "support_fraction": 0.041666666666666664
+        }
+      ],
+      "candidate_key": {
+        "closure_id": "closure_P6_row_all_k_20",
+        "lens_id": "lens_p4_k_20",
+        "level_id": "level_l0",
+        "preparation_id": "prep_pica_default",
+        "protocol_id": "protocol_pica_multiscale_scan",
+        "protocol_step_id": "protocol_pica_multiscale_scan_step_4",
+        "resolution_id": "resolution_k_20",
+        "step_index": 4
+      },
+      "context_id": "ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_20_closure_p6_row_all_k_20_lens_p4_k_20_protocol_pica_multiscale_scan_step_4",
+      "diagnostics": {
+        "batch_tv_max": 0.5833333333333333,
+        "coverage_fraction": 1.0,
+        "empirical_entropy": 3.3035088547976788,
+        "retained_atom_count": 11,
+        "row_count": 24,
+        "support_by_retained_atom": {
+          "group_1": 1,
+          "group_12": 2,
+          "group_13": 2,
+          "group_14": 2,
+          "group_15": 1,
+          "group_16": 2,
+          "group_18": 3,
+          "group_19": 2,
+          "group_4": 4,
+          "group_6": 4,
+          "group_7": 1
+        },
+        "trajectory_count": 24
+      },
+      "source_metadata": {
+        "campaign_id": "pica_campaign_exp104_p6_row_all",
+        "closure_id": "closure_P6_row_all_k_20",
+        "export_bundle_id": "pica_pilot_exp104_p6_row_all_n64_bundle",
+        "lens_id": "lens_p4_k_20",
+        "level_id": "level_l0",
+        "observable_ledger_ids": [
+          "observable_ledger_point_exp104_p6_row_all_n64_seed0__seed_0"
+        ],
+        "preparation_id": "prep_pica_default",
+        "projection_bin_edges": [],
+        "projection_field": "observation_label",
+        "projection_mode": "observation_label",
+        "protocol_id": "protocol_pica_multiscale_scan",
+        "protocol_step_id": "protocol_pica_multiscale_scan_step_4",
+        "resolution_id": "resolution_k_20",
+        "run_ids": [
+          "point_exp104_p6_row_all_n64_seed0__seed_0"
+        ],
+        "source_kind": "pica_multilayer_group",
+        "source_mode": "pica_export_bundle",
+        "step_index": 4
+      }
+    },
+    {
+      "atomic_outcomes": [
+        {
+          "observation_label": "package_1",
+          "outcome_id": "atom_package_1_1",
+          "support_count": 1,
+          "support_fraction": 0.041666666666666664
+        },
+        {
+          "observation_label": "package_10",
+          "outcome_id": "atom_package_10_2",
+          "support_count": 3,
+          "support_fraction": 0.125
+        },
+        {
+          "observation_label": "package_11",
+          "outcome_id": "atom_package_11_3",
+          "support_count": 2,
+          "support_fraction": 0.08333333333333333
+        },
+        {
+          "observation_label": "package_12",
+          "outcome_id": "atom_package_12_4",
+          "support_count": 2,
+          "support_fraction": 0.08333333333333333
+        },
+        {
+          "observation_label": "package_14",
+          "outcome_id": "atom_package_14_5",
+          "support_count": 3,
+          "support_fraction": 0.125
+        },
+        {
+          "observation_label": "package_15",
+          "outcome_id": "atom_package_15_6",
+          "support_count": 2,
+          "support_fraction": 0.08333333333333333
+        },
+        {
+          "observation_label": "package_3",
+          "outcome_id": "atom_package_3_7",
+          "support_count": 4,
+          "support_fraction": 0.16666666666666666
+        },
+        {
+          "observation_label": "package_5",
+          "outcome_id": "atom_package_5_8",
+          "support_count": 5,
+          "support_fraction": 0.20833333333333334
+        },
+        {
+          "observation_label": "package_9",
+          "outcome_id": "atom_package_9_9",
+          "support_count": 2,
+          "support_fraction": 0.08333333333333333
+        }
+      ],
+      "candidate_key": {
+        "closure_id": "closure_P6_row_all_pkg_k_20",
+        "lens_id": "lens_p5_k_20",
+        "level_id": "level_l0",
+        "preparation_id": "prep_pica_default",
+        "protocol_id": "protocol_pica_multiscale_scan",
+        "protocol_step_id": "protocol_pica_multiscale_scan_step_4",
+        "resolution_id": "resolution_k_20",
+        "step_index": 4
+      },
+      "context_id": "ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_20_closure_p6_row_all_pkg_k_20_lens_p5_k_20_protocol_pica_multiscale_scan_step_4",
+      "diagnostics": {
+        "batch_tv_max": 0.5,
+        "coverage_fraction": 1.0,
+        "empirical_entropy": 3.0383201891060003,
+        "retained_atom_count": 9,
+        "row_count": 24,
+        "support_by_retained_atom": {
+          "package_1": 1,
+          "package_10": 3,
+          "package_11": 2,
+          "package_12": 2,
+          "package_14": 3,
+          "package_15": 2,
+          "package_3": 4,
+          "package_5": 5,
+          "package_9": 2
+        },
+        "trajectory_count": 24
+      },
+      "source_metadata": {
+        "campaign_id": "pica_campaign_exp104_p6_row_all",
+        "closure_id": "closure_P6_row_all_pkg_k_20",
+        "export_bundle_id": "pica_pilot_exp104_p6_row_all_n64_bundle",
+        "lens_id": "lens_p5_k_20",
+        "level_id": "level_l0",
+        "observable_ledger_ids": [
+          "observable_ledger_point_exp104_p6_row_all_n64_seed0__seed_0"
+        ],
+        "preparation_id": "prep_pica_default",
+        "projection_bin_edges": [],
+        "projection_field": "observation_label",
+        "projection_mode": "observation_label",
+        "protocol_id": "protocol_pica_multiscale_scan",
+        "protocol_step_id": "protocol_pica_multiscale_scan_step_4",
+        "resolution_id": "resolution_k_20",
+        "run_ids": [
+          "point_exp104_p6_row_all_n64_seed0__seed_0"
+        ],
+        "source_kind": "pica_multilayer_group",
+        "source_mode": "pica_export_bundle",
+        "step_index": 4
+      }
+    },
+    {
+      "atomic_outcomes": [
+        {
+          "observation_label": "group_0",
+          "outcome_id": "atom_group_0_1",
+          "support_count": 4,
+          "support_fraction": 0.16666666666666666
+        },
+        {
+          "observation_label": "group_1",
+          "outcome_id": "atom_group_1_2",
+          "support_count": 4,
+          "support_fraction": 0.16666666666666666
+        },
+        {
+          "observation_label": "group_2",
+          "outcome_id": "atom_group_2_3",
+          "support_count": 7,
+          "support_fraction": 0.2916666666666667
+        },
+        {
+          "observation_label": "group_3",
+          "outcome_id": "atom_group_3_4",
+          "support_count": 9,
+          "support_fraction": 0.375
+        }
+      ],
+      "candidate_key": {
+        "closure_id": "closure_P6_row_all_k_4",
+        "lens_id": "lens_p4_k_4",
+        "level_id": "level_l0",
+        "preparation_id": "prep_pica_default",
+        "protocol_id": "protocol_pica_multiscale_scan",
+        "protocol_step_id": "protocol_pica_multiscale_scan_step_1",
+        "resolution_id": "resolution_k_4",
+        "step_index": 1
+      },
+      "context_id": "ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_4_closure_p6_row_all_k_4_lens_p4_k_4_protocol_pica_multiscale_scan_step_1",
+      "diagnostics": {
+        "batch_tv_max": 0.25,
+        "coverage_fraction": 1.0,
+        "empirical_entropy": 1.910762106246821,
+        "retained_atom_count": 4,
+        "row_count": 24,
+        "support_by_retained_atom": {
+          "group_0": 4,
+          "group_1": 4,
+          "group_2": 7,
+          "group_3": 9
+        },
+        "trajectory_count": 24
+      },
+      "source_metadata": {
+        "campaign_id": "pica_campaign_exp104_p6_row_all",
+        "closure_id": "closure_P6_row_all_k_4",
+        "export_bundle_id": "pica_pilot_exp104_p6_row_all_n64_bundle",
+        "lens_id": "lens_p4_k_4",
+        "level_id": "level_l0",
+        "observable_ledger_ids": [
+          "observable_ledger_point_exp104_p6_row_all_n64_seed0__seed_0"
+        ],
+        "preparation_id": "prep_pica_default",
+        "projection_bin_edges": [],
+        "projection_field": "observation_label",
+        "projection_mode": "observation_label",
+        "protocol_id": "protocol_pica_multiscale_scan",
+        "protocol_step_id": "protocol_pica_multiscale_scan_step_1",
+        "resolution_id": "resolution_k_4",
+        "run_ids": [
+          "point_exp104_p6_row_all_n64_seed0__seed_0"
+        ],
+        "source_kind": "pica_multilayer_group",
+        "source_mode": "pica_export_bundle",
+        "step_index": 1
+      }
+    },
+    {
+      "atomic_outcomes": [
+        {
+          "observation_label": "package_0",
+          "outcome_id": "atom_package_0_1",
+          "support_count": 4,
+          "support_fraction": 0.16666666666666666
+        },
+        {
+          "observation_label": "package_1",
+          "outcome_id": "atom_package_1_2",
+          "support_count": 4,
+          "support_fraction": 0.16666666666666666
+        },
+        {
+          "observation_label": "package_2",
+          "outcome_id": "atom_package_2_3",
+          "support_count": 7,
+          "support_fraction": 0.2916666666666667
+        },
+        {
+          "observation_label": "package_3",
+          "outcome_id": "atom_package_3_4",
+          "support_count": 9,
+          "support_fraction": 0.375
+        }
+      ],
+      "candidate_key": {
+        "closure_id": "closure_P6_row_all_pkg_k_4",
+        "lens_id": "lens_p5_k_4",
+        "level_id": "level_l0",
+        "preparation_id": "prep_pica_default",
+        "protocol_id": "protocol_pica_multiscale_scan",
+        "protocol_step_id": "protocol_pica_multiscale_scan_step_1",
+        "resolution_id": "resolution_k_4",
+        "step_index": 1
+      },
+      "context_id": "ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_4_closure_p6_row_all_pkg_k_4_lens_p5_k_4_protocol_pica_multiscale_scan_step_1",
+      "diagnostics": {
+        "batch_tv_max": 0.25,
+        "coverage_fraction": 1.0,
+        "empirical_entropy": 1.910762106246821,
+        "retained_atom_count": 4,
+        "row_count": 24,
+        "support_by_retained_atom": {
+          "package_0": 4,
+          "package_1": 4,
+          "package_2": 7,
+          "package_3": 9
+        },
+        "trajectory_count": 24
+      },
+      "source_metadata": {
+        "campaign_id": "pica_campaign_exp104_p6_row_all",
+        "closure_id": "closure_P6_row_all_pkg_k_4",
+        "export_bundle_id": "pica_pilot_exp104_p6_row_all_n64_bundle",
+        "lens_id": "lens_p5_k_4",
+        "level_id": "level_l0",
+        "observable_ledger_ids": [
+          "observable_ledger_point_exp104_p6_row_all_n64_seed0__seed_0"
+        ],
+        "preparation_id": "prep_pica_default",
+        "projection_bin_edges": [],
+        "projection_field": "observation_label",
+        "projection_mode": "observation_label",
+        "protocol_id": "protocol_pica_multiscale_scan",
+        "protocol_step_id": "protocol_pica_multiscale_scan_step_1",
+        "resolution_id": "resolution_k_4",
+        "run_ids": [
+          "point_exp104_p6_row_all_n64_seed0__seed_0"
+        ],
+        "source_kind": "pica_multilayer_group",
+        "source_mode": "pica_export_bundle",
+        "step_index": 1
+      }
+    },
+    {
+      "atomic_outcomes": [
+        {
+          "observation_label": "group_0",
+          "outcome_id": "atom_group_0_1",
+          "support_count": 4,
+          "support_fraction": 0.16666666666666666
+        },
+        {
+          "observation_label": "group_2",
+          "outcome_id": "atom_group_2_2",
+          "support_count": 3,
+          "support_fraction": 0.125
+        },
+        {
+          "observation_label": "group_3",
+          "outcome_id": "atom_group_3_3",
+          "support_count": 8,
+          "support_fraction": 0.3333333333333333
+        },
+        {
+          "observation_label": "group_5",
+          "outcome_id": "atom_group_5_4",
+          "support_count": 4,
+          "support_fraction": 0.16666666666666666
+        },
+        {
+          "observation_label": "group_6",
+          "outcome_id": "atom_group_6_5",
+          "support_count": 4,
+          "support_fraction": 0.16666666666666666
+        },
+        {
+          "observation_label": "group_7",
+          "outcome_id": "atom_group_7_6",
+          "support_count": 1,
+          "support_fraction": 0.041666666666666664
+        }
+      ],
+      "candidate_key": {
+        "closure_id": "closure_P6_row_all_k_8",
+        "lens_id": "lens_p4_k_8",
+        "level_id": "level_l0",
+        "preparation_id": "prep_pica_default",
+        "protocol_id": "protocol_pica_multiscale_scan",
+        "protocol_step_id": "protocol_pica_multiscale_scan_step_2",
+        "resolution_id": "resolution_k_8",
+        "step_index": 2
+      },
+      "context_id": "ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_8_closure_p6_row_all_k_8_lens_p4_k_8_protocol_pica_multiscale_scan_step_2",
+      "diagnostics": {
+        "batch_tv_max": 0.4166666666666667,
+        "coverage_fraction": 1.0,
+        "empirical_entropy": 2.3868421881310113,
+        "retained_atom_count": 6,
+        "row_count": 24,
+        "support_by_retained_atom": {
+          "group_0": 4,
+          "group_2": 3,
+          "group_3": 8,
+          "group_5": 4,
+          "group_6": 4,
+          "group_7": 1
+        },
+        "trajectory_count": 24
+      },
+      "source_metadata": {
+        "campaign_id": "pica_campaign_exp104_p6_row_all",
+        "closure_id": "closure_P6_row_all_k_8",
+        "export_bundle_id": "pica_pilot_exp104_p6_row_all_n64_bundle",
+        "lens_id": "lens_p4_k_8",
+        "level_id": "level_l0",
+        "observable_ledger_ids": [
+          "observable_ledger_point_exp104_p6_row_all_n64_seed0__seed_0"
+        ],
+        "preparation_id": "prep_pica_default",
+        "projection_bin_edges": [],
+        "projection_field": "observation_label",
+        "projection_mode": "observation_label",
+        "protocol_id": "protocol_pica_multiscale_scan",
+        "protocol_step_id": "protocol_pica_multiscale_scan_step_2",
+        "resolution_id": "resolution_k_8",
+        "run_ids": [
+          "point_exp104_p6_row_all_n64_seed0__seed_0"
+        ],
+        "source_kind": "pica_multilayer_group",
+        "source_mode": "pica_export_bundle",
+        "step_index": 2
+      }
+    },
+    {
+      "atomic_outcomes": [
+        {
+          "observation_label": "package_0",
+          "outcome_id": "atom_package_0_1",
+          "support_count": 4,
+          "support_fraction": 0.16666666666666666
+        },
+        {
+          "observation_label": "package_2",
+          "outcome_id": "atom_package_2_2",
+          "support_count": 3,
+          "support_fraction": 0.125
+        },
+        {
+          "observation_label": "package_3",
+          "outcome_id": "atom_package_3_3",
+          "support_count": 8,
+          "support_fraction": 0.3333333333333333
+        },
+        {
+          "observation_label": "package_5",
+          "outcome_id": "atom_package_5_4",
+          "support_count": 4,
+          "support_fraction": 0.16666666666666666
+        },
+        {
+          "observation_label": "package_6",
+          "outcome_id": "atom_package_6_5",
+          "support_count": 4,
+          "support_fraction": 0.16666666666666666
+        },
+        {
+          "observation_label": "package_7",
+          "outcome_id": "atom_package_7_6",
+          "support_count": 1,
+          "support_fraction": 0.041666666666666664
+        }
+      ],
+      "candidate_key": {
+        "closure_id": "closure_P6_row_all_pkg_k_8",
+        "lens_id": "lens_p5_k_8",
+        "level_id": "level_l0",
+        "preparation_id": "prep_pica_default",
+        "protocol_id": "protocol_pica_multiscale_scan",
+        "protocol_step_id": "protocol_pica_multiscale_scan_step_2",
+        "resolution_id": "resolution_k_8",
+        "step_index": 2
+      },
+      "context_id": "ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_8_closure_p6_row_all_pkg_k_8_lens_p5_k_8_protocol_pica_multiscale_scan_step_2",
+      "diagnostics": {
+        "batch_tv_max": 0.4166666666666667,
+        "coverage_fraction": 1.0,
+        "empirical_entropy": 2.3868421881310113,
+        "retained_atom_count": 6,
+        "row_count": 24,
+        "support_by_retained_atom": {
+          "package_0": 4,
+          "package_2": 3,
+          "package_3": 8,
+          "package_5": 4,
+          "package_6": 4,
+          "package_7": 1
+        },
+        "trajectory_count": 24
+      },
+      "source_metadata": {
+        "campaign_id": "pica_campaign_exp104_p6_row_all",
+        "closure_id": "closure_P6_row_all_pkg_k_8",
+        "export_bundle_id": "pica_pilot_exp104_p6_row_all_n64_bundle",
+        "lens_id": "lens_p5_k_8",
+        "level_id": "level_l0",
+        "observable_ledger_ids": [
+          "observable_ledger_point_exp104_p6_row_all_n64_seed0__seed_0"
+        ],
+        "preparation_id": "prep_pica_default",
+        "projection_bin_edges": [],
+        "projection_field": "observation_label",
+        "projection_mode": "observation_label",
+        "protocol_id": "protocol_pica_multiscale_scan",
+        "protocol_step_id": "protocol_pica_multiscale_scan_step_2",
+        "resolution_id": "resolution_k_8",
+        "run_ids": [
+          "point_exp104_p6_row_all_n64_seed0__seed_0"
+        ],
+        "source_kind": "pica_multilayer_group",
+        "source_mode": "pica_export_bundle",
+        "step_index": 2
+      }
+    }
+  ],
+  "diagnostics_summary": {
+    "accepted_context_count": 10,
+    "accepted_context_ids": [
+      "ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_14_closure_p6_row_all_k_14_lens_p4_k_14_protocol_pica_multiscale_scan_step_3",
+      "ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_14_closure_p6_row_all_pkg_k_14_lens_p5_k_14_protocol_pica_multiscale_scan_step_3",
+      "ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_2_closure_p6_row_all_k_2_lens_p4_k_2_protocol_pica_multiscale_scan_step_0",
+      "ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_2_closure_p6_row_all_pkg_k_2_lens_p5_k_2_protocol_pica_multiscale_scan_step_0",
+      "ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_20_closure_p6_row_all_k_20_lens_p4_k_20_protocol_pica_multiscale_scan_step_4",
+      "ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_20_closure_p6_row_all_pkg_k_20_lens_p5_k_20_protocol_pica_multiscale_scan_step_4",
+      "ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_4_closure_p6_row_all_k_4_lens_p4_k_4_protocol_pica_multiscale_scan_step_1",
+      "ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_4_closure_p6_row_all_pkg_k_4_lens_p5_k_4_protocol_pica_multiscale_scan_step_1",
+      "ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_8_closure_p6_row_all_k_8_lens_p4_k_8_protocol_pica_multiscale_scan_step_2",
+      "ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_8_closure_p6_row_all_pkg_k_8_lens_p5_k_8_protocol_pica_multiscale_scan_step_2"
+    ],
+    "candidate_count": 10,
+    "rejected_candidate_count": 0,
+    "rejection_reason_counts": {}
+  },
+  "family_format_version": "discovered-context-family.v1",
+  "family_id": "tmp_family",
+  "metadata": {
+    "distinct_closure_count": 10,
+    "distinct_level_count": 1,
+    "distinct_resolution_count": 5,
+    "observable_only": true,
+    "projection_field": "observation_label",
+    "projection_mode": "observation_label",
+    "selected_run_count": 1
+  },
+  "rejected_candidates": [],
+  "source_bundle_artifact": "experiments/instances/mechanism-axis/exp104_p6_row_all_n64_seed0/pica-export-bundle.json",
+  "source_mode": "pica_export_bundle",
+  "source_run_artifacts": [
+    "experiments/instances/mechanism-axis/exp104_p6_row_all_n64_seed0/pica-export-bundle.json"
+  ],
+  "thresholds": {
+    "batch_count": 2,
+    "max_batch_tv": 1.0,
+    "min_atom_count": 2,
+    "min_atom_support_count": 1,
+    "min_atom_support_fraction": 0.0,
+    "min_coverage": 1.0,
+    "min_trajectory_count": 2
+  }
+}

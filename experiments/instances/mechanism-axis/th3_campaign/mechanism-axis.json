@@ -1,0 +1,334 @@
+{
+  "metadata": {
+    "axis": "mechanism"
+  },
+  "row_count": 4,
+  "rows": [
+    {
+      "accepted_context_count": 2,
+      "accepted_proper_coarse_event_count": 20,
+      "accepted_proper_coarse_proposal_count": 0,
+      "accepted_shared_event_proposal_count": 0,
+      "accepted_singleton_event_count": 8,
+      "all_accepted_proposals": {
+        "exact_failure_reason": null,
+        "exact_feasible": true,
+        "exact_respecting_tuple_count": 16,
+        "exact_structural_status": "feasible",
+        "gpd_stat": 1.249000902703301e-16,
+        "gpd_stat_reason": null,
+        "gpd_stat_status": "solved",
+        "gpd_str": 0.0,
+        "gpd_str_reason": null,
+        "gpd_str_status": "solved"
+      },
+      "artifact_paths": {
+        "baseline_statistical_summary": "results/search/20260329T011000Z--mechanism_control_baseline_statistical/statistical-summary.json",
+        "candidate_statistical_summary": "results/search/20260329T011000Z--mechanism_control_candidate_statistical/statistical-summary.json",
+        "discovered_context_family": "results/search/20260329T011000Z--mechanism_axis/derived/mechanism_control/discovered-context-family.json",
+        "event_package": "results/search/20260329T011000Z--mechanism_control_package_build/event-package.json",
+        "export_bundle": "results/search/20260329T011000Z--mechanism_axis/derived/mechanism_control/pica-export-bundle.json",
+        "package_build_summary": "results/search/20260329T011000Z--mechanism_control_package_build/package-build-summary.json",
+        "package_provenance": "results/search/20260329T011000Z--mechanism_control_package_build/package-provenance.json",
+        "packaging_source_index": "results/search/20260329T011000Z--mechanism_axis/derived/mechanism_control_packaging_source_index.json",
+        "packaging_surface_summary": "results/search/20260329T011000Z--mechanism_axis/derived/mechanism_control_packaging_surface_summary.json",
+        "provenance_summary": "results/search/20260329T011000Z--mechanism_control_provenance/provenance-audit-summary.json",
+        "shared_event_candidates": "results/search/20260329T011000Z--mechanism_control_package_build/shared-event-candidates.json",
+        "stat_trace": "results/search/20260329T011000Z--mechanism_axis/derived/mechanism_control_stat_trace.json"
+      },
+      "axis": "mechanism",
+      "baseline_hard_only": {
+        "exact_failure_reason": null,
+        "exact_feasible": true,
+        "exact_respecting_tuple_count": 16,
+        "exact_structural_status": "feasible",
+        "gpd_stat": 1.249000902703301e-16,
+        "gpd_stat_reason": null,
+        "gpd_stat_status": "solved",
+        "gpd_str": 0.0,
+        "gpd_str_reason": null,
+        "gpd_str_status": "solved"
+      },
+      "candidate_classification": "extendable_candidate",
+      "changed_packaging_surface_relative_to_control": false,
+      "claim_level_supported": "nontrivial_multicontext_structure",
+      "discovered_context_family_path": "results/search/20260329T011000Z--mechanism_axis/derived/mechanism_control/discovered-context-family.json",
+      "event_package_path": "results/search/20260329T011000Z--mechanism_control_package_build/event-package.json",
+      "flags": [
+        "mechanism_axis",
+        "claim_ceiling_mechanism_only"
+      ],
+      "mechanism_signal_kind": "control_like",
+      "notes": [
+        "mechanism_control_point",
+        "mechanism_family_id=pica_exp100_family",
+        "enable_matrix_id=pica_exp120_frozen_slice_control_matrix",
+        "ccd_not_applicable_without_repeated_read_trace",
+        "rm_is_diagnostic_only",
+        "sec_status=insufficient_data",
+        "sec_mean=None"
+      ],
+      "packaging_support_slice_count": 4,
+      "packaging_surface_summary_path": "results/search/20260329T011000Z--mechanism_axis/derived/mechanism_control_packaging_surface_summary.json",
+      "point_id": "mechanism_control",
+      "produced_export_bundle_path": "results/search/20260329T011000Z--mechanism_axis/derived/mechanism_control/pica-export-bundle.json",
+      "provenance_classification": "admissible",
+      "row_format_version": "mechanism-axis-row.v1",
+      "run_ids": {
+        "baseline_statistical": "run_search_20260329t011000z_mechanism_control_baseline_statistical",
+        "candidate_statistical": "run_search_20260329t011000z_mechanism_control_candidate_statistical",
+        "package_build": "run_search_20260329t011000z_mechanism_control_package_build",
+        "pica_wrapper_seed_0": "run_search_20260329t011000z_mechanism_control_seed_0",
+        "provenance_audit": "run_search_20260329t011000z_mechanism_control_provenance"
+      },
+      "search_id": "mechanism_axis_th3",
+      "selected_packaging_family_count": 1,
+      "selected_packaging_operator_count": 1,
+      "selected_packaging_sources": [
+        "p5_from_p4"
+      ],
+      "source_pica_campaign_config_path": "experiments/configs/pica/pilot-exp120-frozen-slice-control.json"
+    },
+    {
+      "accepted_context_count": 0,
+      "accepted_proper_coarse_event_count": 0,
+      "accepted_proper_coarse_proposal_count": 0,
+      "accepted_shared_event_proposal_count": 0,
+      "accepted_singleton_event_count": 0,
+      "all_accepted_proposals": {
+        "exact_failure_reason": null,
+        "exact_feasible": null,
+        "exact_respecting_tuple_count": null,
+        "exact_structural_status": "not_applicable",
+        "gpd_stat": null,
+        "gpd_stat_reason": null,
+        "gpd_stat_status": "not_applicable",
+        "gpd_str": null,
+        "gpd_str_reason": null,
+        "gpd_str_status": "not_applicable"
+      },
+      "artifact_paths": {
+        "discovered_context_family": "results/search/20260329T011000Z--mechanism_axis/derived/mechanism_divergent_exp104/discovered-context-family.json",
+        "export_bundle": "results/search/20260329T011000Z--mechanism_axis/derived/mechanism_divergent_exp104/pica-export-bundle.json",
+        "packaging_source_index": "results/search/20260329T011000Z--mechanism_axis/derived/mechanism_divergent_exp104_packaging_source_index.json",
+        "packaging_surface_summary": "results/search/20260329T011000Z--mechanism_axis/derived/mechanism_divergent_exp104_packaging_surface_summary.json"
+      },
+      "axis": "mechanism",
+      "baseline_hard_only": {
+        "exact_failure_reason": null,
+        "exact_feasible": null,
+        "exact_respecting_tuple_count": null,
+        "exact_structural_status": "not_applicable",
+        "gpd_stat": null,
+        "gpd_stat_reason": null,
+        "gpd_stat_status": "not_applicable",
+        "gpd_str": null,
+        "gpd_str_reason": null,
+        "gpd_str_status": "not_applicable"
+      },
+      "candidate_classification": "trivial_or_nonrecording",
+      "changed_packaging_surface_relative_to_control": true,
+      "claim_level_supported": "mechanism_dependence",
+      "discovered_context_family_path": "results/search/20260329T011000Z--mechanism_axis/derived/mechanism_divergent_exp104/discovered-context-family.json",
+      "event_package_path": null,
+      "flags": [
+        "mechanism_axis",
+        "claim_ceiling_mechanism_only"
+      ],
+      "mechanism_signal_kind": "inconclusive",
+      "notes": [
+        "mechanism_divergent_point",
+        "broader_packaging_operator_catalog_than_control",
+        "insufficient_accepted_contexts_for_package_build"
+      ],
+      "packaging_support_slice_count": 0,
+      "packaging_surface_summary_path": "results/search/20260329T011000Z--mechanism_axis/derived/mechanism_divergent_exp104_packaging_surface_summary.json",
+      "point_id": "mechanism_divergent_exp104",
+      "produced_export_bundle_path": "results/search/20260329T011000Z--mechanism_axis/derived/mechanism_divergent_exp104/pica-export-bundle.json",
+      "provenance_classification": null,
+      "row_format_version": "mechanism-axis-row.v1",
+      "run_ids": {
+        "pica_wrapper_seed_0": "run_search_20260329t011000z_mechanism_divergent_exp104_seed_0"
+      },
+      "search_id": "mechanism_axis_th3",
+      "selected_packaging_family_count": 0,
+      "selected_packaging_operator_count": 0,
+      "selected_packaging_sources": [],
+      "source_pica_campaign_config_path": "experiments/configs/pica/pilot-exp104-full-all-closure-diverse.json"
+    },
+    {
+      "accepted_context_count": 2,
+      "accepted_proper_coarse_event_count": 0,
+      "accepted_proper_coarse_proposal_count": 0,
+      "accepted_shared_event_proposal_count": 0,
+      "accepted_singleton_event_count": 4,
+      "all_accepted_proposals": {
+        "exact_failure_reason": null,
+        "exact_feasible": true,
+        "exact_respecting_tuple_count": 4,
+        "exact_structural_status": "feasible",
+        "gpd_stat": 2.7755575615628914e-17,
+        "gpd_stat_reason": null,
+        "gpd_stat_status": "solved",
+        "gpd_str": 0.0,
+        "gpd_str_reason": null,
+        "gpd_str_status": "solved"
+      },
+      "artifact_paths": {
+        "baseline_statistical_summary": "results/search/20260329T011000Z--mechanism_divergent_p1p5_baseline_statistical/statistical-summary.json",
+        "candidate_statistical_summary": "results/search/20260329T011000Z--mechanism_divergent_p1p5_candidate_statistical/statistical-summary.json",
+        "discovered_context_family": "results/search/20260329T011000Z--mechanism_axis/derived/mechanism_divergent_p1p5/discovered-context-family.json",
+        "event_package": "results/search/20260329T011000Z--mechanism_divergent_p1p5_package_build/event-package.json",
+        "export_bundle": "results/search/20260329T011000Z--mechanism_axis/derived/mechanism_divergent_p1p5/pica-export-bundle.json",
+        "package_build_summary": "results/search/20260329T011000Z--mechanism_divergent_p1p5_package_build/package-build-summary.json",
+        "package_provenance": "results/search/20260329T011000Z--mechanism_divergent_p1p5_package_build/package-provenance.json",
+        "packaging_source_index": "results/search/20260329T011000Z--mechanism_axis/derived/mechanism_divergent_p1p5_packaging_source_index.json",
+        "packaging_surface_summary": "results/search/20260329T011000Z--mechanism_axis/derived/mechanism_divergent_p1p5_packaging_surface_summary.json",
+        "provenance_summary": "results/search/20260329T011000Z--mechanism_divergent_p1p5_provenance/provenance-audit-summary.json",
+        "shared_event_candidates": "results/search/20260329T011000Z--mechanism_divergent_p1p5_package_build/shared-event-candidates.json",
+        "stat_trace": "results/search/20260329T011000Z--mechanism_axis/derived/mechanism_divergent_p1p5_stat_trace.json"
+      },
+      "axis": "mechanism",
+      "baseline_hard_only": {
+        "exact_failure_reason": null,
+        "exact_feasible": true,
+        "exact_respecting_tuple_count": 4,
+        "exact_structural_status": "feasible",
+        "gpd_stat": 2.7755575615628914e-17,
+        "gpd_stat_reason": null,
+        "gpd_stat_status": "solved",
+        "gpd_str": 0.0,
+        "gpd_str_reason": null,
+        "gpd_str_status": "solved"
+      },
+      "candidate_classification": "extendable_candidate",
+      "changed_packaging_surface_relative_to_control": false,
+      "claim_level_supported": "mechanism_dependence",
+      "discovered_context_family_path": "results/search/20260329T011000Z--mechanism_axis/derived/mechanism_divergent_p1p5/discovered-context-family.json",
+      "event_package_path": "results/search/20260329T011000Z--mechanism_divergent_p1p5_package_build/event-package.json",
+      "flags": [
+        "mechanism_axis",
+        "claim_ceiling_mechanism_only"
+      ],
+      "mechanism_signal_kind": "control_like",
+      "notes": [
+        "mechanism_divergent_point",
+        "expected_packaging_surface_change",
+        "mechanism_family_id=pica_exp100_family",
+        "enable_matrix_id=pica_exp121_packaging_p1p5_matrix",
+        "ccd_not_applicable_without_repeated_read_trace",
+        "rm_is_diagnostic_only",
+        "sec_status=insufficient_data",
+        "sec_mean=None"
+      ],
+      "packaging_support_slice_count": 4,
+      "packaging_surface_summary_path": "results/search/20260329T011000Z--mechanism_axis/derived/mechanism_divergent_p1p5_packaging_surface_summary.json",
+      "point_id": "mechanism_divergent_p1p5",
+      "produced_export_bundle_path": "results/search/20260329T011000Z--mechanism_axis/derived/mechanism_divergent_p1p5/pica-export-bundle.json",
+      "provenance_classification": "admissible",
+      "row_format_version": "mechanism-axis-row.v1",
+      "run_ids": {
+        "baseline_statistical": "run_search_20260329t011000z_mechanism_divergent_p1p5_baseline_statistical",
+        "candidate_statistical": "run_search_20260329t011000z_mechanism_divergent_p1p5_candidate_statistical",
+        "package_build": "run_search_20260329t011000z_mechanism_divergent_p1p5_package_build",
+        "pica_wrapper_seed_0": "run_search_20260329t011000z_mechanism_divergent_p1p5_seed_0",
+        "provenance_audit": "run_search_20260329t011000z_mechanism_divergent_p1p5_provenance"
+      },
+      "search_id": "mechanism_axis_th3",
+      "selected_packaging_family_count": 1,
+      "selected_packaging_operator_count": 1,
+      "selected_packaging_sources": [
+        "p5_from_p4"
+      ],
+      "source_pica_campaign_config_path": "experiments/configs/pica/pilot-exp121-packaging-p1p5.json"
+    },
+    {
+      "accepted_context_count": 2,
+      "accepted_proper_coarse_event_count": 35,
+      "accepted_proper_coarse_proposal_count": 0,
+      "accepted_shared_event_proposal_count": 0,
+      "accepted_singleton_event_count": 9,
+      "all_accepted_proposals": {
+        "exact_failure_reason": null,
+        "exact_feasible": true,
+        "exact_respecting_tuple_count": 20,
+        "exact_structural_status": "feasible",
+        "gpd_stat": 9.71445146547012e-17,
+        "gpd_stat_reason": null,
+        "gpd_stat_status": "solved",
+        "gpd_str": 0.0,
+        "gpd_str_reason": null,
+        "gpd_str_status": "solved"
+      },
+      "artifact_paths": {
+        "baseline_statistical_summary": "results/search/20260329T011000Z--mechanism_richest_p2p5_baseline_statistical/statistical-summary.json",
+        "candidate_statistical_summary": "results/search/20260329T011000Z--mechanism_richest_p2p5_candidate_statistical/statistical-summary.json",
+        "discovered_context_family": "results/search/20260329T011000Z--mechanism_axis/derived/mechanism_richest_p2p5/discovered-context-family.json",
+        "event_package": "results/search/20260329T011000Z--mechanism_richest_p2p5_package_build/event-package.json",
+        "export_bundle": "results/search/20260329T011000Z--mechanism_axis/derived/mechanism_richest_p2p5/pica-export-bundle.json",
+        "package_build_summary": "results/search/20260329T011000Z--mechanism_richest_p2p5_package_build/package-build-summary.json",
+        "package_provenance": "results/search/20260329T011000Z--mechanism_richest_p2p5_package_build/package-provenance.json",
+        "packaging_source_index": "results/search/20260329T011000Z--mechanism_axis/derived/mechanism_richest_p2p5_packaging_source_index.json",
+        "packaging_surface_summary": "results/search/20260329T011000Z--mechanism_axis/derived/mechanism_richest_p2p5_packaging_surface_summary.json",
+        "provenance_summary": "results/search/20260329T011000Z--mechanism_richest_p2p5_provenance/provenance-audit-summary.json",
+        "shared_event_candidates": "results/search/20260329T011000Z--mechanism_richest_p2p5_package_build/shared-event-candidates.json",
+        "stat_trace": "results/search/20260329T011000Z--mechanism_axis/derived/mechanism_richest_p2p5_stat_trace.json"
+      },
+      "axis": "mechanism",
+      "baseline_hard_only": {
+        "exact_failure_reason": null,
+        "exact_feasible": true,
+        "exact_respecting_tuple_count": 20,
+        "exact_structural_status": "feasible",
+        "gpd_stat": 9.71445146547012e-17,
+        "gpd_stat_reason": null,
+        "gpd_stat_status": "solved",
+        "gpd_str": 0.0,
+        "gpd_str_reason": null,
+        "gpd_str_status": "solved"
+      },
+      "candidate_classification": "extendable_candidate",
+      "changed_packaging_surface_relative_to_control": false,
+      "claim_level_supported": "nontrivial_multicontext_structure",
+      "discovered_context_family_path": "results/search/20260329T011000Z--mechanism_axis/derived/mechanism_richest_p2p5/discovered-context-family.json",
+      "event_package_path": "results/search/20260329T011000Z--mechanism_richest_p2p5_package_build/event-package.json",
+      "flags": [
+        "mechanism_axis",
+        "claim_ceiling_mechanism_only"
+      ],
+      "mechanism_signal_kind": "package_structure_richer",
+      "notes": [
+        "mechanism_richest_bounded_point",
+        "expected_packaging_surface_change",
+        "mechanism_family_id=pica_exp100_family",
+        "enable_matrix_id=pica_exp121_packaging_p2p5_matrix",
+        "ccd_not_applicable_without_repeated_read_trace",
+        "rm_is_diagnostic_only",
+        "sec_status=insufficient_data",
+        "sec_mean=None"
+      ],
+      "packaging_support_slice_count": 4,
+      "packaging_surface_summary_path": "results/search/20260329T011000Z--mechanism_axis/derived/mechanism_richest_p2p5_packaging_surface_summary.json",
+      "point_id": "mechanism_richest_p2p5",
+      "produced_export_bundle_path": "results/search/20260329T011000Z--mechanism_axis/derived/mechanism_richest_p2p5/pica-export-bundle.json",
+      "provenance_classification": "admissible",
+      "row_format_version": "mechanism-axis-row.v1",
+      "run_ids": {
+        "baseline_statistical": "run_search_20260329t011000z_mechanism_richest_p2p5_baseline_statistical",
+        "candidate_statistical": "run_search_20260329t011000z_mechanism_richest_p2p5_candidate_statistical",
+        "package_build": "run_search_20260329t011000z_mechanism_richest_p2p5_package_build",
+        "pica_wrapper_seed_0": "run_search_20260329t011000z_mechanism_richest_p2p5_seed_0",
+        "provenance_audit": "run_search_20260329t011000z_mechanism_richest_p2p5_provenance"
+      },
+      "search_id": "mechanism_axis_th3",
+      "selected_packaging_family_count": 1,
+      "selected_packaging_operator_count": 1,
+      "selected_packaging_sources": [
+        "p5_from_p4"
+      ],
+      "source_pica_campaign_config_path": "experiments/configs/pica/pilot-exp121-packaging-p2p5.json"
+    }
+  ],
+  "search_id": "mechanism_axis_th3",
+  "table_format_version": "mechanism-axis-results.v1"
+}

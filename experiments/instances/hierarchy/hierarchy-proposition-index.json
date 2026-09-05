@@ -1,0 +1,95 @@
+{
+  "index_format_version": "hierarchy-proposition-index.v1",
+  "index_id": "hierarchy_proposition_layer_t48",
+  "theorem_object_label": "event_package",
+  "entries": [
+    {
+      "proposition_id": "prop_1_mechanism_not_imply_lens",
+      "label": "Mechanism change does not by itself imply lens incompatibility",
+      "kind": "non_implication",
+      "statement": "Mechanism variation may reveal regime dependence and committed witnesses, but it does not by itself entail fixed-support lens incompatibility.",
+      "support_type": "theory_and_evidence",
+      "primary_refs": [
+        "docs/runbooks/three-axis-context-memo.md",
+        "docs/runbooks/frozen-slice-shared-support-layer.md",
+        "experiments/instances/mechanism-axis/th3_campaign/mechanism-axis-summary.json"
+      ],
+      "supporting_refs": [
+        "docs/papers/Tsiokos_2026_A_Six_Birds_Eye_View_of_Quantum_Theory_Operational_Closure_Semantics_for_Measurement_Contextuality_and_Record_Stability.tex",
+        "docs/papers/Tsiokos_2026_Six_Birds_for_Incompleteness_Fixed_Packages_Package_Change_and_Conditional_Arithmetic_Lift.tex",
+        "experiments/instances/mechanism-axis/exp104_p6_row_all_n64_seed0/quotient-feasibility-summary.json"
+      ],
+      "caveat_flags": [
+        "mechanism_campaign_design_inadequate",
+        "accepted_witness_preserved"
+      ]
+    },
+    {
+      "proposition_id": "prop_2_lens_not_imply_packaging",
+      "label": "Lens incompatibility does not by itself imply packaging obstruction",
+      "kind": "non_implication",
+      "statement": "Lens-side non-nestedness, tension, or candidate-subset witness structure does not by itself entail accepted packaging obstruction.",
+      "support_type": "theory_and_evidence",
+      "primary_refs": [
+        "docs/runbooks/three-axis-context-memo.md",
+        "experiments/instances/lens-axis/th4_same_step_negative/lens-axis-summary.json",
+        "experiments/instances/lens-axis/th4_same_step_negative/lens-axis.json"
+      ],
+      "supporting_refs": [
+        "docs/papers/Tsiokos_2026_A_Six_Birds_Eye_View_of_Quantum_Theory_Operational_Closure_Semantics_for_Measurement_Contextuality_and_Record_Stability.tex",
+        "docs/runbooks/frozen-slice-shared-support-layer.md"
+      ],
+      "caveat_flags": [
+        "same_step_bounded_negative_subregime",
+        "cross_resolution_lens_flagship_separate"
+      ]
+    },
+    {
+      "proposition_id": "prop_3_packaging_obstruction_implies_no_global_package",
+      "label": "Packaging obstruction implies no admissible global package",
+      "kind": "formal_consequence",
+      "statement": "Within the event-package theorem object and current quotient-backed semantics, accepted packaging obstruction is the failure of admissible global packaging.",
+      "support_type": "theory",
+      "primary_refs": [
+        "docs/runbooks/frozen-slice-shared-support-layer.md",
+        "docs/runbooks/three-axis-context-memo.md"
+      ],
+      "supporting_refs": [
+        "docs/papers/Tsiokos_2026_Six_Birds_for_Incompleteness_Fixed_Packages_Package_Change_and_Conditional_Arithmetic_Lift.tex",
+        "docs/papers/Tsiokos_2026_Strict_Theory_Extension_on_a_Lawful_Continuous_Cantor_Shell.tex",
+        "experiments/instances/packaging-axis/th5_campaign/packaging-axis-summary.json"
+      ],
+      "caveat_flags": [
+        "depends_on_current_event_package_and_quotient_semantics"
+      ]
+    },
+    {
+      "proposition_id": "prop_4_cross_resolution_same_support_rule",
+      "label": "Same-support cross-resolution strict extension can still count as a valid lens/package comparison under a fixed evaluation regime",
+      "kind": "adjudicated_rule",
+      "statement": "Cross-resolution strict extension remains a valid same-support comparison when the support object and evaluation regime are fixed and the ledger is not moved.",
+      "support_type": "theory_and_evidence",
+      "primary_refs": [
+        "docs/runbooks/frozen-slice-shared-support-layer.md",
+        "experiments/instances/lens-axis/th4_cross_res_all_steps/provenance-audit-summary.json",
+        "experiments/instances/lens-axis/th4_cross_res_all_steps/quotient-feasibility-summary.json"
+      ],
+      "supporting_refs": [
+        "docs/papers/Tsiokos_2026_Six_Birds_for_Incompleteness_Fixed_Packages_Package_Change_and_Conditional_Arithmetic_Lift.tex",
+        "docs/papers/Tsiokos_2026_Strict_Theory_Extension_on_a_Lawful_Continuous_Cantor_Shell.tex",
+        "docs/runbooks/three-axis-context-memo.md"
+      ],
+      "caveat_flags": [
+        "requires_fixed_support",
+        "requires_fixed_evaluation_regime"
+      ]
+    }
+  ],
+  "notes": [
+    "Compact proposition layer grounded in theory sources, hierarchy memos, and committed evidence assets.",
+    "Does not rely on missing transient TH6 runtime synthesis outputs."
+  ],
+  "metadata": {
+    "program_phase": "paper_theory_clarification"
+  }
+}

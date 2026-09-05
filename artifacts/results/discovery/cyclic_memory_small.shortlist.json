@@ -1,0 +1,333 @@
+{
+  "search_id": "cyclic_memory_small",
+  "seed": 0,
+  "atlas_json_path": "artifacts/results/discovery/cyclic_memory_small.atlas.json",
+  "atlas_csv_path": "artifacts/tables/discovery_cyclic_memory_small.csv",
+  "atlas_note_path": "docs/results/cyclic_memory_small.atlas.md",
+  "class_counts": {
+    "flat": 0,
+    "dissipative": 0,
+    "coherent_candidate": 8
+  },
+  "top_by_discrepancy": [
+    {
+      "search_id": "cyclic_memory_small",
+      "candidate_id": "cand_0000",
+      "class_label": "coherent_candidate",
+      "primary_interface_id": "i0",
+      "primary_witness_count": 1,
+      "primary_discrepancy_metric_value": 1.0,
+      "primary_discrepancy_metric_value_exact": "1",
+      "primary_predictive_loop_score": 1.0,
+      "primary_predictive_loop_score_exact": "1",
+      "robustness_proxy_fraction": 0.5,
+      "robustness_proxy_fraction_exact": "1/2",
+      "selected_by_discrepancy": true,
+      "selected_by_predictive_loop": false,
+      "selected_by_robustness_proxy": false,
+      "evidence_reasons": [
+        "class=coherent_candidate",
+        "primary=i0",
+        "witnesses=1",
+        "discrepancy=1",
+        "predictive_loop=1",
+        "robustness_proxy=1/2"
+      ]
+    },
+    {
+      "search_id": "cyclic_memory_small",
+      "candidate_id": "cand_0001",
+      "class_label": "coherent_candidate",
+      "primary_interface_id": "i0",
+      "primary_witness_count": 1,
+      "primary_discrepancy_metric_value": 1.0,
+      "primary_discrepancy_metric_value_exact": "1",
+      "primary_predictive_loop_score": 1.0,
+      "primary_predictive_loop_score_exact": "1",
+      "robustness_proxy_fraction": 0.6666666666666666,
+      "robustness_proxy_fraction_exact": "2/3",
+      "selected_by_discrepancy": true,
+      "selected_by_predictive_loop": false,
+      "selected_by_robustness_proxy": false,
+      "evidence_reasons": [
+        "class=coherent_candidate",
+        "primary=i0",
+        "witnesses=1",
+        "discrepancy=1",
+        "predictive_loop=1",
+        "robustness_proxy=2/3"
+      ]
+    },
+    {
+      "search_id": "cyclic_memory_small",
+      "candidate_id": "cand_0002",
+      "class_label": "coherent_candidate",
+      "primary_interface_id": "i0",
+      "primary_witness_count": 1,
+      "primary_discrepancy_metric_value": 1.0,
+      "primary_discrepancy_metric_value_exact": "1",
+      "primary_predictive_loop_score": 1.0,
+      "primary_predictive_loop_score_exact": "1",
+      "robustness_proxy_fraction": 0.5,
+      "robustness_proxy_fraction_exact": "1/2",
+      "selected_by_discrepancy": true,
+      "selected_by_predictive_loop": false,
+      "selected_by_robustness_proxy": false,
+      "evidence_reasons": [
+        "class=coherent_candidate",
+        "primary=i0",
+        "witnesses=1",
+        "discrepancy=1",
+        "predictive_loop=1",
+        "robustness_proxy=1/2"
+      ]
+    }
+  ],
+  "top_by_predictive_loop": [
+    {
+      "search_id": "cyclic_memory_small",
+      "candidate_id": "cand_0000",
+      "class_label": "coherent_candidate",
+      "primary_interface_id": "i0",
+      "primary_witness_count": 1,
+      "primary_discrepancy_metric_value": 1.0,
+      "primary_discrepancy_metric_value_exact": "1",
+      "primary_predictive_loop_score": 1.0,
+      "primary_predictive_loop_score_exact": "1",
+      "robustness_proxy_fraction": 0.5,
+      "robustness_proxy_fraction_exact": "1/2",
+      "selected_by_discrepancy": false,
+      "selected_by_predictive_loop": true,
+      "selected_by_robustness_proxy": false,
+      "evidence_reasons": [
+        "class=coherent_candidate",
+        "primary=i0",
+        "witnesses=1",
+        "discrepancy=1",
+        "predictive_loop=1",
+        "robustness_proxy=1/2"
+      ]
+    },
+    {
+      "search_id": "cyclic_memory_small",
+      "candidate_id": "cand_0001",
+      "class_label": "coherent_candidate",
+      "primary_interface_id": "i0",
+      "primary_witness_count": 1,
+      "primary_discrepancy_metric_value": 1.0,
+      "primary_discrepancy_metric_value_exact": "1",
+      "primary_predictive_loop_score": 1.0,
+      "primary_predictive_loop_score_exact": "1",
+      "robustness_proxy_fraction": 0.6666666666666666,
+      "robustness_proxy_fraction_exact": "2/3",
+      "selected_by_discrepancy": false,
+      "selected_by_predictive_loop": true,
+      "selected_by_robustness_proxy": false,
+      "evidence_reasons": [
+        "class=coherent_candidate",
+        "primary=i0",
+        "witnesses=1",
+        "discrepancy=1",
+        "predictive_loop=1",
+        "robustness_proxy=2/3"
+      ]
+    },
+    {
+      "search_id": "cyclic_memory_small",
+      "candidate_id": "cand_0002",
+      "class_label": "coherent_candidate",
+      "primary_interface_id": "i0",
+      "primary_witness_count": 1,
+      "primary_discrepancy_metric_value": 1.0,
+      "primary_discrepancy_metric_value_exact": "1",
+      "primary_predictive_loop_score": 1.0,
+      "primary_predictive_loop_score_exact": "1",
+      "robustness_proxy_fraction": 0.5,
+      "robustness_proxy_fraction_exact": "1/2",
+      "selected_by_discrepancy": false,
+      "selected_by_predictive_loop": true,
+      "selected_by_robustness_proxy": false,
+      "evidence_reasons": [
+        "class=coherent_candidate",
+        "primary=i0",
+        "witnesses=1",
+        "discrepancy=1",
+        "predictive_loop=1",
+        "robustness_proxy=1/2"
+      ]
+    }
+  ],
+  "top_by_robustness_proxy": [
+    {
+      "search_id": "cyclic_memory_small",
+      "candidate_id": "cand_0001",
+      "class_label": "coherent_candidate",
+      "primary_interface_id": "i0",
+      "primary_witness_count": 1,
+      "primary_discrepancy_metric_value": 1.0,
+      "primary_discrepancy_metric_value_exact": "1",
+      "primary_predictive_loop_score": 1.0,
+      "primary_predictive_loop_score_exact": "1",
+      "robustness_proxy_fraction": 0.6666666666666666,
+      "robustness_proxy_fraction_exact": "2/3",
+      "selected_by_discrepancy": false,
+      "selected_by_predictive_loop": false,
+      "selected_by_robustness_proxy": true,
+      "evidence_reasons": [
+        "class=coherent_candidate",
+        "primary=i0",
+        "witnesses=1",
+        "discrepancy=1",
+        "predictive_loop=1",
+        "robustness_proxy=2/3"
+      ]
+    },
+    {
+      "search_id": "cyclic_memory_small",
+      "candidate_id": "cand_0006",
+      "class_label": "coherent_candidate",
+      "primary_interface_id": "i0",
+      "primary_witness_count": 1,
+      "primary_discrepancy_metric_value": 1.0,
+      "primary_discrepancy_metric_value_exact": "1",
+      "primary_predictive_loop_score": 1.0,
+      "primary_predictive_loop_score_exact": "1",
+      "robustness_proxy_fraction": 0.6666666666666666,
+      "robustness_proxy_fraction_exact": "2/3",
+      "selected_by_discrepancy": false,
+      "selected_by_predictive_loop": false,
+      "selected_by_robustness_proxy": true,
+      "evidence_reasons": [
+        "class=coherent_candidate",
+        "primary=i0",
+        "witnesses=1",
+        "discrepancy=1",
+        "predictive_loop=1",
+        "robustness_proxy=2/3"
+      ]
+    },
+    {
+      "search_id": "cyclic_memory_small",
+      "candidate_id": "cand_0000",
+      "class_label": "coherent_candidate",
+      "primary_interface_id": "i0",
+      "primary_witness_count": 1,
+      "primary_discrepancy_metric_value": 1.0,
+      "primary_discrepancy_metric_value_exact": "1",
+      "primary_predictive_loop_score": 1.0,
+      "primary_predictive_loop_score_exact": "1",
+      "robustness_proxy_fraction": 0.5,
+      "robustness_proxy_fraction_exact": "1/2",
+      "selected_by_discrepancy": false,
+      "selected_by_predictive_loop": false,
+      "selected_by_robustness_proxy": true,
+      "evidence_reasons": [
+        "class=coherent_candidate",
+        "primary=i0",
+        "witnesses=1",
+        "discrepancy=1",
+        "predictive_loop=1",
+        "robustness_proxy=1/2"
+      ]
+    }
+  ],
+  "combined_shortlist": [
+    {
+      "search_id": "cyclic_memory_small",
+      "candidate_id": "cand_0000",
+      "class_label": "coherent_candidate",
+      "primary_interface_id": "i0",
+      "primary_witness_count": 1,
+      "primary_discrepancy_metric_value": 1.0,
+      "primary_discrepancy_metric_value_exact": "1",
+      "primary_predictive_loop_score": 1.0,
+      "primary_predictive_loop_score_exact": "1",
+      "robustness_proxy_fraction": 0.5,
+      "robustness_proxy_fraction_exact": "1/2",
+      "selected_by_discrepancy": true,
+      "selected_by_predictive_loop": true,
+      "selected_by_robustness_proxy": true,
+      "evidence_reasons": [
+        "class=coherent_candidate",
+        "primary=i0",
+        "witnesses=1",
+        "discrepancy=1",
+        "predictive_loop=1",
+        "robustness_proxy=1/2"
+      ]
+    },
+    {
+      "search_id": "cyclic_memory_small",
+      "candidate_id": "cand_0001",
+      "class_label": "coherent_candidate",
+      "primary_interface_id": "i0",
+      "primary_witness_count": 1,
+      "primary_discrepancy_metric_value": 1.0,
+      "primary_discrepancy_metric_value_exact": "1",
+      "primary_predictive_loop_score": 1.0,
+      "primary_predictive_loop_score_exact": "1",
+      "robustness_proxy_fraction": 0.6666666666666666,
+      "robustness_proxy_fraction_exact": "2/3",
+      "selected_by_discrepancy": true,
+      "selected_by_predictive_loop": true,
+      "selected_by_robustness_proxy": true,
+      "evidence_reasons": [
+        "class=coherent_candidate",
+        "primary=i0",
+        "witnesses=1",
+        "discrepancy=1",
+        "predictive_loop=1",
+        "robustness_proxy=2/3"
+      ]
+    },
+    {
+      "search_id": "cyclic_memory_small",
+      "candidate_id": "cand_0002",
+      "class_label": "coherent_candidate",
+      "primary_interface_id": "i0",
+      "primary_witness_count": 1,
+      "primary_discrepancy_metric_value": 1.0,
+      "primary_discrepancy_metric_value_exact": "1",
+      "primary_predictive_loop_score": 1.0,
+      "primary_predictive_loop_score_exact": "1",
+      "robustness_proxy_fraction": 0.5,
+      "robustness_proxy_fraction_exact": "1/2",
+      "selected_by_discrepancy": true,
+      "selected_by_predictive_loop": true,
+      "selected_by_robustness_proxy": false,
+      "evidence_reasons": [
+        "class=coherent_candidate",
+        "primary=i0",
+        "witnesses=1",
+        "discrepancy=1",
+        "predictive_loop=1",
+        "robustness_proxy=1/2"
+      ]
+    },
+    {
+      "search_id": "cyclic_memory_small",
+      "candidate_id": "cand_0006",
+      "class_label": "coherent_candidate",
+      "primary_interface_id": "i0",
+      "primary_witness_count": 1,
+      "primary_discrepancy_metric_value": 1.0,
+      "primary_discrepancy_metric_value_exact": "1",
+      "primary_predictive_loop_score": 1.0,
+      "primary_predictive_loop_score_exact": "1",
+      "robustness_proxy_fraction": 0.6666666666666666,
+      "robustness_proxy_fraction_exact": "2/3",
+      "selected_by_discrepancy": false,
+      "selected_by_predictive_loop": false,
+      "selected_by_robustness_proxy": true,
+      "evidence_reasons": [
+        "class=coherent_candidate",
+        "primary=i0",
+        "witnesses=1",
+        "discrepancy=1",
+        "predictive_loop=1",
+        "robustness_proxy=2/3"
+      ]
+    }
+  ],
+  "warnings": []
+}

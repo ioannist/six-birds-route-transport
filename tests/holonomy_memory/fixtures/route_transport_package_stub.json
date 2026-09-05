@@ -1,0 +1,88 @@
+{
+  "schema_version": "route-transport-package.v1",
+  "package_id": "route_transport_stub",
+  "support": {
+    "support_id": "support_stub",
+    "visible_support_labels": [
+      "visible_a",
+      "visible_b"
+    ],
+    "same_support_required": true
+  },
+  "state_space": {
+    "internal_state_ids": [
+      "q0",
+      "q1"
+    ],
+    "support_projection": {
+      "q0": "visible_a",
+      "q1": "visible_b"
+    }
+  },
+  "interfaces": [
+    {
+      "interface_id": "i0",
+      "label": "start",
+      "description": "entry interface"
+    },
+    {
+      "interface_id": "i1",
+      "label": "finish",
+      "description": "exit interface"
+    }
+  ],
+  "event_packages": [
+    {
+      "package_id": "ep0",
+      "interface_id": "i0",
+      "events": [
+        {
+          "event_id": "e0",
+          "weights": {
+            "visible_a": 1.0
+          }
+        },
+        {
+          "event_id": "e1",
+          "weights": {
+            "visible_a": 0.4,
+            "visible_b": 0.6
+          }
+        }
+      ]
+    }
+  ],
+  "histories": [
+    {
+      "history_id": "h0",
+      "source_interface_id": "i0",
+      "target_interface_id": "i1",
+      "probabilities": {
+        "q0": 0.25,
+        "q1": 0.75
+      }
+    }
+  ],
+  "continuations": [
+    {
+      "continuation_id": "c0",
+      "source_interface_id": "i0",
+      "target_interface_id": "i0",
+      "kernel": {
+        "q0": {
+          "q0": 1.0
+        },
+        "q1": {
+          "q1": 1.0
+        }
+      }
+    }
+  ],
+  "loops": [
+    {
+      "loop_id": "l0",
+      "interface_id": "i0",
+      "continuation_id": "c0"
+    }
+  ]
+}

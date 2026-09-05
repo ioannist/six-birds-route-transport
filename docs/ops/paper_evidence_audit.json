@@ -1,0 +1,562 @@
+{
+  "compared_artifact_count": 32,
+  "compared_artifacts": [
+    "artifacts/results/benchmark_suite.json",
+    "artifacts/results/discovery/cyclic_memory_small.atlas.json",
+    "artifacts/results/discovery/cyclic_memory_small.shortlist.json",
+    "artifacts/results/discovery/cyclic_memory_small.shortlist_robustness.json",
+    "artifacts/results/discovery/discovery_smoke.json",
+    "artifacts/results/discovery/fixed_support_core_small.atlas.json",
+    "artifacts/results/discovery/fixed_support_core_small.shortlist.json",
+    "artifacts/results/discovery/groupoid_probe_small.atlas.json",
+    "artifacts/results/discovery/groupoid_probe_small.cand_0000.promotion_robustness.json",
+    "artifacts/results/discovery/groupoid_probe_small.cand_0001.promotion_robustness.json",
+    "artifacts/results/discovery/groupoid_probe_small.cand_0004.promotion_robustness.json",
+    "artifacts/results/discovery/groupoid_probe_small.shortlist.json",
+    "artifacts/results/discovery/multi_space.dedup.json",
+    "artifacts/results/discovery/multi_space.discovery.json",
+    "artifacts/results/discovery/promoted_exemplars.json",
+    "artifacts/results/dissipative_memory.result.json",
+    "artifacts/results/flat_control.result.json",
+    "artifacts/results/flattenable_completed.result.json",
+    "artifacts/results/flattenable_raw.result.json",
+    "artifacts/results/latent_memory_base.result.json",
+    "artifacts/results/latent_memory_refined.result.json",
+    "artifacts/results/memory_wheel.result.json",
+    "artifacts/results/protocol_trap_honest.result.json",
+    "artifacts/results/protocol_trap_naive.result.json",
+    "artifacts/results/robustness/core_suite.robustness.json",
+    "artifacts/results/robustness/dissipative_memory.robustness.json",
+    "artifacts/results/robustness/flat_control.robustness.json",
+    "artifacts/results/robustness/flattenable_completed.robustness.json",
+    "artifacts/results/robustness/latent_memory_base.robustness.json",
+    "artifacts/results/robustness/latent_memory_refined.robustness.json",
+    "artifacts/results/robustness/memory_wheel.robustness.json",
+    "artifacts/results/robustness/protocol_trap_honest.robustness.json"
+  ],
+  "mismatched_artifacts": [],
+  "missing_required_artifacts": [],
+  "ignored_fields": [
+    "runtime"
+  ],
+  "path_normalization": "Strip only the repository and fresh-output absolute root prefixes",
+  "undefined_citations": [],
+  "unused_bibliography_keys": [],
+  "duplicate_bibliography_keys": [],
+  "partition_checks": [
+    {
+      "model": "flat_control",
+      "interface": "mid",
+      "current_size": 1,
+      "predictive_size": 1,
+      "refines": true,
+      "reported_comparison_interface": true
+    },
+    {
+      "model": "protocol_trap_naive",
+      "interface": "mid",
+      "current_size": 1,
+      "predictive_size": 2,
+      "refines": true,
+      "reported_comparison_interface": true
+    },
+    {
+      "model": "protocol_trap_honest",
+      "interface": "mid",
+      "current_size": 1,
+      "predictive_size": 1,
+      "refines": true,
+      "reported_comparison_interface": true
+    },
+    {
+      "model": "flattenable_raw",
+      "interface": "mid",
+      "current_size": 1,
+      "predictive_size": 2,
+      "refines": true,
+      "reported_comparison_interface": true
+    },
+    {
+      "model": "flattenable_completed",
+      "interface": "mid",
+      "current_size": 1,
+      "predictive_size": 1,
+      "refines": true,
+      "reported_comparison_interface": true
+    },
+    {
+      "model": "latent_memory_base",
+      "interface": "mid",
+      "current_size": 1,
+      "predictive_size": 2,
+      "refines": true,
+      "reported_comparison_interface": true
+    },
+    {
+      "model": "latent_memory_refined",
+      "interface": "mid",
+      "current_size": 2,
+      "predictive_size": 2,
+      "refines": true,
+      "reported_comparison_interface": true
+    },
+    {
+      "model": "dissipative_memory",
+      "interface": "end",
+      "current_size": 1,
+      "predictive_size": 1,
+      "refines": true,
+      "reported_comparison_interface": true
+    },
+    {
+      "model": "dissipative_memory",
+      "interface": "mid",
+      "current_size": 1,
+      "predictive_size": 2,
+      "refines": true,
+      "reported_comparison_interface": true
+    },
+    {
+      "model": "memory_wheel",
+      "interface": "end",
+      "current_size": 2,
+      "predictive_size": 2,
+      "refines": true,
+      "reported_comparison_interface": false
+    },
+    {
+      "model": "memory_wheel",
+      "interface": "mid",
+      "current_size": 1,
+      "predictive_size": 2,
+      "refines": true,
+      "reported_comparison_interface": true
+    },
+    {
+      "model": "fixed_support_core_small:cand_0000",
+      "interface": "i0",
+      "current_size": 2,
+      "predictive_size": 2,
+      "refines": true,
+      "reported_comparison_interface": true
+    },
+    {
+      "model": "fixed_support_core_small:cand_0000",
+      "interface": "i1",
+      "current_size": 2,
+      "predictive_size": 2,
+      "refines": true,
+      "reported_comparison_interface": false
+    },
+    {
+      "model": "fixed_support_core_small:cand_0001",
+      "interface": "i0",
+      "current_size": 2,
+      "predictive_size": 2,
+      "refines": true,
+      "reported_comparison_interface": true
+    },
+    {
+      "model": "fixed_support_core_small:cand_0001",
+      "interface": "i1",
+      "current_size": 2,
+      "predictive_size": 2,
+      "refines": true,
+      "reported_comparison_interface": false
+    },
+    {
+      "model": "fixed_support_core_small:cand_0002",
+      "interface": "i0",
+      "current_size": 2,
+      "predictive_size": 2,
+      "refines": true,
+      "reported_comparison_interface": true
+    },
+    {
+      "model": "fixed_support_core_small:cand_0002",
+      "interface": "i1",
+      "current_size": 2,
+      "predictive_size": 2,
+      "refines": true,
+      "reported_comparison_interface": false
+    },
+    {
+      "model": "fixed_support_core_small:cand_0003",
+      "interface": "i0",
+      "current_size": 2,
+      "predictive_size": 2,
+      "refines": true,
+      "reported_comparison_interface": true
+    },
+    {
+      "model": "fixed_support_core_small:cand_0003",
+      "interface": "i1",
+      "current_size": 2,
+      "predictive_size": 2,
+      "refines": true,
+      "reported_comparison_interface": false
+    },
+    {
+      "model": "cyclic_memory_small:cand_0000",
+      "interface": "i0",
+      "current_size": 1,
+      "predictive_size": 2,
+      "refines": true,
+      "reported_comparison_interface": true
+    },
+    {
+      "model": "cyclic_memory_small:cand_0000",
+      "interface": "i1",
+      "current_size": 2,
+      "predictive_size": 1,
+      "refines": false,
+      "reported_comparison_interface": false
+    },
+    {
+      "model": "cyclic_memory_small:cand_0001",
+      "interface": "i0",
+      "current_size": 1,
+      "predictive_size": 2,
+      "refines": true,
+      "reported_comparison_interface": true
+    },
+    {
+      "model": "cyclic_memory_small:cand_0001",
+      "interface": "i1",
+      "current_size": 2,
+      "predictive_size": 1,
+      "refines": false,
+      "reported_comparison_interface": false
+    },
+    {
+      "model": "cyclic_memory_small:cand_0002",
+      "interface": "i0",
+      "current_size": 1,
+      "predictive_size": 2,
+      "refines": true,
+      "reported_comparison_interface": true
+    },
+    {
+      "model": "cyclic_memory_small:cand_0002",
+      "interface": "i1",
+      "current_size": 2,
+      "predictive_size": 1,
+      "refines": false,
+      "reported_comparison_interface": false
+    },
+    {
+      "model": "cyclic_memory_small:cand_0003",
+      "interface": "i0",
+      "current_size": 1,
+      "predictive_size": 2,
+      "refines": true,
+      "reported_comparison_interface": true
+    },
+    {
+      "model": "cyclic_memory_small:cand_0003",
+      "interface": "i1",
+      "current_size": 2,
+      "predictive_size": 1,
+      "refines": false,
+      "reported_comparison_interface": false
+    },
+    {
+      "model": "cyclic_memory_small:cand_0004",
+      "interface": "i0",
+      "current_size": 1,
+      "predictive_size": 2,
+      "refines": true,
+      "reported_comparison_interface": true
+    },
+    {
+      "model": "cyclic_memory_small:cand_0004",
+      "interface": "i1",
+      "current_size": 2,
+      "predictive_size": 1,
+      "refines": false,
+      "reported_comparison_interface": false
+    },
+    {
+      "model": "cyclic_memory_small:cand_0005",
+      "interface": "i0",
+      "current_size": 1,
+      "predictive_size": 2,
+      "refines": true,
+      "reported_comparison_interface": true
+    },
+    {
+      "model": "cyclic_memory_small:cand_0005",
+      "interface": "i1",
+      "current_size": 2,
+      "predictive_size": 1,
+      "refines": false,
+      "reported_comparison_interface": false
+    },
+    {
+      "model": "cyclic_memory_small:cand_0006",
+      "interface": "i0",
+      "current_size": 1,
+      "predictive_size": 2,
+      "refines": true,
+      "reported_comparison_interface": true
+    },
+    {
+      "model": "cyclic_memory_small:cand_0006",
+      "interface": "i1",
+      "current_size": 2,
+      "predictive_size": 1,
+      "refines": false,
+      "reported_comparison_interface": false
+    },
+    {
+      "model": "cyclic_memory_small:cand_0007",
+      "interface": "i0",
+      "current_size": 1,
+      "predictive_size": 2,
+      "refines": true,
+      "reported_comparison_interface": true
+    },
+    {
+      "model": "cyclic_memory_small:cand_0007",
+      "interface": "i1",
+      "current_size": 2,
+      "predictive_size": 1,
+      "refines": false,
+      "reported_comparison_interface": false
+    },
+    {
+      "model": "groupoid_probe_small:cand_0000",
+      "interface": "i0",
+      "current_size": 2,
+      "predictive_size": 3,
+      "refines": true,
+      "reported_comparison_interface": true
+    },
+    {
+      "model": "groupoid_probe_small:cand_0000",
+      "interface": "i1",
+      "current_size": 2,
+      "predictive_size": 1,
+      "refines": false,
+      "reported_comparison_interface": false
+    },
+    {
+      "model": "groupoid_probe_small:cand_0001",
+      "interface": "i0",
+      "current_size": 2,
+      "predictive_size": 3,
+      "refines": true,
+      "reported_comparison_interface": true
+    },
+    {
+      "model": "groupoid_probe_small:cand_0001",
+      "interface": "i1",
+      "current_size": 2,
+      "predictive_size": 1,
+      "refines": false,
+      "reported_comparison_interface": false
+    },
+    {
+      "model": "groupoid_probe_small:cand_0002",
+      "interface": "i0",
+      "current_size": 2,
+      "predictive_size": 2,
+      "refines": true,
+      "reported_comparison_interface": true
+    },
+    {
+      "model": "groupoid_probe_small:cand_0002",
+      "interface": "i1",
+      "current_size": 1,
+      "predictive_size": 1,
+      "refines": true,
+      "reported_comparison_interface": false
+    },
+    {
+      "model": "groupoid_probe_small:cand_0003",
+      "interface": "i0",
+      "current_size": 2,
+      "predictive_size": 2,
+      "refines": true,
+      "reported_comparison_interface": true
+    },
+    {
+      "model": "groupoid_probe_small:cand_0003",
+      "interface": "i1",
+      "current_size": 1,
+      "predictive_size": 1,
+      "refines": true,
+      "reported_comparison_interface": false
+    },
+    {
+      "model": "groupoid_probe_small:cand_0004",
+      "interface": "i0",
+      "current_size": 2,
+      "predictive_size": 3,
+      "refines": true,
+      "reported_comparison_interface": true
+    },
+    {
+      "model": "groupoid_probe_small:cand_0004",
+      "interface": "i1",
+      "current_size": 2,
+      "predictive_size": 1,
+      "refines": false,
+      "reported_comparison_interface": false
+    },
+    {
+      "model": "groupoid_probe_small:cand_0005",
+      "interface": "i0",
+      "current_size": 2,
+      "predictive_size": 3,
+      "refines": true,
+      "reported_comparison_interface": true
+    },
+    {
+      "model": "groupoid_probe_small:cand_0005",
+      "interface": "i1",
+      "current_size": 2,
+      "predictive_size": 1,
+      "refines": false,
+      "reported_comparison_interface": false
+    },
+    {
+      "model": "groupoid_probe_small:cand_0006",
+      "interface": "i0",
+      "current_size": 2,
+      "predictive_size": 2,
+      "refines": true,
+      "reported_comparison_interface": true
+    },
+    {
+      "model": "groupoid_probe_small:cand_0006",
+      "interface": "i1",
+      "current_size": 1,
+      "predictive_size": 1,
+      "refines": true,
+      "reported_comparison_interface": false
+    },
+    {
+      "model": "groupoid_probe_small:cand_0007",
+      "interface": "i0",
+      "current_size": 2,
+      "predictive_size": 2,
+      "refines": true,
+      "reported_comparison_interface": true
+    },
+    {
+      "model": "groupoid_probe_small:cand_0007",
+      "interface": "i1",
+      "current_size": 1,
+      "predictive_size": 1,
+      "refines": true,
+      "reported_comparison_interface": false
+    }
+  ],
+  "refinement_failures": [
+    {
+      "model": "cyclic_memory_small:cand_0000",
+      "interface": "i1",
+      "current_size": 2,
+      "predictive_size": 1,
+      "refines": false,
+      "reported_comparison_interface": false
+    },
+    {
+      "model": "cyclic_memory_small:cand_0001",
+      "interface": "i1",
+      "current_size": 2,
+      "predictive_size": 1,
+      "refines": false,
+      "reported_comparison_interface": false
+    },
+    {
+      "model": "cyclic_memory_small:cand_0002",
+      "interface": "i1",
+      "current_size": 2,
+      "predictive_size": 1,
+      "refines": false,
+      "reported_comparison_interface": false
+    },
+    {
+      "model": "cyclic_memory_small:cand_0003",
+      "interface": "i1",
+      "current_size": 2,
+      "predictive_size": 1,
+      "refines": false,
+      "reported_comparison_interface": false
+    },
+    {
+      "model": "cyclic_memory_small:cand_0004",
+      "interface": "i1",
+      "current_size": 2,
+      "predictive_size": 1,
+      "refines": false,
+      "reported_comparison_interface": false
+    },
+    {
+      "model": "cyclic_memory_small:cand_0005",
+      "interface": "i1",
+      "current_size": 2,
+      "predictive_size": 1,
+      "refines": false,
+      "reported_comparison_interface": false
+    },
+    {
+      "model": "cyclic_memory_small:cand_0006",
+      "interface": "i1",
+      "current_size": 2,
+      "predictive_size": 1,
+      "refines": false,
+      "reported_comparison_interface": false
+    },
+    {
+      "model": "cyclic_memory_small:cand_0007",
+      "interface": "i1",
+      "current_size": 2,
+      "predictive_size": 1,
+      "refines": false,
+      "reported_comparison_interface": false
+    },
+    {
+      "model": "groupoid_probe_small:cand_0000",
+      "interface": "i1",
+      "current_size": 2,
+      "predictive_size": 1,
+      "refines": false,
+      "reported_comparison_interface": false
+    },
+    {
+      "model": "groupoid_probe_small:cand_0001",
+      "interface": "i1",
+      "current_size": 2,
+      "predictive_size": 1,
+      "refines": false,
+      "reported_comparison_interface": false
+    },
+    {
+      "model": "groupoid_probe_small:cand_0004",
+      "interface": "i1",
+      "current_size": 2,
+      "predictive_size": 1,
+      "refines": false,
+      "reported_comparison_interface": false
+    },
+    {
+      "model": "groupoid_probe_small:cand_0005",
+      "interface": "i1",
+      "current_size": 2,
+      "predictive_size": 1,
+      "refines": false,
+      "reported_comparison_interface": false
+    }
+  ],
+  "reported_interface_refinement_passed": true,
+  "full_catalog_refinement_passed": false,
+  "scope": "Reported benchmark and discovery-primary comparisons; terminal catalog failures remain disclosed",
+  "source_sha256": {
+    "paper/main.tex": "43d9dd7a8e94968ad7cf04961525e63a51fc506bbbb6bdfec73ff66f76cf8a16",
+    "paper/references.bib": "77c8b085b25a7f5aecfc9e430aed3626c641852ddcd27c69a9984ea2321c23cd"
+  },
+  "passed": true
+}

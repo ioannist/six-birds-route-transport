@@ -1,0 +1,1027 @@
+\documentclass[11pt]{article}
+\pdfoutput=1
+
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[margin=1in]{geometry}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\newtheorem{theorem}{Theorem}
+\newtheorem{principle}{Principle}
+\usepackage{array}
+\usepackage{booktabs}
+\usepackage{fancyhdr}
+\PassOptionsToPackage{hidelinks}{hyperref}
+\IfFileExists{orcidlink.sty}{\usepackage{orcidlink}}{\newcommand{\orcidlink}[1]{}}
+\usepackage{hyperref}
+
+\graphicspath{{figures/}}
+
+\makeatletter
+\newcommand{\affiliation}[1]{\gdef\@affiliation{#1}}
+\newcommand{\printaffiliation}{\begin{center}\small \@affiliation\end{center}}
+\makeatother
+
+\IfFileExists{generated/metrics.tex}{\newcommand{\CTXMismatchTilt}{0.216506}
+\newcommand{\CTXMismatchZX}{3.11164e-19}
+\newcommand{\CatDistMix}{1.11022e-16}
+\newcommand{\CatIdemErr}{0}
+\newcommand{\CatPurityGlobal}{1}
+\newcommand{\CatPurityLocal}{0.5}
+\newcommand{\DSVisGammaOne}{1}
+\newcommand{\DSVisGammaZero}{0}
+\newcommand{\MKFirstStableTau}{1}
+\newcommand{\NSCondDistZ}{1}
+\newcommand{\NSDistX}{2.22045e-16}
+\newcommand{\NSDistZ}{0}
+\newcommand{\QEAniCorr}{-1}
+\newcommand{\QEVisMinus}{0.999999}
+\newcommand{\QEVisPlus}{1}
+\newcommand{\QEVisUncond}{6.66134e-16}
+\newcommand{\RMDiagonalMax}{0}
+\newcommand{\RMRandomMax}{0.350099}
+\newcommand{\RepoSeed}{0}
+ }{}
+
+\title{A Six-Birds' Eye View of Quantum Theory:\\Operational Closure Semantics for Measurement, Contextuality, and Record Stability}
+\author{Ioannis Tsiokos\,\orcidlink{0009-0009-7659-5964}}
+\affiliation{}
+\date{11 February 2026\\[4pt]{\small Version 2 (revised 16 February 2026) \quad$\cdot$\quad Zenodo v1: \href{https://doi.org/10.5281/zenodo.18608833}{10.5281/zenodo.18608833}}}
+
+\fancypagestyle{firstpage}{\fancyhf{}
+  \fancyfoot[C]{\scriptsize Automorph Inc., Wilmington, DE, USA \quad \texttt{ioannis@automorph.io} \quad \textcopyright\ 2026 \quad CC-BY 4.0 \quad Preprint --- not peer reviewed.\\[2pt] Zenodo: \href{https://doi.org/10.5281/zenodo.18608833}{10.5281/zenodo.18608833}}
+  \renewcommand{\headrulewidth}{0pt}
+  \renewcommand{\footrulewidth}{0pt}
+}
+
+\begin{document}
+\maketitle
+\thispagestyle{firstpage}
+\printaffiliation
+\begin{abstract}
+We present a reproducible computational framework---with Lean~4 mechanized proofs and deterministic Python simulations---that recasts quantum measurement, contextuality, and the measurement problem using operational semantics drawn from Six Birds Theory (SBT), a closure-based emergence calculus. Standard presentations of quantum mechanics mix causal evolution with inferential state update, so ``collapse,'' contextuality, and Schr\"odinger's cat are often treated as physical discontinuities or as evidence for surplus ontology. We separate these roles explicitly: causal substrate dynamics are distinguished from \emph{packaging} (an idempotent closure operation that stabilizes record-level objects via a chosen record algebra). Operationally, we define an SBT theory package $(Z,T,f,Q_f,U_f,E_f,\mathcal{A})$, mechanize its quotient/closure/audit lemmas in Lean~4, and implement a reproducible suite of simulations spanning quantum and classical examples. Our results are comparative and controlled: (i)~dephasing in a fixed record basis is an idempotent packaging map whose fixed points are exactly the diagonal (record-classical) states; (ii)~route mismatch between evolution and packaging is approximately zero when the Hamiltonian is diagonal in the record basis, but nonzero for generic Hamiltonians or incompatible record bases; (iii)~in a double-slit model, decreasing environment-record overlap continuously suppresses fringe visibility, while conditioning in a quantum eraser restores complementary fringes; (iv)~in a system--apparatus--environment measurement model, the global state can remain near-pure while the packaged record state is a classical mixture, and packaging remains idempotent. This role separation localizes which distinctions are layer-relative and yields information-theoretic diagnostics for context dependence and record stability. We do not claim to derive the Born rule or resolve Bell's theorem; instead, we provide a structurally explicit reformulation supported by mechanization and reproducible demonstrations.
+\end{abstract}
+
+\vspace{1ex}
+\noindent\textbf{Keywords:} quantum foundations; contextuality; operational semantics; measurement models; markov kernels; closure operators; data-processing inequality
+
+
+\section{Introduction}
+
+\emph{Six Birds Theory} (SBT) is a closure-based emergence calculus introduced in~\cite{Tsiokos2026SixBirds}; readers unfamiliar with its primitives will find all required definitions self-contained in Section~\ref{sec:sbt}. This paper presents original computational results, mechanized proofs, and reproducible experiments that instantiate the SBT packaging language in the quantum domain.
+
+Quantum mechanics is our most accurate framework for microscopic phenomena, yet its standard presentation invites persistent conceptual puzzles: the state vector appears to collapse discontinuously upon measurement; entanglement correlations are often described as ``spooky action at a distance''; and Schr\"odinger's cat seems to demand macroscopic superpositions of mutually exclusive realities. Much of the interpretational debate concerns what the quantum state \emph{is}---a real physical field, an element of reality, or a bookkeeping device---but typically proceeds within a formalism that conflates causal claims about the world with inferential bookkeeping about what can be recorded.
+
+Following Spekkens, we take seriously the possibility that this is a category mistake.\cite{Spekkens2007Toy} The quantum state is a tool for prediction under limited access; elevating it to an ontic object tends to force ``surplus'' structure (e.g., influences that cannot be used to signal and that never appear in any admissible record). This clashes with a Leibnizian methodological principle: if two scenarios are empirically indiscernible at a given descriptive layer, then they should not be treated as distinct objects of reality at that layer.
+
+We argue that SBT provides a suitable replacement language.\cite{Tsiokos2026SixBirds} It explicitly separates causal substrate dynamics from \emph{packaging} operations that stabilize some distinctions into record-level objects. In this view, ``collapse'' is not a dynamical discontinuity but an idempotent packaging map (a closure) induced by a chosen record algebra; incompatibility of measurement contexts manifests as noncommuting closures (route mismatch), not superluminal causation; and the cat paradox is localized: ``alive vs.\ dead'' becomes an object-level distinction only when a stable record is packaged.\footnote{Reproducibility: all figures and quoted numbers are generated by \texttt{python -m sbtq.run\_all --seed 0 --out artifacts}; see Appendix~\ref{app:repro}.}
+
+\paragraph{Contributions.}
+This paper contributes:
+\begin{itemize}
+  \item A Spekkens-driven reformulation of ``layer realism'' via a Leibniz quotient: empirically indiscernible microdescriptions are identified as the same object at the layer (mechanized in Lean).
+  \item A closure-based account of objecthood in which packaging maps are idempotent and objects correspond to fixed points; contextual incompatibility appears as noncommuting packaging routes (route mismatch), with certified finite witnesses (Lean).
+  \item A quantum instantiation in which dephasing in a record basis plays the role of packaging: it is an idempotent closure whose fixed points are exactly diagonal (record-classical) states (Lean), and whose noncommutation across bases is quantitatively visible (Python).
+  \item Fully reproducible experiments that make the mechanism concrete: double slit with environment overlap, quantum eraser via conditional packaging, quantified route mismatch, the cat (global purity vs.\ packaged mixture and idempotent packaging), staged objecthood in a metastable Markov chain, and no-signalling vs.\ conditioning in an EPR pair (Python).
+\end{itemize}
+
+\paragraph{Computational contributions.}
+From a computer science and information theory perspective, this paper delivers:
+\begin{itemize}
+  \item Mechanized structural lemmas in Lean~4: Leibniz quotient factorization, saturation idempotence, dephasing fixed-point characterization, finite total-variation data-processing inequality, and certified noncommutation witnesses.
+  \item A reproducible Python simulation suite (\texttt{sbtq}) with deterministic seeding, hash-traceable artifacts, and a robustness sweep over ten seeds.
+  \item Information-theoretic diagnostics (route mismatch via trace distance, audit contraction, visibility curves) as operational proxies for context dependence and record stability.
+  \item A Markov-kernel packaging analogue demonstrating timescale-dependent idempotence defect in a purely classical substrate.
+\end{itemize}
+
+\paragraph{Code availability.}
+The repository is available at:
+\begin{itemize}
+  \item \url{https://github.com/ioannist/six-birds-quantum}
+\end{itemize}
+
+\paragraph{Paper map.}
+Section~\ref{sec:spekkens} introduces the Spekkens diagnosis and the Leibnizian layer principle. Section~\ref{sec:sbt} presents the SBT packaging language and fixed-point view of objecthood. Section~\ref{sec:qm-package} maps quantum mechanics into this package and quantifies route mismatch. Section~\ref{sec:doubleslit} treats the double-slit and quantum eraser as objecthood budgeting. Section~\ref{sec:cat} analyzes measurement and the cat in an explicit system--apparatus--environment model. Section~\ref{sec:markov} gives a classical metastable Markov analogue. Section~\ref{sec:no-go} reframes selected no-go pressures in terms of globally compatible packaging assumptions. Section~\ref{sec:discussion} summarizes limitations and future directions.
+ \section{Spekkens' diagnosis and a Leibnizian layer principle}\label{sec:spekkens}
+
+\subsection{The category mistake: inference versus causation}
+
+A recurring source of confusion in quantum foundations is a tacit conflation of two kinds of statements:
+(i)~\emph{causal} statements about what the world does, and
+(ii)~\emph{inferential} statements about what an agent (or an interface) can stably record, compute, or predict.
+Quantum theory, as normally presented, uses a single mathematical object---the quantum state---to serve both roles simultaneously. This conflation is not merely a matter of interpretation; it shapes what counts as a paradox.
+
+Spekkens' central diagnosis is that physicists are making a category mistake: they treat an inferential/completion object (the quantum state) as if it were an element of physical ontology.\cite{Spekkens2007Toy} Once this conflation occurs, standard arguments pressure theorists toward surplus structure---distinctions that are posited to exist in reality but are invisible to any admissible record at the descriptive layer under consideration. The consequences are well known: discontinuous collapse, measurement-induced ``disturbance'' reified as a physical discontinuity, and nonlocal influences that cannot be used to signal and hence cannot be isolated as operationally distinguishable causal mechanisms at the relevant layer.
+
+SBT's starting point is to refuse this conflation. SBT separates substrate dynamics (causal evolution) from packaging (the process that turns some distinctions into stable record-level objects). To motivate this separation as a methodological principle rather than a mere preference, we adopt a Leibnizian stance.
+
+\subsection{OI--EI as a methodological constraint}
+
+\begin{principle}[Ontological identity of empirical indiscernibles (OI--EI)]
+Fix a descriptive layer (a choice of admissible lenses/records/experiments). If two putative scenarios are empirically indiscernible under \emph{all} admissible experiments at that layer, then those two scenarios must be identified as the same object of description at that layer.
+\end{principle}
+
+This identification is layer-relative (analogous to quotienting gauge redundancy): OI--EI does not deny microstructure; it denies only that empirically silent distinctions are objects of the chosen layer.
+The principle is not a metaphysical postulate. Rather, OI--EI is a constraint on theory language: one should not build into a layer's ontology distinctions that the layer itself cannot, even in principle, stably witness. Spekkens' critique of many quantum ``solutions'' is that they preserve the standard formalism by paying with precisely such surplus structure.
+
+\subsection{Formalization: empirical equivalence from a family of lenses}
+
+Let $Z$ be a space of microdescriptions (``substrate states''). A layer is specified by a family of \emph{lenses}
+\[
+ f_i : Z \to X_i,\qquad i\in I,
+\]
+where $f_i(z)$ represents what is accessible to the layer via experiment or interface~$i$.
+(For simplicity, one may take a common codomain~$X$ and write $f_i : Z\to X$; the construction below does not depend on this choice.)
+
+Define an empirical equivalence relation:
+\[
+ z \sim z' \quad\Longleftrightarrow\quad \forall i\in I,\ f_i(z)=f_i(z').
+\]
+By construction, $z\sim z'$ means that the layer cannot distinguish $z$ from $z'$ using any admissible lens in the family. OI--EI then dictates that such states must be identified as the same object at that layer.
+
+\subsection{The Leibniz quotient and its universal property}
+
+The correct object space for the layer is therefore the quotient $Z/{\sim}$: an ``object'' at the layer is not a microstate, but an equivalence class of empirically indistinguishable microstates.
+Moreover, each admissible lens must factor through this quotient, because by definition lens values are constant on equivalence classes.
+
+\begin{theorem}[Leibniz quotient factorization]\label{thm:leibniz-quotient}
+Let $Z$ be a type of microdescriptions and let $\{f_i : Z\to X\}_{i\in I}$ be a family of lenses. Define $z\sim z'$ iff $f_i(z)=f_i(z')$ for all $i$.
+Then:
+\begin{enumerate}
+  \item The relation $\sim$ is an equivalence relation, hence determines a quotient map $q: Z\to Z/{\sim}$.
+  \item Each lens $f_i$ factors through the quotient: there exists a unique $\bar f_i : Z/{\sim}\to X$ such that $\bar f_i\circ q = f_i$.
+  \item (Universal property) If $g:Z\to Y$ is constant on $\sim$-classes, then there exists a unique $\bar g: Z/{\sim}\to Y$ with $\bar g\circ q = g$.
+\end{enumerate}
+\end{theorem}
+
+The universal property itself is standard quotient mathematics; the substantive move is the methodological constraint that the lens family defines the layer's ontology. Theorem~\ref{thm:leibniz-quotient} is the precise mathematical statement of ``empirical indiscernibility implies ontological identity at the layer'': the layer's objects are exactly the equivalence classes, and every layer-expressible quantity factors uniquely through these classes. In the accompanying repository, this factorization is mechanized in Lean~4 (see \texttt{lean/Sbtq/Sbtq/LeibnizQuotient.lean}, specifically \texttt{quotient\_lift\_exists\_unique} and \texttt{liftLens\_comp\_q}; see Appendix~\ref{app:lean} for a consolidated table of mechanized statements).
+
+\subsection{A finite example (mirroring the mechanization)}
+
+Let $Z=\{\texttt{Bool}\}\times\{\texttt{Bool}\}$, and consider a layer with a single lens $f(z)=z_1$ that reads only the first bit. Then $(\texttt{true},\texttt{false})\sim(\texttt{true},\texttt{true})$ because the lens cannot access the second component. The Leibniz quotient has exactly two objects: the class whose first bit is \texttt{false} and the class whose first bit is \texttt{true}. Any layer-expressible predicate must therefore depend only on~$z_1$; treating the second bit as an object-level distinction would violate OI--EI for this layer.
+
+This example provides the structural template that we will reuse for quantum theory: the relevant ``objects'' are determined by what can become a stable record at the layer, not by the full microdescription. The rest of the paper instantiates this quotient-and-factorization logic using packaging maps (closures) that stabilize record-level distinctions.
+ \section{Six Birds Theory as a packaging language}\label{sec:sbt}
+
+This section fixes notation for the rest of the paper. The guiding idea is that
+a descriptive \emph{layer} is specified not only by a state space, but also by what can be \emph{stably expressed and recorded} at an interface.
+SBT encodes this idea by separating causal substrate evolution from packaging operations that stabilize distinctions into record-level objects.\cite{Tsiokos2026SixBirds}
+
+\subsection{Six Birds recap: how the primitives specialize here}
+
+The six primitives of SBT are retained as defined in~\cite{Tsiokos2026SixBirds}; what varies is how they specialize in the quantum packaging setting of this paper. We summarize their roles to anchor the notation.
+
+\paragraph{P1: Operator rewrite (closure).}
+Closed macro dynamics exists only when packaging yields a stable description of evolution; when it does not, one must rewrite/repair the effective operator. Here P1 appears as the demand that packaged evolution is well-defined and stable under reapplication.
+
+\paragraph{P2: Constraints (feasibility).}
+Constraints specify what record distinctions and interventions are admissible. In quantum settings this corresponds to feasible record algebras and instrument constraints that delimit what can be stably recorded.
+
+\paragraph{P3: Protocols / route mismatch.}
+P3 diagnoses noncommuting reduction routes: the order of packaging and evolution (or two packaging contexts) can matter. This is quantified as route mismatch.
+
+\paragraph{P4: Staging (timescales).}
+Staging introduces a timescale parameter $\tau$ for how much substrate evolution occurs between packaging steps, yielding $E_{\tau,f}=U_f Q_f T_\tau$.
+
+\paragraph{P5: Packaging (quotienting indistinguishability).}
+Packaging constructs the layer’s effective objects by collapsing distinctions not stabilized by the record algebra; fixed points of packaging are the record-level objects.
+
+\paragraph{P6: Accounting (audits/monotones).}
+Audits quantify what survives coarse access; in this paper total variation, trace distance, and related monotones enforce ``no false positives'' under packaging.
+
+\begin{table}[t]
+\centering
+\small
+\begin{tabular}{@{}>{\raggedright\arraybackslash}p{0.18\linewidth}p{0.77\linewidth}@{}}
+\toprule
+\textbf{Primitive (Bird)} & \textbf{Role in quantum packaging (this paper)} \\
+\midrule
+P1 Operator rewrite & Closed packaged dynamics and stable closure under reapplication. \\
+P2 Constraints & Feasible record algebras and admissible interventions. \\
+P3 Protocols / route mismatch & Noncommuting packaging routes or packaging vs evolution. \\
+P4 Staging & Timescale $\tau$ controlling how much evolution occurs between packaging steps. \\
+P5 Packaging & Quotienting indistinguishability; record-level objects as fixed points. \\
+P6 Accounting & Audit monotones (e.g., trace distance) that contract under coarse access. \\
+\bottomrule
+\end{tabular}
+\caption{How the six SBT primitives specialize to the quantum packaging language used here.}
+\label{tab:six-birds-quantum}
+\end{table}
+
+\subsection{Theory packages}
+
+A (minimal) SBT-style theory package will be written as
+\[
+(Z,\ T,\ f,\ Q_f,\ U_f,\ E_f,\ \mathcal{A}),
+\]
+with the following roles.
+
+\paragraph{Substrate.}
+$Z$ is the space of microdescriptions (``substrate states''). In classical examples, $Z$ might be a finite set of microstates; in quantum instantiations, $Z$ may be a space of density operators on a composite Hilbert space that includes system, apparatus, and environment.
+
+\paragraph{Causal evolution.}
+$T$ denotes substrate dynamics. Concretely, $T$ is a time-indexed family $(T_\tau)_{\tau\ge 0}$ acting on substrate states (or distributions over~$Z$), representing causal propagation.
+
+\paragraph{Lens (record interface).}
+$f$ denotes a layer interface (a family of admissible lenses/records/queries, as defined in Section~\ref{sec:spekkens}). Concretely, $f$ determines which distinctions can become record-level variables.
+
+\paragraph{Coarse access and completion.}
+$Q_f$ is a coarse-graining map (``what the layer can read''), and $U_f$ is a completion/standardization map (``how the layer represents what it reads'').
+The exact types of $Q_f$ and $U_f$ depend on the setting:
+in a classical finite setting, $Q_f$ may push forward a distribution on~$Z$ to a distribution over record values;
+in quantum settings, $Q_f$ may discard degrees of freedom (via partial trace) or restrict observables to a subalgebra.
+
+\paragraph{Packaging map.}
+The packaging endomap induced by the lens is
+\[
+E_f := U_f \circ Q_f.
+\]
+When causal evolution at timescale~$\tau$ is relevant, we use the composed operator
+\[
+E_{\tau,f} := U_f \circ Q_f \circ T_\tau .
+\]
+Packaging should be read as a \emph{layer update} (stabilizing expressible distinctions), not as a new causal law.
+
+\paragraph{Audit/monotones.}
+$\mathcal{A}$ denotes an ``audit'' family: distinguishability measures that must be non-increasing under admissible coarse access. Concretely, this requirement is a data-processing constraint:
+coarse-graining should not create spurious distinguishability. In classical settings, we use total variation distance; in quantum settings, standard choices include trace distance and relative entropy. For any CPTP map~$\Phi$, trace distance contracts:
+\[
+\tfrac12\|\Phi(\rho)-\Phi(\sigma)\|_1 \le \tfrac12\|\rho-\sigma\|_1,
+\]
+and relative entropy is monotone under CPTP maps.\cite{NielsenChuang2010QCQI,Lindblad1975EntropyIneq} We cite these standard facts rather than re-prove them here.
+
+\subsection{Packaging as closure}
+
+A central structural postulate is that packaging behaves like a closure operator: applying packaging twice does not add new record-level content.
+In the simplest (state-space) form, this postulate is the idempotence condition
+\[
+E_f \circ E_f \;=\; E_f.
+\]
+More generally (and closer to the OI--EI viewpoint), closures can be defined on sets via saturation under an empirical equivalence relation; both the state-space and set-saturation pictures agree on the fixed-point characterization described below.
+
+\paragraph{Set-level closure from an equivalence.}
+Given an equivalence relation~$\sim$ on~$Z$, define the saturation (``closure'') of a subset $A\subseteq Z$ by
+\[
+\mathrm{sat}_\sim(A) := \{\, z\in Z : \exists a\in A,\ z\sim a \,\}.
+\]
+This saturation operator satisfies the closure axioms:
+\begin{itemize}
+  \item (Extensive) $A \subseteq \mathrm{sat}_\sim(A)$.
+  \item (Monotone) $A\subseteq B \Rightarrow \mathrm{sat}_\sim(A)\subseteq \mathrm{sat}_\sim(B)$.
+  \item (Idempotent) $\mathrm{sat}_\sim(\mathrm{sat}_\sim(A)) = \mathrm{sat}_\sim(A)$.
+\end{itemize}
+\paragraph{Two closure viewpoints.}
+Set-level closure is a genuine closure operator on subsets, and set-level closure is what we mechanize in Lean. State-level packaging maps are idempotent endomaps (projectors/retractions) on a state space. In this paper, we rely only on idempotence and fixed points as the notion of objecthood, without claiming a general equivalence between the two viewpoints.
+
+In the accompanying repository, these properties are mechanized in Lean (see \texttt{Packaging\-From\-Equivalence.lean}, specifically \texttt{sat\_idem}; see Appendix~\ref{app:lean} for a consolidated table of mechanized statements).
+
+\subsection{Objects as fixed points}
+
+SBT treats \emph{objecthood} as layer-relative: an ``object'' is whatever remains invariant under packaging at that layer.
+This definition is expressed as a fixed-point condition.
+
+\paragraph{State-level view.}
+If $E_f$ acts on a state space (distributions, density matrices, etc.), then the record-level objects are the fixed points
+\[
+\mathrm{Fix}(E_f) := \{\rho : E_f(\rho)=\rho\}.
+\]
+These fixed points are precisely the states that are already diagonal (record-classical) in the chosen record language, so packaging adds nothing further.
+
+\paragraph{Set-level view.}
+For the saturation closure above, the fixed points are exactly unions of equivalence classes:
+\[
+\mathrm{sat}_\sim(A)=A \quad\Longleftrightarrow\quad
+\text{$A$ is a union of $\sim$-classes.}
+\]
+This characterization is mechanized in Lean as \texttt{sat\_eq\_iff\_unionOfClasses} (and an explicit union form in \texttt{sat\_eq\_iUnion\_classOf}).
+
+\paragraph{Alignment of quotient and fixed points.}
+If $E:S\to S$ is idempotent, define $x\sim_E y \iff E(x)=E(y)$. Then the quotient $S/{\sim_E}$ is canonically represented by $\mathrm{Fix}(E)=\{x:E(x)=x\}$ (equivalently, by $\mathrm{Im}(E)$). Thus the quotient picture and the fixed-point picture are compatible: packaging supplies canonical representatives of empirical equivalence classes.
+
+\subsection{Route mismatch as noncommuting packaging}
+
+Different experimental contexts typically induce different packaging maps.
+A key diagnostic in SBT is that these different packaging routes need not be mutually compatible.
+
+\paragraph{Noncommutation.}
+Given two packaging maps $E$ and $F$ (endomaps on the same space), incompatibility can be stated as noncommutation:
+\[
+E\circ F \neq F\circ E,
+\]
+or witnessed pointwise by the existence of some input~$\rho$ such that $E(F(\rho))\neq F(E(\rho))$.
+
+\paragraph{Route mismatch.}
+Quantitatively, one can measure a route mismatch by a metric $d$:
+\[
+\mathrm{RM}_d(E,F;\rho) := d\big(E(F(\rho)),\,F(E(\rho))\big),
+\]
+and consider a worst-case mismatch $\sup_\rho \mathrm{RM}_d(E,F;\rho)$ over a class of states.
+In the quantum experiments below we take $d$ to be trace distance.
+
+\paragraph{Certified finite witness.}
+The existence of noncommuting idempotents is not a peculiarity of quantum theory; it is a structural possibility that arises whenever one admits multiple closures.
+In the accompanying repository, we include a minimal finite example: two idempotent endomaps on \texttt{Fin~4} that do not commute (see \texttt{lean/Sbtq/Sbtq/RouteMismatch.lean}, specifically \texttt{mismatch\_witness} and \texttt{not\_commute\_E\_F}).
+
+\subsection{Implications for quantum theory}
+
+With this language in place, the later sections are instantiations:
+\begin{itemize}
+  \item Causal evolution corresponds to unitary or open dynamics on a substrate.
+  \item Packaging corresponds to enforcing a record algebra (often dephasing in a pointer basis).
+  \item ``Collapse'' becomes idempotent bookkeeping (a closure).
+  \item Contextual incompatibility becomes route mismatch between closures.
+  \item Audits restrict how much apparent structure can be generated by coarse access.
+\end{itemize}
+ \section{Quantum mechanics as a packaging theory}\label{sec:qm-package}
+
+This section instantiates the SBT package of Section~\ref{sec:sbt} within finite-dimensional quantum mechanics.
+The aim is not to reinterpret quantum dynamics, but to separate two kinds of maps that are often conflated:
+(1)~causal substrate evolution and (2)~packaging into record-level objects.
+
+\subsection{Substrate and microdynamics}
+
+Let $\mathcal{H}$ be a finite-dimensional Hilbert space, and let substrate descriptions be density operators
+$\rho \in \mathsf{D}(\mathcal{H})$.\cite{NielsenChuang2010QCQI}
+Causal evolution is a family of completely positive trace-preserving (CPTP) maps~$T_\tau$.\cite{NielsenChuang2010QCQI}
+In the closed-system idealization,
+\[
+T_\tau(\rho)=U_\tau \rho U_\tau^\dagger
+\]
+for a unitary $U_\tau = e^{-iH\tau}$.
+More generally, the substrate may be enlarged to include an apparatus and environment,
+$\mathcal{H}=\mathcal{H}_S\otimes \mathcal{H}_A\otimes \mathcal{H}_E$,
+and $T_\tau$ may consist of unitary evolution on the composite followed by discarding inaccessible degrees of freedom.
+
+\subsection{Lenses as record algebras}
+
+A layer is specified by what counts as a stable record.
+In quantum mechanics, a layer is naturally modeled by a choice of \emph{record algebra} (or pointer basis) on an apparatus register.\cite{Zurek2003Decoherence}
+Operationally, this choice corresponds to a choice of instrument outcomes or a preferred commuting subalgebra of observables;
+the record algebra is the quantum analogue of a lens family $\{f_i\}$ from Section~\ref{sec:spekkens}.
+
+SBT distinguishes (i)~the existence of substrate correlations from (ii)~whether a distinction is packaged into an object at the layer.
+The latter---whether a distinction becomes a layer-level object---is governed by packaging maps induced by the record algebra.
+
+\subsection{Coarse access $Q_f$ and completion $U_f$}
+
+Two standard quantum constructions play the SBT roles of coarse access and completion.
+
+\paragraph{Discard/inaccessibility ($Q_f$).}
+If some degrees of freedom are not accessible at the layer, coarse access is modeled by discarding those degrees of freedom.
+For $\rho_{SE}\in \mathsf{D}(\mathcal{H}_S\otimes \mathcal{H}_E)$, coarse access is the partial trace over~$\mathcal{H}_E$:
+\[
+Q_f(\rho_{SE}) := \mathrm{Tr}_E(\rho_{SE}).
+\]
+
+\paragraph{Canonical completion ($U_f$).}
+A record algebra selects which coherences are meaningful at the layer.
+A canonical completion chooses a representative state compatible with that record structure.
+The simplest example is diagonal completion in a record basis: retain the diagonal elements (record probabilities) and discard off-diagonal elements (unpackaged phase relations).
+(Maximum-entropy completion can be used in other settings, but we will not need it here.)
+In general, $U_f$ is a canonical representative choice at the description level; in the quantum instantiation, we often take the combined packaging map~$E_f$ itself to be a CPTP map (e.g., dephasing) that enforces the record algebra.
+
+\subsection{Packaging as dephasing (collapse as closure)}
+
+Fix a record basis $\{|i\rangle\}$ on the record register.
+Define the dephasing (``diagonal projection'') map as
+\[
+\Delta(\rho) := \sum_i \langle i|\rho|i\rangle\, |i\rangle\!\langle i|.
+\]
+Equivalently,
+\[
+\Delta(\rho)=\sum_i \Pi_i \rho \Pi_i,\quad \text{where } \Pi_i = |i\rangle\!\langle i|.
+\]
+This dephasing map is the nonselective L\"uders update for the projective measurement in that basis.\cite{NielsenChuang2010QCQI} Idempotence here corresponds to an ideal repeatable-record regime; generic POVMs and instruments need not yield idempotent nonselective updates.
+In SBT terms, $\Delta$ is a packaging map: $\Delta$ enforces the record algebra by removing distinctions (off-diagonal coherences) that are not stabilized as record-level objects.
+
+The key structural point is that packaging is a closure: applying packaging twice does nothing further.
+
+\begin{theorem}[Dephasing is an idempotent packaging map]\label{thm:dephase}
+Let $\Delta$ be dephasing in a fixed basis.
+Then:
+\begin{enumerate}
+  \item (Idempotence) $\Delta(\Delta(\rho))=\Delta(\rho)$ for all $\rho$.
+  \item (Fixed points) $\Delta(\rho)=\rho$ iff $\rho$ is diagonal in that basis (equivalently, $\rho=\mathrm{diag}(v)$ for some $v$).
+\end{enumerate}
+\end{theorem}
+
+Theorem~\ref{thm:dephase} is mechanized in Lean (see \texttt{lean/Sbtq/Sbtq/QuantumDephase.lean}, specifically \texttt{dephase\_idem} and \texttt{dephase\_fixed\_iff\_exists\_diagonal}).
+In this formal sense, ``collapse'' (in a chosen record basis) is not a new causal law: collapse is an idempotent packaging update whose fixed points are precisely the record-classical states.
+
+It is important to distinguish nonselective updates from selective updates. The map~$\Delta$ (or discarding record information) corresponds to a nonselective update that produces a mixture over outcomes. By contrast, a definite observed outcome corresponds to conditioning on a particular record value---that is, a selective update that refines the state within a chosen record algebra.
+
+\subsection{Route mismatch: contextual incompatibility as noncommuting packaging}
+
+Different measurement contexts correspond to different record algebras and hence to different packaging maps.
+SBT predicts that these packaging routes need not commute.
+This noncommutation is not a mysterious physical influence; it is a structural statement about incompatible closures (see Section~\ref{sec:sbt}).
+
+We quantify mismatch using trace distance:
+\[
+\mathrm{RM}(\Delta_1,\Delta_2;\rho) := \tfrac12\|\Delta_1(\Delta_2(\rho))-\Delta_2(\Delta_1(\rho))\|_1.
+\]
+Mismatch is state-dependent and vanishes on the joint fixed-point set (e.g., for states that are incoherent in the relevant bases, or for the maximally mixed state), so coherence relative to the packaging contexts is a prerequisite for observing nonzero mismatch.
+In our experiments, generic incompatible bases yield nonzero mismatch.
+For a tilted basis packaging composed with computational-basis dephasing, the mismatch at a fixed witness state is
+\[
+\texttt{\CTXMismatchTilt},
+\]
+while the special $Z$/$X$ case is numerically zero at machine precision:
+\[
+\texttt{\CTXMismatchZX}.
+\]
+(These values are generated deterministically with seed \texttt{\RepoSeed}.) The qubit $Z$/$X$ case is a special commuting limit: route mismatch is a diagnostic of incompatibility, not its definition, and some incompatible closures can commute in specific cases.
+
+\subsection{Measured mismatch under dynamics}
+
+Packaging can also fail to commute with causal propagation.
+A canonical diagnostic compares
+\[
+\Delta(U_\tau \rho U_\tau^\dagger)
+\quad\text{versus}\quad
+U_\tau \Delta(\rho) U_\tau^\dagger.
+\]
+For generic Hamiltonians, this comparison produces a nonzero route mismatch; for Hamiltonians diagonal in the dephasing basis, the mismatch vanishes.
+In our parameter sweep, the maximum mismatch for a random Hamiltonian was \texttt{\RMRandomMax}, while for a diagonal Hamiltonian the maximum mismatch was \texttt{\RMDiagonalMax} (seed \texttt{\RepoSeed}).
+
+\begin{figure}[t]
+  \centering
+  \includegraphics[width=0.95\linewidth]{route_mismatch_vs_time.png}
+  \caption{Route mismatch between causal evolution and packaging: $\Delta(U_\tau \rho U_\tau^\dagger)$ versus $U_\tau\Delta(\rho)U_\tau^\dagger$.}
+  \label{fig:rm-time}
+\end{figure}
+
+\begin{figure}[t]
+  \centering
+  \includegraphics[width=0.95\linewidth]{route_mismatch_heatmap.png}
+  \caption{Route mismatch across packaging strength and time (partial dephasing). The commuting (diagonal) case yields essentially zero mismatch.}
+  \label{fig:rm-heat}
+\end{figure}
+
+\begin{figure}[t]
+  \centering
+  \includegraphics[width=0.95\linewidth]{dephase_contexts_mismatch.png}
+  \caption{Incompatible record bases define different closures. For a tilted basis the closures do not commute (nonzero mismatch), and alternating packaging drives states toward the fixed-point intersection.}
+  \label{fig:ctx-mismatch}
+\end{figure}
+
+\paragraph{Summary.}
+Quantum mechanics already contains the ingredients of an SBT package:
+unitary or open dynamics for substrate causation, and idempotent packaging maps for record-level objecthood.
+Once these roles are separated, ``collapse'' is recognized as a closure operation, and contextual incompatibility becomes route mismatch between closures rather than a puzzle requiring superluminal beables (posited real-valued quantities, in Bell's terminology).
+ \section{Double slit and quantum eraser as objecthood budgeting}\label{sec:doubleslit}
+
+The double-slit experiment is often framed as a ``wave versus particle'' dilemma.
+In the SBT packaging language, a more precise description is: the double-slit experiment is a controlled demonstration of \emph{when a distinction becomes an object of the operative layer}.
+The relevant distinction is ``which slit did the particle pass through?''
+If this distinction is not packaged into a stable record, the layer's correct composition rule is coherent superposition (producing interference);
+if the distinction is packaged, the correct rule is a classical mixture (no interference).
+
+\subsection{A minimal model with explicit record overlap}
+
+Let the slit degree of freedom be spanned by $\{|A\rangle,|B\rangle\}$, and let $|x\rangle$ denote a screen position basis.
+After the slits, consider the coherent preparation
+\[
+|\psi\rangle = \tfrac{1}{\sqrt2}\left(|A\rangle + |B\rangle\right).
+\]
+Let $U$ be the propagation operator from the slit plane to the screen, and define the two path amplitudes as
+\[
+\psi_A(x) := \langle x|U|A\rangle,\qquad \psi_B(x) := \langle x|U|B\rangle.
+\]
+Without any which-path record, the detection probability at position~$x$ is
+\[
+P(x) = \left|\tfrac{1}{\sqrt2}(\psi_A(x)+\psi_B(x))\right|^2
+     = \tfrac12\left(|\psi_A(x)|^2+|\psi_B(x)|^2\right)
+       + \mathrm{Re}\!\left(\psi_A(x)^\ast\psi_B(x)\right).
+\]
+The last term is the interference term.
+
+Now model any which-path record (including uncontrolled environmental coupling) by an environment register~$\mathcal{E}$ that becomes correlated with the path:
+\[
+|A\rangle|\mathcal{E}_0\rangle \mapsto |A\rangle|\mathcal{E}_A\rangle,\qquad
+|B\rangle|\mathcal{E}_0\rangle \mapsto |B\rangle|\mathcal{E}_B\rangle.
+\]
+The joint state becomes
+\[
+|\Psi\rangle=\tfrac{1}{\sqrt2}\big(|A\rangle|\mathcal{E}_A\rangle + |B\rangle|\mathcal{E}_B\rangle\big).
+\]
+If the environment record is not retained or conditioned upon at the screen, the observed statistics are
+\[
+P(x)=\tfrac12\left(|\psi_A(x)|^2+|\psi_B(x)|^2\right)
++\mathrm{Re}\!\left(\psi_A(x)^\ast\psi_B(x)\,\langle \mathcal{E}_B|\mathcal{E}_A\rangle\right).
+\]
+Thus the interference visibility is controlled by the record overlap~$\gamma$:\cite{Englert1996Visibility}
+\[
+\gamma := \langle \mathcal{E}_B|\mathcal{E}_A\rangle.
+\]
+When $\gamma=1$, the record carries no distinguishability and interference is maximal; when $\gamma=0$, the record is perfectly distinguishing and interference vanishes.
+
+\subsection{SBT interpretation: when a distinction becomes an object}
+
+In SBT terms, ``which slit?'' is not automatically an object of the operative layer.
+The distinction ``which slit?'' becomes an object precisely when the substrate supports a stable, distinguishable carrier of that distinction.
+In the equation above, this occurs exactly in the limit $|\gamma|\to 0$:
+the environment states become orthogonal, the distinction becomes recordable, and the interference term disappears.
+
+Conversely, when $|\gamma|$ is near~$1$, the layer cannot stably split the description into ``path~$A$ occurred'' versus ``path~$B$ occurred'' without inventing surplus structure.
+The correct layer description is then to compose the two alternatives coherently, producing interference.
+
+\subsection{Reproducible visibility curves}
+
+Figure~\ref{fig:ds-patterns} shows the screen patterns for several values of~$|\gamma|$ in a far-field minimal model.
+Figure~\ref{fig:ds-visibility} shows that the extracted fringe visibility tracks~$|\gamma|$ as expected.
+Both figures are generated deterministically by repository experiment \texttt{EXP-DS1} (see Appendix~\ref{app:repro}).
+
+\begin{figure}[t]
+  \centering
+  \includegraphics[width=0.95\linewidth]{double_slit_patterns.png}
+  \caption{Double slit patterns as the record overlap $|\gamma|$ decreases: interference fades exactly as a stable which-path record forms.}
+  \label{fig:ds-patterns}
+\end{figure}
+
+\begin{figure}[t]
+  \centering
+  \includegraphics[width=0.75\linewidth]{double_slit_visibility.png}
+  \caption{Extracted visibility versus record overlap magnitude $|\gamma|$ in the minimal model.}
+  \label{fig:ds-visibility}
+\end{figure}
+
+\subsection{Quantum eraser as repackaging (not retrocausality)}
+
+The same logic explains ``quantum eraser'' phenomena without invoking any backwards-in-time influence.\cite{ScullyDruhl1982,Kim2000DelayedChoice}
+Marking which-path information correlates the path with an environment degree of freedom, driving~$|\gamma|$ toward~$0$ and eliminating interference in the \emph{unconditional} statistics.
+However, if one subsequently conditions on an environment measurement performed in a basis that does \emph{not} preserve the which-path split (e.g., the $\{|\pm\rangle\}$ basis for an environment qubit),
+then within each conditioned subensemble the effective overlap is restored and interference reappears, with complementary phase shifts between the two subensembles.
+
+This is packaging language: different conditioning choices correspond to different ways of carving the joint state into record-level objects.
+Nothing needs to ``change the past''; what changes is which distinctions are stabilized and reported at the layer.
+
+\begin{figure}[t]
+  \centering
+  \includegraphics[width=0.95\linewidth]{quantum_eraser_unconditional.png}
+  \caption{Quantum eraser: unconditional statistics after which-path marking (interference suppressed).}
+  \label{fig:qe-uncond}
+\end{figure}
+
+\begin{figure}[t]
+  \centering
+  \includegraphics[width=0.95\linewidth]{quantum_eraser_conditional.png}
+  \caption{Quantum eraser: conditional subensembles after measuring the environment in the $\{|\pm\rangle\}$ basis (interference restored with opposite phase).}
+  \label{fig:qe-cond}
+\end{figure}
+ \section{Measurement, collapse, and the cat}\label{sec:cat}
+
+The measurement problem is often phrased as a contradiction: unitary evolution produces superpositions, yet measurements yield definite outcomes.
+Schr{\"o}dinger's cat is the canonical thought experiment illustrating this tension.\cite{Schrodinger1935PresentSituation}
+In the SBT packaging language, the tension is resolved by separating:
+(i)~substrate dynamics, which can correlate system, apparatus, and environment coherently, from
+(ii)~packaging, which stabilizes a record algebra and thereby determines what counts as an object-level distinction at the layer.
+
+\subsection{A minimal system--apparatus--environment model}
+
+Let $S$ be a two-level system (representing the ``cat'' degree of freedom at the most schematic level), let $A$ be an apparatus pointer register, and let $\mathcal{E}$ be an environment (comprising degrees of freedom that carry away phase information).
+Consider the following sequence:
+\begin{enumerate}
+  \item Prepare $S$ in a superposition $|\psi\rangle_S = \alpha|0\rangle + \beta|1\rangle$ and prepare $A$ in a ready state $|0\rangle_A$.
+  \item Apply a measurement interaction that correlates $S$ with the pointer---for example, a controlled-NOT gate $U_{SA}$ from $S$ to $A$:
+  \[
+  (\alpha|0\rangle_S+\beta|1\rangle_S)|0\rangle_A \mapsto \alpha|0\rangle_S|0\rangle_A + \beta|1\rangle_S|1\rangle_A.
+  \]
+  \item Allow the pointer to form a record by correlating with~$\mathcal{E}$ (or, equivalently for the layer's purposes, apply a dephasing channel in the pointer basis).
+\end{enumerate}
+
+At the substrate level, there is no requirement that the joint state become mixed: the composite $SA\mathcal{E}$ can remain pure under unitary evolution.
+What changes between ``superposition'' and ``definite record'' is not the causal law, but rather which distinctions are stabilized as objects by packaging at the layer.
+
+\subsection{Packaging in the pointer basis}
+
+Fix the pointer basis $\{|0\rangle_A,|1\rangle_A\}$ and define the packaging map as dephasing on~$A$ (possibly after discarding~$\mathcal{E}$):
+\[
+\mathrm{Pack}(\rho_{SA}) := \Delta_A(\rho_{SA}),
+\]
+where $\Delta_A$ removes off-diagonal coherence between distinct pointer values.
+This map is a closure: applying it twice does nothing further.
+
+The map $\mathrm{Pack}$ is a nonselective record-level update: it produces a mixture over pointer outcomes without specifying which outcome occurred. A definite observed outcome corresponds to conditioning on a particular pointer record---that is, a selective update that refines the state given the recorded value. This inferential refinement is treated separately from substrate dynamics.
+
+The operational content of ``collapse'' is then the following: once the record algebra is enforced, the layer must represent the joint state as a classical mixture over pointer records, with corresponding conditional system states.
+This representation is a bookkeeping update about objecthood at the layer, not a new causal discontinuity.
+
+\subsection{Reproducible diagnostics: global purity, packaged mixture, idempotence}
+
+Figure~\ref{fig:cat-packaging} shows the state before and after packaging in our explicit qubit model (repository experiment \texttt{EXP-CAT1}; see Appendix~\ref{app:repro}).
+The numerical diagnostics align with the SBT interpretation:
+\begin{itemize}
+  \item The global post-interaction state (including the environment when modeled explicitly) can be essentially pure.
+  \item The reduced $SA$ state after record formation or discard is mixed.
+  \item The packaged state is (to numerical precision) a classical mixture in the pointer basis.
+  \item Packaging is idempotent.
+\end{itemize}
+
+\begin{figure}[t]
+  \centering
+  \includegraphics[width=0.95\linewidth]{cat_packaging.png}
+  \caption{System--apparatus measurement model: global coherence can persist in the substrate description while the packaged, record-level description is a classical mixture in the pointer basis.}
+  \label{fig:cat-packaging}
+\end{figure}
+
+\begin{table}[t]
+  \centering
+  \begin{tabular}{l r}
+    \toprule
+    Diagnostic (from \texttt{EXP-CAT1}) & Value \\
+    \midrule
+    Global purity after record interaction $\mathrm{Tr}(\rho_{SA\mathcal{E}}^2)$ & \CatPurityGlobal \\
+    Local purity after record formation $\mathrm{Tr}(\rho_{SA}^2)$ & \CatPurityLocal \\
+    Distance(packaged state, pointer-basis mixture) & \CatDistMix \\
+    Idempotence error $\|\mathrm{Pack}(\mathrm{Pack}(\rho))-\mathrm{Pack}(\rho)\|$ & \CatIdemErr \\
+    \bottomrule
+  \end{tabular}
+  \caption{Measured diagnostics supporting ``collapse as packaging'': the packaged description is mixture-like and idempotent, while the substrate can remain coherent globally.}
+  \label{tab:cat-metrics}
+\end{table}
+
+\subsection{Why the paradox is a category mistake}
+
+The traditional paradox arises when one treats the substrate state (a tool for composing amplitudes and tracking correlations) as an object-level description of macroscopic alternatives.
+In the packaging language, macroscopic alternatives become object-level distinctions only when those alternatives are stabilized by a record algebra.
+Before that stabilization, insisting that the layer already contains a definite object-level fact about mutually exclusive outcomes is precisely the kind of surplus distinction that Spekkens' Leibnizian stance warns against.
+
+SBT does not deny that unitary dynamics can correlate microscopic degrees of freedom in ways that, under a later packaging, yield definite records.
+SBT denies that objecthood is free or layer-independent.
+The cat is not ``both outcomes at once'' as an object of the record layer; rather, the record layer's objects are determined by packaging, and collapse is the idempotent closure that enforces that objecthood.
+ \section{A classical analogue: staged objecthood in metastable Markov dynamics}\label{sec:markov}
+
+SBT's central mechanism---that objecthood is layer-relative and stabilized by packaging---is not uniquely quantum.
+A purely classical substrate with coarse access can exhibit the same structure: at certain timescales, coarse variables behave like stable objects; at other timescales, they do not.
+
+\subsection{Metastable substrate and a basin lens}
+
+Let $Z$ be a finite set of microstates, and let $P$ be a Markov kernel on~$Z$.\cite{Norris1997}
+Write $T_\tau$ for $\tau$ steps of evolution acting on a microdistribution~$\mu$:
+\[
+T_\tau(\mu) = \mu P^\tau.
+\]
+Assume that $P$ has (at least) two metastable basins with weak coupling: rapid mixing within each basin and rare transitions between basins.
+
+Define a basin lens (coarse record variable)
+\[
+f : Z \to X,
+\]
+where $X$ is a small set of macro labels (e.g., ``left basin'' versus ``right basin'').
+
+\subsection{Prototypes and the packaging operator $E_{\tau,f}$}
+
+Coarse access pushes a microdistribution forward to a distribution over basins:
+\[
+Q_f(\mu)(x) := \sum_{z\in Z: f(z)=x} \mu(z).
+\]
+Completion returns a canonical representative on~$Z$ by selecting a prototype distribution~$u_x$ for each macro label $x\in X$.
+In the metastable example, prototypes are chosen as uniform distributions on each basin.
+These prototypes (and hence~$U_f$) are a chosen completion/section and are part of the package, not canonical.
+
+Define completion by
+\[
+U_f(p) := \sum_{x\in X} p(x)\,u_x,
+\]
+and define the timescale-dependent packaging operator by
+\[
+E_{\tau,f} := U_f \circ Q_f \circ T_\tau.
+\]
+That is, the operator evolves the substrate, reads only the basin masses, and then discards within-basin microdetails by re-imposing the prototypes.
+
+\subsection{Idempotence defect and prototype stability}
+
+Packaging behaves like a closure when applying it twice adds no new record-level content.
+A quantitative way to test this property is via the idempotence defect:
+\[
+\delta(\tau) := \sup_{\mu}\ \mathrm{TV}\!\left(E_{\tau,f}(E_{\tau,f}(\mu)),\ E_{\tau,f}(\mu)\right),
+\]
+where $\mathrm{TV}$ denotes total variation distance on~$Z$.
+When $\delta(\tau)$ is small, the packaged description is approximately closed under reapplication: the layer has stabilized a coherent object language at that timescale.
+
+A complementary diagnostic is prototype stability: whether $E_{\tau,f}(u_x)\approx u_x$ for each macro label~$x$.
+In our implementation, we track a worst-case stability score over prototypes as a function of~$\tau$.
+
+\subsection{Two regimes: emergent objects and collapse-to-constant}
+
+Figure~\ref{fig:markov-idem} plots the measured defect~$\delta(\tau)$ for a fixed metastable chain (repository experiment \texttt{EXP-MK1}; see Appendix~\ref{app:repro}).
+The curve exhibits distinct regimes, reflecting the presence of multiple timescales:
+\begin{itemize}
+  \item At timescales where within-basin mixing dominates and cross-basin leakage is negligible, the basin prototypes behave as stable objects and packaging is close to idempotent.
+  \item At intermediate timescales where leakage becomes significant, repeated packaging can drift: the basin split is not fully stable as an object language, and the defect increases.
+  \item At sufficiently long timescales, the chain approaches global equilibrium, and packaging approaches a collapse-to-constant regime: the effective object language becomes trivial (essentially one stable macro-description), and the defect decreases again.
+\end{itemize}
+In the particular instance plotted, the first timescale meeting the chosen stability threshold occurs at $\tau=\MKFirstStableTau$ (see the experiment output).
+
+We also ran robustness sweeps over multiple seeds for the full experimental pipeline; the Markov staging behavior is stable under these variations. A compact min/median/max summary is reported in Appendix~\ref{app:robustness}.
+
+\begin{figure}[t]
+  \centering
+  \includegraphics[width=0.95\linewidth]{markov_idempotence_vs_tau.png}
+  \caption{Idempotence defect $\delta(\tau)$ for a metastable Markov substrate under basin packaging. Distinct regimes reflect competing mixing timescales: emergent basin-level objects at some $\tau$, and a long-time collapse-to-constant regime.}
+  \label{fig:markov-idem}
+\end{figure}
+ \section{No-go pressures as assumptions about globally compatible packaging}\label{sec:no-go}
+
+Many foundational no-go results can be read as constraints on what one is allowed to treat as simultaneously well-defined at a single layer.
+In the SBT language, the key question becomes:
+\emph{Are we implicitly assuming a single, globally compatible packaging map (or record algebra) that applies to all contexts at once?}
+When that assumption is imported, one is often forced into surplus structure (hidden distinctions or influences) to preserve a unified ontological picture.
+SBT suggests a different diagnosis: the difficulty lies in insisting on globally compatible packaging, rather than in the causal substrate.
+Representative pressures include Bell-type constraints, contextuality, and epistemic-state no-go results.\cite{Bell1964,KochenSpecker1967,Mermin1990,Pusey2012PBR}
+
+\subsection{The hidden assumption: one global packaging for all contexts}
+
+Operationally, a ``context'' specifies which record variables are stabilized and reported.
+Mathematically, a context selects a lens family and hence a packaging map.
+A common move in foundational arguments is to demand that all contexts be simultaneously representable within a single joint description that is independent of which packaging is chosen.
+In SBT terms, this demand amounts to assuming that there exists a single record language (or closure) that commutes appropriately with every context and with composition across subsystems.
+
+The experiments and mechanized lemmas collected in this paper support the opposite lesson:
+contexts can correspond to \emph{incompatible} closures, and insisting on a single globally compatible packaging is exactly the move that creates contradictions or forces surplus beables.
+
+To situate this observation in familiar terms: Bell-type arguments assume a single joint outcome model across settings together with a factorization/local-causality constraint, which in SBT language amounts to a single global record language plus factorization constraints. Kochen--Specker and Peres--Mermin contextuality arguments assume a context-independent value assignment---that is, a single packaging/value map across contexts. The PBR theorem relies on preparation independence, which is a composition premise about independently prepared systems. We are not disputing these theorems; we are isolating where a framework-level global-packaging premise enters their standard formulations.
+
+\subsection{Contexts as strict extensions (definability)}
+
+SBT makes context-dependence precise using the concept of definability.
+Given a lens $f:Z\to X$, a predicate $h:Z\to\{\mathsf{true},\mathsf{false}\}$ is \emph{definable} from~$f$ if and only if $h$ is constant on the fibers of~$f$.
+Equivalently, $h$ factors through~$f$.
+If $h$ is not definable from~$f$, then refining the lens to $(f,h)$ is a \emph{strict extension} of the layer: the refinement enables distinctions that were not expressible before.
+
+This formalization captures a key point for quantum contexts:
+a change of measurement basis is not merely ``revealing a pre-existing value'' in the same record language.
+Rather, it is an extension or change of the record algebra itself.
+In the repository, this strict-extension criterion is mechanized in Lean (see \texttt{Definability.lean}, specifically \texttt{definable\_iff\_constantOnFibers}; see Appendix~\ref{app:lean}).
+
+\subsection{Contextuality as noncommuting closures}
+
+If two contexts induce packaging maps $\Delta_1$ and $\Delta_2$, then incompatibility is witnessed by noncommutation:
+$\Delta_1\circ\Delta_2\neq \Delta_2\circ\Delta_1$.
+This noncommutation is a structural statement: there is no requirement that different closures commute, and indeed one should not expect them to commute if they stabilize different record algebras.
+
+Figure~\ref{fig:nogo-ctx} shows the measured mismatch between two dephasing (packaging) maps associated with incompatible bases (repository experiment \texttt{EXP-CTX1}; see Appendix~\ref{app:repro}).
+The same figure also illustrates a complementary phenomenon: alternating incompatible packaging operations drives states toward the intersection of their fixed points (for a qubit, essentially the maximally mixed state).
+This convergence is exactly what one should expect from closures: repeated application filters away distinctions that are not jointly stable as objects across the two record languages.
+
+\begin{figure}[t]
+  \centering
+  \includegraphics[width=0.95\linewidth]{dephase_contexts_mismatch.png}
+  \caption{Incompatible record bases define different packaging closures. For a tilted basis, dephasing in one basis does not commute with dephasing in another, yielding a nonzero route mismatch; alternating the closures drives states toward the fixed-point intersection.}
+  \label{fig:nogo-ctx}
+\end{figure}
+
+\subsection{No-signalling versus conditioning: inference update is not influence}
+
+Spekkens' Leibnizian concern is especially sharp in discussions of nonlocality:
+one should be cautious about positing causal influences that cannot be isolated as operationally distinguishable mechanisms at the layer (e.g., because they cannot be used to signal).
+
+A concrete separation is visible in the simplest entangled example.
+Consider a Bell pair~$\rho_{AB}$ shared between Alice and Bob.\cite{Einstein1935EPR}
+If Alice measures in one basis or another and Bob does \emph{not} condition on her outcome, Bob's reduced state is unchanged:
+this invariance is the no-signalling constraint.
+However, if Bob \emph{does} condition on Alice's announced outcome, his conditional state can change dramatically.
+This change is an inferential update relative to the refined record (conditioning), not evidence of a new causal influence propagating superluminally.
+
+Figure~\ref{fig:nogo-ns} displays this distinction (repository experiment \texttt{EXP-NS1}; see Appendix~\ref{app:repro}):
+unconditional reduced states match, while conditional reduced states differ.
+This is the concrete sense in which SBT separates causation from inference in the quantum setting.
+
+\begin{figure}[t]
+  \centering
+  \includegraphics[width=0.95\linewidth]{no_signalling_epr.png}
+  \caption{EPR pair: no-signalling (Bob's unconditional reduced state is unchanged by Alice's measurement choice) versus conditioning (Bob's conditional states differ when outcomes are known).}
+  \label{fig:nogo-ns}
+\end{figure}
+
+\subsection{Audit principle: coarse access cannot create distinguishability}
+
+The SBT package includes audits: monotones that must not increase under admissible coarse access.
+In the classical finite setting, this requirement is a deterministic data-processing statement.\cite{CoverThomas2006}
+
+\begin{theorem}[Deterministic audit contraction (finite TV DPI)]\label{thm:tv-dpi}
+Let $Z$ and $X$ be finite sets, let $f:Z\to X$ be a deterministic coarse-graining, and let $\mu,\nu$ be two functions on $Z$ (in particular, distributions on $Z$).
+Let $f_\ast\mu$ denote the pushforward onto $X$.
+Then total variation distance contracts under pushforward:
+\[
+\mathrm{TV}(f_\ast\mu, f_\ast\nu)\ \le\ \mathrm{TV}(\mu,\nu).
+\]
+\end{theorem}
+
+Theorem~\ref{thm:tv-dpi} is mechanized in Lean (see \texttt{DPI\_Finite.lean}, specifically \texttt{tvdist\_pushforward\_le}).
+In quantum theory, analogous data-processing inequalities hold for standard distinguishability measures under CPTP maps (including discarding subsystems).\cite{Lindblad1975EntropyIneq}
+We will not re-prove the full quantum DPI here; our point is methodological:
+audits formalize ``no false positives''---coarse access and packaging should not manufacture apparent distinctions that were not already present at the substrate.
+
+\paragraph{Limitation: not a Bell solution.}
+We do not claim to ``solve Bell'' or to provide a new hidden-variable model.
+Our aim is narrower: to localize a recurring category error.
+Many no-go arguments are naturally read as ruling out a \emph{single globally compatible packaging} that simultaneously supports all contexts with unrestricted composition assumptions.
+SBT rejects that global-packaging demand on principled grounds (layer-relative records and incompatible closures), while remaining fully compatible with the operational constraints (no-signalling, reproducible statistics) that experiments actually certify.
+ \section{Discussion: what changes, what does not}\label{sec:discussion}
+
+\subsection{Recap in one paragraph}
+
+The central thesis of this paper is that much of quantum theory's conceptual friction is produced by a category mistake: treating an inferential/completion object (the quantum state at a given layer) as a primitive ontic object.
+SBT provides a language in which causal substrate evolution and record-level packaging are distinct mathematical roles.
+In that language, ``collapse'' becomes an idempotent closure induced by a record algebra; contextual incompatibility becomes noncommuting closures (route mismatch); and the cat paradox is localized as a confusion about layer-relative objecthood rather than a demand for a discontinuous physical process. A cross-domain instantiation of the same framework appears in~\cite{Tsiokos2026Stone}.
+
+\subsection{What dissolves (and what merely relocates)}
+
+\paragraph{Collapse.}
+Once packaging is made explicit, collapse is recognized as a closure enforcing a chosen record algebra (often dephasing in a pointer basis), rather than as a new causal process.
+The decisive structural features are idempotence and fixed points: applying packaging twice does not change the record-level description, and fixed points are exactly the record-classical states (see Section~\ref{sec:qm-package}).
+
+\paragraph{The cat.}
+The system--apparatus--environment model shows how global coherence can persist at the substrate while the packaged record-level description is a classical mixture over pointer outcomes (see Section~\ref{sec:cat}).
+The paradox arises when macroscopic alternatives are treated as object-level facts before the corresponding record distinctions are packaged.
+
+\paragraph{Nonlocality and signalling.}
+SBT does not deny nonclassical correlations; rather, it reframes what those correlations do and do not license at a given layer.
+In particular, the EPR demonstration explicitly separates no-signalling (an operational constraint on what can be detected without conditioning) from conditioning (an inferential refinement of the record language); see Section~\ref{sec:no-go}.
+This separation removes the pressure to interpret conditional updates as evidence for superluminal influences at the layer.
+
+\subsection{Limitations and non-claims}
+
+To avoid overinterpretation, we emphasize what this paper does not claim.
+
+\begin{itemize}
+  \item \textbf{No new microdynamics.} We do not propose a replacement for unitary or open quantum evolution. The core move is a reorganization of roles: causation versus packaging.
+  \item \textbf{No Born-rule derivation.} This paper is not a derivation of the Born rule from deeper principles. We treat the standard operational predictions as given and clarify how those predictions can be read without surplus layer ontology.
+  \item \textbf{Not a Bell solution.} We do not provide a hidden-variable completion or a proof that all Bell-type tensions disappear. Our claim concerns where a common category mistake enters: by demanding a single globally compatible packaging (or record language) across incompatible contexts.
+  \item \textbf{No claim of uniqueness.} Dephasing is a canonical packaging map for a fixed record basis, but SBT allows other completion/packaging choices depending on the layer's certified record interface.
+  \item \textbf{No selection rule derived.} We do not derive pointer-basis selection or single-outcome selection; we treat record algebras as given interfaces and treat conditioning as an inferential refinement.
+\end{itemize}
+
+\subsection{Diagnostics and testable expectations}
+
+Although SBT is primarily a framework for disentangling causal and inferential structure, SBT suggests concrete diagnostics.
+
+\paragraph{Route mismatch as a context diagnostic.}
+Whenever two contexts correspond to incompatible record algebras, the induced packaging maps need not commute.
+Quantitatively, one should expect a nonzero route mismatch between closures when:
+(i)~the basis or record algebra changes and
+(ii)~the state contains coherence relative to at least one of the bases.
+Conversely, mismatch should vanish (or be negligible) when the dynamics and record algebra share a common diagonalizing structure (as in the diagonal Hamiltonian control case of Section~\ref{sec:qm-package}).
+
+\paragraph{Stability criteria for objecthood.}
+Object-level distinctions correspond to stable closure fixed points (or approximate fixed points) at a timescale.
+The metastable Markov example illustrates an explicitly classical analogue: stable objects appear at certain~$\tau$ where idempotence defect is small, and disappear or collapse in regimes where the effective record language becomes trivial (see Section~\ref{sec:markov}).
+In laboratory settings, this observation suggests focusing on experimentally controllable knobs that tune the stability of records (decoherence rates, coupling strengths, coarse-graining windows), and checking whether predicted object-level descriptions remain stable under re-packaging.
+
+\paragraph{Audit monotones.}
+The audit principle states that admissible coarse access cannot manufacture distinguishability.
+In the finite deterministic case, we mechanize a total-variation contraction theorem (see Section~\ref{sec:no-go}).
+In quantum settings, analogous contraction properties under CPTP maps provide a principled way to guard against interpretational ``false positives'' produced by mixing inference updates into causal narratives.
+
+In quantum information terms, many of our packaging maps are idempotent CPTP channels (projective pinching or conditional expectation onto a commutative record algebra), and route mismatch is the noncommutation of such channels with each other or with dynamics. The contribution of this paper is the role separation (causation versus packaging) and its use as an interpretational bookkeeping discipline combined with a diagnostic workflow.
+
+\subsection{Future work}
+
+Several extensions are natural and would sharpen the framework.
+
+\begin{itemize}
+  \item \textbf{Spekkens toy theory as an SBT instance.} Implementing Spekkens' epistemic restriction as a packaging/completion pipeline would provide a direct bridge from the diagnosis to a fully worked non-quantum analogue.
+  \item \textbf{Peres--Mermin and contextuality stress tests.} A compact SBT reading of a Peres--Mermin square (as incompatible closures over contexts) would make the ``no global packaging'' point even more concrete.\cite{Mermin1990}
+  \item \textbf{Bell-type assumption audits.} A careful separation of operational constraints (no-signalling) from packaging assumptions (global joint record language, factorization) could yield a taxonomy of where specific no-go statements bite in SBT terms, without presenting it as a single grand ``resolution.''
+\end{itemize}
+ \section{Conclusion}\label{sec:conclusion}
+
+Quantum theory's paradoxes are often framed as demands for exotic causal structure or for an ontic wavefunction.
+Following Spekkens, we instead treated many of these demands as symptoms of a category mistake: confusing causal substrate description with layer-relative inferential completion.
+Six Birds Theory (SBT) supplies a language in which this separation is explicit.
+
+In this language, record-level objecthood is determined by packaging (closure) operations induced by a record interface.
+Dephasing in a pointer basis is a canonical example: dephasing is idempotent, its fixed points are record-classical states, and different record bases induce incompatible closures whose noncommutation is measurable as route mismatch.
+The double slit and quantum eraser become demonstrations of when ``which-path'' is packaged into an object; the measurement problem becomes bookkeeping about enforcing a record algebra; and the cat paradox is localized as an error about when macroscopic alternatives become object-level distinctions.
+
+We supported these claims with mechanized structural results in Lean and with fully reproducible computational experiments.
+The broader message is methodological: keep causation and inference distinct, and respect a Leibnizian layer principle that forbids surplus distinctions that the layer cannot stably witness.
+
+\section*{Declarations}
+
+\paragraph{Corresponding author.}
+Correspondence to Ioannis Tsiokos (\texttt{ioannis@automorph.io}).
+
+\paragraph{Competing interests.}
+The author declares no competing interests.
+
+\paragraph{Funding.}
+No external funding was received for this research.
+
+\paragraph{Ethics approval and consent to participate.}
+Not applicable; this study involves computational experiments only and uses no human participants, animal subjects, or personal data.
+
+\paragraph{Data and code availability.}
+All source code, generated artifacts, and Lean mechanizations are available at \url{https://github.com/ioannist/six-birds-quantum}. No external datasets were used; all data are produced by the included scripts.
+
+\paragraph{Use of AI tools.}
+LLM tools (Claude, Anthropic) were used as coding assistants for software scaffolding and manuscript formatting. All scientific content, claims, and experimental design were produced by the author. LLM outputs were reviewed and validated before inclusion.
+ 
+\appendix
+\section{Mechanized results in Lean}\label{app:lean}
+
+Table~\ref{tab:lean-inventory} lists the mechanized theorems referenced in this paper. To build and verify, run:
+
+\medskip
+\noindent\texttt{cd lean/Sbtq \&\& lake build}
+
+\begin{table}[t]
+  \centering
+  \scriptsize
+  \setlength{\tabcolsep}{4pt}
+  \begin{tabular}{@{}llll@{}}
+    \toprule
+    ID & Lean file & Symbol & Statement \\
+    \midrule
+    THM-LQ1 & LeibnizQuotient & quotient\_lift\_exists\_unique & Universal property \\
+    THM-LQ2 & LeibnizQuotient & liftLens\_comp\_q & Lens factors through quotient \\
+    THM-DEF1 & Definability & definable\_iff\_constantOnFibers & Definable iff constant on fibers \\
+    THM-DEF2 & Definability & refines\_original\_iff\_definable & Refinement iff definable \\
+    THM-DEF3 & Definability & refined\_strictlyRefines\_of\_notDefinable & Strict extension if not definable \\
+    THM-PKG1 & PackagingFromEquivalence & sat\_idem & Saturation is idempotent \\
+    THM-PKG2 & PackagingFromEquivalence & sat\_eq\_iff\_unionOfClasses & Fixed points are class unions \\
+    THM-RM1 & RouteMismatch & mismatch\_witness & Noncommutation witness \\
+    THM-RM2 & RouteMismatch & not\_commute\_E\_F & Noncommuting idempotents \\
+    THM-QD1 & QuantumDephase & dephase\_idem & Dephasing is idempotent \\
+    THM-QD2 & QuantumDephase & dephase\_fixed\_iff\_exists\_diagonal & Fixed points are diagonal \\
+    THM-DPI1 & DPI\_Finite & tvdist\_pushforward\_le & TV contracts under pushforward \\
+    \bottomrule
+  \end{tabular}
+  \caption{Lean mechanization inventory. Source files are located at \texttt{lean/Sbtq/Sbtq/<name>.lean}.}
+  \label{tab:lean-inventory}
+\end{table}
+ \section{Reproducible experiments}\label{app:repro}
+
+To reproduce all experiments, run the following commands:
+
+\noindent\texttt{python -m sbtq.run\_all --seed 0 --out artifacts} \\
+\texttt{python -m sbtq.run\_all --seed 0 --out artifacts --check-existing} \\
+\texttt{python -m sbtq.robustness\_sweep --out artifacts --seeds 0 1 2 3 4 5 6 7 8 9} \\
+\texttt{python -m pytest -q} \\
+\texttt{cd lean/Sbtq \&\& lake build}
+
+\medskip
+\noindent Determinism artifacts are stored in \texttt{artifacts/results/run\_all.json} and \texttt{run\_all\_manifest.json}.
+
+\begin{table}[t]
+  \centering
+  \scriptsize
+  \setlength{\tabcolsep}{4pt}
+  \begin{tabular}{@{}lll@{}}
+    \toprule
+    ID & Module & Output figures \\
+    \midrule
+    EXP-DS1 & double\_slit & double\_slit\_patterns, double\_slit\_visibility \\
+    EXP-QE1 & quantum\_eraser & quantum\_eraser\_unconditional, quantum\_eraser\_conditional \\
+    EXP-RM1 & route\_mismatch & route\_mismatch\_vs\_time, route\_mismatch\_heatmap \\
+    EXP-CAT1 & cat\_packaging & cat\_packaging \\
+    EXP-MK1 & markov\_packaging & markov\_idempotence\_vs\_tau \\
+    EXP-CTX1 & dephase\_contexts & dephase\_contexts\_mismatch \\
+    EXP-NS1 & no\_signalling\_epr & no\_signalling\_epr \\
+    \bottomrule
+  \end{tabular}
+  \caption{Reproducible experiment inventory. Run: \texttt{python -m sbtq.experiments.<module> --seed 0 --out artifacts}. Figures go to \texttt{artifacts/figures/}; results to \texttt{artifacts/results/}.}
+  \label{tab:experiment-inventory}
+\end{table}
+ \section{Robustness sweep}\label{app:robustness}
+
+The table below summarizes results from \texttt{artifacts/results/robustness\_summary.json}, computed over seeds~0--9.
+
+\begin{table}[t]
+  \centering
+  \begin{tabular}{l l r r r}
+    \toprule
+    Experiment & Metric & Min & Median & Max \\
+    \midrule
+    double\_slit & visibility[0] & 1 & 1 & 1 \\
+    double\_slit & visibility\_at\_zero\_gamma & 0 & 0 & 0 \\
+    quantum\_eraser & visibility\_unconditional & 6.66134e-16 & 6.66134e-16 & 6.66134e-16 \\
+    quantum\_eraser & visibility\_plus & 1 & 1 & 1 \\
+    quantum\_eraser & visibility\_minus & 0.999999 & 0.999999 & 0.999999 \\
+    route\_mismatch & max\_mismatch\_random\_H & 0.239517 & 0.337317 & 0.504787 \\
+    route\_mismatch & max\_mismatch\_diagonal\_H & 0 & 0 & 0 \\
+    cat\_packaging & purity\_SAE\_after\_record & 1 & 1 & 1 \\
+    cat\_packaging & purity\_SA\_after\_record & 0.5 & 0.5 & 0.5 \\
+    cat\_packaging & dist\_pack\_vs\_mix & 1.11022e-16 & 1.11022e-16 & 1.11022e-16 \\
+    cat\_packaging & idempotence\_error & 0 & 0 & 0 \\
+    markov\_packaging & tau\_first\_stable & 1 & 1 & 1 \\
+    dephase\_contexts & mismatch\_Z\_tilt & 0.216506 & 0.216506 & 0.216506 \\
+    dephase\_contexts & mismatch\_ZX & 3.11164e-19 & 3.11164e-19 & 3.11164e-19 \\
+    dephase\_contexts & distance\_to\_maxmix\_final & 3.05176e-05 & 3.05176e-05 & 3.05176e-05 \\
+    no\_signalling\_epr & no\_signalling\_dist\_Z & 0 & 0 & 0 \\
+    no\_signalling\_epr & no\_signalling\_dist\_X & 2.22045e-16 & 2.22045e-16 & 2.22045e-16 \\
+    no\_signalling\_epr & cond\_outcome\_dist\_Z & 1 & 1 & 1 \\
+    \bottomrule
+  \end{tabular}
+  \caption{Robustness sweep summary (min/median/max over seeds).}
+  \label{tab:robustness-sweep}
+\end{table}
+  
+\bibliographystyle{unsrt}
+\bibliography{references}
+
+\end{document}

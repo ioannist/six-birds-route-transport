@@ -1,0 +1,89 @@
+{
+  "adequacy_floor_result": {
+    "adequate": true,
+    "checks": {
+      "admissible_built_package_count": true,
+      "points_with_accepted_proper_coarse_structural_proposals": true,
+      "points_with_dual_mode_difference": true,
+      "points_with_nontrivial_quotient_result_recorded": true,
+      "points_with_proper_coarse_events": true,
+      "points_with_same_slice_non_nested_lens_pairs": true,
+      "total_point_count": true
+    },
+    "counts": {
+      "admissible_built_package_count": 3,
+      "points_with_accepted_proper_coarse_structural_proposals": 3,
+      "points_with_dual_mode_difference": 3,
+      "points_with_nontrivial_quotient_result_recorded": 3,
+      "points_with_proper_coarse_events": 3,
+      "points_with_same_slice_non_nested_lens_pairs": 2,
+      "total_point_count": 3
+    }
+  },
+  "adequacy_floor_thresholds": {
+    "min_admissible_built_package_count": 2,
+    "min_points_with_accepted_proper_coarse_structural_proposals": 1,
+    "min_points_with_dual_mode_difference": 1,
+    "min_points_with_nontrivial_quotient_result_recorded": 1,
+    "min_points_with_proper_coarse_events": 1,
+    "min_points_with_same_slice_non_nested_lens_pairs": 1,
+    "min_total_point_count": 3
+  },
+  "best_point_id": null,
+  "claim_ceiling_note": "Lens-axis findings compare admissible record algebras on a fixed mechanism and support object; they do not automatically establish packaging-axis obstruction claims.",
+  "counts_by_candidate_class": {
+    "weakly_frustrated_candidate": 3
+  },
+  "counts_by_quotient_witness_status": {
+    "candidate_subset_quotient_witness": 3
+  },
+  "design_inadequate": false,
+  "fixed_mechanism_configuration_refs": {
+    "fixed_mechanism_label": "exp104_p6_row_all_n64",
+    "pilot_config_artifact": "experiments/configs/pica/pilot-exp104-p6-row-all-n64.json",
+    "preparation_id": "prep_pica_default",
+    "protocol_id": "protocol_pica_multiscale_scan",
+    "selected_protocol_step_ids": [
+      "protocol_pica_multiscale_scan_step_1"
+    ],
+    "selected_resolution_ids": [
+      "resolution_k_4"
+    ],
+    "selected_step_indices": [
+      1
+    ]
+  },
+  "fixed_packaging_family_refs": {
+    "fixed_packaging_family_label": "bridge_default_packaging_selector"
+  },
+  "lens_projection_family_summary": {
+    "lens_candidate_bins": [
+      "obs_primary",
+      "band3_primary"
+    ],
+    "lens_control_same_support": [
+      "obs_primary",
+      "macro_primary"
+    ],
+    "lens_rich_same_support": [
+      "obs_primary",
+      "band3_primary",
+      "lt12_primary",
+      "band4_primary"
+    ]
+  },
+  "negative_result": true,
+  "output_paths": {
+    "lens_family_admissibility": "results/search/20260329T121000Z--lens_axis/derived/lens-family-admissibility.json",
+    "manifest": "results/search/20260329T121000Z--lens_axis/run-manifest.json",
+    "note": "results/search/20260329T121000Z--lens_axis/lens-axis-note.md",
+    "outcome": "results/search/20260329T121000Z--lens_axis/negative-result.json",
+    "quotient_feasibility_diagnostics": "results/search/20260329T121000Z--lens_axis/quotient-feasibility-diagnostics.json",
+    "result_note": "results/search/20260329T121000Z--lens_axis/result-note.json",
+    "summary": "results/search/20260329T121000Z--lens_axis/lens-axis-summary.json",
+    "support_relation_diagnostics": "results/search/20260329T121000Z--lens_axis/support-relation-diagnostics.json",
+    "table_csv": "results/search/20260329T121000Z--lens_axis/lens-axis.csv",
+    "table_json": "results/search/20260329T121000Z--lens_axis/lens-axis.json"
+  },
+  "search_id": "lens_axis_th4"
+}

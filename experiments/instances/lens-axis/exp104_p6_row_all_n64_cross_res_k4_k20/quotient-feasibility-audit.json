@@ -1,0 +1,32 @@
+{
+  "audit_format_version": "quotient-feasibility-audit.v1",
+  "audit_id": "exp104_p6_row_all_n64_cross_res_k4_k20",
+  "candidate_pool_mode": "same_slice_candidate_pool",
+  "forced_candidate_ids": [],
+  "metadata": {
+    "axis": "lens",
+    "closure_mode": "cross_resolution_reconciliation",
+    "witness_kind": "accepted_cross_resolution_obstruction"
+  },
+  "natural_pairing_candidate_ids": [],
+  "output_category": "results",
+  "output_label": "exp104-p6-row-all-n64-cross-res-k4-k20",
+  "quotient_context_scope": "all_accepted_contexts",
+  "same_slice_selection": {
+    "candidate_event_scope": "singleton_only",
+    "preparation_id": "prep_pica_default",
+    "protocol_id": "protocol_pica_multiscale_scan",
+    "protocol_step_id": "protocol_pica_multiscale_scan_step_1",
+    "resolution_id": "resolution_k_4",
+    "step_index": 1
+  },
+  "source_discovered_context_family_artifact": "experiments/instances/lens-axis/exp104_p6_row_all_n64_cross_res_k4_k20/discovered-context-family.json",
+  "source_event_package_artifact": "experiments/instances/lens-axis/exp104_p6_row_all_n64_cross_res_k4_k20/event-package.json",
+  "source_package_provenance_artifact": "experiments/instances/lens-axis/exp104_p6_row_all_n64_cross_res_k4_k20/package-provenance.json",
+  "source_shared_event_candidates_artifact": "experiments/instances/lens-axis/exp104_p6_row_all_n64_cross_res_k4_k20/shared-event-candidates.json",
+  "subset_search": {
+    "enabled": true,
+    "max_subset_size": 2,
+    "stop_at_first_witness": true
+  }
+}

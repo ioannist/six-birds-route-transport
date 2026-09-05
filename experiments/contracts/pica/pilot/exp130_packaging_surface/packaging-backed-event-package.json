@@ -1,0 +1,37 @@
+{
+  "instance_format_version": "event-package-instance.v1",
+  "instance_id": "exp130_packaging_surface_demo_package",
+  "contexts": [
+    {
+      "context_id": "ctx_packaging_step_0",
+      "label": "packaging step 0 context",
+      "atoms": [
+        {
+          "atom_id": "atom_package_0",
+          "label": "package_0"
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "event_id": "event_package_0",
+      "context_id": "ctx_packaging_step_0",
+      "atom_ids": [
+        "atom_package_0"
+      ],
+      "label": "selected package_0"
+    }
+  ],
+  "equality_proposals": [],
+  "weights": {},
+  "notes": "Tiny packaging-surface demo package backed by exp130 packaging selection rows.",
+  "metadata": {
+    "packaging_surface_demo": true
+  },
+  "audit": {
+    "created_at": "2026-03-28T23:30:00Z",
+    "created_by": "th2-packaging-surface",
+    "source": "experiments/contracts/pica/pilot/exp130_packaging_surface/pica-export-bundle.json"
+  }
+}

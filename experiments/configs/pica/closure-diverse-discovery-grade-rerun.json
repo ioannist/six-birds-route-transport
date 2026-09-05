@@ -1,0 +1,159 @@
+{
+  "search_format_version": "pica-closure-diverse-search.v1",
+  "search_id": "pica_closure_diverse_discovery_grade_rerun",
+  "points": [
+    {
+      "point_id": "exp120_resolution_control",
+      "pilot_config_artifact": "experiments/configs/pica/pilot-discovery-grade.json",
+      "preparation_id": "prep_pica_default",
+      "protocol_id": "protocol_pica_multiscale_scan",
+      "trajectories": 24,
+      "seed_list": [0, 1, 2],
+      "projection_family_ids": ["macro_gap_q4"],
+      "notes": ["resolution_refinement_control", "discovery_grade_export"]
+    },
+    {
+      "point_id": "exp120_multi_projection",
+      "pilot_config_artifact": "experiments/configs/pica/pilot-discovery-grade.json",
+      "preparation_id": "prep_pica_default",
+      "protocol_id": "protocol_pica_multiscale_scan",
+      "trajectories": 24,
+      "seed_list": [0, 1, 2],
+      "projection_family_ids": [
+        "macro_gap_q4",
+        "step_entropy_q4",
+        "sigma_pi_q4",
+        "frob_q4"
+      ],
+      "notes": ["same_run_multi_projection", "discovery_grade_export"]
+    },
+    {
+      "point_id": "exp120_closure_projection",
+      "pilot_config_artifact": "experiments/configs/pica/pilot-discovery-grade.json",
+      "preparation_id": "prep_pica_default",
+      "protocol_id": "protocol_pica_multiscale_scan",
+      "trajectories": 24,
+      "seed_list": [0, 1, 2],
+      "projection_family_ids": [
+        "macro_gap_q4",
+        "step_entropy_q4",
+        "max_asym_q4",
+        "frob_q4"
+      ],
+      "notes": [
+        "multi_closure_same_resolution_candidate",
+        "discovery_grade_export"
+      ]
+    },
+    {
+      "point_id": "exp120_rich_candidate",
+      "pilot_config_artifact": "experiments/configs/pica/pilot-discovery-grade.json",
+      "preparation_id": "prep_pica_default",
+      "protocol_id": "protocol_pica_multiscale_scan",
+      "trajectories": 24,
+      "seed_list": [0, 1, 2],
+      "projection_family_ids": [
+        "macro_gap_q4",
+        "step_entropy_q4",
+        "sigma_pi_q4",
+        "max_asym_q4"
+      ],
+      "notes": ["richest_bounded_candidate", "discovery_grade_export"]
+    }
+  ],
+  "projection_families": [
+    {
+      "projection_id": "macro_gap_q4",
+      "label": "macro_gap quartiles",
+      "projection": {
+        "projection_mode": "payload_numeric_bins",
+        "payload_key": "macro_gap",
+        "bin_edges": [0.35, 0.5, 0.65]
+      },
+      "notes": ["primary_gap_family"]
+    },
+    {
+      "projection_id": "step_entropy_q4",
+      "label": "step_entropy quartiles",
+      "projection": {
+        "projection_mode": "payload_numeric_bins",
+        "payload_key": "step_entropy",
+        "bin_edges": [0.9, 1.2, 1.5]
+      },
+      "notes": ["entropy_family"]
+    },
+    {
+      "projection_id": "sigma_pi_q4",
+      "label": "sigma_pi quartiles",
+      "projection": {
+        "projection_mode": "payload_numeric_bins",
+        "payload_key": "sigma_pi",
+        "bin_edges": [0.2, 0.4, 0.6]
+      },
+      "notes": ["mixing_family"]
+    },
+    {
+      "projection_id": "max_asym_q4",
+      "label": "max_asym quartiles",
+      "projection": {
+        "projection_mode": "payload_numeric_bins",
+        "payload_key": "max_asym",
+        "bin_edges": [0.1, 0.2, 0.35]
+      },
+      "notes": ["asymmetry_family"]
+    },
+    {
+      "projection_id": "frob_q4",
+      "label": "frob quartiles",
+      "projection": {
+        "projection_mode": "payload_numeric_bins",
+        "payload_key": "frob",
+        "bin_edges": [5.0, 8.0, 11.0]
+      },
+      "notes": ["norm_family"]
+    }
+  ],
+  "event_generation_thresholds": {
+    "event_basis_mode": "singleton_plus_small_unions",
+    "event_algebra_mode": "full_powerset",
+    "max_full_powerset_atom_count": 6,
+    "max_union_size": 3,
+    "min_event_support_count": 1,
+    "min_event_support_fraction": 0.0,
+    "include_empty_and_full_in_truncation": true,
+    "match_empty_for_inference": false,
+    "match_full_for_inference": false
+  },
+  "shared_event_inference_thresholds": {
+    "inference_mode": "structural_primary",
+    "min_common_probes": 1,
+    "min_conditioning_count": 3,
+    "min_probe_atom_support_count": 1,
+    "max_mean_tv": 1.0,
+    "exact_tolerance": 1e-09,
+    "proposal_constraint_kind": "soft"
+  },
+  "provenance_required": true,
+  "candidate_classification_thresholds": {
+    "strong_nonextendable_min_gpd_str": 1.0,
+    "near_zero_gpd_stat": 1e-06,
+    "min_accepted_coarse_proposal_count": 1
+  },
+  "adequacy_floor": {
+    "min_total_point_count": 4,
+    "min_admissible_built_package_count": 2,
+    "min_points_with_proper_coarse_events": 2,
+    "min_points_with_proper_coarse_structural_proposals": 1,
+    "min_points_with_incomparable_context_pairs": 1,
+    "min_points_with_dual_mode_difference": 1,
+    "min_median_accepted_proposal_support": 3.0
+  },
+  "output_category": "search",
+  "output_label": "pica-closure-diverse-discovery-grade-rerun",
+  "metadata": {
+    "goal": "closure_diverse_endogenous_obstruction_search",
+    "notes": [
+      "Temporary T41.2-style rerun using discovery-grade pilot export."
+    ]
+  }
+}

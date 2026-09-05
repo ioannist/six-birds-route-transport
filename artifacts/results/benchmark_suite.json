@@ -1,0 +1,324 @@
+{
+  "seed": 0,
+  "command": "python -m holonomy_memory run-benchmark-suite --seed 0",
+  "benchmark_ids": [
+    "flat_control",
+    "protocol_trap_naive",
+    "protocol_trap_honest",
+    "flattenable_raw",
+    "flattenable_completed",
+    "latent_memory_base",
+    "latent_memory_refined",
+    "dissipative_memory",
+    "memory_wheel"
+  ],
+  "entries": [
+    {
+      "benchmark_id": "flat_control",
+      "measured_interfaces": [
+        "mid"
+      ],
+      "class_labels": [
+        "flat"
+      ],
+      "witness_counts": [
+        0
+      ],
+      "discrepancy_values": [
+        0.0
+      ],
+      "current_loop_scores": [
+        0.0
+      ],
+      "predictive_loop_scores": [
+        0.0
+      ],
+      "support_fixation_statuses": [
+        "skipped"
+      ],
+      "currentization_statuses": [
+        "skipped"
+      ],
+      "flattening_statuses": [
+        "skipped"
+      ],
+      "json_artifact_path": "artifacts/results/flat_control.result.json",
+      "csv_artifact_path": "artifacts/tables/flat_control.csv",
+      "ops_note_path": "docs/results/flat_control.md"
+    },
+    {
+      "benchmark_id": "protocol_trap_naive",
+      "measured_interfaces": [
+        "mid"
+      ],
+      "class_labels": [
+        "artifact_trap"
+      ],
+      "witness_counts": [
+        1
+      ],
+      "discrepancy_values": [
+        1.0
+      ],
+      "current_loop_scores": [
+        0.0
+      ],
+      "predictive_loop_scores": [
+        0.0
+      ],
+      "support_fixation_statuses": [
+        "passed"
+      ],
+      "currentization_statuses": [
+        "skipped"
+      ],
+      "flattening_statuses": [
+        "skipped"
+      ],
+      "json_artifact_path": "artifacts/results/protocol_trap_naive.result.json",
+      "csv_artifact_path": "artifacts/tables/protocol_trap_naive.csv",
+      "ops_note_path": "docs/results/protocol_trap_naive.md"
+    },
+    {
+      "benchmark_id": "protocol_trap_honest",
+      "measured_interfaces": [
+        "mid"
+      ],
+      "class_labels": [
+        "flat"
+      ],
+      "witness_counts": [
+        0
+      ],
+      "discrepancy_values": [
+        0.0
+      ],
+      "current_loop_scores": [
+        0.0
+      ],
+      "predictive_loop_scores": [
+        0.0
+      ],
+      "support_fixation_statuses": [
+        "skipped"
+      ],
+      "currentization_statuses": [
+        "skipped"
+      ],
+      "flattening_statuses": [
+        "skipped"
+      ],
+      "json_artifact_path": "artifacts/results/protocol_trap_honest.result.json",
+      "csv_artifact_path": "artifacts/tables/protocol_trap_honest.csv",
+      "ops_note_path": "docs/results/protocol_trap_honest.md"
+    },
+    {
+      "benchmark_id": "flattenable_raw",
+      "measured_interfaces": [
+        "mid"
+      ],
+      "class_labels": [
+        "flattenable"
+      ],
+      "witness_counts": [
+        1
+      ],
+      "discrepancy_values": [
+        1.0
+      ],
+      "current_loop_scores": [
+        0.0
+      ],
+      "predictive_loop_scores": [
+        0.0
+      ],
+      "support_fixation_statuses": [
+        "passed"
+      ],
+      "currentization_statuses": [
+        "skipped"
+      ],
+      "flattening_statuses": [
+        "passed"
+      ],
+      "json_artifact_path": "artifacts/results/flattenable_raw.result.json",
+      "csv_artifact_path": "artifacts/tables/flattenable_raw.csv",
+      "ops_note_path": "docs/results/flattenable_raw.md"
+    },
+    {
+      "benchmark_id": "flattenable_completed",
+      "measured_interfaces": [
+        "mid"
+      ],
+      "class_labels": [
+        "flat"
+      ],
+      "witness_counts": [
+        0
+      ],
+      "discrepancy_values": [
+        0.0
+      ],
+      "current_loop_scores": [
+        0.0
+      ],
+      "predictive_loop_scores": [
+        0.0
+      ],
+      "support_fixation_statuses": [
+        "skipped"
+      ],
+      "currentization_statuses": [
+        "skipped"
+      ],
+      "flattening_statuses": [
+        "skipped"
+      ],
+      "json_artifact_path": "artifacts/results/flattenable_completed.result.json",
+      "csv_artifact_path": "artifacts/tables/flattenable_completed.csv",
+      "ops_note_path": "docs/results/flattenable_completed.md"
+    },
+    {
+      "benchmark_id": "latent_memory_base",
+      "measured_interfaces": [
+        "mid"
+      ],
+      "class_labels": [
+        "explicit_latent"
+      ],
+      "witness_counts": [
+        1
+      ],
+      "discrepancy_values": [
+        1.0
+      ],
+      "current_loop_scores": [
+        0.0
+      ],
+      "predictive_loop_scores": [
+        0.0
+      ],
+      "support_fixation_statuses": [
+        "passed"
+      ],
+      "currentization_statuses": [
+        "passed"
+      ],
+      "flattening_statuses": [
+        "skipped"
+      ],
+      "json_artifact_path": "artifacts/results/latent_memory_base.result.json",
+      "csv_artifact_path": "artifacts/tables/latent_memory_base.csv",
+      "ops_note_path": "docs/results/latent_memory_base.md"
+    },
+    {
+      "benchmark_id": "latent_memory_refined",
+      "measured_interfaces": [
+        "mid"
+      ],
+      "class_labels": [
+        "flat"
+      ],
+      "witness_counts": [
+        0
+      ],
+      "discrepancy_values": [
+        0.0
+      ],
+      "current_loop_scores": [
+        0.0
+      ],
+      "predictive_loop_scores": [
+        0.0
+      ],
+      "support_fixation_statuses": [
+        "skipped"
+      ],
+      "currentization_statuses": [
+        "skipped"
+      ],
+      "flattening_statuses": [
+        "skipped"
+      ],
+      "json_artifact_path": "artifacts/results/latent_memory_refined.result.json",
+      "csv_artifact_path": "artifacts/tables/latent_memory_refined.csv",
+      "ops_note_path": "docs/results/latent_memory_refined.md"
+    },
+    {
+      "benchmark_id": "dissipative_memory",
+      "measured_interfaces": [
+        "mid",
+        "end"
+      ],
+      "class_labels": [
+        "dissipative",
+        "flat"
+      ],
+      "witness_counts": [
+        1,
+        0
+      ],
+      "discrepancy_values": [
+        1.0,
+        0.0
+      ],
+      "current_loop_scores": [
+        0.0,
+        0.0
+      ],
+      "predictive_loop_scores": [
+        0.0,
+        0.0
+      ],
+      "support_fixation_statuses": [
+        "skipped",
+        "skipped"
+      ],
+      "currentization_statuses": [
+        "skipped",
+        "skipped"
+      ],
+      "flattening_statuses": [
+        "skipped",
+        "skipped"
+      ],
+      "json_artifact_path": "artifacts/results/dissipative_memory.result.json",
+      "csv_artifact_path": "artifacts/tables/dissipative_memory.csv",
+      "ops_note_path": "docs/results/dissipative_memory.md"
+    },
+    {
+      "benchmark_id": "memory_wheel",
+      "measured_interfaces": [
+        "mid"
+      ],
+      "class_labels": [
+        "coherent_candidate"
+      ],
+      "witness_counts": [
+        1
+      ],
+      "discrepancy_values": [
+        1.0
+      ],
+      "current_loop_scores": [
+        0.0
+      ],
+      "predictive_loop_scores": [
+        1.0
+      ],
+      "support_fixation_statuses": [
+        "skipped"
+      ],
+      "currentization_statuses": [
+        "skipped"
+      ],
+      "flattening_statuses": [
+        "skipped"
+      ],
+      "json_artifact_path": "artifacts/results/memory_wheel.result.json",
+      "csv_artifact_path": "artifacts/tables/memory_wheel.csv",
+      "ops_note_path": "docs/results/memory_wheel.md"
+    }
+  ],
+  "warnings": []
+}

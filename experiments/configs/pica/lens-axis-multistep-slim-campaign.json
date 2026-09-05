@@ -1,0 +1,163 @@
+{
+  "adequacy_floor": {
+    "min_admissible_built_package_count": 2,
+    "min_points_with_accepted_proper_coarse_structural_proposals": 1,
+    "min_points_with_dual_mode_difference": 1,
+    "min_points_with_nontrivial_quotient_result_recorded": 1,
+    "min_points_with_proper_coarse_events": 1,
+    "min_points_with_same_slice_non_nested_lens_pairs": 1,
+    "min_total_point_count": 3
+  },
+  "candidate_classification_thresholds": {
+    "min_accepted_coarse_proposal_count": 1,
+    "near_zero_gpd_stat": 1e-06,
+    "strong_nonextendable_min_gpd_str": 1.0
+  },
+  "claim_ceiling": "provenance_admissible_strong_obstruction",
+  "event_generation_thresholds": {
+    "event_algebra_mode": "full_powerset",
+    "event_basis_mode": "singleton_plus_small_unions",
+    "include_empty_and_full_in_truncation": true,
+    "match_empty_for_inference": false,
+    "match_full_for_inference": false,
+    "max_full_powerset_atom_count": 6,
+    "max_union_size": 3,
+    "min_event_support_count": 1,
+    "min_event_support_fraction": 0.0
+  },
+  "fixed_mechanism_label": "exp104_p6_row_all_n64",
+  "fixed_packaging_family_label": "bridge_default_packaging_selector",
+  "fixed_pilot_config_artifact": "experiments/configs/pica/pilot-exp104-p6-row-all-n64.json",
+  "include_natural_pairing_control": true,
+  "metadata": {
+    "axis": "lens",
+    "notes": [
+      "Mechanism/configuration is fixed while admissible same-slice record algebras vary.",
+      "Quotient-backed feasibility audit is attached per point."
+    ]
+  },
+  "output_category": "search",
+  "output_label": "lens-axis-multistep-slim",
+  "points": [
+    {
+      "notes": [
+        "multistep_two_projections_slim"
+      ],
+      "point_id": "lens_multistep_slim",
+      "projection_family_ids": [
+        "obs_primary",
+        "binB_primary"
+      ]
+    }
+  ],
+  "preparation_id": "prep_pica_default",
+  "projection_families": [
+    {
+      "allowed_roles": [
+        "primary_context"
+      ],
+      "label": "observation label",
+      "notes": [
+        "primary_packaging_outcome"
+      ],
+      "projection": {
+        "projection_mode": "observation_label"
+      },
+      "projection_id": "obs_primary",
+      "projection_kind": "packaging_outcome",
+      "source_field": "observation_label"
+    },
+    {
+      "allowed_roles": [
+        "primary_context"
+      ],
+      "label": "final_state binA (8,25)",
+      "notes": [
+        "aligned_to_data_gaps"
+      ],
+      "projection": {
+        "bin_edges": [
+          8,
+          25
+        ],
+        "payload_key": "final_state",
+        "projection_mode": "payload_numeric_bins"
+      },
+      "projection_id": "binA_primary",
+      "projection_kind": "derived_row_outcome",
+      "source_field": "final_state"
+    },
+    {
+      "allowed_roles": [
+        "primary_context"
+      ],
+      "label": "final_state binB (16,45)",
+      "notes": [
+        "aligned_to_data_gaps"
+      ],
+      "projection": {
+        "bin_edges": [
+          16,
+          45
+        ],
+        "payload_key": "final_state",
+        "projection_mode": "payload_numeric_bins"
+      },
+      "projection_id": "binB_primary",
+      "projection_kind": "derived_row_outcome",
+      "source_field": "final_state"
+    },
+    {
+      "allowed_roles": [
+        "primary_context"
+      ],
+      "label": "final_state binC (12,30)",
+      "notes": [
+        "aligned_to_data_gaps"
+      ],
+      "projection": {
+        "bin_edges": [
+          12,
+          30
+        ],
+        "payload_key": "final_state",
+        "projection_mode": "payload_numeric_bins"
+      },
+      "projection_id": "binC_primary",
+      "projection_kind": "derived_row_outcome",
+      "source_field": "final_state"
+    }
+  ],
+  "protocol_id": "protocol_pica_multiscale_scan",
+  "provenance_required": true,
+  "quotient_max_subset_size": 2,
+  "quotient_stop_at_first_witness": true,
+  "quotient_subset_search_enabled": true,
+  "search_format_version": "lens-axis-search.v1",
+  "search_id": "lens_axis_th4_multistep_slim",
+  "seed_list": [
+    0
+  ],
+  "selected_protocol_step_ids": [
+    "protocol_pica_multiscale_scan_step_1",
+    "protocol_pica_multiscale_scan_step_2"
+  ],
+  "selected_resolution_ids": [
+    "resolution_k_4",
+    "resolution_k_8"
+  ],
+  "selected_step_indices": [
+    1,
+    2
+  ],
+  "shared_event_inference_thresholds": {
+    "exact_tolerance": 1e-09,
+    "inference_mode": "structural_primary",
+    "max_mean_tv": 1.0,
+    "min_common_probes": 1,
+    "min_conditioning_count": 3,
+    "min_probe_atom_support_count": 1,
+    "proposal_constraint_kind": "soft"
+  },
+  "trajectories": 24
+}

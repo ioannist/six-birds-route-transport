@@ -1,0 +1,35 @@
+{
+  "crosscheck_format_version": "exact-crosscheck.v1",
+  "crosscheck_id": "flagship_exact_crosscheck",
+  "targets": [
+    {
+      "target_id": "parity_context_witness_hard_only",
+      "target_type": "benchmark",
+      "package_artifact": "experiments/instances/benchmarks/parity-context-witness/instance.json",
+      "evaluation_mode": "hard_only",
+      "notes": [
+        "mandatory_flagship_target"
+      ]
+    },
+    {
+      "target_id": "discovered_strong_candidate_slot",
+      "target_type": "discovered_candidate",
+      "package_artifact": null,
+      "evaluation_mode": "all_proposals",
+      "applicability_override_status": "not_applicable",
+      "applicability_reason": "no_strong_discovered_candidate",
+      "notes": [
+        "committed_discovered_obstruction_slot"
+      ]
+    }
+  ],
+  "backend_label": "scipy_milp_v1",
+  "blocking_analysis": {
+    "single_proposal_leave_one_out": true
+  },
+  "output_category": "results",
+  "output_label": "exact-crosscheck",
+  "metadata": {
+    "required_discovered_slot_policy": "not_applicable_when_no_strong_discovered_candidate"
+  }
+}

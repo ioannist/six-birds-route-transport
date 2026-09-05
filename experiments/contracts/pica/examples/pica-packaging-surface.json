@@ -1,0 +1,28 @@
+{
+  "schema_version": "pica-packaging-surface.v1",
+  "bundle_artifact": "experiments/contracts/pica/examples/pica-export-bundle.json",
+  "export_bundle_id": "pica_export_bundle_example_v1",
+  "packaging_operator_catalog_artifacts": [
+    "experiments/contracts/pica/examples/pica-packaging-operator-catalog.json"
+  ],
+  "packaging_selection_ledger_artifacts": [
+    "experiments/contracts/pica/examples/pica-packaging-selection-ledger.json"
+  ],
+  "distinct_packaging_operator_count": 1,
+  "distinct_packaging_family_count": 1,
+  "source_counts": {
+    "p5_from_p4": 1
+  },
+  "selected_operator_counts": {
+    "packaging_operator_p5_from_p4": 1
+  },
+  "selected_family_counts": {
+    "packaging_family_p5": 1
+  },
+  "support_slice_count": 1,
+  "artifact_refs": {
+    "bundle": "experiments/contracts/pica/examples/pica-export-bundle.json",
+    "packaging_operator_catalog": "experiments/contracts/pica/examples/pica-packaging-operator-catalog.json",
+    "packaging_selection_ledger": "experiments/contracts/pica/examples/pica-packaging-selection-ledger.json"
+  }
+}

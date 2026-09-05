@@ -1,0 +1,23 @@
+{
+  "schema_version": "perturbation-sweep.v1",
+  "sweep_id": "perturbation_sweep_stub",
+  "benchmark_id": "benchmark_stub",
+  "seed": 0,
+  "trial_count": 3,
+  "targets": [
+    {
+      "target_path": "transport_package.event_packages[0].events[1].weights.visible_b",
+      "perturbation_kind": "weight_shift",
+      "magnitude": 0.05,
+      "radius": 0.1,
+      "lower_bound": 0.0,
+      "upper_bound": 1.0
+    }
+  ],
+  "acceptance_threshold": 0.8,
+  "stop_after_failures": 2,
+  "max_accepted_fraction": 0.9,
+  "tags": [
+    "stub"
+  ]
+}

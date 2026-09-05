@@ -1,0 +1,385 @@
+{
+  "accepted_contexts": [
+    {
+      "atomic_outcomes": [
+        {
+          "observation_label": "macro_gap__0_35_to_0_5",
+          "outcome_id": "atom_macro_gap__0_35_to_0_5_1",
+          "support_count": 1,
+          "support_fraction": 0.3333333333333333
+        },
+        {
+          "observation_label": "macro_gap__0_5_to_0_65",
+          "outcome_id": "atom_macro_gap__0_5_to_0_65_2",
+          "support_count": 1,
+          "support_fraction": 0.3333333333333333
+        },
+        {
+          "observation_label": "macro_gap__ge_0_65",
+          "outcome_id": "atom_macro_gap__ge_0_65_3",
+          "support_count": 1,
+          "support_fraction": 0.3333333333333333
+        }
+      ],
+      "candidate_key": {
+        "closure_id": "closure_baseline_k_2",
+        "lens_id": "lens_p4_k_2",
+        "level_id": "level_l0",
+        "preparation_id": "prep_pica_default",
+        "protocol_id": "protocol_pica_multiscale_scan",
+        "protocol_step_id": "protocol_pica_multiscale_scan_step_0",
+        "resolution_id": "resolution_k_2",
+        "step_index": 0
+      },
+      "context_id": "ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_2_closure_baseline_k_2_lens_p4_k_2_protocol_pica_multiscale_scan_step_0",
+      "diagnostics": {
+        "batch_tv_max": 1.0,
+        "coverage_fraction": 1.0,
+        "empirical_entropy": 1.584962500721156,
+        "persistence_flip_rate": null,
+        "retained_atom_count": 3,
+        "row_count": 3,
+        "support_by_retained_atom": {
+          "macro_gap__0_35_to_0_5": 1,
+          "macro_gap__0_5_to_0_65": 1,
+          "macro_gap__ge_0_65": 1
+        },
+        "trajectory_count": 3
+      },
+      "source_metadata": {
+        "campaign_id": "pica_campaign_exp100_baseline_multiseed",
+        "closure_id": "closure_baseline_k_2",
+        "export_bundle_id": "pica_campaign_exp100_baseline_multiseed_bundle",
+        "lens_id": "lens_p4_k_2",
+        "level_id": "level_l0",
+        "observable_ledger_ids": [
+          "observable_ledger_run_exp100_baseline_seed0",
+          "observable_ledger_run_exp100_baseline_seed1",
+          "observable_ledger_run_exp100_baseline_seed2"
+        ],
+        "preparation_id": "prep_pica_default",
+        "projection_bin_edges": [
+          0.35,
+          0.5,
+          0.65
+        ],
+        "projection_field": "macro_gap",
+        "projection_mode": "payload_numeric_bins",
+        "protocol_id": "protocol_pica_multiscale_scan",
+        "protocol_step_id": "protocol_pica_multiscale_scan_step_0",
+        "resolution_id": "resolution_k_2",
+        "run_ids": [
+          "run_exp100_baseline_seed0",
+          "run_exp100_baseline_seed1",
+          "run_exp100_baseline_seed2"
+        ],
+        "source_kind": "pica_multilayer_group",
+        "source_mode": "pica_export_bundle",
+        "step_index": 0
+      }
+    },
+    {
+      "atomic_outcomes": [
+        {
+          "observation_label": "macro_gap__0_35_to_0_5",
+          "outcome_id": "atom_macro_gap__0_35_to_0_5_1",
+          "support_count": 1,
+          "support_fraction": 0.3333333333333333
+        },
+        {
+          "observation_label": "macro_gap__ge_0_65",
+          "outcome_id": "atom_macro_gap__ge_0_65_2",
+          "support_count": 1,
+          "support_fraction": 0.3333333333333333
+        },
+        {
+          "observation_label": "macro_gap__neg_inf_to_0_35",
+          "outcome_id": "atom_macro_gap__neg_inf_to_0_35_3",
+          "support_count": 1,
+          "support_fraction": 0.3333333333333333
+        }
+      ],
+      "candidate_key": {
+        "closure_id": "closure_baseline_k_4",
+        "lens_id": "lens_p4_k_4",
+        "level_id": "level_l0",
+        "preparation_id": "prep_pica_default",
+        "protocol_id": "protocol_pica_multiscale_scan",
+        "protocol_step_id": "protocol_pica_multiscale_scan_step_1",
+        "resolution_id": "resolution_k_4",
+        "step_index": 1
+      },
+      "context_id": "ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_4_closure_baseline_k_4_lens_p4_k_4_protocol_pica_multiscale_scan_step_1",
+      "diagnostics": {
+        "batch_tv_max": 1.0,
+        "coverage_fraction": 1.0,
+        "empirical_entropy": 1.584962500721156,
+        "persistence_flip_rate": null,
+        "retained_atom_count": 3,
+        "row_count": 3,
+        "support_by_retained_atom": {
+          "macro_gap__0_35_to_0_5": 1,
+          "macro_gap__ge_0_65": 1,
+          "macro_gap__neg_inf_to_0_35": 1
+        },
+        "trajectory_count": 3
+      },
+      "source_metadata": {
+        "campaign_id": "pica_campaign_exp100_baseline_multiseed",
+        "closure_id": "closure_baseline_k_4",
+        "export_bundle_id": "pica_campaign_exp100_baseline_multiseed_bundle",
+        "lens_id": "lens_p4_k_4",
+        "level_id": "level_l0",
+        "observable_ledger_ids": [
+          "observable_ledger_run_exp100_baseline_seed0",
+          "observable_ledger_run_exp100_baseline_seed1",
+          "observable_ledger_run_exp100_baseline_seed2"
+        ],
+        "preparation_id": "prep_pica_default",
+        "projection_bin_edges": [
+          0.35,
+          0.5,
+          0.65
+        ],
+        "projection_field": "macro_gap",
+        "projection_mode": "payload_numeric_bins",
+        "protocol_id": "protocol_pica_multiscale_scan",
+        "protocol_step_id": "protocol_pica_multiscale_scan_step_1",
+        "resolution_id": "resolution_k_4",
+        "run_ids": [
+          "run_exp100_baseline_seed0",
+          "run_exp100_baseline_seed1",
+          "run_exp100_baseline_seed2"
+        ],
+        "source_kind": "pica_multilayer_group",
+        "source_mode": "pica_export_bundle",
+        "step_index": 1
+      }
+    },
+    {
+      "atomic_outcomes": [
+        {
+          "observation_label": "macro_gap__0_5_to_0_65",
+          "outcome_id": "atom_macro_gap__0_5_to_0_65_1",
+          "support_count": 2,
+          "support_fraction": 0.6666666666666666
+        },
+        {
+          "observation_label": "macro_gap__neg_inf_to_0_35",
+          "outcome_id": "atom_macro_gap__neg_inf_to_0_35_2",
+          "support_count": 1,
+          "support_fraction": 0.3333333333333333
+        }
+      ],
+      "candidate_key": {
+        "closure_id": "closure_baseline_k_8",
+        "lens_id": "lens_p4_k_8",
+        "level_id": "level_l0",
+        "preparation_id": "prep_pica_default",
+        "protocol_id": "protocol_pica_multiscale_scan",
+        "protocol_step_id": "protocol_pica_multiscale_scan_step_2",
+        "resolution_id": "resolution_k_8",
+        "step_index": 2
+      },
+      "context_id": "ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_8_closure_baseline_k_8_lens_p4_k_8_protocol_pica_multiscale_scan_step_2",
+      "diagnostics": {
+        "batch_tv_max": 1.0,
+        "coverage_fraction": 1.0,
+        "empirical_entropy": 0.9182958340544896,
+        "persistence_flip_rate": null,
+        "retained_atom_count": 2,
+        "row_count": 3,
+        "support_by_retained_atom": {
+          "macro_gap__0_5_to_0_65": 2,
+          "macro_gap__neg_inf_to_0_35": 1
+        },
+        "trajectory_count": 3
+      },
+      "source_metadata": {
+        "campaign_id": "pica_campaign_exp100_baseline_multiseed",
+        "closure_id": "closure_baseline_k_8",
+        "export_bundle_id": "pica_campaign_exp100_baseline_multiseed_bundle",
+        "lens_id": "lens_p4_k_8",
+        "level_id": "level_l0",
+        "observable_ledger_ids": [
+          "observable_ledger_run_exp100_baseline_seed0",
+          "observable_ledger_run_exp100_baseline_seed1",
+          "observable_ledger_run_exp100_baseline_seed2"
+        ],
+        "preparation_id": "prep_pica_default",
+        "projection_bin_edges": [
+          0.35,
+          0.5,
+          0.65
+        ],
+        "projection_field": "macro_gap",
+        "projection_mode": "payload_numeric_bins",
+        "protocol_id": "protocol_pica_multiscale_scan",
+        "protocol_step_id": "protocol_pica_multiscale_scan_step_2",
+        "resolution_id": "resolution_k_8",
+        "run_ids": [
+          "run_exp100_baseline_seed0",
+          "run_exp100_baseline_seed1",
+          "run_exp100_baseline_seed2"
+        ],
+        "source_kind": "pica_multilayer_group",
+        "source_mode": "pica_export_bundle",
+        "step_index": 2
+      }
+    }
+  ],
+  "diagnostics_summary": {
+    "accepted_context_count": 3,
+    "accepted_context_ids": [
+      "ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_2_closure_baseline_k_2_lens_p4_k_2_protocol_pica_multiscale_scan_step_0",
+      "ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_4_closure_baseline_k_4_lens_p4_k_4_protocol_pica_multiscale_scan_step_1",
+      "ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_8_closure_baseline_k_8_lens_p4_k_8_protocol_pica_multiscale_scan_step_2"
+    ],
+    "candidate_count": 5,
+    "rejected_candidate_count": 2,
+    "rejection_reason_counts": {
+      "insufficient_row_count": 1,
+      "trivial_context": 2
+    }
+  },
+  "event_package_skeleton_artifact": "experiments/instances/discovered/pica-exp100-multiseed-contexts/event-package-skeleton.json",
+  "family_format_version": "discovered-context-family.v1",
+  "family_id": "family_run_search_20260327t021000z_pica_contexts_configured",
+  "metadata": {
+    "distinct_closure_count": 3,
+    "distinct_level_count": 1,
+    "distinct_resolution_count": 3,
+    "observable_only": true,
+    "projection_field": "macro_gap",
+    "projection_mode": "payload_numeric_bins",
+    "selected_run_count": 3
+  },
+  "rejected_candidates": [
+    {
+      "candidate_key": {
+        "closure_id": "closure_baseline_k_14",
+        "lens_id": "lens_p4_k_14",
+        "level_id": "level_l0",
+        "preparation_id": "prep_pica_default",
+        "protocol_id": "protocol_pica_multiscale_scan",
+        "protocol_step_id": "protocol_pica_multiscale_scan_step_3",
+        "resolution_id": "resolution_k_14",
+        "step_index": 3
+      },
+      "diagnostics": {
+        "batch_tv_max": 0.0,
+        "coverage_fraction": 1.0,
+        "empirical_entropy": -0.0,
+        "persistence_flip_rate": null,
+        "retained_atom_count": 1,
+        "row_count": 2,
+        "support_by_retained_atom": {
+          "macro_gap__0_35_to_0_5": 2
+        },
+        "trajectory_count": 2
+      },
+      "rejection_reasons": [
+        "trivial_context"
+      ],
+      "source_metadata": {
+        "campaign_id": "pica_campaign_exp100_baseline_multiseed",
+        "closure_id": "closure_baseline_k_14",
+        "export_bundle_id": "pica_campaign_exp100_baseline_multiseed_bundle",
+        "lens_id": "lens_p4_k_14",
+        "level_id": "level_l0",
+        "observable_ledger_ids": [
+          "observable_ledger_run_exp100_baseline_seed0",
+          "observable_ledger_run_exp100_baseline_seed1"
+        ],
+        "preparation_id": "prep_pica_default",
+        "projection_bin_edges": [
+          0.35,
+          0.5,
+          0.65
+        ],
+        "projection_field": "macro_gap",
+        "projection_mode": "payload_numeric_bins",
+        "protocol_id": "protocol_pica_multiscale_scan",
+        "protocol_step_id": "protocol_pica_multiscale_scan_step_3",
+        "resolution_id": "resolution_k_14",
+        "run_ids": [
+          "run_exp100_baseline_seed0",
+          "run_exp100_baseline_seed1"
+        ],
+        "source_kind": "pica_multilayer_group",
+        "source_mode": "pica_export_bundle",
+        "step_index": 3
+      }
+    },
+    {
+      "candidate_key": {
+        "closure_id": "closure_baseline_k_9",
+        "lens_id": "lens_p4_k_9",
+        "level_id": "level_l0",
+        "preparation_id": "prep_pica_default",
+        "protocol_id": "protocol_pica_multiscale_scan",
+        "protocol_step_id": "protocol_pica_multiscale_scan_step_3",
+        "resolution_id": "resolution_k_9",
+        "step_index": 3
+      },
+      "diagnostics": {
+        "batch_tv_max": 0.0,
+        "coverage_fraction": 1.0,
+        "empirical_entropy": -0.0,
+        "persistence_flip_rate": null,
+        "retained_atom_count": 1,
+        "row_count": 1,
+        "support_by_retained_atom": {
+          "macro_gap__neg_inf_to_0_35": 1
+        },
+        "trajectory_count": 1
+      },
+      "rejection_reasons": [
+        "insufficient_row_count",
+        "trivial_context"
+      ],
+      "source_metadata": {
+        "campaign_id": "pica_campaign_exp100_baseline_multiseed",
+        "closure_id": "closure_baseline_k_9",
+        "export_bundle_id": "pica_campaign_exp100_baseline_multiseed_bundle",
+        "lens_id": "lens_p4_k_9",
+        "level_id": "level_l0",
+        "observable_ledger_ids": [
+          "observable_ledger_run_exp100_baseline_seed2"
+        ],
+        "preparation_id": "prep_pica_default",
+        "projection_bin_edges": [
+          0.35,
+          0.5,
+          0.65
+        ],
+        "projection_field": "macro_gap",
+        "projection_mode": "payload_numeric_bins",
+        "protocol_id": "protocol_pica_multiscale_scan",
+        "protocol_step_id": "protocol_pica_multiscale_scan_step_3",
+        "resolution_id": "resolution_k_9",
+        "run_ids": [
+          "run_exp100_baseline_seed2"
+        ],
+        "source_kind": "pica_multilayer_group",
+        "source_mode": "pica_export_bundle",
+        "step_index": 3
+      }
+    }
+  ],
+  "source_bundle_artifact": "experiments/contracts/pica/pilot/exp100_multiseed/pica-export-bundle.json",
+  "source_mode": "pica_export_bundle",
+  "source_run_artifacts": [
+    "experiments/contracts/pica/pilot/exp100_multiseed/pica-export-bundle.json"
+  ],
+  "thresholds": {
+    "batch_count": 2,
+    "max_batch_tv": 1.0,
+    "max_persistence_flip_rate": null,
+    "min_atom_count": 2,
+    "min_atom_support_count": 1,
+    "min_atom_support_fraction": 0.0,
+    "min_coverage": 1.0,
+    "min_trajectory_count": 2
+  }
+}

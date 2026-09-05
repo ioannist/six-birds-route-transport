@@ -1,0 +1,371 @@
+{
+  "built_event_package_artifact": "results/search/20260327T130000Z--pica_targeted_obstruction_t41_exp100_baseline_multiseed_package/event-package.json",
+  "contexts": [
+    {
+      "atom_count": 3,
+      "context_id": "ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_2_closure_baseline_k_2_lens_p4_k_2_protocol_pica_multiscale_scan_step_0",
+      "coverage_fraction": 1.0,
+      "event_algebra_complete": true,
+      "events": [
+        {
+          "accepted": true,
+          "conditioning_support_count": 0,
+          "conditioning_support_fraction": 0.0,
+          "context_id": "ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_2_closure_baseline_k_2_lens_p4_k_2_protocol_pica_multiscale_scan_step_0",
+          "event_id": "event_ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_2_closure_baseline_k_2_lens_p4_k_2_protocol_pica_multiscale_scan_step_0__empty",
+          "event_kind": "empty",
+          "event_size": 0,
+          "match_eligible": false,
+          "rejection_reasons": [],
+          "retained_atom_ids": []
+        },
+        {
+          "accepted": true,
+          "conditioning_support_count": 1,
+          "conditioning_support_fraction": 0.3333333333333333,
+          "context_id": "ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_2_closure_baseline_k_2_lens_p4_k_2_protocol_pica_multiscale_scan_step_0",
+          "event_id": "event_ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_2_closure_baseline_k_2_lens_p4_k_2_protocol_pica_multiscale_scan_step_0_atom_macro_gap__0_35_to_0_5_1",
+          "event_kind": "singleton",
+          "event_size": 1,
+          "match_eligible": true,
+          "rejection_reasons": [],
+          "retained_atom_ids": [
+            "atom_macro_gap__0_35_to_0_5_1"
+          ]
+        },
+        {
+          "accepted": true,
+          "conditioning_support_count": 1,
+          "conditioning_support_fraction": 0.3333333333333333,
+          "context_id": "ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_2_closure_baseline_k_2_lens_p4_k_2_protocol_pica_multiscale_scan_step_0",
+          "event_id": "event_ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_2_closure_baseline_k_2_lens_p4_k_2_protocol_pica_multiscale_scan_step_0_atom_macro_gap__0_5_to_0_65_2",
+          "event_kind": "singleton",
+          "event_size": 1,
+          "match_eligible": true,
+          "rejection_reasons": [],
+          "retained_atom_ids": [
+            "atom_macro_gap__0_5_to_0_65_2"
+          ]
+        },
+        {
+          "accepted": true,
+          "conditioning_support_count": 1,
+          "conditioning_support_fraction": 0.3333333333333333,
+          "context_id": "ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_2_closure_baseline_k_2_lens_p4_k_2_protocol_pica_multiscale_scan_step_0",
+          "event_id": "event_ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_2_closure_baseline_k_2_lens_p4_k_2_protocol_pica_multiscale_scan_step_0_atom_macro_gap__ge_0_65_3",
+          "event_kind": "singleton",
+          "event_size": 1,
+          "match_eligible": true,
+          "rejection_reasons": [],
+          "retained_atom_ids": [
+            "atom_macro_gap__ge_0_65_3"
+          ]
+        },
+        {
+          "accepted": true,
+          "conditioning_support_count": 2,
+          "conditioning_support_fraction": 0.6666666666666666,
+          "context_id": "ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_2_closure_baseline_k_2_lens_p4_k_2_protocol_pica_multiscale_scan_step_0",
+          "event_id": "event_ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_2_closure_baseline_k_2_lens_p4_k_2_protocol_pica_multiscale_scan_step_0__union__atom_macro_gap__0_35_to_0_5_1__atom_macro_gap__0_5_to_0_65_2",
+          "event_kind": "proper_coarse",
+          "event_size": 2,
+          "match_eligible": true,
+          "rejection_reasons": [],
+          "retained_atom_ids": [
+            "atom_macro_gap__0_35_to_0_5_1",
+            "atom_macro_gap__0_5_to_0_65_2"
+          ]
+        },
+        {
+          "accepted": true,
+          "conditioning_support_count": 2,
+          "conditioning_support_fraction": 0.6666666666666666,
+          "context_id": "ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_2_closure_baseline_k_2_lens_p4_k_2_protocol_pica_multiscale_scan_step_0",
+          "event_id": "event_ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_2_closure_baseline_k_2_lens_p4_k_2_protocol_pica_multiscale_scan_step_0__union__atom_macro_gap__0_35_to_0_5_1__atom_macro_gap__ge_0_65_3",
+          "event_kind": "proper_coarse",
+          "event_size": 2,
+          "match_eligible": true,
+          "rejection_reasons": [],
+          "retained_atom_ids": [
+            "atom_macro_gap__0_35_to_0_5_1",
+            "atom_macro_gap__ge_0_65_3"
+          ]
+        },
+        {
+          "accepted": true,
+          "conditioning_support_count": 2,
+          "conditioning_support_fraction": 0.6666666666666666,
+          "context_id": "ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_2_closure_baseline_k_2_lens_p4_k_2_protocol_pica_multiscale_scan_step_0",
+          "event_id": "event_ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_2_closure_baseline_k_2_lens_p4_k_2_protocol_pica_multiscale_scan_step_0__union__atom_macro_gap__0_5_to_0_65_2__atom_macro_gap__ge_0_65_3",
+          "event_kind": "proper_coarse",
+          "event_size": 2,
+          "match_eligible": true,
+          "rejection_reasons": [],
+          "retained_atom_ids": [
+            "atom_macro_gap__0_5_to_0_65_2",
+            "atom_macro_gap__ge_0_65_3"
+          ]
+        },
+        {
+          "accepted": true,
+          "conditioning_support_count": 3,
+          "conditioning_support_fraction": 1.0,
+          "context_id": "ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_2_closure_baseline_k_2_lens_p4_k_2_protocol_pica_multiscale_scan_step_0",
+          "event_id": "event_ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_2_closure_baseline_k_2_lens_p4_k_2_protocol_pica_multiscale_scan_step_0__full",
+          "event_kind": "full",
+          "event_size": 3,
+          "match_eligible": false,
+          "rejection_reasons": [],
+          "retained_atom_ids": [
+            "atom_macro_gap__0_35_to_0_5_1",
+            "atom_macro_gap__0_5_to_0_65_2",
+            "atom_macro_gap__ge_0_65_3"
+          ]
+        }
+      ],
+      "expected_full_event_count": 8,
+      "generated_event_count": 8,
+      "generation_mode_used": "full_powerset",
+      "match_eligible_event_count": 6,
+      "rejection_reason_counts": {},
+      "truncation_reason": null
+    },
+    {
+      "atom_count": 3,
+      "context_id": "ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_4_closure_baseline_k_4_lens_p4_k_4_protocol_pica_multiscale_scan_step_1",
+      "coverage_fraction": 1.0,
+      "event_algebra_complete": true,
+      "events": [
+        {
+          "accepted": true,
+          "conditioning_support_count": 0,
+          "conditioning_support_fraction": 0.0,
+          "context_id": "ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_4_closure_baseline_k_4_lens_p4_k_4_protocol_pica_multiscale_scan_step_1",
+          "event_id": "event_ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_4_closure_baseline_k_4_lens_p4_k_4_protocol_pica_multiscale_scan_step_1__empty",
+          "event_kind": "empty",
+          "event_size": 0,
+          "match_eligible": false,
+          "rejection_reasons": [],
+          "retained_atom_ids": []
+        },
+        {
+          "accepted": true,
+          "conditioning_support_count": 1,
+          "conditioning_support_fraction": 0.3333333333333333,
+          "context_id": "ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_4_closure_baseline_k_4_lens_p4_k_4_protocol_pica_multiscale_scan_step_1",
+          "event_id": "event_ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_4_closure_baseline_k_4_lens_p4_k_4_protocol_pica_multiscale_scan_step_1_atom_macro_gap__0_35_to_0_5_1",
+          "event_kind": "singleton",
+          "event_size": 1,
+          "match_eligible": true,
+          "rejection_reasons": [],
+          "retained_atom_ids": [
+            "atom_macro_gap__0_35_to_0_5_1"
+          ]
+        },
+        {
+          "accepted": true,
+          "conditioning_support_count": 1,
+          "conditioning_support_fraction": 0.3333333333333333,
+          "context_id": "ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_4_closure_baseline_k_4_lens_p4_k_4_protocol_pica_multiscale_scan_step_1",
+          "event_id": "event_ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_4_closure_baseline_k_4_lens_p4_k_4_protocol_pica_multiscale_scan_step_1_atom_macro_gap__ge_0_65_2",
+          "event_kind": "singleton",
+          "event_size": 1,
+          "match_eligible": true,
+          "rejection_reasons": [],
+          "retained_atom_ids": [
+            "atom_macro_gap__ge_0_65_2"
+          ]
+        },
+        {
+          "accepted": true,
+          "conditioning_support_count": 1,
+          "conditioning_support_fraction": 0.3333333333333333,
+          "context_id": "ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_4_closure_baseline_k_4_lens_p4_k_4_protocol_pica_multiscale_scan_step_1",
+          "event_id": "event_ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_4_closure_baseline_k_4_lens_p4_k_4_protocol_pica_multiscale_scan_step_1_atom_macro_gap__neg_inf_to_0_35_3",
+          "event_kind": "singleton",
+          "event_size": 1,
+          "match_eligible": true,
+          "rejection_reasons": [],
+          "retained_atom_ids": [
+            "atom_macro_gap__neg_inf_to_0_35_3"
+          ]
+        },
+        {
+          "accepted": true,
+          "conditioning_support_count": 2,
+          "conditioning_support_fraction": 0.6666666666666666,
+          "context_id": "ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_4_closure_baseline_k_4_lens_p4_k_4_protocol_pica_multiscale_scan_step_1",
+          "event_id": "event_ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_4_closure_baseline_k_4_lens_p4_k_4_protocol_pica_multiscale_scan_step_1__union__atom_macro_gap__0_35_to_0_5_1__atom_macro_gap__ge_0_65_2",
+          "event_kind": "proper_coarse",
+          "event_size": 2,
+          "match_eligible": true,
+          "rejection_reasons": [],
+          "retained_atom_ids": [
+            "atom_macro_gap__0_35_to_0_5_1",
+            "atom_macro_gap__ge_0_65_2"
+          ]
+        },
+        {
+          "accepted": true,
+          "conditioning_support_count": 2,
+          "conditioning_support_fraction": 0.6666666666666666,
+          "context_id": "ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_4_closure_baseline_k_4_lens_p4_k_4_protocol_pica_multiscale_scan_step_1",
+          "event_id": "event_ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_4_closure_baseline_k_4_lens_p4_k_4_protocol_pica_multiscale_scan_step_1__union__atom_macro_gap__0_35_to_0_5_1__atom_macro_gap__neg_inf_to_0_35_3",
+          "event_kind": "proper_coarse",
+          "event_size": 2,
+          "match_eligible": true,
+          "rejection_reasons": [],
+          "retained_atom_ids": [
+            "atom_macro_gap__0_35_to_0_5_1",
+            "atom_macro_gap__neg_inf_to_0_35_3"
+          ]
+        },
+        {
+          "accepted": true,
+          "conditioning_support_count": 2,
+          "conditioning_support_fraction": 0.6666666666666666,
+          "context_id": "ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_4_closure_baseline_k_4_lens_p4_k_4_protocol_pica_multiscale_scan_step_1",
+          "event_id": "event_ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_4_closure_baseline_k_4_lens_p4_k_4_protocol_pica_multiscale_scan_step_1__union__atom_macro_gap__ge_0_65_2__atom_macro_gap__neg_inf_to_0_35_3",
+          "event_kind": "proper_coarse",
+          "event_size": 2,
+          "match_eligible": true,
+          "rejection_reasons": [],
+          "retained_atom_ids": [
+            "atom_macro_gap__ge_0_65_2",
+            "atom_macro_gap__neg_inf_to_0_35_3"
+          ]
+        },
+        {
+          "accepted": true,
+          "conditioning_support_count": 3,
+          "conditioning_support_fraction": 1.0,
+          "context_id": "ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_4_closure_baseline_k_4_lens_p4_k_4_protocol_pica_multiscale_scan_step_1",
+          "event_id": "event_ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_4_closure_baseline_k_4_lens_p4_k_4_protocol_pica_multiscale_scan_step_1__full",
+          "event_kind": "full",
+          "event_size": 3,
+          "match_eligible": false,
+          "rejection_reasons": [],
+          "retained_atom_ids": [
+            "atom_macro_gap__0_35_to_0_5_1",
+            "atom_macro_gap__ge_0_65_2",
+            "atom_macro_gap__neg_inf_to_0_35_3"
+          ]
+        }
+      ],
+      "expected_full_event_count": 8,
+      "generated_event_count": 8,
+      "generation_mode_used": "full_powerset",
+      "match_eligible_event_count": 6,
+      "rejection_reason_counts": {},
+      "truncation_reason": null
+    },
+    {
+      "atom_count": 2,
+      "context_id": "ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_8_closure_baseline_k_8_lens_p4_k_8_protocol_pica_multiscale_scan_step_2",
+      "coverage_fraction": 1.0,
+      "event_algebra_complete": true,
+      "events": [
+        {
+          "accepted": true,
+          "conditioning_support_count": 0,
+          "conditioning_support_fraction": 0.0,
+          "context_id": "ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_8_closure_baseline_k_8_lens_p4_k_8_protocol_pica_multiscale_scan_step_2",
+          "event_id": "event_ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_8_closure_baseline_k_8_lens_p4_k_8_protocol_pica_multiscale_scan_step_2__empty",
+          "event_kind": "empty",
+          "event_size": 0,
+          "match_eligible": false,
+          "rejection_reasons": [],
+          "retained_atom_ids": []
+        },
+        {
+          "accepted": true,
+          "conditioning_support_count": 2,
+          "conditioning_support_fraction": 0.6666666666666666,
+          "context_id": "ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_8_closure_baseline_k_8_lens_p4_k_8_protocol_pica_multiscale_scan_step_2",
+          "event_id": "event_ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_8_closure_baseline_k_8_lens_p4_k_8_protocol_pica_multiscale_scan_step_2_atom_macro_gap__0_5_to_0_65_1",
+          "event_kind": "singleton",
+          "event_size": 1,
+          "match_eligible": true,
+          "rejection_reasons": [],
+          "retained_atom_ids": [
+            "atom_macro_gap__0_5_to_0_65_1"
+          ]
+        },
+        {
+          "accepted": true,
+          "conditioning_support_count": 1,
+          "conditioning_support_fraction": 0.3333333333333333,
+          "context_id": "ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_8_closure_baseline_k_8_lens_p4_k_8_protocol_pica_multiscale_scan_step_2",
+          "event_id": "event_ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_8_closure_baseline_k_8_lens_p4_k_8_protocol_pica_multiscale_scan_step_2_atom_macro_gap__neg_inf_to_0_35_2",
+          "event_kind": "singleton",
+          "event_size": 1,
+          "match_eligible": true,
+          "rejection_reasons": [],
+          "retained_atom_ids": [
+            "atom_macro_gap__neg_inf_to_0_35_2"
+          ]
+        },
+        {
+          "accepted": true,
+          "conditioning_support_count": 3,
+          "conditioning_support_fraction": 1.0,
+          "context_id": "ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_8_closure_baseline_k_8_lens_p4_k_8_protocol_pica_multiscale_scan_step_2",
+          "event_id": "event_ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_8_closure_baseline_k_8_lens_p4_k_8_protocol_pica_multiscale_scan_step_2__full",
+          "event_kind": "full",
+          "event_size": 2,
+          "match_eligible": false,
+          "rejection_reasons": [],
+          "retained_atom_ids": [
+            "atom_macro_gap__0_5_to_0_65_1",
+            "atom_macro_gap__neg_inf_to_0_35_2"
+          ]
+        }
+      ],
+      "expected_full_event_count": 4,
+      "generated_event_count": 4,
+      "generation_mode_used": "full_powerset",
+      "match_eligible_event_count": 2,
+      "rejection_reason_counts": {},
+      "truncation_reason": null
+    }
+  ],
+  "diagnostics_summary": {
+    "accepted_coarse_event_count": 6,
+    "accepted_proper_coarse_event_ids": [
+      "event_ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_2_closure_baseline_k_2_lens_p4_k_2_protocol_pica_multiscale_scan_step_0__union__atom_macro_gap__0_35_to_0_5_1__atom_macro_gap__0_5_to_0_65_2",
+      "event_ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_2_closure_baseline_k_2_lens_p4_k_2_protocol_pica_multiscale_scan_step_0__union__atom_macro_gap__0_35_to_0_5_1__atom_macro_gap__ge_0_65_3",
+      "event_ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_2_closure_baseline_k_2_lens_p4_k_2_protocol_pica_multiscale_scan_step_0__union__atom_macro_gap__0_5_to_0_65_2__atom_macro_gap__ge_0_65_3",
+      "event_ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_4_closure_baseline_k_4_lens_p4_k_4_protocol_pica_multiscale_scan_step_1__union__atom_macro_gap__0_35_to_0_5_1__atom_macro_gap__ge_0_65_2",
+      "event_ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_4_closure_baseline_k_4_lens_p4_k_4_protocol_pica_multiscale_scan_step_1__union__atom_macro_gap__0_35_to_0_5_1__atom_macro_gap__neg_inf_to_0_35_3",
+      "event_ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_4_closure_baseline_k_4_lens_p4_k_4_protocol_pica_multiscale_scan_step_1__union__atom_macro_gap__ge_0_65_2__atom_macro_gap__neg_inf_to_0_35_3"
+    ],
+    "accepted_singleton_event_count": 8,
+    "generated_empty_event_count": 3,
+    "generated_full_event_count": 3,
+    "generated_proper_coarse_event_count": 6,
+    "generated_singleton_event_count": 8,
+    "match_eligible_event_count": 14,
+    "rejected_coarse_event_count": 0,
+    "total_event_count": 20
+  },
+  "event_family_format_version": "discovered-event-family.v1",
+  "event_family_id": "events_infer_run_search_20260327t130000z_pica_targeted_obstruction_t41_exp100_baseline_multiseed_package",
+  "metadata": {
+    "observable_only": true
+  },
+  "source_bundle_artifact": "results/search/20260327T130000Z--pica_targeted_obstruction/derived/bundles/exp100_baseline_multiseed/pica-export-bundle.json",
+  "source_discovered_context_family_artifact": "results/search/20260327T130000Z--pica_targeted_obstruction_t41_exp100_baseline_multiseed_discover/discovered-context-family.json",
+  "source_mode": "pica_export_bundle",
+  "source_run_artifacts": [],
+  "thresholds": {
+    "event_algebra_mode": "full_powerset",
+    "event_basis_mode": "singleton_plus_small_unions",
+    "include_empty_and_full_in_truncation": true,
+    "match_empty_for_inference": false,
+    "match_full_for_inference": false,
+    "max_full_powerset_atom_count": 6,
+    "max_union_size": 3,
+    "min_event_support_count": 1,
+    "min_event_support_fraction": 0.0
+  }
+}

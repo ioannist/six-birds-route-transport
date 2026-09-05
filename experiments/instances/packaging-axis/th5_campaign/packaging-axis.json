@@ -1,0 +1,393 @@
+{
+  "metadata": {
+    "axis": "packaging"
+  },
+  "row_count": 3,
+  "rows": [
+    {
+      "accepted_context_count": 2,
+      "accepted_packaging_divergent_proper_coarse_proposal_count": 0,
+      "accepted_packaging_divergent_proposal_count": 0,
+      "accepted_proper_coarse_event_count": 12,
+      "accepted_proper_coarse_proposal_count": 0,
+      "accepted_shared_event_proposal_count": 0,
+      "accepted_singleton_event_count": 8,
+      "all_accepted_proposals": {
+        "exact_failure_reason": null,
+        "exact_feasible": true,
+        "exact_respecting_tuple_count": 16,
+        "exact_structural_status": "feasible",
+        "gpd_stat": 2.220446049250313e-16,
+        "gpd_stat_reason": null,
+        "gpd_stat_status": "solved",
+        "gpd_str": 0.0,
+        "gpd_str_reason": null,
+        "gpd_str_status": "solved"
+      },
+      "artifact_paths": {
+        "baseline_statistical_summary": "results/search/20260330T191000Z--packaging_control_same_step_k4_baseline_statistical/statistical-summary.json",
+        "candidate_statistical_summary": "results/search/20260330T191000Z--packaging_control_same_step_k4_candidate_statistical/statistical-summary.json",
+        "discovered_context_family": "results/search/20260330T191000Z--packaging_axis/derived/families/packaging_control_same_step_k4/discovered-context-family.json",
+        "event_package": "results/search/20260330T191000Z--packaging_control_same_step_k4_package_build/event-package.json",
+        "export_bundle": "results/search/20260330T191000Z--packaging_axis/derived/merged_bundle/packaging_axis_th5/pica-export-bundle.json",
+        "package_build_summary": "results/search/20260330T191000Z--packaging_control_same_step_k4_package_build/package-build-summary.json",
+        "package_conflict_pairs": "results/search/20260330T191000Z--packaging_axis/derived/packaging_control_same_step_k4_package_conflict_pairs.json",
+        "package_provenance": "results/search/20260330T191000Z--packaging_control_same_step_k4_package_build/package-provenance.json",
+        "packaging_family_admissibility": "results/search/20260330T191000Z--packaging_axis/derived/packaging-family-admissibility.json",
+        "packaging_source_index": "results/search/20260330T191000Z--packaging_axis/derived/packaging-source-index.json",
+        "packaging_surface_summary": "results/search/20260330T191000Z--packaging_axis/derived/packaging-surface-summary.json",
+        "provenance_summary": "results/search/20260330T191000Z--packaging_control_same_step_k4_provenance/provenance-audit-summary.json",
+        "quotient_class_ledger": "results/results/20260330T191000Z--packaging_control_same_step_k4_quotient_feasibility/quotient-class-ledger.json",
+        "quotient_feasibility_summary": "results/results/20260330T191000Z--packaging_control_same_step_k4_quotient_feasibility/quotient-feasibility-summary.json",
+        "shared_event_candidates": "results/search/20260330T191000Z--packaging_control_same_step_k4_package_build/shared-event-candidates.json",
+        "stat_trace": "results/search/20260330T191000Z--packaging_axis/derived/packaging_control_same_step_k4_stat_trace.json"
+      },
+      "axis": "packaging",
+      "baseline_hard_only": {
+        "exact_failure_reason": null,
+        "exact_feasible": true,
+        "exact_respecting_tuple_count": 16,
+        "exact_structural_status": "feasible",
+        "gpd_stat": 2.220446049250313e-16,
+        "gpd_stat_reason": null,
+        "gpd_stat_status": "solved",
+        "gpd_str": 0.0,
+        "gpd_str_reason": null,
+        "gpd_str_status": "solved"
+      },
+      "candidate_classification": "weakly_frustrated_candidate",
+      "claim_level_supported": "packaging_conflict_tension",
+      "cross_resolution_packaging_divergent_pair_count": 0,
+      "discovered_context_family_path": "results/search/20260330T191000Z--packaging_axis/derived/families/packaging_control_same_step_k4/discovered-context-family.json",
+      "event_package_path": "results/search/20260330T191000Z--packaging_control_same_step_k4_package_build/event-package.json",
+      "fixed_lens_label": "obs_primary_observation_label",
+      "fixed_mechanism_label": "exp104_p6_row_all_n64",
+      "fixed_projection_family_ids": [
+        "obs_primary"
+      ],
+      "flags": [
+        "packaging_axis",
+        "same_support_package_change"
+      ],
+      "notes": [
+        "same_step_packaging_control",
+        "fixed_support_same_step_pkg_vs_nonpkg",
+        "rm_is_diagnostic_only",
+        "sec_status=insufficient_data",
+        "sec_mean=None",
+        "statistical_stage_completed"
+      ],
+      "packaging_support_slice_count": 5,
+      "packaging_surface_summary_path": "results/search/20260330T191000Z--packaging_axis/derived/packaging-surface-summary.json",
+      "point_id": "packaging_control_same_step_k4",
+      "produced_export_bundle_path": "results/search/20260330T191000Z--packaging_axis/derived/merged_bundle/packaging_axis_th5/pica-export-bundle.json",
+      "provenance_classification": "admissible",
+      "quotient_accepted_only_exact_feasible": true,
+      "quotient_accepted_only_failure_reason": null,
+      "quotient_accepted_only_survivor_count": 4,
+      "quotient_candidate_subset_minimal_witness_size": 1,
+      "quotient_candidate_subset_witness_found": true,
+      "quotient_class_count": 4,
+      "quotient_feasibility_summary_path": "results/results/20260330T191000Z--packaging_control_same_step_k4_quotient_feasibility/quotient-feasibility-summary.json",
+      "quotient_natural_pairing_exact_feasible": true,
+      "quotient_natural_pairing_survivor_count": 4,
+      "quotient_witness_candidate_ids": [
+        "cand_event_ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_4_closure_p6_row_all_k_4_lens_p4_k_4_protocol_pica_multiscale_scan_step_1__proj_obs_primary_atom_group_0_1__event_ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_4_closure_p6_row_all_pkg_k_4_lens_p5_k_4_protocol_pica_multiscale_scan_step_1__proj_obs_primary_atom_package_1_2"
+      ],
+      "quotient_witness_status": "candidate_subset_quotient_witness",
+      "row_format_version": "packaging-axis-row.v1",
+      "run_ids": {
+        "baseline_statistical": "run_search_20260330t191000z_packaging_control_same_step_k4_baseline_statistical",
+        "candidate_statistical": "run_search_20260330t191000z_packaging_control_same_step_k4_candidate_statistical",
+        "package_build": "run_search_20260330t191000z_packaging_control_same_step_k4_package_build",
+        "pilot_seed_0": "run_search_20260330t191000z_packaging_axis_th5_seed_0",
+        "provenance_audit": "run_search_20260330t191000z_packaging_control_same_step_k4_provenance",
+        "quotient_feasibility_audit": "run_results_20260330t191000z_packaging_control_same_step_k4_quotient_feasibility"
+      },
+      "same_step_packaging_divergent_pair_count": 1,
+      "same_support_non_nested_packaging_divergent_pair_count": 0,
+      "same_support_packaging_divergent_pair_count": 1,
+      "search_id": "packaging_axis_th5",
+      "selected_packaging_family_count": 1,
+      "selected_packaging_operator_count": 1,
+      "selected_packaging_sources": [
+        "p5_from_p4"
+      ],
+      "selected_protocol_step_ids": [
+        "protocol_pica_multiscale_scan_step_1"
+      ],
+      "selected_resolution_ids": [
+        "resolution_k_4"
+      ],
+      "selected_step_indices": [
+        1
+      ],
+      "selector_branch_outcome_counts": {
+        "pre_selector_branch": 1,
+        "selected_packaging_branch": 1
+      },
+      "source_pica_campaign_config_path": "experiments/configs/pica/pilot-exp104-p6-row-all-n64.json",
+      "support_relation_kind_counts": {}
+    },
+    {
+      "accepted_context_count": 2,
+      "accepted_packaging_divergent_proper_coarse_proposal_count": 0,
+      "accepted_packaging_divergent_proposal_count": 0,
+      "accepted_proper_coarse_event_count": 91,
+      "accepted_proper_coarse_proposal_count": 0,
+      "accepted_shared_event_proposal_count": 0,
+      "accepted_singleton_event_count": 20,
+      "all_accepted_proposals": {
+        "exact_failure_reason": null,
+        "exact_feasible": true,
+        "exact_respecting_tuple_count": 99,
+        "exact_structural_status": "feasible",
+        "gpd_stat": 2.7755575615628914e-16,
+        "gpd_stat_reason": null,
+        "gpd_stat_status": "solved",
+        "gpd_str": 0.0,
+        "gpd_str_reason": null,
+        "gpd_str_status": "solved"
+      },
+      "artifact_paths": {
+        "baseline_statistical_summary": "results/search/20260330T191000Z--packaging_same_step_k20_baseline_statistical/statistical-summary.json",
+        "candidate_statistical_summary": "results/search/20260330T191000Z--packaging_same_step_k20_candidate_statistical/statistical-summary.json",
+        "discovered_context_family": "results/search/20260330T191000Z--packaging_axis/derived/families/packaging_same_step_k20/discovered-context-family.json",
+        "event_package": "results/search/20260330T191000Z--packaging_same_step_k20_package_build/event-package.json",
+        "export_bundle": "results/search/20260330T191000Z--packaging_axis/derived/merged_bundle/packaging_axis_th5/pica-export-bundle.json",
+        "package_build_summary": "results/search/20260330T191000Z--packaging_same_step_k20_package_build/package-build-summary.json",
+        "package_conflict_pairs": "results/search/20260330T191000Z--packaging_axis/derived/packaging_same_step_k20_package_conflict_pairs.json",
+        "package_provenance": "results/search/20260330T191000Z--packaging_same_step_k20_package_build/package-provenance.json",
+        "packaging_family_admissibility": "results/search/20260330T191000Z--packaging_axis/derived/packaging-family-admissibility.json",
+        "packaging_source_index": "results/search/20260330T191000Z--packaging_axis/derived/packaging-source-index.json",
+        "packaging_surface_summary": "results/search/20260330T191000Z--packaging_axis/derived/packaging-surface-summary.json",
+        "provenance_summary": "results/search/20260330T191000Z--packaging_same_step_k20_provenance/provenance-audit-summary.json",
+        "quotient_class_ledger": "results/results/20260330T191000Z--packaging_same_step_k20_quotient_feasibility/quotient-class-ledger.json",
+        "quotient_feasibility_summary": "results/results/20260330T191000Z--packaging_same_step_k20_quotient_feasibility/quotient-feasibility-summary.json",
+        "shared_event_candidates": "results/search/20260330T191000Z--packaging_same_step_k20_package_build/shared-event-candidates.json",
+        "stat_trace": "results/search/20260330T191000Z--packaging_axis/derived/packaging_same_step_k20_stat_trace.json"
+      },
+      "axis": "packaging",
+      "baseline_hard_only": {
+        "exact_failure_reason": null,
+        "exact_feasible": true,
+        "exact_respecting_tuple_count": 99,
+        "exact_structural_status": "feasible",
+        "gpd_stat": 2.7755575615628914e-16,
+        "gpd_stat_reason": null,
+        "gpd_stat_status": "solved",
+        "gpd_str": 0.0,
+        "gpd_str_reason": null,
+        "gpd_str_status": "solved"
+      },
+      "candidate_classification": "weakly_frustrated_candidate",
+      "claim_level_supported": "packaging_conflict_tension",
+      "cross_resolution_packaging_divergent_pair_count": 0,
+      "discovered_context_family_path": "results/search/20260330T191000Z--packaging_axis/derived/families/packaging_same_step_k20/discovered-context-family.json",
+      "event_package_path": "results/search/20260330T191000Z--packaging_same_step_k20_package_build/event-package.json",
+      "fixed_lens_label": "obs_primary_observation_label",
+      "fixed_mechanism_label": "exp104_p6_row_all_n64",
+      "fixed_projection_family_ids": [
+        "obs_primary"
+      ],
+      "flags": [
+        "packaging_axis",
+        "same_support_package_change"
+      ],
+      "notes": [
+        "same_step_packaging_divergent_k20",
+        "richer_same_step_packaging_branch_case",
+        "rm_is_diagnostic_only",
+        "sec_status=insufficient_data",
+        "sec_mean=None",
+        "statistical_stage_completed"
+      ],
+      "packaging_support_slice_count": 5,
+      "packaging_surface_summary_path": "results/search/20260330T191000Z--packaging_axis/derived/packaging-surface-summary.json",
+      "point_id": "packaging_same_step_k20",
+      "produced_export_bundle_path": "results/search/20260330T191000Z--packaging_axis/derived/merged_bundle/packaging_axis_th5/pica-export-bundle.json",
+      "provenance_classification": "admissible",
+      "quotient_accepted_only_exact_feasible": true,
+      "quotient_accepted_only_failure_reason": null,
+      "quotient_accepted_only_survivor_count": 11,
+      "quotient_candidate_subset_minimal_witness_size": 1,
+      "quotient_candidate_subset_witness_found": true,
+      "quotient_class_count": 11,
+      "quotient_feasibility_summary_path": "results/results/20260330T191000Z--packaging_same_step_k20_quotient_feasibility/quotient-feasibility-summary.json",
+      "quotient_natural_pairing_exact_feasible": true,
+      "quotient_natural_pairing_survivor_count": 11,
+      "quotient_witness_candidate_ids": [
+        "cand_event_ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_20_closure_p6_row_all_k_20_lens_p4_k_20_protocol_pica_multiscale_scan_step_4__proj_obs_primary_atom_group_12_2__event_ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_20_closure_p6_row_all_pkg_k_20_lens_p5_k_20_protocol_pica_multiscale_scan_step_4__proj_obs_primary_atom_package_10_2"
+      ],
+      "quotient_witness_status": "candidate_subset_quotient_witness",
+      "row_format_version": "packaging-axis-row.v1",
+      "run_ids": {
+        "baseline_statistical": "run_search_20260330t191000z_packaging_same_step_k20_baseline_statistical",
+        "candidate_statistical": "run_search_20260330t191000z_packaging_same_step_k20_candidate_statistical",
+        "package_build": "run_search_20260330t191000z_packaging_same_step_k20_package_build",
+        "pilot_seed_0": "run_search_20260330t191000z_packaging_axis_th5_seed_0",
+        "provenance_audit": "run_search_20260330t191000z_packaging_same_step_k20_provenance",
+        "quotient_feasibility_audit": "run_results_20260330t191000z_packaging_same_step_k20_quotient_feasibility"
+      },
+      "same_step_packaging_divergent_pair_count": 1,
+      "same_support_non_nested_packaging_divergent_pair_count": 0,
+      "same_support_packaging_divergent_pair_count": 1,
+      "search_id": "packaging_axis_th5",
+      "selected_packaging_family_count": 1,
+      "selected_packaging_operator_count": 1,
+      "selected_packaging_sources": [
+        "p5_from_p4"
+      ],
+      "selected_protocol_step_ids": [
+        "protocol_pica_multiscale_scan_step_4"
+      ],
+      "selected_resolution_ids": [
+        "resolution_k_20"
+      ],
+      "selected_step_indices": [
+        4
+      ],
+      "selector_branch_outcome_counts": {
+        "pre_selector_branch": 1,
+        "selected_packaging_branch": 1
+      },
+      "source_pica_campaign_config_path": "experiments/configs/pica/pilot-exp104-p6-row-all-n64.json",
+      "support_relation_kind_counts": {}
+    },
+    {
+      "accepted_context_count": 4,
+      "accepted_packaging_divergent_proper_coarse_proposal_count": 22,
+      "accepted_packaging_divergent_proposal_count": 31,
+      "accepted_proper_coarse_event_count": 103,
+      "accepted_proper_coarse_proposal_count": 22,
+      "accepted_shared_event_proposal_count": 31,
+      "accepted_singleton_event_count": 28,
+      "all_accepted_proposals": {
+        "exact_failure_reason": "coverage_failure",
+        "exact_feasible": false,
+        "exact_respecting_tuple_count": 9,
+        "exact_structural_status": "infeasible",
+        "gpd_stat": 0.9166666666666667,
+        "gpd_stat_reason": null,
+        "gpd_stat_status": "solved",
+        "gpd_str": 3.0,
+        "gpd_str_reason": null,
+        "gpd_str_status": "solved"
+      },
+      "artifact_paths": {
+        "baseline_statistical_summary": "results/search/20260330T191000Z--packaging_cross_res_k4_k20_baseline_statistical/statistical-summary.json",
+        "candidate_statistical_summary": "results/search/20260330T191000Z--packaging_cross_res_k4_k20_candidate_statistical/statistical-summary.json",
+        "discovered_context_family": "results/search/20260330T191000Z--packaging_axis/derived/families/packaging_cross_res_k4_k20/discovered-context-family.json",
+        "event_package": "results/search/20260330T191000Z--packaging_cross_res_k4_k20_package_build/event-package.json",
+        "export_bundle": "results/search/20260330T191000Z--packaging_axis/derived/merged_bundle/packaging_axis_th5/pica-export-bundle.json",
+        "package_build_summary": "results/search/20260330T191000Z--packaging_cross_res_k4_k20_package_build/package-build-summary.json",
+        "package_conflict_pairs": "results/search/20260330T191000Z--packaging_axis/derived/packaging_cross_res_k4_k20_package_conflict_pairs.json",
+        "package_provenance": "results/search/20260330T191000Z--packaging_cross_res_k4_k20_package_build/package-provenance.json",
+        "packaging_family_admissibility": "results/search/20260330T191000Z--packaging_axis/derived/packaging-family-admissibility.json",
+        "packaging_source_index": "results/search/20260330T191000Z--packaging_axis/derived/packaging-source-index.json",
+        "packaging_surface_summary": "results/search/20260330T191000Z--packaging_axis/derived/packaging-surface-summary.json",
+        "provenance_summary": "results/search/20260330T191000Z--packaging_cross_res_k4_k20_provenance/provenance-audit-summary.json",
+        "quotient_class_ledger": "results/results/20260330T191000Z--packaging_cross_res_k4_k20_quotient_feasibility/quotient-class-ledger.json",
+        "quotient_feasibility_summary": "results/results/20260330T191000Z--packaging_cross_res_k4_k20_quotient_feasibility/quotient-feasibility-summary.json",
+        "shared_event_candidates": "results/search/20260330T191000Z--packaging_cross_res_k4_k20_package_build/shared-event-candidates.json",
+        "stat_trace": "results/search/20260330T191000Z--packaging_axis/derived/packaging_cross_res_k4_k20_stat_trace.json"
+      },
+      "axis": "packaging",
+      "baseline_hard_only": {
+        "exact_failure_reason": null,
+        "exact_feasible": true,
+        "exact_respecting_tuple_count": 1584,
+        "exact_structural_status": "feasible",
+        "gpd_stat": 1.2177758801357186e-15,
+        "gpd_stat_reason": null,
+        "gpd_stat_status": "solved",
+        "gpd_str": 0.0,
+        "gpd_str_reason": null,
+        "gpd_str_status": "solved"
+      },
+      "candidate_classification": "strongly_nonextendable_candidate",
+      "claim_level_supported": "provenance_admissible_packaging_obstruction",
+      "cross_resolution_packaging_divergent_pair_count": 2,
+      "discovered_context_family_path": "results/search/20260330T191000Z--packaging_axis/derived/families/packaging_cross_res_k4_k20/discovered-context-family.json",
+      "event_package_path": "results/search/20260330T191000Z--packaging_cross_res_k4_k20_package_build/event-package.json",
+      "fixed_lens_label": "obs_primary_observation_label",
+      "fixed_mechanism_label": "exp104_p6_row_all_n64",
+      "fixed_projection_family_ids": [
+        "obs_primary"
+      ],
+      "flags": [
+        "packaging_axis",
+        "same_support_package_change"
+      ],
+      "notes": [
+        "richest_packaging_candidate",
+        "cross_resolution_packaging_strict_extension_k4_k20",
+        "rm_is_diagnostic_only",
+        "sec_status=scored",
+        "sec_mean=0.006221198156682028",
+        "statistical_stage_completed"
+      ],
+      "packaging_support_slice_count": 5,
+      "packaging_surface_summary_path": "results/search/20260330T191000Z--packaging_axis/derived/packaging-surface-summary.json",
+      "point_id": "packaging_cross_res_k4_k20",
+      "produced_export_bundle_path": "results/search/20260330T191000Z--packaging_axis/derived/merged_bundle/packaging_axis_th5/pica-export-bundle.json",
+      "provenance_classification": "admissible",
+      "quotient_accepted_only_exact_feasible": false,
+      "quotient_accepted_only_failure_reason": "coverage_failure",
+      "quotient_accepted_only_survivor_count": 3,
+      "quotient_candidate_subset_minimal_witness_size": 1,
+      "quotient_candidate_subset_witness_found": true,
+      "quotient_class_count": 11,
+      "quotient_feasibility_summary_path": "results/results/20260330T191000Z--packaging_cross_res_k4_k20_quotient_feasibility/quotient-feasibility-summary.json",
+      "quotient_natural_pairing_exact_feasible": true,
+      "quotient_natural_pairing_survivor_count": 11,
+      "quotient_witness_candidate_ids": [
+        "cand_event_ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_4_closure_p6_row_all_k_4_lens_p4_k_4_protocol_pica_multiscale_scan_step_1__proj_obs_primary_atom_group_0_1__event_ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_4_closure_p6_row_all_pkg_k_4_lens_p5_k_4_protocol_pica_multiscale_scan_step_1__proj_obs_primary_atom_package_1_2"
+      ],
+      "quotient_witness_status": "accepted_proposal_obstruction",
+      "row_format_version": "packaging-axis-row.v1",
+      "run_ids": {
+        "baseline_statistical": "run_search_20260330t191000z_packaging_cross_res_k4_k20_baseline_statistical",
+        "candidate_statistical": "run_search_20260330t191000z_packaging_cross_res_k4_k20_candidate_statistical",
+        "package_build": "run_search_20260330t191000z_packaging_cross_res_k4_k20_package_build",
+        "pilot_seed_0": "run_search_20260330t191000z_packaging_axis_th5_seed_0",
+        "provenance_audit": "run_search_20260330t191000z_packaging_cross_res_k4_k20_provenance",
+        "quotient_feasibility_audit": "run_results_20260330t191000z_packaging_cross_res_k4_k20_quotient_feasibility"
+      },
+      "same_step_packaging_divergent_pair_count": 2,
+      "same_support_non_nested_packaging_divergent_pair_count": 1,
+      "same_support_packaging_divergent_pair_count": 4,
+      "search_id": "packaging_axis_th5",
+      "selected_packaging_family_count": 1,
+      "selected_packaging_operator_count": 1,
+      "selected_packaging_sources": [
+        "p5_from_p4"
+      ],
+      "selected_protocol_step_ids": [
+        "protocol_pica_multiscale_scan_step_1",
+        "protocol_pica_multiscale_scan_step_4"
+      ],
+      "selected_resolution_ids": [
+        "resolution_k_4",
+        "resolution_k_20"
+      ],
+      "selected_step_indices": [
+        1,
+        4
+      ],
+      "selector_branch_outcome_counts": {
+        "pre_selector_branch": 6,
+        "selected_packaging_branch": 6
+      },
+      "source_pica_campaign_config_path": "experiments/configs/pica/pilot-exp104-p6-row-all-n64.json",
+      "support_relation_kind_counts": {
+        "cross_support_match": 1,
+        "crosscutting_match": 8,
+        "disjoint_support_match": 3,
+        "same_support_relabeling": 19
+      }
+    }
+  ],
+  "search_id": "packaging_axis_th5",
+  "table_format_version": "packaging-axis-results.v1"
+}

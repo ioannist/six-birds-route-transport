@@ -1,0 +1,51 @@
+{
+  "instance_artifact": "experiments/instances/benchmarks/classical-master-test/instance.json",
+  "instance_id": "inst_classical_master_test",
+  "metadata": {
+    "benchmark_id": "classical-master-test",
+    "mode": "rm_clean"
+  },
+  "observations": [
+    {
+      "context_id": "ctx_binary",
+      "atom_ids": [
+        "x0"
+      ],
+      "count": 1
+    }
+  ],
+  "route_observations": [
+    {
+      "preparation_id": "prep_master",
+      "route_id": "route_a",
+      "endpoint_id": "endpoint_binary",
+      "context_id": "ctx_binary",
+      "outcome_counts": {
+        "fail": 70,
+        "pass": 30
+      }
+    },
+    {
+      "preparation_id": "prep_master",
+      "route_id": "route_b",
+      "endpoint_id": "endpoint_binary",
+      "context_id": "ctx_binary",
+      "outcome_counts": {
+        "fail": 70,
+        "pass": 30
+      }
+    },
+    {
+      "macrostate_id": "macro_aux",
+      "route_id": "route_single",
+      "endpoint_id": "endpoint_binary",
+      "context_id": "ctx_binary",
+      "outcome_counts": {
+        "fail": 50,
+        "pass": 50
+      }
+    }
+  ],
+  "trace_format_version": "observation-trace.v1",
+  "trace_id": "trace_classical_master_test_rm_clean"
+}

@@ -1,0 +1,1254 @@
+{
+  "audit": {
+    "checksum": null,
+    "created_at": "2026-03-26T06:10:00Z",
+    "created_by": null,
+    "source": null
+  },
+  "contexts": [
+    {
+      "atoms": [
+        {
+          "atom_id": "atom_blue_1",
+          "label": "blue"
+        },
+        {
+          "atom_id": "atom_green_2",
+          "label": "green"
+        },
+        {
+          "atom_id": "atom_red_3",
+          "label": "red"
+        }
+      ],
+      "context_id": "ctx_prep0_branch_hold_hold_color_step0",
+      "label": "prep0/branch_hold_hold/color/step0"
+    },
+    {
+      "atoms": [
+        {
+          "atom_id": "atom_blue_1",
+          "label": "blue"
+        },
+        {
+          "atom_id": "atom_green_2",
+          "label": "green"
+        },
+        {
+          "atom_id": "atom_red_3",
+          "label": "red"
+        }
+      ],
+      "context_id": "ctx_prep0_branch_hold_hold_color_step1",
+      "label": "prep0/branch_hold_hold/color/step1"
+    },
+    {
+      "atoms": [
+        {
+          "atom_id": "atom_blue_1",
+          "label": "blue"
+        },
+        {
+          "atom_id": "atom_green_2",
+          "label": "green"
+        },
+        {
+          "atom_id": "atom_red_3",
+          "label": "red"
+        }
+      ],
+      "context_id": "ctx_prep0_branch_hold_hold_color_step2",
+      "label": "prep0/branch_hold_hold/color/step2"
+    },
+    {
+      "atoms": [
+        {
+          "atom_id": "atom_circle_1",
+          "label": "circle"
+        },
+        {
+          "atom_id": "atom_square_2",
+          "label": "square"
+        },
+        {
+          "atom_id": "atom_triangle_3",
+          "label": "triangle"
+        }
+      ],
+      "context_id": "ctx_prep0_branch_hold_hold_shape_step0",
+      "label": "prep0/branch_hold_hold/shape/step0"
+    },
+    {
+      "atoms": [
+        {
+          "atom_id": "atom_circle_1",
+          "label": "circle"
+        },
+        {
+          "atom_id": "atom_square_2",
+          "label": "square"
+        },
+        {
+          "atom_id": "atom_triangle_3",
+          "label": "triangle"
+        }
+      ],
+      "context_id": "ctx_prep0_branch_hold_hold_shape_step1",
+      "label": "prep0/branch_hold_hold/shape/step1"
+    },
+    {
+      "atoms": [
+        {
+          "atom_id": "atom_circle_1",
+          "label": "circle"
+        },
+        {
+          "atom_id": "atom_square_2",
+          "label": "square"
+        },
+        {
+          "atom_id": "atom_triangle_3",
+          "label": "triangle"
+        }
+      ],
+      "context_id": "ctx_prep0_branch_hold_hold_shape_step2",
+      "label": "prep0/branch_hold_hold/shape/step2"
+    }
+  ],
+  "equality_proposals": [
+    {
+      "constraint_kind": "soft",
+      "left_event_id": "event_ctx_prep0_branch_hold_hold_color_step0_atom_blue_1",
+      "notes": "inferred_shared_event approx_score=0.0 common_probe_count=4",
+      "proposal_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step0_atom_blue_1__event_ctx_prep0_branch_hold_hold_color_step1_atom_blue_1",
+      "right_event_id": "event_ctx_prep0_branch_hold_hold_color_step1_atom_blue_1",
+      "weight_key": "weight_proposal_event_ctx_prep0_branch_hold_hold_color_step0_atom_blue_1__event_ctx_prep0_branch_hold_hold_color_step1_atom_blue_1"
+    },
+    {
+      "constraint_kind": "soft",
+      "left_event_id": "event_ctx_prep0_branch_hold_hold_color_step0_atom_green_2",
+      "notes": "inferred_shared_event approx_score=0.0 common_probe_count=4",
+      "proposal_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step0_atom_green_2__event_ctx_prep0_branch_hold_hold_color_step1_atom_green_2",
+      "right_event_id": "event_ctx_prep0_branch_hold_hold_color_step1_atom_green_2",
+      "weight_key": "weight_proposal_event_ctx_prep0_branch_hold_hold_color_step0_atom_green_2__event_ctx_prep0_branch_hold_hold_color_step1_atom_green_2"
+    },
+    {
+      "constraint_kind": "soft",
+      "left_event_id": "event_ctx_prep0_branch_hold_hold_color_step0_atom_red_3",
+      "notes": "inferred_shared_event approx_score=0.0 common_probe_count=4",
+      "proposal_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step0_atom_red_3__event_ctx_prep0_branch_hold_hold_color_step1_atom_red_3",
+      "right_event_id": "event_ctx_prep0_branch_hold_hold_color_step1_atom_red_3",
+      "weight_key": "weight_proposal_event_ctx_prep0_branch_hold_hold_color_step0_atom_red_3__event_ctx_prep0_branch_hold_hold_color_step1_atom_red_3"
+    },
+    {
+      "constraint_kind": "soft",
+      "left_event_id": "event_ctx_prep0_branch_hold_hold_color_step0__union__atom_blue_1__atom_green_2",
+      "notes": "inferred_shared_event approx_score=0.0 common_probe_count=4",
+      "proposal_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step0__union__atom_blue_1__atom_green_2__event_ctx_prep0_branch_hold_hold_color_step1__union__atom_blue_1__atom_green_2",
+      "right_event_id": "event_ctx_prep0_branch_hold_hold_color_step1__union__atom_blue_1__atom_green_2",
+      "weight_key": "weight_proposal_event_ctx_prep0_branch_hold_hold_color_step0__union__atom_blue_1__atom_green_2__event_ctx_prep0_branch_hold_hold_color_step1__union__atom_blue_1__atom_green_2"
+    },
+    {
+      "constraint_kind": "soft",
+      "left_event_id": "event_ctx_prep0_branch_hold_hold_color_step0__union__atom_blue_1__atom_red_3",
+      "notes": "inferred_shared_event approx_score=0.0 common_probe_count=4",
+      "proposal_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step0__union__atom_blue_1__atom_red_3__event_ctx_prep0_branch_hold_hold_color_step1__union__atom_blue_1__atom_red_3",
+      "right_event_id": "event_ctx_prep0_branch_hold_hold_color_step1__union__atom_blue_1__atom_red_3",
+      "weight_key": "weight_proposal_event_ctx_prep0_branch_hold_hold_color_step0__union__atom_blue_1__atom_red_3__event_ctx_prep0_branch_hold_hold_color_step1__union__atom_blue_1__atom_red_3"
+    },
+    {
+      "constraint_kind": "soft",
+      "left_event_id": "event_ctx_prep0_branch_hold_hold_color_step0__union__atom_green_2__atom_red_3",
+      "notes": "inferred_shared_event approx_score=0.0 common_probe_count=4",
+      "proposal_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step0__union__atom_green_2__atom_red_3__event_ctx_prep0_branch_hold_hold_color_step1__union__atom_green_2__atom_red_3",
+      "right_event_id": "event_ctx_prep0_branch_hold_hold_color_step1__union__atom_green_2__atom_red_3",
+      "weight_key": "weight_proposal_event_ctx_prep0_branch_hold_hold_color_step0__union__atom_green_2__atom_red_3__event_ctx_prep0_branch_hold_hold_color_step1__union__atom_green_2__atom_red_3"
+    },
+    {
+      "constraint_kind": "soft",
+      "left_event_id": "event_ctx_prep0_branch_hold_hold_color_step0_atom_blue_1",
+      "notes": "inferred_shared_event approx_score=0.0 common_probe_count=4",
+      "proposal_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step0_atom_blue_1__event_ctx_prep0_branch_hold_hold_color_step2_atom_blue_1",
+      "right_event_id": "event_ctx_prep0_branch_hold_hold_color_step2_atom_blue_1",
+      "weight_key": "weight_proposal_event_ctx_prep0_branch_hold_hold_color_step0_atom_blue_1__event_ctx_prep0_branch_hold_hold_color_step2_atom_blue_1"
+    },
+    {
+      "constraint_kind": "soft",
+      "left_event_id": "event_ctx_prep0_branch_hold_hold_color_step0_atom_green_2",
+      "notes": "inferred_shared_event approx_score=0.0 common_probe_count=4",
+      "proposal_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step0_atom_green_2__event_ctx_prep0_branch_hold_hold_color_step2_atom_green_2",
+      "right_event_id": "event_ctx_prep0_branch_hold_hold_color_step2_atom_green_2",
+      "weight_key": "weight_proposal_event_ctx_prep0_branch_hold_hold_color_step0_atom_green_2__event_ctx_prep0_branch_hold_hold_color_step2_atom_green_2"
+    },
+    {
+      "constraint_kind": "soft",
+      "left_event_id": "event_ctx_prep0_branch_hold_hold_color_step0_atom_red_3",
+      "notes": "inferred_shared_event approx_score=0.0 common_probe_count=4",
+      "proposal_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step0_atom_red_3__event_ctx_prep0_branch_hold_hold_color_step2_atom_red_3",
+      "right_event_id": "event_ctx_prep0_branch_hold_hold_color_step2_atom_red_3",
+      "weight_key": "weight_proposal_event_ctx_prep0_branch_hold_hold_color_step0_atom_red_3__event_ctx_prep0_branch_hold_hold_color_step2_atom_red_3"
+    },
+    {
+      "constraint_kind": "soft",
+      "left_event_id": "event_ctx_prep0_branch_hold_hold_color_step0__union__atom_blue_1__atom_green_2",
+      "notes": "inferred_shared_event approx_score=0.0 common_probe_count=4",
+      "proposal_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step0__union__atom_blue_1__atom_green_2__event_ctx_prep0_branch_hold_hold_color_step2__union__atom_blue_1__atom_green_2",
+      "right_event_id": "event_ctx_prep0_branch_hold_hold_color_step2__union__atom_blue_1__atom_green_2",
+      "weight_key": "weight_proposal_event_ctx_prep0_branch_hold_hold_color_step0__union__atom_blue_1__atom_green_2__event_ctx_prep0_branch_hold_hold_color_step2__union__atom_blue_1__atom_green_2"
+    },
+    {
+      "constraint_kind": "soft",
+      "left_event_id": "event_ctx_prep0_branch_hold_hold_color_step0__union__atom_blue_1__atom_red_3",
+      "notes": "inferred_shared_event approx_score=0.0 common_probe_count=4",
+      "proposal_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step0__union__atom_blue_1__atom_red_3__event_ctx_prep0_branch_hold_hold_color_step2__union__atom_blue_1__atom_red_3",
+      "right_event_id": "event_ctx_prep0_branch_hold_hold_color_step2__union__atom_blue_1__atom_red_3",
+      "weight_key": "weight_proposal_event_ctx_prep0_branch_hold_hold_color_step0__union__atom_blue_1__atom_red_3__event_ctx_prep0_branch_hold_hold_color_step2__union__atom_blue_1__atom_red_3"
+    },
+    {
+      "constraint_kind": "soft",
+      "left_event_id": "event_ctx_prep0_branch_hold_hold_color_step0__union__atom_green_2__atom_red_3",
+      "notes": "inferred_shared_event approx_score=0.0 common_probe_count=4",
+      "proposal_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step0__union__atom_green_2__atom_red_3__event_ctx_prep0_branch_hold_hold_color_step2__union__atom_green_2__atom_red_3",
+      "right_event_id": "event_ctx_prep0_branch_hold_hold_color_step2__union__atom_green_2__atom_red_3",
+      "weight_key": "weight_proposal_event_ctx_prep0_branch_hold_hold_color_step0__union__atom_green_2__atom_red_3__event_ctx_prep0_branch_hold_hold_color_step2__union__atom_green_2__atom_red_3"
+    },
+    {
+      "constraint_kind": "soft",
+      "left_event_id": "event_ctx_prep0_branch_hold_hold_color_step0_atom_blue_1",
+      "notes": "inferred_shared_event approx_score=0.0 common_probe_count=4",
+      "proposal_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step0_atom_blue_1__event_ctx_prep0_branch_hold_hold_shape_step0_atom_square_2",
+      "right_event_id": "event_ctx_prep0_branch_hold_hold_shape_step0_atom_square_2",
+      "weight_key": "weight_proposal_event_ctx_prep0_branch_hold_hold_color_step0_atom_blue_1__event_ctx_prep0_branch_hold_hold_shape_step0_atom_square_2"
+    },
+    {
+      "constraint_kind": "soft",
+      "left_event_id": "event_ctx_prep0_branch_hold_hold_color_step0_atom_green_2",
+      "notes": "inferred_shared_event approx_score=0.0 common_probe_count=4",
+      "proposal_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step0_atom_green_2__event_ctx_prep0_branch_hold_hold_shape_step0_atom_triangle_3",
+      "right_event_id": "event_ctx_prep0_branch_hold_hold_shape_step0_atom_triangle_3",
+      "weight_key": "weight_proposal_event_ctx_prep0_branch_hold_hold_color_step0_atom_green_2__event_ctx_prep0_branch_hold_hold_shape_step0_atom_triangle_3"
+    },
+    {
+      "constraint_kind": "soft",
+      "left_event_id": "event_ctx_prep0_branch_hold_hold_color_step0_atom_red_3",
+      "notes": "inferred_shared_event approx_score=0.0 common_probe_count=4",
+      "proposal_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step0_atom_red_3__event_ctx_prep0_branch_hold_hold_shape_step0_atom_circle_1",
+      "right_event_id": "event_ctx_prep0_branch_hold_hold_shape_step0_atom_circle_1",
+      "weight_key": "weight_proposal_event_ctx_prep0_branch_hold_hold_color_step0_atom_red_3__event_ctx_prep0_branch_hold_hold_shape_step0_atom_circle_1"
+    },
+    {
+      "constraint_kind": "soft",
+      "left_event_id": "event_ctx_prep0_branch_hold_hold_color_step0__union__atom_blue_1__atom_green_2",
+      "notes": "inferred_shared_event approx_score=0.0 common_probe_count=4",
+      "proposal_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step0__union__atom_blue_1__atom_green_2__event_ctx_prep0_branch_hold_hold_shape_step0__union__atom_square_2__atom_triangle_3",
+      "right_event_id": "event_ctx_prep0_branch_hold_hold_shape_step0__union__atom_square_2__atom_triangle_3",
+      "weight_key": "weight_proposal_event_ctx_prep0_branch_hold_hold_color_step0__union__atom_blue_1__atom_green_2__event_ctx_prep0_branch_hold_hold_shape_step0__union__atom_square_2__atom_triangle_3"
+    },
+    {
+      "constraint_kind": "soft",
+      "left_event_id": "event_ctx_prep0_branch_hold_hold_color_step0__union__atom_blue_1__atom_red_3",
+      "notes": "inferred_shared_event approx_score=0.0 common_probe_count=4",
+      "proposal_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step0__union__atom_blue_1__atom_red_3__event_ctx_prep0_branch_hold_hold_shape_step0__union__atom_circle_1__atom_square_2",
+      "right_event_id": "event_ctx_prep0_branch_hold_hold_shape_step0__union__atom_circle_1__atom_square_2",
+      "weight_key": "weight_proposal_event_ctx_prep0_branch_hold_hold_color_step0__union__atom_blue_1__atom_red_3__event_ctx_prep0_branch_hold_hold_shape_step0__union__atom_circle_1__atom_square_2"
+    },
+    {
+      "constraint_kind": "soft",
+      "left_event_id": "event_ctx_prep0_branch_hold_hold_color_step0__union__atom_green_2__atom_red_3",
+      "notes": "inferred_shared_event approx_score=0.0 common_probe_count=4",
+      "proposal_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step0__union__atom_green_2__atom_red_3__event_ctx_prep0_branch_hold_hold_shape_step0__union__atom_circle_1__atom_triangle_3",
+      "right_event_id": "event_ctx_prep0_branch_hold_hold_shape_step0__union__atom_circle_1__atom_triangle_3",
+      "weight_key": "weight_proposal_event_ctx_prep0_branch_hold_hold_color_step0__union__atom_green_2__atom_red_3__event_ctx_prep0_branch_hold_hold_shape_step0__union__atom_circle_1__atom_triangle_3"
+    },
+    {
+      "constraint_kind": "soft",
+      "left_event_id": "event_ctx_prep0_branch_hold_hold_color_step0_atom_blue_1",
+      "notes": "inferred_shared_event approx_score=0.0 common_probe_count=4",
+      "proposal_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step0_atom_blue_1__event_ctx_prep0_branch_hold_hold_shape_step1_atom_square_2",
+      "right_event_id": "event_ctx_prep0_branch_hold_hold_shape_step1_atom_square_2",
+      "weight_key": "weight_proposal_event_ctx_prep0_branch_hold_hold_color_step0_atom_blue_1__event_ctx_prep0_branch_hold_hold_shape_step1_atom_square_2"
+    },
+    {
+      "constraint_kind": "soft",
+      "left_event_id": "event_ctx_prep0_branch_hold_hold_color_step0_atom_green_2",
+      "notes": "inferred_shared_event approx_score=0.0 common_probe_count=4",
+      "proposal_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step0_atom_green_2__event_ctx_prep0_branch_hold_hold_shape_step1_atom_triangle_3",
+      "right_event_id": "event_ctx_prep0_branch_hold_hold_shape_step1_atom_triangle_3",
+      "weight_key": "weight_proposal_event_ctx_prep0_branch_hold_hold_color_step0_atom_green_2__event_ctx_prep0_branch_hold_hold_shape_step1_atom_triangle_3"
+    },
+    {
+      "constraint_kind": "soft",
+      "left_event_id": "event_ctx_prep0_branch_hold_hold_color_step0_atom_red_3",
+      "notes": "inferred_shared_event approx_score=0.0 common_probe_count=4",
+      "proposal_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step0_atom_red_3__event_ctx_prep0_branch_hold_hold_shape_step1_atom_circle_1",
+      "right_event_id": "event_ctx_prep0_branch_hold_hold_shape_step1_atom_circle_1",
+      "weight_key": "weight_proposal_event_ctx_prep0_branch_hold_hold_color_step0_atom_red_3__event_ctx_prep0_branch_hold_hold_shape_step1_atom_circle_1"
+    },
+    {
+      "constraint_kind": "soft",
+      "left_event_id": "event_ctx_prep0_branch_hold_hold_color_step0__union__atom_blue_1__atom_green_2",
+      "notes": "inferred_shared_event approx_score=0.0 common_probe_count=4",
+      "proposal_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step0__union__atom_blue_1__atom_green_2__event_ctx_prep0_branch_hold_hold_shape_step1__union__atom_square_2__atom_triangle_3",
+      "right_event_id": "event_ctx_prep0_branch_hold_hold_shape_step1__union__atom_square_2__atom_triangle_3",
+      "weight_key": "weight_proposal_event_ctx_prep0_branch_hold_hold_color_step0__union__atom_blue_1__atom_green_2__event_ctx_prep0_branch_hold_hold_shape_step1__union__atom_square_2__atom_triangle_3"
+    },
+    {
+      "constraint_kind": "soft",
+      "left_event_id": "event_ctx_prep0_branch_hold_hold_color_step0__union__atom_blue_1__atom_red_3",
+      "notes": "inferred_shared_event approx_score=0.0 common_probe_count=4",
+      "proposal_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step0__union__atom_blue_1__atom_red_3__event_ctx_prep0_branch_hold_hold_shape_step1__union__atom_circle_1__atom_square_2",
+      "right_event_id": "event_ctx_prep0_branch_hold_hold_shape_step1__union__atom_circle_1__atom_square_2",
+      "weight_key": "weight_proposal_event_ctx_prep0_branch_hold_hold_color_step0__union__atom_blue_1__atom_red_3__event_ctx_prep0_branch_hold_hold_shape_step1__union__atom_circle_1__atom_square_2"
+    },
+    {
+      "constraint_kind": "soft",
+      "left_event_id": "event_ctx_prep0_branch_hold_hold_color_step0__union__atom_green_2__atom_red_3",
+      "notes": "inferred_shared_event approx_score=0.0 common_probe_count=4",
+      "proposal_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step0__union__atom_green_2__atom_red_3__event_ctx_prep0_branch_hold_hold_shape_step1__union__atom_circle_1__atom_triangle_3",
+      "right_event_id": "event_ctx_prep0_branch_hold_hold_shape_step1__union__atom_circle_1__atom_triangle_3",
+      "weight_key": "weight_proposal_event_ctx_prep0_branch_hold_hold_color_step0__union__atom_green_2__atom_red_3__event_ctx_prep0_branch_hold_hold_shape_step1__union__atom_circle_1__atom_triangle_3"
+    },
+    {
+      "constraint_kind": "soft",
+      "left_event_id": "event_ctx_prep0_branch_hold_hold_color_step0_atom_blue_1",
+      "notes": "inferred_shared_event approx_score=0.0 common_probe_count=4",
+      "proposal_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step0_atom_blue_1__event_ctx_prep0_branch_hold_hold_shape_step2_atom_square_2",
+      "right_event_id": "event_ctx_prep0_branch_hold_hold_shape_step2_atom_square_2",
+      "weight_key": "weight_proposal_event_ctx_prep0_branch_hold_hold_color_step0_atom_blue_1__event_ctx_prep0_branch_hold_hold_shape_step2_atom_square_2"
+    },
+    {
+      "constraint_kind": "soft",
+      "left_event_id": "event_ctx_prep0_branch_hold_hold_color_step0_atom_green_2",
+      "notes": "inferred_shared_event approx_score=0.0 common_probe_count=4",
+      "proposal_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step0_atom_green_2__event_ctx_prep0_branch_hold_hold_shape_step2_atom_triangle_3",
+      "right_event_id": "event_ctx_prep0_branch_hold_hold_shape_step2_atom_triangle_3",
+      "weight_key": "weight_proposal_event_ctx_prep0_branch_hold_hold_color_step0_atom_green_2__event_ctx_prep0_branch_hold_hold_shape_step2_atom_triangle_3"
+    },
+    {
+      "constraint_kind": "soft",
+      "left_event_id": "event_ctx_prep0_branch_hold_hold_color_step0_atom_red_3",
+      "notes": "inferred_shared_event approx_score=0.0 common_probe_count=4",
+      "proposal_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step0_atom_red_3__event_ctx_prep0_branch_hold_hold_shape_step2_atom_circle_1",
+      "right_event_id": "event_ctx_prep0_branch_hold_hold_shape_step2_atom_circle_1",
+      "weight_key": "weight_proposal_event_ctx_prep0_branch_hold_hold_color_step0_atom_red_3__event_ctx_prep0_branch_hold_hold_shape_step2_atom_circle_1"
+    },
+    {
+      "constraint_kind": "soft",
+      "left_event_id": "event_ctx_prep0_branch_hold_hold_color_step0__union__atom_blue_1__atom_green_2",
+      "notes": "inferred_shared_event approx_score=0.0 common_probe_count=4",
+      "proposal_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step0__union__atom_blue_1__atom_green_2__event_ctx_prep0_branch_hold_hold_shape_step2__union__atom_square_2__atom_triangle_3",
+      "right_event_id": "event_ctx_prep0_branch_hold_hold_shape_step2__union__atom_square_2__atom_triangle_3",
+      "weight_key": "weight_proposal_event_ctx_prep0_branch_hold_hold_color_step0__union__atom_blue_1__atom_green_2__event_ctx_prep0_branch_hold_hold_shape_step2__union__atom_square_2__atom_triangle_3"
+    },
+    {
+      "constraint_kind": "soft",
+      "left_event_id": "event_ctx_prep0_branch_hold_hold_color_step0__union__atom_blue_1__atom_red_3",
+      "notes": "inferred_shared_event approx_score=0.0 common_probe_count=4",
+      "proposal_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step0__union__atom_blue_1__atom_red_3__event_ctx_prep0_branch_hold_hold_shape_step2__union__atom_circle_1__atom_square_2",
+      "right_event_id": "event_ctx_prep0_branch_hold_hold_shape_step2__union__atom_circle_1__atom_square_2",
+      "weight_key": "weight_proposal_event_ctx_prep0_branch_hold_hold_color_step0__union__atom_blue_1__atom_red_3__event_ctx_prep0_branch_hold_hold_shape_step2__union__atom_circle_1__atom_square_2"
+    },
+    {
+      "constraint_kind": "soft",
+      "left_event_id": "event_ctx_prep0_branch_hold_hold_color_step0__union__atom_green_2__atom_red_3",
+      "notes": "inferred_shared_event approx_score=0.0 common_probe_count=4",
+      "proposal_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step0__union__atom_green_2__atom_red_3__event_ctx_prep0_branch_hold_hold_shape_step2__union__atom_circle_1__atom_triangle_3",
+      "right_event_id": "event_ctx_prep0_branch_hold_hold_shape_step2__union__atom_circle_1__atom_triangle_3",
+      "weight_key": "weight_proposal_event_ctx_prep0_branch_hold_hold_color_step0__union__atom_green_2__atom_red_3__event_ctx_prep0_branch_hold_hold_shape_step2__union__atom_circle_1__atom_triangle_3"
+    },
+    {
+      "constraint_kind": "soft",
+      "left_event_id": "event_ctx_prep0_branch_hold_hold_color_step1_atom_blue_1",
+      "notes": "inferred_shared_event approx_score=0.0 common_probe_count=4",
+      "proposal_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step1_atom_blue_1__event_ctx_prep0_branch_hold_hold_color_step2_atom_blue_1",
+      "right_event_id": "event_ctx_prep0_branch_hold_hold_color_step2_atom_blue_1",
+      "weight_key": "weight_proposal_event_ctx_prep0_branch_hold_hold_color_step1_atom_blue_1__event_ctx_prep0_branch_hold_hold_color_step2_atom_blue_1"
+    },
+    {
+      "constraint_kind": "soft",
+      "left_event_id": "event_ctx_prep0_branch_hold_hold_color_step1_atom_green_2",
+      "notes": "inferred_shared_event approx_score=0.0 common_probe_count=4",
+      "proposal_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step1_atom_green_2__event_ctx_prep0_branch_hold_hold_color_step2_atom_green_2",
+      "right_event_id": "event_ctx_prep0_branch_hold_hold_color_step2_atom_green_2",
+      "weight_key": "weight_proposal_event_ctx_prep0_branch_hold_hold_color_step1_atom_green_2__event_ctx_prep0_branch_hold_hold_color_step2_atom_green_2"
+    },
+    {
+      "constraint_kind": "soft",
+      "left_event_id": "event_ctx_prep0_branch_hold_hold_color_step1_atom_red_3",
+      "notes": "inferred_shared_event approx_score=0.0 common_probe_count=4",
+      "proposal_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step1_atom_red_3__event_ctx_prep0_branch_hold_hold_color_step2_atom_red_3",
+      "right_event_id": "event_ctx_prep0_branch_hold_hold_color_step2_atom_red_3",
+      "weight_key": "weight_proposal_event_ctx_prep0_branch_hold_hold_color_step1_atom_red_3__event_ctx_prep0_branch_hold_hold_color_step2_atom_red_3"
+    },
+    {
+      "constraint_kind": "soft",
+      "left_event_id": "event_ctx_prep0_branch_hold_hold_color_step1__union__atom_blue_1__atom_green_2",
+      "notes": "inferred_shared_event approx_score=0.0 common_probe_count=4",
+      "proposal_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step1__union__atom_blue_1__atom_green_2__event_ctx_prep0_branch_hold_hold_color_step2__union__atom_blue_1__atom_green_2",
+      "right_event_id": "event_ctx_prep0_branch_hold_hold_color_step2__union__atom_blue_1__atom_green_2",
+      "weight_key": "weight_proposal_event_ctx_prep0_branch_hold_hold_color_step1__union__atom_blue_1__atom_green_2__event_ctx_prep0_branch_hold_hold_color_step2__union__atom_blue_1__atom_green_2"
+    },
+    {
+      "constraint_kind": "soft",
+      "left_event_id": "event_ctx_prep0_branch_hold_hold_color_step1__union__atom_blue_1__atom_red_3",
+      "notes": "inferred_shared_event approx_score=0.0 common_probe_count=4",
+      "proposal_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step1__union__atom_blue_1__atom_red_3__event_ctx_prep0_branch_hold_hold_color_step2__union__atom_blue_1__atom_red_3",
+      "right_event_id": "event_ctx_prep0_branch_hold_hold_color_step2__union__atom_blue_1__atom_red_3",
+      "weight_key": "weight_proposal_event_ctx_prep0_branch_hold_hold_color_step1__union__atom_blue_1__atom_red_3__event_ctx_prep0_branch_hold_hold_color_step2__union__atom_blue_1__atom_red_3"
+    },
+    {
+      "constraint_kind": "soft",
+      "left_event_id": "event_ctx_prep0_branch_hold_hold_color_step1__union__atom_green_2__atom_red_3",
+      "notes": "inferred_shared_event approx_score=0.0 common_probe_count=4",
+      "proposal_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step1__union__atom_green_2__atom_red_3__event_ctx_prep0_branch_hold_hold_color_step2__union__atom_green_2__atom_red_3",
+      "right_event_id": "event_ctx_prep0_branch_hold_hold_color_step2__union__atom_green_2__atom_red_3",
+      "weight_key": "weight_proposal_event_ctx_prep0_branch_hold_hold_color_step1__union__atom_green_2__atom_red_3__event_ctx_prep0_branch_hold_hold_color_step2__union__atom_green_2__atom_red_3"
+    },
+    {
+      "constraint_kind": "soft",
+      "left_event_id": "event_ctx_prep0_branch_hold_hold_color_step1_atom_blue_1",
+      "notes": "inferred_shared_event approx_score=0.0 common_probe_count=4",
+      "proposal_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step1_atom_blue_1__event_ctx_prep0_branch_hold_hold_shape_step0_atom_square_2",
+      "right_event_id": "event_ctx_prep0_branch_hold_hold_shape_step0_atom_square_2",
+      "weight_key": "weight_proposal_event_ctx_prep0_branch_hold_hold_color_step1_atom_blue_1__event_ctx_prep0_branch_hold_hold_shape_step0_atom_square_2"
+    },
+    {
+      "constraint_kind": "soft",
+      "left_event_id": "event_ctx_prep0_branch_hold_hold_color_step1_atom_green_2",
+      "notes": "inferred_shared_event approx_score=0.0 common_probe_count=4",
+      "proposal_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step1_atom_green_2__event_ctx_prep0_branch_hold_hold_shape_step0_atom_triangle_3",
+      "right_event_id": "event_ctx_prep0_branch_hold_hold_shape_step0_atom_triangle_3",
+      "weight_key": "weight_proposal_event_ctx_prep0_branch_hold_hold_color_step1_atom_green_2__event_ctx_prep0_branch_hold_hold_shape_step0_atom_triangle_3"
+    },
+    {
+      "constraint_kind": "soft",
+      "left_event_id": "event_ctx_prep0_branch_hold_hold_color_step1_atom_red_3",
+      "notes": "inferred_shared_event approx_score=0.0 common_probe_count=4",
+      "proposal_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step1_atom_red_3__event_ctx_prep0_branch_hold_hold_shape_step0_atom_circle_1",
+      "right_event_id": "event_ctx_prep0_branch_hold_hold_shape_step0_atom_circle_1",
+      "weight_key": "weight_proposal_event_ctx_prep0_branch_hold_hold_color_step1_atom_red_3__event_ctx_prep0_branch_hold_hold_shape_step0_atom_circle_1"
+    },
+    {
+      "constraint_kind": "soft",
+      "left_event_id": "event_ctx_prep0_branch_hold_hold_color_step1__union__atom_blue_1__atom_green_2",
+      "notes": "inferred_shared_event approx_score=0.0 common_probe_count=4",
+      "proposal_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step1__union__atom_blue_1__atom_green_2__event_ctx_prep0_branch_hold_hold_shape_step0__union__atom_square_2__atom_triangle_3",
+      "right_event_id": "event_ctx_prep0_branch_hold_hold_shape_step0__union__atom_square_2__atom_triangle_3",
+      "weight_key": "weight_proposal_event_ctx_prep0_branch_hold_hold_color_step1__union__atom_blue_1__atom_green_2__event_ctx_prep0_branch_hold_hold_shape_step0__union__atom_square_2__atom_triangle_3"
+    },
+    {
+      "constraint_kind": "soft",
+      "left_event_id": "event_ctx_prep0_branch_hold_hold_color_step1__union__atom_blue_1__atom_red_3",
+      "notes": "inferred_shared_event approx_score=0.0 common_probe_count=4",
+      "proposal_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step1__union__atom_blue_1__atom_red_3__event_ctx_prep0_branch_hold_hold_shape_step0__union__atom_circle_1__atom_square_2",
+      "right_event_id": "event_ctx_prep0_branch_hold_hold_shape_step0__union__atom_circle_1__atom_square_2",
+      "weight_key": "weight_proposal_event_ctx_prep0_branch_hold_hold_color_step1__union__atom_blue_1__atom_red_3__event_ctx_prep0_branch_hold_hold_shape_step0__union__atom_circle_1__atom_square_2"
+    },
+    {
+      "constraint_kind": "soft",
+      "left_event_id": "event_ctx_prep0_branch_hold_hold_color_step1__union__atom_green_2__atom_red_3",
+      "notes": "inferred_shared_event approx_score=0.0 common_probe_count=4",
+      "proposal_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step1__union__atom_green_2__atom_red_3__event_ctx_prep0_branch_hold_hold_shape_step0__union__atom_circle_1__atom_triangle_3",
+      "right_event_id": "event_ctx_prep0_branch_hold_hold_shape_step0__union__atom_circle_1__atom_triangle_3",
+      "weight_key": "weight_proposal_event_ctx_prep0_branch_hold_hold_color_step1__union__atom_green_2__atom_red_3__event_ctx_prep0_branch_hold_hold_shape_step0__union__atom_circle_1__atom_triangle_3"
+    },
+    {
+      "constraint_kind": "soft",
+      "left_event_id": "event_ctx_prep0_branch_hold_hold_color_step1_atom_blue_1",
+      "notes": "inferred_shared_event approx_score=0.0 common_probe_count=4",
+      "proposal_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step1_atom_blue_1__event_ctx_prep0_branch_hold_hold_shape_step1_atom_square_2",
+      "right_event_id": "event_ctx_prep0_branch_hold_hold_shape_step1_atom_square_2",
+      "weight_key": "weight_proposal_event_ctx_prep0_branch_hold_hold_color_step1_atom_blue_1__event_ctx_prep0_branch_hold_hold_shape_step1_atom_square_2"
+    },
+    {
+      "constraint_kind": "soft",
+      "left_event_id": "event_ctx_prep0_branch_hold_hold_color_step1_atom_green_2",
+      "notes": "inferred_shared_event approx_score=0.0 common_probe_count=4",
+      "proposal_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step1_atom_green_2__event_ctx_prep0_branch_hold_hold_shape_step1_atom_triangle_3",
+      "right_event_id": "event_ctx_prep0_branch_hold_hold_shape_step1_atom_triangle_3",
+      "weight_key": "weight_proposal_event_ctx_prep0_branch_hold_hold_color_step1_atom_green_2__event_ctx_prep0_branch_hold_hold_shape_step1_atom_triangle_3"
+    },
+    {
+      "constraint_kind": "soft",
+      "left_event_id": "event_ctx_prep0_branch_hold_hold_color_step1_atom_red_3",
+      "notes": "inferred_shared_event approx_score=0.0 common_probe_count=4",
+      "proposal_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step1_atom_red_3__event_ctx_prep0_branch_hold_hold_shape_step1_atom_circle_1",
+      "right_event_id": "event_ctx_prep0_branch_hold_hold_shape_step1_atom_circle_1",
+      "weight_key": "weight_proposal_event_ctx_prep0_branch_hold_hold_color_step1_atom_red_3__event_ctx_prep0_branch_hold_hold_shape_step1_atom_circle_1"
+    },
+    {
+      "constraint_kind": "soft",
+      "left_event_id": "event_ctx_prep0_branch_hold_hold_color_step1__union__atom_blue_1__atom_green_2",
+      "notes": "inferred_shared_event approx_score=0.0 common_probe_count=4",
+      "proposal_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step1__union__atom_blue_1__atom_green_2__event_ctx_prep0_branch_hold_hold_shape_step1__union__atom_square_2__atom_triangle_3",
+      "right_event_id": "event_ctx_prep0_branch_hold_hold_shape_step1__union__atom_square_2__atom_triangle_3",
+      "weight_key": "weight_proposal_event_ctx_prep0_branch_hold_hold_color_step1__union__atom_blue_1__atom_green_2__event_ctx_prep0_branch_hold_hold_shape_step1__union__atom_square_2__atom_triangle_3"
+    },
+    {
+      "constraint_kind": "soft",
+      "left_event_id": "event_ctx_prep0_branch_hold_hold_color_step1__union__atom_blue_1__atom_red_3",
+      "notes": "inferred_shared_event approx_score=0.0 common_probe_count=4",
+      "proposal_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step1__union__atom_blue_1__atom_red_3__event_ctx_prep0_branch_hold_hold_shape_step1__union__atom_circle_1__atom_square_2",
+      "right_event_id": "event_ctx_prep0_branch_hold_hold_shape_step1__union__atom_circle_1__atom_square_2",
+      "weight_key": "weight_proposal_event_ctx_prep0_branch_hold_hold_color_step1__union__atom_blue_1__atom_red_3__event_ctx_prep0_branch_hold_hold_shape_step1__union__atom_circle_1__atom_square_2"
+    },
+    {
+      "constraint_kind": "soft",
+      "left_event_id": "event_ctx_prep0_branch_hold_hold_color_step1__union__atom_green_2__atom_red_3",
+      "notes": "inferred_shared_event approx_score=0.0 common_probe_count=4",
+      "proposal_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step1__union__atom_green_2__atom_red_3__event_ctx_prep0_branch_hold_hold_shape_step1__union__atom_circle_1__atom_triangle_3",
+      "right_event_id": "event_ctx_prep0_branch_hold_hold_shape_step1__union__atom_circle_1__atom_triangle_3",
+      "weight_key": "weight_proposal_event_ctx_prep0_branch_hold_hold_color_step1__union__atom_green_2__atom_red_3__event_ctx_prep0_branch_hold_hold_shape_step1__union__atom_circle_1__atom_triangle_3"
+    },
+    {
+      "constraint_kind": "soft",
+      "left_event_id": "event_ctx_prep0_branch_hold_hold_color_step1_atom_blue_1",
+      "notes": "inferred_shared_event approx_score=0.0 common_probe_count=4",
+      "proposal_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step1_atom_blue_1__event_ctx_prep0_branch_hold_hold_shape_step2_atom_square_2",
+      "right_event_id": "event_ctx_prep0_branch_hold_hold_shape_step2_atom_square_2",
+      "weight_key": "weight_proposal_event_ctx_prep0_branch_hold_hold_color_step1_atom_blue_1__event_ctx_prep0_branch_hold_hold_shape_step2_atom_square_2"
+    },
+    {
+      "constraint_kind": "soft",
+      "left_event_id": "event_ctx_prep0_branch_hold_hold_color_step1_atom_green_2",
+      "notes": "inferred_shared_event approx_score=0.0 common_probe_count=4",
+      "proposal_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step1_atom_green_2__event_ctx_prep0_branch_hold_hold_shape_step2_atom_triangle_3",
+      "right_event_id": "event_ctx_prep0_branch_hold_hold_shape_step2_atom_triangle_3",
+      "weight_key": "weight_proposal_event_ctx_prep0_branch_hold_hold_color_step1_atom_green_2__event_ctx_prep0_branch_hold_hold_shape_step2_atom_triangle_3"
+    },
+    {
+      "constraint_kind": "soft",
+      "left_event_id": "event_ctx_prep0_branch_hold_hold_color_step1_atom_red_3",
+      "notes": "inferred_shared_event approx_score=0.0 common_probe_count=4",
+      "proposal_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step1_atom_red_3__event_ctx_prep0_branch_hold_hold_shape_step2_atom_circle_1",
+      "right_event_id": "event_ctx_prep0_branch_hold_hold_shape_step2_atom_circle_1",
+      "weight_key": "weight_proposal_event_ctx_prep0_branch_hold_hold_color_step1_atom_red_3__event_ctx_prep0_branch_hold_hold_shape_step2_atom_circle_1"
+    },
+    {
+      "constraint_kind": "soft",
+      "left_event_id": "event_ctx_prep0_branch_hold_hold_color_step1__union__atom_blue_1__atom_green_2",
+      "notes": "inferred_shared_event approx_score=0.0 common_probe_count=4",
+      "proposal_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step1__union__atom_blue_1__atom_green_2__event_ctx_prep0_branch_hold_hold_shape_step2__union__atom_square_2__atom_triangle_3",
+      "right_event_id": "event_ctx_prep0_branch_hold_hold_shape_step2__union__atom_square_2__atom_triangle_3",
+      "weight_key": "weight_proposal_event_ctx_prep0_branch_hold_hold_color_step1__union__atom_blue_1__atom_green_2__event_ctx_prep0_branch_hold_hold_shape_step2__union__atom_square_2__atom_triangle_3"
+    },
+    {
+      "constraint_kind": "soft",
+      "left_event_id": "event_ctx_prep0_branch_hold_hold_color_step1__union__atom_blue_1__atom_red_3",
+      "notes": "inferred_shared_event approx_score=0.0 common_probe_count=4",
+      "proposal_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step1__union__atom_blue_1__atom_red_3__event_ctx_prep0_branch_hold_hold_shape_step2__union__atom_circle_1__atom_square_2",
+      "right_event_id": "event_ctx_prep0_branch_hold_hold_shape_step2__union__atom_circle_1__atom_square_2",
+      "weight_key": "weight_proposal_event_ctx_prep0_branch_hold_hold_color_step1__union__atom_blue_1__atom_red_3__event_ctx_prep0_branch_hold_hold_shape_step2__union__atom_circle_1__atom_square_2"
+    },
+    {
+      "constraint_kind": "soft",
+      "left_event_id": "event_ctx_prep0_branch_hold_hold_color_step1__union__atom_green_2__atom_red_3",
+      "notes": "inferred_shared_event approx_score=0.0 common_probe_count=4",
+      "proposal_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step1__union__atom_green_2__atom_red_3__event_ctx_prep0_branch_hold_hold_shape_step2__union__atom_circle_1__atom_triangle_3",
+      "right_event_id": "event_ctx_prep0_branch_hold_hold_shape_step2__union__atom_circle_1__atom_triangle_3",
+      "weight_key": "weight_proposal_event_ctx_prep0_branch_hold_hold_color_step1__union__atom_green_2__atom_red_3__event_ctx_prep0_branch_hold_hold_shape_step2__union__atom_circle_1__atom_triangle_3"
+    },
+    {
+      "constraint_kind": "soft",
+      "left_event_id": "event_ctx_prep0_branch_hold_hold_color_step2_atom_blue_1",
+      "notes": "inferred_shared_event approx_score=0.0 common_probe_count=4",
+      "proposal_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step2_atom_blue_1__event_ctx_prep0_branch_hold_hold_shape_step0_atom_square_2",
+      "right_event_id": "event_ctx_prep0_branch_hold_hold_shape_step0_atom_square_2",
+      "weight_key": "weight_proposal_event_ctx_prep0_branch_hold_hold_color_step2_atom_blue_1__event_ctx_prep0_branch_hold_hold_shape_step0_atom_square_2"
+    },
+    {
+      "constraint_kind": "soft",
+      "left_event_id": "event_ctx_prep0_branch_hold_hold_color_step2_atom_green_2",
+      "notes": "inferred_shared_event approx_score=0.0 common_probe_count=4",
+      "proposal_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step2_atom_green_2__event_ctx_prep0_branch_hold_hold_shape_step0_atom_triangle_3",
+      "right_event_id": "event_ctx_prep0_branch_hold_hold_shape_step0_atom_triangle_3",
+      "weight_key": "weight_proposal_event_ctx_prep0_branch_hold_hold_color_step2_atom_green_2__event_ctx_prep0_branch_hold_hold_shape_step0_atom_triangle_3"
+    },
+    {
+      "constraint_kind": "soft",
+      "left_event_id": "event_ctx_prep0_branch_hold_hold_color_step2_atom_red_3",
+      "notes": "inferred_shared_event approx_score=0.0 common_probe_count=4",
+      "proposal_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step2_atom_red_3__event_ctx_prep0_branch_hold_hold_shape_step0_atom_circle_1",
+      "right_event_id": "event_ctx_prep0_branch_hold_hold_shape_step0_atom_circle_1",
+      "weight_key": "weight_proposal_event_ctx_prep0_branch_hold_hold_color_step2_atom_red_3__event_ctx_prep0_branch_hold_hold_shape_step0_atom_circle_1"
+    },
+    {
+      "constraint_kind": "soft",
+      "left_event_id": "event_ctx_prep0_branch_hold_hold_color_step2__union__atom_blue_1__atom_green_2",
+      "notes": "inferred_shared_event approx_score=0.0 common_probe_count=4",
+      "proposal_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step2__union__atom_blue_1__atom_green_2__event_ctx_prep0_branch_hold_hold_shape_step0__union__atom_square_2__atom_triangle_3",
+      "right_event_id": "event_ctx_prep0_branch_hold_hold_shape_step0__union__atom_square_2__atom_triangle_3",
+      "weight_key": "weight_proposal_event_ctx_prep0_branch_hold_hold_color_step2__union__atom_blue_1__atom_green_2__event_ctx_prep0_branch_hold_hold_shape_step0__union__atom_square_2__atom_triangle_3"
+    },
+    {
+      "constraint_kind": "soft",
+      "left_event_id": "event_ctx_prep0_branch_hold_hold_color_step2__union__atom_blue_1__atom_red_3",
+      "notes": "inferred_shared_event approx_score=0.0 common_probe_count=4",
+      "proposal_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step2__union__atom_blue_1__atom_red_3__event_ctx_prep0_branch_hold_hold_shape_step0__union__atom_circle_1__atom_square_2",
+      "right_event_id": "event_ctx_prep0_branch_hold_hold_shape_step0__union__atom_circle_1__atom_square_2",
+      "weight_key": "weight_proposal_event_ctx_prep0_branch_hold_hold_color_step2__union__atom_blue_1__atom_red_3__event_ctx_prep0_branch_hold_hold_shape_step0__union__atom_circle_1__atom_square_2"
+    },
+    {
+      "constraint_kind": "soft",
+      "left_event_id": "event_ctx_prep0_branch_hold_hold_color_step2__union__atom_green_2__atom_red_3",
+      "notes": "inferred_shared_event approx_score=0.0 common_probe_count=4",
+      "proposal_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step2__union__atom_green_2__atom_red_3__event_ctx_prep0_branch_hold_hold_shape_step0__union__atom_circle_1__atom_triangle_3",
+      "right_event_id": "event_ctx_prep0_branch_hold_hold_shape_step0__union__atom_circle_1__atom_triangle_3",
+      "weight_key": "weight_proposal_event_ctx_prep0_branch_hold_hold_color_step2__union__atom_green_2__atom_red_3__event_ctx_prep0_branch_hold_hold_shape_step0__union__atom_circle_1__atom_triangle_3"
+    },
+    {
+      "constraint_kind": "soft",
+      "left_event_id": "event_ctx_prep0_branch_hold_hold_color_step2_atom_blue_1",
+      "notes": "inferred_shared_event approx_score=0.0 common_probe_count=4",
+      "proposal_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step2_atom_blue_1__event_ctx_prep0_branch_hold_hold_shape_step1_atom_square_2",
+      "right_event_id": "event_ctx_prep0_branch_hold_hold_shape_step1_atom_square_2",
+      "weight_key": "weight_proposal_event_ctx_prep0_branch_hold_hold_color_step2_atom_blue_1__event_ctx_prep0_branch_hold_hold_shape_step1_atom_square_2"
+    },
+    {
+      "constraint_kind": "soft",
+      "left_event_id": "event_ctx_prep0_branch_hold_hold_color_step2_atom_green_2",
+      "notes": "inferred_shared_event approx_score=0.0 common_probe_count=4",
+      "proposal_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step2_atom_green_2__event_ctx_prep0_branch_hold_hold_shape_step1_atom_triangle_3",
+      "right_event_id": "event_ctx_prep0_branch_hold_hold_shape_step1_atom_triangle_3",
+      "weight_key": "weight_proposal_event_ctx_prep0_branch_hold_hold_color_step2_atom_green_2__event_ctx_prep0_branch_hold_hold_shape_step1_atom_triangle_3"
+    },
+    {
+      "constraint_kind": "soft",
+      "left_event_id": "event_ctx_prep0_branch_hold_hold_color_step2_atom_red_3",
+      "notes": "inferred_shared_event approx_score=0.0 common_probe_count=4",
+      "proposal_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step2_atom_red_3__event_ctx_prep0_branch_hold_hold_shape_step1_atom_circle_1",
+      "right_event_id": "event_ctx_prep0_branch_hold_hold_shape_step1_atom_circle_1",
+      "weight_key": "weight_proposal_event_ctx_prep0_branch_hold_hold_color_step2_atom_red_3__event_ctx_prep0_branch_hold_hold_shape_step1_atom_circle_1"
+    },
+    {
+      "constraint_kind": "soft",
+      "left_event_id": "event_ctx_prep0_branch_hold_hold_color_step2__union__atom_blue_1__atom_green_2",
+      "notes": "inferred_shared_event approx_score=0.0 common_probe_count=4",
+      "proposal_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step2__union__atom_blue_1__atom_green_2__event_ctx_prep0_branch_hold_hold_shape_step1__union__atom_square_2__atom_triangle_3",
+      "right_event_id": "event_ctx_prep0_branch_hold_hold_shape_step1__union__atom_square_2__atom_triangle_3",
+      "weight_key": "weight_proposal_event_ctx_prep0_branch_hold_hold_color_step2__union__atom_blue_1__atom_green_2__event_ctx_prep0_branch_hold_hold_shape_step1__union__atom_square_2__atom_triangle_3"
+    },
+    {
+      "constraint_kind": "soft",
+      "left_event_id": "event_ctx_prep0_branch_hold_hold_color_step2__union__atom_blue_1__atom_red_3",
+      "notes": "inferred_shared_event approx_score=0.0 common_probe_count=4",
+      "proposal_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step2__union__atom_blue_1__atom_red_3__event_ctx_prep0_branch_hold_hold_shape_step1__union__atom_circle_1__atom_square_2",
+      "right_event_id": "event_ctx_prep0_branch_hold_hold_shape_step1__union__atom_circle_1__atom_square_2",
+      "weight_key": "weight_proposal_event_ctx_prep0_branch_hold_hold_color_step2__union__atom_blue_1__atom_red_3__event_ctx_prep0_branch_hold_hold_shape_step1__union__atom_circle_1__atom_square_2"
+    },
+    {
+      "constraint_kind": "soft",
+      "left_event_id": "event_ctx_prep0_branch_hold_hold_color_step2__union__atom_green_2__atom_red_3",
+      "notes": "inferred_shared_event approx_score=0.0 common_probe_count=4",
+      "proposal_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step2__union__atom_green_2__atom_red_3__event_ctx_prep0_branch_hold_hold_shape_step1__union__atom_circle_1__atom_triangle_3",
+      "right_event_id": "event_ctx_prep0_branch_hold_hold_shape_step1__union__atom_circle_1__atom_triangle_3",
+      "weight_key": "weight_proposal_event_ctx_prep0_branch_hold_hold_color_step2__union__atom_green_2__atom_red_3__event_ctx_prep0_branch_hold_hold_shape_step1__union__atom_circle_1__atom_triangle_3"
+    },
+    {
+      "constraint_kind": "soft",
+      "left_event_id": "event_ctx_prep0_branch_hold_hold_color_step2_atom_blue_1",
+      "notes": "inferred_shared_event approx_score=0.0 common_probe_count=4",
+      "proposal_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step2_atom_blue_1__event_ctx_prep0_branch_hold_hold_shape_step2_atom_square_2",
+      "right_event_id": "event_ctx_prep0_branch_hold_hold_shape_step2_atom_square_2",
+      "weight_key": "weight_proposal_event_ctx_prep0_branch_hold_hold_color_step2_atom_blue_1__event_ctx_prep0_branch_hold_hold_shape_step2_atom_square_2"
+    },
+    {
+      "constraint_kind": "soft",
+      "left_event_id": "event_ctx_prep0_branch_hold_hold_color_step2_atom_green_2",
+      "notes": "inferred_shared_event approx_score=0.0 common_probe_count=4",
+      "proposal_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step2_atom_green_2__event_ctx_prep0_branch_hold_hold_shape_step2_atom_triangle_3",
+      "right_event_id": "event_ctx_prep0_branch_hold_hold_shape_step2_atom_triangle_3",
+      "weight_key": "weight_proposal_event_ctx_prep0_branch_hold_hold_color_step2_atom_green_2__event_ctx_prep0_branch_hold_hold_shape_step2_atom_triangle_3"
+    },
+    {
+      "constraint_kind": "soft",
+      "left_event_id": "event_ctx_prep0_branch_hold_hold_color_step2_atom_red_3",
+      "notes": "inferred_shared_event approx_score=0.0 common_probe_count=4",
+      "proposal_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step2_atom_red_3__event_ctx_prep0_branch_hold_hold_shape_step2_atom_circle_1",
+      "right_event_id": "event_ctx_prep0_branch_hold_hold_shape_step2_atom_circle_1",
+      "weight_key": "weight_proposal_event_ctx_prep0_branch_hold_hold_color_step2_atom_red_3__event_ctx_prep0_branch_hold_hold_shape_step2_atom_circle_1"
+    },
+    {
+      "constraint_kind": "soft",
+      "left_event_id": "event_ctx_prep0_branch_hold_hold_color_step2__union__atom_blue_1__atom_green_2",
+      "notes": "inferred_shared_event approx_score=0.0 common_probe_count=4",
+      "proposal_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step2__union__atom_blue_1__atom_green_2__event_ctx_prep0_branch_hold_hold_shape_step2__union__atom_square_2__atom_triangle_3",
+      "right_event_id": "event_ctx_prep0_branch_hold_hold_shape_step2__union__atom_square_2__atom_triangle_3",
+      "weight_key": "weight_proposal_event_ctx_prep0_branch_hold_hold_color_step2__union__atom_blue_1__atom_green_2__event_ctx_prep0_branch_hold_hold_shape_step2__union__atom_square_2__atom_triangle_3"
+    },
+    {
+      "constraint_kind": "soft",
+      "left_event_id": "event_ctx_prep0_branch_hold_hold_color_step2__union__atom_blue_1__atom_red_3",
+      "notes": "inferred_shared_event approx_score=0.0 common_probe_count=4",
+      "proposal_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step2__union__atom_blue_1__atom_red_3__event_ctx_prep0_branch_hold_hold_shape_step2__union__atom_circle_1__atom_square_2",
+      "right_event_id": "event_ctx_prep0_branch_hold_hold_shape_step2__union__atom_circle_1__atom_square_2",
+      "weight_key": "weight_proposal_event_ctx_prep0_branch_hold_hold_color_step2__union__atom_blue_1__atom_red_3__event_ctx_prep0_branch_hold_hold_shape_step2__union__atom_circle_1__atom_square_2"
+    },
+    {
+      "constraint_kind": "soft",
+      "left_event_id": "event_ctx_prep0_branch_hold_hold_color_step2__union__atom_green_2__atom_red_3",
+      "notes": "inferred_shared_event approx_score=0.0 common_probe_count=4",
+      "proposal_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step2__union__atom_green_2__atom_red_3__event_ctx_prep0_branch_hold_hold_shape_step2__union__atom_circle_1__atom_triangle_3",
+      "right_event_id": "event_ctx_prep0_branch_hold_hold_shape_step2__union__atom_circle_1__atom_triangle_3",
+      "weight_key": "weight_proposal_event_ctx_prep0_branch_hold_hold_color_step2__union__atom_green_2__atom_red_3__event_ctx_prep0_branch_hold_hold_shape_step2__union__atom_circle_1__atom_triangle_3"
+    },
+    {
+      "constraint_kind": "soft",
+      "left_event_id": "event_ctx_prep0_branch_hold_hold_shape_step0_atom_circle_1",
+      "notes": "inferred_shared_event approx_score=0.0 common_probe_count=4",
+      "proposal_id": "proposal_event_ctx_prep0_branch_hold_hold_shape_step0_atom_circle_1__event_ctx_prep0_branch_hold_hold_shape_step1_atom_circle_1",
+      "right_event_id": "event_ctx_prep0_branch_hold_hold_shape_step1_atom_circle_1",
+      "weight_key": "weight_proposal_event_ctx_prep0_branch_hold_hold_shape_step0_atom_circle_1__event_ctx_prep0_branch_hold_hold_shape_step1_atom_circle_1"
+    },
+    {
+      "constraint_kind": "soft",
+      "left_event_id": "event_ctx_prep0_branch_hold_hold_shape_step0_atom_square_2",
+      "notes": "inferred_shared_event approx_score=0.0 common_probe_count=4",
+      "proposal_id": "proposal_event_ctx_prep0_branch_hold_hold_shape_step0_atom_square_2__event_ctx_prep0_branch_hold_hold_shape_step1_atom_square_2",
+      "right_event_id": "event_ctx_prep0_branch_hold_hold_shape_step1_atom_square_2",
+      "weight_key": "weight_proposal_event_ctx_prep0_branch_hold_hold_shape_step0_atom_square_2__event_ctx_prep0_branch_hold_hold_shape_step1_atom_square_2"
+    },
+    {
+      "constraint_kind": "soft",
+      "left_event_id": "event_ctx_prep0_branch_hold_hold_shape_step0_atom_triangle_3",
+      "notes": "inferred_shared_event approx_score=0.0 common_probe_count=4",
+      "proposal_id": "proposal_event_ctx_prep0_branch_hold_hold_shape_step0_atom_triangle_3__event_ctx_prep0_branch_hold_hold_shape_step1_atom_triangle_3",
+      "right_event_id": "event_ctx_prep0_branch_hold_hold_shape_step1_atom_triangle_3",
+      "weight_key": "weight_proposal_event_ctx_prep0_branch_hold_hold_shape_step0_atom_triangle_3__event_ctx_prep0_branch_hold_hold_shape_step1_atom_triangle_3"
+    },
+    {
+      "constraint_kind": "soft",
+      "left_event_id": "event_ctx_prep0_branch_hold_hold_shape_step0__union__atom_circle_1__atom_square_2",
+      "notes": "inferred_shared_event approx_score=0.0 common_probe_count=4",
+      "proposal_id": "proposal_event_ctx_prep0_branch_hold_hold_shape_step0__union__atom_circle_1__atom_square_2__event_ctx_prep0_branch_hold_hold_shape_step1__union__atom_circle_1__atom_square_2",
+      "right_event_id": "event_ctx_prep0_branch_hold_hold_shape_step1__union__atom_circle_1__atom_square_2",
+      "weight_key": "weight_proposal_event_ctx_prep0_branch_hold_hold_shape_step0__union__atom_circle_1__atom_square_2__event_ctx_prep0_branch_hold_hold_shape_step1__union__atom_circle_1__atom_square_2"
+    },
+    {
+      "constraint_kind": "soft",
+      "left_event_id": "event_ctx_prep0_branch_hold_hold_shape_step0__union__atom_circle_1__atom_triangle_3",
+      "notes": "inferred_shared_event approx_score=0.0 common_probe_count=4",
+      "proposal_id": "proposal_event_ctx_prep0_branch_hold_hold_shape_step0__union__atom_circle_1__atom_triangle_3__event_ctx_prep0_branch_hold_hold_shape_step1__union__atom_circle_1__atom_triangle_3",
+      "right_event_id": "event_ctx_prep0_branch_hold_hold_shape_step1__union__atom_circle_1__atom_triangle_3",
+      "weight_key": "weight_proposal_event_ctx_prep0_branch_hold_hold_shape_step0__union__atom_circle_1__atom_triangle_3__event_ctx_prep0_branch_hold_hold_shape_step1__union__atom_circle_1__atom_triangle_3"
+    },
+    {
+      "constraint_kind": "soft",
+      "left_event_id": "event_ctx_prep0_branch_hold_hold_shape_step0__union__atom_square_2__atom_triangle_3",
+      "notes": "inferred_shared_event approx_score=0.0 common_probe_count=4",
+      "proposal_id": "proposal_event_ctx_prep0_branch_hold_hold_shape_step0__union__atom_square_2__atom_triangle_3__event_ctx_prep0_branch_hold_hold_shape_step1__union__atom_square_2__atom_triangle_3",
+      "right_event_id": "event_ctx_prep0_branch_hold_hold_shape_step1__union__atom_square_2__atom_triangle_3",
+      "weight_key": "weight_proposal_event_ctx_prep0_branch_hold_hold_shape_step0__union__atom_square_2__atom_triangle_3__event_ctx_prep0_branch_hold_hold_shape_step1__union__atom_square_2__atom_triangle_3"
+    },
+    {
+      "constraint_kind": "soft",
+      "left_event_id": "event_ctx_prep0_branch_hold_hold_shape_step0_atom_circle_1",
+      "notes": "inferred_shared_event approx_score=0.0 common_probe_count=4",
+      "proposal_id": "proposal_event_ctx_prep0_branch_hold_hold_shape_step0_atom_circle_1__event_ctx_prep0_branch_hold_hold_shape_step2_atom_circle_1",
+      "right_event_id": "event_ctx_prep0_branch_hold_hold_shape_step2_atom_circle_1",
+      "weight_key": "weight_proposal_event_ctx_prep0_branch_hold_hold_shape_step0_atom_circle_1__event_ctx_prep0_branch_hold_hold_shape_step2_atom_circle_1"
+    },
+    {
+      "constraint_kind": "soft",
+      "left_event_id": "event_ctx_prep0_branch_hold_hold_shape_step0_atom_square_2",
+      "notes": "inferred_shared_event approx_score=0.0 common_probe_count=4",
+      "proposal_id": "proposal_event_ctx_prep0_branch_hold_hold_shape_step0_atom_square_2__event_ctx_prep0_branch_hold_hold_shape_step2_atom_square_2",
+      "right_event_id": "event_ctx_prep0_branch_hold_hold_shape_step2_atom_square_2",
+      "weight_key": "weight_proposal_event_ctx_prep0_branch_hold_hold_shape_step0_atom_square_2__event_ctx_prep0_branch_hold_hold_shape_step2_atom_square_2"
+    },
+    {
+      "constraint_kind": "soft",
+      "left_event_id": "event_ctx_prep0_branch_hold_hold_shape_step0_atom_triangle_3",
+      "notes": "inferred_shared_event approx_score=0.0 common_probe_count=4",
+      "proposal_id": "proposal_event_ctx_prep0_branch_hold_hold_shape_step0_atom_triangle_3__event_ctx_prep0_branch_hold_hold_shape_step2_atom_triangle_3",
+      "right_event_id": "event_ctx_prep0_branch_hold_hold_shape_step2_atom_triangle_3",
+      "weight_key": "weight_proposal_event_ctx_prep0_branch_hold_hold_shape_step0_atom_triangle_3__event_ctx_prep0_branch_hold_hold_shape_step2_atom_triangle_3"
+    },
+    {
+      "constraint_kind": "soft",
+      "left_event_id": "event_ctx_prep0_branch_hold_hold_shape_step0__union__atom_circle_1__atom_square_2",
+      "notes": "inferred_shared_event approx_score=0.0 common_probe_count=4",
+      "proposal_id": "proposal_event_ctx_prep0_branch_hold_hold_shape_step0__union__atom_circle_1__atom_square_2__event_ctx_prep0_branch_hold_hold_shape_step2__union__atom_circle_1__atom_square_2",
+      "right_event_id": "event_ctx_prep0_branch_hold_hold_shape_step2__union__atom_circle_1__atom_square_2",
+      "weight_key": "weight_proposal_event_ctx_prep0_branch_hold_hold_shape_step0__union__atom_circle_1__atom_square_2__event_ctx_prep0_branch_hold_hold_shape_step2__union__atom_circle_1__atom_square_2"
+    },
+    {
+      "constraint_kind": "soft",
+      "left_event_id": "event_ctx_prep0_branch_hold_hold_shape_step0__union__atom_circle_1__atom_triangle_3",
+      "notes": "inferred_shared_event approx_score=0.0 common_probe_count=4",
+      "proposal_id": "proposal_event_ctx_prep0_branch_hold_hold_shape_step0__union__atom_circle_1__atom_triangle_3__event_ctx_prep0_branch_hold_hold_shape_step2__union__atom_circle_1__atom_triangle_3",
+      "right_event_id": "event_ctx_prep0_branch_hold_hold_shape_step2__union__atom_circle_1__atom_triangle_3",
+      "weight_key": "weight_proposal_event_ctx_prep0_branch_hold_hold_shape_step0__union__atom_circle_1__atom_triangle_3__event_ctx_prep0_branch_hold_hold_shape_step2__union__atom_circle_1__atom_triangle_3"
+    },
+    {
+      "constraint_kind": "soft",
+      "left_event_id": "event_ctx_prep0_branch_hold_hold_shape_step0__union__atom_square_2__atom_triangle_3",
+      "notes": "inferred_shared_event approx_score=0.0 common_probe_count=4",
+      "proposal_id": "proposal_event_ctx_prep0_branch_hold_hold_shape_step0__union__atom_square_2__atom_triangle_3__event_ctx_prep0_branch_hold_hold_shape_step2__union__atom_square_2__atom_triangle_3",
+      "right_event_id": "event_ctx_prep0_branch_hold_hold_shape_step2__union__atom_square_2__atom_triangle_3",
+      "weight_key": "weight_proposal_event_ctx_prep0_branch_hold_hold_shape_step0__union__atom_square_2__atom_triangle_3__event_ctx_prep0_branch_hold_hold_shape_step2__union__atom_square_2__atom_triangle_3"
+    },
+    {
+      "constraint_kind": "soft",
+      "left_event_id": "event_ctx_prep0_branch_hold_hold_shape_step1_atom_circle_1",
+      "notes": "inferred_shared_event approx_score=0.0 common_probe_count=4",
+      "proposal_id": "proposal_event_ctx_prep0_branch_hold_hold_shape_step1_atom_circle_1__event_ctx_prep0_branch_hold_hold_shape_step2_atom_circle_1",
+      "right_event_id": "event_ctx_prep0_branch_hold_hold_shape_step2_atom_circle_1",
+      "weight_key": "weight_proposal_event_ctx_prep0_branch_hold_hold_shape_step1_atom_circle_1__event_ctx_prep0_branch_hold_hold_shape_step2_atom_circle_1"
+    },
+    {
+      "constraint_kind": "soft",
+      "left_event_id": "event_ctx_prep0_branch_hold_hold_shape_step1_atom_square_2",
+      "notes": "inferred_shared_event approx_score=0.0 common_probe_count=4",
+      "proposal_id": "proposal_event_ctx_prep0_branch_hold_hold_shape_step1_atom_square_2__event_ctx_prep0_branch_hold_hold_shape_step2_atom_square_2",
+      "right_event_id": "event_ctx_prep0_branch_hold_hold_shape_step2_atom_square_2",
+      "weight_key": "weight_proposal_event_ctx_prep0_branch_hold_hold_shape_step1_atom_square_2__event_ctx_prep0_branch_hold_hold_shape_step2_atom_square_2"
+    },
+    {
+      "constraint_kind": "soft",
+      "left_event_id": "event_ctx_prep0_branch_hold_hold_shape_step1_atom_triangle_3",
+      "notes": "inferred_shared_event approx_score=0.0 common_probe_count=4",
+      "proposal_id": "proposal_event_ctx_prep0_branch_hold_hold_shape_step1_atom_triangle_3__event_ctx_prep0_branch_hold_hold_shape_step2_atom_triangle_3",
+      "right_event_id": "event_ctx_prep0_branch_hold_hold_shape_step2_atom_triangle_3",
+      "weight_key": "weight_proposal_event_ctx_prep0_branch_hold_hold_shape_step1_atom_triangle_3__event_ctx_prep0_branch_hold_hold_shape_step2_atom_triangle_3"
+    },
+    {
+      "constraint_kind": "soft",
+      "left_event_id": "event_ctx_prep0_branch_hold_hold_shape_step1__union__atom_circle_1__atom_square_2",
+      "notes": "inferred_shared_event approx_score=0.0 common_probe_count=4",
+      "proposal_id": "proposal_event_ctx_prep0_branch_hold_hold_shape_step1__union__atom_circle_1__atom_square_2__event_ctx_prep0_branch_hold_hold_shape_step2__union__atom_circle_1__atom_square_2",
+      "right_event_id": "event_ctx_prep0_branch_hold_hold_shape_step2__union__atom_circle_1__atom_square_2",
+      "weight_key": "weight_proposal_event_ctx_prep0_branch_hold_hold_shape_step1__union__atom_circle_1__atom_square_2__event_ctx_prep0_branch_hold_hold_shape_step2__union__atom_circle_1__atom_square_2"
+    },
+    {
+      "constraint_kind": "soft",
+      "left_event_id": "event_ctx_prep0_branch_hold_hold_shape_step1__union__atom_circle_1__atom_triangle_3",
+      "notes": "inferred_shared_event approx_score=0.0 common_probe_count=4",
+      "proposal_id": "proposal_event_ctx_prep0_branch_hold_hold_shape_step1__union__atom_circle_1__atom_triangle_3__event_ctx_prep0_branch_hold_hold_shape_step2__union__atom_circle_1__atom_triangle_3",
+      "right_event_id": "event_ctx_prep0_branch_hold_hold_shape_step2__union__atom_circle_1__atom_triangle_3",
+      "weight_key": "weight_proposal_event_ctx_prep0_branch_hold_hold_shape_step1__union__atom_circle_1__atom_triangle_3__event_ctx_prep0_branch_hold_hold_shape_step2__union__atom_circle_1__atom_triangle_3"
+    },
+    {
+      "constraint_kind": "soft",
+      "left_event_id": "event_ctx_prep0_branch_hold_hold_shape_step1__union__atom_square_2__atom_triangle_3",
+      "notes": "inferred_shared_event approx_score=0.0 common_probe_count=4",
+      "proposal_id": "proposal_event_ctx_prep0_branch_hold_hold_shape_step1__union__atom_square_2__atom_triangle_3__event_ctx_prep0_branch_hold_hold_shape_step2__union__atom_square_2__atom_triangle_3",
+      "right_event_id": "event_ctx_prep0_branch_hold_hold_shape_step2__union__atom_square_2__atom_triangle_3",
+      "weight_key": "weight_proposal_event_ctx_prep0_branch_hold_hold_shape_step1__union__atom_square_2__atom_triangle_3__event_ctx_prep0_branch_hold_hold_shape_step2__union__atom_square_2__atom_triangle_3"
+    }
+  ],
+  "events": [
+    {
+      "atom_ids": [
+        "atom_blue_1"
+      ],
+      "context_id": "ctx_prep0_branch_hold_hold_color_step0",
+      "event_id": "event_ctx_prep0_branch_hold_hold_color_step0_atom_blue_1",
+      "label": "blue"
+    },
+    {
+      "atom_ids": [
+        "atom_green_2"
+      ],
+      "context_id": "ctx_prep0_branch_hold_hold_color_step0",
+      "event_id": "event_ctx_prep0_branch_hold_hold_color_step0_atom_green_2",
+      "label": "green"
+    },
+    {
+      "atom_ids": [
+        "atom_red_3"
+      ],
+      "context_id": "ctx_prep0_branch_hold_hold_color_step0",
+      "event_id": "event_ctx_prep0_branch_hold_hold_color_step0_atom_red_3",
+      "label": "red"
+    },
+    {
+      "atom_ids": [
+        "atom_blue_1"
+      ],
+      "context_id": "ctx_prep0_branch_hold_hold_color_step1",
+      "event_id": "event_ctx_prep0_branch_hold_hold_color_step1_atom_blue_1",
+      "label": "blue"
+    },
+    {
+      "atom_ids": [
+        "atom_green_2"
+      ],
+      "context_id": "ctx_prep0_branch_hold_hold_color_step1",
+      "event_id": "event_ctx_prep0_branch_hold_hold_color_step1_atom_green_2",
+      "label": "green"
+    },
+    {
+      "atom_ids": [
+        "atom_red_3"
+      ],
+      "context_id": "ctx_prep0_branch_hold_hold_color_step1",
+      "event_id": "event_ctx_prep0_branch_hold_hold_color_step1_atom_red_3",
+      "label": "red"
+    },
+    {
+      "atom_ids": [
+        "atom_blue_1"
+      ],
+      "context_id": "ctx_prep0_branch_hold_hold_color_step2",
+      "event_id": "event_ctx_prep0_branch_hold_hold_color_step2_atom_blue_1",
+      "label": "blue"
+    },
+    {
+      "atom_ids": [
+        "atom_green_2"
+      ],
+      "context_id": "ctx_prep0_branch_hold_hold_color_step2",
+      "event_id": "event_ctx_prep0_branch_hold_hold_color_step2_atom_green_2",
+      "label": "green"
+    },
+    {
+      "atom_ids": [
+        "atom_red_3"
+      ],
+      "context_id": "ctx_prep0_branch_hold_hold_color_step2",
+      "event_id": "event_ctx_prep0_branch_hold_hold_color_step2_atom_red_3",
+      "label": "red"
+    },
+    {
+      "atom_ids": [
+        "atom_circle_1"
+      ],
+      "context_id": "ctx_prep0_branch_hold_hold_shape_step0",
+      "event_id": "event_ctx_prep0_branch_hold_hold_shape_step0_atom_circle_1",
+      "label": "circle"
+    },
+    {
+      "atom_ids": [
+        "atom_square_2"
+      ],
+      "context_id": "ctx_prep0_branch_hold_hold_shape_step0",
+      "event_id": "event_ctx_prep0_branch_hold_hold_shape_step0_atom_square_2",
+      "label": "square"
+    },
+    {
+      "atom_ids": [
+        "atom_triangle_3"
+      ],
+      "context_id": "ctx_prep0_branch_hold_hold_shape_step0",
+      "event_id": "event_ctx_prep0_branch_hold_hold_shape_step0_atom_triangle_3",
+      "label": "triangle"
+    },
+    {
+      "atom_ids": [
+        "atom_circle_1"
+      ],
+      "context_id": "ctx_prep0_branch_hold_hold_shape_step1",
+      "event_id": "event_ctx_prep0_branch_hold_hold_shape_step1_atom_circle_1",
+      "label": "circle"
+    },
+    {
+      "atom_ids": [
+        "atom_square_2"
+      ],
+      "context_id": "ctx_prep0_branch_hold_hold_shape_step1",
+      "event_id": "event_ctx_prep0_branch_hold_hold_shape_step1_atom_square_2",
+      "label": "square"
+    },
+    {
+      "atom_ids": [
+        "atom_triangle_3"
+      ],
+      "context_id": "ctx_prep0_branch_hold_hold_shape_step1",
+      "event_id": "event_ctx_prep0_branch_hold_hold_shape_step1_atom_triangle_3",
+      "label": "triangle"
+    },
+    {
+      "atom_ids": [
+        "atom_circle_1"
+      ],
+      "context_id": "ctx_prep0_branch_hold_hold_shape_step2",
+      "event_id": "event_ctx_prep0_branch_hold_hold_shape_step2_atom_circle_1",
+      "label": "circle"
+    },
+    {
+      "atom_ids": [
+        "atom_square_2"
+      ],
+      "context_id": "ctx_prep0_branch_hold_hold_shape_step2",
+      "event_id": "event_ctx_prep0_branch_hold_hold_shape_step2_atom_square_2",
+      "label": "square"
+    },
+    {
+      "atom_ids": [
+        "atom_triangle_3"
+      ],
+      "context_id": "ctx_prep0_branch_hold_hold_shape_step2",
+      "event_id": "event_ctx_prep0_branch_hold_hold_shape_step2_atom_triangle_3",
+      "label": "triangle"
+    },
+    {
+      "atom_ids": [
+        "atom_blue_1",
+        "atom_green_2"
+      ],
+      "context_id": "ctx_prep0_branch_hold_hold_color_step0",
+      "event_id": "event_ctx_prep0_branch_hold_hold_color_step0__union__atom_blue_1__atom_green_2",
+      "label": "blue | green"
+    },
+    {
+      "atom_ids": [
+        "atom_blue_1",
+        "atom_red_3"
+      ],
+      "context_id": "ctx_prep0_branch_hold_hold_color_step0",
+      "event_id": "event_ctx_prep0_branch_hold_hold_color_step0__union__atom_blue_1__atom_red_3",
+      "label": "blue | red"
+    },
+    {
+      "atom_ids": [
+        "atom_green_2",
+        "atom_red_3"
+      ],
+      "context_id": "ctx_prep0_branch_hold_hold_color_step0",
+      "event_id": "event_ctx_prep0_branch_hold_hold_color_step0__union__atom_green_2__atom_red_3",
+      "label": "green | red"
+    },
+    {
+      "atom_ids": [
+        "atom_blue_1",
+        "atom_green_2"
+      ],
+      "context_id": "ctx_prep0_branch_hold_hold_color_step1",
+      "event_id": "event_ctx_prep0_branch_hold_hold_color_step1__union__atom_blue_1__atom_green_2",
+      "label": "blue | green"
+    },
+    {
+      "atom_ids": [
+        "atom_blue_1",
+        "atom_red_3"
+      ],
+      "context_id": "ctx_prep0_branch_hold_hold_color_step1",
+      "event_id": "event_ctx_prep0_branch_hold_hold_color_step1__union__atom_blue_1__atom_red_3",
+      "label": "blue | red"
+    },
+    {
+      "atom_ids": [
+        "atom_green_2",
+        "atom_red_3"
+      ],
+      "context_id": "ctx_prep0_branch_hold_hold_color_step1",
+      "event_id": "event_ctx_prep0_branch_hold_hold_color_step1__union__atom_green_2__atom_red_3",
+      "label": "green | red"
+    },
+    {
+      "atom_ids": [
+        "atom_blue_1",
+        "atom_green_2"
+      ],
+      "context_id": "ctx_prep0_branch_hold_hold_color_step2",
+      "event_id": "event_ctx_prep0_branch_hold_hold_color_step2__union__atom_blue_1__atom_green_2",
+      "label": "blue | green"
+    },
+    {
+      "atom_ids": [
+        "atom_blue_1",
+        "atom_red_3"
+      ],
+      "context_id": "ctx_prep0_branch_hold_hold_color_step2",
+      "event_id": "event_ctx_prep0_branch_hold_hold_color_step2__union__atom_blue_1__atom_red_3",
+      "label": "blue | red"
+    },
+    {
+      "atom_ids": [
+        "atom_green_2",
+        "atom_red_3"
+      ],
+      "context_id": "ctx_prep0_branch_hold_hold_color_step2",
+      "event_id": "event_ctx_prep0_branch_hold_hold_color_step2__union__atom_green_2__atom_red_3",
+      "label": "green | red"
+    },
+    {
+      "atom_ids": [
+        "atom_circle_1",
+        "atom_square_2"
+      ],
+      "context_id": "ctx_prep0_branch_hold_hold_shape_step0",
+      "event_id": "event_ctx_prep0_branch_hold_hold_shape_step0__union__atom_circle_1__atom_square_2",
+      "label": "circle | square"
+    },
+    {
+      "atom_ids": [
+        "atom_circle_1",
+        "atom_triangle_3"
+      ],
+      "context_id": "ctx_prep0_branch_hold_hold_shape_step0",
+      "event_id": "event_ctx_prep0_branch_hold_hold_shape_step0__union__atom_circle_1__atom_triangle_3",
+      "label": "circle | triangle"
+    },
+    {
+      "atom_ids": [
+        "atom_square_2",
+        "atom_triangle_3"
+      ],
+      "context_id": "ctx_prep0_branch_hold_hold_shape_step0",
+      "event_id": "event_ctx_prep0_branch_hold_hold_shape_step0__union__atom_square_2__atom_triangle_3",
+      "label": "square | triangle"
+    },
+    {
+      "atom_ids": [
+        "atom_circle_1",
+        "atom_square_2"
+      ],
+      "context_id": "ctx_prep0_branch_hold_hold_shape_step1",
+      "event_id": "event_ctx_prep0_branch_hold_hold_shape_step1__union__atom_circle_1__atom_square_2",
+      "label": "circle | square"
+    },
+    {
+      "atom_ids": [
+        "atom_circle_1",
+        "atom_triangle_3"
+      ],
+      "context_id": "ctx_prep0_branch_hold_hold_shape_step1",
+      "event_id": "event_ctx_prep0_branch_hold_hold_shape_step1__union__atom_circle_1__atom_triangle_3",
+      "label": "circle | triangle"
+    },
+    {
+      "atom_ids": [
+        "atom_square_2",
+        "atom_triangle_3"
+      ],
+      "context_id": "ctx_prep0_branch_hold_hold_shape_step1",
+      "event_id": "event_ctx_prep0_branch_hold_hold_shape_step1__union__atom_square_2__atom_triangle_3",
+      "label": "square | triangle"
+    },
+    {
+      "atom_ids": [
+        "atom_circle_1",
+        "atom_square_2"
+      ],
+      "context_id": "ctx_prep0_branch_hold_hold_shape_step2",
+      "event_id": "event_ctx_prep0_branch_hold_hold_shape_step2__union__atom_circle_1__atom_square_2",
+      "label": "circle | square"
+    },
+    {
+      "atom_ids": [
+        "atom_circle_1",
+        "atom_triangle_3"
+      ],
+      "context_id": "ctx_prep0_branch_hold_hold_shape_step2",
+      "event_id": "event_ctx_prep0_branch_hold_hold_shape_step2__union__atom_circle_1__atom_triangle_3",
+      "label": "circle | triangle"
+    },
+    {
+      "atom_ids": [
+        "atom_square_2",
+        "atom_triangle_3"
+      ],
+      "context_id": "ctx_prep0_branch_hold_hold_shape_step2",
+      "event_id": "event_ctx_prep0_branch_hold_hold_shape_step2__union__atom_square_2__atom_triangle_3",
+      "label": "square | triangle"
+    }
+  ],
+  "instance_format_version": "event-package-instance.v1",
+  "instance_id": "inst_family_run_search_20260326t021200z_triadic_branch_contexts_built",
+  "metadata": {
+    "accepted_coarse_event_count": 18,
+    "accepted_coarse_event_proposal_count": 45,
+    "accepted_shared_event_proposal_count": 90,
+    "accepted_singleton_event_count": 18,
+    "event_basis_mode": "singleton_plus_small_unions",
+    "family_id": "family_run_search_20260326t021200z_triadic_branch_contexts",
+    "observable_only": true,
+    "proposal_constraint_kind": "soft",
+    "source_kind": "inferred_event_package"
+  },
+  "notes": "Built from discovered contexts and observable shared-event inference.",
+  "weights": {
+    "weight_proposal_event_ctx_prep0_branch_hold_hold_color_step0__union__atom_blue_1__atom_green_2__event_ctx_prep0_branch_hold_hold_color_step1__union__atom_blue_1__atom_green_2": 1.0,
+    "weight_proposal_event_ctx_prep0_branch_hold_hold_color_step0__union__atom_blue_1__atom_green_2__event_ctx_prep0_branch_hold_hold_color_step2__union__atom_blue_1__atom_green_2": 1.0,
+    "weight_proposal_event_ctx_prep0_branch_hold_hold_color_step0__union__atom_blue_1__atom_green_2__event_ctx_prep0_branch_hold_hold_shape_step0__union__atom_square_2__atom_triangle_3": 1.0,
+    "weight_proposal_event_ctx_prep0_branch_hold_hold_color_step0__union__atom_blue_1__atom_green_2__event_ctx_prep0_branch_hold_hold_shape_step1__union__atom_square_2__atom_triangle_3": 1.0,
+    "weight_proposal_event_ctx_prep0_branch_hold_hold_color_step0__union__atom_blue_1__atom_green_2__event_ctx_prep0_branch_hold_hold_shape_step2__union__atom_square_2__atom_triangle_3": 1.0,
+    "weight_proposal_event_ctx_prep0_branch_hold_hold_color_step0__union__atom_blue_1__atom_red_3__event_ctx_prep0_branch_hold_hold_color_step1__union__atom_blue_1__atom_red_3": 1.0,
+    "weight_proposal_event_ctx_prep0_branch_hold_hold_color_step0__union__atom_blue_1__atom_red_3__event_ctx_prep0_branch_hold_hold_color_step2__union__atom_blue_1__atom_red_3": 1.0,
+    "weight_proposal_event_ctx_prep0_branch_hold_hold_color_step0__union__atom_blue_1__atom_red_3__event_ctx_prep0_branch_hold_hold_shape_step0__union__atom_circle_1__atom_square_2": 1.0,
+    "weight_proposal_event_ctx_prep0_branch_hold_hold_color_step0__union__atom_blue_1__atom_red_3__event_ctx_prep0_branch_hold_hold_shape_step1__union__atom_circle_1__atom_square_2": 1.0,
+    "weight_proposal_event_ctx_prep0_branch_hold_hold_color_step0__union__atom_blue_1__atom_red_3__event_ctx_prep0_branch_hold_hold_shape_step2__union__atom_circle_1__atom_square_2": 1.0,
+    "weight_proposal_event_ctx_prep0_branch_hold_hold_color_step0__union__atom_green_2__atom_red_3__event_ctx_prep0_branch_hold_hold_color_step1__union__atom_green_2__atom_red_3": 1.0,
+    "weight_proposal_event_ctx_prep0_branch_hold_hold_color_step0__union__atom_green_2__atom_red_3__event_ctx_prep0_branch_hold_hold_color_step2__union__atom_green_2__atom_red_3": 1.0,
+    "weight_proposal_event_ctx_prep0_branch_hold_hold_color_step0__union__atom_green_2__atom_red_3__event_ctx_prep0_branch_hold_hold_shape_step0__union__atom_circle_1__atom_triangle_3": 1.0,
+    "weight_proposal_event_ctx_prep0_branch_hold_hold_color_step0__union__atom_green_2__atom_red_3__event_ctx_prep0_branch_hold_hold_shape_step1__union__atom_circle_1__atom_triangle_3": 1.0,
+    "weight_proposal_event_ctx_prep0_branch_hold_hold_color_step0__union__atom_green_2__atom_red_3__event_ctx_prep0_branch_hold_hold_shape_step2__union__atom_circle_1__atom_triangle_3": 1.0,
+    "weight_proposal_event_ctx_prep0_branch_hold_hold_color_step0_atom_blue_1__event_ctx_prep0_branch_hold_hold_color_step1_atom_blue_1": 1.0,
+    "weight_proposal_event_ctx_prep0_branch_hold_hold_color_step0_atom_blue_1__event_ctx_prep0_branch_hold_hold_color_step2_atom_blue_1": 1.0,
+    "weight_proposal_event_ctx_prep0_branch_hold_hold_color_step0_atom_blue_1__event_ctx_prep0_branch_hold_hold_shape_step0_atom_square_2": 1.0,
+    "weight_proposal_event_ctx_prep0_branch_hold_hold_color_step0_atom_blue_1__event_ctx_prep0_branch_hold_hold_shape_step1_atom_square_2": 1.0,
+    "weight_proposal_event_ctx_prep0_branch_hold_hold_color_step0_atom_blue_1__event_ctx_prep0_branch_hold_hold_shape_step2_atom_square_2": 1.0,
+    "weight_proposal_event_ctx_prep0_branch_hold_hold_color_step0_atom_green_2__event_ctx_prep0_branch_hold_hold_color_step1_atom_green_2": 1.0,
+    "weight_proposal_event_ctx_prep0_branch_hold_hold_color_step0_atom_green_2__event_ctx_prep0_branch_hold_hold_color_step2_atom_green_2": 1.0,
+    "weight_proposal_event_ctx_prep0_branch_hold_hold_color_step0_atom_green_2__event_ctx_prep0_branch_hold_hold_shape_step0_atom_triangle_3": 1.0,
+    "weight_proposal_event_ctx_prep0_branch_hold_hold_color_step0_atom_green_2__event_ctx_prep0_branch_hold_hold_shape_step1_atom_triangle_3": 1.0,
+    "weight_proposal_event_ctx_prep0_branch_hold_hold_color_step0_atom_green_2__event_ctx_prep0_branch_hold_hold_shape_step2_atom_triangle_3": 1.0,
+    "weight_proposal_event_ctx_prep0_branch_hold_hold_color_step0_atom_red_3__event_ctx_prep0_branch_hold_hold_color_step1_atom_red_3": 1.0,
+    "weight_proposal_event_ctx_prep0_branch_hold_hold_color_step0_atom_red_3__event_ctx_prep0_branch_hold_hold_color_step2_atom_red_3": 1.0,
+    "weight_proposal_event_ctx_prep0_branch_hold_hold_color_step0_atom_red_3__event_ctx_prep0_branch_hold_hold_shape_step0_atom_circle_1": 1.0,
+    "weight_proposal_event_ctx_prep0_branch_hold_hold_color_step0_atom_red_3__event_ctx_prep0_branch_hold_hold_shape_step1_atom_circle_1": 1.0,
+    "weight_proposal_event_ctx_prep0_branch_hold_hold_color_step0_atom_red_3__event_ctx_prep0_branch_hold_hold_shape_step2_atom_circle_1": 1.0,
+    "weight_proposal_event_ctx_prep0_branch_hold_hold_color_step1__union__atom_blue_1__atom_green_2__event_ctx_prep0_branch_hold_hold_color_step2__union__atom_blue_1__atom_green_2": 1.0,
+    "weight_proposal_event_ctx_prep0_branch_hold_hold_color_step1__union__atom_blue_1__atom_green_2__event_ctx_prep0_branch_hold_hold_shape_step0__union__atom_square_2__atom_triangle_3": 1.0,
+    "weight_proposal_event_ctx_prep0_branch_hold_hold_color_step1__union__atom_blue_1__atom_green_2__event_ctx_prep0_branch_hold_hold_shape_step1__union__atom_square_2__atom_triangle_3": 1.0,
+    "weight_proposal_event_ctx_prep0_branch_hold_hold_color_step1__union__atom_blue_1__atom_green_2__event_ctx_prep0_branch_hold_hold_shape_step2__union__atom_square_2__atom_triangle_3": 1.0,
+    "weight_proposal_event_ctx_prep0_branch_hold_hold_color_step1__union__atom_blue_1__atom_red_3__event_ctx_prep0_branch_hold_hold_color_step2__union__atom_blue_1__atom_red_3": 1.0,
+    "weight_proposal_event_ctx_prep0_branch_hold_hold_color_step1__union__atom_blue_1__atom_red_3__event_ctx_prep0_branch_hold_hold_shape_step0__union__atom_circle_1__atom_square_2": 1.0,
+    "weight_proposal_event_ctx_prep0_branch_hold_hold_color_step1__union__atom_blue_1__atom_red_3__event_ctx_prep0_branch_hold_hold_shape_step1__union__atom_circle_1__atom_square_2": 1.0,
+    "weight_proposal_event_ctx_prep0_branch_hold_hold_color_step1__union__atom_blue_1__atom_red_3__event_ctx_prep0_branch_hold_hold_shape_step2__union__atom_circle_1__atom_square_2": 1.0,
+    "weight_proposal_event_ctx_prep0_branch_hold_hold_color_step1__union__atom_green_2__atom_red_3__event_ctx_prep0_branch_hold_hold_color_step2__union__atom_green_2__atom_red_3": 1.0,
+    "weight_proposal_event_ctx_prep0_branch_hold_hold_color_step1__union__atom_green_2__atom_red_3__event_ctx_prep0_branch_hold_hold_shape_step0__union__atom_circle_1__atom_triangle_3": 1.0,
+    "weight_proposal_event_ctx_prep0_branch_hold_hold_color_step1__union__atom_green_2__atom_red_3__event_ctx_prep0_branch_hold_hold_shape_step1__union__atom_circle_1__atom_triangle_3": 1.0,
+    "weight_proposal_event_ctx_prep0_branch_hold_hold_color_step1__union__atom_green_2__atom_red_3__event_ctx_prep0_branch_hold_hold_shape_step2__union__atom_circle_1__atom_triangle_3": 1.0,
+    "weight_proposal_event_ctx_prep0_branch_hold_hold_color_step1_atom_blue_1__event_ctx_prep0_branch_hold_hold_color_step2_atom_blue_1": 1.0,
+    "weight_proposal_event_ctx_prep0_branch_hold_hold_color_step1_atom_blue_1__event_ctx_prep0_branch_hold_hold_shape_step0_atom_square_2": 1.0,
+    "weight_proposal_event_ctx_prep0_branch_hold_hold_color_step1_atom_blue_1__event_ctx_prep0_branch_hold_hold_shape_step1_atom_square_2": 1.0,
+    "weight_proposal_event_ctx_prep0_branch_hold_hold_color_step1_atom_blue_1__event_ctx_prep0_branch_hold_hold_shape_step2_atom_square_2": 1.0,
+    "weight_proposal_event_ctx_prep0_branch_hold_hold_color_step1_atom_green_2__event_ctx_prep0_branch_hold_hold_color_step2_atom_green_2": 1.0,
+    "weight_proposal_event_ctx_prep0_branch_hold_hold_color_step1_atom_green_2__event_ctx_prep0_branch_hold_hold_shape_step0_atom_triangle_3": 1.0,
+    "weight_proposal_event_ctx_prep0_branch_hold_hold_color_step1_atom_green_2__event_ctx_prep0_branch_hold_hold_shape_step1_atom_triangle_3": 1.0,
+    "weight_proposal_event_ctx_prep0_branch_hold_hold_color_step1_atom_green_2__event_ctx_prep0_branch_hold_hold_shape_step2_atom_triangle_3": 1.0,
+    "weight_proposal_event_ctx_prep0_branch_hold_hold_color_step1_atom_red_3__event_ctx_prep0_branch_hold_hold_color_step2_atom_red_3": 1.0,
+    "weight_proposal_event_ctx_prep0_branch_hold_hold_color_step1_atom_red_3__event_ctx_prep0_branch_hold_hold_shape_step0_atom_circle_1": 1.0,
+    "weight_proposal_event_ctx_prep0_branch_hold_hold_color_step1_atom_red_3__event_ctx_prep0_branch_hold_hold_shape_step1_atom_circle_1": 1.0,
+    "weight_proposal_event_ctx_prep0_branch_hold_hold_color_step1_atom_red_3__event_ctx_prep0_branch_hold_hold_shape_step2_atom_circle_1": 1.0,
+    "weight_proposal_event_ctx_prep0_branch_hold_hold_color_step2__union__atom_blue_1__atom_green_2__event_ctx_prep0_branch_hold_hold_shape_step0__union__atom_square_2__atom_triangle_3": 1.0,
+    "weight_proposal_event_ctx_prep0_branch_hold_hold_color_step2__union__atom_blue_1__atom_green_2__event_ctx_prep0_branch_hold_hold_shape_step1__union__atom_square_2__atom_triangle_3": 1.0,
+    "weight_proposal_event_ctx_prep0_branch_hold_hold_color_step2__union__atom_blue_1__atom_green_2__event_ctx_prep0_branch_hold_hold_shape_step2__union__atom_square_2__atom_triangle_3": 1.0,
+    "weight_proposal_event_ctx_prep0_branch_hold_hold_color_step2__union__atom_blue_1__atom_red_3__event_ctx_prep0_branch_hold_hold_shape_step0__union__atom_circle_1__atom_square_2": 1.0,
+    "weight_proposal_event_ctx_prep0_branch_hold_hold_color_step2__union__atom_blue_1__atom_red_3__event_ctx_prep0_branch_hold_hold_shape_step1__union__atom_circle_1__atom_square_2": 1.0,
+    "weight_proposal_event_ctx_prep0_branch_hold_hold_color_step2__union__atom_blue_1__atom_red_3__event_ctx_prep0_branch_hold_hold_shape_step2__union__atom_circle_1__atom_square_2": 1.0,
+    "weight_proposal_event_ctx_prep0_branch_hold_hold_color_step2__union__atom_green_2__atom_red_3__event_ctx_prep0_branch_hold_hold_shape_step0__union__atom_circle_1__atom_triangle_3": 1.0,
+    "weight_proposal_event_ctx_prep0_branch_hold_hold_color_step2__union__atom_green_2__atom_red_3__event_ctx_prep0_branch_hold_hold_shape_step1__union__atom_circle_1__atom_triangle_3": 1.0,
+    "weight_proposal_event_ctx_prep0_branch_hold_hold_color_step2__union__atom_green_2__atom_red_3__event_ctx_prep0_branch_hold_hold_shape_step2__union__atom_circle_1__atom_triangle_3": 1.0,
+    "weight_proposal_event_ctx_prep0_branch_hold_hold_color_step2_atom_blue_1__event_ctx_prep0_branch_hold_hold_shape_step0_atom_square_2": 1.0,
+    "weight_proposal_event_ctx_prep0_branch_hold_hold_color_step2_atom_blue_1__event_ctx_prep0_branch_hold_hold_shape_step1_atom_square_2": 1.0,
+    "weight_proposal_event_ctx_prep0_branch_hold_hold_color_step2_atom_blue_1__event_ctx_prep0_branch_hold_hold_shape_step2_atom_square_2": 1.0,
+    "weight_proposal_event_ctx_prep0_branch_hold_hold_color_step2_atom_green_2__event_ctx_prep0_branch_hold_hold_shape_step0_atom_triangle_3": 1.0,
+    "weight_proposal_event_ctx_prep0_branch_hold_hold_color_step2_atom_green_2__event_ctx_prep0_branch_hold_hold_shape_step1_atom_triangle_3": 1.0,
+    "weight_proposal_event_ctx_prep0_branch_hold_hold_color_step2_atom_green_2__event_ctx_prep0_branch_hold_hold_shape_step2_atom_triangle_3": 1.0,
+    "weight_proposal_event_ctx_prep0_branch_hold_hold_color_step2_atom_red_3__event_ctx_prep0_branch_hold_hold_shape_step0_atom_circle_1": 1.0,
+    "weight_proposal_event_ctx_prep0_branch_hold_hold_color_step2_atom_red_3__event_ctx_prep0_branch_hold_hold_shape_step1_atom_circle_1": 1.0,
+    "weight_proposal_event_ctx_prep0_branch_hold_hold_color_step2_atom_red_3__event_ctx_prep0_branch_hold_hold_shape_step2_atom_circle_1": 1.0,
+    "weight_proposal_event_ctx_prep0_branch_hold_hold_shape_step0__union__atom_circle_1__atom_square_2__event_ctx_prep0_branch_hold_hold_shape_step1__union__atom_circle_1__atom_square_2": 1.0,
+    "weight_proposal_event_ctx_prep0_branch_hold_hold_shape_step0__union__atom_circle_1__atom_square_2__event_ctx_prep0_branch_hold_hold_shape_step2__union__atom_circle_1__atom_square_2": 1.0,
+    "weight_proposal_event_ctx_prep0_branch_hold_hold_shape_step0__union__atom_circle_1__atom_triangle_3__event_ctx_prep0_branch_hold_hold_shape_step1__union__atom_circle_1__atom_triangle_3": 1.0,
+    "weight_proposal_event_ctx_prep0_branch_hold_hold_shape_step0__union__atom_circle_1__atom_triangle_3__event_ctx_prep0_branch_hold_hold_shape_step2__union__atom_circle_1__atom_triangle_3": 1.0,
+    "weight_proposal_event_ctx_prep0_branch_hold_hold_shape_step0__union__atom_square_2__atom_triangle_3__event_ctx_prep0_branch_hold_hold_shape_step1__union__atom_square_2__atom_triangle_3": 1.0,
+    "weight_proposal_event_ctx_prep0_branch_hold_hold_shape_step0__union__atom_square_2__atom_triangle_3__event_ctx_prep0_branch_hold_hold_shape_step2__union__atom_square_2__atom_triangle_3": 1.0,
+    "weight_proposal_event_ctx_prep0_branch_hold_hold_shape_step0_atom_circle_1__event_ctx_prep0_branch_hold_hold_shape_step1_atom_circle_1": 1.0,
+    "weight_proposal_event_ctx_prep0_branch_hold_hold_shape_step0_atom_circle_1__event_ctx_prep0_branch_hold_hold_shape_step2_atom_circle_1": 1.0,
+    "weight_proposal_event_ctx_prep0_branch_hold_hold_shape_step0_atom_square_2__event_ctx_prep0_branch_hold_hold_shape_step1_atom_square_2": 1.0,
+    "weight_proposal_event_ctx_prep0_branch_hold_hold_shape_step0_atom_square_2__event_ctx_prep0_branch_hold_hold_shape_step2_atom_square_2": 1.0,
+    "weight_proposal_event_ctx_prep0_branch_hold_hold_shape_step0_atom_triangle_3__event_ctx_prep0_branch_hold_hold_shape_step1_atom_triangle_3": 1.0,
+    "weight_proposal_event_ctx_prep0_branch_hold_hold_shape_step0_atom_triangle_3__event_ctx_prep0_branch_hold_hold_shape_step2_atom_triangle_3": 1.0,
+    "weight_proposal_event_ctx_prep0_branch_hold_hold_shape_step1__union__atom_circle_1__atom_square_2__event_ctx_prep0_branch_hold_hold_shape_step2__union__atom_circle_1__atom_square_2": 1.0,
+    "weight_proposal_event_ctx_prep0_branch_hold_hold_shape_step1__union__atom_circle_1__atom_triangle_3__event_ctx_prep0_branch_hold_hold_shape_step2__union__atom_circle_1__atom_triangle_3": 1.0,
+    "weight_proposal_event_ctx_prep0_branch_hold_hold_shape_step1__union__atom_square_2__atom_triangle_3__event_ctx_prep0_branch_hold_hold_shape_step2__union__atom_square_2__atom_triangle_3": 1.0,
+    "weight_proposal_event_ctx_prep0_branch_hold_hold_shape_step1_atom_circle_1__event_ctx_prep0_branch_hold_hold_shape_step2_atom_circle_1": 1.0,
+    "weight_proposal_event_ctx_prep0_branch_hold_hold_shape_step1_atom_square_2__event_ctx_prep0_branch_hold_hold_shape_step2_atom_square_2": 1.0,
+    "weight_proposal_event_ctx_prep0_branch_hold_hold_shape_step1_atom_triangle_3__event_ctx_prep0_branch_hold_hold_shape_step2_atom_triangle_3": 1.0
+  }
+}

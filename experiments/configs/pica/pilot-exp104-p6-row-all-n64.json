@@ -1,0 +1,45 @@
+{
+  "campaign_id": "pica_campaign_exp104_p6_row_all",
+  "campaign_label": "exp104_p6_row_all_campaign",
+  "enable_matrix_id": "pica_exp104_p6_row_all_matrix",
+  "export_settings": {
+    "adapter_mode": "key_discovery_grade_json_adapter_v1",
+    "artifact_output_mode": "run_dir",
+    "export_mode": "adapter_export",
+    "path_policy": "repo_relative",
+    "pica_export_mode": "discovery_grade_per_trajectory"
+  },
+  "flags": [
+    "bounded",
+    "adapter_export",
+    "discovery_grade_per_trajectory",
+    "f070_packaging_source_none"
+  ],
+  "invocation": {
+    "binary_name": "runner",
+    "cargo_target_dir": ".cache/pica-target",
+    "command_mode": "cargo_runner_release",
+    "manifest_path": "vendor/six-birds-pica/Cargo.toml",
+    "vendor_root": "vendor/six-birds-pica"
+  },
+  "mechanism_family_id": "pica_exp104_family",
+  "notes": [
+    "F-070 config: P6_row_all -> packaging source none in algebra repo.",
+    "All P6 row cells active: P6<-P1 through P6<-P6."
+  ],
+  "pilot_campaign_id": "pica_pilot_exp104_p6_row_all_n64",
+  "pilot_label": "exp104_p6_row_all_n64_wrapper_run",
+  "point_id": "point_exp104_p6_row_all_n64_seed0",
+  "preparation_id": "prep_pica_default",
+  "protocol_id": "protocol_pica_multiscale_scan",
+  "run_settings": {
+    "config_name": "P6_row_all",
+    "exp_id": "EXP-104",
+    "scale": 64,
+    "seed": 0,
+    "timeout_seconds": 120
+  },
+  "schema_version": "pica-pilot-campaign.v1",
+  "source_config_path": "experiments/configs/pica/pilot-exp104-p6-row-all.json",
+  "substrate_config_id": "pica_exp104_p6_row_all_n64"
+}

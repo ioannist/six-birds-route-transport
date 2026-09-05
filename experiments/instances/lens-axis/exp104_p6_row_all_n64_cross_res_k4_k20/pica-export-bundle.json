@@ -1,0 +1,66 @@
+{
+  "campaign_exports": [
+    {
+      "artifact_path": "experiments/instances/lens-axis/exp104_p6_row_all_n64_cross_res_k4_k20/pica-campaign-export.json",
+      "campaign_id": "lens_axis_cross_res_k4_k20_accepted_campaign"
+    }
+  ],
+  "closure_catalogs": [
+    {
+      "artifact_path": "experiments/instances/lens-axis/exp104_p6_row_all_n64_cross_res_k4_k20/pica-closure-catalog-seed0.json",
+      "closure_catalog_id": "closure_catalog_point_exp104_p6_row_all_n64_seed0__seed_0",
+      "run_id": "point_exp104_p6_row_all_n64_seed0__seed_0"
+    }
+  ],
+  "commutator_catalogs": [
+    {
+      "artifact_path": "experiments/instances/lens-axis/exp104_p6_row_all_n64_cross_res_k4_k20/pica-commutator-catalog-seed0.json",
+      "commutator_catalog_id": "commutator_catalog_point_exp104_p6_row_all_n64_seed0__seed_0",
+      "run_id": "point_exp104_p6_row_all_n64_seed0__seed_0"
+    }
+  ],
+  "export_bundle_id": "lens_axis_cross_res_k4_k20_accepted_bundle",
+  "export_timestamp": "2026-03-27T00:00:00Z",
+  "flags": [
+    "adapter_export",
+    "merged_multiseed"
+  ],
+  "notes": [
+    "Merged multiseed PICA export bundle for targeted obstruction search."
+  ],
+  "observable_ledgers": [
+    {
+      "artifact_path": "experiments/instances/lens-axis/exp104_p6_row_all_n64_cross_res_k4_k20/pica-observable-ledger-seed0.json",
+      "observable_ledger_id": "observable_ledger_point_exp104_p6_row_all_n64_seed0__seed_0",
+      "run_id": "point_exp104_p6_row_all_n64_seed0__seed_0"
+    }
+  ],
+  "packaging_operator_catalogs": [
+    {
+      "artifact_path": "experiments/instances/lens-axis/exp104_p6_row_all_n64_cross_res_k4_k20/pica-packaging-operator-catalog-seed0.json",
+      "packaging_operator_catalog_id": "packaging_operator_catalog_point_exp104_p6_row_all_n64_seed0__seed_0",
+      "run_id": "point_exp104_p6_row_all_n64_seed0__seed_0"
+    }
+  ],
+  "packaging_selection_ledgers": [
+    {
+      "artifact_path": "experiments/instances/lens-axis/exp104_p6_row_all_n64_cross_res_k4_k20/pica-packaging-selection-ledger-seed0.json",
+      "packaging_selection_ledger_id": "packaging_selection_ledger_point_exp104_p6_row_all_n64_seed0__seed_0",
+      "run_id": "point_exp104_p6_row_all_n64_seed0__seed_0"
+    }
+  ],
+  "path_policy": "repo_relative",
+  "producer": {
+    "build_label": "cargo_runner_release",
+    "name": "pica",
+    "version": "targeted-search-merge"
+  },
+  "run_ledgers": [
+    {
+      "artifact_path": "experiments/instances/lens-axis/exp104_p6_row_all_n64_cross_res_k4_k20/pica-run-ledger-seed0.json",
+      "campaign_id": "lens_axis_cross_res_k4_k20_accepted_campaign",
+      "run_id": "point_exp104_p6_row_all_n64_seed0__seed_0"
+    }
+  ],
+  "schema_version": "pica-export-bundle.v1"
+}

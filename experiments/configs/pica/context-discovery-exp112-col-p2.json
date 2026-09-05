@@ -1,0 +1,41 @@
+{
+  "schema_version": "pica-context-discovery.v1",
+  "bundle_artifact": "experiments/contracts/pica/pilot/exp100_multiseed/pica-export-bundle.json",
+  "selected_run_ids": [],
+  "selected_point_ids": [],
+  "projection": {
+    "projection_mode": "payload_numeric_bins",
+    "payload_key": "macro_gap",
+    "bin_edges": [
+      0.25,
+      0.45,
+      0.65
+    ]
+  },
+  "grouping_key_fields": [
+    "preparation_id",
+    "protocol_id",
+    "level_id",
+    "resolution_id",
+    "closure_id",
+    "lens_id",
+    "protocol_step_id"
+  ],
+  "thresholds": {
+    "min_row_count": 2,
+    "min_atom_count": 2,
+    "min_atom_support_count": 1,
+    "min_atom_support_fraction": 0.0,
+    "min_coverage": 1.0,
+    "max_batch_tv": 1.0,
+    "batch_count": 2
+  },
+  "notes": [
+    "Committed T41 PICA-native discovery config for EXP-112 col_P2 multiseed exports."
+  ],
+  "flags": [
+    "observable_only",
+    "multiseed",
+    "targeted_t41"
+  ]
+}

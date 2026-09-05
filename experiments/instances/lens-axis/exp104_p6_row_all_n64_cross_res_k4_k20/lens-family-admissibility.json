@@ -1,0 +1,30 @@
+{
+  "axis": "lens",
+  "catalog_format_version": "lens-family-admissibility.v1",
+  "fixed_mechanism_label": "exp104_p6_row_all_n64",
+  "fixed_packaging_family_label": "bridge_default_packaging_selector",
+  "metadata": {
+    "axis": "lens"
+  },
+  "row_count": 1,
+  "rows": [
+    {
+      "allowed_role": "primary_context",
+      "allowed_roles": [
+        "primary_context"
+      ],
+      "flags": [
+        "same_slice_eligible",
+        "varies_within_selected_slice"
+      ],
+      "notes": [
+        "primary_packaging_outcome"
+      ],
+      "projection_id": "obs_primary",
+      "projection_kind": "packaging_outcome",
+      "same_slice_eligible": true,
+      "source_field": "observation_label"
+    }
+  ],
+  "search_id": "lens_axis_cross_res_k4_k20_accepted"
+}

@@ -1,0 +1,16 @@
+{
+  "schema_version": "benchmark-manifest.v1",
+  "benchmark_id": "memory_wheel",
+  "transport_package_ref": "configs/benchmarks/toy_memory_loop.json",
+  "interfaces_to_measure": [
+    "mid"
+  ],
+  "loops_to_test": [
+    "id_mid",
+    "swap_mid"
+  ],
+  "perturbation_sweep_ref": "configs/benchmarks/memory_wheel.perturbation.json",
+  "tags": [
+    "memory_loop"
+  ]
+}

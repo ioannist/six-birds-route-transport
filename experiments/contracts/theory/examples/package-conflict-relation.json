@@ -1,0 +1,32 @@
+{
+  "relation_format_version": "package-conflict-relation.v1",
+  "relation_id": "package_conflict_relation_example",
+  "package_conflict_object_ref": "experiments/contracts/theory/examples/package-conflict-object.json",
+  "left_context_ref": "ctx_example_left",
+  "right_context_ref": "ctx_example_right",
+  "comparison_mode": "cross_resolution_strict_extension",
+  "same_frozen_support": true,
+  "same_evaluation_regime": true,
+  "divergence_fields": [
+    "selector_branch",
+    "resolution_id"
+  ],
+  "package_action_evidence": [
+    "selector_branch_divergence"
+  ],
+  "relation_level": "package_conflict_proper",
+  "classification": "strict_extension_package_conflict",
+  "obstruction_status": "none",
+  "primary_refs": [
+    "docs/runbooks/frozen-slice-shared-support-layer.md"
+  ],
+  "supporting_refs": [
+    "docs/runbooks/three-axis-context-memo.md"
+  ],
+  "caveat_flags": [
+    "contract_example"
+  ],
+  "notes": [
+    "Example same-support strict-extension package conflict without obstruction."
+  ]
+}

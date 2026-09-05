@@ -1,0 +1,81 @@
+{
+  "downstream_probes": [
+    {
+      "event_id": "event_x0",
+      "context_id": "ctx_binary",
+      "probe_id": "probe_alpha",
+      "signature": "probe_alpha",
+      "outcome_probabilities": {
+        "hit": 0.7,
+        "miss": 0.3
+      }
+    },
+    {
+      "event_id": "event_l01",
+      "context_id": "ctx_left_refined",
+      "probe_id": "probe_alpha",
+      "signature": "probe_alpha",
+      "outcome_probabilities": {
+        "hit": 0.7,
+        "miss": 0.3
+      }
+    },
+    {
+      "event_id": "event_r0",
+      "context_id": "ctx_right_refined",
+      "probe_id": "probe_alpha",
+      "signature": "probe_alpha",
+      "outcome_probabilities": {
+        "hit": 0.6,
+        "miss": 0.4
+      }
+    },
+    {
+      "event_id": "event_x1",
+      "context_id": "ctx_binary",
+      "probe_id": "probe_beta",
+      "signature": "probe_beta",
+      "outcome_probabilities": {
+        "off": 0.8,
+        "on": 0.2
+      }
+    },
+    {
+      "event_id": "event_l2",
+      "context_id": "ctx_left_refined",
+      "probe_id": "probe_beta",
+      "signature": "probe_beta",
+      "outcome_probabilities": {
+        "off": 0.8,
+        "on": 0.2
+      }
+    },
+    {
+      "event_id": "event_r12",
+      "context_id": "ctx_right_refined",
+      "probe_id": "probe_beta",
+      "signature": "probe_beta",
+      "outcome_probabilities": {
+        "off": 0.7,
+        "on": 0.3
+      }
+    }
+  ],
+  "instance_artifact": "experiments/instances/benchmarks/classical-master-test/instance.json",
+  "instance_id": "inst_classical_master_test",
+  "metadata": {
+    "benchmark_id": "classical-master-test",
+    "mode": "sec_noisy"
+  },
+  "observations": [
+    {
+      "context_id": "ctx_binary",
+      "atom_ids": [
+        "x1"
+      ],
+      "count": 1
+    }
+  ],
+  "trace_format_version": "observation-trace.v1",
+  "trace_id": "trace_classical_master_test_sec_noisy"
+}

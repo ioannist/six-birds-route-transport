@@ -1,0 +1,22 @@
+{
+  "note_format_version": "result-note.v1",
+  "note_id": "note_demo_001",
+  "run_id": "run_demo_001",
+  "instance_ids": ["inst_demo_001"],
+  "metrics": {
+    "num_contexts": 2,
+    "num_events": 2,
+    "validated": true
+  },
+  "interpretation": "The input instance validated structurally and the soft equality proposal remained well-formed.",
+  "caveats": [
+    "No solver was executed."
+  ],
+  "artifact_refs": {
+    "manifest": "tests/legacy/fixtures/valid/run-manifest.json",
+    "trace": "tests/legacy/fixtures/valid/observation-trace.json"
+  },
+  "metadata": {
+    "origin": "fixture"
+  }
+}

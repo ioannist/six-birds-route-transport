@@ -1,0 +1,50 @@
+{
+  "intervention_format_version": "hidden-record-intervention.v1",
+  "intervention_id": "hidden_record_route_split",
+  "before_instance_artifact": "experiments/instances/interventions/hidden-record-route-split/before-instance.json",
+  "route_source_artifact": "experiments/instances/interventions/hidden-record-route-split/route-source.json",
+  "residue_field_name": "route_id",
+  "residue_values": [
+    "r0",
+    "r1"
+  ],
+  "selected_context_ids": [
+    "ctx_A",
+    "ctx_B"
+  ],
+  "augmentation_policy": "split_contexts_by_residue",
+  "proposal_residue_assignments": [
+    {
+      "proposal_id": "p_r0_a0",
+      "residue_values": [
+        "r0"
+      ]
+    },
+    {
+      "proposal_id": "p_r0_a1",
+      "residue_values": [
+        "r0"
+      ]
+    },
+    {
+      "proposal_id": "p_r1_a0",
+      "residue_values": [
+        "r1"
+      ]
+    },
+    {
+      "proposal_id": "p_r1_a1",
+      "residue_values": [
+        "r1"
+      ]
+    }
+  ],
+  "comparison_config": {
+    "allow_relax_hard": true,
+    "hard_proposal_relax_weight": 1.0,
+    "include_rm": true
+  },
+  "metadata": {
+    "example_kind": "compact_route_residue_split"
+  }
+}

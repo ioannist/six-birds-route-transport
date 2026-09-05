@@ -1,0 +1,72 @@
+{
+  "search_format_version": "pica-closure-diverse-search.v1",
+  "search_id": "pica_closure_diverse_invalid",
+  "points": [
+    {
+      "point_id": "dup_point",
+      "pilot_config_artifact": "experiments/configs/pica/pilot-exp100-baseline-closure-control.json",
+      "preparation_id": "prep_pica_default",
+      "protocol_id": "protocol_pica_multiscale_scan",
+      "trajectories": 24,
+      "seed_list": [0, 1],
+      "projection_family_ids": ["macro_gap_q4"]
+    },
+    {
+      "point_id": "dup_point",
+      "pilot_config_artifact": "experiments/configs/pica/pilot-exp103-baseline-multiproj.json",
+      "preparation_id": "prep_pica_default",
+      "protocol_id": "protocol_pica_multiscale_scan",
+      "trajectories": 24,
+      "seed_list": [0, 1],
+      "projection_family_ids": ["missing_projection"]
+    }
+  ],
+  "projection_families": [
+    {
+      "projection_id": "macro_gap_q4",
+      "label": "macro_gap quartiles",
+      "projection": {
+        "projection_mode": "payload_numeric_bins",
+        "payload_key": "macro_gap",
+        "bin_edges": [0.35, 0.5, 0.65]
+      }
+    }
+  ],
+  "event_generation_thresholds": {
+    "event_basis_mode": "singleton_plus_small_unions",
+    "event_algebra_mode": "full_powerset",
+    "max_full_powerset_atom_count": 6,
+    "max_union_size": 3,
+    "min_event_support_count": 1,
+    "min_event_support_fraction": 0.0
+  },
+  "shared_event_inference_thresholds": {
+    "inference_mode": "structural_primary",
+    "min_common_probes": 1,
+    "min_conditioning_count": 2,
+    "min_probe_atom_support_count": 1,
+    "max_mean_tv": 1.0,
+    "exact_tolerance": 1e-09,
+    "proposal_constraint_kind": "soft"
+  },
+  "provenance_required": true,
+  "candidate_classification_thresholds": {
+    "strong_nonextendable_min_gpd_str": 1.0,
+    "near_zero_gpd_stat": 1e-06,
+    "min_accepted_coarse_proposal_count": 1
+  },
+  "adequacy_floor": {
+    "min_total_point_count": 4,
+    "min_admissible_built_package_count": 2,
+    "min_points_with_proper_coarse_events": 2,
+    "min_points_with_proper_coarse_structural_proposals": 1,
+    "min_points_with_incomparable_context_pairs": 1,
+    "min_points_with_dual_mode_difference": 1,
+    "min_median_accepted_proposal_support": 3.0
+  },
+  "output_category": "search",
+  "output_label": "pica-closure-diverse",
+  "metadata": {
+    "goal": "invalid_duplicate_point_ids_and_unknown_projection_reference"
+  }
+}

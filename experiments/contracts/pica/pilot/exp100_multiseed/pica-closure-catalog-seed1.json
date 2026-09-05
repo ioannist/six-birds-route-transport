@@ -1,0 +1,192 @@
+{
+  "campaign_id": "pica_campaign_exp100_baseline_multiseed",
+  "closure_catalog_id": "closure_catalog_run_exp100_baseline_seed1",
+  "closures": [
+    {
+      "closure_id": "closure_baseline_k_2",
+      "debug_metadata": {},
+      "flags": [],
+      "label": "baseline_k_2",
+      "level_id": "level_l0",
+      "notes": [
+        "Committed multiseed adapter export."
+      ],
+      "parent_closure_id": null,
+      "resolution_id": "resolution_k_2",
+      "role": "adapter_closure",
+      "support_metadata": {
+        "frob": 0.3452120792381591,
+        "macro_gap": 0.6547973132907624,
+        "scan_k": 2
+      }
+    },
+    {
+      "closure_id": "closure_baseline_k_4",
+      "debug_metadata": {},
+      "flags": [],
+      "label": "baseline_k_4",
+      "level_id": "level_l0",
+      "notes": [
+        "Committed multiseed adapter export."
+      ],
+      "parent_closure_id": null,
+      "resolution_id": "resolution_k_4",
+      "role": "adapter_closure",
+      "support_metadata": {
+        "frob": 0.4954218317377587,
+        "macro_gap": 0.6841726644608146,
+        "scan_k": 4
+      }
+    },
+    {
+      "closure_id": "closure_baseline_k_8",
+      "debug_metadata": {},
+      "flags": [],
+      "label": "baseline_k_8",
+      "level_id": "level_l0",
+      "notes": [
+        "Committed multiseed adapter export."
+      ],
+      "parent_closure_id": null,
+      "resolution_id": "resolution_k_8",
+      "role": "adapter_closure",
+      "support_metadata": {
+        "frob": 1.2266418430323798,
+        "macro_gap": 0.5030042980292685,
+        "scan_k": 8
+      }
+    },
+    {
+      "closure_id": "closure_baseline_k_14",
+      "debug_metadata": {},
+      "flags": [],
+      "label": "baseline_k_14",
+      "level_id": "level_l0",
+      "notes": [
+        "Committed multiseed adapter export."
+      ],
+      "parent_closure_id": null,
+      "resolution_id": "resolution_k_14",
+      "role": "adapter_closure",
+      "support_metadata": {
+        "frob": 1.4762666062192684,
+        "macro_gap": 0.38963046767553944,
+        "scan_k": 14
+      }
+    }
+  ],
+  "flags": [
+    "adapter_export",
+    "multiseed"
+  ],
+  "lenses": [
+    {
+      "ancestor_lens_id": null,
+      "closure_id": "closure_baseline_k_2",
+      "debug_metadata": {},
+      "flags": [],
+      "label": "p4_k_2",
+      "lens_id": "lens_p4_k_2",
+      "level_id": "level_l0",
+      "notes": [],
+      "resolution_id": "resolution_k_2",
+      "role": "adapter_lens",
+      "support_metadata": {
+        "lens_source": "p4",
+        "scan_k": 2
+      }
+    },
+    {
+      "ancestor_lens_id": null,
+      "closure_id": "closure_baseline_k_4",
+      "debug_metadata": {},
+      "flags": [],
+      "label": "p4_k_4",
+      "lens_id": "lens_p4_k_4",
+      "level_id": "level_l0",
+      "notes": [],
+      "resolution_id": "resolution_k_4",
+      "role": "adapter_lens",
+      "support_metadata": {
+        "lens_source": "p4",
+        "scan_k": 4
+      }
+    },
+    {
+      "ancestor_lens_id": null,
+      "closure_id": "closure_baseline_k_8",
+      "debug_metadata": {},
+      "flags": [],
+      "label": "p4_k_8",
+      "lens_id": "lens_p4_k_8",
+      "level_id": "level_l0",
+      "notes": [],
+      "resolution_id": "resolution_k_8",
+      "role": "adapter_lens",
+      "support_metadata": {
+        "lens_source": "p4",
+        "scan_k": 8
+      }
+    },
+    {
+      "ancestor_lens_id": null,
+      "closure_id": "closure_baseline_k_14",
+      "debug_metadata": {},
+      "flags": [],
+      "label": "p4_k_14",
+      "lens_id": "lens_p4_k_14",
+      "level_id": "level_l0",
+      "notes": [],
+      "resolution_id": "resolution_k_14",
+      "role": "adapter_lens",
+      "support_metadata": {
+        "lens_source": "p4",
+        "scan_k": 14
+      }
+    }
+  ],
+  "levels": [
+    {
+      "label": "L0",
+      "level_id": "level_l0",
+      "parent_level_id": null,
+      "role": "adapter_observed_level"
+    }
+  ],
+  "notes": [
+    "Committed multiseed adapter-exported closure catalog."
+  ],
+  "point_id": "point_exp100_baseline_seed1",
+  "resolutions": [
+    {
+      "label": "scan_k_2",
+      "level_id": "level_l0",
+      "parent_resolution_id": null,
+      "resolution_id": "resolution_k_2",
+      "role": "adapter_resolution"
+    },
+    {
+      "label": "scan_k_4",
+      "level_id": "level_l0",
+      "parent_resolution_id": null,
+      "resolution_id": "resolution_k_4",
+      "role": "adapter_resolution"
+    },
+    {
+      "label": "scan_k_8",
+      "level_id": "level_l0",
+      "parent_resolution_id": null,
+      "resolution_id": "resolution_k_8",
+      "role": "adapter_resolution"
+    },
+    {
+      "label": "scan_k_14",
+      "level_id": "level_l0",
+      "parent_resolution_id": null,
+      "resolution_id": "resolution_k_14",
+      "role": "adapter_resolution"
+    }
+  ],
+  "run_id": "run_exp100_baseline_seed1",
+  "schema_version": "pica-closure-catalog.v1"
+}

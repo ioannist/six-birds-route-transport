@@ -1,0 +1,46 @@
+{
+  "object_format_version": "package-conflict-object.v1",
+  "package_conflict_object_id": "package_conflict_object_v1",
+  "theorem_object_label": "event_package",
+  "frozen_slice_required": true,
+  "fixed_support_fields": [
+    "support_object_id",
+    "evaluation_regime_id",
+    "mechanism_config_id",
+    "preparation_id",
+    "protocol_id"
+  ],
+  "projection_difference_fields": [
+    "projection_id",
+    "projection_field"
+  ],
+  "lens_difference_fields": [
+    "lens_id",
+    "projection_family_id",
+    "resolution_id"
+  ],
+  "packaging_surface_fields": [
+    "packaging_source",
+    "selector_branch",
+    "packaging_operator_id",
+    "packaging_family_id",
+    "packaging_producer_id"
+  ],
+  "package_action_fields": [
+    "selector_branch",
+    "packaging_operator_id",
+    "packaging_family_id"
+  ],
+  "minimum_conflict_requirements": [
+    "same_support",
+    "same_evaluation_regime",
+    "packaging_surface_divergence",
+    "package_action_divergence"
+  ],
+  "notes": [
+    "Packaging source is informative but not sufficient by itself."
+  ],
+  "flags": [
+    "contract_example"
+  ]
+}

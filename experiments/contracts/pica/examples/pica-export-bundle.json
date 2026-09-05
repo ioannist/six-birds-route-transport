@@ -1,0 +1,41 @@
+{
+  "schema_version": "pica-export-bundle.v1",
+  "export_bundle_id": "pica_export_bundle_example_v1",
+  "producer": {
+    "name": "pica",
+    "version": "example",
+    "commit": "example-commit"
+  },
+  "export_timestamp": "2026-03-26T00:00:00Z",
+  "path_policy": "repo_relative",
+  "campaign_exports": [
+    {
+      "campaign_id": "campaign_example_v1",
+      "artifact_path": "experiments/contracts/pica/examples/pica-campaign-export.json"
+    }
+  ],
+  "run_ledgers": [
+    {
+      "run_id": "run_triadic_branch_seed123",
+      "campaign_id": "campaign_example_v1",
+      "artifact_path": "experiments/contracts/pica/examples/pica-run-ledger.json"
+    }
+  ],
+  "closure_catalogs": [
+    {
+      "closure_catalog_id": "closure_catalog_run_triadic_branch_seed123",
+      "run_id": "run_triadic_branch_seed123",
+      "artifact_path": "experiments/contracts/pica/examples/pica-closure-catalog.json"
+    }
+  ],
+  "observable_ledgers": [
+    {
+      "observable_ledger_id": "observable_ledger_run_triadic_branch_seed123",
+      "run_id": "run_triadic_branch_seed123",
+      "artifact_path": "experiments/contracts/pica/examples/pica-observable-ledger.json"
+    }
+  ],
+  "notes": [
+    "Contract example bundle only."
+  ]
+}

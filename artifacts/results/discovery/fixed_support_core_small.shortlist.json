@@ -1,0 +1,17 @@
+{
+  "search_id": "fixed_support_core_small",
+  "seed": 0,
+  "atlas_json_path": "artifacts/results/discovery/fixed_support_core_small.atlas.json",
+  "atlas_csv_path": "artifacts/tables/discovery_fixed_support_core_small.csv",
+  "atlas_note_path": "docs/results/fixed_support_core_small.atlas.md",
+  "class_counts": {
+    "flat": 4,
+    "dissipative": 0,
+    "coherent_candidate": 0
+  },
+  "top_by_discrepancy": [],
+  "top_by_predictive_loop": [],
+  "top_by_robustness_proxy": [],
+  "combined_shortlist": [],
+  "warnings": []
+}

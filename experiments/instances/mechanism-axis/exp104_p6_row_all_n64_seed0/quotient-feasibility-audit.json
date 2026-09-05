@@ -1,0 +1,39 @@
+{
+  "audit_format_version": "quotient-feasibility-audit.v1",
+  "audit_id": "exp104_p6_row_all_n64_seed0_quotient",
+  "source_event_package_artifact": "experiments/instances/mechanism-axis/exp104_p6_row_all_n64_seed0/event-package.json",
+  "source_discovered_context_family_artifact": "experiments/instances/mechanism-axis/exp104_p6_row_all_n64_seed0/discovered-context-family.json",
+  "source_shared_event_candidates_artifact": "experiments/instances/mechanism-axis/exp104_p6_row_all_n64_seed0/shared-event-candidates.json",
+  "source_package_provenance_artifact": "experiments/instances/mechanism-axis/exp104_p6_row_all_n64_seed0/package-provenance.json",
+  "same_slice_selection": {
+    "preparation_id": "prep_pica_default",
+    "protocol_id": "protocol_pica_multiscale_scan",
+    "protocol_step_id": "protocol_pica_multiscale_scan_step_1",
+    "step_index": 1,
+    "resolution_id": "resolution_k_4",
+    "candidate_event_scope": "singleton_only"
+  },
+  "quotient_context_scope": "all_accepted_contexts",
+  "candidate_pool_mode": "same_slice_candidate_pool",
+  "subset_search": {
+    "enabled": true,
+    "max_subset_size": 2,
+    "stop_at_first_witness": true
+  },
+  "forced_candidate_ids": [
+    "cand_event_ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_4_closure_p6_row_all_k_4_lens_p4_k_4_protocol_pica_multiscale_scan_step_1_atom_group_1_2__event_ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_4_closure_p6_row_all_pkg_k_4_lens_p5_k_4_protocol_pica_multiscale_scan_step_1_atom_package_3_4",
+    "cand_event_ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_4_closure_p6_row_all_k_4_lens_p4_k_4_protocol_pica_multiscale_scan_step_1_atom_group_0_1__event_ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_4_closure_p6_row_all_pkg_k_4_lens_p5_k_4_protocol_pica_multiscale_scan_step_1_atom_package_2_3"
+  ],
+  "natural_pairing_candidate_ids": [
+    "cand_event_ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_4_closure_p6_row_all_k_4_lens_p4_k_4_protocol_pica_multiscale_scan_step_1_atom_group_0_1__event_ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_4_closure_p6_row_all_pkg_k_4_lens_p5_k_4_protocol_pica_multiscale_scan_step_1_atom_package_0_1",
+    "cand_event_ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_4_closure_p6_row_all_k_4_lens_p4_k_4_protocol_pica_multiscale_scan_step_1_atom_group_1_2__event_ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_4_closure_p6_row_all_pkg_k_4_lens_p5_k_4_protocol_pica_multiscale_scan_step_1_atom_package_1_2",
+    "cand_event_ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_4_closure_p6_row_all_k_4_lens_p4_k_4_protocol_pica_multiscale_scan_step_1_atom_group_2_3__event_ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_4_closure_p6_row_all_pkg_k_4_lens_p5_k_4_protocol_pica_multiscale_scan_step_1_atom_package_2_3",
+    "cand_event_ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_4_closure_p6_row_all_k_4_lens_p4_k_4_protocol_pica_multiscale_scan_step_1_atom_group_3_4__event_ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_4_closure_p6_row_all_pkg_k_4_lens_p5_k_4_protocol_pica_multiscale_scan_step_1_atom_package_3_4"
+  ],
+  "output_category": "results",
+  "output_label": "quotient-feasibility-exp104",
+  "metadata": {
+    "committed_case": true,
+    "same_slice_mode": "step1_k4_singleton"
+  }
+}

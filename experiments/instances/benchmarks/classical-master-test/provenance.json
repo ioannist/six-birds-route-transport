@@ -1,0 +1,174 @@
+{
+  "context_entries": [
+    {
+      "context_id": "ctx_binary",
+      "notes": [],
+      "origin_kind": "designed_context",
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/benchmarks/classical-master-test/instance.json",
+          "source_item_id": "ctx_binary",
+          "source_kind": "designed_context"
+        }
+      ]
+    },
+    {
+      "context_id": "ctx_left_refined",
+      "notes": [],
+      "origin_kind": "designed_context",
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/benchmarks/classical-master-test/instance.json",
+          "source_item_id": "ctx_left_refined",
+          "source_kind": "designed_context"
+        }
+      ]
+    },
+    {
+      "context_id": "ctx_right_refined",
+      "notes": [],
+      "origin_kind": "designed_context",
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/benchmarks/classical-master-test/instance.json",
+          "source_item_id": "ctx_right_refined",
+          "source_kind": "designed_context"
+        }
+      ]
+    }
+  ],
+  "event_entries": [
+    {
+      "event_id": "event_x0",
+      "notes": [],
+      "origin_kind": "designed_event",
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/benchmarks/classical-master-test/instance.json",
+          "source_item_id": "event_x0",
+          "source_kind": "designed_event"
+        }
+      ]
+    },
+    {
+      "event_id": "event_x1",
+      "notes": [],
+      "origin_kind": "designed_event",
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/benchmarks/classical-master-test/instance.json",
+          "source_item_id": "event_x1",
+          "source_kind": "designed_event"
+        }
+      ]
+    },
+    {
+      "event_id": "event_l01",
+      "notes": [],
+      "origin_kind": "designed_event",
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/benchmarks/classical-master-test/instance.json",
+          "source_item_id": "event_l01",
+          "source_kind": "designed_event"
+        }
+      ]
+    },
+    {
+      "event_id": "event_l2",
+      "notes": [],
+      "origin_kind": "designed_event",
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/benchmarks/classical-master-test/instance.json",
+          "source_item_id": "event_l2",
+          "source_kind": "designed_event"
+        }
+      ]
+    },
+    {
+      "event_id": "event_r0",
+      "notes": [],
+      "origin_kind": "designed_event",
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/benchmarks/classical-master-test/instance.json",
+          "source_item_id": "event_r0",
+          "source_kind": "designed_event"
+        }
+      ]
+    },
+    {
+      "event_id": "event_r12",
+      "notes": [],
+      "origin_kind": "designed_event",
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/benchmarks/classical-master-test/instance.json",
+          "source_item_id": "event_r12",
+          "source_kind": "designed_event"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "provenance_style": "declared_designed_asset"
+  },
+  "package_artifact": "experiments/instances/benchmarks/classical-master-test/instance.json",
+  "package_id": "inst_classical_master_test",
+  "proposal_entries": [
+    {
+      "notes": [],
+      "origin_kind": "designed_proposal",
+      "proposal_id": "p_x0_l01",
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/benchmarks/classical-master-test/instance.json",
+          "source_item_id": "p_x0_l01",
+          "source_kind": "designed_proposal"
+        }
+      ]
+    },
+    {
+      "notes": [],
+      "origin_kind": "designed_proposal",
+      "proposal_id": "p_x0_r0",
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/benchmarks/classical-master-test/instance.json",
+          "source_item_id": "p_x0_r0",
+          "source_kind": "designed_proposal"
+        }
+      ]
+    },
+    {
+      "notes": [],
+      "origin_kind": "designed_proposal",
+      "proposal_id": "p_x1_l2",
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/benchmarks/classical-master-test/instance.json",
+          "source_item_id": "p_x1_l2",
+          "source_kind": "designed_proposal"
+        }
+      ]
+    },
+    {
+      "notes": [],
+      "origin_kind": "designed_proposal",
+      "proposal_id": "p_x1_r12",
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/benchmarks/classical-master-test/instance.json",
+          "source_item_id": "p_x1_r12",
+          "source_kind": "designed_proposal"
+        }
+      ]
+    }
+  ],
+  "provenance_format_version": "package-provenance.v1",
+  "provenance_mode": "designed_master_model",
+  "source_artifacts": {
+    "designed_package": "experiments/instances/benchmarks/classical-master-test/instance.json"
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "campaign_exports": [
+    {
+      "artifact_path": "experiments/instances/mechanism-axis/exp104_p6_row_all_n64_seed0/pica-campaign-export.json",
+      "campaign_id": "pica_campaign_exp104_p6_row_all"
+    }
+  ],
+  "closure_catalogs": [
+    {
+      "artifact_path": "experiments/instances/mechanism-axis/exp104_p6_row_all_n64_seed0/pica-closure-catalog.json",
+      "closure_catalog_id": "closure_catalog_point_exp104_p6_row_all_n64_seed0__seed_0",
+      "run_id": "point_exp104_p6_row_all_n64_seed0__seed_0"
+    }
+  ],
+  "commutator_catalogs": [
+    {
+      "artifact_path": "experiments/instances/mechanism-axis/exp104_p6_row_all_n64_seed0/pica-commutator-catalog.json",
+      "commutator_catalog_id": "commutator_catalog_point_exp104_p6_row_all_n64_seed0__seed_0",
+      "run_id": "point_exp104_p6_row_all_n64_seed0__seed_0"
+    }
+  ],
+  "debug_sidecars": [],
+  "export_bundle_id": "pica_pilot_exp104_p6_row_all_n64_bundle",
+  "export_timestamp": "2026-03-29T03:00:00Z",
+  "flags": [
+    "adapter_export"
+  ],
+  "notes": [
+    "Thin subprocess wrapper adapter export from vendor/six-birds-pica runner output."
+  ],
+  "observable_ledgers": [
+    {
+      "artifact_path": "experiments/instances/mechanism-axis/exp104_p6_row_all_n64_seed0/pica-observable-ledger.json",
+      "observable_ledger_id": "observable_ledger_point_exp104_p6_row_all_n64_seed0__seed_0",
+      "run_id": "point_exp104_p6_row_all_n64_seed0__seed_0"
+    }
+  ],
+  "packaging_operator_catalogs": [
+    {
+      "artifact_path": "experiments/instances/mechanism-axis/exp104_p6_row_all_n64_seed0/pica-packaging-operator-catalog.json",
+      "packaging_operator_catalog_id": "packaging_operator_catalog_point_exp104_p6_row_all_n64_seed0__seed_0",
+      "run_id": "point_exp104_p6_row_all_n64_seed0__seed_0"
+    }
+  ],
+  "packaging_selection_ledgers": [
+    {
+      "artifact_path": "experiments/instances/mechanism-axis/exp104_p6_row_all_n64_seed0/pica-packaging-selection-ledger.json",
+      "packaging_selection_ledger_id": "packaging_selection_ledger_point_exp104_p6_row_all_n64_seed0__seed_0",
+      "run_id": "point_exp104_p6_row_all_n64_seed0__seed_0"
+    }
+  ],
+  "path_policy": "repo_relative",
+  "producer": {
+    "build_label": "cargo_runner_release",
+    "commit": "c204ea6",
+    "name": "pica",
+    "version": "pilot-wrapper"
+  },
+  "run_ledgers": [
+    {
+      "artifact_path": "experiments/instances/mechanism-axis/exp104_p6_row_all_n64_seed0/pica-run-ledger.json",
+      "campaign_id": "pica_campaign_exp104_p6_row_all",
+      "run_id": "point_exp104_p6_row_all_n64_seed0__seed_0"
+    }
+  ],
+  "schema_version": "pica-export-bundle.v1"
+}

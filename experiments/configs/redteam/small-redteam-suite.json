@@ -1,0 +1,63 @@
+{
+  "suite_format_version": "redteam-suite.v1",
+  "suite_id": "small_redteam_suite",
+  "cases": [
+    {
+      "case_id": "hidden_label_smuggling",
+      "adversarial_type": "hidden_label_smuggling",
+      "runner_mode": "structural_only",
+      "asset_refs": {
+        "instance": "experiments/instances/redteam/hidden-label-smuggling/smuggled-instance.json"
+      },
+      "expected_issue_type": "unsupported hidden label split with no admissible source provenance",
+      "expected_framework_response": "not_flagged",
+      "classification_thresholds": {},
+      "notes": [
+        "Package is intentionally structurally clean."
+      ]
+    },
+    {
+      "case_id": "schedule_protocol_residue_artifact",
+      "adversarial_type": "schedule_protocol_residue_artifact",
+      "runner_mode": "hidden_record_intervention",
+      "asset_refs": {
+        "intervention": "experiments/instances/interventions/hidden-record-route-split/intervention.json"
+      },
+      "expected_issue_type": "collapsed route residue artifact",
+      "expected_framework_response": "corrected",
+      "classification_thresholds": {},
+      "notes": []
+    },
+    {
+      "case_id": "flattenable_route_mismatch",
+      "adversarial_type": "flattenable_route_mismatch",
+      "runner_mode": "flattening_intervention",
+      "asset_refs": {
+        "intervention": "experiments/instances/interventions/flattening-completion-branch/intervention.json"
+      },
+      "expected_issue_type": "pre-completion route mismatch",
+      "expected_framework_response": "corrected",
+      "classification_thresholds": {},
+      "notes": []
+    },
+    {
+      "case_id": "bad_shared_event_proposals",
+      "adversarial_type": "bad_shared_event_proposals",
+      "runner_mode": "sec_audit",
+      "asset_refs": {
+        "instance": "experiments/instances/smoke/sec-instance.json",
+        "trace": "experiments/instances/smoke/traces/sec-distinguishable.json"
+      },
+      "expected_issue_type": "operationally distinguishable shared-event proposals",
+      "expected_framework_response": "flagged",
+      "classification_thresholds": {
+        "sec_flag_threshold": 0.15
+      },
+      "notes": []
+    }
+  ],
+  "metadata": {
+    "suite_scope": "compact_hardening_suite",
+    "preserve_not_flagged_results": "true"
+  }
+}

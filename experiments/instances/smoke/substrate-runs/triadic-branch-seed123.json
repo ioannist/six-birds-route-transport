@@ -1,0 +1,1159 @@
+{
+  "config_artifact": "experiments/configs/substrates/triadic-branch.json",
+  "config_id": "cfg_triadic_branch",
+  "metadata": {
+    "lens_ids": [
+      "color",
+      "shape"
+    ],
+    "protocol_length": 3
+  },
+  "preparation_id": "prep0",
+  "protocol_id": "branch_hold_hold",
+  "run_format_version": "substrate-run.v1",
+  "run_id": "run_search_20260326t021000z_triadic_branch",
+  "seed": 123,
+  "trajectories": [
+    {
+      "initial_state_id": "root",
+      "preparation_id": "prep0",
+      "protocol_id": "branch_hold_hold",
+      "steps": [
+        {
+          "action_id": "branch",
+          "observations": {
+            "color": "red",
+            "shape": "circle"
+          },
+          "state_after": "s0",
+          "state_before": "root",
+          "step_index": 0
+        },
+        {
+          "action_id": "hold",
+          "observations": {
+            "color": "red",
+            "shape": "circle"
+          },
+          "state_after": "s0",
+          "state_before": "s0",
+          "step_index": 1
+        },
+        {
+          "action_id": "hold",
+          "observations": {
+            "color": "red",
+            "shape": "circle"
+          },
+          "state_after": "s0",
+          "state_before": "s0",
+          "step_index": 2
+        }
+      ],
+      "trajectory_id": "traj_0001"
+    },
+    {
+      "initial_state_id": "root",
+      "preparation_id": "prep0",
+      "protocol_id": "branch_hold_hold",
+      "steps": [
+        {
+          "action_id": "branch",
+          "observations": {
+            "color": "red",
+            "shape": "circle"
+          },
+          "state_after": "s0",
+          "state_before": "root",
+          "step_index": 0
+        },
+        {
+          "action_id": "hold",
+          "observations": {
+            "color": "red",
+            "shape": "circle"
+          },
+          "state_after": "s0",
+          "state_before": "s0",
+          "step_index": 1
+        },
+        {
+          "action_id": "hold",
+          "observations": {
+            "color": "red",
+            "shape": "circle"
+          },
+          "state_after": "s0",
+          "state_before": "s0",
+          "step_index": 2
+        }
+      ],
+      "trajectory_id": "traj_0002"
+    },
+    {
+      "initial_state_id": "root",
+      "preparation_id": "prep0",
+      "protocol_id": "branch_hold_hold",
+      "steps": [
+        {
+          "action_id": "branch",
+          "observations": {
+            "color": "red",
+            "shape": "circle"
+          },
+          "state_after": "s0",
+          "state_before": "root",
+          "step_index": 0
+        },
+        {
+          "action_id": "hold",
+          "observations": {
+            "color": "red",
+            "shape": "circle"
+          },
+          "state_after": "s0",
+          "state_before": "s0",
+          "step_index": 1
+        },
+        {
+          "action_id": "hold",
+          "observations": {
+            "color": "red",
+            "shape": "circle"
+          },
+          "state_after": "s0",
+          "state_before": "s0",
+          "step_index": 2
+        }
+      ],
+      "trajectory_id": "traj_0003"
+    },
+    {
+      "initial_state_id": "root",
+      "preparation_id": "prep0",
+      "protocol_id": "branch_hold_hold",
+      "steps": [
+        {
+          "action_id": "branch",
+          "observations": {
+            "color": "red",
+            "shape": "circle"
+          },
+          "state_after": "s0",
+          "state_before": "root",
+          "step_index": 0
+        },
+        {
+          "action_id": "hold",
+          "observations": {
+            "color": "red",
+            "shape": "circle"
+          },
+          "state_after": "s0",
+          "state_before": "s0",
+          "step_index": 1
+        },
+        {
+          "action_id": "hold",
+          "observations": {
+            "color": "red",
+            "shape": "circle"
+          },
+          "state_after": "s0",
+          "state_before": "s0",
+          "step_index": 2
+        }
+      ],
+      "trajectory_id": "traj_0004"
+    },
+    {
+      "initial_state_id": "root",
+      "preparation_id": "prep0",
+      "protocol_id": "branch_hold_hold",
+      "steps": [
+        {
+          "action_id": "branch",
+          "observations": {
+            "color": "red",
+            "shape": "circle"
+          },
+          "state_after": "s0",
+          "state_before": "root",
+          "step_index": 0
+        },
+        {
+          "action_id": "hold",
+          "observations": {
+            "color": "red",
+            "shape": "circle"
+          },
+          "state_after": "s0",
+          "state_before": "s0",
+          "step_index": 1
+        },
+        {
+          "action_id": "hold",
+          "observations": {
+            "color": "red",
+            "shape": "circle"
+          },
+          "state_after": "s0",
+          "state_before": "s0",
+          "step_index": 2
+        }
+      ],
+      "trajectory_id": "traj_0005"
+    },
+    {
+      "initial_state_id": "root",
+      "preparation_id": "prep0",
+      "protocol_id": "branch_hold_hold",
+      "steps": [
+        {
+          "action_id": "branch",
+          "observations": {
+            "color": "red",
+            "shape": "circle"
+          },
+          "state_after": "s0",
+          "state_before": "root",
+          "step_index": 0
+        },
+        {
+          "action_id": "hold",
+          "observations": {
+            "color": "red",
+            "shape": "circle"
+          },
+          "state_after": "s0",
+          "state_before": "s0",
+          "step_index": 1
+        },
+        {
+          "action_id": "hold",
+          "observations": {
+            "color": "red",
+            "shape": "circle"
+          },
+          "state_after": "s0",
+          "state_before": "s0",
+          "step_index": 2
+        }
+      ],
+      "trajectory_id": "traj_0006"
+    },
+    {
+      "initial_state_id": "root",
+      "preparation_id": "prep0",
+      "protocol_id": "branch_hold_hold",
+      "steps": [
+        {
+          "action_id": "branch",
+          "observations": {
+            "color": "blue",
+            "shape": "square"
+          },
+          "state_after": "s2",
+          "state_before": "root",
+          "step_index": 0
+        },
+        {
+          "action_id": "hold",
+          "observations": {
+            "color": "blue",
+            "shape": "square"
+          },
+          "state_after": "s2",
+          "state_before": "s2",
+          "step_index": 1
+        },
+        {
+          "action_id": "hold",
+          "observations": {
+            "color": "blue",
+            "shape": "square"
+          },
+          "state_after": "s2",
+          "state_before": "s2",
+          "step_index": 2
+        }
+      ],
+      "trajectory_id": "traj_0007"
+    },
+    {
+      "initial_state_id": "root",
+      "preparation_id": "prep0",
+      "protocol_id": "branch_hold_hold",
+      "steps": [
+        {
+          "action_id": "branch",
+          "observations": {
+            "color": "blue",
+            "shape": "square"
+          },
+          "state_after": "s2",
+          "state_before": "root",
+          "step_index": 0
+        },
+        {
+          "action_id": "hold",
+          "observations": {
+            "color": "blue",
+            "shape": "square"
+          },
+          "state_after": "s2",
+          "state_before": "s2",
+          "step_index": 1
+        },
+        {
+          "action_id": "hold",
+          "observations": {
+            "color": "blue",
+            "shape": "square"
+          },
+          "state_after": "s2",
+          "state_before": "s2",
+          "step_index": 2
+        }
+      ],
+      "trajectory_id": "traj_0008"
+    },
+    {
+      "initial_state_id": "root",
+      "preparation_id": "prep0",
+      "protocol_id": "branch_hold_hold",
+      "steps": [
+        {
+          "action_id": "branch",
+          "observations": {
+            "color": "green",
+            "shape": "triangle"
+          },
+          "state_after": "s1",
+          "state_before": "root",
+          "step_index": 0
+        },
+        {
+          "action_id": "hold",
+          "observations": {
+            "color": "green",
+            "shape": "triangle"
+          },
+          "state_after": "s1",
+          "state_before": "s1",
+          "step_index": 1
+        },
+        {
+          "action_id": "hold",
+          "observations": {
+            "color": "green",
+            "shape": "triangle"
+          },
+          "state_after": "s1",
+          "state_before": "s1",
+          "step_index": 2
+        }
+      ],
+      "trajectory_id": "traj_0009"
+    },
+    {
+      "initial_state_id": "root",
+      "preparation_id": "prep0",
+      "protocol_id": "branch_hold_hold",
+      "steps": [
+        {
+          "action_id": "branch",
+          "observations": {
+            "color": "green",
+            "shape": "triangle"
+          },
+          "state_after": "s1",
+          "state_before": "root",
+          "step_index": 0
+        },
+        {
+          "action_id": "hold",
+          "observations": {
+            "color": "green",
+            "shape": "triangle"
+          },
+          "state_after": "s1",
+          "state_before": "s1",
+          "step_index": 1
+        },
+        {
+          "action_id": "hold",
+          "observations": {
+            "color": "green",
+            "shape": "triangle"
+          },
+          "state_after": "s1",
+          "state_before": "s1",
+          "step_index": 2
+        }
+      ],
+      "trajectory_id": "traj_0010"
+    },
+    {
+      "initial_state_id": "root",
+      "preparation_id": "prep0",
+      "protocol_id": "branch_hold_hold",
+      "steps": [
+        {
+          "action_id": "branch",
+          "observations": {
+            "color": "green",
+            "shape": "triangle"
+          },
+          "state_after": "s1",
+          "state_before": "root",
+          "step_index": 0
+        },
+        {
+          "action_id": "hold",
+          "observations": {
+            "color": "green",
+            "shape": "triangle"
+          },
+          "state_after": "s1",
+          "state_before": "s1",
+          "step_index": 1
+        },
+        {
+          "action_id": "hold",
+          "observations": {
+            "color": "green",
+            "shape": "triangle"
+          },
+          "state_after": "s1",
+          "state_before": "s1",
+          "step_index": 2
+        }
+      ],
+      "trajectory_id": "traj_0011"
+    },
+    {
+      "initial_state_id": "root",
+      "preparation_id": "prep0",
+      "protocol_id": "branch_hold_hold",
+      "steps": [
+        {
+          "action_id": "branch",
+          "observations": {
+            "color": "green",
+            "shape": "triangle"
+          },
+          "state_after": "s1",
+          "state_before": "root",
+          "step_index": 0
+        },
+        {
+          "action_id": "hold",
+          "observations": {
+            "color": "green",
+            "shape": "triangle"
+          },
+          "state_after": "s1",
+          "state_before": "s1",
+          "step_index": 1
+        },
+        {
+          "action_id": "hold",
+          "observations": {
+            "color": "green",
+            "shape": "triangle"
+          },
+          "state_after": "s1",
+          "state_before": "s1",
+          "step_index": 2
+        }
+      ],
+      "trajectory_id": "traj_0012"
+    },
+    {
+      "initial_state_id": "root",
+      "preparation_id": "prep0",
+      "protocol_id": "branch_hold_hold",
+      "steps": [
+        {
+          "action_id": "branch",
+          "observations": {
+            "color": "red",
+            "shape": "circle"
+          },
+          "state_after": "s0",
+          "state_before": "root",
+          "step_index": 0
+        },
+        {
+          "action_id": "hold",
+          "observations": {
+            "color": "red",
+            "shape": "circle"
+          },
+          "state_after": "s0",
+          "state_before": "s0",
+          "step_index": 1
+        },
+        {
+          "action_id": "hold",
+          "observations": {
+            "color": "red",
+            "shape": "circle"
+          },
+          "state_after": "s0",
+          "state_before": "s0",
+          "step_index": 2
+        }
+      ],
+      "trajectory_id": "traj_0013"
+    },
+    {
+      "initial_state_id": "root",
+      "preparation_id": "prep0",
+      "protocol_id": "branch_hold_hold",
+      "steps": [
+        {
+          "action_id": "branch",
+          "observations": {
+            "color": "red",
+            "shape": "circle"
+          },
+          "state_after": "s0",
+          "state_before": "root",
+          "step_index": 0
+        },
+        {
+          "action_id": "hold",
+          "observations": {
+            "color": "red",
+            "shape": "circle"
+          },
+          "state_after": "s0",
+          "state_before": "s0",
+          "step_index": 1
+        },
+        {
+          "action_id": "hold",
+          "observations": {
+            "color": "red",
+            "shape": "circle"
+          },
+          "state_after": "s0",
+          "state_before": "s0",
+          "step_index": 2
+        }
+      ],
+      "trajectory_id": "traj_0014"
+    },
+    {
+      "initial_state_id": "root",
+      "preparation_id": "prep0",
+      "protocol_id": "branch_hold_hold",
+      "steps": [
+        {
+          "action_id": "branch",
+          "observations": {
+            "color": "green",
+            "shape": "triangle"
+          },
+          "state_after": "s1",
+          "state_before": "root",
+          "step_index": 0
+        },
+        {
+          "action_id": "hold",
+          "observations": {
+            "color": "green",
+            "shape": "triangle"
+          },
+          "state_after": "s1",
+          "state_before": "s1",
+          "step_index": 1
+        },
+        {
+          "action_id": "hold",
+          "observations": {
+            "color": "green",
+            "shape": "triangle"
+          },
+          "state_after": "s1",
+          "state_before": "s1",
+          "step_index": 2
+        }
+      ],
+      "trajectory_id": "traj_0015"
+    },
+    {
+      "initial_state_id": "root",
+      "preparation_id": "prep0",
+      "protocol_id": "branch_hold_hold",
+      "steps": [
+        {
+          "action_id": "branch",
+          "observations": {
+            "color": "red",
+            "shape": "circle"
+          },
+          "state_after": "s0",
+          "state_before": "root",
+          "step_index": 0
+        },
+        {
+          "action_id": "hold",
+          "observations": {
+            "color": "red",
+            "shape": "circle"
+          },
+          "state_after": "s0",
+          "state_before": "s0",
+          "step_index": 1
+        },
+        {
+          "action_id": "hold",
+          "observations": {
+            "color": "red",
+            "shape": "circle"
+          },
+          "state_after": "s0",
+          "state_before": "s0",
+          "step_index": 2
+        }
+      ],
+      "trajectory_id": "traj_0016"
+    },
+    {
+      "initial_state_id": "root",
+      "preparation_id": "prep0",
+      "protocol_id": "branch_hold_hold",
+      "steps": [
+        {
+          "action_id": "branch",
+          "observations": {
+            "color": "red",
+            "shape": "circle"
+          },
+          "state_after": "s0",
+          "state_before": "root",
+          "step_index": 0
+        },
+        {
+          "action_id": "hold",
+          "observations": {
+            "color": "red",
+            "shape": "circle"
+          },
+          "state_after": "s0",
+          "state_before": "s0",
+          "step_index": 1
+        },
+        {
+          "action_id": "hold",
+          "observations": {
+            "color": "red",
+            "shape": "circle"
+          },
+          "state_after": "s0",
+          "state_before": "s0",
+          "step_index": 2
+        }
+      ],
+      "trajectory_id": "traj_0017"
+    },
+    {
+      "initial_state_id": "root",
+      "preparation_id": "prep0",
+      "protocol_id": "branch_hold_hold",
+      "steps": [
+        {
+          "action_id": "branch",
+          "observations": {
+            "color": "green",
+            "shape": "triangle"
+          },
+          "state_after": "s1",
+          "state_before": "root",
+          "step_index": 0
+        },
+        {
+          "action_id": "hold",
+          "observations": {
+            "color": "green",
+            "shape": "triangle"
+          },
+          "state_after": "s1",
+          "state_before": "s1",
+          "step_index": 1
+        },
+        {
+          "action_id": "hold",
+          "observations": {
+            "color": "green",
+            "shape": "triangle"
+          },
+          "state_after": "s1",
+          "state_before": "s1",
+          "step_index": 2
+        }
+      ],
+      "trajectory_id": "traj_0018"
+    },
+    {
+      "initial_state_id": "root",
+      "preparation_id": "prep0",
+      "protocol_id": "branch_hold_hold",
+      "steps": [
+        {
+          "action_id": "branch",
+          "observations": {
+            "color": "red",
+            "shape": "circle"
+          },
+          "state_after": "s0",
+          "state_before": "root",
+          "step_index": 0
+        },
+        {
+          "action_id": "hold",
+          "observations": {
+            "color": "red",
+            "shape": "circle"
+          },
+          "state_after": "s0",
+          "state_before": "s0",
+          "step_index": 1
+        },
+        {
+          "action_id": "hold",
+          "observations": {
+            "color": "red",
+            "shape": "circle"
+          },
+          "state_after": "s0",
+          "state_before": "s0",
+          "step_index": 2
+        }
+      ],
+      "trajectory_id": "traj_0019"
+    },
+    {
+      "initial_state_id": "root",
+      "preparation_id": "prep0",
+      "protocol_id": "branch_hold_hold",
+      "steps": [
+        {
+          "action_id": "branch",
+          "observations": {
+            "color": "green",
+            "shape": "triangle"
+          },
+          "state_after": "s1",
+          "state_before": "root",
+          "step_index": 0
+        },
+        {
+          "action_id": "hold",
+          "observations": {
+            "color": "green",
+            "shape": "triangle"
+          },
+          "state_after": "s1",
+          "state_before": "s1",
+          "step_index": 1
+        },
+        {
+          "action_id": "hold",
+          "observations": {
+            "color": "green",
+            "shape": "triangle"
+          },
+          "state_after": "s1",
+          "state_before": "s1",
+          "step_index": 2
+        }
+      ],
+      "trajectory_id": "traj_0020"
+    },
+    {
+      "initial_state_id": "root",
+      "preparation_id": "prep0",
+      "protocol_id": "branch_hold_hold",
+      "steps": [
+        {
+          "action_id": "branch",
+          "observations": {
+            "color": "red",
+            "shape": "circle"
+          },
+          "state_after": "s0",
+          "state_before": "root",
+          "step_index": 0
+        },
+        {
+          "action_id": "hold",
+          "observations": {
+            "color": "red",
+            "shape": "circle"
+          },
+          "state_after": "s0",
+          "state_before": "s0",
+          "step_index": 1
+        },
+        {
+          "action_id": "hold",
+          "observations": {
+            "color": "red",
+            "shape": "circle"
+          },
+          "state_after": "s0",
+          "state_before": "s0",
+          "step_index": 2
+        }
+      ],
+      "trajectory_id": "traj_0021"
+    },
+    {
+      "initial_state_id": "root",
+      "preparation_id": "prep0",
+      "protocol_id": "branch_hold_hold",
+      "steps": [
+        {
+          "action_id": "branch",
+          "observations": {
+            "color": "green",
+            "shape": "triangle"
+          },
+          "state_after": "s1",
+          "state_before": "root",
+          "step_index": 0
+        },
+        {
+          "action_id": "hold",
+          "observations": {
+            "color": "green",
+            "shape": "triangle"
+          },
+          "state_after": "s1",
+          "state_before": "s1",
+          "step_index": 1
+        },
+        {
+          "action_id": "hold",
+          "observations": {
+            "color": "green",
+            "shape": "triangle"
+          },
+          "state_after": "s1",
+          "state_before": "s1",
+          "step_index": 2
+        }
+      ],
+      "trajectory_id": "traj_0022"
+    },
+    {
+      "initial_state_id": "root",
+      "preparation_id": "prep0",
+      "protocol_id": "branch_hold_hold",
+      "steps": [
+        {
+          "action_id": "branch",
+          "observations": {
+            "color": "green",
+            "shape": "triangle"
+          },
+          "state_after": "s1",
+          "state_before": "root",
+          "step_index": 0
+        },
+        {
+          "action_id": "hold",
+          "observations": {
+            "color": "green",
+            "shape": "triangle"
+          },
+          "state_after": "s1",
+          "state_before": "s1",
+          "step_index": 1
+        },
+        {
+          "action_id": "hold",
+          "observations": {
+            "color": "green",
+            "shape": "triangle"
+          },
+          "state_after": "s1",
+          "state_before": "s1",
+          "step_index": 2
+        }
+      ],
+      "trajectory_id": "traj_0023"
+    },
+    {
+      "initial_state_id": "root",
+      "preparation_id": "prep0",
+      "protocol_id": "branch_hold_hold",
+      "steps": [
+        {
+          "action_id": "branch",
+          "observations": {
+            "color": "green",
+            "shape": "triangle"
+          },
+          "state_after": "s1",
+          "state_before": "root",
+          "step_index": 0
+        },
+        {
+          "action_id": "hold",
+          "observations": {
+            "color": "green",
+            "shape": "triangle"
+          },
+          "state_after": "s1",
+          "state_before": "s1",
+          "step_index": 1
+        },
+        {
+          "action_id": "hold",
+          "observations": {
+            "color": "green",
+            "shape": "triangle"
+          },
+          "state_after": "s1",
+          "state_before": "s1",
+          "step_index": 2
+        }
+      ],
+      "trajectory_id": "traj_0024"
+    },
+    {
+      "initial_state_id": "root",
+      "preparation_id": "prep0",
+      "protocol_id": "branch_hold_hold",
+      "steps": [
+        {
+          "action_id": "branch",
+          "observations": {
+            "color": "blue",
+            "shape": "square"
+          },
+          "state_after": "s2",
+          "state_before": "root",
+          "step_index": 0
+        },
+        {
+          "action_id": "hold",
+          "observations": {
+            "color": "blue",
+            "shape": "square"
+          },
+          "state_after": "s2",
+          "state_before": "s2",
+          "step_index": 1
+        },
+        {
+          "action_id": "hold",
+          "observations": {
+            "color": "blue",
+            "shape": "square"
+          },
+          "state_after": "s2",
+          "state_before": "s2",
+          "step_index": 2
+        }
+      ],
+      "trajectory_id": "traj_0025"
+    },
+    {
+      "initial_state_id": "root",
+      "preparation_id": "prep0",
+      "protocol_id": "branch_hold_hold",
+      "steps": [
+        {
+          "action_id": "branch",
+          "observations": {
+            "color": "red",
+            "shape": "circle"
+          },
+          "state_after": "s0",
+          "state_before": "root",
+          "step_index": 0
+        },
+        {
+          "action_id": "hold",
+          "observations": {
+            "color": "red",
+            "shape": "circle"
+          },
+          "state_after": "s0",
+          "state_before": "s0",
+          "step_index": 1
+        },
+        {
+          "action_id": "hold",
+          "observations": {
+            "color": "red",
+            "shape": "circle"
+          },
+          "state_after": "s0",
+          "state_before": "s0",
+          "step_index": 2
+        }
+      ],
+      "trajectory_id": "traj_0026"
+    },
+    {
+      "initial_state_id": "root",
+      "preparation_id": "prep0",
+      "protocol_id": "branch_hold_hold",
+      "steps": [
+        {
+          "action_id": "branch",
+          "observations": {
+            "color": "blue",
+            "shape": "square"
+          },
+          "state_after": "s2",
+          "state_before": "root",
+          "step_index": 0
+        },
+        {
+          "action_id": "hold",
+          "observations": {
+            "color": "blue",
+            "shape": "square"
+          },
+          "state_after": "s2",
+          "state_before": "s2",
+          "step_index": 1
+        },
+        {
+          "action_id": "hold",
+          "observations": {
+            "color": "blue",
+            "shape": "square"
+          },
+          "state_after": "s2",
+          "state_before": "s2",
+          "step_index": 2
+        }
+      ],
+      "trajectory_id": "traj_0027"
+    },
+    {
+      "initial_state_id": "root",
+      "preparation_id": "prep0",
+      "protocol_id": "branch_hold_hold",
+      "steps": [
+        {
+          "action_id": "branch",
+          "observations": {
+            "color": "green",
+            "shape": "triangle"
+          },
+          "state_after": "s1",
+          "state_before": "root",
+          "step_index": 0
+        },
+        {
+          "action_id": "hold",
+          "observations": {
+            "color": "green",
+            "shape": "triangle"
+          },
+          "state_after": "s1",
+          "state_before": "s1",
+          "step_index": 1
+        },
+        {
+          "action_id": "hold",
+          "observations": {
+            "color": "green",
+            "shape": "triangle"
+          },
+          "state_after": "s1",
+          "state_before": "s1",
+          "step_index": 2
+        }
+      ],
+      "trajectory_id": "traj_0028"
+    },
+    {
+      "initial_state_id": "root",
+      "preparation_id": "prep0",
+      "protocol_id": "branch_hold_hold",
+      "steps": [
+        {
+          "action_id": "branch",
+          "observations": {
+            "color": "red",
+            "shape": "circle"
+          },
+          "state_after": "s0",
+          "state_before": "root",
+          "step_index": 0
+        },
+        {
+          "action_id": "hold",
+          "observations": {
+            "color": "red",
+            "shape": "circle"
+          },
+          "state_after": "s0",
+          "state_before": "s0",
+          "step_index": 1
+        },
+        {
+          "action_id": "hold",
+          "observations": {
+            "color": "red",
+            "shape": "circle"
+          },
+          "state_after": "s0",
+          "state_before": "s0",
+          "step_index": 2
+        }
+      ],
+      "trajectory_id": "traj_0029"
+    },
+    {
+      "initial_state_id": "root",
+      "preparation_id": "prep0",
+      "protocol_id": "branch_hold_hold",
+      "steps": [
+        {
+          "action_id": "branch",
+          "observations": {
+            "color": "green",
+            "shape": "triangle"
+          },
+          "state_after": "s1",
+          "state_before": "root",
+          "step_index": 0
+        },
+        {
+          "action_id": "hold",
+          "observations": {
+            "color": "green",
+            "shape": "triangle"
+          },
+          "state_after": "s1",
+          "state_before": "s1",
+          "step_index": 1
+        },
+        {
+          "action_id": "hold",
+          "observations": {
+            "color": "green",
+            "shape": "triangle"
+          },
+          "state_after": "s1",
+          "state_before": "s1",
+          "step_index": 2
+        }
+      ],
+      "trajectory_id": "traj_0030"
+    }
+  ],
+  "trajectory_count": 30
+}

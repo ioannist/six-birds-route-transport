@@ -1,0 +1,62 @@
+{
+  "config_format_version": "findings-registry-config.v1",
+  "registry_id": "final_findings_registry",
+  "evidence_refresh": {
+    "run_benchmark_suite": true,
+    "run_intervention_suite": true,
+    "run_search_suite": true,
+    "run_lean_build_suite": true,
+    "robustness_sweep_artifact": "experiments/configs/robustness/small-noise-sweep.json",
+    "redteam_suite_artifact": "experiments/configs/redteam/small-redteam-suite.json",
+    "exact_crosscheck_artifact": "experiments/configs/crosscheck/flagship-exact-crosscheck.json",
+    "discovered_case_falsification_artifact": "experiments/instances/discovered/triadic-branch-flagship/falsification.json",
+    "targeted_search_artifact": "experiments/configs/search/targeted-nonextendability.json",
+    "atlas_upgrade_artifact": "experiments/configs/search/atlas-upgrade.json",
+    "provenance_audits": [
+      {
+        "audit_id": "classical_master_test_provenance",
+        "package_artifact": "experiments/instances/benchmarks/classical-master-test/instance.json",
+        "provenance_artifact": "experiments/instances/benchmarks/classical-master-test/provenance.json",
+        "notes": [
+          "designed_benchmark_admissibility_control"
+        ]
+      },
+      {
+        "audit_id": "hidden_label_smuggling_provenance",
+        "package_artifact": "experiments/instances/redteam/hidden-label-smuggling/smuggled-instance.json",
+        "provenance_artifact": null,
+        "notes": [
+          "required_limitation_closure_case"
+        ]
+      }
+    ]
+  },
+  "static_artifact_refs": {
+    "classical_master_test_instance": "experiments/instances/benchmarks/classical-master-test/instance.json",
+    "epistemic_six_state_instance": "experiments/instances/benchmarks/epistemic-six-state/instance.json",
+    "parity_context_witness_instance": "experiments/instances/benchmarks/parity-context-witness/instance.json",
+    "triadic_branch_flagship_event_package": "experiments/instances/discovered/triadic-branch-flagship/event-package.json",
+    "triadic_branch_flagship_package_provenance": "experiments/instances/discovered/triadic-branch-flagship/package-provenance.json",
+    "triadic_branch_flagship_shared_event_candidates": "experiments/instances/discovered/triadic-branch-flagship/shared-event-candidates.json",
+    "triadic_branch_flagship_discovered_event_family": "experiments/instances/discovered/triadic-branch-flagship/discovered-event-family.json",
+    "triadic_branch_flagship_selection": "experiments/instances/discovered/triadic-branch-flagship/selection.json",
+    "t23_finite_test": "lean/SixBirdsEvent/FiniteTest.lean",
+    "t23_fixed_context_booleanity": "lean/SixBirdsEvent/FixedContextBooleanity.lean",
+    "t25_global_realization": "lean/SixBirdsEvent/GlobalRealization.lean",
+    "t25_finite_obstruction_witness": "lean/SixBirdsEvent/FiniteObstructionWitness.lean",
+    "t25_runbook": "docs/runbooks/lean-finite-obstruction-witness.md"
+  },
+  "claim_ids": [
+    "C1",
+    "C2",
+    "C3",
+    "C4",
+    "C5",
+    "C6",
+    "C7",
+    "C8"
+  ],
+  "metadata": {
+    "scope": "final_registry_over_refresh_and_committed_assets"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "ladder_format_version": "axis-claim-ladder.v1",
+  "ladder_id": "three_axis_default_claim_ladder",
+  "levels": [
+    {
+      "level": "mechanism_dependence",
+      "order_index": 0,
+      "short_label": "mechanism dependence",
+      "supported_axes": ["mechanism", "lens", "packaging"]
+    },
+    {
+      "level": "nontrivial_multicontext_structure",
+      "order_index": 1,
+      "short_label": "multicontext structure",
+      "supported_axes": ["mechanism", "lens", "packaging"]
+    },
+    {
+      "level": "same_slice_non_nested_structure",
+      "order_index": 2,
+      "short_label": "same-slice non-nested",
+      "supported_axes": ["lens", "packaging"]
+    },
+    {
+      "level": "package_conflict_tension",
+      "order_index": 3,
+      "short_label": "package conflict tension",
+      "supported_axes": ["packaging"]
+    },
+    {
+      "level": "bounded_negative_result",
+      "order_index": 4,
+      "short_label": "bounded negative",
+      "supported_axes": ["packaging"]
+    },
+    {
+      "level": "provenance_admissible_strong_obstruction",
+      "order_index": 5,
+      "short_label": "strong obstruction",
+      "supported_axes": ["packaging"]
+    }
+  ],
+  "metadata": {
+    "program": "three_axis_hierarchy"
+  }
+}

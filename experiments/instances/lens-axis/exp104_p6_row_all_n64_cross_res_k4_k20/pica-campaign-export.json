@@ -1,0 +1,42 @@
+{
+  "campaign_id": "lens_axis_cross_res_k4_k20_accepted_campaign",
+  "campaign_label": "lens_axis_cross_res_k4_k20_accepted",
+  "flags": [
+    "adapter_export"
+  ],
+  "mechanism_summary": {
+    "enable_matrix_id": "pica_exp104_p6_row_all_matrix",
+    "mechanism_family_id": "pica_exp104_family",
+    "substrate_config_id": "pica_exp104_p6_row_all_n64"
+  },
+  "notes": [
+    "Adapter-exported campaign created by the thin PICA pilot wrapper."
+  ],
+  "path_policy": "repo_relative",
+  "point_inventory": [
+    {
+      "enable_matrix_id": "pica_exp104_p6_row_all_matrix",
+      "mechanism_family_id": "pica_exp104_family",
+      "point_id": "lens_axis_cross_res_k4_k20_accepted_seed0",
+      "preparation_id": "prep_pica_default",
+      "protocol_id": "protocol_pica_multiscale_scan",
+      "run_id": "point_exp104_p6_row_all_n64_seed0__seed_0",
+      "seed": 0,
+      "substrate_config_id": "pica_exp104_p6_row_all_n64"
+    }
+  ],
+  "run_inventory": [
+    {
+      "closure_catalog_path": "experiments/instances/lens-axis/exp104_p6_row_all_n64_cross_res_k4_k20/pica-closure-catalog-seed0.json",
+      "commutator_catalog_path": "experiments/instances/lens-axis/exp104_p6_row_all_n64_cross_res_k4_k20/pica-commutator-catalog-seed0.json",
+      "observable_ledger_path": "experiments/instances/lens-axis/exp104_p6_row_all_n64_cross_res_k4_k20/pica-observable-ledger-seed0.json",
+      "packaging_operator_catalog_path": "experiments/instances/lens-axis/exp104_p6_row_all_n64_cross_res_k4_k20/pica-packaging-operator-catalog-seed0.json",
+      "packaging_selection_ledger_path": "experiments/instances/lens-axis/exp104_p6_row_all_n64_cross_res_k4_k20/pica-packaging-selection-ledger-seed0.json",
+      "point_id": "lens_axis_cross_res_k4_k20_accepted_seed0",
+      "run_id": "point_exp104_p6_row_all_n64_seed0__seed_0",
+      "run_ledger_path": "experiments/instances/lens-axis/exp104_p6_row_all_n64_cross_res_k4_k20/pica-run-ledger-seed0.json"
+    }
+  ],
+  "schema_version": "pica-campaign-export.v1",
+  "source_config_path": "experiments/configs/pica/pilot-exp104-p6-row-all-n64.json"
+}

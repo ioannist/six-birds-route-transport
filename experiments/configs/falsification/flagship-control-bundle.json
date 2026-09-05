@@ -1,0 +1,149 @@
+{
+  "bundle_format_version": "flagship-control-bundle.v1",
+  "bundle_id": "flagship_control_bundle_t50",
+  "flagship_cases": [
+    {
+      "case_id": "mechanism_exp104_p6_row_all_n64_seed0",
+      "case_type": "mechanism_witness",
+      "source_refs": {
+        "discovered_context_family_artifact": "experiments/instances/mechanism-axis/exp104_p6_row_all_n64_seed0/discovered-context-family.json",
+        "event_package_artifact": "experiments/instances/mechanism-axis/exp104_p6_row_all_n64_seed0/event-package.json",
+        "package_provenance_artifact": "experiments/instances/mechanism-axis/exp104_p6_row_all_n64_seed0/package-provenance.json",
+        "quotient_feasibility_summary_artifact": "experiments/instances/mechanism-axis/exp104_p6_row_all_n64_seed0/quotient-feasibility-summary.json",
+        "shared_event_candidates_artifact": "experiments/instances/mechanism-axis/exp104_p6_row_all_n64_seed0/shared-event-candidates.json",
+        "source_pica_bundle_artifact": "experiments/instances/mechanism-axis/exp104_p6_row_all_n64_seed0/pica-export-bundle.json"
+      },
+      "hidden_record": {
+        "applicable": false,
+        "reason": "no_committed_hidden_record_intervention_preserves_the_fixed_support_mechanism_witness"
+      },
+      "flattening": {
+        "applicable": false,
+        "reason": "no_committed_flattening_intervention_preserves_the_fixed_support_mechanism_witness"
+      },
+      "robustness": {
+        "applicable": false,
+        "reason": "bounded_trace_noise_discipline_is_not_available_for_the_full_mechanism_witness_package"
+      },
+      "notes": [
+        "committed_quotient_backed_mechanism_witness",
+        "axis_wide_campaign_outcome_remains_design_inadequate"
+      ]
+    },
+    {
+      "case_id": "lens_exp104_p6_row_all_n64_cross_res_k4_k20",
+      "case_type": "lens_flagship",
+      "source_refs": {
+        "discovered_context_family_artifact": "experiments/instances/lens-axis/exp104_p6_row_all_n64_cross_res_k4_k20/discovered-context-family.json",
+        "event_package_artifact": "experiments/instances/lens-axis/exp104_p6_row_all_n64_cross_res_k4_k20/event-package.json",
+        "package_provenance_artifact": "experiments/instances/lens-axis/exp104_p6_row_all_n64_cross_res_k4_k20/package-provenance.json",
+        "quotient_feasibility_summary_artifact": "results/search/20260329T222600Z--lens_cross_resolution_manual_quotient/quotient-feasibility-summary.json",
+        "shared_event_candidates_artifact": "experiments/instances/lens-axis/exp104_p6_row_all_n64_cross_res_k4_k20/shared-event-candidates.json",
+        "source_pica_bundle_artifact": "experiments/instances/lens-axis/exp104_p6_row_all_n64_cross_res_k4_k20/pica-export-bundle.json"
+      },
+      "hidden_record": {
+        "applicable": false,
+        "reason": "no_committed_hidden_record_intervention_preserves_the_frozen_support_lens_flagship"
+      },
+      "flattening": {
+        "applicable": false,
+        "reason": "no_committed_flattening_intervention_preserves_the_frozen_support_lens_flagship"
+      },
+      "robustness": {
+        "applicable": true,
+        "noise_grid": [
+          0.0,
+          0.05,
+          0.1
+        ],
+        "noise_model": {
+          "base_seed": 17,
+          "ccd_model": "singleton_corruption_v1",
+          "distribution_model": "independent_jitter_mix_v1"
+        },
+        "metric_thresholds": {
+          "ccd_failure_threshold": 0.05,
+          "gpd_stat_failure_threshold": 0.02,
+          "rm_failure_threshold": 0.05,
+          "sec_failure_threshold": 0.05
+        },
+        "trace_families": [
+          "stat",
+          "sec"
+        ]
+      },
+      "baseline_metric_overrides": {
+        "gpd_stat": {
+          "status": "solved",
+          "value": 3.3333333333333335
+        }
+      },
+      "notes": [
+        "committed_cross_resolution_lens_flagship",
+        "same_support_strict_extension_case"
+      ]
+    },
+    {
+      "case_id": "packaging_cross_res_k4_k20",
+      "case_type": "packaging_flagship",
+      "source_refs": {
+        "discovered_context_family_artifact": "results/search/20260330T191000Z--packaging_axis/derived/families/packaging_cross_res_k4_k20/discovered-context-family.json",
+        "event_package_artifact": "results/search/20260330T191000Z--packaging_cross_res_k4_k20_package_build/event-package.json",
+        "package_provenance_artifact": "results/search/20260330T191000Z--packaging_cross_res_k4_k20_package_build/package-provenance.json",
+        "quotient_feasibility_summary_artifact": "experiments/instances/packaging-axis/th5_campaign/packaging_cross_res_k4_k20_quotient-feasibility-summary.json",
+        "shared_event_candidates_artifact": "results/search/20260330T191000Z--packaging_cross_res_k4_k20_package_build/shared-event-candidates.json",
+        "source_pica_bundle_artifact": "results/search/20260330T191000Z--packaging_axis/derived/merged_bundle/packaging_axis_th5/pica-export-bundle.json"
+      },
+      "hidden_record": {
+        "applicable": false,
+        "reason": "no_committed_hidden_record_intervention_preserves_the_frozen_support_packaging_flagship"
+      },
+      "flattening": {
+        "applicable": false,
+        "reason": "no_committed_flattening_intervention_preserves_the_frozen_support_packaging_flagship"
+      },
+      "robustness": {
+        "applicable": true,
+        "noise_grid": [
+          0.0,
+          0.05,
+          0.1
+        ],
+        "noise_model": {
+          "base_seed": 17,
+          "ccd_model": "singleton_corruption_v1",
+          "distribution_model": "independent_jitter_mix_v1"
+        },
+        "metric_thresholds": {
+          "ccd_failure_threshold": 0.05,
+          "gpd_stat_failure_threshold": 0.02,
+          "rm_failure_threshold": 0.05,
+          "sec_failure_threshold": 0.05
+        },
+        "trace_families": [
+          "stat",
+          "sec"
+        ]
+      },
+      "baseline_metric_overrides": {
+        "gpd_stat": {
+          "status": "solved",
+          "value": 0.9166666666666667
+        },
+        "gpd_str": {
+          "status": "solved",
+          "value": 3.0
+        }
+      },
+      "notes": [
+        "current_packaging_flagship",
+        "selector_branch_divergence_caveat_preserved"
+      ]
+    }
+  ],
+  "metadata": {
+    "bundle_scope": "flagship_false_positive_closure",
+    "quotient_backend": "preserved"
+  },
+  "verdict_rule_version": "flagship-control-bundle.v1"
+}

@@ -1,0 +1,34 @@
+{
+  "config_format_version": "three-axis-hierarchy-config.v1",
+  "figure_export_settings": {
+    "include_csv": true,
+    "include_json_tables": true
+  },
+  "flags": [
+    "interim_hierarchy",
+    "quotient_backed_synthesis"
+  ],
+  "hierarchy_id": "three_axis_hierarchy_th6",
+  "lens_final_summary_ref": "results/results/20260330T021000Z--lens_axis_final/lens-axis-final-summary.json",
+  "mechanism_campaign_summary_ref": "experiments/instances/mechanism-axis/th3_campaign/mechanism-axis-summary.json",
+  "mechanism_campaign_table_ref": "experiments/instances/mechanism-axis/th3_campaign/mechanism-axis.json",
+  "mechanism_witness_summary_ref": "experiments/instances/mechanism-axis/exp104_p6_row_all_n64_seed0/quotient-feasibility-summary.json",
+  "metadata": {
+    "program_phase": "interim_hierarchy_closeout"
+  },
+  "notes": [
+    "Mechanism campaign outcome and committed witness remain distinct.",
+    "Lens final summary preserves both the same-step bounded-negative subregime and the cross-resolution flagship obstruction.",
+    "Packaging strongest evidence keeps the selector-branch caveat visible."
+  ],
+  "output_category": "results",
+  "output_label": "three-axis-hierarchy",
+  "packaging_best_candidate_ref": "experiments/instances/packaging-axis/th5_campaign/best-candidate.json",
+  "packaging_campaign_summary_ref": "experiments/instances/packaging-axis/th5_campaign/packaging-axis-summary.json",
+  "packaging_campaign_table_ref": "experiments/instances/packaging-axis/th5_campaign/packaging-axis.json",
+  "synthesis_settings": {
+    "preserve_axis_campaign_outcome": true,
+    "preserve_best_evidence": true,
+    "preserve_caveats": true
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "schema_version": "pica-pilot-campaign.v1",
+  "pilot_campaign_id": "pica_pilot_exp105_a13_a18_a19_rich",
+  "pilot_label": "exp105_a13_a18_a19_rich",
+  "source_config_path": "experiments/configs/pica/pilot-exp105-a13-a18-a19-rich.json",
+  "invocation": {
+    "vendor_root": "vendor/six-birds-pica",
+    "manifest_path": "vendor/six-birds-pica/Cargo.toml",
+    "command_mode": "cargo_runner_release",
+    "cargo_target_dir": ".cache/pica-target",
+    "binary_name": "runner"
+  },
+  "run_settings": {
+    "exp_id": "EXP-105",
+    "config_name": "A13_A18_A19",
+    "seed": 0,
+    "scale": 32,
+    "timeout_seconds": 120
+  },
+  "export_settings": {
+    "export_mode": "adapter_export",
+    "artifact_output_mode": "run_dir",
+    "path_policy": "repo_relative",
+    "adapter_mode": "key_audit_json_adapter_v1"
+  },
+  "campaign_id": "pica_campaign_exp105_a13_a18_a19_rich",
+  "campaign_label": "exp105_a13_a18_a19_rich",
+  "point_id": "point_exp105_a13_a18_a19_rich_seed0",
+  "substrate_config_id": "pica_exp105_a13_a18_a19_rich",
+  "mechanism_family_id": "pica_exp105_family",
+  "enable_matrix_id": "pica_exp105_a13_a18_a19_matrix",
+  "preparation_id": "prep_pica_default",
+  "protocol_id": "protocol_pica_multiscale_scan",
+  "notes": [
+    "Richest bounded synergy point for the closure-diverse rerun.",
+    "Chosen to maximize coarse-event tension while remaining small enough for committed testing."
+  ],
+  "flags": [
+    "bounded",
+    "adapter_export",
+    "closure_diverse_candidate"
+  ]
+}

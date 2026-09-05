@@ -1,0 +1,48 @@
+{
+  "schema_version": "pica-closure-catalog.v1",
+  "closure_catalog_id": "closure_catalog_run_triadic_branch_seed123",
+  "campaign_id": "campaign_example_v1",
+  "run_id": "run_triadic_branch_seed123",
+  "point_id": "point_triadic_branch_seed123",
+  "levels": [
+    {
+      "level_id": "level_macro",
+      "label": "macro",
+      "role": "observed_level"
+    }
+  ],
+  "resolutions": [
+    {
+      "resolution_id": "resolution_macro_r1",
+      "level_id": "level_macro",
+      "label": "retained_partition_r1",
+      "role": "retained_partition"
+    }
+  ],
+  "closures": [
+    {
+      "closure_id": "closure_branch_record",
+      "level_id": "level_macro",
+      "resolution_id": "resolution_macro_r1",
+      "label": "branch_record",
+      "role": "accepted_closure",
+      "support_metadata": {
+        "support_kind": "audit_record",
+        "support_value": 0.92
+      }
+    }
+  ],
+  "lenses": [
+    {
+      "lens_id": "lens_record_main",
+      "level_id": "level_macro",
+      "resolution_id": "resolution_macro_r1",
+      "closure_id": "closure_branch_record",
+      "label": "record_main",
+      "role": "observable_lens"
+    }
+  ],
+  "notes": [
+    "Contract example closure catalog only."
+  ]
+}

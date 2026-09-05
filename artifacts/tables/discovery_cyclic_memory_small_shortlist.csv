@@ -1,0 +1,5 @@
+search_id,candidate_id,class_label,primary_interface_id,primary_witness_count,primary_discrepancy_metric_value,primary_predictive_loop_score,robustness_proxy_fraction,selected_by_discrepancy,selected_by_predictive_loop,selected_by_robustness_proxy
+cyclic_memory_small,cand_0000,coherent_candidate,i0,1,1.0,1.0,0.5,true,true,true
+cyclic_memory_small,cand_0001,coherent_candidate,i0,1,1.0,1.0,0.6666666666666666,true,true,true
+cyclic_memory_small,cand_0002,coherent_candidate,i0,1,1.0,1.0,0.5,true,true,false
+cyclic_memory_small,cand_0006,coherent_candidate,i0,1,1.0,1.0,0.6666666666666666,false,false,true

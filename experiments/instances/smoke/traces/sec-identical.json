@@ -1,0 +1,60 @@
+{
+  "downstream_probes": [
+    {
+      "context_id": "ctx_a",
+      "event_id": "event_a0",
+      "outcome_counts": {
+        "hit": 8,
+        "miss": 2
+      },
+      "probe_id": "probe_alpha",
+      "signature": "probe_alpha"
+    },
+    {
+      "context_id": "ctx_b",
+      "event_id": "event_b0",
+      "outcome_counts": {
+        "hit": 8,
+        "miss": 2
+      },
+      "probe_id": "probe_alpha",
+      "signature": "probe_alpha"
+    },
+    {
+      "context_id": "ctx_a",
+      "event_id": "event_a1",
+      "outcome_counts": {
+        "off": 9,
+        "on": 1
+      },
+      "probe_id": "probe_beta",
+      "signature": "probe_beta"
+    },
+    {
+      "context_id": "ctx_b",
+      "event_id": "event_b1",
+      "outcome_counts": {
+        "off": 9,
+        "on": 1
+      },
+      "probe_id": "probe_beta",
+      "signature": "probe_beta"
+    }
+  ],
+  "instance_artifact": "experiments/instances/smoke/sec-instance.json",
+  "instance_id": "inst_sec_smoke",
+  "metadata": {
+    "mode": "identical"
+  },
+  "observations": [
+    {
+      "atom_ids": [
+        "a0"
+      ],
+      "context_id": "ctx_a",
+      "count": 1
+    }
+  ],
+  "trace_format_version": "observation-trace.v1",
+  "trace_id": "trace_sec_identical"
+}

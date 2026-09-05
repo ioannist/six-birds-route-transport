@@ -1,0 +1,318 @@
+{
+  "instance_format_version": "event-package-instance.v1",
+  "instance_id": "inst_parity_context_witness",
+  "contexts": [
+    {
+      "context_id": "R1",
+      "atoms": [
+        {
+          "atom_id": "r1_ppp"
+        },
+        {
+          "atom_id": "r1_pmm"
+        },
+        {
+          "atom_id": "r1_mpm"
+        },
+        {
+          "atom_id": "r1_mmp"
+        }
+      ]
+    },
+    {
+      "context_id": "R2",
+      "atoms": [
+        {
+          "atom_id": "r2_ppp"
+        },
+        {
+          "atom_id": "r2_pmm"
+        },
+        {
+          "atom_id": "r2_mpm"
+        },
+        {
+          "atom_id": "r2_mmp"
+        }
+      ]
+    },
+    {
+      "context_id": "R3",
+      "atoms": [
+        {
+          "atom_id": "r3_ppp"
+        },
+        {
+          "atom_id": "r3_pmm"
+        },
+        {
+          "atom_id": "r3_mpm"
+        },
+        {
+          "atom_id": "r3_mmp"
+        }
+      ]
+    },
+    {
+      "context_id": "C1",
+      "atoms": [
+        {
+          "atom_id": "c1_ppp"
+        },
+        {
+          "atom_id": "c1_pmm"
+        },
+        {
+          "atom_id": "c1_mpm"
+        },
+        {
+          "atom_id": "c1_mmp"
+        }
+      ]
+    },
+    {
+      "context_id": "C2",
+      "atoms": [
+        {
+          "atom_id": "c2_ppp"
+        },
+        {
+          "atom_id": "c2_pmm"
+        },
+        {
+          "atom_id": "c2_mpm"
+        },
+        {
+          "atom_id": "c2_mmp"
+        }
+      ]
+    },
+    {
+      "context_id": "C3",
+      "atoms": [
+        {
+          "atom_id": "c3_ppm"
+        },
+        {
+          "atom_id": "c3_pmp"
+        },
+        {
+          "atom_id": "c3_mpp"
+        },
+        {
+          "atom_id": "c3_mmm"
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "event_id": "event_r1_o11_plus",
+      "context_id": "R1",
+      "atom_ids": [
+        "r1_ppp",
+        "r1_pmm"
+      ]
+    },
+    {
+      "event_id": "event_r1_o12_plus",
+      "context_id": "R1",
+      "atom_ids": [
+        "r1_ppp",
+        "r1_mpm"
+      ]
+    },
+    {
+      "event_id": "event_r1_o13_plus",
+      "context_id": "R1",
+      "atom_ids": [
+        "r1_ppp",
+        "r1_mmp"
+      ]
+    },
+    {
+      "event_id": "event_r2_o21_plus",
+      "context_id": "R2",
+      "atom_ids": [
+        "r2_ppp",
+        "r2_pmm"
+      ]
+    },
+    {
+      "event_id": "event_r2_o22_plus",
+      "context_id": "R2",
+      "atom_ids": [
+        "r2_ppp",
+        "r2_mpm"
+      ]
+    },
+    {
+      "event_id": "event_r2_o23_plus",
+      "context_id": "R2",
+      "atom_ids": [
+        "r2_ppp",
+        "r2_mmp"
+      ]
+    },
+    {
+      "event_id": "event_r3_o31_plus",
+      "context_id": "R3",
+      "atom_ids": [
+        "r3_ppp",
+        "r3_pmm"
+      ]
+    },
+    {
+      "event_id": "event_r3_o32_plus",
+      "context_id": "R3",
+      "atom_ids": [
+        "r3_ppp",
+        "r3_mpm"
+      ]
+    },
+    {
+      "event_id": "event_r3_o33_plus",
+      "context_id": "R3",
+      "atom_ids": [
+        "r3_ppp",
+        "r3_mmp"
+      ]
+    },
+    {
+      "event_id": "event_c1_o11_plus",
+      "context_id": "C1",
+      "atom_ids": [
+        "c1_ppp",
+        "c1_pmm"
+      ]
+    },
+    {
+      "event_id": "event_c1_o21_plus",
+      "context_id": "C1",
+      "atom_ids": [
+        "c1_ppp",
+        "c1_mpm"
+      ]
+    },
+    {
+      "event_id": "event_c1_o31_plus",
+      "context_id": "C1",
+      "atom_ids": [
+        "c1_ppp",
+        "c1_mmp"
+      ]
+    },
+    {
+      "event_id": "event_c2_o12_plus",
+      "context_id": "C2",
+      "atom_ids": [
+        "c2_ppp",
+        "c2_pmm"
+      ]
+    },
+    {
+      "event_id": "event_c2_o22_plus",
+      "context_id": "C2",
+      "atom_ids": [
+        "c2_ppp",
+        "c2_mpm"
+      ]
+    },
+    {
+      "event_id": "event_c2_o32_plus",
+      "context_id": "C2",
+      "atom_ids": [
+        "c2_ppp",
+        "c2_mmp"
+      ]
+    },
+    {
+      "event_id": "event_c3_o13_plus",
+      "context_id": "C3",
+      "atom_ids": [
+        "c3_ppm",
+        "c3_pmp"
+      ]
+    },
+    {
+      "event_id": "event_c3_o23_plus",
+      "context_id": "C3",
+      "atom_ids": [
+        "c3_ppm",
+        "c3_mpp"
+      ]
+    },
+    {
+      "event_id": "event_c3_o33_plus",
+      "context_id": "C3",
+      "atom_ids": [
+        "c3_pmp",
+        "c3_mpp"
+      ]
+    }
+  ],
+  "equality_proposals": [
+    {
+      "proposal_id": "p_o11",
+      "left_event_id": "event_r1_o11_plus",
+      "right_event_id": "event_c1_o11_plus",
+      "constraint_kind": "hard"
+    },
+    {
+      "proposal_id": "p_o12",
+      "left_event_id": "event_r1_o12_plus",
+      "right_event_id": "event_c2_o12_plus",
+      "constraint_kind": "hard"
+    },
+    {
+      "proposal_id": "p_o13",
+      "left_event_id": "event_r1_o13_plus",
+      "right_event_id": "event_c3_o13_plus",
+      "constraint_kind": "hard"
+    },
+    {
+      "proposal_id": "p_o21",
+      "left_event_id": "event_r2_o21_plus",
+      "right_event_id": "event_c1_o21_plus",
+      "constraint_kind": "hard"
+    },
+    {
+      "proposal_id": "p_o22",
+      "left_event_id": "event_r2_o22_plus",
+      "right_event_id": "event_c2_o22_plus",
+      "constraint_kind": "hard"
+    },
+    {
+      "proposal_id": "p_o23",
+      "left_event_id": "event_r2_o23_plus",
+      "right_event_id": "event_c3_o23_plus",
+      "constraint_kind": "hard"
+    },
+    {
+      "proposal_id": "p_o31",
+      "left_event_id": "event_r3_o31_plus",
+      "right_event_id": "event_c1_o31_plus",
+      "constraint_kind": "hard"
+    },
+    {
+      "proposal_id": "p_o32",
+      "left_event_id": "event_r3_o32_plus",
+      "right_event_id": "event_c2_o32_plus",
+      "constraint_kind": "hard"
+    },
+    {
+      "proposal_id": "p_o33",
+      "left_event_id": "event_r3_o33_plus",
+      "right_event_id": "event_c3_o33_plus",
+      "constraint_kind": "hard"
+    }
+  ],
+  "weights": {},
+  "metadata": {
+    "benchmark_id": "parity-context-witness",
+    "design": "finite parity table witness"
+  },
+  "audit": {
+    "created_at": "2026-03-25T00:00:00Z"
+  }
+}

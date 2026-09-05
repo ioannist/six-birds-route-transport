@@ -1,0 +1,76 @@
+{
+  "instance_artifact": "experiments/instances/benchmarks/epistemic-six-state/instance.json",
+  "instance_id": "inst_epistemic_six_state",
+  "metadata": {
+    "benchmark_id": "epistemic-six-state",
+    "mode": "rm_noisy"
+  },
+  "observations": [
+    {
+      "context_id": "ctx_b",
+      "atom_ids": [
+        "b1"
+      ],
+      "count": 1
+    }
+  ],
+  "route_observations": [
+    {
+      "preparation_id": "prep_epistemic",
+      "route_id": "route_fast",
+      "endpoint_id": "endpoint_ctx_a",
+      "context_id": "ctx_a",
+      "outcome_probabilities": {
+        "a0": 0.15,
+        "a1": 0.35,
+        "a2": 0.5
+      }
+    },
+    {
+      "preparation_id": "prep_epistemic",
+      "route_id": "route_slow",
+      "endpoint_id": "endpoint_ctx_a",
+      "context_id": "ctx_a",
+      "outcome_probabilities": {
+        "a0": 0.18,
+        "a1": 0.32,
+        "a2": 0.5
+      }
+    },
+    {
+      "preparation_id": "prep_epistemic",
+      "route_id": "route_fast",
+      "endpoint_id": "endpoint_ctx_c",
+      "context_id": "ctx_c",
+      "outcome_probabilities": {
+        "c0": 0.2,
+        "c1": 0.3,
+        "c2": 0.5
+      }
+    },
+    {
+      "preparation_id": "prep_epistemic",
+      "route_id": "route_slow",
+      "endpoint_id": "endpoint_ctx_c",
+      "context_id": "ctx_c",
+      "outcome_probabilities": {
+        "c0": 0.18,
+        "c1": 0.31,
+        "c2": 0.51
+      }
+    },
+    {
+      "macrostate_id": "macro_aux",
+      "route_id": "route_single",
+      "endpoint_id": "endpoint_ctx_a",
+      "context_id": "ctx_a",
+      "outcome_probabilities": {
+        "a0": 0.3,
+        "a1": 0.3,
+        "a2": 0.4
+      }
+    }
+  ],
+  "trace_format_version": "observation-trace.v1",
+  "trace_id": "trace_epistemic_six_state_rm_noisy"
+}

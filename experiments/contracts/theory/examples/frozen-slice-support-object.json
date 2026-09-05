@@ -1,0 +1,37 @@
+{
+  "object_format_version": "frozen-slice-support-object.v1",
+  "support_object_id": "exp104_p6_row_all_n64_seed0_shared_support",
+  "support_index_kind": "trajectory",
+  "support_index_refs": [
+    "trajectory:t000",
+    "trajectory:t001",
+    "trajectory:t002",
+    "trajectory:t003"
+  ],
+  "source_config_ref": "experiments/configs/pica/pilot-exp104-p6-row-all-n64.json",
+  "source_bundle_ref": "experiments/instances/mechanism-axis/exp104_p6_row_all_n64_seed0/pica-export-bundle.json",
+  "mechanism_family_id": "p6_row_all",
+  "mechanism_config_id": "exp104_p6_row_all_n64_seed0",
+  "preparation_id": "prep_pica_default",
+  "protocol_id": "protocol_pica_multiscale_scan",
+  "evaluation_regime_id": "pica_multiscale_scan_frozen_eval_v1",
+  "fixed_protocol_step_ids": [
+    "protocol_pica_multiscale_scan_step_1",
+    "protocol_pica_multiscale_scan_step_4"
+  ],
+  "fixed_step_indices": [
+    1,
+    4
+  ],
+  "fixed_resolution_ids": [
+    "resolution_k_4",
+    "resolution_k_20"
+  ],
+  "notes": [
+    "Example fixed support object for strongest same-system comparison claims."
+  ],
+  "flags": [
+    "contract_example",
+    "same_ledger_slice"
+  ]
+}

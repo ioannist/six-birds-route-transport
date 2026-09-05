@@ -1,0 +1,101 @@
+{
+  "config_format_version": "substrate-config.v1",
+  "config_id": "cfg_triadic_branch",
+  "states": [
+    {
+      "state_id": "root"
+    },
+    {
+      "state_id": "s0"
+    },
+    {
+      "state_id": "s1"
+    },
+    {
+      "state_id": "s2"
+    }
+  ],
+  "preparations": [
+    {
+      "preparation_id": "prep0",
+      "distribution": {
+        "root": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "action_id": "branch",
+      "transition_kernel": {
+        "root": {
+          "s0": 0.34,
+          "s1": 0.33,
+          "s2": 0.33
+        },
+        "s0": {
+          "s0": 1.0
+        },
+        "s1": {
+          "s1": 1.0
+        },
+        "s2": {
+          "s2": 1.0
+        }
+      }
+    },
+    {
+      "action_id": "hold",
+      "transition_kernel": {
+        "root": {
+          "root": 1.0
+        },
+        "s0": {
+          "s0": 1.0
+        },
+        "s1": {
+          "s1": 1.0
+        },
+        "s2": {
+          "s2": 1.0
+        }
+      }
+    }
+  ],
+  "lenses": [
+    {
+      "lens_id": "color",
+      "readout_map": {
+        "root": "source",
+        "s0": "red",
+        "s1": "green",
+        "s2": "blue"
+      }
+    },
+    {
+      "lens_id": "shape",
+      "readout_map": {
+        "root": "source",
+        "s0": "circle",
+        "s1": "triangle",
+        "s2": "square"
+      }
+    }
+  ],
+  "protocols": [
+    {
+      "protocol_id": "branch_hold_hold",
+      "action_ids": [
+        "branch",
+        "hold",
+        "hold"
+      ]
+    }
+  ],
+  "defaults": {
+    "trajectory_count": 30,
+    "seed": 123
+  },
+  "metadata": {
+    "mode": "triadic_branch"
+  }
+}

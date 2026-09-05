@@ -1,0 +1,43 @@
+{
+  "schema_version": "pica-pilot-campaign.v1",
+  "pilot_campaign_id": "pica_pilot_exp100_baseline_closure_control",
+  "pilot_label": "exp100_baseline_closure_control",
+  "source_config_path": "experiments/configs/pica/pilot-exp100-baseline-closure-control.json",
+  "invocation": {
+    "vendor_root": "vendor/six-birds-pica",
+    "manifest_path": "vendor/six-birds-pica/Cargo.toml",
+    "command_mode": "cargo_runner_release",
+    "cargo_target_dir": ".cache/pica-target",
+    "binary_name": "runner"
+  },
+  "run_settings": {
+    "exp_id": "EXP-100",
+    "config_name": "baseline",
+    "seed": 0,
+    "scale": 32,
+    "timeout_seconds": 120
+  },
+  "export_settings": {
+    "export_mode": "adapter_export",
+    "artifact_output_mode": "run_dir",
+    "path_policy": "repo_relative",
+    "adapter_mode": "key_audit_json_adapter_v1"
+  },
+  "campaign_id": "pica_campaign_exp100_baseline_closure_control",
+  "campaign_label": "exp100_baseline_closure_control",
+  "point_id": "point_exp100_baseline_closure_control_seed0",
+  "substrate_config_id": "pica_exp100_baseline_closure_control",
+  "mechanism_family_id": "pica_exp100_family",
+  "enable_matrix_id": "pica_exp100_baseline_matrix",
+  "preparation_id": "prep_pica_default",
+  "protocol_id": "protocol_pica_multiscale_scan",
+  "notes": [
+    "Resolution-control point for the closure-diverse rerun.",
+    "Intended to remain mostly refinement-dominated under a single observable family."
+  ],
+  "flags": [
+    "bounded",
+    "adapter_export",
+    "closure_diverse_control"
+  ]
+}

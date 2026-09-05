@@ -1,0 +1,203 @@
+{
+  "schema_version": "route-transport-package.v1",
+  "package_id": "dissipative_memory_package",
+  "support": {
+    "support_id": "dissipative_support",
+    "visible_support_labels": [
+      "A",
+      "B"
+    ],
+    "same_support_required": true
+  },
+  "state_space": {
+    "internal_state_ids": [
+      "m0",
+      "m1",
+      "e0",
+      "e1",
+      "p0",
+      "p1"
+    ],
+    "support_projection": {
+      "m0": "A",
+      "m1": "A",
+      "e0": "A",
+      "e1": "A",
+      "p0": "A",
+      "p1": "B"
+    }
+  },
+  "interfaces": [
+    {
+      "interface_id": "src"
+    },
+    {
+      "interface_id": "mid"
+    },
+    {
+      "interface_id": "end"
+    },
+    {
+      "interface_id": "probe"
+    }
+  ],
+  "event_packages": [
+    {
+      "package_id": "mid_events",
+      "interface_id": "mid",
+      "events": [
+        {
+          "event_id": "indicator_A",
+          "weights": {
+            "A": 1,
+            "B": 0
+          }
+        }
+      ]
+    },
+    {
+      "package_id": "end_events",
+      "interface_id": "end",
+      "events": [
+        {
+          "event_id": "indicator_B",
+          "weights": {
+            "A": 0,
+            "B": 1
+          }
+        }
+      ]
+    },
+    {
+      "package_id": "probe_events",
+      "interface_id": "probe",
+      "events": [
+        {
+          "event_id": "indicator_B",
+          "weights": {
+            "A": 0,
+            "B": 1
+          }
+        }
+      ]
+    }
+  ],
+  "histories": [
+    {
+      "history_id": "h_mid_0",
+      "source_interface_id": "src",
+      "target_interface_id": "mid",
+      "probabilities": {
+        "m0": 1
+      }
+    },
+    {
+      "history_id": "h_mid_1",
+      "source_interface_id": "src",
+      "target_interface_id": "mid",
+      "probabilities": {
+        "m1": 1
+      }
+    },
+    {
+      "history_id": "h_end_0",
+      "source_interface_id": "mid",
+      "target_interface_id": "end",
+      "probabilities": {
+        "e0": 1
+      }
+    },
+    {
+      "history_id": "h_end_1",
+      "source_interface_id": "mid",
+      "target_interface_id": "end",
+      "probabilities": {
+        "e1": 1
+      }
+    }
+  ],
+  "continuations": [
+    {
+      "continuation_id": "to_end",
+      "source_interface_id": "mid",
+      "target_interface_id": "end",
+      "kernel": {
+        "m0": {
+          "e0": 1
+        },
+        "m1": {
+          "e1": 1
+        },
+        "e0": {
+          "e0": 1
+        },
+        "e1": {
+          "e1": 1
+        },
+        "p0": {
+          "p0": 1
+        },
+        "p1": {
+          "p1": 1
+        }
+      }
+    },
+    {
+      "continuation_id": "to_probe",
+      "source_interface_id": "mid",
+      "target_interface_id": "probe",
+      "kernel": {
+        "m0": {
+          "p0": 1
+        },
+        "m1": {
+          "p1": 1
+        },
+        "e0": {
+          "e0": 1
+        },
+        "e1": {
+          "e1": 1
+        },
+        "p0": {
+          "p0": 1
+        },
+        "p1": {
+          "p1": 1
+        }
+      }
+    },
+    {
+      "continuation_id": "id_end",
+      "source_interface_id": "end",
+      "target_interface_id": "end",
+      "kernel": {
+        "m0": {
+          "m0": 1
+        },
+        "m1": {
+          "m1": 1
+        },
+        "e0": {
+          "e0": 1
+        },
+        "e1": {
+          "e1": 1
+        },
+        "p0": {
+          "p0": 1
+        },
+        "p1": {
+          "p1": 1
+        }
+      }
+    }
+  ],
+  "loops": [
+    {
+      "loop_id": "id_end",
+      "interface_id": "end",
+      "continuation_id": "id_end"
+    }
+  ]
+}

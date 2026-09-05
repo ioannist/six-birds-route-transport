@@ -1,0 +1,39 @@
+{
+  "campaign_id": "pica_campaign_exp130_packaging_surface",
+  "export_bundle_id": "pica_pilot_exp130_packaging_surface_bundle",
+  "flags": [
+    "adapter_export",
+    "bridge_identity"
+  ],
+  "notes": [
+    "Bridge-derived packaging operator catalog promoted from observable packaging metadata and configured candidate selectors."
+  ],
+  "packaging_operator_catalog_id": "packaging_operator_catalog_point_exp130_packaging_surface_seed0__seed_0",
+  "point_id": "point_exp130_packaging_surface_seed0",
+  "row_count": 1,
+  "rows": [
+    {
+      "family_label": "p5",
+      "flags": [
+        "bridge_identity",
+        "selected_operator"
+      ],
+      "notes": [
+        "Bridge-derived packaging operator identity promoted from observable row payload metadata."
+      ],
+      "operator_kind": "bridge_selector_outcome",
+      "operator_label": "p5 from p4",
+      "packaging_family_id": "packaging_family_p5",
+      "packaging_operator_id": "packaging_operator_p5_from_p4",
+      "packaging_source": "p5_from_p4",
+      "parameter_digest": "c348cb9b01a1",
+      "producer_id": "p4",
+      "support_metadata": {
+        "observed_in_rows": true,
+        "selector_token": "p5"
+      }
+    }
+  ],
+  "run_id": "point_exp130_packaging_surface_seed0__seed_0",
+  "schema_version": "pica-packaging-operator-catalog.v1"
+}

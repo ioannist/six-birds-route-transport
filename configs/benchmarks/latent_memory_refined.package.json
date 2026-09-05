@@ -1,0 +1,130 @@
+{
+  "schema_version": "route-transport-package.v1",
+  "package_id": "latent_memory_refined",
+  "support": {
+    "support_id": "latent_refined_support",
+    "visible_support_labels": [
+      "A",
+      "B"
+    ],
+    "same_support_required": true
+  },
+  "state_space": {
+    "internal_state_ids": [
+      "m0",
+      "m1",
+      "eA",
+      "eB"
+    ],
+    "support_projection": {
+      "m0": "A",
+      "m1": "B",
+      "eA": "A",
+      "eB": "B"
+    }
+  },
+  "interfaces": [
+    {
+      "interface_id": "src"
+    },
+    {
+      "interface_id": "mid"
+    },
+    {
+      "interface_id": "end"
+    }
+  ],
+  "event_packages": [
+    {
+      "package_id": "mid_events",
+      "interface_id": "mid",
+      "events": [
+        {
+          "event_id": "indicator_B",
+          "weights": {
+            "A": 0,
+            "B": 1
+          }
+        }
+      ]
+    },
+    {
+      "package_id": "end_events",
+      "interface_id": "end",
+      "events": [
+        {
+          "event_id": "indicator_B",
+          "weights": {
+            "A": 0,
+            "B": 1
+          }
+        }
+      ]
+    }
+  ],
+  "histories": [
+    {
+      "history_id": "h_mid_0",
+      "source_interface_id": "src",
+      "target_interface_id": "mid",
+      "probabilities": {
+        "m0": 1
+      }
+    },
+    {
+      "history_id": "h_mid_1",
+      "source_interface_id": "src",
+      "target_interface_id": "mid",
+      "probabilities": {
+        "m1": 1
+      }
+    }
+  ],
+  "continuations": [
+    {
+      "continuation_id": "k_mid_end",
+      "source_interface_id": "mid",
+      "target_interface_id": "end",
+      "kernel": {
+        "m0": {
+          "eA": 1
+        },
+        "m1": {
+          "eB": 1
+        },
+        "eA": {
+          "eA": 1
+        },
+        "eB": {
+          "eB": 1
+        }
+      }
+    },
+    {
+      "continuation_id": "loop_end",
+      "source_interface_id": "end",
+      "target_interface_id": "end",
+      "kernel": {
+        "m0": {
+          "m0": 1
+        },
+        "m1": {
+          "m1": 1
+        },
+        "eA": {
+          "eA": 1
+        },
+        "eB": {
+          "eB": 1
+        }
+      }
+    }
+  ],
+  "loops": [
+    {
+      "loop_id": "end_loop",
+      "interface_id": "end",
+      "continuation_id": "loop_end"
+    }
+  ]
+}

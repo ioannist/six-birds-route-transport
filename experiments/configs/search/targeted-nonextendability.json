@@ -1,0 +1,76 @@
+{
+  "search_format_version": "targeted-nonextendability-search.v1",
+  "search_id": "targeted_nonextendability",
+  "points": [
+    {
+      "point_id": "triadic_stable_single_lens_seed123",
+      "config_artifact": "experiments/configs/substrates/triadic-stable-single-lens.json",
+      "preparation_id": "prep0",
+      "protocol_id": "branch_hold_hold",
+      "trajectories": 30,
+      "seed": 123,
+      "notes": [
+        "compact_coarse_merge_control"
+      ]
+    },
+    {
+      "point_id": "triadic_swap_single_lens_seed123",
+      "config_artifact": "experiments/configs/substrates/triadic-swap-single-lens.json",
+      "preparation_id": "prep0",
+      "protocol_id": "branch_swap_swap",
+      "trajectories": 30,
+      "seed": 123,
+      "notes": [
+        "compact_aliasing_variation"
+      ]
+    },
+    {
+      "point_id": "triadic_branch_multilens_seed123",
+      "config_artifact": "experiments/configs/substrates/triadic-branch.json",
+      "preparation_id": "prep0",
+      "protocol_id": "branch_hold_hold",
+      "trajectories": 30,
+      "seed": 123,
+      "notes": [
+        "larger_multicontext_candidate_mode_probe"
+      ]
+    }
+  ],
+  "extraction_thresholds": {
+    "min_trajectory_count": 10,
+    "min_atom_count": 2,
+    "min_atom_support_count": 2,
+    "min_atom_support_fraction": 0.0,
+    "min_coverage": 0.9,
+    "max_batch_tv": 0.35,
+    "max_persistence_flip_rate": 0.8,
+    "batch_count": 2
+  },
+  "coarse_event_generation_thresholds": {
+    "event_basis_mode": "singleton_plus_small_unions",
+    "max_union_size": 2,
+    "min_event_support_count": 3,
+    "min_event_support_fraction": 0.1
+  },
+  "shared_event_inference_thresholds": {
+    "min_common_probes": 1,
+    "min_conditioning_count": 3,
+    "max_mean_tv": 0.15,
+    "exact_tolerance": 1e-06,
+    "proposal_constraint_kind": "soft"
+  },
+  "provenance_required": true,
+  "candidate_classification_thresholds": {
+    "strong_nonextendable_min_gpd_str": 1.0,
+    "near_zero_gpd_stat": 1e-06,
+    "min_accepted_coarse_proposal_count": 1
+  },
+  "stop_rule": {
+    "stop_after_family_exhausted": true,
+    "select_best_by": "highest_candidate_mode_gpd_str_then_lowest_all_proposals_respecting_tuple_count_then_point_id",
+    "emit_negative_result_if_none": true
+  },
+  "metadata": {
+    "mode": "targeted_endogenous_nonextendability_search"
+  }
+}

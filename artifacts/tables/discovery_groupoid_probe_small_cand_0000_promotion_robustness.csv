@@ -1,0 +1,2 @@
+qualified_id,search_id,candidate_id,class_label,primary_interface_id,trial_count,pass_count,survival_fraction,threshold,meets_threshold
+groupoid_probe_small:cand_0000,groupoid_probe_small,cand_0000,coherent_candidate,i0,8,0,0,1/2,false

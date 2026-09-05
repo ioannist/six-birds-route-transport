@@ -1,0 +1,122 @@
+{
+  "schema_version": "route-transport-package.v1",
+  "package_id": "toy_flat_signatures",
+  "support": {
+    "support_id": "flat_support",
+    "visible_support_labels": [
+      "A",
+      "B"
+    ],
+    "same_support_required": true
+  },
+  "state_space": {
+    "internal_state_ids": [
+      "m0",
+      "m1",
+      "e0"
+    ],
+    "support_projection": {
+      "m0": "A",
+      "m1": "A",
+      "e0": "A"
+    }
+  },
+  "interfaces": [
+    {
+      "interface_id": "src"
+    },
+    {
+      "interface_id": "mid"
+    },
+    {
+      "interface_id": "end"
+    }
+  ],
+  "event_packages": [
+    {
+      "package_id": "mid_events",
+      "interface_id": "mid",
+      "events": [
+        {
+          "event_id": "indicator_A",
+          "weights": {
+            "A": 1,
+            "B": 0
+          }
+        }
+      ]
+    },
+    {
+      "package_id": "end_events",
+      "interface_id": "end",
+      "events": [
+        {
+          "event_id": "indicator_A",
+          "weights": {
+            "A": 1,
+            "B": 0
+          }
+        }
+      ]
+    }
+  ],
+  "histories": [
+    {
+      "history_id": "h_mid_0",
+      "source_interface_id": "src",
+      "target_interface_id": "mid",
+      "probabilities": {
+        "m0": 1
+      }
+    },
+    {
+      "history_id": "h_mid_1",
+      "source_interface_id": "src",
+      "target_interface_id": "mid",
+      "probabilities": {
+        "m1": 1
+      }
+    }
+  ],
+  "continuations": [
+    {
+      "continuation_id": "k_mid_end",
+      "source_interface_id": "mid",
+      "target_interface_id": "end",
+      "kernel": {
+        "m0": {
+          "e0": 1
+        },
+        "m1": {
+          "e0": 1
+        },
+        "e0": {
+          "e0": 1
+        }
+      }
+    },
+    {
+      "continuation_id": "loop_end",
+      "source_interface_id": "end",
+      "target_interface_id": "end",
+      "kernel": {
+        "m0": {
+          "m0": 1
+        },
+        "m1": {
+          "m1": 1
+        },
+        "e0": {
+          "e0": 1
+        }
+      }
+    }
+  ],
+  "loops": [
+    {
+      "loop_id": "end_loop",
+      "interface_id": "end",
+      "continuation_id": "loop_end"
+    }
+  ]
+}

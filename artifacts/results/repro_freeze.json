@@ -1,0 +1,40 @@
+{
+  "commands": [
+    "make test",
+    "make benchmark-suite",
+    "make discovery-smoke",
+    "make lean-build"
+  ],
+  "seed": 0,
+  "verified_from_temporary_clean_copy": true,
+  "command_statuses": [
+    {
+      "command": "make test",
+      "passed": true
+    },
+    {
+      "command": "make benchmark-suite",
+      "passed": true
+    },
+    {
+      "command": "make discovery-smoke",
+      "passed": true
+    },
+    {
+      "command": "make lean-build",
+      "passed": true
+    }
+  ],
+  "benchmark_suite_semantics_match": true,
+  "discovery_smoke_semantics_match": true,
+  "benchmark_suite_artifact_paths": [
+    "artifacts/results/benchmark_suite.json",
+    "artifacts/tables/benchmark_suite.csv",
+    "docs/results/benchmark_suite.md"
+  ],
+  "discovery_smoke_artifact_paths": [
+    "artifacts/results/discovery/discovery_smoke.json",
+    "docs/results/discovery_smoke.md"
+  ],
+  "warnings": []
+}

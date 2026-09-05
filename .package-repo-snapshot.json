@@ -1,0 +1,26 @@
+{
+  "exclude_dirs": [
+    ".cache"
+  ],
+  "exclude_paths": [
+    ".package-repo-snapshot.json",
+    ".package-repo-snapshot-version",
+    "vendor/six-birds-pica/lab/runs",
+    "vendor/six-birds-pica/research",
+    "vendor/six-birds-pica/skills",
+    "vendor/six-birds-pica/target",
+    "vendor/six-birds-pica/paper/submission/arxiv_source",
+    "vendor/six-birds-pica/test_jacobi",
+    "vendor/six-birds-pica/test_jacobi_general",
+    "vendor/six-birds-pica/test_transient",
+    "vendor/six-birds-pica/test_transient_doob",
+    "vendor/six-birds-pica/test_transient_negative"
+  ],
+  "exclude_globs": [
+    "tmp*.json",
+    "vendor/six-birds-pica/paper/submission/arxiv_source.tar.gz",
+    "vendor/six-birds-pica/paper/submission/arxiv_source_manifest.txt",
+    "vendor/six-birds-pica/*_snapshot.zip",
+    "vendor/six-birds-pica/*_snapshot_v*.zip"
+  ]
+}

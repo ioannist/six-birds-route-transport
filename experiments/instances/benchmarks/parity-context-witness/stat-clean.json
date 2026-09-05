@@ -1,0 +1,180 @@
+{
+  "instance_artifact": "experiments/instances/benchmarks/parity-context-witness/instance.json",
+  "instance_id": "inst_parity_context_witness",
+  "metadata": {
+    "benchmark_id": "parity-context-witness",
+    "mode": "stat_clean"
+  },
+  "observations": [
+    {
+      "context_id": "R1",
+      "atom_ids": [
+        "r1_ppp"
+      ],
+      "count": 25
+    },
+    {
+      "context_id": "R1",
+      "atom_ids": [
+        "r1_pmm"
+      ],
+      "count": 25
+    },
+    {
+      "context_id": "R1",
+      "atom_ids": [
+        "r1_mpm"
+      ],
+      "count": 25
+    },
+    {
+      "context_id": "R1",
+      "atom_ids": [
+        "r1_mmp"
+      ],
+      "count": 25
+    },
+    {
+      "context_id": "R2",
+      "atom_ids": [
+        "r2_ppp"
+      ],
+      "count": 25
+    },
+    {
+      "context_id": "R2",
+      "atom_ids": [
+        "r2_pmm"
+      ],
+      "count": 25
+    },
+    {
+      "context_id": "R2",
+      "atom_ids": [
+        "r2_mpm"
+      ],
+      "count": 25
+    },
+    {
+      "context_id": "R2",
+      "atom_ids": [
+        "r2_mmp"
+      ],
+      "count": 25
+    },
+    {
+      "context_id": "R3",
+      "atom_ids": [
+        "r3_ppp"
+      ],
+      "count": 25
+    },
+    {
+      "context_id": "R3",
+      "atom_ids": [
+        "r3_pmm"
+      ],
+      "count": 25
+    },
+    {
+      "context_id": "R3",
+      "atom_ids": [
+        "r3_mpm"
+      ],
+      "count": 25
+    },
+    {
+      "context_id": "R3",
+      "atom_ids": [
+        "r3_mmp"
+      ],
+      "count": 25
+    },
+    {
+      "context_id": "C1",
+      "atom_ids": [
+        "c1_ppp"
+      ],
+      "count": 25
+    },
+    {
+      "context_id": "C1",
+      "atom_ids": [
+        "c1_pmm"
+      ],
+      "count": 25
+    },
+    {
+      "context_id": "C1",
+      "atom_ids": [
+        "c1_mpm"
+      ],
+      "count": 25
+    },
+    {
+      "context_id": "C1",
+      "atom_ids": [
+        "c1_mmp"
+      ],
+      "count": 25
+    },
+    {
+      "context_id": "C2",
+      "atom_ids": [
+        "c2_ppp"
+      ],
+      "count": 25
+    },
+    {
+      "context_id": "C2",
+      "atom_ids": [
+        "c2_pmm"
+      ],
+      "count": 25
+    },
+    {
+      "context_id": "C2",
+      "atom_ids": [
+        "c2_mpm"
+      ],
+      "count": 25
+    },
+    {
+      "context_id": "C2",
+      "atom_ids": [
+        "c2_mmp"
+      ],
+      "count": 25
+    },
+    {
+      "context_id": "C3",
+      "atom_ids": [
+        "c3_ppm"
+      ],
+      "count": 25
+    },
+    {
+      "context_id": "C3",
+      "atom_ids": [
+        "c3_pmp"
+      ],
+      "count": 25
+    },
+    {
+      "context_id": "C3",
+      "atom_ids": [
+        "c3_mpp"
+      ],
+      "count": 25
+    },
+    {
+      "context_id": "C3",
+      "atom_ids": [
+        "c3_mmm"
+      ],
+      "count": 25
+    }
+  ],
+  "trace_format_version": "observation-trace.v1",
+  "trace_id": "trace_parity_context_witness_stat_clean"
+}

@@ -1,0 +1,13 @@
+{
+  "note_format_version": "result-note.v1",
+  "note_id": "note_bad_001",
+  "run_id": "run_bad_001",
+  "instance_ids": ["inst_demo_001", "inst_demo_001"],
+  "metrics": {
+    "num_contexts": 2
+  },
+  "interpretation": "bad",
+  "artifact_refs": {
+    "manifest": "tests/legacy/fixtures/valid/run-manifest.json"
+  }
+}

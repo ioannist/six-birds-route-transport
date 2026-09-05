@@ -1,0 +1,51 @@
+{
+  "campaign_id": "pica_campaign_exp100_baseline_multiseed",
+  "closure_catalog_id": "closure_catalog_run_exp100_baseline_seed2",
+  "closure_catalog_path": "experiments/contracts/pica/pilot/exp100_multiseed/pica-closure-catalog-seed2.json",
+  "debug_sidecars": [],
+  "enable_matrix_id": "pica_exp100_baseline_matrix",
+  "flags": [
+    "adapter_export",
+    "multiseed"
+  ],
+  "mechanism_family_id": "pica_exp100_family",
+  "notes": [
+    "Committed multiseed adapter-exported run ledger."
+  ],
+  "observable_ledger_id": "observable_ledger_run_exp100_baseline_seed2",
+  "observable_ledger_path": "experiments/contracts/pica/pilot/exp100_multiseed/pica-observable-ledger-seed2.json",
+  "point_id": "point_exp100_baseline_seed2",
+  "preparation_id": "prep_pica_default",
+  "protocol_id": "protocol_pica_multiscale_scan",
+  "protocol_steps": [
+    {
+      "action_label": null,
+      "protocol_step_id": "protocol_pica_multiscale_scan_step_0",
+      "stage_label": "scan_k_2",
+      "step_index": 0
+    },
+    {
+      "action_label": null,
+      "protocol_step_id": "protocol_pica_multiscale_scan_step_1",
+      "stage_label": "scan_k_4",
+      "step_index": 1
+    },
+    {
+      "action_label": null,
+      "protocol_step_id": "protocol_pica_multiscale_scan_step_2",
+      "stage_label": "scan_k_8",
+      "step_index": 2
+    },
+    {
+      "action_label": null,
+      "protocol_step_id": "protocol_pica_multiscale_scan_step_3",
+      "stage_label": "scan_k_9",
+      "step_index": 3
+    }
+  ],
+  "run_id": "run_exp100_baseline_seed2",
+  "schema_version": "pica-run-ledger.v1",
+  "seed": 2,
+  "substrate_config_id": "pica_exp100_baseline",
+  "trajectory_count": 1
+}

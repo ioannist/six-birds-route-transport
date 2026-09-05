@@ -1,0 +1,124 @@
+{
+  "campaign_id": "pica_campaign_exp110_pairmatch",
+  "closure_catalog_id": "closure_catalog_run_exp110_pairmatch_seed0",
+  "closures": [
+    {
+      "closure_id": "closure_pairmatch_a",
+      "debug_metadata": {},
+      "flags": [],
+      "label": "closure_pairmatch_a",
+      "level_id": "level_l0",
+      "notes": [],
+      "parent_closure_id": null,
+      "resolution_id": "resolution_pairmatch_a",
+      "role": "observable_slice",
+      "support_metadata": {}
+    },
+    {
+      "closure_id": "closure_pairmatch_b",
+      "debug_metadata": {},
+      "flags": [],
+      "label": "closure_pairmatch_b",
+      "level_id": "level_l0",
+      "notes": [],
+      "parent_closure_id": null,
+      "resolution_id": "resolution_pairmatch_b",
+      "role": "observable_slice",
+      "support_metadata": {}
+    },
+    {
+      "closure_id": "closure_pairmatch_probe",
+      "debug_metadata": {},
+      "flags": [],
+      "label": "closure_pairmatch_probe",
+      "level_id": "level_l0",
+      "notes": [],
+      "parent_closure_id": null,
+      "resolution_id": "resolution_pairmatch_probe",
+      "role": "observable_slice",
+      "support_metadata": {}
+    }
+  ],
+  "flags": [
+    "contract_fixture",
+    "bounded_positive_case"
+  ],
+  "levels": [
+    {
+      "label": "level_l0",
+      "level_id": "level_l0",
+      "parent_level_id": null,
+      "role": "observable"
+    }
+  ],
+  "lenses": [
+    {
+      "ancestor_lens_id": null,
+      "closure_id": "closure_pairmatch_a",
+      "debug_metadata": {},
+      "flags": [],
+      "label": "lens_pairmatch_a",
+      "lens_id": "lens_pairmatch_a",
+      "level_id": "level_l0",
+      "notes": [],
+      "resolution_id": "resolution_pairmatch_a",
+      "role": "readout",
+      "support_metadata": {}
+    },
+    {
+      "ancestor_lens_id": null,
+      "closure_id": "closure_pairmatch_b",
+      "debug_metadata": {},
+      "flags": [],
+      "label": "lens_pairmatch_b",
+      "lens_id": "lens_pairmatch_b",
+      "level_id": "level_l0",
+      "notes": [],
+      "resolution_id": "resolution_pairmatch_b",
+      "role": "readout",
+      "support_metadata": {}
+    },
+    {
+      "ancestor_lens_id": null,
+      "closure_id": "closure_pairmatch_probe",
+      "debug_metadata": {},
+      "flags": [],
+      "label": "lens_pairmatch_probe",
+      "lens_id": "lens_pairmatch_probe",
+      "level_id": "level_l0",
+      "notes": [],
+      "resolution_id": "resolution_pairmatch_probe",
+      "role": "readout",
+      "support_metadata": {}
+    }
+  ],
+  "notes": [
+    "Single-level closure catalog with three resolutions/closures/lenses for structural matching."
+  ],
+  "point_id": "point_exp110_pairmatch_seed0",
+  "resolutions": [
+    {
+      "label": "resolution_pairmatch_a",
+      "level_id": "level_l0",
+      "parent_resolution_id": null,
+      "resolution_id": "resolution_pairmatch_a",
+      "role": "scan"
+    },
+    {
+      "label": "resolution_pairmatch_b",
+      "level_id": "level_l0",
+      "parent_resolution_id": null,
+      "resolution_id": "resolution_pairmatch_b",
+      "role": "scan"
+    },
+    {
+      "label": "resolution_pairmatch_probe",
+      "level_id": "level_l0",
+      "parent_resolution_id": null,
+      "resolution_id": "resolution_pairmatch_probe",
+      "role": "probe"
+    }
+  ],
+  "run_id": "run_exp110_pairmatch_seed0",
+  "schema_version": "pica-closure-catalog.v1"
+}

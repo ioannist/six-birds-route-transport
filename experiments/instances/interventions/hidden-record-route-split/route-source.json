@@ -1,0 +1,86 @@
+{
+  "trace_format_version": "observation-trace.v1",
+  "trace_id": "trace_hidden_record_route_split_source",
+  "instance_id": "inst_hidden_record_route_split_before",
+  "instance_artifact": "experiments/instances/interventions/hidden-record-route-split/before-instance.json",
+  "observations": [
+    {
+      "context_id": "ctx_A",
+      "atom_ids": [
+        "a0"
+      ],
+      "count": 20,
+      "status": "observed"
+    },
+    {
+      "context_id": "ctx_A",
+      "atom_ids": [
+        "a1"
+      ],
+      "count": 0,
+      "status": "observed"
+    },
+    {
+      "context_id": "ctx_B",
+      "atom_ids": [
+        "b0"
+      ],
+      "count": 10,
+      "status": "observed"
+    },
+    {
+      "context_id": "ctx_B",
+      "atom_ids": [
+        "b1"
+      ],
+      "count": 10,
+      "status": "observed"
+    }
+  ],
+  "route_observations": [
+    {
+      "preparation_id": "prep_hidden",
+      "route_id": "r0",
+      "endpoint_id": "ctx_A",
+      "context_id": "ctx_A",
+      "outcome_counts": {
+        "a0": 10,
+        "a1": 0
+      }
+    },
+    {
+      "preparation_id": "prep_hidden",
+      "route_id": "r0",
+      "endpoint_id": "ctx_B",
+      "context_id": "ctx_B",
+      "outcome_counts": {
+        "b0": 10,
+        "b1": 0
+      }
+    },
+    {
+      "preparation_id": "prep_hidden",
+      "route_id": "r1",
+      "endpoint_id": "ctx_A",
+      "context_id": "ctx_A",
+      "outcome_counts": {
+        "a0": 10,
+        "a1": 0
+      }
+    },
+    {
+      "preparation_id": "prep_hidden",
+      "route_id": "r1",
+      "endpoint_id": "ctx_B",
+      "context_id": "ctx_B",
+      "outcome_counts": {
+        "b0": 0,
+        "b1": 10
+      }
+    }
+  ],
+  "metadata": {
+    "example_kind": "hidden_record_route_split_source",
+    "route_residue_hidden_in_before_package": true
+  }
+}

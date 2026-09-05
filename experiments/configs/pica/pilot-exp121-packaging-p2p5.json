@@ -1,0 +1,45 @@
+{
+  "schema_version": "pica-pilot-campaign.v1",
+  "pilot_campaign_id": "pica_pilot_exp121_packaging_p2p5",
+  "pilot_label": "exp121_packaging_p2p5_wrapper_run",
+  "source_config_path": "experiments/configs/pica/pilot-exp121-packaging-p2p5.json",
+  "invocation": {
+    "vendor_root": "vendor/six-birds-pica",
+    "manifest_path": "vendor/six-birds-pica/Cargo.toml",
+    "command_mode": "cargo_runner_release",
+    "cargo_target_dir": ".cache/pica-target",
+    "binary_name": "runner"
+  },
+  "run_settings": {
+    "exp_id": "EXP-100",
+    "config_name": "A11_P2-P5",
+    "seed": 0,
+    "scale": 32,
+    "timeout_seconds": 120
+  },
+  "export_settings": {
+    "export_mode": "adapter_export",
+    "pica_export_mode": "discovery_grade_per_trajectory",
+    "artifact_output_mode": "run_dir",
+    "path_policy": "repo_relative",
+    "adapter_mode": "key_discovery_grade_json_adapter_v1"
+  },
+  "campaign_id": "pica_campaign_exp121_packaging_p2p5",
+  "campaign_label": "exp121_packaging_p2p5_campaign",
+  "point_id": "point_exp121_packaging_p2p5_seed0",
+  "substrate_config_id": "pica_exp121_packaging_p2p5",
+  "mechanism_family_id": "pica_exp100_family",
+  "enable_matrix_id": "pica_exp121_packaging_p2p5_matrix",
+  "preparation_id": "prep_pica_default",
+  "protocol_id": "protocol_pica_multiscale_scan",
+  "notes": [
+    "Discovery-grade wrapper pilot for the P2/P5 package-conflict-rich point."
+  ],
+  "flags": [
+    "bounded",
+    "adapter_export",
+    "discovery_grade_per_trajectory",
+    "packaging_conflict_rich",
+    "p2_p5"
+  ]
+}

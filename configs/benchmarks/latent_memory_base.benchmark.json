@@ -1,0 +1,16 @@
+{
+  "schema_version": "benchmark-manifest.v1",
+  "benchmark_id": "latent_memory_base",
+  "transport_package_ref": "configs/benchmarks/toy_predictive_witness.json",
+  "interfaces_to_measure": [
+    "mid"
+  ],
+  "loops_to_test": [
+    "end_loop"
+  ],
+  "currentization_manifest_ref": "configs/benchmarks/latent_memory_pair.currentization.json",
+  "perturbation_sweep_ref": "configs/benchmarks/latent_memory_base.perturbation.json",
+  "tags": [
+    "currentizable"
+  ]
+}

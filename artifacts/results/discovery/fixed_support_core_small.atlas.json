@@ -1,0 +1,282 @@
+{
+  "search_id": "fixed_support_core_small",
+  "seed": 0,
+  "search_config_path": "configs/search/fixed_support_core_small.search.json",
+  "raw_candidate_count": 64,
+  "capped_candidate_count": 64,
+  "attempted_candidate_count": 64,
+  "realized_candidate_count": 4,
+  "evaluated_candidate_count": 4,
+  "class_counts": {
+    "flat": 4,
+    "dissipative": 0,
+    "coherent_candidate": 0
+  },
+  "warnings": [],
+  "candidates": [
+    {
+      "candidate_id": "cand_0000",
+      "candidate_label": "flat",
+      "candidate_spec": {
+        "search_id": "fixed_support_core_small",
+        "support_size": 2,
+        "interface_count": 2,
+        "carrier_family": "none",
+        "route_update_family": "identity_only",
+        "observable_family": "support_indicator_basis",
+        "continuation_catalog_family": "forward_only",
+        "internal_state_count": 2,
+        "history_count": 2,
+        "continuation_count": 2,
+        "loop_count": 1
+      },
+      "primary_interface_id": "i0",
+      "primary_metrics": {
+        "interface_id": "i0",
+        "history_count": 2,
+        "current_quotient_size": 2,
+        "predictive_quotient_size": 2,
+        "max_fiber_size": 1,
+        "witness_count": 0,
+        "discrepancy_metric_name": "DiscrepancyMetricName.EXACT_MAX_ABS_FUTURE_GAP",
+        "discrepancy_metric_value": 0.0,
+        "discrepancy_metric_value_exact": "0",
+        "current_loop_score": 0.0,
+        "current_loop_score_exact": "0",
+        "predictive_loop_score": 0.0,
+        "predictive_loop_score_exact": "0"
+      },
+      "interface_metrics": [
+        {
+          "interface_id": "i0",
+          "history_count": 2,
+          "current_quotient_size": 2,
+          "predictive_quotient_size": 2,
+          "max_fiber_size": 1,
+          "witness_count": 0,
+          "discrepancy_metric_name": "DiscrepancyMetricName.EXACT_MAX_ABS_FUTURE_GAP",
+          "discrepancy_metric_value": 0.0,
+          "discrepancy_metric_value_exact": "0",
+          "current_loop_score": 0.0,
+          "current_loop_score_exact": "0",
+          "predictive_loop_score": 0.0,
+          "predictive_loop_score_exact": "0"
+        },
+        {
+          "interface_id": "i1",
+          "history_count": 2,
+          "current_quotient_size": 2,
+          "predictive_quotient_size": 2,
+          "max_fiber_size": 1,
+          "witness_count": 0,
+          "discrepancy_metric_name": "DiscrepancyMetricName.EXACT_MAX_ABS_FUTURE_GAP",
+          "discrepancy_metric_value": 0.0,
+          "discrepancy_metric_value_exact": "0",
+          "current_loop_score": 0.0,
+          "current_loop_score_exact": "0",
+          "predictive_loop_score": 0.0,
+          "predictive_loop_score_exact": "0"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "candidate_id": "cand_0001",
+      "candidate_label": "flat",
+      "candidate_spec": {
+        "search_id": "fixed_support_core_small",
+        "support_size": 2,
+        "interface_count": 2,
+        "carrier_family": "none",
+        "route_update_family": "identity_only",
+        "observable_family": "coarse_support_only",
+        "continuation_catalog_family": "forward_only",
+        "internal_state_count": 2,
+        "history_count": 2,
+        "continuation_count": 2,
+        "loop_count": 1
+      },
+      "primary_interface_id": "i0",
+      "primary_metrics": {
+        "interface_id": "i0",
+        "history_count": 2,
+        "current_quotient_size": 2,
+        "predictive_quotient_size": 2,
+        "max_fiber_size": 1,
+        "witness_count": 0,
+        "discrepancy_metric_name": "DiscrepancyMetricName.EXACT_MAX_ABS_FUTURE_GAP",
+        "discrepancy_metric_value": 0.0,
+        "discrepancy_metric_value_exact": "0",
+        "current_loop_score": 0.0,
+        "current_loop_score_exact": "0",
+        "predictive_loop_score": 0.0,
+        "predictive_loop_score_exact": "0"
+      },
+      "interface_metrics": [
+        {
+          "interface_id": "i0",
+          "history_count": 2,
+          "current_quotient_size": 2,
+          "predictive_quotient_size": 2,
+          "max_fiber_size": 1,
+          "witness_count": 0,
+          "discrepancy_metric_name": "DiscrepancyMetricName.EXACT_MAX_ABS_FUTURE_GAP",
+          "discrepancy_metric_value": 0.0,
+          "discrepancy_metric_value_exact": "0",
+          "current_loop_score": 0.0,
+          "current_loop_score_exact": "0",
+          "predictive_loop_score": 0.0,
+          "predictive_loop_score_exact": "0"
+        },
+        {
+          "interface_id": "i1",
+          "history_count": 2,
+          "current_quotient_size": 2,
+          "predictive_quotient_size": 2,
+          "max_fiber_size": 1,
+          "witness_count": 0,
+          "discrepancy_metric_name": "DiscrepancyMetricName.EXACT_MAX_ABS_FUTURE_GAP",
+          "discrepancy_metric_value": 0.0,
+          "discrepancy_metric_value_exact": "0",
+          "current_loop_score": 0.0,
+          "current_loop_score_exact": "0",
+          "predictive_loop_score": 0.0,
+          "predictive_loop_score_exact": "0"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "candidate_id": "cand_0002",
+      "candidate_label": "flat",
+      "candidate_spec": {
+        "search_id": "fixed_support_core_small",
+        "support_size": 2,
+        "interface_count": 2,
+        "carrier_family": "none",
+        "route_update_family": "binary_swap",
+        "observable_family": "support_indicator_basis",
+        "continuation_catalog_family": "forward_only",
+        "internal_state_count": 2,
+        "history_count": 2,
+        "continuation_count": 2,
+        "loop_count": 1
+      },
+      "primary_interface_id": "i0",
+      "primary_metrics": {
+        "interface_id": "i0",
+        "history_count": 2,
+        "current_quotient_size": 2,
+        "predictive_quotient_size": 2,
+        "max_fiber_size": 1,
+        "witness_count": 0,
+        "discrepancy_metric_name": "DiscrepancyMetricName.EXACT_MAX_ABS_FUTURE_GAP",
+        "discrepancy_metric_value": 0.0,
+        "discrepancy_metric_value_exact": "0",
+        "current_loop_score": 0.0,
+        "current_loop_score_exact": "0",
+        "predictive_loop_score": 0.0,
+        "predictive_loop_score_exact": "0"
+      },
+      "interface_metrics": [
+        {
+          "interface_id": "i0",
+          "history_count": 2,
+          "current_quotient_size": 2,
+          "predictive_quotient_size": 2,
+          "max_fiber_size": 1,
+          "witness_count": 0,
+          "discrepancy_metric_name": "DiscrepancyMetricName.EXACT_MAX_ABS_FUTURE_GAP",
+          "discrepancy_metric_value": 0.0,
+          "discrepancy_metric_value_exact": "0",
+          "current_loop_score": 0.0,
+          "current_loop_score_exact": "0",
+          "predictive_loop_score": 0.0,
+          "predictive_loop_score_exact": "0"
+        },
+        {
+          "interface_id": "i1",
+          "history_count": 2,
+          "current_quotient_size": 2,
+          "predictive_quotient_size": 2,
+          "max_fiber_size": 1,
+          "witness_count": 0,
+          "discrepancy_metric_name": "DiscrepancyMetricName.EXACT_MAX_ABS_FUTURE_GAP",
+          "discrepancy_metric_value": 0.0,
+          "discrepancy_metric_value_exact": "0",
+          "current_loop_score": 0.0,
+          "current_loop_score_exact": "0",
+          "predictive_loop_score": 0.0,
+          "predictive_loop_score_exact": "0"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "candidate_id": "cand_0003",
+      "candidate_label": "flat",
+      "candidate_spec": {
+        "search_id": "fixed_support_core_small",
+        "support_size": 2,
+        "interface_count": 2,
+        "carrier_family": "none",
+        "route_update_family": "binary_swap",
+        "observable_family": "coarse_support_only",
+        "continuation_catalog_family": "forward_only",
+        "internal_state_count": 2,
+        "history_count": 2,
+        "continuation_count": 2,
+        "loop_count": 1
+      },
+      "primary_interface_id": "i0",
+      "primary_metrics": {
+        "interface_id": "i0",
+        "history_count": 2,
+        "current_quotient_size": 2,
+        "predictive_quotient_size": 2,
+        "max_fiber_size": 1,
+        "witness_count": 0,
+        "discrepancy_metric_name": "DiscrepancyMetricName.EXACT_MAX_ABS_FUTURE_GAP",
+        "discrepancy_metric_value": 0.0,
+        "discrepancy_metric_value_exact": "0",
+        "current_loop_score": 0.0,
+        "current_loop_score_exact": "0",
+        "predictive_loop_score": 0.0,
+        "predictive_loop_score_exact": "0"
+      },
+      "interface_metrics": [
+        {
+          "interface_id": "i0",
+          "history_count": 2,
+          "current_quotient_size": 2,
+          "predictive_quotient_size": 2,
+          "max_fiber_size": 1,
+          "witness_count": 0,
+          "discrepancy_metric_name": "DiscrepancyMetricName.EXACT_MAX_ABS_FUTURE_GAP",
+          "discrepancy_metric_value": 0.0,
+          "discrepancy_metric_value_exact": "0",
+          "current_loop_score": 0.0,
+          "current_loop_score_exact": "0",
+          "predictive_loop_score": 0.0,
+          "predictive_loop_score_exact": "0"
+        },
+        {
+          "interface_id": "i1",
+          "history_count": 2,
+          "current_quotient_size": 2,
+          "predictive_quotient_size": 2,
+          "max_fiber_size": 1,
+          "witness_count": 0,
+          "discrepancy_metric_name": "DiscrepancyMetricName.EXACT_MAX_ABS_FUTURE_GAP",
+          "discrepancy_metric_value": 0.0,
+          "discrepancy_metric_value_exact": "0",
+          "current_loop_score": 0.0,
+          "current_loop_score_exact": "0",
+          "predictive_loop_score": 0.0,
+          "predictive_loop_score_exact": "0"
+        }
+      ],
+      "warnings": []
+    }
+  ]
+}

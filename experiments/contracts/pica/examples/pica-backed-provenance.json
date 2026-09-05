@@ -1,0 +1,176 @@
+{
+  "provenance_format_version": "package-provenance.v1",
+  "package_artifact": "experiments/contracts/pica/examples/pica-backed-event-package.json",
+  "package_id": "pica_backed_demo_package",
+  "provenance_mode": "derived_from_pica_bundle",
+  "source_artifacts": {
+    "pica_bundle": "experiments/contracts/pica/examples/pica-export-bundle.json"
+  },
+  "context_entries": [
+    {
+      "context_id": "ctx_step_0",
+      "origin_kind": "pica_observable_context",
+      "source_refs": [
+        {
+          "artifact": "experiments/contracts/pica/examples/pica-export-bundle.json",
+          "source_kind": "pica_context_scope",
+          "pica_ref": {
+            "export_bundle_id": "pica_export_bundle_example_v1",
+            "campaign_id": "campaign_example_v1",
+            "run_id": "run_triadic_branch_seed123",
+            "observable_ledger_id": "observable_ledger_run_triadic_branch_seed123",
+            "closure_id": "closure_branch_record",
+            "lens_id": "lens_record_main",
+            "level_id": "level_macro",
+            "resolution_id": "resolution_macro_r1",
+            "preparation_id": "prep_default",
+            "protocol_id": "protocol_branch_hold_hold",
+            "protocol_step_id": "protocol_branch_hold_hold_step_0",
+            "step_index": 0
+          }
+        }
+      ]
+    },
+    {
+      "context_id": "ctx_step_1",
+      "origin_kind": "pica_observable_context",
+      "source_refs": [
+        {
+          "artifact": "experiments/contracts/pica/examples/pica-export-bundle.json",
+          "source_kind": "pica_context_scope",
+          "pica_ref": {
+            "export_bundle_id": "pica_export_bundle_example_v1",
+            "campaign_id": "campaign_example_v1",
+            "run_id": "run_triadic_branch_seed123",
+            "observable_ledger_id": "observable_ledger_run_triadic_branch_seed123",
+            "closure_id": "closure_branch_record",
+            "lens_id": "lens_record_main",
+            "level_id": "level_macro",
+            "resolution_id": "resolution_macro_r1",
+            "preparation_id": "prep_default",
+            "protocol_id": "protocol_branch_hold_hold",
+            "protocol_step_id": "protocol_branch_hold_hold_step_1",
+            "step_index": 1
+          }
+        }
+      ]
+    }
+  ],
+  "event_entries": [
+    {
+      "event_id": "event_step0_A",
+      "origin_kind": "pica_singleton_event",
+      "source_refs": [
+        {
+          "artifact": "experiments/contracts/pica/examples/pica-export-bundle.json",
+          "source_kind": "pica_event_row_filter",
+          "pica_ref": {
+            "export_bundle_id": "pica_export_bundle_example_v1",
+            "campaign_id": "campaign_example_v1",
+            "run_id": "run_triadic_branch_seed123",
+            "observable_ledger_id": "observable_ledger_run_triadic_branch_seed123",
+            "closure_id": "closure_branch_record",
+            "lens_id": "lens_record_main",
+            "level_id": "level_macro",
+            "resolution_id": "resolution_macro_r1",
+            "preparation_id": "prep_default",
+            "protocol_id": "protocol_branch_hold_hold",
+            "protocol_step_id": "protocol_branch_hold_hold_step_0",
+            "step_index": 0,
+            "source_row_filters": {
+              "observation_label": "obs_left_A"
+            }
+          }
+        }
+      ],
+      "source_context_id": "ctx_step_0",
+      "source_atom_ids": [
+        "atom_left_A"
+      ]
+    },
+    {
+      "event_id": "event_step1_A",
+      "origin_kind": "pica_singleton_event",
+      "source_refs": [
+        {
+          "artifact": "experiments/contracts/pica/examples/pica-export-bundle.json",
+          "source_kind": "pica_event_row_filter",
+          "pica_ref": {
+            "export_bundle_id": "pica_export_bundle_example_v1",
+            "campaign_id": "campaign_example_v1",
+            "run_id": "run_triadic_branch_seed123",
+            "observable_ledger_id": "observable_ledger_run_triadic_branch_seed123",
+            "closure_id": "closure_branch_record",
+            "lens_id": "lens_record_main",
+            "level_id": "level_macro",
+            "resolution_id": "resolution_macro_r1",
+            "preparation_id": "prep_default",
+            "protocol_id": "protocol_branch_hold_hold",
+            "protocol_step_id": "protocol_branch_hold_hold_step_1",
+            "step_index": 1,
+            "source_row_filters": {
+              "observation_label": "obs_right_A"
+            }
+          }
+        }
+      ],
+      "source_context_id": "ctx_step_1",
+      "source_atom_ids": [
+        "atom_right_A"
+      ]
+    }
+  ],
+  "proposal_entries": [
+    {
+      "proposal_id": "proposal_A_equiv",
+      "origin_kind": "pica_candidate_comparison",
+      "source_refs": [
+        {
+          "artifact": "experiments/contracts/pica/examples/pica-export-bundle.json",
+          "source_kind": "pica_left_event_scope",
+          "pica_ref": {
+            "export_bundle_id": "pica_export_bundle_example_v1",
+            "campaign_id": "campaign_example_v1",
+            "run_id": "run_triadic_branch_seed123",
+            "observable_ledger_id": "observable_ledger_run_triadic_branch_seed123",
+            "closure_id": "closure_branch_record",
+            "lens_id": "lens_record_main",
+            "level_id": "level_macro",
+            "resolution_id": "resolution_macro_r1",
+            "preparation_id": "prep_default",
+            "protocol_id": "protocol_branch_hold_hold",
+            "protocol_step_id": "protocol_branch_hold_hold_step_0",
+            "step_index": 0,
+            "source_row_filters": {
+              "observation_label": "obs_left_A"
+            }
+          }
+        },
+        {
+          "artifact": "experiments/contracts/pica/examples/pica-export-bundle.json",
+          "source_kind": "pica_right_event_scope",
+          "pica_ref": {
+            "export_bundle_id": "pica_export_bundle_example_v1",
+            "campaign_id": "campaign_example_v1",
+            "run_id": "run_triadic_branch_seed123",
+            "observable_ledger_id": "observable_ledger_run_triadic_branch_seed123",
+            "closure_id": "closure_branch_record",
+            "lens_id": "lens_record_main",
+            "level_id": "level_macro",
+            "resolution_id": "resolution_macro_r1",
+            "preparation_id": "prep_default",
+            "protocol_id": "protocol_branch_hold_hold",
+            "protocol_step_id": "protocol_branch_hold_hold_step_1",
+            "step_index": 1,
+            "source_row_filters": {
+              "observation_label": "obs_right_A"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "bridge_demo": true
+  }
+}

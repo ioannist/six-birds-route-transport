@@ -1,0 +1,62 @@
+{
+  "campaign_id": "pica_campaign_exp104_p6_row_all",
+  "closure_catalog_id": "closure_catalog_point_exp104_p6_row_all_n64_seed0__seed_0",
+  "closure_catalog_path": "experiments/instances/mechanism-axis/exp104_p6_row_all_n64_seed0/pica-closure-catalog.json",
+  "commutator_catalog_id": "commutator_catalog_point_exp104_p6_row_all_n64_seed0__seed_0",
+  "commutator_catalog_path": "experiments/instances/mechanism-axis/exp104_p6_row_all_n64_seed0/pica-commutator-catalog.json",
+  "debug_sidecars": [],
+  "enable_matrix_id": "pica_exp104_p6_row_all_matrix",
+  "flags": [
+    "adapter_export"
+  ],
+  "mechanism_family_id": "pica_exp104_family",
+  "notes": [
+    "Adapter-exported run ledger derived from one bounded runner subprocess."
+  ],
+  "observable_ledger_id": "observable_ledger_point_exp104_p6_row_all_n64_seed0__seed_0",
+  "observable_ledger_path": "experiments/instances/mechanism-axis/exp104_p6_row_all_n64_seed0/pica-observable-ledger.json",
+  "packaging_operator_catalog_id": "packaging_operator_catalog_point_exp104_p6_row_all_n64_seed0__seed_0",
+  "packaging_operator_catalog_path": "experiments/instances/mechanism-axis/exp104_p6_row_all_n64_seed0/pica-packaging-operator-catalog.json",
+  "packaging_selection_ledger_id": "packaging_selection_ledger_point_exp104_p6_row_all_n64_seed0__seed_0",
+  "packaging_selection_ledger_path": "experiments/instances/mechanism-axis/exp104_p6_row_all_n64_seed0/pica-packaging-selection-ledger.json",
+  "point_id": "point_exp104_p6_row_all_n64_seed0",
+  "preparation_id": "prep_pica_default",
+  "protocol_id": "protocol_pica_multiscale_scan",
+  "protocol_steps": [
+    {
+      "action_label": null,
+      "protocol_step_id": "protocol_pica_multiscale_scan_step_0",
+      "stage_label": "scan_k_2",
+      "step_index": 0
+    },
+    {
+      "action_label": null,
+      "protocol_step_id": "protocol_pica_multiscale_scan_step_1",
+      "stage_label": "scan_k_4",
+      "step_index": 1
+    },
+    {
+      "action_label": null,
+      "protocol_step_id": "protocol_pica_multiscale_scan_step_2",
+      "stage_label": "scan_k_8",
+      "step_index": 2
+    },
+    {
+      "action_label": null,
+      "protocol_step_id": "protocol_pica_multiscale_scan_step_3",
+      "stage_label": "scan_k_14",
+      "step_index": 3
+    },
+    {
+      "action_label": null,
+      "protocol_step_id": "protocol_pica_multiscale_scan_step_4",
+      "stage_label": "scan_k_20",
+      "step_index": 4
+    }
+  ],
+  "run_id": "point_exp104_p6_row_all_n64_seed0__seed_0",
+  "schema_version": "pica-run-ledger.v1",
+  "seed": 0,
+  "substrate_config_id": "pica_exp104_p6_row_all_n64",
+  "trajectory_count": 24
+}

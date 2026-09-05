@@ -1,0 +1,48 @@
+{
+  "comparison_config": {
+    "allow_relax_hard": true,
+    "hard_proposal_relax_weight": 1.0,
+    "include_rm": true,
+    "rm_material_decrease_min": 0.25
+  },
+  "completion_policy": {
+    "after_protocol_id": "branch_hold_settle",
+    "append_action_id": "settle",
+    "append_repetitions": 1
+  },
+  "discovery_thresholds": {
+    "batch_count": 2,
+    "max_batch_tv": 0.4,
+    "max_persistence_flip_rate": null,
+    "min_atom_count": 2,
+    "min_atom_support_count": 2,
+    "min_atom_support_fraction": 0.0,
+    "min_coverage": 0.9,
+    "min_trajectory_count": 10
+  },
+  "intervention_format_version": "flattening-intervention.v1",
+  "intervention_id": "flattening_completion_branch",
+  "metadata": {
+    "purpose": "compact_flattening_completion_example"
+  },
+  "before_protocol_id": "branch_only",
+  "preparation_id": "prep0",
+  "route_extraction": {
+    "after_endpoint_step_index": 1,
+    "before_endpoint_step_index": 0,
+    "endpoint_id": "endpoint_outcome",
+    "endpoint_lens_id": "endpoint",
+    "route_lens_id": "route_marker",
+    "route_step_index": 0
+  },
+  "seed": 2,
+  "shared_event_inference_thresholds": {
+    "exact_tolerance": 1e-06,
+    "max_mean_tv": 0.15,
+    "min_common_probes": 1,
+    "min_conditioning_count": 3,
+    "proposal_constraint_kind": "soft"
+  },
+  "source_config_artifact": "experiments/configs/substrates/flattenable-branch.json",
+  "trajectory_count": 20
+}

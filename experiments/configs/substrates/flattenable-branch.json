@@ -1,0 +1,132 @@
+{
+  "config_format_version": "substrate-config.v1",
+  "config_id": "cfg_flattenable_branch",
+  "states": [
+    {
+      "state_id": "origin"
+    },
+    {
+      "state_id": "left"
+    },
+    {
+      "state_id": "right"
+    },
+    {
+      "state_id": "flat"
+    }
+  ],
+  "preparations": [
+    {
+      "preparation_id": "prep0",
+      "distribution": {
+        "origin": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "action_id": "branch",
+      "transition_kernel": {
+        "flat": {
+          "flat": 1.0
+        },
+        "left": {
+          "left": 1.0
+        },
+        "origin": {
+          "left": 0.5,
+          "right": 0.5
+        },
+        "right": {
+          "right": 1.0
+        }
+      }
+    },
+    {
+      "action_id": "hold",
+      "transition_kernel": {
+        "flat": {
+          "flat": 1.0
+        },
+        "left": {
+          "left": 1.0
+        },
+        "origin": {
+          "origin": 1.0
+        },
+        "right": {
+          "right": 1.0
+        }
+      }
+    },
+    {
+      "action_id": "settle",
+      "transition_kernel": {
+        "flat": {
+          "flat": 1.0
+        },
+        "left": {
+          "flat": 1.0
+        },
+        "origin": {
+          "origin": 1.0
+        },
+        "right": {
+          "flat": 1.0
+        }
+      }
+    }
+  ],
+  "lenses": [
+    {
+      "lens_id": "route_marker",
+      "readout_map": {
+        "flat": "settled",
+        "left": "route_left",
+        "origin": "origin",
+        "right": "route_right"
+      }
+    },
+    {
+      "lens_id": "endpoint",
+      "readout_map": {
+        "flat": "stable",
+        "left": "cold",
+        "origin": "origin",
+        "right": "hot"
+      }
+    },
+    {
+      "lens_id": "alias",
+      "readout_map": {
+        "flat": "joined",
+        "left": "alpha",
+        "origin": "origin",
+        "right": "beta"
+      }
+    }
+  ],
+  "protocols": [
+    {
+      "protocol_id": "branch_only",
+      "action_ids": [
+        "branch"
+      ]
+    },
+    {
+      "protocol_id": "branch_hold",
+      "action_ids": [
+        "branch",
+        "hold"
+      ]
+    }
+  ],
+  "defaults": {
+    "trajectory_count": 20,
+    "seed": 123
+  },
+  "metadata": {
+    "mode": "stochastic",
+    "purpose": "flattening_intervention_example"
+  }
+}

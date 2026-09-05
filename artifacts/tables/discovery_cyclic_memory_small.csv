@@ -1,0 +1,9 @@
+search_id,candidate_id,support_size,interface_count,carrier_family,route_update_family,observable_family,continuation_catalog_family,internal_state_count,history_count,continuation_count,loop_count,primary_interface_id,primary_current_quotient_size,primary_predictive_quotient_size,primary_max_fiber_size,primary_witness_count,primary_discrepancy_metric_value,primary_current_loop_score,primary_predictive_loop_score,class_label
+cyclic_memory_small,cand_0000,2,2,cyclic_z2,binary_swap,support_indicator_basis,forward_plus_loop,4,2,2,1,i0,1,2,2,1,1.0,0.0,1.0,coherent_candidate
+cyclic_memory_small,cand_0001,2,2,cyclic_z2,binary_swap,support_indicator_basis,two_step_with_loop,4,2,2,1,i0,1,2,2,1,1.0,0.0,1.0,coherent_candidate
+cyclic_memory_small,cand_0002,2,2,cyclic_z2,cyclic_shift,support_indicator_basis,forward_plus_loop,4,2,2,1,i0,1,2,2,1,1.0,0.0,1.0,coherent_candidate
+cyclic_memory_small,cand_0003,2,2,cyclic_z2,cyclic_shift,support_indicator_basis,two_step_with_loop,4,2,2,1,i0,1,2,2,1,1.0,0.0,1.0,coherent_candidate
+cyclic_memory_small,cand_0004,2,2,cyclic_z3,binary_swap,support_indicator_basis,forward_plus_loop,6,2,2,1,i0,1,2,2,1,1.0,0.0,1.0,coherent_candidate
+cyclic_memory_small,cand_0005,2,2,cyclic_z3,binary_swap,support_indicator_basis,two_step_with_loop,6,2,2,1,i0,1,2,2,1,1.0,0.0,1.0,coherent_candidate
+cyclic_memory_small,cand_0006,2,2,cyclic_z3,cyclic_shift,support_indicator_basis,forward_plus_loop,6,2,2,1,i0,1,2,2,1,1.0,0.0,1.0,coherent_candidate
+cyclic_memory_small,cand_0007,2,2,cyclic_z3,cyclic_shift,support_indicator_basis,two_step_with_loop,6,2,2,1,i0,1,2,2,1,1.0,0.0,1.0,coherent_candidate

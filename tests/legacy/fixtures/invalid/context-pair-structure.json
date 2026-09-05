@@ -1,0 +1,47 @@
+{
+  "structure_format_version": "context-pair-structure.v1",
+  "search_id": "pica_closure_diverse_demo",
+  "row_count": 1,
+  "rows": [
+    {
+      "point_id": "point_demo",
+      "preparation_id": "prep_pica_default",
+      "protocol_id": "protocol_pica_multiscale_scan",
+      "left": {
+        "context_id": "macro__ctx_left",
+        "level_id": "level_l0",
+        "resolution_id": "resolution_k_4",
+        "closure_id": "closure_a",
+        "lens_id": "lens_a",
+        "protocol_step_id": "protocol_step_1",
+        "step_index": 1,
+        "projection_id": "macro",
+        "projection_field": "macro_gap"
+      },
+      "right": {
+        "context_id": "frob__ctx_right",
+        "level_id": "level_l0",
+        "resolution_id": "resolution_k_4",
+        "closure_id": "closure_b",
+        "lens_id": "lens_b",
+        "protocol_step_id": "protocol_step_1",
+        "step_index": 1,
+        "projection_id": "frob",
+        "projection_field": "frob"
+      },
+      "relation_type": "incomparable",
+      "shared_row_count": -1,
+      "left_assignment_count": 4,
+      "right_assignment_count": 4,
+      "left_block_count": 3,
+      "right_block_count": 3,
+      "same_step": true,
+      "flags": [
+        "non_nested"
+      ]
+    }
+  ],
+  "metadata": {
+    "point_count": 1
+  }
+}

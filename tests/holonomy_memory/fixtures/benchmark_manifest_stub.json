@@ -1,0 +1,18 @@
+{
+  "schema_version": "benchmark-manifest.v1",
+  "benchmark_id": "benchmark_stub",
+  "transport_package_ref": "tests/holonomy_memory/fixtures/route_transport_package_stub.json",
+  "interfaces_to_measure": [
+    "i0",
+    "i1"
+  ],
+  "loops_to_test": [
+    "l0"
+  ],
+  "completion_manifest_ref": "tests/holonomy_memory/fixtures/completion_manifest_stub.json",
+  "currentization_manifest_ref": "tests/holonomy_memory/fixtures/currentization_manifest_stub.json",
+  "perturbation_sweep_ref": "tests/holonomy_memory/fixtures/perturbation_sweep_stub.json",
+  "tags": [
+    "stub"
+  ]
+}

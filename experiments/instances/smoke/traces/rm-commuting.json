@@ -1,0 +1,50 @@
+{
+  "instance_artifact": "experiments/instances/smoke/exact-extendable.json",
+  "instance_id": "inst_smoke_exact_extendable",
+  "metadata": {
+    "mode": "rm_commuting"
+  },
+  "observations": [
+    {
+      "atom_ids": [
+        "a0"
+      ],
+      "context_id": "ctx_a",
+      "count": 1
+    }
+  ],
+  "route_observations": [
+    {
+      "preparation_id": "prep_alpha",
+      "route_id": "route_left",
+      "endpoint_id": "endpoint_readout",
+      "context_id": "ctx_a",
+      "outcome_counts": {
+        "x0": 8,
+        "x1": 2
+      }
+    },
+    {
+      "preparation_id": "prep_alpha",
+      "route_id": "route_right",
+      "endpoint_id": "endpoint_readout",
+      "context_id": "ctx_a",
+      "outcome_counts": {
+        "x0": 8,
+        "x1": 2
+      }
+    },
+    {
+      "macrostate_id": "macro_beta",
+      "route_id": "route_left",
+      "endpoint_id": "endpoint_readout",
+      "context_id": "ctx_a",
+      "outcome_counts": {
+        "x0": 5,
+        "x1": 5
+      }
+    }
+  ],
+  "trace_format_version": "observation-trace.v1",
+  "trace_id": "trace_rm_commuting"
+}

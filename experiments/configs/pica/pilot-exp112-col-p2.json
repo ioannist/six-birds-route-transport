@@ -1,0 +1,43 @@
+{
+  "schema_version": "pica-pilot-campaign.v1",
+  "pilot_campaign_id": "pica_pilot_exp112_col_p2",
+  "pilot_label": "exp112_col_p2_bounded_wrapper_run",
+  "source_config_path": "experiments/configs/pica/pilot-exp112-col-p2.json",
+  "invocation": {
+    "vendor_root": "vendor/six-birds-pica",
+    "manifest_path": "vendor/six-birds-pica/Cargo.toml",
+    "command_mode": "cargo_runner_release",
+    "cargo_target_dir": ".cache/pica-target",
+    "binary_name": "runner"
+  },
+  "run_settings": {
+    "exp_id": "EXP-112",
+    "config_name": "col_P2",
+    "seed": 0,
+    "scale": 32,
+    "timeout_seconds": 120
+  },
+  "export_settings": {
+    "export_mode": "adapter_export",
+    "artifact_output_mode": "run_dir",
+    "path_policy": "repo_relative",
+    "adapter_mode": "key_audit_json_adapter_v1"
+  },
+  "campaign_id": "pica_campaign_exp112_col_p2",
+  "campaign_label": "exp112_col_p2_adapter_campaign",
+  "point_id": "point_exp112_col_p2_seed0",
+  "substrate_config_id": "pica_exp112_col_p2",
+  "mechanism_family_id": "pica_exp112_family",
+  "enable_matrix_id": "pica_exp112_col_p2_matrix",
+  "preparation_id": "prep_pica_default",
+  "protocol_id": "protocol_pica_multiscale_scan",
+  "notes": [
+    "Thin wrapper pilot over vendor/six-birds-pica EXP-112 col_P2.",
+    "Used in the bounded T41 targeted obstruction campaign."
+  ],
+  "flags": [
+    "bounded",
+    "adapter_export",
+    "targeted_t41"
+  ]
+}

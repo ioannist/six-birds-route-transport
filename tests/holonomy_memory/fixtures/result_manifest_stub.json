@@ -1,0 +1,30 @@
+{
+  "schema_version": "benchmark-result-manifest.v1",
+  "manifest_id": "result_manifest_stub",
+  "benchmark_id": "benchmark_stub",
+  "records": [
+    {
+      "benchmark_id": "benchmark_stub",
+      "interface_id": "i0",
+      "history_count": 1,
+      "current_quotient_size": 2,
+      "predictive_quotient_size": 2,
+      "witness_count": 1,
+      "max_fiber_size": 1,
+      "discrepancy_metric_name": "exact_max_abs_future_gap",
+      "discrepancy_metric_value": 0.0,
+      "loop_action_score_current_quotient": 0.0,
+      "loop_action_score_predictive_quotient": 0.0,
+      "support_fixation_status": "passed",
+      "currentization_status": "passed",
+      "flattening_status": "passed",
+      "robustness_fraction": 1.0,
+      "class_label": "coherent_candidate",
+      "runtime": 0.01,
+      "seed": 0
+    }
+  ],
+  "tags": [
+    "stub"
+  ]
+}

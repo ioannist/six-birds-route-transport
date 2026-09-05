@@ -1,0 +1,194 @@
+{
+  "schema_version": "route-transport-package.v1",
+  "package_id": "toy_memory_loop",
+  "support": {
+    "support_id": "memory_loop_support",
+    "visible_support_labels": [
+      "A",
+      "B"
+    ],
+    "same_support_required": true
+  },
+  "state_space": {
+    "internal_state_ids": [
+      "m0",
+      "m1",
+      "eA",
+      "eB"
+    ],
+    "support_projection": {
+      "m0": "A",
+      "m1": "A",
+      "eA": "A",
+      "eB": "B"
+    }
+  },
+  "interfaces": [
+    {
+      "interface_id": "src"
+    },
+    {
+      "interface_id": "mid"
+    },
+    {
+      "interface_id": "end"
+    }
+  ],
+  "event_packages": [
+    {
+      "package_id": "mid_events",
+      "interface_id": "mid",
+      "events": [
+        {
+          "event_id": "indicator_A",
+          "weights": {
+            "A": 1,
+            "B": 0
+          }
+        }
+      ]
+    },
+    {
+      "package_id": "end_events",
+      "interface_id": "end",
+      "events": [
+        {
+          "event_id": "indicator_B",
+          "weights": {
+            "A": 0,
+            "B": 1
+          }
+        }
+      ]
+    }
+  ],
+  "histories": [
+    {
+      "history_id": "h_mid_0",
+      "source_interface_id": "src",
+      "target_interface_id": "mid",
+      "probabilities": {
+        "m0": 1
+      }
+    },
+    {
+      "history_id": "h_mid_1",
+      "source_interface_id": "src",
+      "target_interface_id": "mid",
+      "probabilities": {
+        "m1": 1
+      }
+    },
+    {
+      "history_id": "h_end_A",
+      "source_interface_id": "mid",
+      "target_interface_id": "end",
+      "probabilities": {
+        "eA": 1
+      }
+    },
+    {
+      "history_id": "h_end_B",
+      "source_interface_id": "mid",
+      "target_interface_id": "end",
+      "probabilities": {
+        "eB": 1
+      }
+    }
+  ],
+  "continuations": [
+    {
+      "continuation_id": "to_end",
+      "source_interface_id": "mid",
+      "target_interface_id": "end",
+      "kernel": {
+        "m0": {
+          "eA": 1
+        },
+        "m1": {
+          "eB": 1
+        },
+        "eA": {
+          "eA": 1
+        },
+        "eB": {
+          "eB": 1
+        }
+      }
+    },
+    {
+      "continuation_id": "id_mid",
+      "source_interface_id": "mid",
+      "target_interface_id": "mid",
+      "kernel": {
+        "m0": {
+          "m0": 1
+        },
+        "m1": {
+          "m1": 1
+        },
+        "eA": {
+          "eA": 1
+        },
+        "eB": {
+          "eB": 1
+        }
+      }
+    },
+    {
+      "continuation_id": "swap_mid",
+      "source_interface_id": "mid",
+      "target_interface_id": "mid",
+      "kernel": {
+        "m0": {
+          "m1": 1
+        },
+        "m1": {
+          "m0": 1
+        },
+        "eA": {
+          "eA": 1
+        },
+        "eB": {
+          "eB": 1
+        }
+      }
+    },
+    {
+      "continuation_id": "id_end",
+      "source_interface_id": "end",
+      "target_interface_id": "end",
+      "kernel": {
+        "m0": {
+          "m0": 1
+        },
+        "m1": {
+          "m1": 1
+        },
+        "eA": {
+          "eA": 1
+        },
+        "eB": {
+          "eB": 1
+        }
+      }
+    }
+  ],
+  "loops": [
+    {
+      "loop_id": "id_mid",
+      "interface_id": "mid",
+      "continuation_id": "id_mid"
+    },
+    {
+      "loop_id": "swap_mid",
+      "interface_id": "mid",
+      "continuation_id": "swap_mid"
+    },
+    {
+      "loop_id": "id_end",
+      "interface_id": "end",
+      "continuation_id": "id_end"
+    }
+  ]
+}

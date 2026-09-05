@@ -1,0 +1,39 @@
+{
+  "campaign_id": "pica_campaign_exp120_discovery_grade",
+  "campaign_label": "exp120_discovery_grade_campaign",
+  "flags": [
+    "adapter_export"
+  ],
+  "mechanism_summary": {
+    "enable_matrix_id": "pica_exp120_discovery_grade_matrix",
+    "mechanism_family_id": "pica_exp100_family",
+    "substrate_config_id": "pica_exp120_discovery_grade"
+  },
+  "notes": [
+    "Adapter-exported campaign created by the thin PICA pilot wrapper."
+  ],
+  "path_policy": "repo_relative",
+  "point_inventory": [
+    {
+      "enable_matrix_id": "pica_exp120_discovery_grade_matrix",
+      "mechanism_family_id": "pica_exp100_family",
+      "point_id": "point_exp120_discovery_grade_seed0",
+      "preparation_id": "prep_pica_default",
+      "protocol_id": "protocol_pica_multiscale_scan",
+      "run_id": "point_exp120_discovery_grade_seed0__seed_0",
+      "seed": 0,
+      "substrate_config_id": "pica_exp120_discovery_grade"
+    }
+  ],
+  "run_inventory": [
+    {
+      "closure_catalog_path": "experiments/contracts/pica/pilot/exp120_discovery_grade/pica-closure-catalog.json",
+      "observable_ledger_path": "experiments/contracts/pica/pilot/exp120_discovery_grade/pica-observable-ledger.json",
+      "point_id": "point_exp120_discovery_grade_seed0",
+      "run_id": "point_exp120_discovery_grade_seed0__seed_0",
+      "run_ledger_path": "experiments/contracts/pica/pilot/exp120_discovery_grade/pica-run-ledger.json"
+    }
+  ],
+  "schema_version": "pica-campaign-export.v1",
+  "source_config_path": "experiments/configs/pica/pilot-discovery-grade.json"
+}

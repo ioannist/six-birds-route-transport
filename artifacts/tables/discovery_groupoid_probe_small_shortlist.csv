@@ -1,0 +1,4 @@
+search_id,candidate_id,class_label,primary_interface_id,primary_witness_count,primary_discrepancy_metric_value,primary_predictive_loop_score,robustness_proxy_fraction,selected_by_discrepancy,selected_by_predictive_loop,selected_by_robustness_proxy
+groupoid_probe_small,cand_0000,coherent_candidate,i0,1,1.0,0.0,0.0,true,false,true
+groupoid_probe_small,cand_0001,coherent_candidate,i0,1,1.0,0.0,0.0,true,false,true
+groupoid_probe_small,cand_0004,coherent_candidate,i0,1,1.0,0.0,0.0,true,false,true

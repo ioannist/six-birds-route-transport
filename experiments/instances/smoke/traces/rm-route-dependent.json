@@ -1,0 +1,48 @@
+{
+  "instance_artifact": "experiments/instances/smoke/exact-extendable.json",
+  "instance_id": "inst_smoke_exact_extendable",
+  "metadata": {
+    "mode": "rm_route_dependent"
+  },
+  "observations": [
+    {
+      "atom_ids": [
+        "a1"
+      ],
+      "context_id": "ctx_a",
+      "count": 1
+    }
+  ],
+  "route_observations": [
+    {
+      "preparation_id": "prep_alpha",
+      "route_id": "route_left",
+      "endpoint_id": "endpoint_readout",
+      "context_id": "ctx_a",
+      "outcome_probabilities": {
+        "x0": 0.9,
+        "x1": 0.1
+      }
+    },
+    {
+      "preparation_id": "prep_alpha",
+      "route_id": "route_right",
+      "endpoint_id": "endpoint_readout",
+      "context_id": "ctx_a",
+      "outcome_probabilities": {
+        "x0": 0.2,
+        "x1": 0.8
+      }
+    },
+    {
+      "macrostate_id": "macro_gamma",
+      "route_id": "route_single",
+      "endpoint_id": "endpoint_record",
+      "outcome_probabilities": {
+        "r0": 1.0
+      }
+    }
+  ],
+  "trace_format_version": "observation-trace.v1",
+  "trace_id": "trace_rm_route_dependent"
+}

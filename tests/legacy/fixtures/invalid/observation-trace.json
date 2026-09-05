@@ -1,0 +1,15 @@
+{
+  "trace_format_version": "observation-trace.v1",
+  "trace_id": "trace_bad_001",
+  "observations": [],
+  "downstream_probes": [
+    {
+      "probe_id": "probe_001",
+      "signature": "sig:bad"
+    },
+    {
+      "probe_id": "probe_001",
+      "signature": "sig:bad-duplicate"
+    }
+  ]
+}

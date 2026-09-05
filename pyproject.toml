@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sixbirds-route-transport"
+version = "0.0.0"
+description = "Six Birds route-transport scaffold"
+requires-python = ">=3.10"
+dependencies = [
+  "pydantic>=2.7,<3",
+  "scipy>=1.11,<2",
+]
+
+[project.optional-dependencies]
+dev = [
+  "matplotlib>=3.7,<4",
+  "pytest>=8.0",
+  "ruff>=0.6.0",
+]
+
+[project.scripts]
+sixbirds-event = "sixbirds_event.cli:main"
+holonomy-memory = "holonomy_memory.cli:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests/holonomy_memory"]
+
+[tool.ruff]
+line-length = 88
+target-version = "py310"
+extend-exclude = ["lean/.lake", "vendor/six-birds-pica"]

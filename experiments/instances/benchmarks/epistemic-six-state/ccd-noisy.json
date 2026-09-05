@@ -1,0 +1,76 @@
+{
+  "instance_artifact": "experiments/instances/benchmarks/epistemic-six-state/instance.json",
+  "instance_id": "inst_epistemic_six_state",
+  "metadata": {
+    "benchmark_id": "epistemic-six-state",
+    "mode": "ccd_noisy"
+  },
+  "observations": [
+    {
+      "context_id": "ctx_a",
+      "atom_ids": [
+        "a0"
+      ],
+      "count": 1
+    }
+  ],
+  "repeated_read_sequences": [
+    {
+      "context_id": "ctx_a",
+      "reads": [
+        [
+          "a0"
+        ],
+        [
+          "a0",
+          "a1"
+        ],
+        [],
+        [
+          "a1"
+        ],
+        [
+          "a0"
+        ]
+      ]
+    },
+    {
+      "context_id": "ctx_b",
+      "reads": [
+        [
+          "b1"
+        ],
+        [
+          "b2"
+        ],
+        [
+          "b1"
+        ],
+        [
+          "b2"
+        ]
+      ]
+    },
+    {
+      "context_id": "ctx_c",
+      "reads": [
+        [
+          "c2"
+        ],
+        [],
+        [
+          "c1"
+        ],
+        [
+          "c2"
+        ],
+        [
+          "c1",
+          "c2"
+        ]
+      ]
+    }
+  ],
+  "trace_format_version": "observation-trace.v1",
+  "trace_id": "trace_epistemic_six_state_ccd_noisy"
+}

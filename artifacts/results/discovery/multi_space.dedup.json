@@ -1,0 +1,258 @@
+{
+  "seed": 0,
+  "source_search_ids": [
+    "fixed_support_core_small",
+    "cyclic_memory_small",
+    "groupoid_probe_small"
+  ],
+  "ordered_shortlisted_candidate_ids_audited": [
+    "cyclic_memory_small:cand_0000",
+    "cyclic_memory_small:cand_0001",
+    "cyclic_memory_small:cand_0002",
+    "cyclic_memory_small:cand_0006",
+    "groupoid_probe_small:cand_0000",
+    "groupoid_probe_small:cand_0001",
+    "groupoid_probe_small:cand_0004"
+  ],
+  "total_shortlisted_candidate_count": 7,
+  "unique_exemplar_count": 7,
+  "cluster_counts_by_kind": {
+    "exact_duplicate": 0,
+    "near_duplicate": 0,
+    "singleton": 7
+  },
+  "clusters": [
+    {
+      "cluster_id": "cluster_000",
+      "match_kind": "singleton",
+      "exemplar_candidate_id": "cand_0000",
+      "exemplar_search_id": "cyclic_memory_small",
+      "member_candidate_ids": [
+        "cand_0000"
+      ],
+      "member_search_ids": [
+        "cyclic_memory_small"
+      ],
+      "cluster_size": 1,
+      "shared_structural_signature": {
+        "support_size": 2,
+        "interface_count": 2,
+        "carrier_family": "cyclic_z2",
+        "route_update_family": "binary_swap",
+        "observable_family": "support_indicator_basis",
+        "continuation_catalog_family": "forward_plus_loop"
+      },
+      "coarse_metric_summary": {
+        "class_label": "coherent_candidate",
+        "primary_interface_id": "i0",
+        "primary_current_quotient_size": 1,
+        "primary_predictive_quotient_size": 2,
+        "primary_max_fiber_size": 2,
+        "primary_witness_count": 1,
+        "discrepancy_positive": true,
+        "predictive_loop_positive": true,
+        "current_loop_zero": true
+      },
+      "notes": []
+    },
+    {
+      "cluster_id": "cluster_001",
+      "match_kind": "singleton",
+      "exemplar_candidate_id": "cand_0001",
+      "exemplar_search_id": "cyclic_memory_small",
+      "member_candidate_ids": [
+        "cand_0001"
+      ],
+      "member_search_ids": [
+        "cyclic_memory_small"
+      ],
+      "cluster_size": 1,
+      "shared_structural_signature": {
+        "support_size": 2,
+        "interface_count": 2,
+        "carrier_family": "cyclic_z2",
+        "route_update_family": "binary_swap",
+        "observable_family": "support_indicator_basis",
+        "continuation_catalog_family": "two_step_with_loop"
+      },
+      "coarse_metric_summary": {
+        "class_label": "coherent_candidate",
+        "primary_interface_id": "i0",
+        "primary_current_quotient_size": 1,
+        "primary_predictive_quotient_size": 2,
+        "primary_max_fiber_size": 2,
+        "primary_witness_count": 1,
+        "discrepancy_positive": true,
+        "predictive_loop_positive": true,
+        "current_loop_zero": true
+      },
+      "notes": []
+    },
+    {
+      "cluster_id": "cluster_002",
+      "match_kind": "singleton",
+      "exemplar_candidate_id": "cand_0002",
+      "exemplar_search_id": "cyclic_memory_small",
+      "member_candidate_ids": [
+        "cand_0002"
+      ],
+      "member_search_ids": [
+        "cyclic_memory_small"
+      ],
+      "cluster_size": 1,
+      "shared_structural_signature": {
+        "support_size": 2,
+        "interface_count": 2,
+        "carrier_family": "cyclic_z2",
+        "route_update_family": "cyclic_shift",
+        "observable_family": "support_indicator_basis",
+        "continuation_catalog_family": "forward_plus_loop"
+      },
+      "coarse_metric_summary": {
+        "class_label": "coherent_candidate",
+        "primary_interface_id": "i0",
+        "primary_current_quotient_size": 1,
+        "primary_predictive_quotient_size": 2,
+        "primary_max_fiber_size": 2,
+        "primary_witness_count": 1,
+        "discrepancy_positive": true,
+        "predictive_loop_positive": true,
+        "current_loop_zero": true
+      },
+      "notes": []
+    },
+    {
+      "cluster_id": "cluster_003",
+      "match_kind": "singleton",
+      "exemplar_candidate_id": "cand_0006",
+      "exemplar_search_id": "cyclic_memory_small",
+      "member_candidate_ids": [
+        "cand_0006"
+      ],
+      "member_search_ids": [
+        "cyclic_memory_small"
+      ],
+      "cluster_size": 1,
+      "shared_structural_signature": {
+        "support_size": 2,
+        "interface_count": 2,
+        "carrier_family": "cyclic_z3",
+        "route_update_family": "cyclic_shift",
+        "observable_family": "support_indicator_basis",
+        "continuation_catalog_family": "forward_plus_loop"
+      },
+      "coarse_metric_summary": {
+        "class_label": "coherent_candidate",
+        "primary_interface_id": "i0",
+        "primary_current_quotient_size": 1,
+        "primary_predictive_quotient_size": 2,
+        "primary_max_fiber_size": 2,
+        "primary_witness_count": 1,
+        "discrepancy_positive": true,
+        "predictive_loop_positive": true,
+        "current_loop_zero": true
+      },
+      "notes": []
+    },
+    {
+      "cluster_id": "cluster_004",
+      "match_kind": "singleton",
+      "exemplar_candidate_id": "cand_0000",
+      "exemplar_search_id": "groupoid_probe_small",
+      "member_candidate_ids": [
+        "cand_0000"
+      ],
+      "member_search_ids": [
+        "groupoid_probe_small"
+      ],
+      "cluster_size": 1,
+      "shared_structural_signature": {
+        "support_size": 2,
+        "interface_count": 2,
+        "carrier_family": "cyclic_z2",
+        "route_update_family": "binary_swap",
+        "observable_family": "support_indicator_basis",
+        "continuation_catalog_family": "forward_plus_loop"
+      },
+      "coarse_metric_summary": {
+        "class_label": "coherent_candidate",
+        "primary_interface_id": "i0",
+        "primary_current_quotient_size": 2,
+        "primary_predictive_quotient_size": 3,
+        "primary_max_fiber_size": 2,
+        "primary_witness_count": 1,
+        "discrepancy_positive": true,
+        "predictive_loop_positive": false,
+        "current_loop_zero": true
+      },
+      "notes": []
+    },
+    {
+      "cluster_id": "cluster_005",
+      "match_kind": "singleton",
+      "exemplar_candidate_id": "cand_0001",
+      "exemplar_search_id": "groupoid_probe_small",
+      "member_candidate_ids": [
+        "cand_0001"
+      ],
+      "member_search_ids": [
+        "groupoid_probe_small"
+      ],
+      "cluster_size": 1,
+      "shared_structural_signature": {
+        "support_size": 2,
+        "interface_count": 2,
+        "carrier_family": "cyclic_z2",
+        "route_update_family": "binary_swap",
+        "observable_family": "paired_partition",
+        "continuation_catalog_family": "forward_plus_loop"
+      },
+      "coarse_metric_summary": {
+        "class_label": "coherent_candidate",
+        "primary_interface_id": "i0",
+        "primary_current_quotient_size": 2,
+        "primary_predictive_quotient_size": 3,
+        "primary_max_fiber_size": 2,
+        "primary_witness_count": 1,
+        "discrepancy_positive": true,
+        "predictive_loop_positive": false,
+        "current_loop_zero": true
+      },
+      "notes": []
+    },
+    {
+      "cluster_id": "cluster_006",
+      "match_kind": "singleton",
+      "exemplar_candidate_id": "cand_0004",
+      "exemplar_search_id": "groupoid_probe_small",
+      "member_candidate_ids": [
+        "cand_0004"
+      ],
+      "member_search_ids": [
+        "groupoid_probe_small"
+      ],
+      "cluster_size": 1,
+      "shared_structural_signature": {
+        "support_size": 2,
+        "interface_count": 2,
+        "carrier_family": "pair_groupoid_2",
+        "route_update_family": "binary_swap",
+        "observable_family": "support_indicator_basis",
+        "continuation_catalog_family": "forward_plus_loop"
+      },
+      "coarse_metric_summary": {
+        "class_label": "coherent_candidate",
+        "primary_interface_id": "i0",
+        "primary_current_quotient_size": 2,
+        "primary_predictive_quotient_size": 3,
+        "primary_max_fiber_size": 2,
+        "primary_witness_count": 1,
+        "discrepancy_positive": true,
+        "predictive_loop_positive": false,
+        "current_loop_zero": true
+      },
+      "notes": []
+    }
+  ],
+  "warnings": []
+}

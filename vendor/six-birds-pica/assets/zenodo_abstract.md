@@ -1,0 +1,7 @@
+We study emergence of macroscopic lawfulness in a minimal stochastic substrate defined on a finite state space *Z* with a time-dependent micro kernel *P*. A closure interaction algebra composed of six primitives is specified by an enable matrix **E** ∈ {0,1}^(6×6), yielding up to 36 directed actor←informant interactions that (i) rewrite and gate the micro kernel, (ii) adapt timescale τ, (iii) select coarse-graining lenses *f*:*Z*→*X* and packagings, and (iv) impose accounting constraints. For a given (τ, *f*) we construct an induced macro kernel **P̂** = P^X_(τ,f) and the associated empirical endomap E_(τ,f), and we audit multiscale behavior along a resolution ladder *k* = |*X*|.
+
+Across a manifest-defined campaign union spanning four micro sizes *n* ∈ {32, 64, 128, 256} (2307 runs total), combining an exhaustive ablation suite for *n* ≤ 128 with a computationally motivated scaling suite at *n* = 256, we find robust, resolution-dependent signatures reminiscent of geometry and stochastic thermodynamics, including least-action dominance, diffusion-consistent embeddings, and non-equilibrium time-asymmetry.
+
+Beyond these substrate-specific results, the Primitive Interaction Closure Algebra (PICA) provides a reusable, implementation-independent object for specifying and comparing closure mechanisms in other emergent systems.
+
+**Keywords:** Emergence; Coarse-graining; Markov; Thermodynamics; Irreversibility; Spectral; Diffusion

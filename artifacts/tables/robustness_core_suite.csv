@@ -1,0 +1,8 @@
+benchmark_id,predicate_name,trial_count,pass_count,survival_fraction,threshold,meets_threshold
+flat_control,flat_cleared,20,20,1.0,0.95,true
+protocol_trap_honest,honest_trap_cleared,20,20,1.0,0.95,true
+flattenable_completed,completed_collapsed,20,20,1.0,0.8,true
+latent_memory_base,explicit_latent_base_retains_witness,20,20,1.0,0.8,true
+latent_memory_refined,explicit_latent_refined_dissolves,20,20,1.0,0.8,true
+dissipative_memory,dissipative_persists,20,20,1.0,0.8,true
+memory_wheel,memory_wheel_persists,20,20,1.0,0.8,true

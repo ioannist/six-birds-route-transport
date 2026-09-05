@@ -1,0 +1,381 @@
+{
+  "audit": {
+    "checksum": null,
+    "created_at": "2026-03-29T00:00:00Z",
+    "created_by": null,
+    "source": null
+  },
+  "contexts": [
+    {
+      "atoms": [
+        {
+          "atom_id": "atom_group_1_1",
+          "label": "group_1"
+        },
+        {
+          "atom_id": "atom_group_12_2",
+          "label": "group_12"
+        },
+        {
+          "atom_id": "atom_group_13_3",
+          "label": "group_13"
+        },
+        {
+          "atom_id": "atom_group_14_4",
+          "label": "group_14"
+        },
+        {
+          "atom_id": "atom_group_15_5",
+          "label": "group_15"
+        },
+        {
+          "atom_id": "atom_group_16_6",
+          "label": "group_16"
+        },
+        {
+          "atom_id": "atom_group_18_7",
+          "label": "group_18"
+        },
+        {
+          "atom_id": "atom_group_19_8",
+          "label": "group_19"
+        },
+        {
+          "atom_id": "atom_group_4_9",
+          "label": "group_4"
+        },
+        {
+          "atom_id": "atom_group_6_10",
+          "label": "group_6"
+        },
+        {
+          "atom_id": "atom_group_7_11",
+          "label": "group_7"
+        }
+      ],
+      "context_id": "ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_20_closure_p6_row_all_k_20_lens_p4_k_20_protocol_pica_multiscale_scan_step_4__proj_obs_primary",
+      "label": "prep_pica_default/protocol_pica_multiscale_scan/level_l0/resolution_k_20/closure_P6_row_all_k_20/lens_p4_k_20/protocol_pica_multiscale_scan_step_4"
+    },
+    {
+      "atoms": [
+        {
+          "atom_id": "atom_package_1_1",
+          "label": "package_1"
+        },
+        {
+          "atom_id": "atom_package_10_2",
+          "label": "package_10"
+        },
+        {
+          "atom_id": "atom_package_11_3",
+          "label": "package_11"
+        },
+        {
+          "atom_id": "atom_package_12_4",
+          "label": "package_12"
+        },
+        {
+          "atom_id": "atom_package_14_5",
+          "label": "package_14"
+        },
+        {
+          "atom_id": "atom_package_15_6",
+          "label": "package_15"
+        },
+        {
+          "atom_id": "atom_package_3_7",
+          "label": "package_3"
+        },
+        {
+          "atom_id": "atom_package_5_8",
+          "label": "package_5"
+        },
+        {
+          "atom_id": "atom_package_9_9",
+          "label": "package_9"
+        }
+      ],
+      "context_id": "ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_20_closure_p6_row_all_pkg_k_20_lens_p5_k_20_protocol_pica_multiscale_scan_step_4__proj_obs_primary",
+      "label": "prep_pica_default/protocol_pica_multiscale_scan/level_l0/resolution_k_20/closure_P6_row_all_pkg_k_20/lens_p5_k_20/protocol_pica_multiscale_scan_step_4"
+    },
+    {
+      "atoms": [
+        {
+          "atom_id": "atom_group_0_1",
+          "label": "group_0"
+        },
+        {
+          "atom_id": "atom_group_1_2",
+          "label": "group_1"
+        },
+        {
+          "atom_id": "atom_group_2_3",
+          "label": "group_2"
+        },
+        {
+          "atom_id": "atom_group_3_4",
+          "label": "group_3"
+        }
+      ],
+      "context_id": "ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_4_closure_p6_row_all_k_4_lens_p4_k_4_protocol_pica_multiscale_scan_step_1__proj_obs_primary",
+      "label": "prep_pica_default/protocol_pica_multiscale_scan/level_l0/resolution_k_4/closure_P6_row_all_k_4/lens_p4_k_4/protocol_pica_multiscale_scan_step_1"
+    },
+    {
+      "atoms": [
+        {
+          "atom_id": "atom_package_0_1",
+          "label": "package_0"
+        },
+        {
+          "atom_id": "atom_package_1_2",
+          "label": "package_1"
+        },
+        {
+          "atom_id": "atom_package_2_3",
+          "label": "package_2"
+        },
+        {
+          "atom_id": "atom_package_3_4",
+          "label": "package_3"
+        }
+      ],
+      "context_id": "ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_4_closure_p6_row_all_pkg_k_4_lens_p5_k_4_protocol_pica_multiscale_scan_step_1__proj_obs_primary",
+      "label": "prep_pica_default/protocol_pica_multiscale_scan/level_l0/resolution_k_4/closure_P6_row_all_pkg_k_4/lens_p5_k_4/protocol_pica_multiscale_scan_step_1"
+    }
+  ],
+  "equality_proposals": [],
+  "events": [
+    {
+      "atom_ids": [
+        "atom_group_1_1"
+      ],
+      "context_id": "ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_20_closure_p6_row_all_k_20_lens_p4_k_20_protocol_pica_multiscale_scan_step_4__proj_obs_primary",
+      "event_id": "event_ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_20_closure_p6_row_all_k_20_lens_p4_k_20_protocol_pica_multiscale_scan_step_4__proj_obs_primary_atom_group_1_1",
+      "label": "group_1"
+    },
+    {
+      "atom_ids": [
+        "atom_group_12_2"
+      ],
+      "context_id": "ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_20_closure_p6_row_all_k_20_lens_p4_k_20_protocol_pica_multiscale_scan_step_4__proj_obs_primary",
+      "event_id": "event_ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_20_closure_p6_row_all_k_20_lens_p4_k_20_protocol_pica_multiscale_scan_step_4__proj_obs_primary_atom_group_12_2",
+      "label": "group_12"
+    },
+    {
+      "atom_ids": [
+        "atom_group_13_3"
+      ],
+      "context_id": "ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_20_closure_p6_row_all_k_20_lens_p4_k_20_protocol_pica_multiscale_scan_step_4__proj_obs_primary",
+      "event_id": "event_ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_20_closure_p6_row_all_k_20_lens_p4_k_20_protocol_pica_multiscale_scan_step_4__proj_obs_primary_atom_group_13_3",
+      "label": "group_13"
+    },
+    {
+      "atom_ids": [
+        "atom_group_14_4"
+      ],
+      "context_id": "ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_20_closure_p6_row_all_k_20_lens_p4_k_20_protocol_pica_multiscale_scan_step_4__proj_obs_primary",
+      "event_id": "event_ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_20_closure_p6_row_all_k_20_lens_p4_k_20_protocol_pica_multiscale_scan_step_4__proj_obs_primary_atom_group_14_4",
+      "label": "group_14"
+    },
+    {
+      "atom_ids": [
+        "atom_group_15_5"
+      ],
+      "context_id": "ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_20_closure_p6_row_all_k_20_lens_p4_k_20_protocol_pica_multiscale_scan_step_4__proj_obs_primary",
+      "event_id": "event_ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_20_closure_p6_row_all_k_20_lens_p4_k_20_protocol_pica_multiscale_scan_step_4__proj_obs_primary_atom_group_15_5",
+      "label": "group_15"
+    },
+    {
+      "atom_ids": [
+        "atom_group_16_6"
+      ],
+      "context_id": "ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_20_closure_p6_row_all_k_20_lens_p4_k_20_protocol_pica_multiscale_scan_step_4__proj_obs_primary",
+      "event_id": "event_ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_20_closure_p6_row_all_k_20_lens_p4_k_20_protocol_pica_multiscale_scan_step_4__proj_obs_primary_atom_group_16_6",
+      "label": "group_16"
+    },
+    {
+      "atom_ids": [
+        "atom_group_18_7"
+      ],
+      "context_id": "ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_20_closure_p6_row_all_k_20_lens_p4_k_20_protocol_pica_multiscale_scan_step_4__proj_obs_primary",
+      "event_id": "event_ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_20_closure_p6_row_all_k_20_lens_p4_k_20_protocol_pica_multiscale_scan_step_4__proj_obs_primary_atom_group_18_7",
+      "label": "group_18"
+    },
+    {
+      "atom_ids": [
+        "atom_group_19_8"
+      ],
+      "context_id": "ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_20_closure_p6_row_all_k_20_lens_p4_k_20_protocol_pica_multiscale_scan_step_4__proj_obs_primary",
+      "event_id": "event_ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_20_closure_p6_row_all_k_20_lens_p4_k_20_protocol_pica_multiscale_scan_step_4__proj_obs_primary_atom_group_19_8",
+      "label": "group_19"
+    },
+    {
+      "atom_ids": [
+        "atom_group_4_9"
+      ],
+      "context_id": "ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_20_closure_p6_row_all_k_20_lens_p4_k_20_protocol_pica_multiscale_scan_step_4__proj_obs_primary",
+      "event_id": "event_ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_20_closure_p6_row_all_k_20_lens_p4_k_20_protocol_pica_multiscale_scan_step_4__proj_obs_primary_atom_group_4_9",
+      "label": "group_4"
+    },
+    {
+      "atom_ids": [
+        "atom_group_6_10"
+      ],
+      "context_id": "ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_20_closure_p6_row_all_k_20_lens_p4_k_20_protocol_pica_multiscale_scan_step_4__proj_obs_primary",
+      "event_id": "event_ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_20_closure_p6_row_all_k_20_lens_p4_k_20_protocol_pica_multiscale_scan_step_4__proj_obs_primary_atom_group_6_10",
+      "label": "group_6"
+    },
+    {
+      "atom_ids": [
+        "atom_group_7_11"
+      ],
+      "context_id": "ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_20_closure_p6_row_all_k_20_lens_p4_k_20_protocol_pica_multiscale_scan_step_4__proj_obs_primary",
+      "event_id": "event_ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_20_closure_p6_row_all_k_20_lens_p4_k_20_protocol_pica_multiscale_scan_step_4__proj_obs_primary_atom_group_7_11",
+      "label": "group_7"
+    },
+    {
+      "atom_ids": [
+        "atom_package_1_1"
+      ],
+      "context_id": "ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_20_closure_p6_row_all_pkg_k_20_lens_p5_k_20_protocol_pica_multiscale_scan_step_4__proj_obs_primary",
+      "event_id": "event_ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_20_closure_p6_row_all_pkg_k_20_lens_p5_k_20_protocol_pica_multiscale_scan_step_4__proj_obs_primary_atom_package_1_1",
+      "label": "package_1"
+    },
+    {
+      "atom_ids": [
+        "atom_package_10_2"
+      ],
+      "context_id": "ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_20_closure_p6_row_all_pkg_k_20_lens_p5_k_20_protocol_pica_multiscale_scan_step_4__proj_obs_primary",
+      "event_id": "event_ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_20_closure_p6_row_all_pkg_k_20_lens_p5_k_20_protocol_pica_multiscale_scan_step_4__proj_obs_primary_atom_package_10_2",
+      "label": "package_10"
+    },
+    {
+      "atom_ids": [
+        "atom_package_11_3"
+      ],
+      "context_id": "ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_20_closure_p6_row_all_pkg_k_20_lens_p5_k_20_protocol_pica_multiscale_scan_step_4__proj_obs_primary",
+      "event_id": "event_ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_20_closure_p6_row_all_pkg_k_20_lens_p5_k_20_protocol_pica_multiscale_scan_step_4__proj_obs_primary_atom_package_11_3",
+      "label": "package_11"
+    },
+    {
+      "atom_ids": [
+        "atom_package_12_4"
+      ],
+      "context_id": "ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_20_closure_p6_row_all_pkg_k_20_lens_p5_k_20_protocol_pica_multiscale_scan_step_4__proj_obs_primary",
+      "event_id": "event_ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_20_closure_p6_row_all_pkg_k_20_lens_p5_k_20_protocol_pica_multiscale_scan_step_4__proj_obs_primary_atom_package_12_4",
+      "label": "package_12"
+    },
+    {
+      "atom_ids": [
+        "atom_package_14_5"
+      ],
+      "context_id": "ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_20_closure_p6_row_all_pkg_k_20_lens_p5_k_20_protocol_pica_multiscale_scan_step_4__proj_obs_primary",
+      "event_id": "event_ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_20_closure_p6_row_all_pkg_k_20_lens_p5_k_20_protocol_pica_multiscale_scan_step_4__proj_obs_primary_atom_package_14_5",
+      "label": "package_14"
+    },
+    {
+      "atom_ids": [
+        "atom_package_15_6"
+      ],
+      "context_id": "ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_20_closure_p6_row_all_pkg_k_20_lens_p5_k_20_protocol_pica_multiscale_scan_step_4__proj_obs_primary",
+      "event_id": "event_ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_20_closure_p6_row_all_pkg_k_20_lens_p5_k_20_protocol_pica_multiscale_scan_step_4__proj_obs_primary_atom_package_15_6",
+      "label": "package_15"
+    },
+    {
+      "atom_ids": [
+        "atom_package_3_7"
+      ],
+      "context_id": "ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_20_closure_p6_row_all_pkg_k_20_lens_p5_k_20_protocol_pica_multiscale_scan_step_4__proj_obs_primary",
+      "event_id": "event_ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_20_closure_p6_row_all_pkg_k_20_lens_p5_k_20_protocol_pica_multiscale_scan_step_4__proj_obs_primary_atom_package_3_7",
+      "label": "package_3"
+    },
+    {
+      "atom_ids": [
+        "atom_package_5_8"
+      ],
+      "context_id": "ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_20_closure_p6_row_all_pkg_k_20_lens_p5_k_20_protocol_pica_multiscale_scan_step_4__proj_obs_primary",
+      "event_id": "event_ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_20_closure_p6_row_all_pkg_k_20_lens_p5_k_20_protocol_pica_multiscale_scan_step_4__proj_obs_primary_atom_package_5_8",
+      "label": "package_5"
+    },
+    {
+      "atom_ids": [
+        "atom_package_9_9"
+      ],
+      "context_id": "ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_20_closure_p6_row_all_pkg_k_20_lens_p5_k_20_protocol_pica_multiscale_scan_step_4__proj_obs_primary",
+      "event_id": "event_ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_20_closure_p6_row_all_pkg_k_20_lens_p5_k_20_protocol_pica_multiscale_scan_step_4__proj_obs_primary_atom_package_9_9",
+      "label": "package_9"
+    },
+    {
+      "atom_ids": [
+        "atom_group_0_1"
+      ],
+      "context_id": "ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_4_closure_p6_row_all_k_4_lens_p4_k_4_protocol_pica_multiscale_scan_step_1__proj_obs_primary",
+      "event_id": "event_ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_4_closure_p6_row_all_k_4_lens_p4_k_4_protocol_pica_multiscale_scan_step_1__proj_obs_primary_atom_group_0_1",
+      "label": "group_0"
+    },
+    {
+      "atom_ids": [
+        "atom_group_1_2"
+      ],
+      "context_id": "ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_4_closure_p6_row_all_k_4_lens_p4_k_4_protocol_pica_multiscale_scan_step_1__proj_obs_primary",
+      "event_id": "event_ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_4_closure_p6_row_all_k_4_lens_p4_k_4_protocol_pica_multiscale_scan_step_1__proj_obs_primary_atom_group_1_2",
+      "label": "group_1"
+    },
+    {
+      "atom_ids": [
+        "atom_group_2_3"
+      ],
+      "context_id": "ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_4_closure_p6_row_all_k_4_lens_p4_k_4_protocol_pica_multiscale_scan_step_1__proj_obs_primary",
+      "event_id": "event_ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_4_closure_p6_row_all_k_4_lens_p4_k_4_protocol_pica_multiscale_scan_step_1__proj_obs_primary_atom_group_2_3",
+      "label": "group_2"
+    },
+    {
+      "atom_ids": [
+        "atom_group_3_4"
+      ],
+      "context_id": "ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_4_closure_p6_row_all_k_4_lens_p4_k_4_protocol_pica_multiscale_scan_step_1__proj_obs_primary",
+      "event_id": "event_ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_4_closure_p6_row_all_k_4_lens_p4_k_4_protocol_pica_multiscale_scan_step_1__proj_obs_primary_atom_group_3_4",
+      "label": "group_3"
+    },
+    {
+      "atom_ids": [
+        "atom_package_0_1"
+      ],
+      "context_id": "ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_4_closure_p6_row_all_pkg_k_4_lens_p5_k_4_protocol_pica_multiscale_scan_step_1__proj_obs_primary",
+      "event_id": "event_ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_4_closure_p6_row_all_pkg_k_4_lens_p5_k_4_protocol_pica_multiscale_scan_step_1__proj_obs_primary_atom_package_0_1",
+      "label": "package_0"
+    },
+    {
+      "atom_ids": [
+        "atom_package_1_2"
+      ],
+      "context_id": "ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_4_closure_p6_row_all_pkg_k_4_lens_p5_k_4_protocol_pica_multiscale_scan_step_1__proj_obs_primary",
+      "event_id": "event_ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_4_closure_p6_row_all_pkg_k_4_lens_p5_k_4_protocol_pica_multiscale_scan_step_1__proj_obs_primary_atom_package_1_2",
+      "label": "package_1"
+    },
+    {
+      "atom_ids": [
+        "atom_package_2_3"
+      ],
+      "context_id": "ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_4_closure_p6_row_all_pkg_k_4_lens_p5_k_4_protocol_pica_multiscale_scan_step_1__proj_obs_primary",
+      "event_id": "event_ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_4_closure_p6_row_all_pkg_k_4_lens_p5_k_4_protocol_pica_multiscale_scan_step_1__proj_obs_primary_atom_package_2_3",
+      "label": "package_2"
+    },
+    {
+      "atom_ids": [
+        "atom_package_3_4"
+      ],
+      "context_id": "ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_4_closure_p6_row_all_pkg_k_4_lens_p5_k_4_protocol_pica_multiscale_scan_step_1__proj_obs_primary",
+      "event_id": "event_ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_4_closure_p6_row_all_pkg_k_4_lens_p5_k_4_protocol_pica_multiscale_scan_step_1__proj_obs_primary_atom_package_3_4",
+      "label": "package_3"
+    }
+  ],
+  "instance_format_version": "event-package-instance.v1",
+  "instance_id": "inst_cross_res_k4_k20_lens_axis_contexts_skeleton",
+  "metadata": {
+    "family_id": "cross_res_k4_k20_lens_axis_contexts",
+    "source_kind": "discovered_context_family"
+  },
+  "notes": null,
+  "weights": {}
+}

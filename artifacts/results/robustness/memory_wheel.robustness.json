@@ -1,0 +1,799 @@
+{
+  "benchmark_id": "memory_wheel",
+  "seed": 0,
+  "perturbation_manifest_path": "configs/benchmarks/memory_wheel.perturbation.json",
+  "predicate_name": "memory_wheel_persists",
+  "trial_count": 20,
+  "successful_trial_count": 20,
+  "pass_count": 20,
+  "survival_fraction": 1.0,
+  "survival_fraction_exact": "1",
+  "threshold": 0.8,
+  "threshold_exact": "4/5",
+  "meets_threshold": true,
+  "resolved_targets": [
+    "event_packages[1].events[0].weights.A"
+  ],
+  "trials": [
+    {
+      "benchmark_id": "memory_wheel",
+      "trial_id": "memory_wheel_perturbation:trial:0",
+      "trial_seed": 17714173978827384600,
+      "validation_status": "passed",
+      "run_status": "passed",
+      "predicate_pass": true,
+      "failure_reasons": [],
+      "interface_metrics": [
+        {
+          "interface_id": "mid",
+          "history_count": 2,
+          "current_quotient_size": 1,
+          "predictive_quotient_size": 2,
+          "witness_count": 1,
+          "max_fiber_size": 2,
+          "discrepancy_metric_value": 0.9,
+          "discrepancy_metric_value_exact": "9/10",
+          "current_loop_score": 0.0,
+          "current_loop_score_exact": "0",
+          "predictive_loop_score": 1.0,
+          "predictive_loop_score_exact": "1",
+          "support_fixation_status": "skipped",
+          "currentization_status": "skipped",
+          "flattening_status": "skipped",
+          "class_label": "coherent_candidate"
+        }
+      ],
+      "transport_collapse_persisted": null,
+      "transport_collapse_continuation_id": null,
+      "transport_collapse_mapping": [],
+      "designated_loop_id": "swap_mid",
+      "predictive_moved_class_ids": [
+        "C0",
+        "C1"
+      ],
+      "predictive_moved_class_fraction": 1.0,
+      "predictive_moved_class_fraction_exact": "1"
+    },
+    {
+      "benchmark_id": "memory_wheel",
+      "trial_id": "memory_wheel_perturbation:trial:1",
+      "trial_seed": 15193605134610535286,
+      "validation_status": "passed",
+      "run_status": "passed",
+      "predicate_pass": true,
+      "failure_reasons": [],
+      "interface_metrics": [
+        {
+          "interface_id": "mid",
+          "history_count": 2,
+          "current_quotient_size": 1,
+          "predictive_quotient_size": 2,
+          "witness_count": 1,
+          "max_fiber_size": 2,
+          "discrepancy_metric_value": 1.0,
+          "discrepancy_metric_value_exact": "1",
+          "current_loop_score": 0.0,
+          "current_loop_score_exact": "0",
+          "predictive_loop_score": 1.0,
+          "predictive_loop_score_exact": "1",
+          "support_fixation_status": "skipped",
+          "currentization_status": "skipped",
+          "flattening_status": "skipped",
+          "class_label": "coherent_candidate"
+        }
+      ],
+      "transport_collapse_persisted": null,
+      "transport_collapse_continuation_id": null,
+      "transport_collapse_mapping": [],
+      "designated_loop_id": "swap_mid",
+      "predictive_moved_class_ids": [
+        "C0",
+        "C1"
+      ],
+      "predictive_moved_class_fraction": 1.0,
+      "predictive_moved_class_fraction_exact": "1"
+    },
+    {
+      "benchmark_id": "memory_wheel",
+      "trial_id": "memory_wheel_perturbation:trial:2",
+      "trial_seed": 5810956428060980168,
+      "validation_status": "passed",
+      "run_status": "passed",
+      "predicate_pass": true,
+      "failure_reasons": [],
+      "interface_metrics": [
+        {
+          "interface_id": "mid",
+          "history_count": 2,
+          "current_quotient_size": 1,
+          "predictive_quotient_size": 2,
+          "witness_count": 1,
+          "max_fiber_size": 2,
+          "discrepancy_metric_value": 0.95,
+          "discrepancy_metric_value_exact": "19/20",
+          "current_loop_score": 0.0,
+          "current_loop_score_exact": "0",
+          "predictive_loop_score": 1.0,
+          "predictive_loop_score_exact": "1",
+          "support_fixation_status": "skipped",
+          "currentization_status": "skipped",
+          "flattening_status": "skipped",
+          "class_label": "coherent_candidate"
+        }
+      ],
+      "transport_collapse_persisted": null,
+      "transport_collapse_continuation_id": null,
+      "transport_collapse_mapping": [],
+      "designated_loop_id": "swap_mid",
+      "predictive_moved_class_ids": [
+        "C0",
+        "C1"
+      ],
+      "predictive_moved_class_fraction": 1.0,
+      "predictive_moved_class_fraction_exact": "1"
+    },
+    {
+      "benchmark_id": "memory_wheel",
+      "trial_id": "memory_wheel_perturbation:trial:3",
+      "trial_seed": 5159260402745463674,
+      "validation_status": "passed",
+      "run_status": "passed",
+      "predicate_pass": true,
+      "failure_reasons": [],
+      "interface_metrics": [
+        {
+          "interface_id": "mid",
+          "history_count": 2,
+          "current_quotient_size": 1,
+          "predictive_quotient_size": 2,
+          "witness_count": 1,
+          "max_fiber_size": 2,
+          "discrepancy_metric_value": 1.0,
+          "discrepancy_metric_value_exact": "1",
+          "current_loop_score": 0.0,
+          "current_loop_score_exact": "0",
+          "predictive_loop_score": 1.0,
+          "predictive_loop_score_exact": "1",
+          "support_fixation_status": "skipped",
+          "currentization_status": "skipped",
+          "flattening_status": "skipped",
+          "class_label": "coherent_candidate"
+        }
+      ],
+      "transport_collapse_persisted": null,
+      "transport_collapse_continuation_id": null,
+      "transport_collapse_mapping": [],
+      "designated_loop_id": "swap_mid",
+      "predictive_moved_class_ids": [
+        "C0",
+        "C1"
+      ],
+      "predictive_moved_class_fraction": 1.0,
+      "predictive_moved_class_fraction_exact": "1"
+    },
+    {
+      "benchmark_id": "memory_wheel",
+      "trial_id": "memory_wheel_perturbation:trial:4",
+      "trial_seed": 9235265607367335882,
+      "validation_status": "passed",
+      "run_status": "passed",
+      "predicate_pass": true,
+      "failure_reasons": [],
+      "interface_metrics": [
+        {
+          "interface_id": "mid",
+          "history_count": 2,
+          "current_quotient_size": 1,
+          "predictive_quotient_size": 2,
+          "witness_count": 1,
+          "max_fiber_size": 2,
+          "discrepancy_metric_value": 0.95,
+          "discrepancy_metric_value_exact": "19/20",
+          "current_loop_score": 0.0,
+          "current_loop_score_exact": "0",
+          "predictive_loop_score": 1.0,
+          "predictive_loop_score_exact": "1",
+          "support_fixation_status": "skipped",
+          "currentization_status": "skipped",
+          "flattening_status": "skipped",
+          "class_label": "coherent_candidate"
+        }
+      ],
+      "transport_collapse_persisted": null,
+      "transport_collapse_continuation_id": null,
+      "transport_collapse_mapping": [],
+      "designated_loop_id": "swap_mid",
+      "predictive_moved_class_ids": [
+        "C0",
+        "C1"
+      ],
+      "predictive_moved_class_fraction": 1.0,
+      "predictive_moved_class_fraction_exact": "1"
+    },
+    {
+      "benchmark_id": "memory_wheel",
+      "trial_id": "memory_wheel_perturbation:trial:5",
+      "trial_seed": 5523590228943023104,
+      "validation_status": "passed",
+      "run_status": "passed",
+      "predicate_pass": true,
+      "failure_reasons": [],
+      "interface_metrics": [
+        {
+          "interface_id": "mid",
+          "history_count": 2,
+          "current_quotient_size": 1,
+          "predictive_quotient_size": 2,
+          "witness_count": 1,
+          "max_fiber_size": 2,
+          "discrepancy_metric_value": 1.0,
+          "discrepancy_metric_value_exact": "1",
+          "current_loop_score": 0.0,
+          "current_loop_score_exact": "0",
+          "predictive_loop_score": 1.0,
+          "predictive_loop_score_exact": "1",
+          "support_fixation_status": "skipped",
+          "currentization_status": "skipped",
+          "flattening_status": "skipped",
+          "class_label": "coherent_candidate"
+        }
+      ],
+      "transport_collapse_persisted": null,
+      "transport_collapse_continuation_id": null,
+      "transport_collapse_mapping": [],
+      "designated_loop_id": "swap_mid",
+      "predictive_moved_class_ids": [
+        "C0",
+        "C1"
+      ],
+      "predictive_moved_class_fraction": 1.0,
+      "predictive_moved_class_fraction_exact": "1"
+    },
+    {
+      "benchmark_id": "memory_wheel",
+      "trial_id": "memory_wheel_perturbation:trial:6",
+      "trial_seed": 3922097529045387717,
+      "validation_status": "passed",
+      "run_status": "passed",
+      "predicate_pass": true,
+      "failure_reasons": [],
+      "interface_metrics": [
+        {
+          "interface_id": "mid",
+          "history_count": 2,
+          "current_quotient_size": 1,
+          "predictive_quotient_size": 2,
+          "witness_count": 1,
+          "max_fiber_size": 2,
+          "discrepancy_metric_value": 0.9,
+          "discrepancy_metric_value_exact": "9/10",
+          "current_loop_score": 0.0,
+          "current_loop_score_exact": "0",
+          "predictive_loop_score": 1.0,
+          "predictive_loop_score_exact": "1",
+          "support_fixation_status": "skipped",
+          "currentization_status": "skipped",
+          "flattening_status": "skipped",
+          "class_label": "coherent_candidate"
+        }
+      ],
+      "transport_collapse_persisted": null,
+      "transport_collapse_continuation_id": null,
+      "transport_collapse_mapping": [],
+      "designated_loop_id": "swap_mid",
+      "predictive_moved_class_ids": [
+        "C0",
+        "C1"
+      ],
+      "predictive_moved_class_fraction": 1.0,
+      "predictive_moved_class_fraction_exact": "1"
+    },
+    {
+      "benchmark_id": "memory_wheel",
+      "trial_id": "memory_wheel_perturbation:trial:7",
+      "trial_seed": 888001494791665625,
+      "validation_status": "passed",
+      "run_status": "passed",
+      "predicate_pass": true,
+      "failure_reasons": [],
+      "interface_metrics": [
+        {
+          "interface_id": "mid",
+          "history_count": 2,
+          "current_quotient_size": 1,
+          "predictive_quotient_size": 2,
+          "witness_count": 1,
+          "max_fiber_size": 2,
+          "discrepancy_metric_value": 1.0,
+          "discrepancy_metric_value_exact": "1",
+          "current_loop_score": 0.0,
+          "current_loop_score_exact": "0",
+          "predictive_loop_score": 1.0,
+          "predictive_loop_score_exact": "1",
+          "support_fixation_status": "skipped",
+          "currentization_status": "skipped",
+          "flattening_status": "skipped",
+          "class_label": "coherent_candidate"
+        }
+      ],
+      "transport_collapse_persisted": null,
+      "transport_collapse_continuation_id": null,
+      "transport_collapse_mapping": [],
+      "designated_loop_id": "swap_mid",
+      "predictive_moved_class_ids": [
+        "C0",
+        "C1"
+      ],
+      "predictive_moved_class_fraction": 1.0,
+      "predictive_moved_class_fraction_exact": "1"
+    },
+    {
+      "benchmark_id": "memory_wheel",
+      "trial_id": "memory_wheel_perturbation:trial:8",
+      "trial_seed": 5196283084680392869,
+      "validation_status": "passed",
+      "run_status": "passed",
+      "predicate_pass": true,
+      "failure_reasons": [],
+      "interface_metrics": [
+        {
+          "interface_id": "mid",
+          "history_count": 2,
+          "current_quotient_size": 1,
+          "predictive_quotient_size": 2,
+          "witness_count": 1,
+          "max_fiber_size": 2,
+          "discrepancy_metric_value": 1.0,
+          "discrepancy_metric_value_exact": "1",
+          "current_loop_score": 0.0,
+          "current_loop_score_exact": "0",
+          "predictive_loop_score": 1.0,
+          "predictive_loop_score_exact": "1",
+          "support_fixation_status": "skipped",
+          "currentization_status": "skipped",
+          "flattening_status": "skipped",
+          "class_label": "coherent_candidate"
+        }
+      ],
+      "transport_collapse_persisted": null,
+      "transport_collapse_continuation_id": null,
+      "transport_collapse_mapping": [],
+      "designated_loop_id": "swap_mid",
+      "predictive_moved_class_ids": [
+        "C0",
+        "C1"
+      ],
+      "predictive_moved_class_fraction": 1.0,
+      "predictive_moved_class_fraction_exact": "1"
+    },
+    {
+      "benchmark_id": "memory_wheel",
+      "trial_id": "memory_wheel_perturbation:trial:9",
+      "trial_seed": 396489679728548303,
+      "validation_status": "passed",
+      "run_status": "passed",
+      "predicate_pass": true,
+      "failure_reasons": [],
+      "interface_metrics": [
+        {
+          "interface_id": "mid",
+          "history_count": 2,
+          "current_quotient_size": 1,
+          "predictive_quotient_size": 2,
+          "witness_count": 1,
+          "max_fiber_size": 2,
+          "discrepancy_metric_value": 1.0,
+          "discrepancy_metric_value_exact": "1",
+          "current_loop_score": 0.0,
+          "current_loop_score_exact": "0",
+          "predictive_loop_score": 1.0,
+          "predictive_loop_score_exact": "1",
+          "support_fixation_status": "skipped",
+          "currentization_status": "skipped",
+          "flattening_status": "skipped",
+          "class_label": "coherent_candidate"
+        }
+      ],
+      "transport_collapse_persisted": null,
+      "transport_collapse_continuation_id": null,
+      "transport_collapse_mapping": [],
+      "designated_loop_id": "swap_mid",
+      "predictive_moved_class_ids": [
+        "C0",
+        "C1"
+      ],
+      "predictive_moved_class_fraction": 1.0,
+      "predictive_moved_class_fraction_exact": "1"
+    },
+    {
+      "benchmark_id": "memory_wheel",
+      "trial_id": "memory_wheel_perturbation:trial:10",
+      "trial_seed": 1627792006859753656,
+      "validation_status": "passed",
+      "run_status": "passed",
+      "predicate_pass": true,
+      "failure_reasons": [],
+      "interface_metrics": [
+        {
+          "interface_id": "mid",
+          "history_count": 2,
+          "current_quotient_size": 1,
+          "predictive_quotient_size": 2,
+          "witness_count": 1,
+          "max_fiber_size": 2,
+          "discrepancy_metric_value": 0.95,
+          "discrepancy_metric_value_exact": "19/20",
+          "current_loop_score": 0.0,
+          "current_loop_score_exact": "0",
+          "predictive_loop_score": 1.0,
+          "predictive_loop_score_exact": "1",
+          "support_fixation_status": "skipped",
+          "currentization_status": "skipped",
+          "flattening_status": "skipped",
+          "class_label": "coherent_candidate"
+        }
+      ],
+      "transport_collapse_persisted": null,
+      "transport_collapse_continuation_id": null,
+      "transport_collapse_mapping": [],
+      "designated_loop_id": "swap_mid",
+      "predictive_moved_class_ids": [
+        "C0",
+        "C1"
+      ],
+      "predictive_moved_class_fraction": 1.0,
+      "predictive_moved_class_fraction_exact": "1"
+    },
+    {
+      "benchmark_id": "memory_wheel",
+      "trial_id": "memory_wheel_perturbation:trial:11",
+      "trial_seed": 8119076134621134922,
+      "validation_status": "passed",
+      "run_status": "passed",
+      "predicate_pass": true,
+      "failure_reasons": [],
+      "interface_metrics": [
+        {
+          "interface_id": "mid",
+          "history_count": 2,
+          "current_quotient_size": 1,
+          "predictive_quotient_size": 2,
+          "witness_count": 1,
+          "max_fiber_size": 2,
+          "discrepancy_metric_value": 0.9,
+          "discrepancy_metric_value_exact": "9/10",
+          "current_loop_score": 0.0,
+          "current_loop_score_exact": "0",
+          "predictive_loop_score": 1.0,
+          "predictive_loop_score_exact": "1",
+          "support_fixation_status": "skipped",
+          "currentization_status": "skipped",
+          "flattening_status": "skipped",
+          "class_label": "coherent_candidate"
+        }
+      ],
+      "transport_collapse_persisted": null,
+      "transport_collapse_continuation_id": null,
+      "transport_collapse_mapping": [],
+      "designated_loop_id": "swap_mid",
+      "predictive_moved_class_ids": [
+        "C0",
+        "C1"
+      ],
+      "predictive_moved_class_fraction": 1.0,
+      "predictive_moved_class_fraction_exact": "1"
+    },
+    {
+      "benchmark_id": "memory_wheel",
+      "trial_id": "memory_wheel_perturbation:trial:12",
+      "trial_seed": 6312036359181019002,
+      "validation_status": "passed",
+      "run_status": "passed",
+      "predicate_pass": true,
+      "failure_reasons": [],
+      "interface_metrics": [
+        {
+          "interface_id": "mid",
+          "history_count": 2,
+          "current_quotient_size": 1,
+          "predictive_quotient_size": 2,
+          "witness_count": 1,
+          "max_fiber_size": 2,
+          "discrepancy_metric_value": 1.0,
+          "discrepancy_metric_value_exact": "1",
+          "current_loop_score": 0.0,
+          "current_loop_score_exact": "0",
+          "predictive_loop_score": 1.0,
+          "predictive_loop_score_exact": "1",
+          "support_fixation_status": "skipped",
+          "currentization_status": "skipped",
+          "flattening_status": "skipped",
+          "class_label": "coherent_candidate"
+        }
+      ],
+      "transport_collapse_persisted": null,
+      "transport_collapse_continuation_id": null,
+      "transport_collapse_mapping": [],
+      "designated_loop_id": "swap_mid",
+      "predictive_moved_class_ids": [
+        "C0",
+        "C1"
+      ],
+      "predictive_moved_class_fraction": 1.0,
+      "predictive_moved_class_fraction_exact": "1"
+    },
+    {
+      "benchmark_id": "memory_wheel",
+      "trial_id": "memory_wheel_perturbation:trial:13",
+      "trial_seed": 5288634739245888331,
+      "validation_status": "passed",
+      "run_status": "passed",
+      "predicate_pass": true,
+      "failure_reasons": [],
+      "interface_metrics": [
+        {
+          "interface_id": "mid",
+          "history_count": 2,
+          "current_quotient_size": 1,
+          "predictive_quotient_size": 2,
+          "witness_count": 1,
+          "max_fiber_size": 2,
+          "discrepancy_metric_value": 0.95,
+          "discrepancy_metric_value_exact": "19/20",
+          "current_loop_score": 0.0,
+          "current_loop_score_exact": "0",
+          "predictive_loop_score": 1.0,
+          "predictive_loop_score_exact": "1",
+          "support_fixation_status": "skipped",
+          "currentization_status": "skipped",
+          "flattening_status": "skipped",
+          "class_label": "coherent_candidate"
+        }
+      ],
+      "transport_collapse_persisted": null,
+      "transport_collapse_continuation_id": null,
+      "transport_collapse_mapping": [],
+      "designated_loop_id": "swap_mid",
+      "predictive_moved_class_ids": [
+        "C0",
+        "C1"
+      ],
+      "predictive_moved_class_fraction": 1.0,
+      "predictive_moved_class_fraction_exact": "1"
+    },
+    {
+      "benchmark_id": "memory_wheel",
+      "trial_id": "memory_wheel_perturbation:trial:14",
+      "trial_seed": 16244084670870292371,
+      "validation_status": "passed",
+      "run_status": "passed",
+      "predicate_pass": true,
+      "failure_reasons": [],
+      "interface_metrics": [
+        {
+          "interface_id": "mid",
+          "history_count": 2,
+          "current_quotient_size": 1,
+          "predictive_quotient_size": 2,
+          "witness_count": 1,
+          "max_fiber_size": 2,
+          "discrepancy_metric_value": 0.95,
+          "discrepancy_metric_value_exact": "19/20",
+          "current_loop_score": 0.0,
+          "current_loop_score_exact": "0",
+          "predictive_loop_score": 1.0,
+          "predictive_loop_score_exact": "1",
+          "support_fixation_status": "skipped",
+          "currentization_status": "skipped",
+          "flattening_status": "skipped",
+          "class_label": "coherent_candidate"
+        }
+      ],
+      "transport_collapse_persisted": null,
+      "transport_collapse_continuation_id": null,
+      "transport_collapse_mapping": [],
+      "designated_loop_id": "swap_mid",
+      "predictive_moved_class_ids": [
+        "C0",
+        "C1"
+      ],
+      "predictive_moved_class_fraction": 1.0,
+      "predictive_moved_class_fraction_exact": "1"
+    },
+    {
+      "benchmark_id": "memory_wheel",
+      "trial_id": "memory_wheel_perturbation:trial:15",
+      "trial_seed": 487050307784493076,
+      "validation_status": "passed",
+      "run_status": "passed",
+      "predicate_pass": true,
+      "failure_reasons": [],
+      "interface_metrics": [
+        {
+          "interface_id": "mid",
+          "history_count": 2,
+          "current_quotient_size": 1,
+          "predictive_quotient_size": 2,
+          "witness_count": 1,
+          "max_fiber_size": 2,
+          "discrepancy_metric_value": 0.9,
+          "discrepancy_metric_value_exact": "9/10",
+          "current_loop_score": 0.0,
+          "current_loop_score_exact": "0",
+          "predictive_loop_score": 1.0,
+          "predictive_loop_score_exact": "1",
+          "support_fixation_status": "skipped",
+          "currentization_status": "skipped",
+          "flattening_status": "skipped",
+          "class_label": "coherent_candidate"
+        }
+      ],
+      "transport_collapse_persisted": null,
+      "transport_collapse_continuation_id": null,
+      "transport_collapse_mapping": [],
+      "designated_loop_id": "swap_mid",
+      "predictive_moved_class_ids": [
+        "C0",
+        "C1"
+      ],
+      "predictive_moved_class_fraction": 1.0,
+      "predictive_moved_class_fraction_exact": "1"
+    },
+    {
+      "benchmark_id": "memory_wheel",
+      "trial_id": "memory_wheel_perturbation:trial:16",
+      "trial_seed": 12074967136539099376,
+      "validation_status": "passed",
+      "run_status": "passed",
+      "predicate_pass": true,
+      "failure_reasons": [],
+      "interface_metrics": [
+        {
+          "interface_id": "mid",
+          "history_count": 2,
+          "current_quotient_size": 1,
+          "predictive_quotient_size": 2,
+          "witness_count": 1,
+          "max_fiber_size": 2,
+          "discrepancy_metric_value": 1.0,
+          "discrepancy_metric_value_exact": "1",
+          "current_loop_score": 0.0,
+          "current_loop_score_exact": "0",
+          "predictive_loop_score": 1.0,
+          "predictive_loop_score_exact": "1",
+          "support_fixation_status": "skipped",
+          "currentization_status": "skipped",
+          "flattening_status": "skipped",
+          "class_label": "coherent_candidate"
+        }
+      ],
+      "transport_collapse_persisted": null,
+      "transport_collapse_continuation_id": null,
+      "transport_collapse_mapping": [],
+      "designated_loop_id": "swap_mid",
+      "predictive_moved_class_ids": [
+        "C0",
+        "C1"
+      ],
+      "predictive_moved_class_fraction": 1.0,
+      "predictive_moved_class_fraction_exact": "1"
+    },
+    {
+      "benchmark_id": "memory_wheel",
+      "trial_id": "memory_wheel_perturbation:trial:17",
+      "trial_seed": 8402698602044447257,
+      "validation_status": "passed",
+      "run_status": "passed",
+      "predicate_pass": true,
+      "failure_reasons": [],
+      "interface_metrics": [
+        {
+          "interface_id": "mid",
+          "history_count": 2,
+          "current_quotient_size": 1,
+          "predictive_quotient_size": 2,
+          "witness_count": 1,
+          "max_fiber_size": 2,
+          "discrepancy_metric_value": 1.0,
+          "discrepancy_metric_value_exact": "1",
+          "current_loop_score": 0.0,
+          "current_loop_score_exact": "0",
+          "predictive_loop_score": 1.0,
+          "predictive_loop_score_exact": "1",
+          "support_fixation_status": "skipped",
+          "currentization_status": "skipped",
+          "flattening_status": "skipped",
+          "class_label": "coherent_candidate"
+        }
+      ],
+      "transport_collapse_persisted": null,
+      "transport_collapse_continuation_id": null,
+      "transport_collapse_mapping": [],
+      "designated_loop_id": "swap_mid",
+      "predictive_moved_class_ids": [
+        "C0",
+        "C1"
+      ],
+      "predictive_moved_class_fraction": 1.0,
+      "predictive_moved_class_fraction_exact": "1"
+    },
+    {
+      "benchmark_id": "memory_wheel",
+      "trial_id": "memory_wheel_perturbation:trial:18",
+      "trial_seed": 14694019484543042713,
+      "validation_status": "passed",
+      "run_status": "passed",
+      "predicate_pass": true,
+      "failure_reasons": [],
+      "interface_metrics": [
+        {
+          "interface_id": "mid",
+          "history_count": 2,
+          "current_quotient_size": 1,
+          "predictive_quotient_size": 2,
+          "witness_count": 1,
+          "max_fiber_size": 2,
+          "discrepancy_metric_value": 0.95,
+          "discrepancy_metric_value_exact": "19/20",
+          "current_loop_score": 0.0,
+          "current_loop_score_exact": "0",
+          "predictive_loop_score": 1.0,
+          "predictive_loop_score_exact": "1",
+          "support_fixation_status": "skipped",
+          "currentization_status": "skipped",
+          "flattening_status": "skipped",
+          "class_label": "coherent_candidate"
+        }
+      ],
+      "transport_collapse_persisted": null,
+      "transport_collapse_continuation_id": null,
+      "transport_collapse_mapping": [],
+      "designated_loop_id": "swap_mid",
+      "predictive_moved_class_ids": [
+        "C0",
+        "C1"
+      ],
+      "predictive_moved_class_fraction": 1.0,
+      "predictive_moved_class_fraction_exact": "1"
+    },
+    {
+      "benchmark_id": "memory_wheel",
+      "trial_id": "memory_wheel_perturbation:trial:19",
+      "trial_seed": 16317200932808254765,
+      "validation_status": "passed",
+      "run_status": "passed",
+      "predicate_pass": true,
+      "failure_reasons": [],
+      "interface_metrics": [
+        {
+          "interface_id": "mid",
+          "history_count": 2,
+          "current_quotient_size": 1,
+          "predictive_quotient_size": 2,
+          "witness_count": 1,
+          "max_fiber_size": 2,
+          "discrepancy_metric_value": 0.95,
+          "discrepancy_metric_value_exact": "19/20",
+          "current_loop_score": 0.0,
+          "current_loop_score_exact": "0",
+          "predictive_loop_score": 1.0,
+          "predictive_loop_score_exact": "1",
+          "support_fixation_status": "skipped",
+          "currentization_status": "skipped",
+          "flattening_status": "skipped",
+          "class_label": "coherent_candidate"
+        }
+      ],
+      "transport_collapse_persisted": null,
+      "transport_collapse_continuation_id": null,
+      "transport_collapse_mapping": [],
+      "designated_loop_id": "swap_mid",
+      "predictive_moved_class_ids": [
+        "C0",
+        "C1"
+      ],
+      "predictive_moved_class_fraction": 1.0,
+      "predictive_moved_class_fraction_exact": "1"
+    }
+  ]
+}

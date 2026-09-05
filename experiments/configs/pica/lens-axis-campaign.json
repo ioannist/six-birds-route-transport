@@ -1,0 +1,170 @@
+{
+  "search_format_version": "lens-axis-search.v1",
+  "search_id": "lens_axis_th4",
+  "fixed_pilot_config_artifact": "experiments/configs/pica/pilot-exp104-p6-row-all-n64.json",
+  "preparation_id": "prep_pica_default",
+  "protocol_id": "protocol_pica_multiscale_scan",
+  "trajectories": 24,
+  "seed_list": [0],
+  "points": [
+    {
+      "point_id": "lens_control_same_support",
+      "projection_family_ids": ["obs_primary", "macro_primary"],
+      "notes": [
+        "same_slice_control",
+        "packaging_outcome_vs_macrostate_control"
+      ]
+    },
+    {
+      "point_id": "lens_candidate_bins",
+      "projection_family_ids": ["obs_primary", "band3_primary"],
+      "notes": [
+        "same_slice_lens_candidate",
+        "packaging_outcome_vs_derived_row_bins"
+      ]
+    },
+    {
+      "point_id": "lens_rich_same_support",
+      "projection_family_ids": [
+        "obs_primary",
+        "band3_primary",
+        "lt12_primary",
+        "band4_primary"
+      ],
+      "notes": [
+        "same_slice_lens_rich_candidate",
+        "maximise_record_algebra_diversity_on_fixed_support"
+      ]
+    }
+  ],
+  "projection_families": [
+    {
+      "projection_id": "obs_primary",
+      "label": "observation label",
+      "source_field": "observation_label",
+      "projection_kind": "packaging_outcome",
+      "allowed_roles": ["primary_context"],
+      "projection": {
+        "projection_mode": "observation_label"
+      },
+      "notes": ["primary_packaging_outcome"]
+    },
+    {
+      "projection_id": "macro_primary",
+      "label": "macrostate label",
+      "source_field": "macrostate_label",
+      "projection_kind": "packaging_outcome",
+      "allowed_roles": ["primary_context"],
+      "projection": {
+        "projection_mode": "macrostate_label"
+      },
+      "notes": ["primary_packaging_outcome"]
+    },
+    {
+      "projection_id": "band3_primary",
+      "label": "final_state band3",
+      "source_field": "final_state",
+      "projection_kind": "derived_row_outcome",
+      "allowed_roles": ["primary_context"],
+      "projection": {
+        "projection_mode": "payload_numeric_bins",
+        "payload_key": "final_state",
+        "bin_edges": [8, 16]
+      },
+      "notes": ["derived_row_outcome"]
+    },
+    {
+      "projection_id": "lt12_primary",
+      "label": "final_state lt12",
+      "source_field": "final_state",
+      "projection_kind": "derived_row_outcome",
+      "allowed_roles": ["primary_context"],
+      "projection": {
+        "projection_mode": "payload_numeric_bins",
+        "payload_key": "final_state",
+        "bin_edges": [12]
+      },
+      "notes": ["derived_row_outcome"]
+    },
+    {
+      "projection_id": "band4_primary",
+      "label": "final_state band4",
+      "source_field": "final_state",
+      "projection_kind": "derived_row_outcome",
+      "allowed_roles": ["primary_context"],
+      "projection": {
+        "projection_mode": "payload_numeric_bins",
+        "payload_key": "final_state",
+        "bin_edges": [6, 12, 18]
+      },
+      "notes": ["derived_row_outcome"]
+    },
+    {
+      "projection_id": "macro_gap_diag",
+      "label": "macro_gap diagnostic",
+      "source_field": "macro_gap",
+      "projection_kind": "closure_summary",
+      "allowed_roles": ["diagnostic_only"],
+      "projection": {
+        "projection_mode": "payload_numeric_bins",
+        "payload_key": "macro_gap",
+        "bin_edges": [0.4, 0.6]
+      },
+      "notes": ["closure_summary_diagnostic_only"]
+    }
+  ],
+  "selected_protocol_step_ids": ["protocol_pica_multiscale_scan_step_1"],
+  "selected_step_indices": [1],
+  "selected_resolution_ids": ["resolution_k_4"],
+  "fixed_mechanism_label": "exp104_p6_row_all_n64",
+  "fixed_packaging_family_label": "bridge_default_packaging_selector",
+  "event_generation_thresholds": {
+    "event_basis_mode": "singleton_plus_small_unions",
+    "event_algebra_mode": "full_powerset",
+    "max_full_powerset_atom_count": 6,
+    "max_union_size": 3,
+    "min_event_support_count": 1,
+    "min_event_support_fraction": 0.0,
+    "include_empty_and_full_in_truncation": true,
+    "match_empty_for_inference": false,
+    "match_full_for_inference": false
+  },
+  "shared_event_inference_thresholds": {
+    "inference_mode": "structural_primary",
+    "min_common_probes": 1,
+    "min_conditioning_count": 3,
+    "min_probe_atom_support_count": 1,
+    "max_mean_tv": 1.0,
+    "exact_tolerance": 1e-09,
+    "proposal_constraint_kind": "soft"
+  },
+  "candidate_classification_thresholds": {
+    "strong_nonextendable_min_gpd_str": 1.0,
+    "near_zero_gpd_stat": 1e-06,
+    "min_accepted_coarse_proposal_count": 1
+  },
+  "adequacy_floor": {
+    "min_total_point_count": 3,
+    "min_admissible_built_package_count": 2,
+    "min_points_with_proper_coarse_events": 1,
+    "min_points_with_accepted_proper_coarse_structural_proposals": 1,
+    "min_points_with_same_slice_non_nested_lens_pairs": 1,
+    "min_points_with_dual_mode_difference": 1,
+    "min_points_with_nontrivial_quotient_result_recorded": 1
+  },
+  "include_natural_pairing_control": true,
+  "quotient_subset_search_enabled": true,
+  "quotient_max_subset_size": 2,
+  "quotient_stop_at_first_witness": true,
+  "provenance_required": true,
+  "claim_ceiling": "provenance_admissible_strong_obstruction",
+  "output_category": "search",
+  "output_label": "lens-axis",
+  "metadata": {
+    "axis": "lens",
+    "notes": [
+      "Mechanism/configuration is fixed while admissible same-slice record algebras vary.",
+      "Quotient-backed feasibility audit is attached per point."
+    ]
+  }
+}

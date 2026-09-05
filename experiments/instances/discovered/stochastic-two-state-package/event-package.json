@@ -1,0 +1,1182 @@
+{
+  "audit": {
+    "checksum": null,
+    "created_at": "2026-03-26T03:05:00Z",
+    "created_by": null,
+    "source": null
+  },
+  "contexts": [
+    {
+      "atoms": [
+        {
+          "atom_id": "atom_cold_1",
+          "label": "cold"
+        },
+        {
+          "atom_id": "atom_hot_2",
+          "label": "hot"
+        }
+      ],
+      "context_id": "ctx_prep0_flip6_bias_step0",
+      "label": "prep0/flip6/bias/step0"
+    },
+    {
+      "atoms": [
+        {
+          "atom_id": "atom_cold_1",
+          "label": "cold"
+        },
+        {
+          "atom_id": "atom_hot_2",
+          "label": "hot"
+        }
+      ],
+      "context_id": "ctx_prep0_flip6_bias_step1",
+      "label": "prep0/flip6/bias/step1"
+    },
+    {
+      "atoms": [
+        {
+          "atom_id": "atom_cold_1",
+          "label": "cold"
+        },
+        {
+          "atom_id": "atom_hot_2",
+          "label": "hot"
+        }
+      ],
+      "context_id": "ctx_prep0_flip6_bias_step2",
+      "label": "prep0/flip6/bias/step2"
+    },
+    {
+      "atoms": [
+        {
+          "atom_id": "atom_cold_1",
+          "label": "cold"
+        },
+        {
+          "atom_id": "atom_hot_2",
+          "label": "hot"
+        }
+      ],
+      "context_id": "ctx_prep0_flip6_bias_step3",
+      "label": "prep0/flip6/bias/step3"
+    },
+    {
+      "atoms": [
+        {
+          "atom_id": "atom_cold_1",
+          "label": "cold"
+        },
+        {
+          "atom_id": "atom_hot_2",
+          "label": "hot"
+        }
+      ],
+      "context_id": "ctx_prep0_flip6_bias_step4",
+      "label": "prep0/flip6/bias/step4"
+    },
+    {
+      "atoms": [
+        {
+          "atom_id": "atom_cold_1",
+          "label": "cold"
+        },
+        {
+          "atom_id": "atom_hot_2",
+          "label": "hot"
+        }
+      ],
+      "context_id": "ctx_prep0_flip6_bias_step5",
+      "label": "prep0/flip6/bias/step5"
+    },
+    {
+      "atoms": [
+        {
+          "atom_id": "atom_one_1",
+          "label": "one"
+        },
+        {
+          "atom_id": "atom_zero_2",
+          "label": "zero"
+        }
+      ],
+      "context_id": "ctx_prep0_flip6_occupancy_step0",
+      "label": "prep0/flip6/occupancy/step0"
+    },
+    {
+      "atoms": [
+        {
+          "atom_id": "atom_one_1",
+          "label": "one"
+        },
+        {
+          "atom_id": "atom_zero_2",
+          "label": "zero"
+        }
+      ],
+      "context_id": "ctx_prep0_flip6_occupancy_step1",
+      "label": "prep0/flip6/occupancy/step1"
+    },
+    {
+      "atoms": [
+        {
+          "atom_id": "atom_one_1",
+          "label": "one"
+        },
+        {
+          "atom_id": "atom_zero_2",
+          "label": "zero"
+        }
+      ],
+      "context_id": "ctx_prep0_flip6_occupancy_step2",
+      "label": "prep0/flip6/occupancy/step2"
+    },
+    {
+      "atoms": [
+        {
+          "atom_id": "atom_one_1",
+          "label": "one"
+        },
+        {
+          "atom_id": "atom_zero_2",
+          "label": "zero"
+        }
+      ],
+      "context_id": "ctx_prep0_flip6_occupancy_step3",
+      "label": "prep0/flip6/occupancy/step3"
+    },
+    {
+      "atoms": [
+        {
+          "atom_id": "atom_one_1",
+          "label": "one"
+        },
+        {
+          "atom_id": "atom_zero_2",
+          "label": "zero"
+        }
+      ],
+      "context_id": "ctx_prep0_flip6_occupancy_step4",
+      "label": "prep0/flip6/occupancy/step4"
+    },
+    {
+      "atoms": [
+        {
+          "atom_id": "atom_one_1",
+          "label": "one"
+        },
+        {
+          "atom_id": "atom_zero_2",
+          "label": "zero"
+        }
+      ],
+      "context_id": "ctx_prep0_flip6_occupancy_step5",
+      "label": "prep0/flip6/occupancy/step5"
+    }
+  ],
+  "equality_proposals": [
+    {
+      "constraint_kind": "soft",
+      "left_event_id": "event_ctx_prep0_flip6_bias_step0_atom_cold_1",
+      "notes": "inferred_shared_event approx_score=0.11666666666666665 common_probe_count=10",
+      "proposal_id": "proposal_event_ctx_prep0_flip6_bias_step0_atom_cold_1__event_ctx_prep0_flip6_bias_step1_atom_hot_2",
+      "right_event_id": "event_ctx_prep0_flip6_bias_step1_atom_hot_2",
+      "weight_key": "weight_proposal_event_ctx_prep0_flip6_bias_step0_atom_cold_1__event_ctx_prep0_flip6_bias_step1_atom_hot_2"
+    },
+    {
+      "constraint_kind": "soft",
+      "left_event_id": "event_ctx_prep0_flip6_bias_step0_atom_hot_2",
+      "notes": "inferred_shared_event approx_score=0.112987012987013 common_probe_count=10",
+      "proposal_id": "proposal_event_ctx_prep0_flip6_bias_step0_atom_hot_2__event_ctx_prep0_flip6_bias_step1_atom_cold_1",
+      "right_event_id": "event_ctx_prep0_flip6_bias_step1_atom_cold_1",
+      "weight_key": "weight_proposal_event_ctx_prep0_flip6_bias_step0_atom_hot_2__event_ctx_prep0_flip6_bias_step1_atom_cold_1"
+    },
+    {
+      "constraint_kind": "soft",
+      "left_event_id": "event_ctx_prep0_flip6_bias_step0_atom_cold_1",
+      "notes": "inferred_shared_event approx_score=0.1388888888888889 common_probe_count=10",
+      "proposal_id": "proposal_event_ctx_prep0_flip6_bias_step0_atom_cold_1__event_ctx_prep0_flip6_bias_step2_atom_cold_1",
+      "right_event_id": "event_ctx_prep0_flip6_bias_step2_atom_cold_1",
+      "weight_key": "weight_proposal_event_ctx_prep0_flip6_bias_step0_atom_cold_1__event_ctx_prep0_flip6_bias_step2_atom_cold_1"
+    },
+    {
+      "constraint_kind": "soft",
+      "left_event_id": "event_ctx_prep0_flip6_bias_step0_atom_hot_2",
+      "notes": "inferred_shared_event approx_score=0.09740259740259741 common_probe_count=10",
+      "proposal_id": "proposal_event_ctx_prep0_flip6_bias_step0_atom_hot_2__event_ctx_prep0_flip6_bias_step2_atom_hot_2",
+      "right_event_id": "event_ctx_prep0_flip6_bias_step2_atom_hot_2",
+      "weight_key": "weight_proposal_event_ctx_prep0_flip6_bias_step0_atom_hot_2__event_ctx_prep0_flip6_bias_step2_atom_hot_2"
+    },
+    {
+      "constraint_kind": "soft",
+      "left_event_id": "event_ctx_prep0_flip6_bias_step0_atom_cold_1",
+      "notes": "inferred_shared_event approx_score=0.09523809523809522 common_probe_count=10",
+      "proposal_id": "proposal_event_ctx_prep0_flip6_bias_step0_atom_cold_1__event_ctx_prep0_flip6_bias_step3_atom_hot_2",
+      "right_event_id": "event_ctx_prep0_flip6_bias_step3_atom_hot_2",
+      "weight_key": "weight_proposal_event_ctx_prep0_flip6_bias_step0_atom_cold_1__event_ctx_prep0_flip6_bias_step3_atom_hot_2"
+    },
+    {
+      "constraint_kind": "soft",
+      "left_event_id": "event_ctx_prep0_flip6_bias_step0_atom_hot_2",
+      "notes": "inferred_shared_event approx_score=0.07527472527472527 common_probe_count=10",
+      "proposal_id": "proposal_event_ctx_prep0_flip6_bias_step0_atom_hot_2__event_ctx_prep0_flip6_bias_step3_atom_cold_1",
+      "right_event_id": "event_ctx_prep0_flip6_bias_step3_atom_cold_1",
+      "weight_key": "weight_proposal_event_ctx_prep0_flip6_bias_step0_atom_hot_2__event_ctx_prep0_flip6_bias_step3_atom_cold_1"
+    },
+    {
+      "constraint_kind": "soft",
+      "left_event_id": "event_ctx_prep0_flip6_bias_step0_atom_hot_2",
+      "notes": "inferred_shared_event approx_score=0.09155844155844156 common_probe_count=10",
+      "proposal_id": "proposal_event_ctx_prep0_flip6_bias_step0_atom_hot_2__event_ctx_prep0_flip6_bias_step4_atom_hot_2",
+      "right_event_id": "event_ctx_prep0_flip6_bias_step4_atom_hot_2",
+      "weight_key": "weight_proposal_event_ctx_prep0_flip6_bias_step0_atom_hot_2__event_ctx_prep0_flip6_bias_step4_atom_hot_2"
+    },
+    {
+      "constraint_kind": "soft",
+      "left_event_id": "event_ctx_prep0_flip6_bias_step0_atom_hot_2",
+      "notes": "inferred_shared_event approx_score=0.12380952380952381 common_probe_count=10",
+      "proposal_id": "proposal_event_ctx_prep0_flip6_bias_step0_atom_hot_2__event_ctx_prep0_flip6_bias_step5_atom_cold_1",
+      "right_event_id": "event_ctx_prep0_flip6_bias_step5_atom_cold_1",
+      "weight_key": "weight_proposal_event_ctx_prep0_flip6_bias_step0_atom_hot_2__event_ctx_prep0_flip6_bias_step5_atom_cold_1"
+    },
+    {
+      "constraint_kind": "soft",
+      "left_event_id": "event_ctx_prep0_flip6_bias_step0_atom_cold_1",
+      "notes": "inferred_shared_event approx_score=0.0 common_probe_count=10",
+      "proposal_id": "proposal_event_ctx_prep0_flip6_bias_step0_atom_cold_1__event_ctx_prep0_flip6_occupancy_step0_atom_zero_2",
+      "right_event_id": "event_ctx_prep0_flip6_occupancy_step0_atom_zero_2",
+      "weight_key": "weight_proposal_event_ctx_prep0_flip6_bias_step0_atom_cold_1__event_ctx_prep0_flip6_occupancy_step0_atom_zero_2"
+    },
+    {
+      "constraint_kind": "soft",
+      "left_event_id": "event_ctx_prep0_flip6_bias_step0_atom_hot_2",
+      "notes": "inferred_shared_event approx_score=0.0 common_probe_count=10",
+      "proposal_id": "proposal_event_ctx_prep0_flip6_bias_step0_atom_hot_2__event_ctx_prep0_flip6_occupancy_step0_atom_one_1",
+      "right_event_id": "event_ctx_prep0_flip6_occupancy_step0_atom_one_1",
+      "weight_key": "weight_proposal_event_ctx_prep0_flip6_bias_step0_atom_hot_2__event_ctx_prep0_flip6_occupancy_step0_atom_one_1"
+    },
+    {
+      "constraint_kind": "soft",
+      "left_event_id": "event_ctx_prep0_flip6_bias_step0_atom_cold_1",
+      "notes": "inferred_shared_event approx_score=0.11666666666666665 common_probe_count=10",
+      "proposal_id": "proposal_event_ctx_prep0_flip6_bias_step0_atom_cold_1__event_ctx_prep0_flip6_occupancy_step1_atom_one_1",
+      "right_event_id": "event_ctx_prep0_flip6_occupancy_step1_atom_one_1",
+      "weight_key": "weight_proposal_event_ctx_prep0_flip6_bias_step0_atom_cold_1__event_ctx_prep0_flip6_occupancy_step1_atom_one_1"
+    },
+    {
+      "constraint_kind": "soft",
+      "left_event_id": "event_ctx_prep0_flip6_bias_step0_atom_hot_2",
+      "notes": "inferred_shared_event approx_score=0.112987012987013 common_probe_count=10",
+      "proposal_id": "proposal_event_ctx_prep0_flip6_bias_step0_atom_hot_2__event_ctx_prep0_flip6_occupancy_step1_atom_zero_2",
+      "right_event_id": "event_ctx_prep0_flip6_occupancy_step1_atom_zero_2",
+      "weight_key": "weight_proposal_event_ctx_prep0_flip6_bias_step0_atom_hot_2__event_ctx_prep0_flip6_occupancy_step1_atom_zero_2"
+    },
+    {
+      "constraint_kind": "soft",
+      "left_event_id": "event_ctx_prep0_flip6_bias_step0_atom_cold_1",
+      "notes": "inferred_shared_event approx_score=0.1388888888888889 common_probe_count=10",
+      "proposal_id": "proposal_event_ctx_prep0_flip6_bias_step0_atom_cold_1__event_ctx_prep0_flip6_occupancy_step2_atom_zero_2",
+      "right_event_id": "event_ctx_prep0_flip6_occupancy_step2_atom_zero_2",
+      "weight_key": "weight_proposal_event_ctx_prep0_flip6_bias_step0_atom_cold_1__event_ctx_prep0_flip6_occupancy_step2_atom_zero_2"
+    },
+    {
+      "constraint_kind": "soft",
+      "left_event_id": "event_ctx_prep0_flip6_bias_step0_atom_hot_2",
+      "notes": "inferred_shared_event approx_score=0.09740259740259742 common_probe_count=10",
+      "proposal_id": "proposal_event_ctx_prep0_flip6_bias_step0_atom_hot_2__event_ctx_prep0_flip6_occupancy_step2_atom_one_1",
+      "right_event_id": "event_ctx_prep0_flip6_occupancy_step2_atom_one_1",
+      "weight_key": "weight_proposal_event_ctx_prep0_flip6_bias_step0_atom_hot_2__event_ctx_prep0_flip6_occupancy_step2_atom_one_1"
+    },
+    {
+      "constraint_kind": "soft",
+      "left_event_id": "event_ctx_prep0_flip6_bias_step0_atom_cold_1",
+      "notes": "inferred_shared_event approx_score=0.09523809523809523 common_probe_count=10",
+      "proposal_id": "proposal_event_ctx_prep0_flip6_bias_step0_atom_cold_1__event_ctx_prep0_flip6_occupancy_step3_atom_one_1",
+      "right_event_id": "event_ctx_prep0_flip6_occupancy_step3_atom_one_1",
+      "weight_key": "weight_proposal_event_ctx_prep0_flip6_bias_step0_atom_cold_1__event_ctx_prep0_flip6_occupancy_step3_atom_one_1"
+    },
+    {
+      "constraint_kind": "soft",
+      "left_event_id": "event_ctx_prep0_flip6_bias_step0_atom_hot_2",
+      "notes": "inferred_shared_event approx_score=0.07527472527472527 common_probe_count=10",
+      "proposal_id": "proposal_event_ctx_prep0_flip6_bias_step0_atom_hot_2__event_ctx_prep0_flip6_occupancy_step3_atom_zero_2",
+      "right_event_id": "event_ctx_prep0_flip6_occupancy_step3_atom_zero_2",
+      "weight_key": "weight_proposal_event_ctx_prep0_flip6_bias_step0_atom_hot_2__event_ctx_prep0_flip6_occupancy_step3_atom_zero_2"
+    },
+    {
+      "constraint_kind": "soft",
+      "left_event_id": "event_ctx_prep0_flip6_bias_step0_atom_hot_2",
+      "notes": "inferred_shared_event approx_score=0.09155844155844156 common_probe_count=10",
+      "proposal_id": "proposal_event_ctx_prep0_flip6_bias_step0_atom_hot_2__event_ctx_prep0_flip6_occupancy_step4_atom_one_1",
+      "right_event_id": "event_ctx_prep0_flip6_occupancy_step4_atom_one_1",
+      "weight_key": "weight_proposal_event_ctx_prep0_flip6_bias_step0_atom_hot_2__event_ctx_prep0_flip6_occupancy_step4_atom_one_1"
+    },
+    {
+      "constraint_kind": "soft",
+      "left_event_id": "event_ctx_prep0_flip6_bias_step0_atom_hot_2",
+      "notes": "inferred_shared_event approx_score=0.12380952380952381 common_probe_count=10",
+      "proposal_id": "proposal_event_ctx_prep0_flip6_bias_step0_atom_hot_2__event_ctx_prep0_flip6_occupancy_step5_atom_zero_2",
+      "right_event_id": "event_ctx_prep0_flip6_occupancy_step5_atom_zero_2",
+      "weight_key": "weight_proposal_event_ctx_prep0_flip6_bias_step0_atom_hot_2__event_ctx_prep0_flip6_occupancy_step5_atom_zero_2"
+    },
+    {
+      "constraint_kind": "soft",
+      "left_event_id": "event_ctx_prep0_flip6_bias_step1_atom_cold_1",
+      "notes": "inferred_shared_event approx_score=0.05454545454545454 common_probe_count=10",
+      "proposal_id": "proposal_event_ctx_prep0_flip6_bias_step1_atom_cold_1__event_ctx_prep0_flip6_bias_step2_atom_hot_2",
+      "right_event_id": "event_ctx_prep0_flip6_bias_step2_atom_hot_2",
+      "weight_key": "weight_proposal_event_ctx_prep0_flip6_bias_step1_atom_cold_1__event_ctx_prep0_flip6_bias_step2_atom_hot_2"
+    },
+    {
+      "constraint_kind": "soft",
+      "left_event_id": "event_ctx_prep0_flip6_bias_step1_atom_hot_2",
+      "notes": "inferred_shared_event approx_score=0.06666666666666665 common_probe_count=10",
+      "proposal_id": "proposal_event_ctx_prep0_flip6_bias_step1_atom_hot_2__event_ctx_prep0_flip6_bias_step2_atom_cold_1",
+      "right_event_id": "event_ctx_prep0_flip6_bias_step2_atom_cold_1",
+      "weight_key": "weight_proposal_event_ctx_prep0_flip6_bias_step1_atom_hot_2__event_ctx_prep0_flip6_bias_step2_atom_cold_1"
+    },
+    {
+      "constraint_kind": "soft",
+      "left_event_id": "event_ctx_prep0_flip6_bias_step1_atom_cold_1",
+      "notes": "inferred_shared_event approx_score=0.08111888111888113 common_probe_count=10",
+      "proposal_id": "proposal_event_ctx_prep0_flip6_bias_step1_atom_cold_1__event_ctx_prep0_flip6_bias_step3_atom_cold_1",
+      "right_event_id": "event_ctx_prep0_flip6_bias_step3_atom_cold_1",
+      "weight_key": "weight_proposal_event_ctx_prep0_flip6_bias_step1_atom_cold_1__event_ctx_prep0_flip6_bias_step3_atom_cold_1"
+    },
+    {
+      "constraint_kind": "soft",
+      "left_event_id": "event_ctx_prep0_flip6_bias_step1_atom_hot_2",
+      "notes": "inferred_shared_event approx_score=0.12063492063492062 common_probe_count=10",
+      "proposal_id": "proposal_event_ctx_prep0_flip6_bias_step1_atom_hot_2__event_ctx_prep0_flip6_bias_step3_atom_hot_2",
+      "right_event_id": "event_ctx_prep0_flip6_bias_step3_atom_hot_2",
+      "weight_key": "weight_proposal_event_ctx_prep0_flip6_bias_step1_atom_hot_2__event_ctx_prep0_flip6_bias_step3_atom_hot_2"
+    },
+    {
+      "constraint_kind": "soft",
+      "left_event_id": "event_ctx_prep0_flip6_bias_step1_atom_cold_1",
+      "notes": "inferred_shared_event approx_score=0.12727272727272726 common_probe_count=10",
+      "proposal_id": "proposal_event_ctx_prep0_flip6_bias_step1_atom_cold_1__event_ctx_prep0_flip6_bias_step4_atom_hot_2",
+      "right_event_id": "event_ctx_prep0_flip6_bias_step4_atom_hot_2",
+      "weight_key": "weight_proposal_event_ctx_prep0_flip6_bias_step1_atom_cold_1__event_ctx_prep0_flip6_bias_step4_atom_hot_2"
+    },
+    {
+      "constraint_kind": "soft",
+      "left_event_id": "event_ctx_prep0_flip6_bias_step1_atom_cold_1",
+      "notes": "inferred_shared_event approx_score=0.112987012987013 common_probe_count=10",
+      "proposal_id": "proposal_event_ctx_prep0_flip6_bias_step1_atom_cold_1__event_ctx_prep0_flip6_occupancy_step0_atom_one_1",
+      "right_event_id": "event_ctx_prep0_flip6_occupancy_step0_atom_one_1",
+      "weight_key": "weight_proposal_event_ctx_prep0_flip6_bias_step1_atom_cold_1__event_ctx_prep0_flip6_occupancy_step0_atom_one_1"
+    },
+    {
+      "constraint_kind": "soft",
+      "left_event_id": "event_ctx_prep0_flip6_bias_step1_atom_hot_2",
+      "notes": "inferred_shared_event approx_score=0.11666666666666665 common_probe_count=10",
+      "proposal_id": "proposal_event_ctx_prep0_flip6_bias_step1_atom_hot_2__event_ctx_prep0_flip6_occupancy_step0_atom_zero_2",
+      "right_event_id": "event_ctx_prep0_flip6_occupancy_step0_atom_zero_2",
+      "weight_key": "weight_proposal_event_ctx_prep0_flip6_bias_step1_atom_hot_2__event_ctx_prep0_flip6_occupancy_step0_atom_zero_2"
+    },
+    {
+      "constraint_kind": "soft",
+      "left_event_id": "event_ctx_prep0_flip6_bias_step1_atom_cold_1",
+      "notes": "inferred_shared_event approx_score=0.0 common_probe_count=10",
+      "proposal_id": "proposal_event_ctx_prep0_flip6_bias_step1_atom_cold_1__event_ctx_prep0_flip6_occupancy_step1_atom_zero_2",
+      "right_event_id": "event_ctx_prep0_flip6_occupancy_step1_atom_zero_2",
+      "weight_key": "weight_proposal_event_ctx_prep0_flip6_bias_step1_atom_cold_1__event_ctx_prep0_flip6_occupancy_step1_atom_zero_2"
+    },
+    {
+      "constraint_kind": "soft",
+      "left_event_id": "event_ctx_prep0_flip6_bias_step1_atom_hot_2",
+      "notes": "inferred_shared_event approx_score=0.0 common_probe_count=10",
+      "proposal_id": "proposal_event_ctx_prep0_flip6_bias_step1_atom_hot_2__event_ctx_prep0_flip6_occupancy_step1_atom_one_1",
+      "right_event_id": "event_ctx_prep0_flip6_occupancy_step1_atom_one_1",
+      "weight_key": "weight_proposal_event_ctx_prep0_flip6_bias_step1_atom_hot_2__event_ctx_prep0_flip6_occupancy_step1_atom_one_1"
+    },
+    {
+      "constraint_kind": "soft",
+      "left_event_id": "event_ctx_prep0_flip6_bias_step1_atom_cold_1",
+      "notes": "inferred_shared_event approx_score=0.05454545454545454 common_probe_count=10",
+      "proposal_id": "proposal_event_ctx_prep0_flip6_bias_step1_atom_cold_1__event_ctx_prep0_flip6_occupancy_step2_atom_one_1",
+      "right_event_id": "event_ctx_prep0_flip6_occupancy_step2_atom_one_1",
+      "weight_key": "weight_proposal_event_ctx_prep0_flip6_bias_step1_atom_cold_1__event_ctx_prep0_flip6_occupancy_step2_atom_one_1"
+    },
+    {
+      "constraint_kind": "soft",
+      "left_event_id": "event_ctx_prep0_flip6_bias_step1_atom_hot_2",
+      "notes": "inferred_shared_event approx_score=0.06666666666666665 common_probe_count=10",
+      "proposal_id": "proposal_event_ctx_prep0_flip6_bias_step1_atom_hot_2__event_ctx_prep0_flip6_occupancy_step2_atom_zero_2",
+      "right_event_id": "event_ctx_prep0_flip6_occupancy_step2_atom_zero_2",
+      "weight_key": "weight_proposal_event_ctx_prep0_flip6_bias_step1_atom_hot_2__event_ctx_prep0_flip6_occupancy_step2_atom_zero_2"
+    },
+    {
+      "constraint_kind": "soft",
+      "left_event_id": "event_ctx_prep0_flip6_bias_step1_atom_cold_1",
+      "notes": "inferred_shared_event approx_score=0.08111888111888113 common_probe_count=10",
+      "proposal_id": "proposal_event_ctx_prep0_flip6_bias_step1_atom_cold_1__event_ctx_prep0_flip6_occupancy_step3_atom_zero_2",
+      "right_event_id": "event_ctx_prep0_flip6_occupancy_step3_atom_zero_2",
+      "weight_key": "weight_proposal_event_ctx_prep0_flip6_bias_step1_atom_cold_1__event_ctx_prep0_flip6_occupancy_step3_atom_zero_2"
+    },
+    {
+      "constraint_kind": "soft",
+      "left_event_id": "event_ctx_prep0_flip6_bias_step1_atom_hot_2",
+      "notes": "inferred_shared_event approx_score=0.12063492063492062 common_probe_count=10",
+      "proposal_id": "proposal_event_ctx_prep0_flip6_bias_step1_atom_hot_2__event_ctx_prep0_flip6_occupancy_step3_atom_one_1",
+      "right_event_id": "event_ctx_prep0_flip6_occupancy_step3_atom_one_1",
+      "weight_key": "weight_proposal_event_ctx_prep0_flip6_bias_step1_atom_hot_2__event_ctx_prep0_flip6_occupancy_step3_atom_one_1"
+    },
+    {
+      "constraint_kind": "soft",
+      "left_event_id": "event_ctx_prep0_flip6_bias_step1_atom_cold_1",
+      "notes": "inferred_shared_event approx_score=0.12727272727272726 common_probe_count=10",
+      "proposal_id": "proposal_event_ctx_prep0_flip6_bias_step1_atom_cold_1__event_ctx_prep0_flip6_occupancy_step4_atom_one_1",
+      "right_event_id": "event_ctx_prep0_flip6_occupancy_step4_atom_one_1",
+      "weight_key": "weight_proposal_event_ctx_prep0_flip6_bias_step1_atom_cold_1__event_ctx_prep0_flip6_occupancy_step4_atom_one_1"
+    },
+    {
+      "constraint_kind": "soft",
+      "left_event_id": "event_ctx_prep0_flip6_bias_step2_atom_cold_1",
+      "notes": "inferred_shared_event approx_score=0.14285714285714285 common_probe_count=10",
+      "proposal_id": "proposal_event_ctx_prep0_flip6_bias_step2_atom_cold_1__event_ctx_prep0_flip6_bias_step3_atom_hot_2",
+      "right_event_id": "event_ctx_prep0_flip6_bias_step3_atom_hot_2",
+      "weight_key": "weight_proposal_event_ctx_prep0_flip6_bias_step2_atom_cold_1__event_ctx_prep0_flip6_bias_step3_atom_hot_2"
+    },
+    {
+      "constraint_kind": "soft",
+      "left_event_id": "event_ctx_prep0_flip6_bias_step2_atom_hot_2",
+      "notes": "inferred_shared_event approx_score=0.0853146853146853 common_probe_count=10",
+      "proposal_id": "proposal_event_ctx_prep0_flip6_bias_step2_atom_hot_2__event_ctx_prep0_flip6_bias_step3_atom_cold_1",
+      "right_event_id": "event_ctx_prep0_flip6_bias_step3_atom_cold_1",
+      "weight_key": "weight_proposal_event_ctx_prep0_flip6_bias_step2_atom_hot_2__event_ctx_prep0_flip6_bias_step3_atom_cold_1"
+    },
+    {
+      "constraint_kind": "soft",
+      "left_event_id": "event_ctx_prep0_flip6_bias_step2_atom_hot_2",
+      "notes": "inferred_shared_event approx_score=0.12727272727272726 common_probe_count=10",
+      "proposal_id": "proposal_event_ctx_prep0_flip6_bias_step2_atom_hot_2__event_ctx_prep0_flip6_bias_step4_atom_hot_2",
+      "right_event_id": "event_ctx_prep0_flip6_bias_step4_atom_hot_2",
+      "weight_key": "weight_proposal_event_ctx_prep0_flip6_bias_step2_atom_hot_2__event_ctx_prep0_flip6_bias_step4_atom_hot_2"
+    },
+    {
+      "constraint_kind": "soft",
+      "left_event_id": "event_ctx_prep0_flip6_bias_step2_atom_cold_1",
+      "notes": "inferred_shared_event approx_score=0.1388888888888889 common_probe_count=10",
+      "proposal_id": "proposal_event_ctx_prep0_flip6_bias_step2_atom_cold_1__event_ctx_prep0_flip6_occupancy_step0_atom_zero_2",
+      "right_event_id": "event_ctx_prep0_flip6_occupancy_step0_atom_zero_2",
+      "weight_key": "weight_proposal_event_ctx_prep0_flip6_bias_step2_atom_cold_1__event_ctx_prep0_flip6_occupancy_step0_atom_zero_2"
+    },
+    {
+      "constraint_kind": "soft",
+      "left_event_id": "event_ctx_prep0_flip6_bias_step2_atom_hot_2",
+      "notes": "inferred_shared_event approx_score=0.09740259740259741 common_probe_count=10",
+      "proposal_id": "proposal_event_ctx_prep0_flip6_bias_step2_atom_hot_2__event_ctx_prep0_flip6_occupancy_step0_atom_one_1",
+      "right_event_id": "event_ctx_prep0_flip6_occupancy_step0_atom_one_1",
+      "weight_key": "weight_proposal_event_ctx_prep0_flip6_bias_step2_atom_hot_2__event_ctx_prep0_flip6_occupancy_step0_atom_one_1"
+    },
+    {
+      "constraint_kind": "soft",
+      "left_event_id": "event_ctx_prep0_flip6_bias_step2_atom_cold_1",
+      "notes": "inferred_shared_event approx_score=0.06666666666666665 common_probe_count=10",
+      "proposal_id": "proposal_event_ctx_prep0_flip6_bias_step2_atom_cold_1__event_ctx_prep0_flip6_occupancy_step1_atom_one_1",
+      "right_event_id": "event_ctx_prep0_flip6_occupancy_step1_atom_one_1",
+      "weight_key": "weight_proposal_event_ctx_prep0_flip6_bias_step2_atom_cold_1__event_ctx_prep0_flip6_occupancy_step1_atom_one_1"
+    },
+    {
+      "constraint_kind": "soft",
+      "left_event_id": "event_ctx_prep0_flip6_bias_step2_atom_hot_2",
+      "notes": "inferred_shared_event approx_score=0.05454545454545454 common_probe_count=10",
+      "proposal_id": "proposal_event_ctx_prep0_flip6_bias_step2_atom_hot_2__event_ctx_prep0_flip6_occupancy_step1_atom_zero_2",
+      "right_event_id": "event_ctx_prep0_flip6_occupancy_step1_atom_zero_2",
+      "weight_key": "weight_proposal_event_ctx_prep0_flip6_bias_step2_atom_hot_2__event_ctx_prep0_flip6_occupancy_step1_atom_zero_2"
+    },
+    {
+      "constraint_kind": "soft",
+      "left_event_id": "event_ctx_prep0_flip6_bias_step2_atom_cold_1",
+      "notes": "inferred_shared_event approx_score=0.0 common_probe_count=10",
+      "proposal_id": "proposal_event_ctx_prep0_flip6_bias_step2_atom_cold_1__event_ctx_prep0_flip6_occupancy_step2_atom_zero_2",
+      "right_event_id": "event_ctx_prep0_flip6_occupancy_step2_atom_zero_2",
+      "weight_key": "weight_proposal_event_ctx_prep0_flip6_bias_step2_atom_cold_1__event_ctx_prep0_flip6_occupancy_step2_atom_zero_2"
+    },
+    {
+      "constraint_kind": "soft",
+      "left_event_id": "event_ctx_prep0_flip6_bias_step2_atom_hot_2",
+      "notes": "inferred_shared_event approx_score=0.0 common_probe_count=10",
+      "proposal_id": "proposal_event_ctx_prep0_flip6_bias_step2_atom_hot_2__event_ctx_prep0_flip6_occupancy_step2_atom_one_1",
+      "right_event_id": "event_ctx_prep0_flip6_occupancy_step2_atom_one_1",
+      "weight_key": "weight_proposal_event_ctx_prep0_flip6_bias_step2_atom_hot_2__event_ctx_prep0_flip6_occupancy_step2_atom_one_1"
+    },
+    {
+      "constraint_kind": "soft",
+      "left_event_id": "event_ctx_prep0_flip6_bias_step2_atom_cold_1",
+      "notes": "inferred_shared_event approx_score=0.14285714285714285 common_probe_count=10",
+      "proposal_id": "proposal_event_ctx_prep0_flip6_bias_step2_atom_cold_1__event_ctx_prep0_flip6_occupancy_step3_atom_one_1",
+      "right_event_id": "event_ctx_prep0_flip6_occupancy_step3_atom_one_1",
+      "weight_key": "weight_proposal_event_ctx_prep0_flip6_bias_step2_atom_cold_1__event_ctx_prep0_flip6_occupancy_step3_atom_one_1"
+    },
+    {
+      "constraint_kind": "soft",
+      "left_event_id": "event_ctx_prep0_flip6_bias_step2_atom_hot_2",
+      "notes": "inferred_shared_event approx_score=0.0853146853146853 common_probe_count=10",
+      "proposal_id": "proposal_event_ctx_prep0_flip6_bias_step2_atom_hot_2__event_ctx_prep0_flip6_occupancy_step3_atom_zero_2",
+      "right_event_id": "event_ctx_prep0_flip6_occupancy_step3_atom_zero_2",
+      "weight_key": "weight_proposal_event_ctx_prep0_flip6_bias_step2_atom_hot_2__event_ctx_prep0_flip6_occupancy_step3_atom_zero_2"
+    },
+    {
+      "constraint_kind": "soft",
+      "left_event_id": "event_ctx_prep0_flip6_bias_step2_atom_hot_2",
+      "notes": "inferred_shared_event approx_score=0.12727272727272726 common_probe_count=10",
+      "proposal_id": "proposal_event_ctx_prep0_flip6_bias_step2_atom_hot_2__event_ctx_prep0_flip6_occupancy_step4_atom_one_1",
+      "right_event_id": "event_ctx_prep0_flip6_occupancy_step4_atom_one_1",
+      "weight_key": "weight_proposal_event_ctx_prep0_flip6_bias_step2_atom_hot_2__event_ctx_prep0_flip6_occupancy_step4_atom_one_1"
+    },
+    {
+      "constraint_kind": "soft",
+      "left_event_id": "event_ctx_prep0_flip6_bias_step3_atom_cold_1",
+      "notes": "inferred_shared_event approx_score=0.10909090909090909 common_probe_count=10",
+      "proposal_id": "proposal_event_ctx_prep0_flip6_bias_step3_atom_cold_1__event_ctx_prep0_flip6_bias_step4_atom_hot_2",
+      "right_event_id": "event_ctx_prep0_flip6_bias_step4_atom_hot_2",
+      "weight_key": "weight_proposal_event_ctx_prep0_flip6_bias_step3_atom_cold_1__event_ctx_prep0_flip6_bias_step4_atom_hot_2"
+    },
+    {
+      "constraint_kind": "soft",
+      "left_event_id": "event_ctx_prep0_flip6_bias_step3_atom_cold_1",
+      "notes": "inferred_shared_event approx_score=0.1307692307692308 common_probe_count=10",
+      "proposal_id": "proposal_event_ctx_prep0_flip6_bias_step3_atom_cold_1__event_ctx_prep0_flip6_bias_step5_atom_cold_1",
+      "right_event_id": "event_ctx_prep0_flip6_bias_step5_atom_cold_1",
+      "weight_key": "weight_proposal_event_ctx_prep0_flip6_bias_step3_atom_cold_1__event_ctx_prep0_flip6_bias_step5_atom_cold_1"
+    },
+    {
+      "constraint_kind": "soft",
+      "left_event_id": "event_ctx_prep0_flip6_bias_step3_atom_cold_1",
+      "notes": "inferred_shared_event approx_score=0.07527472527472527 common_probe_count=10",
+      "proposal_id": "proposal_event_ctx_prep0_flip6_bias_step3_atom_cold_1__event_ctx_prep0_flip6_occupancy_step0_atom_one_1",
+      "right_event_id": "event_ctx_prep0_flip6_occupancy_step0_atom_one_1",
+      "weight_key": "weight_proposal_event_ctx_prep0_flip6_bias_step3_atom_cold_1__event_ctx_prep0_flip6_occupancy_step0_atom_one_1"
+    },
+    {
+      "constraint_kind": "soft",
+      "left_event_id": "event_ctx_prep0_flip6_bias_step3_atom_hot_2",
+      "notes": "inferred_shared_event approx_score=0.09523809523809523 common_probe_count=10",
+      "proposal_id": "proposal_event_ctx_prep0_flip6_bias_step3_atom_hot_2__event_ctx_prep0_flip6_occupancy_step0_atom_zero_2",
+      "right_event_id": "event_ctx_prep0_flip6_occupancy_step0_atom_zero_2",
+      "weight_key": "weight_proposal_event_ctx_prep0_flip6_bias_step3_atom_hot_2__event_ctx_prep0_flip6_occupancy_step0_atom_zero_2"
+    },
+    {
+      "constraint_kind": "soft",
+      "left_event_id": "event_ctx_prep0_flip6_bias_step3_atom_cold_1",
+      "notes": "inferred_shared_event approx_score=0.08111888111888113 common_probe_count=10",
+      "proposal_id": "proposal_event_ctx_prep0_flip6_bias_step3_atom_cold_1__event_ctx_prep0_flip6_occupancy_step1_atom_zero_2",
+      "right_event_id": "event_ctx_prep0_flip6_occupancy_step1_atom_zero_2",
+      "weight_key": "weight_proposal_event_ctx_prep0_flip6_bias_step3_atom_cold_1__event_ctx_prep0_flip6_occupancy_step1_atom_zero_2"
+    },
+    {
+      "constraint_kind": "soft",
+      "left_event_id": "event_ctx_prep0_flip6_bias_step3_atom_hot_2",
+      "notes": "inferred_shared_event approx_score=0.12063492063492062 common_probe_count=10",
+      "proposal_id": "proposal_event_ctx_prep0_flip6_bias_step3_atom_hot_2__event_ctx_prep0_flip6_occupancy_step1_atom_one_1",
+      "right_event_id": "event_ctx_prep0_flip6_occupancy_step1_atom_one_1",
+      "weight_key": "weight_proposal_event_ctx_prep0_flip6_bias_step3_atom_hot_2__event_ctx_prep0_flip6_occupancy_step1_atom_one_1"
+    },
+    {
+      "constraint_kind": "soft",
+      "left_event_id": "event_ctx_prep0_flip6_bias_step3_atom_cold_1",
+      "notes": "inferred_shared_event approx_score=0.08531468531468532 common_probe_count=10",
+      "proposal_id": "proposal_event_ctx_prep0_flip6_bias_step3_atom_cold_1__event_ctx_prep0_flip6_occupancy_step2_atom_one_1",
+      "right_event_id": "event_ctx_prep0_flip6_occupancy_step2_atom_one_1",
+      "weight_key": "weight_proposal_event_ctx_prep0_flip6_bias_step3_atom_cold_1__event_ctx_prep0_flip6_occupancy_step2_atom_one_1"
+    },
+    {
+      "constraint_kind": "soft",
+      "left_event_id": "event_ctx_prep0_flip6_bias_step3_atom_hot_2",
+      "notes": "inferred_shared_event approx_score=0.14285714285714285 common_probe_count=10",
+      "proposal_id": "proposal_event_ctx_prep0_flip6_bias_step3_atom_hot_2__event_ctx_prep0_flip6_occupancy_step2_atom_zero_2",
+      "right_event_id": "event_ctx_prep0_flip6_occupancy_step2_atom_zero_2",
+      "weight_key": "weight_proposal_event_ctx_prep0_flip6_bias_step3_atom_hot_2__event_ctx_prep0_flip6_occupancy_step2_atom_zero_2"
+    },
+    {
+      "constraint_kind": "soft",
+      "left_event_id": "event_ctx_prep0_flip6_bias_step3_atom_cold_1",
+      "notes": "inferred_shared_event approx_score=0.0 common_probe_count=10",
+      "proposal_id": "proposal_event_ctx_prep0_flip6_bias_step3_atom_cold_1__event_ctx_prep0_flip6_occupancy_step3_atom_zero_2",
+      "right_event_id": "event_ctx_prep0_flip6_occupancy_step3_atom_zero_2",
+      "weight_key": "weight_proposal_event_ctx_prep0_flip6_bias_step3_atom_cold_1__event_ctx_prep0_flip6_occupancy_step3_atom_zero_2"
+    },
+    {
+      "constraint_kind": "soft",
+      "left_event_id": "event_ctx_prep0_flip6_bias_step3_atom_hot_2",
+      "notes": "inferred_shared_event approx_score=0.0 common_probe_count=10",
+      "proposal_id": "proposal_event_ctx_prep0_flip6_bias_step3_atom_hot_2__event_ctx_prep0_flip6_occupancy_step3_atom_one_1",
+      "right_event_id": "event_ctx_prep0_flip6_occupancy_step3_atom_one_1",
+      "weight_key": "weight_proposal_event_ctx_prep0_flip6_bias_step3_atom_hot_2__event_ctx_prep0_flip6_occupancy_step3_atom_one_1"
+    },
+    {
+      "constraint_kind": "soft",
+      "left_event_id": "event_ctx_prep0_flip6_bias_step3_atom_cold_1",
+      "notes": "inferred_shared_event approx_score=0.10909090909090909 common_probe_count=10",
+      "proposal_id": "proposal_event_ctx_prep0_flip6_bias_step3_atom_cold_1__event_ctx_prep0_flip6_occupancy_step4_atom_one_1",
+      "right_event_id": "event_ctx_prep0_flip6_occupancy_step4_atom_one_1",
+      "weight_key": "weight_proposal_event_ctx_prep0_flip6_bias_step3_atom_cold_1__event_ctx_prep0_flip6_occupancy_step4_atom_one_1"
+    },
+    {
+      "constraint_kind": "soft",
+      "left_event_id": "event_ctx_prep0_flip6_bias_step3_atom_cold_1",
+      "notes": "inferred_shared_event approx_score=0.1307692307692308 common_probe_count=10",
+      "proposal_id": "proposal_event_ctx_prep0_flip6_bias_step3_atom_cold_1__event_ctx_prep0_flip6_occupancy_step5_atom_zero_2",
+      "right_event_id": "event_ctx_prep0_flip6_occupancy_step5_atom_zero_2",
+      "weight_key": "weight_proposal_event_ctx_prep0_flip6_bias_step3_atom_cold_1__event_ctx_prep0_flip6_occupancy_step5_atom_zero_2"
+    },
+    {
+      "constraint_kind": "soft",
+      "left_event_id": "event_ctx_prep0_flip6_bias_step4_atom_cold_1",
+      "notes": "inferred_shared_event approx_score=0.130952380952381 common_probe_count=10",
+      "proposal_id": "proposal_event_ctx_prep0_flip6_bias_step4_atom_cold_1__event_ctx_prep0_flip6_bias_step5_atom_hot_2",
+      "right_event_id": "event_ctx_prep0_flip6_bias_step5_atom_hot_2",
+      "weight_key": "weight_proposal_event_ctx_prep0_flip6_bias_step4_atom_cold_1__event_ctx_prep0_flip6_bias_step5_atom_hot_2"
+    },
+    {
+      "constraint_kind": "soft",
+      "left_event_id": "event_ctx_prep0_flip6_bias_step4_atom_hot_2",
+      "notes": "inferred_shared_event approx_score=0.09155844155844156 common_probe_count=10",
+      "proposal_id": "proposal_event_ctx_prep0_flip6_bias_step4_atom_hot_2__event_ctx_prep0_flip6_occupancy_step0_atom_one_1",
+      "right_event_id": "event_ctx_prep0_flip6_occupancy_step0_atom_one_1",
+      "weight_key": "weight_proposal_event_ctx_prep0_flip6_bias_step4_atom_hot_2__event_ctx_prep0_flip6_occupancy_step0_atom_one_1"
+    },
+    {
+      "constraint_kind": "soft",
+      "left_event_id": "event_ctx_prep0_flip6_bias_step4_atom_hot_2",
+      "notes": "inferred_shared_event approx_score=0.12727272727272726 common_probe_count=10",
+      "proposal_id": "proposal_event_ctx_prep0_flip6_bias_step4_atom_hot_2__event_ctx_prep0_flip6_occupancy_step1_atom_zero_2",
+      "right_event_id": "event_ctx_prep0_flip6_occupancy_step1_atom_zero_2",
+      "weight_key": "weight_proposal_event_ctx_prep0_flip6_bias_step4_atom_hot_2__event_ctx_prep0_flip6_occupancy_step1_atom_zero_2"
+    },
+    {
+      "constraint_kind": "soft",
+      "left_event_id": "event_ctx_prep0_flip6_bias_step4_atom_hot_2",
+      "notes": "inferred_shared_event approx_score=0.12727272727272726 common_probe_count=10",
+      "proposal_id": "proposal_event_ctx_prep0_flip6_bias_step4_atom_hot_2__event_ctx_prep0_flip6_occupancy_step2_atom_one_1",
+      "right_event_id": "event_ctx_prep0_flip6_occupancy_step2_atom_one_1",
+      "weight_key": "weight_proposal_event_ctx_prep0_flip6_bias_step4_atom_hot_2__event_ctx_prep0_flip6_occupancy_step2_atom_one_1"
+    },
+    {
+      "constraint_kind": "soft",
+      "left_event_id": "event_ctx_prep0_flip6_bias_step4_atom_hot_2",
+      "notes": "inferred_shared_event approx_score=0.10909090909090909 common_probe_count=10",
+      "proposal_id": "proposal_event_ctx_prep0_flip6_bias_step4_atom_hot_2__event_ctx_prep0_flip6_occupancy_step3_atom_zero_2",
+      "right_event_id": "event_ctx_prep0_flip6_occupancy_step3_atom_zero_2",
+      "weight_key": "weight_proposal_event_ctx_prep0_flip6_bias_step4_atom_hot_2__event_ctx_prep0_flip6_occupancy_step3_atom_zero_2"
+    },
+    {
+      "constraint_kind": "soft",
+      "left_event_id": "event_ctx_prep0_flip6_bias_step4_atom_cold_1",
+      "notes": "inferred_shared_event approx_score=0.0 common_probe_count=10",
+      "proposal_id": "proposal_event_ctx_prep0_flip6_bias_step4_atom_cold_1__event_ctx_prep0_flip6_occupancy_step4_atom_zero_2",
+      "right_event_id": "event_ctx_prep0_flip6_occupancy_step4_atom_zero_2",
+      "weight_key": "weight_proposal_event_ctx_prep0_flip6_bias_step4_atom_cold_1__event_ctx_prep0_flip6_occupancy_step4_atom_zero_2"
+    },
+    {
+      "constraint_kind": "soft",
+      "left_event_id": "event_ctx_prep0_flip6_bias_step4_atom_hot_2",
+      "notes": "inferred_shared_event approx_score=0.0 common_probe_count=10",
+      "proposal_id": "proposal_event_ctx_prep0_flip6_bias_step4_atom_hot_2__event_ctx_prep0_flip6_occupancy_step4_atom_one_1",
+      "right_event_id": "event_ctx_prep0_flip6_occupancy_step4_atom_one_1",
+      "weight_key": "weight_proposal_event_ctx_prep0_flip6_bias_step4_atom_hot_2__event_ctx_prep0_flip6_occupancy_step4_atom_one_1"
+    },
+    {
+      "constraint_kind": "soft",
+      "left_event_id": "event_ctx_prep0_flip6_bias_step4_atom_cold_1",
+      "notes": "inferred_shared_event approx_score=0.13095238095238093 common_probe_count=10",
+      "proposal_id": "proposal_event_ctx_prep0_flip6_bias_step4_atom_cold_1__event_ctx_prep0_flip6_occupancy_step5_atom_one_1",
+      "right_event_id": "event_ctx_prep0_flip6_occupancy_step5_atom_one_1",
+      "weight_key": "weight_proposal_event_ctx_prep0_flip6_bias_step4_atom_cold_1__event_ctx_prep0_flip6_occupancy_step5_atom_one_1"
+    },
+    {
+      "constraint_kind": "soft",
+      "left_event_id": "event_ctx_prep0_flip6_bias_step5_atom_cold_1",
+      "notes": "inferred_shared_event approx_score=0.12380952380952381 common_probe_count=10",
+      "proposal_id": "proposal_event_ctx_prep0_flip6_bias_step5_atom_cold_1__event_ctx_prep0_flip6_occupancy_step0_atom_one_1",
+      "right_event_id": "event_ctx_prep0_flip6_occupancy_step0_atom_one_1",
+      "weight_key": "weight_proposal_event_ctx_prep0_flip6_bias_step5_atom_cold_1__event_ctx_prep0_flip6_occupancy_step0_atom_one_1"
+    },
+    {
+      "constraint_kind": "soft",
+      "left_event_id": "event_ctx_prep0_flip6_bias_step5_atom_cold_1",
+      "notes": "inferred_shared_event approx_score=0.1307692307692308 common_probe_count=10",
+      "proposal_id": "proposal_event_ctx_prep0_flip6_bias_step5_atom_cold_1__event_ctx_prep0_flip6_occupancy_step3_atom_zero_2",
+      "right_event_id": "event_ctx_prep0_flip6_occupancy_step3_atom_zero_2",
+      "weight_key": "weight_proposal_event_ctx_prep0_flip6_bias_step5_atom_cold_1__event_ctx_prep0_flip6_occupancy_step3_atom_zero_2"
+    },
+    {
+      "constraint_kind": "soft",
+      "left_event_id": "event_ctx_prep0_flip6_bias_step5_atom_hot_2",
+      "notes": "inferred_shared_event approx_score=0.13095238095238093 common_probe_count=10",
+      "proposal_id": "proposal_event_ctx_prep0_flip6_bias_step5_atom_hot_2__event_ctx_prep0_flip6_occupancy_step4_atom_zero_2",
+      "right_event_id": "event_ctx_prep0_flip6_occupancy_step4_atom_zero_2",
+      "weight_key": "weight_proposal_event_ctx_prep0_flip6_bias_step5_atom_hot_2__event_ctx_prep0_flip6_occupancy_step4_atom_zero_2"
+    },
+    {
+      "constraint_kind": "soft",
+      "left_event_id": "event_ctx_prep0_flip6_bias_step5_atom_cold_1",
+      "notes": "inferred_shared_event approx_score=0.0 common_probe_count=10",
+      "proposal_id": "proposal_event_ctx_prep0_flip6_bias_step5_atom_cold_1__event_ctx_prep0_flip6_occupancy_step5_atom_zero_2",
+      "right_event_id": "event_ctx_prep0_flip6_occupancy_step5_atom_zero_2",
+      "weight_key": "weight_proposal_event_ctx_prep0_flip6_bias_step5_atom_cold_1__event_ctx_prep0_flip6_occupancy_step5_atom_zero_2"
+    },
+    {
+      "constraint_kind": "soft",
+      "left_event_id": "event_ctx_prep0_flip6_bias_step5_atom_hot_2",
+      "notes": "inferred_shared_event approx_score=0.0 common_probe_count=10",
+      "proposal_id": "proposal_event_ctx_prep0_flip6_bias_step5_atom_hot_2__event_ctx_prep0_flip6_occupancy_step5_atom_one_1",
+      "right_event_id": "event_ctx_prep0_flip6_occupancy_step5_atom_one_1",
+      "weight_key": "weight_proposal_event_ctx_prep0_flip6_bias_step5_atom_hot_2__event_ctx_prep0_flip6_occupancy_step5_atom_one_1"
+    },
+    {
+      "constraint_kind": "soft",
+      "left_event_id": "event_ctx_prep0_flip6_occupancy_step0_atom_one_1",
+      "notes": "inferred_shared_event approx_score=0.112987012987013 common_probe_count=10",
+      "proposal_id": "proposal_event_ctx_prep0_flip6_occupancy_step0_atom_one_1__event_ctx_prep0_flip6_occupancy_step1_atom_zero_2",
+      "right_event_id": "event_ctx_prep0_flip6_occupancy_step1_atom_zero_2",
+      "weight_key": "weight_proposal_event_ctx_prep0_flip6_occupancy_step0_atom_one_1__event_ctx_prep0_flip6_occupancy_step1_atom_zero_2"
+    },
+    {
+      "constraint_kind": "soft",
+      "left_event_id": "event_ctx_prep0_flip6_occupancy_step0_atom_zero_2",
+      "notes": "inferred_shared_event approx_score=0.11666666666666665 common_probe_count=10",
+      "proposal_id": "proposal_event_ctx_prep0_flip6_occupancy_step0_atom_zero_2__event_ctx_prep0_flip6_occupancy_step1_atom_one_1",
+      "right_event_id": "event_ctx_prep0_flip6_occupancy_step1_atom_one_1",
+      "weight_key": "weight_proposal_event_ctx_prep0_flip6_occupancy_step0_atom_zero_2__event_ctx_prep0_flip6_occupancy_step1_atom_one_1"
+    },
+    {
+      "constraint_kind": "soft",
+      "left_event_id": "event_ctx_prep0_flip6_occupancy_step0_atom_one_1",
+      "notes": "inferred_shared_event approx_score=0.09740259740259742 common_probe_count=10",
+      "proposal_id": "proposal_event_ctx_prep0_flip6_occupancy_step0_atom_one_1__event_ctx_prep0_flip6_occupancy_step2_atom_one_1",
+      "right_event_id": "event_ctx_prep0_flip6_occupancy_step2_atom_one_1",
+      "weight_key": "weight_proposal_event_ctx_prep0_flip6_occupancy_step0_atom_one_1__event_ctx_prep0_flip6_occupancy_step2_atom_one_1"
+    },
+    {
+      "constraint_kind": "soft",
+      "left_event_id": "event_ctx_prep0_flip6_occupancy_step0_atom_zero_2",
+      "notes": "inferred_shared_event approx_score=0.1388888888888889 common_probe_count=10",
+      "proposal_id": "proposal_event_ctx_prep0_flip6_occupancy_step0_atom_zero_2__event_ctx_prep0_flip6_occupancy_step2_atom_zero_2",
+      "right_event_id": "event_ctx_prep0_flip6_occupancy_step2_atom_zero_2",
+      "weight_key": "weight_proposal_event_ctx_prep0_flip6_occupancy_step0_atom_zero_2__event_ctx_prep0_flip6_occupancy_step2_atom_zero_2"
+    },
+    {
+      "constraint_kind": "soft",
+      "left_event_id": "event_ctx_prep0_flip6_occupancy_step0_atom_one_1",
+      "notes": "inferred_shared_event approx_score=0.07527472527472527 common_probe_count=10",
+      "proposal_id": "proposal_event_ctx_prep0_flip6_occupancy_step0_atom_one_1__event_ctx_prep0_flip6_occupancy_step3_atom_zero_2",
+      "right_event_id": "event_ctx_prep0_flip6_occupancy_step3_atom_zero_2",
+      "weight_key": "weight_proposal_event_ctx_prep0_flip6_occupancy_step0_atom_one_1__event_ctx_prep0_flip6_occupancy_step3_atom_zero_2"
+    },
+    {
+      "constraint_kind": "soft",
+      "left_event_id": "event_ctx_prep0_flip6_occupancy_step0_atom_zero_2",
+      "notes": "inferred_shared_event approx_score=0.09523809523809523 common_probe_count=10",
+      "proposal_id": "proposal_event_ctx_prep0_flip6_occupancy_step0_atom_zero_2__event_ctx_prep0_flip6_occupancy_step3_atom_one_1",
+      "right_event_id": "event_ctx_prep0_flip6_occupancy_step3_atom_one_1",
+      "weight_key": "weight_proposal_event_ctx_prep0_flip6_occupancy_step0_atom_zero_2__event_ctx_prep0_flip6_occupancy_step3_atom_one_1"
+    },
+    {
+      "constraint_kind": "soft",
+      "left_event_id": "event_ctx_prep0_flip6_occupancy_step0_atom_one_1",
+      "notes": "inferred_shared_event approx_score=0.09155844155844156 common_probe_count=10",
+      "proposal_id": "proposal_event_ctx_prep0_flip6_occupancy_step0_atom_one_1__event_ctx_prep0_flip6_occupancy_step4_atom_one_1",
+      "right_event_id": "event_ctx_prep0_flip6_occupancy_step4_atom_one_1",
+      "weight_key": "weight_proposal_event_ctx_prep0_flip6_occupancy_step0_atom_one_1__event_ctx_prep0_flip6_occupancy_step4_atom_one_1"
+    },
+    {
+      "constraint_kind": "soft",
+      "left_event_id": "event_ctx_prep0_flip6_occupancy_step0_atom_one_1",
+      "notes": "inferred_shared_event approx_score=0.12380952380952381 common_probe_count=10",
+      "proposal_id": "proposal_event_ctx_prep0_flip6_occupancy_step0_atom_one_1__event_ctx_prep0_flip6_occupancy_step5_atom_zero_2",
+      "right_event_id": "event_ctx_prep0_flip6_occupancy_step5_atom_zero_2",
+      "weight_key": "weight_proposal_event_ctx_prep0_flip6_occupancy_step0_atom_one_1__event_ctx_prep0_flip6_occupancy_step5_atom_zero_2"
+    },
+    {
+      "constraint_kind": "soft",
+      "left_event_id": "event_ctx_prep0_flip6_occupancy_step1_atom_one_1",
+      "notes": "inferred_shared_event approx_score=0.06666666666666665 common_probe_count=10",
+      "proposal_id": "proposal_event_ctx_prep0_flip6_occupancy_step1_atom_one_1__event_ctx_prep0_flip6_occupancy_step2_atom_zero_2",
+      "right_event_id": "event_ctx_prep0_flip6_occupancy_step2_atom_zero_2",
+      "weight_key": "weight_proposal_event_ctx_prep0_flip6_occupancy_step1_atom_one_1__event_ctx_prep0_flip6_occupancy_step2_atom_zero_2"
+    },
+    {
+      "constraint_kind": "soft",
+      "left_event_id": "event_ctx_prep0_flip6_occupancy_step1_atom_zero_2",
+      "notes": "inferred_shared_event approx_score=0.05454545454545454 common_probe_count=10",
+      "proposal_id": "proposal_event_ctx_prep0_flip6_occupancy_step1_atom_zero_2__event_ctx_prep0_flip6_occupancy_step2_atom_one_1",
+      "right_event_id": "event_ctx_prep0_flip6_occupancy_step2_atom_one_1",
+      "weight_key": "weight_proposal_event_ctx_prep0_flip6_occupancy_step1_atom_zero_2__event_ctx_prep0_flip6_occupancy_step2_atom_one_1"
+    },
+    {
+      "constraint_kind": "soft",
+      "left_event_id": "event_ctx_prep0_flip6_occupancy_step1_atom_one_1",
+      "notes": "inferred_shared_event approx_score=0.12063492063492062 common_probe_count=10",
+      "proposal_id": "proposal_event_ctx_prep0_flip6_occupancy_step1_atom_one_1__event_ctx_prep0_flip6_occupancy_step3_atom_one_1",
+      "right_event_id": "event_ctx_prep0_flip6_occupancy_step3_atom_one_1",
+      "weight_key": "weight_proposal_event_ctx_prep0_flip6_occupancy_step1_atom_one_1__event_ctx_prep0_flip6_occupancy_step3_atom_one_1"
+    },
+    {
+      "constraint_kind": "soft",
+      "left_event_id": "event_ctx_prep0_flip6_occupancy_step1_atom_zero_2",
+      "notes": "inferred_shared_event approx_score=0.08111888111888113 common_probe_count=10",
+      "proposal_id": "proposal_event_ctx_prep0_flip6_occupancy_step1_atom_zero_2__event_ctx_prep0_flip6_occupancy_step3_atom_zero_2",
+      "right_event_id": "event_ctx_prep0_flip6_occupancy_step3_atom_zero_2",
+      "weight_key": "weight_proposal_event_ctx_prep0_flip6_occupancy_step1_atom_zero_2__event_ctx_prep0_flip6_occupancy_step3_atom_zero_2"
+    },
+    {
+      "constraint_kind": "soft",
+      "left_event_id": "event_ctx_prep0_flip6_occupancy_step1_atom_zero_2",
+      "notes": "inferred_shared_event approx_score=0.12727272727272726 common_probe_count=10",
+      "proposal_id": "proposal_event_ctx_prep0_flip6_occupancy_step1_atom_zero_2__event_ctx_prep0_flip6_occupancy_step4_atom_one_1",
+      "right_event_id": "event_ctx_prep0_flip6_occupancy_step4_atom_one_1",
+      "weight_key": "weight_proposal_event_ctx_prep0_flip6_occupancy_step1_atom_zero_2__event_ctx_prep0_flip6_occupancy_step4_atom_one_1"
+    },
+    {
+      "constraint_kind": "soft",
+      "left_event_id": "event_ctx_prep0_flip6_occupancy_step2_atom_one_1",
+      "notes": "inferred_shared_event approx_score=0.08531468531468532 common_probe_count=10",
+      "proposal_id": "proposal_event_ctx_prep0_flip6_occupancy_step2_atom_one_1__event_ctx_prep0_flip6_occupancy_step3_atom_zero_2",
+      "right_event_id": "event_ctx_prep0_flip6_occupancy_step3_atom_zero_2",
+      "weight_key": "weight_proposal_event_ctx_prep0_flip6_occupancy_step2_atom_one_1__event_ctx_prep0_flip6_occupancy_step3_atom_zero_2"
+    },
+    {
+      "constraint_kind": "soft",
+      "left_event_id": "event_ctx_prep0_flip6_occupancy_step2_atom_zero_2",
+      "notes": "inferred_shared_event approx_score=0.14285714285714285 common_probe_count=10",
+      "proposal_id": "proposal_event_ctx_prep0_flip6_occupancy_step2_atom_zero_2__event_ctx_prep0_flip6_occupancy_step3_atom_one_1",
+      "right_event_id": "event_ctx_prep0_flip6_occupancy_step3_atom_one_1",
+      "weight_key": "weight_proposal_event_ctx_prep0_flip6_occupancy_step2_atom_zero_2__event_ctx_prep0_flip6_occupancy_step3_atom_one_1"
+    },
+    {
+      "constraint_kind": "soft",
+      "left_event_id": "event_ctx_prep0_flip6_occupancy_step2_atom_one_1",
+      "notes": "inferred_shared_event approx_score=0.12727272727272726 common_probe_count=10",
+      "proposal_id": "proposal_event_ctx_prep0_flip6_occupancy_step2_atom_one_1__event_ctx_prep0_flip6_occupancy_step4_atom_one_1",
+      "right_event_id": "event_ctx_prep0_flip6_occupancy_step4_atom_one_1",
+      "weight_key": "weight_proposal_event_ctx_prep0_flip6_occupancy_step2_atom_one_1__event_ctx_prep0_flip6_occupancy_step4_atom_one_1"
+    },
+    {
+      "constraint_kind": "soft",
+      "left_event_id": "event_ctx_prep0_flip6_occupancy_step3_atom_zero_2",
+      "notes": "inferred_shared_event approx_score=0.10909090909090909 common_probe_count=10",
+      "proposal_id": "proposal_event_ctx_prep0_flip6_occupancy_step3_atom_zero_2__event_ctx_prep0_flip6_occupancy_step4_atom_one_1",
+      "right_event_id": "event_ctx_prep0_flip6_occupancy_step4_atom_one_1",
+      "weight_key": "weight_proposal_event_ctx_prep0_flip6_occupancy_step3_atom_zero_2__event_ctx_prep0_flip6_occupancy_step4_atom_one_1"
+    },
+    {
+      "constraint_kind": "soft",
+      "left_event_id": "event_ctx_prep0_flip6_occupancy_step3_atom_zero_2",
+      "notes": "inferred_shared_event approx_score=0.1307692307692308 common_probe_count=10",
+      "proposal_id": "proposal_event_ctx_prep0_flip6_occupancy_step3_atom_zero_2__event_ctx_prep0_flip6_occupancy_step5_atom_zero_2",
+      "right_event_id": "event_ctx_prep0_flip6_occupancy_step5_atom_zero_2",
+      "weight_key": "weight_proposal_event_ctx_prep0_flip6_occupancy_step3_atom_zero_2__event_ctx_prep0_flip6_occupancy_step5_atom_zero_2"
+    },
+    {
+      "constraint_kind": "soft",
+      "left_event_id": "event_ctx_prep0_flip6_occupancy_step4_atom_zero_2",
+      "notes": "inferred_shared_event approx_score=0.13095238095238096 common_probe_count=10",
+      "proposal_id": "proposal_event_ctx_prep0_flip6_occupancy_step4_atom_zero_2__event_ctx_prep0_flip6_occupancy_step5_atom_one_1",
+      "right_event_id": "event_ctx_prep0_flip6_occupancy_step5_atom_one_1",
+      "weight_key": "weight_proposal_event_ctx_prep0_flip6_occupancy_step4_atom_zero_2__event_ctx_prep0_flip6_occupancy_step5_atom_one_1"
+    }
+  ],
+  "events": [
+    {
+      "atom_ids": [
+        "atom_cold_1"
+      ],
+      "context_id": "ctx_prep0_flip6_bias_step0",
+      "event_id": "event_ctx_prep0_flip6_bias_step0_atom_cold_1",
+      "label": "cold"
+    },
+    {
+      "atom_ids": [
+        "atom_hot_2"
+      ],
+      "context_id": "ctx_prep0_flip6_bias_step0",
+      "event_id": "event_ctx_prep0_flip6_bias_step0_atom_hot_2",
+      "label": "hot"
+    },
+    {
+      "atom_ids": [
+        "atom_cold_1"
+      ],
+      "context_id": "ctx_prep0_flip6_bias_step1",
+      "event_id": "event_ctx_prep0_flip6_bias_step1_atom_cold_1",
+      "label": "cold"
+    },
+    {
+      "atom_ids": [
+        "atom_hot_2"
+      ],
+      "context_id": "ctx_prep0_flip6_bias_step1",
+      "event_id": "event_ctx_prep0_flip6_bias_step1_atom_hot_2",
+      "label": "hot"
+    },
+    {
+      "atom_ids": [
+        "atom_cold_1"
+      ],
+      "context_id": "ctx_prep0_flip6_bias_step2",
+      "event_id": "event_ctx_prep0_flip6_bias_step2_atom_cold_1",
+      "label": "cold"
+    },
+    {
+      "atom_ids": [
+        "atom_hot_2"
+      ],
+      "context_id": "ctx_prep0_flip6_bias_step2",
+      "event_id": "event_ctx_prep0_flip6_bias_step2_atom_hot_2",
+      "label": "hot"
+    },
+    {
+      "atom_ids": [
+        "atom_cold_1"
+      ],
+      "context_id": "ctx_prep0_flip6_bias_step3",
+      "event_id": "event_ctx_prep0_flip6_bias_step3_atom_cold_1",
+      "label": "cold"
+    },
+    {
+      "atom_ids": [
+        "atom_hot_2"
+      ],
+      "context_id": "ctx_prep0_flip6_bias_step3",
+      "event_id": "event_ctx_prep0_flip6_bias_step3_atom_hot_2",
+      "label": "hot"
+    },
+    {
+      "atom_ids": [
+        "atom_cold_1"
+      ],
+      "context_id": "ctx_prep0_flip6_bias_step4",
+      "event_id": "event_ctx_prep0_flip6_bias_step4_atom_cold_1",
+      "label": "cold"
+    },
+    {
+      "atom_ids": [
+        "atom_hot_2"
+      ],
+      "context_id": "ctx_prep0_flip6_bias_step4",
+      "event_id": "event_ctx_prep0_flip6_bias_step4_atom_hot_2",
+      "label": "hot"
+    },
+    {
+      "atom_ids": [
+        "atom_cold_1"
+      ],
+      "context_id": "ctx_prep0_flip6_bias_step5",
+      "event_id": "event_ctx_prep0_flip6_bias_step5_atom_cold_1",
+      "label": "cold"
+    },
+    {
+      "atom_ids": [
+        "atom_hot_2"
+      ],
+      "context_id": "ctx_prep0_flip6_bias_step5",
+      "event_id": "event_ctx_prep0_flip6_bias_step5_atom_hot_2",
+      "label": "hot"
+    },
+    {
+      "atom_ids": [
+        "atom_one_1"
+      ],
+      "context_id": "ctx_prep0_flip6_occupancy_step0",
+      "event_id": "event_ctx_prep0_flip6_occupancy_step0_atom_one_1",
+      "label": "one"
+    },
+    {
+      "atom_ids": [
+        "atom_zero_2"
+      ],
+      "context_id": "ctx_prep0_flip6_occupancy_step0",
+      "event_id": "event_ctx_prep0_flip6_occupancy_step0_atom_zero_2",
+      "label": "zero"
+    },
+    {
+      "atom_ids": [
+        "atom_one_1"
+      ],
+      "context_id": "ctx_prep0_flip6_occupancy_step1",
+      "event_id": "event_ctx_prep0_flip6_occupancy_step1_atom_one_1",
+      "label": "one"
+    },
+    {
+      "atom_ids": [
+        "atom_zero_2"
+      ],
+      "context_id": "ctx_prep0_flip6_occupancy_step1",
+      "event_id": "event_ctx_prep0_flip6_occupancy_step1_atom_zero_2",
+      "label": "zero"
+    },
+    {
+      "atom_ids": [
+        "atom_one_1"
+      ],
+      "context_id": "ctx_prep0_flip6_occupancy_step2",
+      "event_id": "event_ctx_prep0_flip6_occupancy_step2_atom_one_1",
+      "label": "one"
+    },
+    {
+      "atom_ids": [
+        "atom_zero_2"
+      ],
+      "context_id": "ctx_prep0_flip6_occupancy_step2",
+      "event_id": "event_ctx_prep0_flip6_occupancy_step2_atom_zero_2",
+      "label": "zero"
+    },
+    {
+      "atom_ids": [
+        "atom_one_1"
+      ],
+      "context_id": "ctx_prep0_flip6_occupancy_step3",
+      "event_id": "event_ctx_prep0_flip6_occupancy_step3_atom_one_1",
+      "label": "one"
+    },
+    {
+      "atom_ids": [
+        "atom_zero_2"
+      ],
+      "context_id": "ctx_prep0_flip6_occupancy_step3",
+      "event_id": "event_ctx_prep0_flip6_occupancy_step3_atom_zero_2",
+      "label": "zero"
+    },
+    {
+      "atom_ids": [
+        "atom_one_1"
+      ],
+      "context_id": "ctx_prep0_flip6_occupancy_step4",
+      "event_id": "event_ctx_prep0_flip6_occupancy_step4_atom_one_1",
+      "label": "one"
+    },
+    {
+      "atom_ids": [
+        "atom_zero_2"
+      ],
+      "context_id": "ctx_prep0_flip6_occupancy_step4",
+      "event_id": "event_ctx_prep0_flip6_occupancy_step4_atom_zero_2",
+      "label": "zero"
+    },
+    {
+      "atom_ids": [
+        "atom_one_1"
+      ],
+      "context_id": "ctx_prep0_flip6_occupancy_step5",
+      "event_id": "event_ctx_prep0_flip6_occupancy_step5_atom_one_1",
+      "label": "one"
+    },
+    {
+      "atom_ids": [
+        "atom_zero_2"
+      ],
+      "context_id": "ctx_prep0_flip6_occupancy_step5",
+      "event_id": "event_ctx_prep0_flip6_occupancy_step5_atom_zero_2",
+      "label": "zero"
+    }
+  ],
+  "instance_format_version": "event-package-instance.v1",
+  "instance_id": "inst_family_stochastic_two_state_seed123_built",
+  "metadata": {
+    "accepted_coarse_event_count": 0,
+    "accepted_coarse_event_proposal_count": 0,
+    "accepted_shared_event_proposal_count": 88,
+    "accepted_singleton_event_count": 24,
+    "event_basis_mode": "singleton_only",
+    "family_id": "family_stochastic_two_state_seed123",
+    "observable_only": true,
+    "proposal_constraint_kind": "soft",
+    "source_kind": "inferred_event_package"
+  },
+  "notes": "Built from discovered contexts and observable shared-event inference.",
+  "weights": {
+    "weight_proposal_event_ctx_prep0_flip6_bias_step0_atom_cold_1__event_ctx_prep0_flip6_bias_step1_atom_hot_2": 0.8833333333333333,
+    "weight_proposal_event_ctx_prep0_flip6_bias_step0_atom_cold_1__event_ctx_prep0_flip6_bias_step2_atom_cold_1": 0.8611111111111112,
+    "weight_proposal_event_ctx_prep0_flip6_bias_step0_atom_cold_1__event_ctx_prep0_flip6_bias_step3_atom_hot_2": 0.9047619047619048,
+    "weight_proposal_event_ctx_prep0_flip6_bias_step0_atom_cold_1__event_ctx_prep0_flip6_occupancy_step0_atom_zero_2": 1.0,
+    "weight_proposal_event_ctx_prep0_flip6_bias_step0_atom_cold_1__event_ctx_prep0_flip6_occupancy_step1_atom_one_1": 0.8833333333333333,
+    "weight_proposal_event_ctx_prep0_flip6_bias_step0_atom_cold_1__event_ctx_prep0_flip6_occupancy_step2_atom_zero_2": 0.8611111111111112,
+    "weight_proposal_event_ctx_prep0_flip6_bias_step0_atom_cold_1__event_ctx_prep0_flip6_occupancy_step3_atom_one_1": 0.9047619047619048,
+    "weight_proposal_event_ctx_prep0_flip6_bias_step0_atom_hot_2__event_ctx_prep0_flip6_bias_step1_atom_cold_1": 0.887012987012987,
+    "weight_proposal_event_ctx_prep0_flip6_bias_step0_atom_hot_2__event_ctx_prep0_flip6_bias_step2_atom_hot_2": 0.9025974025974026,
+    "weight_proposal_event_ctx_prep0_flip6_bias_step0_atom_hot_2__event_ctx_prep0_flip6_bias_step3_atom_cold_1": 0.9247252747252748,
+    "weight_proposal_event_ctx_prep0_flip6_bias_step0_atom_hot_2__event_ctx_prep0_flip6_bias_step4_atom_hot_2": 0.9084415584415584,
+    "weight_proposal_event_ctx_prep0_flip6_bias_step0_atom_hot_2__event_ctx_prep0_flip6_bias_step5_atom_cold_1": 0.8761904761904762,
+    "weight_proposal_event_ctx_prep0_flip6_bias_step0_atom_hot_2__event_ctx_prep0_flip6_occupancy_step0_atom_one_1": 1.0,
+    "weight_proposal_event_ctx_prep0_flip6_bias_step0_atom_hot_2__event_ctx_prep0_flip6_occupancy_step1_atom_zero_2": 0.887012987012987,
+    "weight_proposal_event_ctx_prep0_flip6_bias_step0_atom_hot_2__event_ctx_prep0_flip6_occupancy_step2_atom_one_1": 0.9025974025974026,
+    "weight_proposal_event_ctx_prep0_flip6_bias_step0_atom_hot_2__event_ctx_prep0_flip6_occupancy_step3_atom_zero_2": 0.9247252747252748,
+    "weight_proposal_event_ctx_prep0_flip6_bias_step0_atom_hot_2__event_ctx_prep0_flip6_occupancy_step4_atom_one_1": 0.9084415584415584,
+    "weight_proposal_event_ctx_prep0_flip6_bias_step0_atom_hot_2__event_ctx_prep0_flip6_occupancy_step5_atom_zero_2": 0.8761904761904762,
+    "weight_proposal_event_ctx_prep0_flip6_bias_step1_atom_cold_1__event_ctx_prep0_flip6_bias_step2_atom_hot_2": 0.9454545454545454,
+    "weight_proposal_event_ctx_prep0_flip6_bias_step1_atom_cold_1__event_ctx_prep0_flip6_bias_step3_atom_cold_1": 0.9188811188811189,
+    "weight_proposal_event_ctx_prep0_flip6_bias_step1_atom_cold_1__event_ctx_prep0_flip6_bias_step4_atom_hot_2": 0.8727272727272728,
+    "weight_proposal_event_ctx_prep0_flip6_bias_step1_atom_cold_1__event_ctx_prep0_flip6_occupancy_step0_atom_one_1": 0.887012987012987,
+    "weight_proposal_event_ctx_prep0_flip6_bias_step1_atom_cold_1__event_ctx_prep0_flip6_occupancy_step1_atom_zero_2": 1.0,
+    "weight_proposal_event_ctx_prep0_flip6_bias_step1_atom_cold_1__event_ctx_prep0_flip6_occupancy_step2_atom_one_1": 0.9454545454545454,
+    "weight_proposal_event_ctx_prep0_flip6_bias_step1_atom_cold_1__event_ctx_prep0_flip6_occupancy_step3_atom_zero_2": 0.9188811188811189,
+    "weight_proposal_event_ctx_prep0_flip6_bias_step1_atom_cold_1__event_ctx_prep0_flip6_occupancy_step4_atom_one_1": 0.8727272727272728,
+    "weight_proposal_event_ctx_prep0_flip6_bias_step1_atom_hot_2__event_ctx_prep0_flip6_bias_step2_atom_cold_1": 0.9333333333333333,
+    "weight_proposal_event_ctx_prep0_flip6_bias_step1_atom_hot_2__event_ctx_prep0_flip6_bias_step3_atom_hot_2": 0.8793650793650793,
+    "weight_proposal_event_ctx_prep0_flip6_bias_step1_atom_hot_2__event_ctx_prep0_flip6_occupancy_step0_atom_zero_2": 0.8833333333333333,
+    "weight_proposal_event_ctx_prep0_flip6_bias_step1_atom_hot_2__event_ctx_prep0_flip6_occupancy_step1_atom_one_1": 1.0,
+    "weight_proposal_event_ctx_prep0_flip6_bias_step1_atom_hot_2__event_ctx_prep0_flip6_occupancy_step2_atom_zero_2": 0.9333333333333333,
+    "weight_proposal_event_ctx_prep0_flip6_bias_step1_atom_hot_2__event_ctx_prep0_flip6_occupancy_step3_atom_one_1": 0.8793650793650793,
+    "weight_proposal_event_ctx_prep0_flip6_bias_step2_atom_cold_1__event_ctx_prep0_flip6_bias_step3_atom_hot_2": 0.8571428571428572,
+    "weight_proposal_event_ctx_prep0_flip6_bias_step2_atom_cold_1__event_ctx_prep0_flip6_occupancy_step0_atom_zero_2": 0.8611111111111112,
+    "weight_proposal_event_ctx_prep0_flip6_bias_step2_atom_cold_1__event_ctx_prep0_flip6_occupancy_step1_atom_one_1": 0.9333333333333333,
+    "weight_proposal_event_ctx_prep0_flip6_bias_step2_atom_cold_1__event_ctx_prep0_flip6_occupancy_step2_atom_zero_2": 1.0,
+    "weight_proposal_event_ctx_prep0_flip6_bias_step2_atom_cold_1__event_ctx_prep0_flip6_occupancy_step3_atom_one_1": 0.8571428571428572,
+    "weight_proposal_event_ctx_prep0_flip6_bias_step2_atom_hot_2__event_ctx_prep0_flip6_bias_step3_atom_cold_1": 0.9146853146853147,
+    "weight_proposal_event_ctx_prep0_flip6_bias_step2_atom_hot_2__event_ctx_prep0_flip6_bias_step4_atom_hot_2": 0.8727272727272728,
+    "weight_proposal_event_ctx_prep0_flip6_bias_step2_atom_hot_2__event_ctx_prep0_flip6_occupancy_step0_atom_one_1": 0.9025974025974026,
+    "weight_proposal_event_ctx_prep0_flip6_bias_step2_atom_hot_2__event_ctx_prep0_flip6_occupancy_step1_atom_zero_2": 0.9454545454545454,
+    "weight_proposal_event_ctx_prep0_flip6_bias_step2_atom_hot_2__event_ctx_prep0_flip6_occupancy_step2_atom_one_1": 1.0,
+    "weight_proposal_event_ctx_prep0_flip6_bias_step2_atom_hot_2__event_ctx_prep0_flip6_occupancy_step3_atom_zero_2": 0.9146853146853147,
+    "weight_proposal_event_ctx_prep0_flip6_bias_step2_atom_hot_2__event_ctx_prep0_flip6_occupancy_step4_atom_one_1": 0.8727272727272728,
+    "weight_proposal_event_ctx_prep0_flip6_bias_step3_atom_cold_1__event_ctx_prep0_flip6_bias_step4_atom_hot_2": 0.8909090909090909,
+    "weight_proposal_event_ctx_prep0_flip6_bias_step3_atom_cold_1__event_ctx_prep0_flip6_bias_step5_atom_cold_1": 0.8692307692307693,
+    "weight_proposal_event_ctx_prep0_flip6_bias_step3_atom_cold_1__event_ctx_prep0_flip6_occupancy_step0_atom_one_1": 0.9247252747252748,
+    "weight_proposal_event_ctx_prep0_flip6_bias_step3_atom_cold_1__event_ctx_prep0_flip6_occupancy_step1_atom_zero_2": 0.9188811188811189,
+    "weight_proposal_event_ctx_prep0_flip6_bias_step3_atom_cold_1__event_ctx_prep0_flip6_occupancy_step2_atom_one_1": 0.9146853146853147,
+    "weight_proposal_event_ctx_prep0_flip6_bias_step3_atom_cold_1__event_ctx_prep0_flip6_occupancy_step3_atom_zero_2": 1.0,
+    "weight_proposal_event_ctx_prep0_flip6_bias_step3_atom_cold_1__event_ctx_prep0_flip6_occupancy_step4_atom_one_1": 0.8909090909090909,
+    "weight_proposal_event_ctx_prep0_flip6_bias_step3_atom_cold_1__event_ctx_prep0_flip6_occupancy_step5_atom_zero_2": 0.8692307692307693,
+    "weight_proposal_event_ctx_prep0_flip6_bias_step3_atom_hot_2__event_ctx_prep0_flip6_occupancy_step0_atom_zero_2": 0.9047619047619048,
+    "weight_proposal_event_ctx_prep0_flip6_bias_step3_atom_hot_2__event_ctx_prep0_flip6_occupancy_step1_atom_one_1": 0.8793650793650793,
+    "weight_proposal_event_ctx_prep0_flip6_bias_step3_atom_hot_2__event_ctx_prep0_flip6_occupancy_step2_atom_zero_2": 0.8571428571428572,
+    "weight_proposal_event_ctx_prep0_flip6_bias_step3_atom_hot_2__event_ctx_prep0_flip6_occupancy_step3_atom_one_1": 1.0,
+    "weight_proposal_event_ctx_prep0_flip6_bias_step4_atom_cold_1__event_ctx_prep0_flip6_bias_step5_atom_hot_2": 0.8690476190476191,
+    "weight_proposal_event_ctx_prep0_flip6_bias_step4_atom_cold_1__event_ctx_prep0_flip6_occupancy_step4_atom_zero_2": 1.0,
+    "weight_proposal_event_ctx_prep0_flip6_bias_step4_atom_cold_1__event_ctx_prep0_flip6_occupancy_step5_atom_one_1": 0.8690476190476191,
+    "weight_proposal_event_ctx_prep0_flip6_bias_step4_atom_hot_2__event_ctx_prep0_flip6_occupancy_step0_atom_one_1": 0.9084415584415584,
+    "weight_proposal_event_ctx_prep0_flip6_bias_step4_atom_hot_2__event_ctx_prep0_flip6_occupancy_step1_atom_zero_2": 0.8727272727272728,
+    "weight_proposal_event_ctx_prep0_flip6_bias_step4_atom_hot_2__event_ctx_prep0_flip6_occupancy_step2_atom_one_1": 0.8727272727272728,
+    "weight_proposal_event_ctx_prep0_flip6_bias_step4_atom_hot_2__event_ctx_prep0_flip6_occupancy_step3_atom_zero_2": 0.8909090909090909,
+    "weight_proposal_event_ctx_prep0_flip6_bias_step4_atom_hot_2__event_ctx_prep0_flip6_occupancy_step4_atom_one_1": 1.0,
+    "weight_proposal_event_ctx_prep0_flip6_bias_step5_atom_cold_1__event_ctx_prep0_flip6_occupancy_step0_atom_one_1": 0.8761904761904762,
+    "weight_proposal_event_ctx_prep0_flip6_bias_step5_atom_cold_1__event_ctx_prep0_flip6_occupancy_step3_atom_zero_2": 0.8692307692307693,
+    "weight_proposal_event_ctx_prep0_flip6_bias_step5_atom_cold_1__event_ctx_prep0_flip6_occupancy_step5_atom_zero_2": 1.0,
+    "weight_proposal_event_ctx_prep0_flip6_bias_step5_atom_hot_2__event_ctx_prep0_flip6_occupancy_step4_atom_zero_2": 0.8690476190476191,
+    "weight_proposal_event_ctx_prep0_flip6_bias_step5_atom_hot_2__event_ctx_prep0_flip6_occupancy_step5_atom_one_1": 1.0,
+    "weight_proposal_event_ctx_prep0_flip6_occupancy_step0_atom_one_1__event_ctx_prep0_flip6_occupancy_step1_atom_zero_2": 0.887012987012987,
+    "weight_proposal_event_ctx_prep0_flip6_occupancy_step0_atom_one_1__event_ctx_prep0_flip6_occupancy_step2_atom_one_1": 0.9025974025974026,
+    "weight_proposal_event_ctx_prep0_flip6_occupancy_step0_atom_one_1__event_ctx_prep0_flip6_occupancy_step3_atom_zero_2": 0.9247252747252748,
+    "weight_proposal_event_ctx_prep0_flip6_occupancy_step0_atom_one_1__event_ctx_prep0_flip6_occupancy_step4_atom_one_1": 0.9084415584415584,
+    "weight_proposal_event_ctx_prep0_flip6_occupancy_step0_atom_one_1__event_ctx_prep0_flip6_occupancy_step5_atom_zero_2": 0.8761904761904762,
+    "weight_proposal_event_ctx_prep0_flip6_occupancy_step0_atom_zero_2__event_ctx_prep0_flip6_occupancy_step1_atom_one_1": 0.8833333333333333,
+    "weight_proposal_event_ctx_prep0_flip6_occupancy_step0_atom_zero_2__event_ctx_prep0_flip6_occupancy_step2_atom_zero_2": 0.8611111111111112,
+    "weight_proposal_event_ctx_prep0_flip6_occupancy_step0_atom_zero_2__event_ctx_prep0_flip6_occupancy_step3_atom_one_1": 0.9047619047619048,
+    "weight_proposal_event_ctx_prep0_flip6_occupancy_step1_atom_one_1__event_ctx_prep0_flip6_occupancy_step2_atom_zero_2": 0.9333333333333333,
+    "weight_proposal_event_ctx_prep0_flip6_occupancy_step1_atom_one_1__event_ctx_prep0_flip6_occupancy_step3_atom_one_1": 0.8793650793650793,
+    "weight_proposal_event_ctx_prep0_flip6_occupancy_step1_atom_zero_2__event_ctx_prep0_flip6_occupancy_step2_atom_one_1": 0.9454545454545454,
+    "weight_proposal_event_ctx_prep0_flip6_occupancy_step1_atom_zero_2__event_ctx_prep0_flip6_occupancy_step3_atom_zero_2": 0.9188811188811189,
+    "weight_proposal_event_ctx_prep0_flip6_occupancy_step1_atom_zero_2__event_ctx_prep0_flip6_occupancy_step4_atom_one_1": 0.8727272727272728,
+    "weight_proposal_event_ctx_prep0_flip6_occupancy_step2_atom_one_1__event_ctx_prep0_flip6_occupancy_step3_atom_zero_2": 0.9146853146853147,
+    "weight_proposal_event_ctx_prep0_flip6_occupancy_step2_atom_one_1__event_ctx_prep0_flip6_occupancy_step4_atom_one_1": 0.8727272727272728,
+    "weight_proposal_event_ctx_prep0_flip6_occupancy_step2_atom_zero_2__event_ctx_prep0_flip6_occupancy_step3_atom_one_1": 0.8571428571428572,
+    "weight_proposal_event_ctx_prep0_flip6_occupancy_step3_atom_zero_2__event_ctx_prep0_flip6_occupancy_step4_atom_one_1": 0.8909090909090909,
+    "weight_proposal_event_ctx_prep0_flip6_occupancy_step3_atom_zero_2__event_ctx_prep0_flip6_occupancy_step5_atom_zero_2": 0.8692307692307693,
+    "weight_proposal_event_ctx_prep0_flip6_occupancy_step4_atom_zero_2__event_ctx_prep0_flip6_occupancy_step5_atom_one_1": 0.8690476190476191
+  }
+}

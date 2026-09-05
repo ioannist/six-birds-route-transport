@@ -1,0 +1,36 @@
+{
+  "schema_version": "pica-campaign-export.v1",
+  "campaign_id": "campaign_example_v1",
+  "campaign_label": "triadic_branch_contract_example",
+  "source_config_path": "experiments/configs/substrates/triadic-branch.json",
+  "path_policy": "repo_relative",
+  "mechanism_summary": {
+    "substrate_config_id": "substrate_config_triadic_branch_v1",
+    "mechanism_family_id": "mechanism_family_triadic_branch",
+    "enable_matrix_id": "enable_matrix_triadic_branch_default"
+  },
+  "point_inventory": [
+    {
+      "point_id": "point_triadic_branch_seed123",
+      "substrate_config_id": "substrate_config_triadic_branch_v1",
+      "mechanism_family_id": "mechanism_family_triadic_branch",
+      "enable_matrix_id": "enable_matrix_triadic_branch_default",
+      "preparation_id": "prep_default",
+      "protocol_id": "protocol_branch_hold_hold",
+      "seed": 123,
+      "run_id": "run_triadic_branch_seed123"
+    }
+  ],
+  "run_inventory": [
+    {
+      "run_id": "run_triadic_branch_seed123",
+      "point_id": "point_triadic_branch_seed123",
+      "run_ledger_path": "experiments/contracts/pica/examples/pica-run-ledger.json",
+      "closure_catalog_path": "experiments/contracts/pica/examples/pica-closure-catalog.json",
+      "observable_ledger_path": "experiments/contracts/pica/examples/pica-observable-ledger.json"
+    }
+  ],
+  "notes": [
+    "Contract example campaign only."
+  ]
+}

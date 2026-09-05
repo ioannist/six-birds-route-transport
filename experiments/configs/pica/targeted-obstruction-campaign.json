@@ -1,0 +1,102 @@
+{
+  "search_format_version": "pica-targeted-obstruction-search.v1",
+  "search_id": "pica_targeted_obstruction_t41",
+  "points": [
+    {
+      "point_id": "exp100_baseline_multiseed",
+      "pilot_config_artifact": "experiments/configs/pica/pilot-campaign.json",
+      "discovery_config_artifact": "experiments/configs/pica/context-discovery-exp100-multiseed.json",
+      "trajectories": 3,
+      "seed_list": [
+        0,
+        1,
+        2
+      ],
+      "notes": [
+        "Committed control family from the T37/T38 baseline pilot."
+      ]
+    },
+    {
+      "point_id": "exp112_col_p2_multiseed",
+      "pilot_config_artifact": "experiments/configs/pica/pilot-exp112-col-p2.json",
+      "discovery_config_artifact": "experiments/configs/pica/context-discovery-exp112-col-p2.json",
+      "trajectories": 3,
+      "seed_list": [
+        0,
+        1,
+        2
+      ],
+      "notes": [
+        "Targeted coarse-event tension case with accepted proper-coarse events in probe builds."
+      ]
+    },
+    {
+      "point_id": "exp112_full_all_multiseed",
+      "pilot_config_artifact": "experiments/configs/pica/pilot-exp112-full-all.json",
+      "discovery_config_artifact": "experiments/configs/pica/context-discovery-exp112-full-all.json",
+      "trajectories": 3,
+      "seed_list": [
+        0,
+        1,
+        2
+      ],
+      "notes": [
+        "Richer all-actions control family."
+      ]
+    },
+    {
+      "point_id": "exp107_chain_a24_multiseed",
+      "pilot_config_artifact": "experiments/configs/pica/pilot-exp107-chain-a24.json",
+      "discovery_config_artifact": "experiments/configs/pica/context-discovery-exp107-chain-a24.json",
+      "trajectories": 3,
+      "seed_list": [
+        0,
+        1,
+        2
+      ],
+      "notes": [
+        "Branch/merge parity-tilted family aimed at downstream distinction pressure."
+      ]
+    }
+  ],
+  "event_generation_thresholds": {
+    "event_basis_mode": "singleton_plus_small_unions",
+    "event_algebra_mode": "full_powerset",
+    "max_full_powerset_atom_count": 6,
+    "max_union_size": 3,
+    "min_event_support_count": 1,
+    "min_event_support_fraction": 0.0,
+    "include_empty_and_full_in_truncation": true,
+    "match_empty_for_inference": false,
+    "match_full_for_inference": false
+  },
+  "shared_event_inference_thresholds": {
+    "inference_mode": "structural_primary",
+    "min_common_probes": 1,
+    "min_conditioning_count": 2,
+    "min_probe_atom_support_count": 1,
+    "max_mean_tv": 1.0,
+    "exact_tolerance": 1e-9,
+    "proposal_constraint_kind": "soft"
+  },
+  "provenance_required": true,
+  "candidate_classification_thresholds": {
+    "strong_nonextendable_min_gpd_str": 1.0,
+    "near_zero_gpd_stat": 1e-6,
+    "min_accepted_coarse_proposal_count": 1
+  },
+  "adequacy_floor": {
+    "min_total_point_count": 4,
+    "min_admissible_built_package_count": 2,
+    "min_points_with_proper_coarse_events": 2,
+    "min_points_with_proper_coarse_structural_proposals": 1,
+    "min_points_with_dual_mode_difference": 1
+  },
+  "output_category": "search",
+  "output_label": "pica-targeted-obstruction",
+  "metadata": {
+    "goal": "bounded_endogenous_obstruction_search",
+    "event_algebra_mode": "full_powerset",
+    "inference_mode": "structural_primary"
+  }
+}

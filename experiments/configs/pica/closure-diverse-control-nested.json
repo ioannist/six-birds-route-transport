@@ -1,0 +1,47 @@
+{
+  "point_format_version": "pica-closure-diverse-search-point.v1",
+  "point_id": "control_nested_macro_gap",
+  "pilot_config_artifact": "experiments/configs/pica/pilot-campaign.json",
+  "preparation_id": "prep_pica_default",
+  "protocol_id": "protocol_pica_multiscale_scan",
+  "trajectories": 32,
+  "seed_list": [
+    0,
+    1,
+    2
+  ],
+  "discovery_thresholds": {
+    "min_row_count": 2,
+    "min_atom_count": 2,
+    "min_atom_support_count": 1,
+    "min_atom_support_fraction": 0.0,
+    "min_coverage": 1.0,
+    "max_batch_tv": 1.0,
+    "batch_count": 2
+  },
+  "projection_families": [
+    {
+      "projection_id": "macro_gap_nested",
+      "projection": {
+        "projection_mode": "payload_numeric_bins",
+        "payload_key": "macro_gap",
+        "bin_edges": [
+          0.35,
+          0.5,
+          0.65
+        ]
+      },
+      "context_label": "macro_gap_nested_control",
+      "notes": [
+        "Resolution-control baseline using one projection family."
+      ]
+    }
+  ],
+  "notes": [
+    "Control case intended to stay close to nested refinement behavior."
+  ],
+  "flags": [
+    "control",
+    "nested_bias"
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "campaign_id": "pica_campaign_exp130_packaging_surface",
+  "commutator_catalog_id": "commutator_catalog_point_exp130_packaging_surface_seed0__seed_0",
+  "flags": [
+    "adapter_export",
+    "structured_commutator_export"
+  ],
+  "notes": [
+    "Structured commutator diagnostics exported from the vendor runner stdout."
+  ],
+  "point_id": "point_exp130_packaging_surface_seed0",
+  "row_count": 9,
+  "rows": [
+    {
+      "flags": [
+        "action_pair"
+      ],
+      "metric_name": "frobenius_norm_of_p1_p2_order_difference",
+      "metric_value": 0.07616314616243824,
+      "nonzero": true,
+      "notes": [
+        "real_kernel_commutator"
+      ],
+      "pair_id": "[P1,P2]",
+      "primitive_pair": "P1_P2"
+    },
+    {
+      "flags": [
+        "partition_sensitive"
+      ],
+      "metric_name": "fraction_of_states_whose_sector_changed_after_p1",
+      "metric_value": 0.0,
+      "nonzero": false,
+      "notes": [
+        "partition_breaking_proxy"
+      ],
+      "pair_id": "[P1,P4]",
+      "primitive_pair": "P1_P4"
+    },
+    {
+      "flags": [
+        "partition_sensitive"
+      ],
+      "metric_name": "fraction_of_states_whose_sector_changed_after_p2",
+      "metric_value": 0.0,
+      "nonzero": false,
+      "notes": [
+        "partition_breaking_proxy"
+      ],
+      "pair_id": "[P2,P4]",
+      "primitive_pair": "P2_P4"
+    },
+    {
+      "flags": [
+        "packaging_sensitive"
+      ],
+      "metric_name": "fraction_of_states_whose_package_changed_after_p1",
+      "metric_value": 0.84375,
+      "nonzero": true,
+      "notes": [
+        "package_conflict_proxy"
+      ],
+      "pair_id": "[P1,P5]",
+      "primitive_pair": "P1_P5"
+    },
+    {
+      "flags": [
+        "packaging_sensitive"
+      ],
+      "metric_name": "fraction_of_states_whose_package_changed_after_p2",
+      "metric_value": 0.0,
+      "nonzero": false,
+      "notes": [
+        "package_conflict_proxy"
+      ],
+      "pair_id": "[P2,P5]",
+      "primitive_pair": "P2_P5"
+    },
+    {
+      "flags": [
+        "packaging_sensitive"
+      ],
+      "metric_name": "fraction_of_states_whose_sector_changed_under_package_derived_lens",
+      "metric_value": 0.21875,
+      "nonzero": true,
+      "notes": [
+        "package_derived_partition_proxy"
+      ],
+      "pair_id": "[P4,P5]",
+      "primitive_pair": "P4_P5"
+    },
+    {
+      "flags": [
+        "audit_sensitive"
+      ],
+      "metric_name": "normalized_p1_row_weight_distance_under_p6_replenish",
+      "metric_value": 0.0001358675042834167,
+      "nonzero": true,
+      "notes": [
+        "budget_sensitivity_proxy"
+      ],
+      "pair_id": "[P1,P6]",
+      "primitive_pair": "P1_P6"
+    },
+    {
+      "flags": [
+        "audit_sensitive"
+      ],
+      "metric_name": "normalized_p2_score_surface_distance_under_p6_penalty",
+      "metric_value": 0.0,
+      "nonzero": false,
+      "notes": [
+        "audit_penalty_proxy"
+      ],
+      "pair_id": "[P2,P6]",
+      "primitive_pair": "P2_P6"
+    },
+    {
+      "flags": [
+        "audit_sensitive"
+      ],
+      "metric_name": "fraction_of_states_whose_sector_changed_under_p6_audited_lens",
+      "metric_value": 0.9375,
+      "nonzero": true,
+      "notes": [
+        "audit_branch_proxy"
+      ],
+      "pair_id": "[P4,P6]",
+      "primitive_pair": "P4_P6"
+    }
+  ],
+  "run_id": "point_exp130_packaging_surface_seed0__seed_0",
+  "schema_version": "pica-commutator-catalog.v1"
+}

@@ -1,0 +1,10 @@
+benchmark_id,measured_interfaces,class_labels,witness_counts,discrepancy_values,current_loop_scores,predictive_loop_scores,support_fixation_statuses,currentization_statuses,flattening_statuses,json_artifact_path,csv_artifact_path,ops_note_path
+flat_control,mid,flat,0,0.000,0.000,0.000,skipped,skipped,skipped,artifacts/results/flat_control.result.json,artifacts/tables/flat_control.csv,docs/results/flat_control.md
+protocol_trap_naive,mid,artifact_trap,1,1.000,0.000,0.000,passed,skipped,skipped,artifacts/results/protocol_trap_naive.result.json,artifacts/tables/protocol_trap_naive.csv,docs/results/protocol_trap_naive.md
+protocol_trap_honest,mid,flat,0,0.000,0.000,0.000,skipped,skipped,skipped,artifacts/results/protocol_trap_honest.result.json,artifacts/tables/protocol_trap_honest.csv,docs/results/protocol_trap_honest.md
+flattenable_raw,mid,flattenable,1,1.000,0.000,0.000,passed,skipped,passed,artifacts/results/flattenable_raw.result.json,artifacts/tables/flattenable_raw.csv,docs/results/flattenable_raw.md
+flattenable_completed,mid,flat,0,0.000,0.000,0.000,skipped,skipped,skipped,artifacts/results/flattenable_completed.result.json,artifacts/tables/flattenable_completed.csv,docs/results/flattenable_completed.md
+latent_memory_base,mid,explicit_latent,1,1.000,0.000,0.000,passed,passed,skipped,artifacts/results/latent_memory_base.result.json,artifacts/tables/latent_memory_base.csv,docs/results/latent_memory_base.md
+latent_memory_refined,mid,flat,0,0.000,0.000,0.000,skipped,skipped,skipped,artifacts/results/latent_memory_refined.result.json,artifacts/tables/latent_memory_refined.csv,docs/results/latent_memory_refined.md
+dissipative_memory,mid;end,dissipative;flat,1;0,1.000;0.000,0.000;0.000,0.000;0.000,skipped;skipped,skipped;skipped,skipped;skipped,artifacts/results/dissipative_memory.result.json,artifacts/tables/dissipative_memory.csv,docs/results/dissipative_memory.md
+memory_wheel,mid,coherent_candidate,1,1.000,0.000,1.000,skipped,skipped,skipped,artifacts/results/memory_wheel.result.json,artifacts/tables/memory_wheel.csv,docs/results/memory_wheel.md

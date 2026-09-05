@@ -1,0 +1,35 @@
+{
+  "trace_format_version": "observation-trace.v1",
+  "trace_id": "trace_demo_001",
+  "instance_id": "inst_demo_001",
+  "observations": [
+    {
+      "context_id": "ctx_a",
+      "atom_ids": ["a1"]
+    },
+    {
+      "context_id": "ctx_b",
+      "atom_ids": ["b1"],
+      "status": "observed"
+    }
+  ],
+  "repeated_read_sequences": [
+    {
+      "context_id": "ctx_a",
+      "reads": [["a1"], ["a1"]]
+    }
+  ],
+  "downstream_probes": [
+    {
+      "probe_id": "probe_001",
+      "signature": "sig:stable"
+    }
+  ],
+  "route_trace": {
+    "route_id": "route_main",
+    "steps": ["read", "probe", "record"]
+  },
+  "metadata": {
+    "source": "fixture"
+  }
+}

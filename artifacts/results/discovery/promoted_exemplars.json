@@ -1,0 +1,88 @@
+{
+  "seed": 0,
+  "ordered_promoted_qualified_ids": [
+    "cyclic_memory_small:cand_0006",
+    "cyclic_memory_small:cand_0001"
+  ],
+  "promotion_rule_description": "rank by meets_threshold, survival_fraction, discrepancy, predictive_loop_score, then audit-order tie-break; always keep the top candidate and add a second only if it also meets threshold and is non-redundant by search_id or exact structure",
+  "promoted_exemplars": [
+    {
+      "qualified_id": "cyclic_memory_small:cand_0006",
+      "search_id": "cyclic_memory_small",
+      "candidate_id": "cand_0006",
+      "cluster_id": "cluster_003",
+      "class_label": "coherent_candidate",
+      "primary_interface_id": "i0",
+      "primary_discrepancy_metric_value": 1.0,
+      "primary_discrepancy_metric_value_exact": "1",
+      "primary_predictive_loop_score": 1.0,
+      "primary_predictive_loop_score_exact": "1",
+      "survival_fraction": 0.75,
+      "survival_fraction_exact": "3/4",
+      "threshold": 0.5,
+      "threshold_exact": "1/2",
+      "meets_threshold": true,
+      "distinctness_kind": "singleton",
+      "selection_reasons": [
+        "high_discrepancy",
+        "predictive_loop_positive",
+        "robustness_above_threshold",
+        "singleton_cluster"
+      ],
+      "traceability_paths": {
+        "atlas_json_path": "artifacts/results/discovery/cyclic_memory_small.atlas.json",
+        "atlas_csv_path": "artifacts/tables/discovery_cyclic_memory_small.csv",
+        "atlas_note_path": "docs/results/cyclic_memory_small.atlas.md",
+        "shortlist_json_path": "artifacts/results/discovery/cyclic_memory_small.shortlist.json",
+        "shortlist_csv_path": "artifacts/tables/discovery_cyclic_memory_small_shortlist.csv",
+        "shortlist_note_path": "docs/results/cyclic_memory_small.shortlist.md",
+        "robustness_json_path": "artifacts/results/discovery/cyclic_memory_small.shortlist_robustness.json",
+        "robustness_csv_path": "artifacts/tables/discovery_cyclic_memory_small_shortlist_robustness.csv",
+        "robustness_note_path": "docs/results/cyclic_memory_small.shortlist_robustness.md",
+        "dedup_json_path": "artifacts/results/discovery/multi_space.dedup.json",
+        "dedup_csv_path": "artifacts/tables/discovery_multi_space_dedup.csv",
+        "dedup_note_path": "docs/results/multi_space.dedup.md"
+      }
+    },
+    {
+      "qualified_id": "cyclic_memory_small:cand_0001",
+      "search_id": "cyclic_memory_small",
+      "candidate_id": "cand_0001",
+      "cluster_id": "cluster_001",
+      "class_label": "coherent_candidate",
+      "primary_interface_id": "i0",
+      "primary_discrepancy_metric_value": 1.0,
+      "primary_discrepancy_metric_value_exact": "1",
+      "primary_predictive_loop_score": 1.0,
+      "primary_predictive_loop_score_exact": "1",
+      "survival_fraction": 0.625,
+      "survival_fraction_exact": "5/8",
+      "threshold": 0.5,
+      "threshold_exact": "1/2",
+      "meets_threshold": true,
+      "distinctness_kind": "singleton",
+      "selection_reasons": [
+        "high_discrepancy",
+        "predictive_loop_positive",
+        "robustness_above_threshold",
+        "singleton_cluster",
+        "distinct_structural_signature"
+      ],
+      "traceability_paths": {
+        "atlas_json_path": "artifacts/results/discovery/cyclic_memory_small.atlas.json",
+        "atlas_csv_path": "artifacts/tables/discovery_cyclic_memory_small.csv",
+        "atlas_note_path": "docs/results/cyclic_memory_small.atlas.md",
+        "shortlist_json_path": "artifacts/results/discovery/cyclic_memory_small.shortlist.json",
+        "shortlist_csv_path": "artifacts/tables/discovery_cyclic_memory_small_shortlist.csv",
+        "shortlist_note_path": "docs/results/cyclic_memory_small.shortlist.md",
+        "robustness_json_path": "artifacts/results/discovery/cyclic_memory_small.shortlist_robustness.json",
+        "robustness_csv_path": "artifacts/tables/discovery_cyclic_memory_small_shortlist_robustness.csv",
+        "robustness_note_path": "docs/results/cyclic_memory_small.shortlist_robustness.md",
+        "dedup_json_path": "artifacts/results/discovery/multi_space.dedup.json",
+        "dedup_csv_path": "artifacts/tables/discovery_multi_space_dedup.csv",
+        "dedup_note_path": "docs/results/multi_space.dedup.md"
+      }
+    }
+  ],
+  "warnings": []
+}

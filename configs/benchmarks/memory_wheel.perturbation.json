@@ -1,0 +1,20 @@
+{
+  "schema_version": "perturbation-sweep.v1",
+  "sweep_id": "memory_wheel_perturbation",
+  "benchmark_id": "memory_wheel",
+  "seed": 18,
+  "trial_count": 20,
+  "targets": [
+    {
+      "target_path": "event_packages[1].events[0].weights.A",
+      "perturbation_kind": "weight_shift",
+      "magnitude": 0.05,
+      "radius": 0.1,
+      "lower_bound": 0.0,
+      "upper_bound": 1.0
+    }
+  ],
+  "tags": [
+    "preflight"
+  ]
+}

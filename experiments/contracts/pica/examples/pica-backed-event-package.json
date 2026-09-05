@@ -1,0 +1,71 @@
+{
+  "instance_format_version": "event-package-instance.v1",
+  "instance_id": "pica_backed_demo_package",
+  "contexts": [
+    {
+      "context_id": "ctx_step_0",
+      "label": "step 0 context",
+      "atoms": [
+        {
+          "atom_id": "atom_left_A",
+          "label": "obs_left_A"
+        },
+        {
+          "atom_id": "atom_left_B",
+          "label": "obs_left_B"
+        }
+      ]
+    },
+    {
+      "context_id": "ctx_step_1",
+      "label": "step 1 context",
+      "atoms": [
+        {
+          "atom_id": "atom_right_A",
+          "label": "obs_right_A"
+        },
+        {
+          "atom_id": "atom_right_B",
+          "label": "obs_right_B"
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "event_id": "event_step0_A",
+      "context_id": "ctx_step_0",
+      "atom_ids": [
+        "atom_left_A"
+      ],
+      "label": "A at step 0"
+    },
+    {
+      "event_id": "event_step1_A",
+      "context_id": "ctx_step_1",
+      "atom_ids": [
+        "atom_right_A"
+      ],
+      "label": "A at step 1"
+    }
+  ],
+  "equality_proposals": [
+    {
+      "proposal_id": "proposal_A_equiv",
+      "left_event_id": "event_step0_A",
+      "right_event_id": "event_step1_A",
+      "constraint_kind": "hard",
+      "notes": "Synthetic bridge-demo proposal."
+    }
+  ],
+  "weights": {},
+  "notes": "Tiny synthetic package backed by PICA contract artifacts.",
+  "metadata": {
+    "bridge_demo": true
+  },
+  "audit": {
+    "created_at": "2026-03-26T00:00:00Z",
+    "created_by": "t36-bridge-demo",
+    "source": "experiments/contracts/pica/examples/pica-export-bundle.json"
+  }
+}

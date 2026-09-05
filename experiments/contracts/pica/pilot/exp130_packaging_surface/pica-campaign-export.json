@@ -1,0 +1,42 @@
+{
+  "campaign_id": "pica_campaign_exp130_packaging_surface",
+  "campaign_label": "exp130_packaging_surface_campaign",
+  "flags": [
+    "adapter_export"
+  ],
+  "mechanism_summary": {
+    "enable_matrix_id": "pica_exp130_packaging_surface_matrix",
+    "mechanism_family_id": "pica_exp100_family",
+    "substrate_config_id": "pica_exp130_packaging_surface"
+  },
+  "notes": [
+    "Adapter-exported campaign created by the thin PICA pilot wrapper."
+  ],
+  "path_policy": "repo_relative",
+  "point_inventory": [
+    {
+      "enable_matrix_id": "pica_exp130_packaging_surface_matrix",
+      "mechanism_family_id": "pica_exp100_family",
+      "point_id": "point_exp130_packaging_surface_seed0",
+      "preparation_id": "prep_pica_default",
+      "protocol_id": "protocol_pica_multiscale_scan",
+      "run_id": "point_exp130_packaging_surface_seed0__seed_0",
+      "seed": 0,
+      "substrate_config_id": "pica_exp130_packaging_surface"
+    }
+  ],
+  "run_inventory": [
+    {
+      "closure_catalog_path": "experiments/contracts/pica/pilot/exp130_packaging_surface/pica-closure-catalog.json",
+      "commutator_catalog_path": "experiments/contracts/pica/pilot/exp130_packaging_surface/pica-commutator-catalog.json",
+      "observable_ledger_path": "experiments/contracts/pica/pilot/exp130_packaging_surface/pica-observable-ledger.json",
+      "packaging_operator_catalog_path": "experiments/contracts/pica/pilot/exp130_packaging_surface/pica-packaging-operator-catalog.json",
+      "packaging_selection_ledger_path": "experiments/contracts/pica/pilot/exp130_packaging_surface/pica-packaging-selection-ledger.json",
+      "point_id": "point_exp130_packaging_surface_seed0",
+      "run_id": "point_exp130_packaging_surface_seed0__seed_0",
+      "run_ledger_path": "experiments/contracts/pica/pilot/exp130_packaging_surface/pica-run-ledger.json"
+    }
+  ],
+  "schema_version": "pica-campaign-export.v1",
+  "source_config_path": "experiments/configs/pica/pilot-exp130-packaging-surface.json"
+}

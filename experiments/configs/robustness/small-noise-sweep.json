@@ -1,0 +1,54 @@
+{
+  "metadata": {
+    "committed_target_types": [
+      "benchmark"
+    ],
+    "note": "epistemic target omits rm trace to exercise explicit not_applicable handling"
+  },
+  "metric_thresholds": {
+    "ccd_failure_threshold": 0.05,
+    "gpd_stat_failure_threshold": 0.02,
+    "rm_failure_threshold": 0.05,
+    "sec_failure_threshold": 0.05
+  },
+  "noise_grid": [
+    0.0,
+    0.05,
+    0.1,
+    0.2,
+    0.3
+  ],
+  "noise_model": {
+    "base_seed": 17,
+    "ccd_model": "singleton_corruption_v1",
+    "distribution_model": "independent_jitter_mix_v1"
+  },
+  "sweep_format_version": "noise-robustness-sweep.v1",
+  "sweep_id": "small_noise_sweep",
+  "targets": [
+    {
+      "event_package_artifact": "experiments/instances/benchmarks/classical-master-test/instance.json",
+      "target_id": "classical_master_test",
+      "target_type": "benchmark",
+      "trace_artifacts": {
+        "ccd": "experiments/instances/benchmarks/classical-master-test/ccd-clean.json",
+        "rm": "experiments/instances/benchmarks/classical-master-test/rm-clean.json",
+        "sec": "experiments/instances/benchmarks/classical-master-test/sec-clean.json",
+        "stat": "experiments/instances/benchmarks/classical-master-test/stat-clean.json"
+      }
+    },
+    {
+      "event_package_artifact": "experiments/instances/benchmarks/epistemic-six-state/instance.json",
+      "notes": [
+        "rm trace intentionally omitted in committed sweep"
+      ],
+      "target_id": "epistemic_six_state",
+      "target_type": "benchmark",
+      "trace_artifacts": {
+        "ccd": "experiments/instances/benchmarks/epistemic-six-state/ccd-clean.json",
+        "sec": "experiments/instances/benchmarks/epistemic-six-state/sec-clean.json",
+        "stat": "experiments/instances/benchmarks/epistemic-six-state/stat-clean.json"
+      }
+    }
+  ]
+}

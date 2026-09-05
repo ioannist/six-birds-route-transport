@@ -1,0 +1,16 @@
+{
+  "schema_version": "benchmark-manifest.v1",
+  "benchmark_id": "protocol_trap_honest",
+  "transport_package_ref": "configs/benchmarks/toy_flat_signatures.json",
+  "interfaces_to_measure": [
+    "mid"
+  ],
+  "loops_to_test": [
+    "end_loop"
+  ],
+  "perturbation_sweep_ref": "configs/benchmarks/protocol_trap_honest.perturbation.json",
+  "tags": [
+    "protocol_trap",
+    "baseline"
+  ]
+}

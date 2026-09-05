@@ -1,0 +1,14 @@
+{
+  "qualified_id": "groupoid_probe_small:cand_0001",
+  "search_id": "groupoid_probe_small",
+  "candidate_id": "cand_0001",
+  "class_label": "coherent_candidate",
+  "primary_interface_id": "i0",
+  "trial_count": 8,
+  "pass_count": 0,
+  "survival_fraction": 0.0,
+  "survival_fraction_exact": "0",
+  "threshold": 0.5,
+  "threshold_exact": "1/2",
+  "meets_threshold": false
+}

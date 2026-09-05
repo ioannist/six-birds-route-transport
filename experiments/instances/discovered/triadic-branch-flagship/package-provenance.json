@@ -1,0 +1,2787 @@
+{
+  "context_entries": [
+    {
+      "ancestor_context_id": null,
+      "context_id": "ctx_prep0_branch_hold_hold_color_step0",
+      "notes": [],
+      "origin_kind": "derived_context",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/discovered-context-family.json",
+          "source_item_id": "ctx_prep0_branch_hold_hold_color_step0",
+          "source_kind": "derived_context"
+        }
+      ]
+    },
+    {
+      "ancestor_context_id": null,
+      "context_id": "ctx_prep0_branch_hold_hold_color_step1",
+      "notes": [],
+      "origin_kind": "derived_context",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/discovered-context-family.json",
+          "source_item_id": "ctx_prep0_branch_hold_hold_color_step1",
+          "source_kind": "derived_context"
+        }
+      ]
+    },
+    {
+      "ancestor_context_id": null,
+      "context_id": "ctx_prep0_branch_hold_hold_color_step2",
+      "notes": [],
+      "origin_kind": "derived_context",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/discovered-context-family.json",
+          "source_item_id": "ctx_prep0_branch_hold_hold_color_step2",
+          "source_kind": "derived_context"
+        }
+      ]
+    },
+    {
+      "ancestor_context_id": null,
+      "context_id": "ctx_prep0_branch_hold_hold_shape_step0",
+      "notes": [],
+      "origin_kind": "derived_context",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/discovered-context-family.json",
+          "source_item_id": "ctx_prep0_branch_hold_hold_shape_step0",
+          "source_kind": "derived_context"
+        }
+      ]
+    },
+    {
+      "ancestor_context_id": null,
+      "context_id": "ctx_prep0_branch_hold_hold_shape_step1",
+      "notes": [],
+      "origin_kind": "derived_context",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/discovered-context-family.json",
+          "source_item_id": "ctx_prep0_branch_hold_hold_shape_step1",
+          "source_kind": "derived_context"
+        }
+      ]
+    },
+    {
+      "ancestor_context_id": null,
+      "context_id": "ctx_prep0_branch_hold_hold_shape_step2",
+      "notes": [],
+      "origin_kind": "derived_context",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/discovered-context-family.json",
+          "source_item_id": "ctx_prep0_branch_hold_hold_shape_step2",
+          "source_kind": "derived_context"
+        }
+      ]
+    }
+  ],
+  "event_entries": [
+    {
+      "ancestor_event_id": null,
+      "event_id": "event_ctx_prep0_branch_hold_hold_color_step0_atom_blue_1",
+      "notes": [],
+      "origin_kind": "derived_event",
+      "refinement": null,
+      "source_atom_ids": [
+        "atom_blue_1"
+      ],
+      "source_context_id": "ctx_prep0_branch_hold_hold_color_step0",
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/discovered-event-family.json",
+          "source_item_id": "event_ctx_prep0_branch_hold_hold_color_step0_atom_blue_1",
+          "source_kind": "derived_event_basis"
+        },
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/raw-run.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        },
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/discovered-context-family.json",
+          "source_item_id": "ctx_prep0_branch_hold_hold_color_step0::atom_blue_1",
+          "source_kind": "derived_atomic_outcome"
+        }
+      ]
+    },
+    {
+      "ancestor_event_id": null,
+      "event_id": "event_ctx_prep0_branch_hold_hold_color_step0_atom_green_2",
+      "notes": [],
+      "origin_kind": "derived_event",
+      "refinement": null,
+      "source_atom_ids": [
+        "atom_green_2"
+      ],
+      "source_context_id": "ctx_prep0_branch_hold_hold_color_step0",
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/discovered-event-family.json",
+          "source_item_id": "event_ctx_prep0_branch_hold_hold_color_step0_atom_green_2",
+          "source_kind": "derived_event_basis"
+        },
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/raw-run.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        },
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/discovered-context-family.json",
+          "source_item_id": "ctx_prep0_branch_hold_hold_color_step0::atom_green_2",
+          "source_kind": "derived_atomic_outcome"
+        }
+      ]
+    },
+    {
+      "ancestor_event_id": null,
+      "event_id": "event_ctx_prep0_branch_hold_hold_color_step0_atom_red_3",
+      "notes": [],
+      "origin_kind": "derived_event",
+      "refinement": null,
+      "source_atom_ids": [
+        "atom_red_3"
+      ],
+      "source_context_id": "ctx_prep0_branch_hold_hold_color_step0",
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/discovered-event-family.json",
+          "source_item_id": "event_ctx_prep0_branch_hold_hold_color_step0_atom_red_3",
+          "source_kind": "derived_event_basis"
+        },
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/raw-run.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        },
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/discovered-context-family.json",
+          "source_item_id": "ctx_prep0_branch_hold_hold_color_step0::atom_red_3",
+          "source_kind": "derived_atomic_outcome"
+        }
+      ]
+    },
+    {
+      "ancestor_event_id": null,
+      "event_id": "event_ctx_prep0_branch_hold_hold_color_step1_atom_blue_1",
+      "notes": [],
+      "origin_kind": "derived_event",
+      "refinement": null,
+      "source_atom_ids": [
+        "atom_blue_1"
+      ],
+      "source_context_id": "ctx_prep0_branch_hold_hold_color_step1",
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/discovered-event-family.json",
+          "source_item_id": "event_ctx_prep0_branch_hold_hold_color_step1_atom_blue_1",
+          "source_kind": "derived_event_basis"
+        },
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/raw-run.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        },
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/discovered-context-family.json",
+          "source_item_id": "ctx_prep0_branch_hold_hold_color_step1::atom_blue_1",
+          "source_kind": "derived_atomic_outcome"
+        }
+      ]
+    },
+    {
+      "ancestor_event_id": null,
+      "event_id": "event_ctx_prep0_branch_hold_hold_color_step1_atom_green_2",
+      "notes": [],
+      "origin_kind": "derived_event",
+      "refinement": null,
+      "source_atom_ids": [
+        "atom_green_2"
+      ],
+      "source_context_id": "ctx_prep0_branch_hold_hold_color_step1",
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/discovered-event-family.json",
+          "source_item_id": "event_ctx_prep0_branch_hold_hold_color_step1_atom_green_2",
+          "source_kind": "derived_event_basis"
+        },
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/raw-run.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        },
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/discovered-context-family.json",
+          "source_item_id": "ctx_prep0_branch_hold_hold_color_step1::atom_green_2",
+          "source_kind": "derived_atomic_outcome"
+        }
+      ]
+    },
+    {
+      "ancestor_event_id": null,
+      "event_id": "event_ctx_prep0_branch_hold_hold_color_step1_atom_red_3",
+      "notes": [],
+      "origin_kind": "derived_event",
+      "refinement": null,
+      "source_atom_ids": [
+        "atom_red_3"
+      ],
+      "source_context_id": "ctx_prep0_branch_hold_hold_color_step1",
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/discovered-event-family.json",
+          "source_item_id": "event_ctx_prep0_branch_hold_hold_color_step1_atom_red_3",
+          "source_kind": "derived_event_basis"
+        },
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/raw-run.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        },
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/discovered-context-family.json",
+          "source_item_id": "ctx_prep0_branch_hold_hold_color_step1::atom_red_3",
+          "source_kind": "derived_atomic_outcome"
+        }
+      ]
+    },
+    {
+      "ancestor_event_id": null,
+      "event_id": "event_ctx_prep0_branch_hold_hold_color_step2_atom_blue_1",
+      "notes": [],
+      "origin_kind": "derived_event",
+      "refinement": null,
+      "source_atom_ids": [
+        "atom_blue_1"
+      ],
+      "source_context_id": "ctx_prep0_branch_hold_hold_color_step2",
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/discovered-event-family.json",
+          "source_item_id": "event_ctx_prep0_branch_hold_hold_color_step2_atom_blue_1",
+          "source_kind": "derived_event_basis"
+        },
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/raw-run.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        },
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/discovered-context-family.json",
+          "source_item_id": "ctx_prep0_branch_hold_hold_color_step2::atom_blue_1",
+          "source_kind": "derived_atomic_outcome"
+        }
+      ]
+    },
+    {
+      "ancestor_event_id": null,
+      "event_id": "event_ctx_prep0_branch_hold_hold_color_step2_atom_green_2",
+      "notes": [],
+      "origin_kind": "derived_event",
+      "refinement": null,
+      "source_atom_ids": [
+        "atom_green_2"
+      ],
+      "source_context_id": "ctx_prep0_branch_hold_hold_color_step2",
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/discovered-event-family.json",
+          "source_item_id": "event_ctx_prep0_branch_hold_hold_color_step2_atom_green_2",
+          "source_kind": "derived_event_basis"
+        },
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/raw-run.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        },
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/discovered-context-family.json",
+          "source_item_id": "ctx_prep0_branch_hold_hold_color_step2::atom_green_2",
+          "source_kind": "derived_atomic_outcome"
+        }
+      ]
+    },
+    {
+      "ancestor_event_id": null,
+      "event_id": "event_ctx_prep0_branch_hold_hold_color_step2_atom_red_3",
+      "notes": [],
+      "origin_kind": "derived_event",
+      "refinement": null,
+      "source_atom_ids": [
+        "atom_red_3"
+      ],
+      "source_context_id": "ctx_prep0_branch_hold_hold_color_step2",
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/discovered-event-family.json",
+          "source_item_id": "event_ctx_prep0_branch_hold_hold_color_step2_atom_red_3",
+          "source_kind": "derived_event_basis"
+        },
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/raw-run.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        },
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/discovered-context-family.json",
+          "source_item_id": "ctx_prep0_branch_hold_hold_color_step2::atom_red_3",
+          "source_kind": "derived_atomic_outcome"
+        }
+      ]
+    },
+    {
+      "ancestor_event_id": null,
+      "event_id": "event_ctx_prep0_branch_hold_hold_shape_step0_atom_circle_1",
+      "notes": [],
+      "origin_kind": "derived_event",
+      "refinement": null,
+      "source_atom_ids": [
+        "atom_circle_1"
+      ],
+      "source_context_id": "ctx_prep0_branch_hold_hold_shape_step0",
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/discovered-event-family.json",
+          "source_item_id": "event_ctx_prep0_branch_hold_hold_shape_step0_atom_circle_1",
+          "source_kind": "derived_event_basis"
+        },
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/raw-run.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        },
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/discovered-context-family.json",
+          "source_item_id": "ctx_prep0_branch_hold_hold_shape_step0::atom_circle_1",
+          "source_kind": "derived_atomic_outcome"
+        }
+      ]
+    },
+    {
+      "ancestor_event_id": null,
+      "event_id": "event_ctx_prep0_branch_hold_hold_shape_step0_atom_square_2",
+      "notes": [],
+      "origin_kind": "derived_event",
+      "refinement": null,
+      "source_atom_ids": [
+        "atom_square_2"
+      ],
+      "source_context_id": "ctx_prep0_branch_hold_hold_shape_step0",
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/discovered-event-family.json",
+          "source_item_id": "event_ctx_prep0_branch_hold_hold_shape_step0_atom_square_2",
+          "source_kind": "derived_event_basis"
+        },
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/raw-run.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        },
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/discovered-context-family.json",
+          "source_item_id": "ctx_prep0_branch_hold_hold_shape_step0::atom_square_2",
+          "source_kind": "derived_atomic_outcome"
+        }
+      ]
+    },
+    {
+      "ancestor_event_id": null,
+      "event_id": "event_ctx_prep0_branch_hold_hold_shape_step0_atom_triangle_3",
+      "notes": [],
+      "origin_kind": "derived_event",
+      "refinement": null,
+      "source_atom_ids": [
+        "atom_triangle_3"
+      ],
+      "source_context_id": "ctx_prep0_branch_hold_hold_shape_step0",
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/discovered-event-family.json",
+          "source_item_id": "event_ctx_prep0_branch_hold_hold_shape_step0_atom_triangle_3",
+          "source_kind": "derived_event_basis"
+        },
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/raw-run.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        },
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/discovered-context-family.json",
+          "source_item_id": "ctx_prep0_branch_hold_hold_shape_step0::atom_triangle_3",
+          "source_kind": "derived_atomic_outcome"
+        }
+      ]
+    },
+    {
+      "ancestor_event_id": null,
+      "event_id": "event_ctx_prep0_branch_hold_hold_shape_step1_atom_circle_1",
+      "notes": [],
+      "origin_kind": "derived_event",
+      "refinement": null,
+      "source_atom_ids": [
+        "atom_circle_1"
+      ],
+      "source_context_id": "ctx_prep0_branch_hold_hold_shape_step1",
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/discovered-event-family.json",
+          "source_item_id": "event_ctx_prep0_branch_hold_hold_shape_step1_atom_circle_1",
+          "source_kind": "derived_event_basis"
+        },
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/raw-run.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        },
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/discovered-context-family.json",
+          "source_item_id": "ctx_prep0_branch_hold_hold_shape_step1::atom_circle_1",
+          "source_kind": "derived_atomic_outcome"
+        }
+      ]
+    },
+    {
+      "ancestor_event_id": null,
+      "event_id": "event_ctx_prep0_branch_hold_hold_shape_step1_atom_square_2",
+      "notes": [],
+      "origin_kind": "derived_event",
+      "refinement": null,
+      "source_atom_ids": [
+        "atom_square_2"
+      ],
+      "source_context_id": "ctx_prep0_branch_hold_hold_shape_step1",
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/discovered-event-family.json",
+          "source_item_id": "event_ctx_prep0_branch_hold_hold_shape_step1_atom_square_2",
+          "source_kind": "derived_event_basis"
+        },
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/raw-run.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        },
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/discovered-context-family.json",
+          "source_item_id": "ctx_prep0_branch_hold_hold_shape_step1::atom_square_2",
+          "source_kind": "derived_atomic_outcome"
+        }
+      ]
+    },
+    {
+      "ancestor_event_id": null,
+      "event_id": "event_ctx_prep0_branch_hold_hold_shape_step1_atom_triangle_3",
+      "notes": [],
+      "origin_kind": "derived_event",
+      "refinement": null,
+      "source_atom_ids": [
+        "atom_triangle_3"
+      ],
+      "source_context_id": "ctx_prep0_branch_hold_hold_shape_step1",
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/discovered-event-family.json",
+          "source_item_id": "event_ctx_prep0_branch_hold_hold_shape_step1_atom_triangle_3",
+          "source_kind": "derived_event_basis"
+        },
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/raw-run.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        },
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/discovered-context-family.json",
+          "source_item_id": "ctx_prep0_branch_hold_hold_shape_step1::atom_triangle_3",
+          "source_kind": "derived_atomic_outcome"
+        }
+      ]
+    },
+    {
+      "ancestor_event_id": null,
+      "event_id": "event_ctx_prep0_branch_hold_hold_shape_step2_atom_circle_1",
+      "notes": [],
+      "origin_kind": "derived_event",
+      "refinement": null,
+      "source_atom_ids": [
+        "atom_circle_1"
+      ],
+      "source_context_id": "ctx_prep0_branch_hold_hold_shape_step2",
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/discovered-event-family.json",
+          "source_item_id": "event_ctx_prep0_branch_hold_hold_shape_step2_atom_circle_1",
+          "source_kind": "derived_event_basis"
+        },
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/raw-run.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        },
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/discovered-context-family.json",
+          "source_item_id": "ctx_prep0_branch_hold_hold_shape_step2::atom_circle_1",
+          "source_kind": "derived_atomic_outcome"
+        }
+      ]
+    },
+    {
+      "ancestor_event_id": null,
+      "event_id": "event_ctx_prep0_branch_hold_hold_shape_step2_atom_square_2",
+      "notes": [],
+      "origin_kind": "derived_event",
+      "refinement": null,
+      "source_atom_ids": [
+        "atom_square_2"
+      ],
+      "source_context_id": "ctx_prep0_branch_hold_hold_shape_step2",
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/discovered-event-family.json",
+          "source_item_id": "event_ctx_prep0_branch_hold_hold_shape_step2_atom_square_2",
+          "source_kind": "derived_event_basis"
+        },
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/raw-run.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        },
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/discovered-context-family.json",
+          "source_item_id": "ctx_prep0_branch_hold_hold_shape_step2::atom_square_2",
+          "source_kind": "derived_atomic_outcome"
+        }
+      ]
+    },
+    {
+      "ancestor_event_id": null,
+      "event_id": "event_ctx_prep0_branch_hold_hold_shape_step2_atom_triangle_3",
+      "notes": [],
+      "origin_kind": "derived_event",
+      "refinement": null,
+      "source_atom_ids": [
+        "atom_triangle_3"
+      ],
+      "source_context_id": "ctx_prep0_branch_hold_hold_shape_step2",
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/discovered-event-family.json",
+          "source_item_id": "event_ctx_prep0_branch_hold_hold_shape_step2_atom_triangle_3",
+          "source_kind": "derived_event_basis"
+        },
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/raw-run.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        },
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/discovered-context-family.json",
+          "source_item_id": "ctx_prep0_branch_hold_hold_shape_step2::atom_triangle_3",
+          "source_kind": "derived_atomic_outcome"
+        }
+      ]
+    },
+    {
+      "ancestor_event_id": null,
+      "event_id": "event_ctx_prep0_branch_hold_hold_color_step0__union__atom_blue_1__atom_green_2",
+      "notes": [
+        "coarse_event_union_of_retained_atoms"
+      ],
+      "origin_kind": "derived_event",
+      "refinement": null,
+      "source_atom_ids": [
+        "atom_blue_1",
+        "atom_green_2"
+      ],
+      "source_context_id": "ctx_prep0_branch_hold_hold_color_step0",
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/discovered-event-family.json",
+          "source_item_id": "event_ctx_prep0_branch_hold_hold_color_step0__union__atom_blue_1__atom_green_2",
+          "source_kind": "derived_event_basis"
+        },
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/raw-run.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    },
+    {
+      "ancestor_event_id": null,
+      "event_id": "event_ctx_prep0_branch_hold_hold_color_step0__union__atom_blue_1__atom_red_3",
+      "notes": [
+        "coarse_event_union_of_retained_atoms"
+      ],
+      "origin_kind": "derived_event",
+      "refinement": null,
+      "source_atom_ids": [
+        "atom_blue_1",
+        "atom_red_3"
+      ],
+      "source_context_id": "ctx_prep0_branch_hold_hold_color_step0",
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/discovered-event-family.json",
+          "source_item_id": "event_ctx_prep0_branch_hold_hold_color_step0__union__atom_blue_1__atom_red_3",
+          "source_kind": "derived_event_basis"
+        },
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/raw-run.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    },
+    {
+      "ancestor_event_id": null,
+      "event_id": "event_ctx_prep0_branch_hold_hold_color_step0__union__atom_green_2__atom_red_3",
+      "notes": [
+        "coarse_event_union_of_retained_atoms"
+      ],
+      "origin_kind": "derived_event",
+      "refinement": null,
+      "source_atom_ids": [
+        "atom_green_2",
+        "atom_red_3"
+      ],
+      "source_context_id": "ctx_prep0_branch_hold_hold_color_step0",
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/discovered-event-family.json",
+          "source_item_id": "event_ctx_prep0_branch_hold_hold_color_step0__union__atom_green_2__atom_red_3",
+          "source_kind": "derived_event_basis"
+        },
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/raw-run.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    },
+    {
+      "ancestor_event_id": null,
+      "event_id": "event_ctx_prep0_branch_hold_hold_color_step1__union__atom_blue_1__atom_green_2",
+      "notes": [
+        "coarse_event_union_of_retained_atoms"
+      ],
+      "origin_kind": "derived_event",
+      "refinement": null,
+      "source_atom_ids": [
+        "atom_blue_1",
+        "atom_green_2"
+      ],
+      "source_context_id": "ctx_prep0_branch_hold_hold_color_step1",
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/discovered-event-family.json",
+          "source_item_id": "event_ctx_prep0_branch_hold_hold_color_step1__union__atom_blue_1__atom_green_2",
+          "source_kind": "derived_event_basis"
+        },
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/raw-run.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    },
+    {
+      "ancestor_event_id": null,
+      "event_id": "event_ctx_prep0_branch_hold_hold_color_step1__union__atom_blue_1__atom_red_3",
+      "notes": [
+        "coarse_event_union_of_retained_atoms"
+      ],
+      "origin_kind": "derived_event",
+      "refinement": null,
+      "source_atom_ids": [
+        "atom_blue_1",
+        "atom_red_3"
+      ],
+      "source_context_id": "ctx_prep0_branch_hold_hold_color_step1",
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/discovered-event-family.json",
+          "source_item_id": "event_ctx_prep0_branch_hold_hold_color_step1__union__atom_blue_1__atom_red_3",
+          "source_kind": "derived_event_basis"
+        },
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/raw-run.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    },
+    {
+      "ancestor_event_id": null,
+      "event_id": "event_ctx_prep0_branch_hold_hold_color_step1__union__atom_green_2__atom_red_3",
+      "notes": [
+        "coarse_event_union_of_retained_atoms"
+      ],
+      "origin_kind": "derived_event",
+      "refinement": null,
+      "source_atom_ids": [
+        "atom_green_2",
+        "atom_red_3"
+      ],
+      "source_context_id": "ctx_prep0_branch_hold_hold_color_step1",
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/discovered-event-family.json",
+          "source_item_id": "event_ctx_prep0_branch_hold_hold_color_step1__union__atom_green_2__atom_red_3",
+          "source_kind": "derived_event_basis"
+        },
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/raw-run.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    },
+    {
+      "ancestor_event_id": null,
+      "event_id": "event_ctx_prep0_branch_hold_hold_color_step2__union__atom_blue_1__atom_green_2",
+      "notes": [
+        "coarse_event_union_of_retained_atoms"
+      ],
+      "origin_kind": "derived_event",
+      "refinement": null,
+      "source_atom_ids": [
+        "atom_blue_1",
+        "atom_green_2"
+      ],
+      "source_context_id": "ctx_prep0_branch_hold_hold_color_step2",
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/discovered-event-family.json",
+          "source_item_id": "event_ctx_prep0_branch_hold_hold_color_step2__union__atom_blue_1__atom_green_2",
+          "source_kind": "derived_event_basis"
+        },
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/raw-run.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    },
+    {
+      "ancestor_event_id": null,
+      "event_id": "event_ctx_prep0_branch_hold_hold_color_step2__union__atom_blue_1__atom_red_3",
+      "notes": [
+        "coarse_event_union_of_retained_atoms"
+      ],
+      "origin_kind": "derived_event",
+      "refinement": null,
+      "source_atom_ids": [
+        "atom_blue_1",
+        "atom_red_3"
+      ],
+      "source_context_id": "ctx_prep0_branch_hold_hold_color_step2",
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/discovered-event-family.json",
+          "source_item_id": "event_ctx_prep0_branch_hold_hold_color_step2__union__atom_blue_1__atom_red_3",
+          "source_kind": "derived_event_basis"
+        },
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/raw-run.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    },
+    {
+      "ancestor_event_id": null,
+      "event_id": "event_ctx_prep0_branch_hold_hold_color_step2__union__atom_green_2__atom_red_3",
+      "notes": [
+        "coarse_event_union_of_retained_atoms"
+      ],
+      "origin_kind": "derived_event",
+      "refinement": null,
+      "source_atom_ids": [
+        "atom_green_2",
+        "atom_red_3"
+      ],
+      "source_context_id": "ctx_prep0_branch_hold_hold_color_step2",
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/discovered-event-family.json",
+          "source_item_id": "event_ctx_prep0_branch_hold_hold_color_step2__union__atom_green_2__atom_red_3",
+          "source_kind": "derived_event_basis"
+        },
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/raw-run.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    },
+    {
+      "ancestor_event_id": null,
+      "event_id": "event_ctx_prep0_branch_hold_hold_shape_step0__union__atom_circle_1__atom_square_2",
+      "notes": [
+        "coarse_event_union_of_retained_atoms"
+      ],
+      "origin_kind": "derived_event",
+      "refinement": null,
+      "source_atom_ids": [
+        "atom_circle_1",
+        "atom_square_2"
+      ],
+      "source_context_id": "ctx_prep0_branch_hold_hold_shape_step0",
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/discovered-event-family.json",
+          "source_item_id": "event_ctx_prep0_branch_hold_hold_shape_step0__union__atom_circle_1__atom_square_2",
+          "source_kind": "derived_event_basis"
+        },
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/raw-run.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    },
+    {
+      "ancestor_event_id": null,
+      "event_id": "event_ctx_prep0_branch_hold_hold_shape_step0__union__atom_circle_1__atom_triangle_3",
+      "notes": [
+        "coarse_event_union_of_retained_atoms"
+      ],
+      "origin_kind": "derived_event",
+      "refinement": null,
+      "source_atom_ids": [
+        "atom_circle_1",
+        "atom_triangle_3"
+      ],
+      "source_context_id": "ctx_prep0_branch_hold_hold_shape_step0",
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/discovered-event-family.json",
+          "source_item_id": "event_ctx_prep0_branch_hold_hold_shape_step0__union__atom_circle_1__atom_triangle_3",
+          "source_kind": "derived_event_basis"
+        },
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/raw-run.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    },
+    {
+      "ancestor_event_id": null,
+      "event_id": "event_ctx_prep0_branch_hold_hold_shape_step0__union__atom_square_2__atom_triangle_3",
+      "notes": [
+        "coarse_event_union_of_retained_atoms"
+      ],
+      "origin_kind": "derived_event",
+      "refinement": null,
+      "source_atom_ids": [
+        "atom_square_2",
+        "atom_triangle_3"
+      ],
+      "source_context_id": "ctx_prep0_branch_hold_hold_shape_step0",
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/discovered-event-family.json",
+          "source_item_id": "event_ctx_prep0_branch_hold_hold_shape_step0__union__atom_square_2__atom_triangle_3",
+          "source_kind": "derived_event_basis"
+        },
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/raw-run.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    },
+    {
+      "ancestor_event_id": null,
+      "event_id": "event_ctx_prep0_branch_hold_hold_shape_step1__union__atom_circle_1__atom_square_2",
+      "notes": [
+        "coarse_event_union_of_retained_atoms"
+      ],
+      "origin_kind": "derived_event",
+      "refinement": null,
+      "source_atom_ids": [
+        "atom_circle_1",
+        "atom_square_2"
+      ],
+      "source_context_id": "ctx_prep0_branch_hold_hold_shape_step1",
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/discovered-event-family.json",
+          "source_item_id": "event_ctx_prep0_branch_hold_hold_shape_step1__union__atom_circle_1__atom_square_2",
+          "source_kind": "derived_event_basis"
+        },
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/raw-run.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    },
+    {
+      "ancestor_event_id": null,
+      "event_id": "event_ctx_prep0_branch_hold_hold_shape_step1__union__atom_circle_1__atom_triangle_3",
+      "notes": [
+        "coarse_event_union_of_retained_atoms"
+      ],
+      "origin_kind": "derived_event",
+      "refinement": null,
+      "source_atom_ids": [
+        "atom_circle_1",
+        "atom_triangle_3"
+      ],
+      "source_context_id": "ctx_prep0_branch_hold_hold_shape_step1",
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/discovered-event-family.json",
+          "source_item_id": "event_ctx_prep0_branch_hold_hold_shape_step1__union__atom_circle_1__atom_triangle_3",
+          "source_kind": "derived_event_basis"
+        },
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/raw-run.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    },
+    {
+      "ancestor_event_id": null,
+      "event_id": "event_ctx_prep0_branch_hold_hold_shape_step1__union__atom_square_2__atom_triangle_3",
+      "notes": [
+        "coarse_event_union_of_retained_atoms"
+      ],
+      "origin_kind": "derived_event",
+      "refinement": null,
+      "source_atom_ids": [
+        "atom_square_2",
+        "atom_triangle_3"
+      ],
+      "source_context_id": "ctx_prep0_branch_hold_hold_shape_step1",
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/discovered-event-family.json",
+          "source_item_id": "event_ctx_prep0_branch_hold_hold_shape_step1__union__atom_square_2__atom_triangle_3",
+          "source_kind": "derived_event_basis"
+        },
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/raw-run.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    },
+    {
+      "ancestor_event_id": null,
+      "event_id": "event_ctx_prep0_branch_hold_hold_shape_step2__union__atom_circle_1__atom_square_2",
+      "notes": [
+        "coarse_event_union_of_retained_atoms"
+      ],
+      "origin_kind": "derived_event",
+      "refinement": null,
+      "source_atom_ids": [
+        "atom_circle_1",
+        "atom_square_2"
+      ],
+      "source_context_id": "ctx_prep0_branch_hold_hold_shape_step2",
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/discovered-event-family.json",
+          "source_item_id": "event_ctx_prep0_branch_hold_hold_shape_step2__union__atom_circle_1__atom_square_2",
+          "source_kind": "derived_event_basis"
+        },
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/raw-run.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    },
+    {
+      "ancestor_event_id": null,
+      "event_id": "event_ctx_prep0_branch_hold_hold_shape_step2__union__atom_circle_1__atom_triangle_3",
+      "notes": [
+        "coarse_event_union_of_retained_atoms"
+      ],
+      "origin_kind": "derived_event",
+      "refinement": null,
+      "source_atom_ids": [
+        "atom_circle_1",
+        "atom_triangle_3"
+      ],
+      "source_context_id": "ctx_prep0_branch_hold_hold_shape_step2",
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/discovered-event-family.json",
+          "source_item_id": "event_ctx_prep0_branch_hold_hold_shape_step2__union__atom_circle_1__atom_triangle_3",
+          "source_kind": "derived_event_basis"
+        },
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/raw-run.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    },
+    {
+      "ancestor_event_id": null,
+      "event_id": "event_ctx_prep0_branch_hold_hold_shape_step2__union__atom_square_2__atom_triangle_3",
+      "notes": [
+        "coarse_event_union_of_retained_atoms"
+      ],
+      "origin_kind": "derived_event",
+      "refinement": null,
+      "source_atom_ids": [
+        "atom_square_2",
+        "atom_triangle_3"
+      ],
+      "source_context_id": "ctx_prep0_branch_hold_hold_shape_step2",
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/discovered-event-family.json",
+          "source_item_id": "event_ctx_prep0_branch_hold_hold_shape_step2__union__atom_square_2__atom_triangle_3",
+          "source_kind": "derived_event_basis"
+        },
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/raw-run.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "event_basis_mode": "singleton_plus_small_unions",
+    "observable_only": true
+  },
+  "package_artifact": "experiments/instances/discovered/triadic-branch-flagship/event-package.json",
+  "package_id": "inst_family_run_search_20260326t021200z_triadic_branch_contexts_built",
+  "proposal_entries": [
+    {
+      "ancestor_proposal_id": null,
+      "notes": [],
+      "origin_kind": "derived_proposal",
+      "proposal_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step0_atom_blue_1__event_ctx_prep0_branch_hold_hold_color_step1_atom_blue_1",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/shared-event-candidates.json",
+          "source_item_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step0_atom_blue_1__event_ctx_prep0_branch_hold_hold_color_step1_atom_blue_1",
+          "source_kind": "derived_shared_event_match"
+        },
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/raw-run.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    },
+    {
+      "ancestor_proposal_id": null,
+      "notes": [],
+      "origin_kind": "derived_proposal",
+      "proposal_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step0_atom_green_2__event_ctx_prep0_branch_hold_hold_color_step1_atom_green_2",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/shared-event-candidates.json",
+          "source_item_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step0_atom_green_2__event_ctx_prep0_branch_hold_hold_color_step1_atom_green_2",
+          "source_kind": "derived_shared_event_match"
+        },
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/raw-run.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    },
+    {
+      "ancestor_proposal_id": null,
+      "notes": [],
+      "origin_kind": "derived_proposal",
+      "proposal_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step0_atom_red_3__event_ctx_prep0_branch_hold_hold_color_step1_atom_red_3",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/shared-event-candidates.json",
+          "source_item_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step0_atom_red_3__event_ctx_prep0_branch_hold_hold_color_step1_atom_red_3",
+          "source_kind": "derived_shared_event_match"
+        },
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/raw-run.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    },
+    {
+      "ancestor_proposal_id": null,
+      "notes": [],
+      "origin_kind": "derived_proposal",
+      "proposal_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step0__union__atom_blue_1__atom_green_2__event_ctx_prep0_branch_hold_hold_color_step1__union__atom_blue_1__atom_green_2",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/shared-event-candidates.json",
+          "source_item_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step0__union__atom_blue_1__atom_green_2__event_ctx_prep0_branch_hold_hold_color_step1__union__atom_blue_1__atom_green_2",
+          "source_kind": "derived_shared_event_match"
+        },
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/raw-run.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    },
+    {
+      "ancestor_proposal_id": null,
+      "notes": [],
+      "origin_kind": "derived_proposal",
+      "proposal_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step0__union__atom_blue_1__atom_red_3__event_ctx_prep0_branch_hold_hold_color_step1__union__atom_blue_1__atom_red_3",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/shared-event-candidates.json",
+          "source_item_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step0__union__atom_blue_1__atom_red_3__event_ctx_prep0_branch_hold_hold_color_step1__union__atom_blue_1__atom_red_3",
+          "source_kind": "derived_shared_event_match"
+        },
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/raw-run.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    },
+    {
+      "ancestor_proposal_id": null,
+      "notes": [],
+      "origin_kind": "derived_proposal",
+      "proposal_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step0__union__atom_green_2__atom_red_3__event_ctx_prep0_branch_hold_hold_color_step1__union__atom_green_2__atom_red_3",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/shared-event-candidates.json",
+          "source_item_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step0__union__atom_green_2__atom_red_3__event_ctx_prep0_branch_hold_hold_color_step1__union__atom_green_2__atom_red_3",
+          "source_kind": "derived_shared_event_match"
+        },
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/raw-run.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    },
+    {
+      "ancestor_proposal_id": null,
+      "notes": [],
+      "origin_kind": "derived_proposal",
+      "proposal_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step0_atom_blue_1__event_ctx_prep0_branch_hold_hold_color_step2_atom_blue_1",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/shared-event-candidates.json",
+          "source_item_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step0_atom_blue_1__event_ctx_prep0_branch_hold_hold_color_step2_atom_blue_1",
+          "source_kind": "derived_shared_event_match"
+        },
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/raw-run.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    },
+    {
+      "ancestor_proposal_id": null,
+      "notes": [],
+      "origin_kind": "derived_proposal",
+      "proposal_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step0_atom_green_2__event_ctx_prep0_branch_hold_hold_color_step2_atom_green_2",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/shared-event-candidates.json",
+          "source_item_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step0_atom_green_2__event_ctx_prep0_branch_hold_hold_color_step2_atom_green_2",
+          "source_kind": "derived_shared_event_match"
+        },
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/raw-run.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    },
+    {
+      "ancestor_proposal_id": null,
+      "notes": [],
+      "origin_kind": "derived_proposal",
+      "proposal_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step0_atom_red_3__event_ctx_prep0_branch_hold_hold_color_step2_atom_red_3",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/shared-event-candidates.json",
+          "source_item_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step0_atom_red_3__event_ctx_prep0_branch_hold_hold_color_step2_atom_red_3",
+          "source_kind": "derived_shared_event_match"
+        },
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/raw-run.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    },
+    {
+      "ancestor_proposal_id": null,
+      "notes": [],
+      "origin_kind": "derived_proposal",
+      "proposal_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step0__union__atom_blue_1__atom_green_2__event_ctx_prep0_branch_hold_hold_color_step2__union__atom_blue_1__atom_green_2",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/shared-event-candidates.json",
+          "source_item_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step0__union__atom_blue_1__atom_green_2__event_ctx_prep0_branch_hold_hold_color_step2__union__atom_blue_1__atom_green_2",
+          "source_kind": "derived_shared_event_match"
+        },
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/raw-run.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    },
+    {
+      "ancestor_proposal_id": null,
+      "notes": [],
+      "origin_kind": "derived_proposal",
+      "proposal_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step0__union__atom_blue_1__atom_red_3__event_ctx_prep0_branch_hold_hold_color_step2__union__atom_blue_1__atom_red_3",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/shared-event-candidates.json",
+          "source_item_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step0__union__atom_blue_1__atom_red_3__event_ctx_prep0_branch_hold_hold_color_step2__union__atom_blue_1__atom_red_3",
+          "source_kind": "derived_shared_event_match"
+        },
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/raw-run.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    },
+    {
+      "ancestor_proposal_id": null,
+      "notes": [],
+      "origin_kind": "derived_proposal",
+      "proposal_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step0__union__atom_green_2__atom_red_3__event_ctx_prep0_branch_hold_hold_color_step2__union__atom_green_2__atom_red_3",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/shared-event-candidates.json",
+          "source_item_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step0__union__atom_green_2__atom_red_3__event_ctx_prep0_branch_hold_hold_color_step2__union__atom_green_2__atom_red_3",
+          "source_kind": "derived_shared_event_match"
+        },
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/raw-run.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    },
+    {
+      "ancestor_proposal_id": null,
+      "notes": [],
+      "origin_kind": "derived_proposal",
+      "proposal_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step0_atom_blue_1__event_ctx_prep0_branch_hold_hold_shape_step0_atom_square_2",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/shared-event-candidates.json",
+          "source_item_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step0_atom_blue_1__event_ctx_prep0_branch_hold_hold_shape_step0_atom_square_2",
+          "source_kind": "derived_shared_event_match"
+        },
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/raw-run.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    },
+    {
+      "ancestor_proposal_id": null,
+      "notes": [],
+      "origin_kind": "derived_proposal",
+      "proposal_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step0_atom_green_2__event_ctx_prep0_branch_hold_hold_shape_step0_atom_triangle_3",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/shared-event-candidates.json",
+          "source_item_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step0_atom_green_2__event_ctx_prep0_branch_hold_hold_shape_step0_atom_triangle_3",
+          "source_kind": "derived_shared_event_match"
+        },
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/raw-run.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    },
+    {
+      "ancestor_proposal_id": null,
+      "notes": [],
+      "origin_kind": "derived_proposal",
+      "proposal_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step0_atom_red_3__event_ctx_prep0_branch_hold_hold_shape_step0_atom_circle_1",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/shared-event-candidates.json",
+          "source_item_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step0_atom_red_3__event_ctx_prep0_branch_hold_hold_shape_step0_atom_circle_1",
+          "source_kind": "derived_shared_event_match"
+        },
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/raw-run.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    },
+    {
+      "ancestor_proposal_id": null,
+      "notes": [],
+      "origin_kind": "derived_proposal",
+      "proposal_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step0__union__atom_blue_1__atom_green_2__event_ctx_prep0_branch_hold_hold_shape_step0__union__atom_square_2__atom_triangle_3",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/shared-event-candidates.json",
+          "source_item_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step0__union__atom_blue_1__atom_green_2__event_ctx_prep0_branch_hold_hold_shape_step0__union__atom_square_2__atom_triangle_3",
+          "source_kind": "derived_shared_event_match"
+        },
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/raw-run.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    },
+    {
+      "ancestor_proposal_id": null,
+      "notes": [],
+      "origin_kind": "derived_proposal",
+      "proposal_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step0__union__atom_blue_1__atom_red_3__event_ctx_prep0_branch_hold_hold_shape_step0__union__atom_circle_1__atom_square_2",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/shared-event-candidates.json",
+          "source_item_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step0__union__atom_blue_1__atom_red_3__event_ctx_prep0_branch_hold_hold_shape_step0__union__atom_circle_1__atom_square_2",
+          "source_kind": "derived_shared_event_match"
+        },
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/raw-run.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    },
+    {
+      "ancestor_proposal_id": null,
+      "notes": [],
+      "origin_kind": "derived_proposal",
+      "proposal_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step0__union__atom_green_2__atom_red_3__event_ctx_prep0_branch_hold_hold_shape_step0__union__atom_circle_1__atom_triangle_3",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/shared-event-candidates.json",
+          "source_item_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step0__union__atom_green_2__atom_red_3__event_ctx_prep0_branch_hold_hold_shape_step0__union__atom_circle_1__atom_triangle_3",
+          "source_kind": "derived_shared_event_match"
+        },
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/raw-run.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    },
+    {
+      "ancestor_proposal_id": null,
+      "notes": [],
+      "origin_kind": "derived_proposal",
+      "proposal_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step0_atom_blue_1__event_ctx_prep0_branch_hold_hold_shape_step1_atom_square_2",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/shared-event-candidates.json",
+          "source_item_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step0_atom_blue_1__event_ctx_prep0_branch_hold_hold_shape_step1_atom_square_2",
+          "source_kind": "derived_shared_event_match"
+        },
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/raw-run.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    },
+    {
+      "ancestor_proposal_id": null,
+      "notes": [],
+      "origin_kind": "derived_proposal",
+      "proposal_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step0_atom_green_2__event_ctx_prep0_branch_hold_hold_shape_step1_atom_triangle_3",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/shared-event-candidates.json",
+          "source_item_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step0_atom_green_2__event_ctx_prep0_branch_hold_hold_shape_step1_atom_triangle_3",
+          "source_kind": "derived_shared_event_match"
+        },
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/raw-run.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    },
+    {
+      "ancestor_proposal_id": null,
+      "notes": [],
+      "origin_kind": "derived_proposal",
+      "proposal_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step0_atom_red_3__event_ctx_prep0_branch_hold_hold_shape_step1_atom_circle_1",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/shared-event-candidates.json",
+          "source_item_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step0_atom_red_3__event_ctx_prep0_branch_hold_hold_shape_step1_atom_circle_1",
+          "source_kind": "derived_shared_event_match"
+        },
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/raw-run.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    },
+    {
+      "ancestor_proposal_id": null,
+      "notes": [],
+      "origin_kind": "derived_proposal",
+      "proposal_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step0__union__atom_blue_1__atom_green_2__event_ctx_prep0_branch_hold_hold_shape_step1__union__atom_square_2__atom_triangle_3",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/shared-event-candidates.json",
+          "source_item_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step0__union__atom_blue_1__atom_green_2__event_ctx_prep0_branch_hold_hold_shape_step1__union__atom_square_2__atom_triangle_3",
+          "source_kind": "derived_shared_event_match"
+        },
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/raw-run.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    },
+    {
+      "ancestor_proposal_id": null,
+      "notes": [],
+      "origin_kind": "derived_proposal",
+      "proposal_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step0__union__atom_blue_1__atom_red_3__event_ctx_prep0_branch_hold_hold_shape_step1__union__atom_circle_1__atom_square_2",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/shared-event-candidates.json",
+          "source_item_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step0__union__atom_blue_1__atom_red_3__event_ctx_prep0_branch_hold_hold_shape_step1__union__atom_circle_1__atom_square_2",
+          "source_kind": "derived_shared_event_match"
+        },
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/raw-run.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    },
+    {
+      "ancestor_proposal_id": null,
+      "notes": [],
+      "origin_kind": "derived_proposal",
+      "proposal_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step0__union__atom_green_2__atom_red_3__event_ctx_prep0_branch_hold_hold_shape_step1__union__atom_circle_1__atom_triangle_3",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/shared-event-candidates.json",
+          "source_item_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step0__union__atom_green_2__atom_red_3__event_ctx_prep0_branch_hold_hold_shape_step1__union__atom_circle_1__atom_triangle_3",
+          "source_kind": "derived_shared_event_match"
+        },
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/raw-run.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    },
+    {
+      "ancestor_proposal_id": null,
+      "notes": [],
+      "origin_kind": "derived_proposal",
+      "proposal_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step0_atom_blue_1__event_ctx_prep0_branch_hold_hold_shape_step2_atom_square_2",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/shared-event-candidates.json",
+          "source_item_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step0_atom_blue_1__event_ctx_prep0_branch_hold_hold_shape_step2_atom_square_2",
+          "source_kind": "derived_shared_event_match"
+        },
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/raw-run.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    },
+    {
+      "ancestor_proposal_id": null,
+      "notes": [],
+      "origin_kind": "derived_proposal",
+      "proposal_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step0_atom_green_2__event_ctx_prep0_branch_hold_hold_shape_step2_atom_triangle_3",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/shared-event-candidates.json",
+          "source_item_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step0_atom_green_2__event_ctx_prep0_branch_hold_hold_shape_step2_atom_triangle_3",
+          "source_kind": "derived_shared_event_match"
+        },
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/raw-run.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    },
+    {
+      "ancestor_proposal_id": null,
+      "notes": [],
+      "origin_kind": "derived_proposal",
+      "proposal_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step0_atom_red_3__event_ctx_prep0_branch_hold_hold_shape_step2_atom_circle_1",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/shared-event-candidates.json",
+          "source_item_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step0_atom_red_3__event_ctx_prep0_branch_hold_hold_shape_step2_atom_circle_1",
+          "source_kind": "derived_shared_event_match"
+        },
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/raw-run.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    },
+    {
+      "ancestor_proposal_id": null,
+      "notes": [],
+      "origin_kind": "derived_proposal",
+      "proposal_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step0__union__atom_blue_1__atom_green_2__event_ctx_prep0_branch_hold_hold_shape_step2__union__atom_square_2__atom_triangle_3",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/shared-event-candidates.json",
+          "source_item_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step0__union__atom_blue_1__atom_green_2__event_ctx_prep0_branch_hold_hold_shape_step2__union__atom_square_2__atom_triangle_3",
+          "source_kind": "derived_shared_event_match"
+        },
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/raw-run.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    },
+    {
+      "ancestor_proposal_id": null,
+      "notes": [],
+      "origin_kind": "derived_proposal",
+      "proposal_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step0__union__atom_blue_1__atom_red_3__event_ctx_prep0_branch_hold_hold_shape_step2__union__atom_circle_1__atom_square_2",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/shared-event-candidates.json",
+          "source_item_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step0__union__atom_blue_1__atom_red_3__event_ctx_prep0_branch_hold_hold_shape_step2__union__atom_circle_1__atom_square_2",
+          "source_kind": "derived_shared_event_match"
+        },
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/raw-run.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    },
+    {
+      "ancestor_proposal_id": null,
+      "notes": [],
+      "origin_kind": "derived_proposal",
+      "proposal_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step0__union__atom_green_2__atom_red_3__event_ctx_prep0_branch_hold_hold_shape_step2__union__atom_circle_1__atom_triangle_3",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/shared-event-candidates.json",
+          "source_item_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step0__union__atom_green_2__atom_red_3__event_ctx_prep0_branch_hold_hold_shape_step2__union__atom_circle_1__atom_triangle_3",
+          "source_kind": "derived_shared_event_match"
+        },
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/raw-run.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    },
+    {
+      "ancestor_proposal_id": null,
+      "notes": [],
+      "origin_kind": "derived_proposal",
+      "proposal_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step1_atom_blue_1__event_ctx_prep0_branch_hold_hold_color_step2_atom_blue_1",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/shared-event-candidates.json",
+          "source_item_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step1_atom_blue_1__event_ctx_prep0_branch_hold_hold_color_step2_atom_blue_1",
+          "source_kind": "derived_shared_event_match"
+        },
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/raw-run.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    },
+    {
+      "ancestor_proposal_id": null,
+      "notes": [],
+      "origin_kind": "derived_proposal",
+      "proposal_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step1_atom_green_2__event_ctx_prep0_branch_hold_hold_color_step2_atom_green_2",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/shared-event-candidates.json",
+          "source_item_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step1_atom_green_2__event_ctx_prep0_branch_hold_hold_color_step2_atom_green_2",
+          "source_kind": "derived_shared_event_match"
+        },
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/raw-run.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    },
+    {
+      "ancestor_proposal_id": null,
+      "notes": [],
+      "origin_kind": "derived_proposal",
+      "proposal_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step1_atom_red_3__event_ctx_prep0_branch_hold_hold_color_step2_atom_red_3",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/shared-event-candidates.json",
+          "source_item_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step1_atom_red_3__event_ctx_prep0_branch_hold_hold_color_step2_atom_red_3",
+          "source_kind": "derived_shared_event_match"
+        },
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/raw-run.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    },
+    {
+      "ancestor_proposal_id": null,
+      "notes": [],
+      "origin_kind": "derived_proposal",
+      "proposal_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step1__union__atom_blue_1__atom_green_2__event_ctx_prep0_branch_hold_hold_color_step2__union__atom_blue_1__atom_green_2",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/shared-event-candidates.json",
+          "source_item_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step1__union__atom_blue_1__atom_green_2__event_ctx_prep0_branch_hold_hold_color_step2__union__atom_blue_1__atom_green_2",
+          "source_kind": "derived_shared_event_match"
+        },
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/raw-run.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    },
+    {
+      "ancestor_proposal_id": null,
+      "notes": [],
+      "origin_kind": "derived_proposal",
+      "proposal_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step1__union__atom_blue_1__atom_red_3__event_ctx_prep0_branch_hold_hold_color_step2__union__atom_blue_1__atom_red_3",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/shared-event-candidates.json",
+          "source_item_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step1__union__atom_blue_1__atom_red_3__event_ctx_prep0_branch_hold_hold_color_step2__union__atom_blue_1__atom_red_3",
+          "source_kind": "derived_shared_event_match"
+        },
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/raw-run.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    },
+    {
+      "ancestor_proposal_id": null,
+      "notes": [],
+      "origin_kind": "derived_proposal",
+      "proposal_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step1__union__atom_green_2__atom_red_3__event_ctx_prep0_branch_hold_hold_color_step2__union__atom_green_2__atom_red_3",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/shared-event-candidates.json",
+          "source_item_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step1__union__atom_green_2__atom_red_3__event_ctx_prep0_branch_hold_hold_color_step2__union__atom_green_2__atom_red_3",
+          "source_kind": "derived_shared_event_match"
+        },
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/raw-run.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    },
+    {
+      "ancestor_proposal_id": null,
+      "notes": [],
+      "origin_kind": "derived_proposal",
+      "proposal_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step1_atom_blue_1__event_ctx_prep0_branch_hold_hold_shape_step0_atom_square_2",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/shared-event-candidates.json",
+          "source_item_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step1_atom_blue_1__event_ctx_prep0_branch_hold_hold_shape_step0_atom_square_2",
+          "source_kind": "derived_shared_event_match"
+        },
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/raw-run.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    },
+    {
+      "ancestor_proposal_id": null,
+      "notes": [],
+      "origin_kind": "derived_proposal",
+      "proposal_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step1_atom_green_2__event_ctx_prep0_branch_hold_hold_shape_step0_atom_triangle_3",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/shared-event-candidates.json",
+          "source_item_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step1_atom_green_2__event_ctx_prep0_branch_hold_hold_shape_step0_atom_triangle_3",
+          "source_kind": "derived_shared_event_match"
+        },
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/raw-run.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    },
+    {
+      "ancestor_proposal_id": null,
+      "notes": [],
+      "origin_kind": "derived_proposal",
+      "proposal_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step1_atom_red_3__event_ctx_prep0_branch_hold_hold_shape_step0_atom_circle_1",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/shared-event-candidates.json",
+          "source_item_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step1_atom_red_3__event_ctx_prep0_branch_hold_hold_shape_step0_atom_circle_1",
+          "source_kind": "derived_shared_event_match"
+        },
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/raw-run.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    },
+    {
+      "ancestor_proposal_id": null,
+      "notes": [],
+      "origin_kind": "derived_proposal",
+      "proposal_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step1__union__atom_blue_1__atom_green_2__event_ctx_prep0_branch_hold_hold_shape_step0__union__atom_square_2__atom_triangle_3",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/shared-event-candidates.json",
+          "source_item_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step1__union__atom_blue_1__atom_green_2__event_ctx_prep0_branch_hold_hold_shape_step0__union__atom_square_2__atom_triangle_3",
+          "source_kind": "derived_shared_event_match"
+        },
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/raw-run.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    },
+    {
+      "ancestor_proposal_id": null,
+      "notes": [],
+      "origin_kind": "derived_proposal",
+      "proposal_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step1__union__atom_blue_1__atom_red_3__event_ctx_prep0_branch_hold_hold_shape_step0__union__atom_circle_1__atom_square_2",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/shared-event-candidates.json",
+          "source_item_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step1__union__atom_blue_1__atom_red_3__event_ctx_prep0_branch_hold_hold_shape_step0__union__atom_circle_1__atom_square_2",
+          "source_kind": "derived_shared_event_match"
+        },
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/raw-run.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    },
+    {
+      "ancestor_proposal_id": null,
+      "notes": [],
+      "origin_kind": "derived_proposal",
+      "proposal_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step1__union__atom_green_2__atom_red_3__event_ctx_prep0_branch_hold_hold_shape_step0__union__atom_circle_1__atom_triangle_3",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/shared-event-candidates.json",
+          "source_item_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step1__union__atom_green_2__atom_red_3__event_ctx_prep0_branch_hold_hold_shape_step0__union__atom_circle_1__atom_triangle_3",
+          "source_kind": "derived_shared_event_match"
+        },
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/raw-run.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    },
+    {
+      "ancestor_proposal_id": null,
+      "notes": [],
+      "origin_kind": "derived_proposal",
+      "proposal_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step1_atom_blue_1__event_ctx_prep0_branch_hold_hold_shape_step1_atom_square_2",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/shared-event-candidates.json",
+          "source_item_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step1_atom_blue_1__event_ctx_prep0_branch_hold_hold_shape_step1_atom_square_2",
+          "source_kind": "derived_shared_event_match"
+        },
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/raw-run.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    },
+    {
+      "ancestor_proposal_id": null,
+      "notes": [],
+      "origin_kind": "derived_proposal",
+      "proposal_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step1_atom_green_2__event_ctx_prep0_branch_hold_hold_shape_step1_atom_triangle_3",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/shared-event-candidates.json",
+          "source_item_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step1_atom_green_2__event_ctx_prep0_branch_hold_hold_shape_step1_atom_triangle_3",
+          "source_kind": "derived_shared_event_match"
+        },
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/raw-run.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    },
+    {
+      "ancestor_proposal_id": null,
+      "notes": [],
+      "origin_kind": "derived_proposal",
+      "proposal_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step1_atom_red_3__event_ctx_prep0_branch_hold_hold_shape_step1_atom_circle_1",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/shared-event-candidates.json",
+          "source_item_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step1_atom_red_3__event_ctx_prep0_branch_hold_hold_shape_step1_atom_circle_1",
+          "source_kind": "derived_shared_event_match"
+        },
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/raw-run.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    },
+    {
+      "ancestor_proposal_id": null,
+      "notes": [],
+      "origin_kind": "derived_proposal",
+      "proposal_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step1__union__atom_blue_1__atom_green_2__event_ctx_prep0_branch_hold_hold_shape_step1__union__atom_square_2__atom_triangle_3",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/shared-event-candidates.json",
+          "source_item_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step1__union__atom_blue_1__atom_green_2__event_ctx_prep0_branch_hold_hold_shape_step1__union__atom_square_2__atom_triangle_3",
+          "source_kind": "derived_shared_event_match"
+        },
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/raw-run.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    },
+    {
+      "ancestor_proposal_id": null,
+      "notes": [],
+      "origin_kind": "derived_proposal",
+      "proposal_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step1__union__atom_blue_1__atom_red_3__event_ctx_prep0_branch_hold_hold_shape_step1__union__atom_circle_1__atom_square_2",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/shared-event-candidates.json",
+          "source_item_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step1__union__atom_blue_1__atom_red_3__event_ctx_prep0_branch_hold_hold_shape_step1__union__atom_circle_1__atom_square_2",
+          "source_kind": "derived_shared_event_match"
+        },
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/raw-run.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    },
+    {
+      "ancestor_proposal_id": null,
+      "notes": [],
+      "origin_kind": "derived_proposal",
+      "proposal_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step1__union__atom_green_2__atom_red_3__event_ctx_prep0_branch_hold_hold_shape_step1__union__atom_circle_1__atom_triangle_3",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/shared-event-candidates.json",
+          "source_item_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step1__union__atom_green_2__atom_red_3__event_ctx_prep0_branch_hold_hold_shape_step1__union__atom_circle_1__atom_triangle_3",
+          "source_kind": "derived_shared_event_match"
+        },
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/raw-run.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    },
+    {
+      "ancestor_proposal_id": null,
+      "notes": [],
+      "origin_kind": "derived_proposal",
+      "proposal_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step1_atom_blue_1__event_ctx_prep0_branch_hold_hold_shape_step2_atom_square_2",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/shared-event-candidates.json",
+          "source_item_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step1_atom_blue_1__event_ctx_prep0_branch_hold_hold_shape_step2_atom_square_2",
+          "source_kind": "derived_shared_event_match"
+        },
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/raw-run.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    },
+    {
+      "ancestor_proposal_id": null,
+      "notes": [],
+      "origin_kind": "derived_proposal",
+      "proposal_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step1_atom_green_2__event_ctx_prep0_branch_hold_hold_shape_step2_atom_triangle_3",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/shared-event-candidates.json",
+          "source_item_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step1_atom_green_2__event_ctx_prep0_branch_hold_hold_shape_step2_atom_triangle_3",
+          "source_kind": "derived_shared_event_match"
+        },
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/raw-run.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    },
+    {
+      "ancestor_proposal_id": null,
+      "notes": [],
+      "origin_kind": "derived_proposal",
+      "proposal_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step1_atom_red_3__event_ctx_prep0_branch_hold_hold_shape_step2_atom_circle_1",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/shared-event-candidates.json",
+          "source_item_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step1_atom_red_3__event_ctx_prep0_branch_hold_hold_shape_step2_atom_circle_1",
+          "source_kind": "derived_shared_event_match"
+        },
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/raw-run.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    },
+    {
+      "ancestor_proposal_id": null,
+      "notes": [],
+      "origin_kind": "derived_proposal",
+      "proposal_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step1__union__atom_blue_1__atom_green_2__event_ctx_prep0_branch_hold_hold_shape_step2__union__atom_square_2__atom_triangle_3",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/shared-event-candidates.json",
+          "source_item_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step1__union__atom_blue_1__atom_green_2__event_ctx_prep0_branch_hold_hold_shape_step2__union__atom_square_2__atom_triangle_3",
+          "source_kind": "derived_shared_event_match"
+        },
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/raw-run.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    },
+    {
+      "ancestor_proposal_id": null,
+      "notes": [],
+      "origin_kind": "derived_proposal",
+      "proposal_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step1__union__atom_blue_1__atom_red_3__event_ctx_prep0_branch_hold_hold_shape_step2__union__atom_circle_1__atom_square_2",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/shared-event-candidates.json",
+          "source_item_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step1__union__atom_blue_1__atom_red_3__event_ctx_prep0_branch_hold_hold_shape_step2__union__atom_circle_1__atom_square_2",
+          "source_kind": "derived_shared_event_match"
+        },
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/raw-run.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    },
+    {
+      "ancestor_proposal_id": null,
+      "notes": [],
+      "origin_kind": "derived_proposal",
+      "proposal_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step1__union__atom_green_2__atom_red_3__event_ctx_prep0_branch_hold_hold_shape_step2__union__atom_circle_1__atom_triangle_3",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/shared-event-candidates.json",
+          "source_item_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step1__union__atom_green_2__atom_red_3__event_ctx_prep0_branch_hold_hold_shape_step2__union__atom_circle_1__atom_triangle_3",
+          "source_kind": "derived_shared_event_match"
+        },
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/raw-run.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    },
+    {
+      "ancestor_proposal_id": null,
+      "notes": [],
+      "origin_kind": "derived_proposal",
+      "proposal_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step2_atom_blue_1__event_ctx_prep0_branch_hold_hold_shape_step0_atom_square_2",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/shared-event-candidates.json",
+          "source_item_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step2_atom_blue_1__event_ctx_prep0_branch_hold_hold_shape_step0_atom_square_2",
+          "source_kind": "derived_shared_event_match"
+        },
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/raw-run.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    },
+    {
+      "ancestor_proposal_id": null,
+      "notes": [],
+      "origin_kind": "derived_proposal",
+      "proposal_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step2_atom_green_2__event_ctx_prep0_branch_hold_hold_shape_step0_atom_triangle_3",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/shared-event-candidates.json",
+          "source_item_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step2_atom_green_2__event_ctx_prep0_branch_hold_hold_shape_step0_atom_triangle_3",
+          "source_kind": "derived_shared_event_match"
+        },
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/raw-run.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    },
+    {
+      "ancestor_proposal_id": null,
+      "notes": [],
+      "origin_kind": "derived_proposal",
+      "proposal_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step2_atom_red_3__event_ctx_prep0_branch_hold_hold_shape_step0_atom_circle_1",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/shared-event-candidates.json",
+          "source_item_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step2_atom_red_3__event_ctx_prep0_branch_hold_hold_shape_step0_atom_circle_1",
+          "source_kind": "derived_shared_event_match"
+        },
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/raw-run.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    },
+    {
+      "ancestor_proposal_id": null,
+      "notes": [],
+      "origin_kind": "derived_proposal",
+      "proposal_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step2__union__atom_blue_1__atom_green_2__event_ctx_prep0_branch_hold_hold_shape_step0__union__atom_square_2__atom_triangle_3",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/shared-event-candidates.json",
+          "source_item_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step2__union__atom_blue_1__atom_green_2__event_ctx_prep0_branch_hold_hold_shape_step0__union__atom_square_2__atom_triangle_3",
+          "source_kind": "derived_shared_event_match"
+        },
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/raw-run.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    },
+    {
+      "ancestor_proposal_id": null,
+      "notes": [],
+      "origin_kind": "derived_proposal",
+      "proposal_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step2__union__atom_blue_1__atom_red_3__event_ctx_prep0_branch_hold_hold_shape_step0__union__atom_circle_1__atom_square_2",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/shared-event-candidates.json",
+          "source_item_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step2__union__atom_blue_1__atom_red_3__event_ctx_prep0_branch_hold_hold_shape_step0__union__atom_circle_1__atom_square_2",
+          "source_kind": "derived_shared_event_match"
+        },
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/raw-run.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    },
+    {
+      "ancestor_proposal_id": null,
+      "notes": [],
+      "origin_kind": "derived_proposal",
+      "proposal_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step2__union__atom_green_2__atom_red_3__event_ctx_prep0_branch_hold_hold_shape_step0__union__atom_circle_1__atom_triangle_3",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/shared-event-candidates.json",
+          "source_item_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step2__union__atom_green_2__atom_red_3__event_ctx_prep0_branch_hold_hold_shape_step0__union__atom_circle_1__atom_triangle_3",
+          "source_kind": "derived_shared_event_match"
+        },
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/raw-run.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    },
+    {
+      "ancestor_proposal_id": null,
+      "notes": [],
+      "origin_kind": "derived_proposal",
+      "proposal_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step2_atom_blue_1__event_ctx_prep0_branch_hold_hold_shape_step1_atom_square_2",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/shared-event-candidates.json",
+          "source_item_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step2_atom_blue_1__event_ctx_prep0_branch_hold_hold_shape_step1_atom_square_2",
+          "source_kind": "derived_shared_event_match"
+        },
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/raw-run.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    },
+    {
+      "ancestor_proposal_id": null,
+      "notes": [],
+      "origin_kind": "derived_proposal",
+      "proposal_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step2_atom_green_2__event_ctx_prep0_branch_hold_hold_shape_step1_atom_triangle_3",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/shared-event-candidates.json",
+          "source_item_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step2_atom_green_2__event_ctx_prep0_branch_hold_hold_shape_step1_atom_triangle_3",
+          "source_kind": "derived_shared_event_match"
+        },
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/raw-run.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    },
+    {
+      "ancestor_proposal_id": null,
+      "notes": [],
+      "origin_kind": "derived_proposal",
+      "proposal_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step2_atom_red_3__event_ctx_prep0_branch_hold_hold_shape_step1_atom_circle_1",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/shared-event-candidates.json",
+          "source_item_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step2_atom_red_3__event_ctx_prep0_branch_hold_hold_shape_step1_atom_circle_1",
+          "source_kind": "derived_shared_event_match"
+        },
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/raw-run.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    },
+    {
+      "ancestor_proposal_id": null,
+      "notes": [],
+      "origin_kind": "derived_proposal",
+      "proposal_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step2__union__atom_blue_1__atom_green_2__event_ctx_prep0_branch_hold_hold_shape_step1__union__atom_square_2__atom_triangle_3",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/shared-event-candidates.json",
+          "source_item_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step2__union__atom_blue_1__atom_green_2__event_ctx_prep0_branch_hold_hold_shape_step1__union__atom_square_2__atom_triangle_3",
+          "source_kind": "derived_shared_event_match"
+        },
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/raw-run.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    },
+    {
+      "ancestor_proposal_id": null,
+      "notes": [],
+      "origin_kind": "derived_proposal",
+      "proposal_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step2__union__atom_blue_1__atom_red_3__event_ctx_prep0_branch_hold_hold_shape_step1__union__atom_circle_1__atom_square_2",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/shared-event-candidates.json",
+          "source_item_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step2__union__atom_blue_1__atom_red_3__event_ctx_prep0_branch_hold_hold_shape_step1__union__atom_circle_1__atom_square_2",
+          "source_kind": "derived_shared_event_match"
+        },
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/raw-run.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    },
+    {
+      "ancestor_proposal_id": null,
+      "notes": [],
+      "origin_kind": "derived_proposal",
+      "proposal_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step2__union__atom_green_2__atom_red_3__event_ctx_prep0_branch_hold_hold_shape_step1__union__atom_circle_1__atom_triangle_3",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/shared-event-candidates.json",
+          "source_item_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step2__union__atom_green_2__atom_red_3__event_ctx_prep0_branch_hold_hold_shape_step1__union__atom_circle_1__atom_triangle_3",
+          "source_kind": "derived_shared_event_match"
+        },
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/raw-run.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    },
+    {
+      "ancestor_proposal_id": null,
+      "notes": [],
+      "origin_kind": "derived_proposal",
+      "proposal_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step2_atom_blue_1__event_ctx_prep0_branch_hold_hold_shape_step2_atom_square_2",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/shared-event-candidates.json",
+          "source_item_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step2_atom_blue_1__event_ctx_prep0_branch_hold_hold_shape_step2_atom_square_2",
+          "source_kind": "derived_shared_event_match"
+        },
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/raw-run.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    },
+    {
+      "ancestor_proposal_id": null,
+      "notes": [],
+      "origin_kind": "derived_proposal",
+      "proposal_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step2_atom_green_2__event_ctx_prep0_branch_hold_hold_shape_step2_atom_triangle_3",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/shared-event-candidates.json",
+          "source_item_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step2_atom_green_2__event_ctx_prep0_branch_hold_hold_shape_step2_atom_triangle_3",
+          "source_kind": "derived_shared_event_match"
+        },
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/raw-run.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    },
+    {
+      "ancestor_proposal_id": null,
+      "notes": [],
+      "origin_kind": "derived_proposal",
+      "proposal_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step2_atom_red_3__event_ctx_prep0_branch_hold_hold_shape_step2_atom_circle_1",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/shared-event-candidates.json",
+          "source_item_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step2_atom_red_3__event_ctx_prep0_branch_hold_hold_shape_step2_atom_circle_1",
+          "source_kind": "derived_shared_event_match"
+        },
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/raw-run.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    },
+    {
+      "ancestor_proposal_id": null,
+      "notes": [],
+      "origin_kind": "derived_proposal",
+      "proposal_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step2__union__atom_blue_1__atom_green_2__event_ctx_prep0_branch_hold_hold_shape_step2__union__atom_square_2__atom_triangle_3",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/shared-event-candidates.json",
+          "source_item_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step2__union__atom_blue_1__atom_green_2__event_ctx_prep0_branch_hold_hold_shape_step2__union__atom_square_2__atom_triangle_3",
+          "source_kind": "derived_shared_event_match"
+        },
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/raw-run.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    },
+    {
+      "ancestor_proposal_id": null,
+      "notes": [],
+      "origin_kind": "derived_proposal",
+      "proposal_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step2__union__atom_blue_1__atom_red_3__event_ctx_prep0_branch_hold_hold_shape_step2__union__atom_circle_1__atom_square_2",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/shared-event-candidates.json",
+          "source_item_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step2__union__atom_blue_1__atom_red_3__event_ctx_prep0_branch_hold_hold_shape_step2__union__atom_circle_1__atom_square_2",
+          "source_kind": "derived_shared_event_match"
+        },
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/raw-run.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    },
+    {
+      "ancestor_proposal_id": null,
+      "notes": [],
+      "origin_kind": "derived_proposal",
+      "proposal_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step2__union__atom_green_2__atom_red_3__event_ctx_prep0_branch_hold_hold_shape_step2__union__atom_circle_1__atom_triangle_3",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/shared-event-candidates.json",
+          "source_item_id": "proposal_event_ctx_prep0_branch_hold_hold_color_step2__union__atom_green_2__atom_red_3__event_ctx_prep0_branch_hold_hold_shape_step2__union__atom_circle_1__atom_triangle_3",
+          "source_kind": "derived_shared_event_match"
+        },
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/raw-run.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    },
+    {
+      "ancestor_proposal_id": null,
+      "notes": [],
+      "origin_kind": "derived_proposal",
+      "proposal_id": "proposal_event_ctx_prep0_branch_hold_hold_shape_step0_atom_circle_1__event_ctx_prep0_branch_hold_hold_shape_step1_atom_circle_1",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/shared-event-candidates.json",
+          "source_item_id": "proposal_event_ctx_prep0_branch_hold_hold_shape_step0_atom_circle_1__event_ctx_prep0_branch_hold_hold_shape_step1_atom_circle_1",
+          "source_kind": "derived_shared_event_match"
+        },
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/raw-run.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    },
+    {
+      "ancestor_proposal_id": null,
+      "notes": [],
+      "origin_kind": "derived_proposal",
+      "proposal_id": "proposal_event_ctx_prep0_branch_hold_hold_shape_step0_atom_square_2__event_ctx_prep0_branch_hold_hold_shape_step1_atom_square_2",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/shared-event-candidates.json",
+          "source_item_id": "proposal_event_ctx_prep0_branch_hold_hold_shape_step0_atom_square_2__event_ctx_prep0_branch_hold_hold_shape_step1_atom_square_2",
+          "source_kind": "derived_shared_event_match"
+        },
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/raw-run.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    },
+    {
+      "ancestor_proposal_id": null,
+      "notes": [],
+      "origin_kind": "derived_proposal",
+      "proposal_id": "proposal_event_ctx_prep0_branch_hold_hold_shape_step0_atom_triangle_3__event_ctx_prep0_branch_hold_hold_shape_step1_atom_triangle_3",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/shared-event-candidates.json",
+          "source_item_id": "proposal_event_ctx_prep0_branch_hold_hold_shape_step0_atom_triangle_3__event_ctx_prep0_branch_hold_hold_shape_step1_atom_triangle_3",
+          "source_kind": "derived_shared_event_match"
+        },
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/raw-run.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    },
+    {
+      "ancestor_proposal_id": null,
+      "notes": [],
+      "origin_kind": "derived_proposal",
+      "proposal_id": "proposal_event_ctx_prep0_branch_hold_hold_shape_step0__union__atom_circle_1__atom_square_2__event_ctx_prep0_branch_hold_hold_shape_step1__union__atom_circle_1__atom_square_2",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/shared-event-candidates.json",
+          "source_item_id": "proposal_event_ctx_prep0_branch_hold_hold_shape_step0__union__atom_circle_1__atom_square_2__event_ctx_prep0_branch_hold_hold_shape_step1__union__atom_circle_1__atom_square_2",
+          "source_kind": "derived_shared_event_match"
+        },
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/raw-run.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    },
+    {
+      "ancestor_proposal_id": null,
+      "notes": [],
+      "origin_kind": "derived_proposal",
+      "proposal_id": "proposal_event_ctx_prep0_branch_hold_hold_shape_step0__union__atom_circle_1__atom_triangle_3__event_ctx_prep0_branch_hold_hold_shape_step1__union__atom_circle_1__atom_triangle_3",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/shared-event-candidates.json",
+          "source_item_id": "proposal_event_ctx_prep0_branch_hold_hold_shape_step0__union__atom_circle_1__atom_triangle_3__event_ctx_prep0_branch_hold_hold_shape_step1__union__atom_circle_1__atom_triangle_3",
+          "source_kind": "derived_shared_event_match"
+        },
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/raw-run.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    },
+    {
+      "ancestor_proposal_id": null,
+      "notes": [],
+      "origin_kind": "derived_proposal",
+      "proposal_id": "proposal_event_ctx_prep0_branch_hold_hold_shape_step0__union__atom_square_2__atom_triangle_3__event_ctx_prep0_branch_hold_hold_shape_step1__union__atom_square_2__atom_triangle_3",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/shared-event-candidates.json",
+          "source_item_id": "proposal_event_ctx_prep0_branch_hold_hold_shape_step0__union__atom_square_2__atom_triangle_3__event_ctx_prep0_branch_hold_hold_shape_step1__union__atom_square_2__atom_triangle_3",
+          "source_kind": "derived_shared_event_match"
+        },
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/raw-run.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    },
+    {
+      "ancestor_proposal_id": null,
+      "notes": [],
+      "origin_kind": "derived_proposal",
+      "proposal_id": "proposal_event_ctx_prep0_branch_hold_hold_shape_step0_atom_circle_1__event_ctx_prep0_branch_hold_hold_shape_step2_atom_circle_1",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/shared-event-candidates.json",
+          "source_item_id": "proposal_event_ctx_prep0_branch_hold_hold_shape_step0_atom_circle_1__event_ctx_prep0_branch_hold_hold_shape_step2_atom_circle_1",
+          "source_kind": "derived_shared_event_match"
+        },
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/raw-run.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    },
+    {
+      "ancestor_proposal_id": null,
+      "notes": [],
+      "origin_kind": "derived_proposal",
+      "proposal_id": "proposal_event_ctx_prep0_branch_hold_hold_shape_step0_atom_square_2__event_ctx_prep0_branch_hold_hold_shape_step2_atom_square_2",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/shared-event-candidates.json",
+          "source_item_id": "proposal_event_ctx_prep0_branch_hold_hold_shape_step0_atom_square_2__event_ctx_prep0_branch_hold_hold_shape_step2_atom_square_2",
+          "source_kind": "derived_shared_event_match"
+        },
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/raw-run.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    },
+    {
+      "ancestor_proposal_id": null,
+      "notes": [],
+      "origin_kind": "derived_proposal",
+      "proposal_id": "proposal_event_ctx_prep0_branch_hold_hold_shape_step0_atom_triangle_3__event_ctx_prep0_branch_hold_hold_shape_step2_atom_triangle_3",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/shared-event-candidates.json",
+          "source_item_id": "proposal_event_ctx_prep0_branch_hold_hold_shape_step0_atom_triangle_3__event_ctx_prep0_branch_hold_hold_shape_step2_atom_triangle_3",
+          "source_kind": "derived_shared_event_match"
+        },
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/raw-run.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    },
+    {
+      "ancestor_proposal_id": null,
+      "notes": [],
+      "origin_kind": "derived_proposal",
+      "proposal_id": "proposal_event_ctx_prep0_branch_hold_hold_shape_step0__union__atom_circle_1__atom_square_2__event_ctx_prep0_branch_hold_hold_shape_step2__union__atom_circle_1__atom_square_2",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/shared-event-candidates.json",
+          "source_item_id": "proposal_event_ctx_prep0_branch_hold_hold_shape_step0__union__atom_circle_1__atom_square_2__event_ctx_prep0_branch_hold_hold_shape_step2__union__atom_circle_1__atom_square_2",
+          "source_kind": "derived_shared_event_match"
+        },
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/raw-run.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    },
+    {
+      "ancestor_proposal_id": null,
+      "notes": [],
+      "origin_kind": "derived_proposal",
+      "proposal_id": "proposal_event_ctx_prep0_branch_hold_hold_shape_step0__union__atom_circle_1__atom_triangle_3__event_ctx_prep0_branch_hold_hold_shape_step2__union__atom_circle_1__atom_triangle_3",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/shared-event-candidates.json",
+          "source_item_id": "proposal_event_ctx_prep0_branch_hold_hold_shape_step0__union__atom_circle_1__atom_triangle_3__event_ctx_prep0_branch_hold_hold_shape_step2__union__atom_circle_1__atom_triangle_3",
+          "source_kind": "derived_shared_event_match"
+        },
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/raw-run.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    },
+    {
+      "ancestor_proposal_id": null,
+      "notes": [],
+      "origin_kind": "derived_proposal",
+      "proposal_id": "proposal_event_ctx_prep0_branch_hold_hold_shape_step0__union__atom_square_2__atom_triangle_3__event_ctx_prep0_branch_hold_hold_shape_step2__union__atom_square_2__atom_triangle_3",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/shared-event-candidates.json",
+          "source_item_id": "proposal_event_ctx_prep0_branch_hold_hold_shape_step0__union__atom_square_2__atom_triangle_3__event_ctx_prep0_branch_hold_hold_shape_step2__union__atom_square_2__atom_triangle_3",
+          "source_kind": "derived_shared_event_match"
+        },
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/raw-run.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    },
+    {
+      "ancestor_proposal_id": null,
+      "notes": [],
+      "origin_kind": "derived_proposal",
+      "proposal_id": "proposal_event_ctx_prep0_branch_hold_hold_shape_step1_atom_circle_1__event_ctx_prep0_branch_hold_hold_shape_step2_atom_circle_1",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/shared-event-candidates.json",
+          "source_item_id": "proposal_event_ctx_prep0_branch_hold_hold_shape_step1_atom_circle_1__event_ctx_prep0_branch_hold_hold_shape_step2_atom_circle_1",
+          "source_kind": "derived_shared_event_match"
+        },
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/raw-run.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    },
+    {
+      "ancestor_proposal_id": null,
+      "notes": [],
+      "origin_kind": "derived_proposal",
+      "proposal_id": "proposal_event_ctx_prep0_branch_hold_hold_shape_step1_atom_square_2__event_ctx_prep0_branch_hold_hold_shape_step2_atom_square_2",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/shared-event-candidates.json",
+          "source_item_id": "proposal_event_ctx_prep0_branch_hold_hold_shape_step1_atom_square_2__event_ctx_prep0_branch_hold_hold_shape_step2_atom_square_2",
+          "source_kind": "derived_shared_event_match"
+        },
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/raw-run.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    },
+    {
+      "ancestor_proposal_id": null,
+      "notes": [],
+      "origin_kind": "derived_proposal",
+      "proposal_id": "proposal_event_ctx_prep0_branch_hold_hold_shape_step1_atom_triangle_3__event_ctx_prep0_branch_hold_hold_shape_step2_atom_triangle_3",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/shared-event-candidates.json",
+          "source_item_id": "proposal_event_ctx_prep0_branch_hold_hold_shape_step1_atom_triangle_3__event_ctx_prep0_branch_hold_hold_shape_step2_atom_triangle_3",
+          "source_kind": "derived_shared_event_match"
+        },
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/raw-run.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    },
+    {
+      "ancestor_proposal_id": null,
+      "notes": [],
+      "origin_kind": "derived_proposal",
+      "proposal_id": "proposal_event_ctx_prep0_branch_hold_hold_shape_step1__union__atom_circle_1__atom_square_2__event_ctx_prep0_branch_hold_hold_shape_step2__union__atom_circle_1__atom_square_2",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/shared-event-candidates.json",
+          "source_item_id": "proposal_event_ctx_prep0_branch_hold_hold_shape_step1__union__atom_circle_1__atom_square_2__event_ctx_prep0_branch_hold_hold_shape_step2__union__atom_circle_1__atom_square_2",
+          "source_kind": "derived_shared_event_match"
+        },
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/raw-run.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    },
+    {
+      "ancestor_proposal_id": null,
+      "notes": [],
+      "origin_kind": "derived_proposal",
+      "proposal_id": "proposal_event_ctx_prep0_branch_hold_hold_shape_step1__union__atom_circle_1__atom_triangle_3__event_ctx_prep0_branch_hold_hold_shape_step2__union__atom_circle_1__atom_triangle_3",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/shared-event-candidates.json",
+          "source_item_id": "proposal_event_ctx_prep0_branch_hold_hold_shape_step1__union__atom_circle_1__atom_triangle_3__event_ctx_prep0_branch_hold_hold_shape_step2__union__atom_circle_1__atom_triangle_3",
+          "source_kind": "derived_shared_event_match"
+        },
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/raw-run.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    },
+    {
+      "ancestor_proposal_id": null,
+      "notes": [],
+      "origin_kind": "derived_proposal",
+      "proposal_id": "proposal_event_ctx_prep0_branch_hold_hold_shape_step1__union__atom_square_2__atom_triangle_3__event_ctx_prep0_branch_hold_hold_shape_step2__union__atom_square_2__atom_triangle_3",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/shared-event-candidates.json",
+          "source_item_id": "proposal_event_ctx_prep0_branch_hold_hold_shape_step1__union__atom_square_2__atom_triangle_3__event_ctx_prep0_branch_hold_hold_shape_step2__union__atom_square_2__atom_triangle_3",
+          "source_kind": "derived_shared_event_match"
+        },
+        {
+          "artifact": "experiments/instances/discovered/triadic-branch-flagship/raw-run.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    }
+  ],
+  "provenance_format_version": "package-provenance.v1",
+  "provenance_mode": "derived",
+  "source_artifacts": {
+    "discovered_context_family": "experiments/instances/discovered/triadic-branch-flagship/discovered-context-family.json",
+    "raw_run_0": "experiments/instances/discovered/triadic-branch-flagship/raw-run.json",
+    "shared_event_candidates": "experiments/instances/discovered/triadic-branch-flagship/shared-event-candidates.json"
+  }
+}

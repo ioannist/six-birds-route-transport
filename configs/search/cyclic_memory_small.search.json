@@ -1,0 +1,21 @@
+{
+  "schema_version": "search-space.v1",
+  "search_id": "cyclic_memory_small",
+  "seed": 0,
+  "support_size_candidates": [2, 3],
+  "hidden_state_size_candidates": [4, 6],
+  "interface_count_candidates": [2, 3],
+  "event_count_candidates": [2],
+  "history_count_candidates": [2],
+  "continuation_count_candidates": [2],
+  "loop_count_candidates": [1, 2],
+  "carrier_family_candidates": ["cyclic_z2", "cyclic_z3"],
+  "route_update_family_candidates": ["binary_swap", "cyclic_shift"],
+  "observable_family_candidates": ["support_indicator_basis", "coarse_plus_indicator"],
+  "continuation_catalog_family_candidates": ["forward_plus_loop", "two_step_with_loop"],
+  "max_candidates": 128,
+  "same_support_required": true,
+  "allow_loops": true,
+  "require_closed_loops": true,
+  "tags": ["fixed_support", "cyclic_memory", "loop_focused"]
+}

@@ -1,0 +1,96 @@
+{
+  "point_format_version": "pica-closure-diverse-search-point.v1",
+  "point_id": "richest_bounded_candidate",
+  "pilot_config_artifact": "experiments/configs/pica/pilot-exp112-full-all.json",
+  "preparation_id": "prep_pica_default",
+  "protocol_id": "protocol_pica_multiscale_scan",
+  "trajectories": 32,
+  "seed_list": [
+    0,
+    1,
+    2
+  ],
+  "discovery_thresholds": {
+    "min_row_count": 2,
+    "min_atom_count": 2,
+    "min_atom_support_count": 1,
+    "min_atom_support_fraction": 0.0,
+    "min_coverage": 1.0,
+    "max_batch_tv": 1.0,
+    "batch_count": 2
+  },
+  "projection_families": [
+    {
+      "projection_id": "macro_gap_full",
+      "projection": {
+        "projection_mode": "payload_numeric_bins",
+        "payload_key": "macro_gap",
+        "bin_edges": [
+          0.35,
+          0.5,
+          0.65
+        ]
+      },
+      "context_label": "macro_gap_full_family",
+      "notes": [
+        "Core projection family."
+      ]
+    },
+    {
+      "projection_id": "frob_full",
+      "projection": {
+        "projection_mode": "payload_numeric_bins",
+        "payload_key": "frob",
+        "bin_edges": [
+          0.3,
+          0.45,
+          0.6
+        ]
+      },
+      "context_label": "frob_full_family",
+      "notes": [
+        "Second projection family."
+      ]
+    },
+    {
+      "projection_id": "step_entropy_full",
+      "projection": {
+        "projection_mode": "payload_numeric_bins",
+        "payload_key": "step_entropy",
+        "bin_edges": [
+          0.4,
+          0.55,
+          0.7
+        ]
+      },
+      "context_label": "step_entropy_full_family",
+      "notes": [
+        "Third projection family."
+      ]
+    },
+    {
+      "projection_id": "sigma_pi_full",
+      "projection": {
+        "projection_mode": "payload_numeric_bins",
+        "payload_key": "sigma_pi",
+        "bin_edges": [
+          1e-06,
+          0.0001,
+          0.01
+        ]
+      },
+      "context_label": "sigma_pi_full_family",
+      "notes": [
+        "Fourth projection family to widen projection diversity."
+      ]
+    }
+  ],
+  "notes": [
+    "Richest bounded candidate point with multiple projections and the committed exp112 full_all pilot config."
+  ],
+  "flags": [
+    "rich",
+    "multi_projection",
+    "multi_closure"
+  ]
+}

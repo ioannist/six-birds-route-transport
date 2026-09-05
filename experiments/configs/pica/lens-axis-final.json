@@ -1,0 +1,25 @@
+{
+  "config_format_version": "lens-axis-finalization.v1",
+  "lens_axis_id": "lens_axis_th4_final",
+  "same_step_table_artifact": "experiments/instances/lens-axis/th4_same_step_negative/lens-axis.json",
+  "same_step_negative_summary_artifact": "experiments/instances/lens-axis/th4_same_step_negative/lens-axis-summary.json",
+  "same_step_negative_outcome_artifact": "experiments/instances/lens-axis/th4_same_step_negative/negative-result.json",
+  "same_step_support_relation_artifact": "experiments/instances/lens-axis/th4_same_step_negative/support-relation-diagnostics.json",
+  "same_step_quotient_diagnostics_artifact": "experiments/instances/lens-axis/th4_same_step_negative/quotient-feasibility-diagnostics.json",
+  "same_step_flagship_point_id": "lens_rich_same_support",
+  "cross_resolution_search_config_artifact": "experiments/configs/pica/lens-axis-cross-res-matching-campaign.json",
+  "cross_resolution_package_build_summary_artifact": "experiments/instances/lens-axis/th4_cross_res_all_steps/package-build-summary.json",
+  "cross_resolution_provenance_summary_artifact": "experiments/instances/lens-axis/th4_cross_res_all_steps/provenance-audit-summary.json",
+  "cross_resolution_quotient_summary_artifact": "experiments/instances/lens-axis/th4_cross_res_all_steps/quotient-feasibility-summary.json",
+  "canonical_flagship_case_id": "cross_res_all_steps",
+  "final_claim_level": "provenance_admissible_strong_obstruction",
+  "output_category": "results",
+  "output_label": "lens-axis-final",
+  "metadata": {
+    "axis": "lens",
+    "notes": [
+      "Same-step bounded negative is preserved as a narrower subregime.",
+      "Cross-resolution strict-extension is the canonical lens-axis flagship."
+    ]
+  }
+}

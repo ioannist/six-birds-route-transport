@@ -1,0 +1,30 @@
+{
+  "selection_id": "triadic_branch_flagship_selection",
+  "selected_case_id": "triadic_branch_multilens_seed123",
+  "source_search_config": "experiments/configs/search/targeted-nonextendability.json",
+  "selection_rule": [
+    "highest accepted coarse-proposal count",
+    "then lowest all-accepted-proposals respecting-tuple count",
+    "then highest accepted coarse-event count",
+    "then lexicographic point_id"
+  ],
+  "selection_rationale": "T31 found no strongly_nonextendable_candidate, so the best nontrivial provenance-admissible discovered case was selected deterministically from the targeted family.",
+  "source_point": {
+    "point_id": "triadic_branch_multilens_seed123",
+    "config_artifact": "experiments/configs/substrates/triadic-branch.json",
+    "preparation_id": "prep0",
+    "protocol_id": "branch_hold_hold",
+    "trajectories": 30,
+    "seed": 123
+  },
+  "selection_metrics": {
+    "provenance_classification": "admissible",
+    "accepted_coarse_event_count": 18,
+    "accepted_coarse_proposal_count": 45,
+    "baseline_hard_only_respecting_tuple_count": 729,
+    "all_accepted_proposals_respecting_tuple_count": 3,
+    "baseline_hard_only_gpd_str": 0.0,
+    "all_accepted_proposals_gpd_str": 0.0,
+    "candidate_classification": "extendable_candidate"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "campaign_id": "pica_campaign_exp110_pairmatch",
+  "campaign_label": "exp110_pairmatch",
+  "flags": [
+    "contract_fixture",
+    "bounded_positive_case"
+  ],
+  "mechanism_summary": {
+    "enable_matrix_id": "enable_pairmatch_scan",
+    "mechanism_family_id": "mechanism_pairmatch_scan",
+    "substrate_config_id": "substrate_exp110_pairmatch"
+  },
+  "notes": [
+    "Small committed bridge-contract campaign export for structural shared-event inference."
+  ],
+  "path_policy": "repo_relative",
+  "point_inventory": [
+    {
+      "enable_matrix_id": "enable_pairmatch_scan",
+      "mechanism_family_id": "mechanism_pairmatch_scan",
+      "point_id": "point_exp110_pairmatch_seed0",
+      "preparation_id": "prep_pairmatch",
+      "protocol_id": "protocol_pairmatch_scan",
+      "run_id": "run_exp110_pairmatch_seed0",
+      "seed": 0,
+      "substrate_config_id": "substrate_exp110_pairmatch"
+    }
+  ],
+  "run_inventory": [
+    {
+      "closure_catalog_path": "experiments/contracts/pica/pilot/exp110_pairmatch/pica-closure-catalog.json",
+      "observable_ledger_path": "experiments/contracts/pica/pilot/exp110_pairmatch/pica-observable-ledger.json",
+      "point_id": "point_exp110_pairmatch_seed0",
+      "run_id": "run_exp110_pairmatch_seed0",
+      "run_ledger_path": "experiments/contracts/pica/pilot/exp110_pairmatch/pica-run-ledger.json"
+    }
+  ],
+  "schema_version": "pica-campaign-export.v1",
+  "source_config_path": "experiments/configs/pica/pilot-campaign.json"
+}

@@ -1,0 +1,85 @@
+{
+  "schema_version": "pica-observable-ledger.v1",
+  "observable_ledger_id": "observable_ledger_run_triadic_branch_seed123",
+  "campaign_id": "campaign_example_v1",
+  "run_id": "run_triadic_branch_seed123",
+  "point_id": "point_triadic_branch_seed123",
+  "row_count": 4,
+  "rows": [
+    {
+      "trajectory_id": "traj_0000",
+      "step_index": 0,
+      "protocol_step_id": "protocol_branch_hold_hold_step_0",
+      "preparation_id": "prep_default",
+      "protocol_id": "protocol_branch_hold_hold",
+      "level_id": "level_macro",
+      "resolution_id": "resolution_macro_r1",
+      "closure_id": "closure_branch_record",
+      "lens_id": "lens_record_main",
+      "observation_label": "obs_left_A",
+      "route_label": "route_left",
+      "phase_label": "phase_branch",
+      "macrostate_label": "macro_A",
+      "observation_payload": {
+        "outcome": "A"
+      }
+    },
+    {
+      "trajectory_id": "traj_0000",
+      "step_index": 1,
+      "protocol_step_id": "protocol_branch_hold_hold_step_1",
+      "preparation_id": "prep_default",
+      "protocol_id": "protocol_branch_hold_hold",
+      "level_id": "level_macro",
+      "resolution_id": "resolution_macro_r1",
+      "closure_id": "closure_branch_record",
+      "lens_id": "lens_record_main",
+      "observation_label": "obs_right_B",
+      "route_label": "route_left",
+      "phase_label": "phase_hold",
+      "macrostate_label": "macro_B",
+      "observation_payload": {
+        "outcome": "B"
+      }
+    },
+    {
+      "trajectory_id": "traj_0001",
+      "step_index": 0,
+      "protocol_step_id": "protocol_branch_hold_hold_step_0",
+      "preparation_id": "prep_default",
+      "protocol_id": "protocol_branch_hold_hold",
+      "level_id": "level_macro",
+      "resolution_id": "resolution_macro_r1",
+      "closure_id": "closure_branch_record",
+      "lens_id": "lens_record_main",
+      "observation_label": "obs_left_B",
+      "route_label": "route_right",
+      "phase_label": "phase_branch",
+      "macrostate_label": "macro_B",
+      "observation_payload": {
+        "outcome": "B"
+      }
+    },
+    {
+      "trajectory_id": "traj_0001",
+      "step_index": 1,
+      "protocol_step_id": "protocol_branch_hold_hold_step_1",
+      "preparation_id": "prep_default",
+      "protocol_id": "protocol_branch_hold_hold",
+      "level_id": "level_macro",
+      "resolution_id": "resolution_macro_r1",
+      "closure_id": "closure_branch_record",
+      "lens_id": "lens_record_main",
+      "observation_label": "obs_right_A",
+      "route_label": "route_right",
+      "phase_label": "phase_hold",
+      "macrostate_label": "macro_A",
+      "observation_payload": {
+        "outcome": "A"
+      }
+    }
+  ],
+  "notes": [
+    "Contract example observable ledger only."
+  ]
+}

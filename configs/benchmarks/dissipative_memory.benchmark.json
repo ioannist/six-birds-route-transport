@@ -1,0 +1,16 @@
+{
+  "schema_version": "benchmark-manifest.v1",
+  "benchmark_id": "dissipative_memory",
+  "transport_package_ref": "configs/benchmarks/dissipative_memory.package.json",
+  "interfaces_to_measure": [
+    "mid",
+    "end"
+  ],
+  "loops_to_test": [
+    "id_end"
+  ],
+  "perturbation_sweep_ref": "configs/benchmarks/dissipative_memory.perturbation.json",
+  "tags": [
+    "dissipative"
+  ]
+}

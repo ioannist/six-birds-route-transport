@@ -1,0 +1,88 @@
+{
+  "adequacy_floor": {
+    "min_admissible_built_package_count": 1,
+    "min_points_with_accepted_proper_coarse_structural_proposals": 1,
+    "min_points_with_dual_mode_difference": 1,
+    "min_points_with_nontrivial_quotient_result_recorded": 1,
+    "min_points_with_proper_coarse_events": 1,
+    "min_points_with_same_slice_non_nested_lens_pairs": 0,
+    "min_total_point_count": 1
+  },
+  "allow_cross_resolution_pairs": true,
+  "candidate_classification_thresholds": {
+    "min_accepted_coarse_proposal_count": 1,
+    "near_zero_gpd_stat": 1e-06,
+    "strong_nonextendable_min_gpd_str": 1.0
+  },
+  "event_generation_thresholds": {
+    "event_algebra_mode": "full_powerset",
+    "event_basis_mode": "singleton_plus_small_unions",
+    "include_empty_and_full_in_truncation": true,
+    "match_empty_for_inference": false,
+    "match_full_for_inference": false,
+    "max_full_powerset_atom_count": 6,
+    "max_union_size": 3,
+    "min_event_support_count": 1,
+    "min_event_support_fraction": 0.0
+  },
+  "fixed_mechanism_label": "exp104_p6_row_all_n64",
+  "fixed_packaging_family_label": "bridge_default_packaging_selector",
+  "fixed_pilot_config_artifact": "experiments/configs/pica/pilot-exp104-p6-row-all-n64.json",
+  "points": [
+    {
+      "notes": [
+        "cross_resolution_obs_only"
+      ],
+      "point_id": "cross_res_obs",
+      "projection_family_ids": [
+        "obs_primary"
+      ]
+    }
+  ],
+  "preparation_id": "prep_pica_default",
+  "projection_families": [
+    {
+      "allowed_roles": [
+        "primary_context"
+      ],
+      "label": "observation label",
+      "notes": [
+        "primary_packaging_outcome"
+      ],
+      "projection": {
+        "projection_mode": "observation_label"
+      },
+      "projection_id": "obs_primary",
+      "projection_kind": "packaging_outcome",
+      "source_field": "observation_label"
+    }
+  ],
+  "protocol_id": "protocol_pica_multiscale_scan",
+  "search_format_version": "lens-axis-search.v1",
+  "search_id": "lens_axis_cross_res_test",
+  "seed_list": [
+    0
+  ],
+  "selected_protocol_step_ids": [
+    "protocol_pica_multiscale_scan_step_1",
+    "protocol_pica_multiscale_scan_step_2"
+  ],
+  "selected_resolution_ids": [
+    "resolution_k_4",
+    "resolution_k_8"
+  ],
+  "selected_step_indices": [
+    1,
+    2
+  ],
+  "shared_event_inference_thresholds": {
+    "exact_tolerance": 1e-09,
+    "inference_mode": "structural_primary",
+    "max_mean_tv": 1.0,
+    "min_common_probes": 1,
+    "min_conditioning_count": 3,
+    "min_probe_atom_support_count": 1,
+    "proposal_constraint_kind": "soft"
+  },
+  "trajectories": 24
+}

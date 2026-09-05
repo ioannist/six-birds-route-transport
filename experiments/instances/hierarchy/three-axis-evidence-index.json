@@ -1,0 +1,91 @@
+{
+  "index_format_version": "three-axis-evidence-index.v1",
+  "index_id": "three_axis_context_memo_t46",
+  "notes": [
+    "Grounded only in committed theory files and committed axis evidence assets.",
+    "Does not depend on transient TH6 runtime synthesis outputs under results/results/."
+  ],
+  "theory_sources": [
+    {
+      "label": "event_package_proposal",
+      "path": "vision.md",
+      "role": "packaging-level theorem object and paper spine"
+    },
+    {
+      "label": "quantum_contextuality",
+      "path": "docs/papers/Tsiokos_2026_A_Six_Birds_Eye_View_of_Quantum_Theory_Operational_Closure_Semantics_for_Measurement_Contextuality_and_Record_Stability.tex",
+      "role": "contexts as strict extensions and noncommuting closures"
+    },
+    {
+      "label": "package_change_frozen_slice",
+      "path": "docs/papers/Tsiokos_2026_Six_Birds_for_Incompleteness_Fixed_Packages_Package_Change_and_Conditional_Arithmetic_Lift.tex",
+      "role": "fixed evaluation regime, frozen slice, and scope discipline"
+    },
+    {
+      "label": "cantor_strict_extension",
+      "path": "docs/papers/Tsiokos_2026_Strict_Theory_Extension_on_a_Lawful_Continuous_Cantor_Shell.tex",
+      "role": "strict extension via packaged-object strata and completion maps"
+    }
+  ],
+  "axes": {
+    "mechanism": {
+      "campaign_assets": {
+        "campaign_summary": "experiments/instances/mechanism-axis/th3_campaign/mechanism-axis-summary.json",
+        "campaign_table": "experiments/instances/mechanism-axis/th3_campaign/mechanism-axis.json",
+        "campaign_outcome": "design_inadequate"
+      },
+      "flagship_assets": {
+        "quotient_witness_summary": "experiments/instances/mechanism-axis/exp104_p6_row_all_n64_seed0/quotient-feasibility-summary.json",
+        "witness_status": "accepted_proposal_obstruction"
+      },
+      "current_evidence_summary": "Campaign-wide mechanism comparison remained design-inadequate, but one committed quotient-backed accepted witness exists.",
+      "claim_ceiling": "mechanism_dependence_or_nontrivial_multicontext_structure_only",
+      "caveat_flags": [
+        "campaign_design_inadequate",
+        "witness_not_equal_to_axis_wide_success"
+      ]
+    },
+    "lens": {
+      "campaign_assets": {
+        "same_step_summary": "experiments/instances/lens-axis/th4_same_step_negative/lens-axis-summary.json",
+        "same_step_table": "experiments/instances/lens-axis/th4_same_step_negative/lens-axis.json",
+        "same_step_outcome": "bounded_negative"
+      },
+      "subregime_assets": {
+        "cross_resolution_package_build_summary": "experiments/instances/lens-axis/th4_cross_res_all_steps/package-build-summary.json",
+        "cross_resolution_provenance_summary": "experiments/instances/lens-axis/th4_cross_res_all_steps/provenance-audit-summary.json",
+        "cross_resolution_quotient_summary": "experiments/instances/lens-axis/th4_cross_res_all_steps/quotient-feasibility-summary.json",
+        "cross_resolution_outcome": "accepted_proposal_obstruction"
+      },
+      "flagship_assets": {
+        "flagship_label": "cross_res_all_steps",
+        "flagship_status": "accepted_proposal_obstruction"
+      },
+      "current_evidence_summary": "Same-step lens comparison stayed bounded-negative, but a same-support cross-resolution strict-extension regime produced an accepted quotient-backed obstruction.",
+      "claim_ceiling": "same_system_record_algebra_variation_with_strict_extension",
+      "caveat_flags": [
+        "same_step_negative_subregime_preserved",
+        "cross_resolution_flagship"
+      ]
+    },
+    "packaging": {
+      "campaign_assets": {
+        "campaign_summary": "experiments/instances/packaging-axis/th5_campaign/packaging-axis-summary.json",
+        "campaign_table": "experiments/instances/packaging-axis/th5_campaign/packaging-axis.json",
+        "campaign_outcome": "best_candidate"
+      },
+      "flagship_assets": {
+        "best_candidate_stub": "experiments/instances/packaging-axis/th5_campaign/best-candidate.json",
+        "cross_resolution_flagship_summary": "experiments/instances/packaging-axis/th5_campaign/packaging_cross_res_k4_k20_quotient-feasibility-summary.json",
+        "flagship_status": "accepted_proposal_obstruction"
+      },
+      "current_evidence_summary": "The bounded packaging campaign produced the strongest accepted obstruction result on fixed mechanism, fixed lens, and same support.",
+      "claim_ceiling": "provenance_admissible_packaging_obstruction",
+      "caveat_flags": [
+        "selector_branch_divergence",
+        "fixed_operator_family_source",
+        "narrow_packaging_surface"
+      ]
+    }
+  }
+}

@@ -1,0 +1,503 @@
+{
+  "campaign_id": "pica_campaign_exp130_packaging_surface",
+  "closure_catalog_id": "closure_catalog_point_exp130_packaging_surface_seed0__seed_0",
+  "closures": [
+    {
+      "closure_id": "closure_A5_P1-P5_k_2",
+      "debug_metadata": {},
+      "flags": [],
+      "label": "A5_P1-P5_k_2",
+      "level_id": "level_l0",
+      "notes": [
+        "Adapter export derived from KEY_DISCOVERY_GRADE_JSON trajectory assignments."
+      ],
+      "parent_closure_id": null,
+      "resolution_id": "resolution_k_2",
+      "role": "adapter_closure",
+      "support_metadata": {
+        "closure_id": "closure_A5_P1-P5_k_2",
+        "frob": 0.3381214645371871,
+        "k": 2,
+        "lens_id": "lens_p4_k_2",
+        "level_id": "level_l0",
+        "macro_gap": 0.753973427378128,
+        "macro_n": 2,
+        "max_asym": 1.0052365096047624,
+        "protocol_step_id": "protocol_pica_multiscale_scan_step_0",
+        "resolution_id": "resolution_k_2",
+        "sigma_pi": 2.0344836926255994e-12,
+        "step_entropy": 0.1177795860079073,
+        "step_index": 0
+      }
+    },
+    {
+      "closure_id": "closure_A5_P1-P5_pkg_k_2",
+      "debug_metadata": {},
+      "flags": [],
+      "label": "A5_P1-P5_k_2",
+      "level_id": "level_l0",
+      "notes": [
+        "Adapter export derived from KEY_DISCOVERY_GRADE_JSON trajectory assignments."
+      ],
+      "parent_closure_id": null,
+      "resolution_id": "resolution_k_2",
+      "role": "adapter_closure",
+      "support_metadata": {
+        "closure_id": "closure_A5_P1-P5_pkg_k_2",
+        "frob": 0.3381214645371871,
+        "k": 2,
+        "lens_id": "lens_p5_k_2",
+        "level_id": "level_l0",
+        "macro_gap": 0.753973427378128,
+        "macro_n": 2,
+        "max_asym": 1.0052365096047624,
+        "protocol_step_id": "protocol_pica_multiscale_scan_step_0",
+        "resolution_id": "resolution_k_2",
+        "sigma_pi": 2.0344836926255994e-12,
+        "step_entropy": 0.1177795860079073,
+        "step_index": 0
+      }
+    },
+    {
+      "closure_id": "closure_A5_P1-P5_k_4",
+      "debug_metadata": {},
+      "flags": [],
+      "label": "A5_P1-P5_k_4",
+      "level_id": "level_l0",
+      "notes": [
+        "Adapter export derived from KEY_DISCOVERY_GRADE_JSON trajectory assignments."
+      ],
+      "parent_closure_id": null,
+      "resolution_id": "resolution_k_4",
+      "role": "adapter_closure",
+      "support_metadata": {
+        "closure_id": "closure_A5_P1-P5_k_4",
+        "frob": 1.132999290266413,
+        "k": 4,
+        "lens_id": "lens_p4_k_4",
+        "level_id": "level_l0",
+        "macro_gap": 0.0,
+        "macro_n": 4,
+        "max_asym": 1.7699320823080917,
+        "protocol_step_id": "protocol_pica_multiscale_scan_step_1",
+        "resolution_id": "resolution_k_4",
+        "sigma_pi": 3.832915908550104e-118,
+        "step_entropy": 0.0,
+        "step_index": 1
+      }
+    },
+    {
+      "closure_id": "closure_A5_P1-P5_pkg_k_4",
+      "debug_metadata": {},
+      "flags": [],
+      "label": "A5_P1-P5_k_4",
+      "level_id": "level_l0",
+      "notes": [
+        "Adapter export derived from KEY_DISCOVERY_GRADE_JSON trajectory assignments."
+      ],
+      "parent_closure_id": null,
+      "resolution_id": "resolution_k_4",
+      "role": "adapter_closure",
+      "support_metadata": {
+        "closure_id": "closure_A5_P1-P5_pkg_k_4",
+        "frob": 1.132999290266413,
+        "k": 4,
+        "lens_id": "lens_p5_k_4",
+        "level_id": "level_l0",
+        "macro_gap": 0.0,
+        "macro_n": 4,
+        "max_asym": 1.7699320823080917,
+        "protocol_step_id": "protocol_pica_multiscale_scan_step_1",
+        "resolution_id": "resolution_k_4",
+        "sigma_pi": 3.832915908550104e-118,
+        "step_entropy": 0.0,
+        "step_index": 1
+      }
+    },
+    {
+      "closure_id": "closure_A5_P1-P5_k_5",
+      "debug_metadata": {},
+      "flags": [],
+      "label": "A5_P1-P5_k_5",
+      "level_id": "level_l0",
+      "notes": [
+        "Adapter export derived from KEY_DISCOVERY_GRADE_JSON trajectory assignments."
+      ],
+      "parent_closure_id": null,
+      "resolution_id": "resolution_k_5",
+      "role": "adapter_closure",
+      "support_metadata": {
+        "closure_id": "closure_A5_P1-P5_k_5",
+        "frob": 1.1535767106379988,
+        "k": 5,
+        "lens_id": "lens_p4_k_5",
+        "level_id": "level_l0",
+        "macro_gap": 0.0,
+        "macro_n": 5,
+        "max_asym": 2.1562626174221142,
+        "protocol_step_id": "protocol_pica_multiscale_scan_step_2",
+        "resolution_id": "resolution_k_5",
+        "sigma_pi": 5.303765625162405e-118,
+        "step_entropy": 0.0,
+        "step_index": 2
+      }
+    },
+    {
+      "closure_id": "closure_A5_P1-P5_pkg_k_5",
+      "debug_metadata": {},
+      "flags": [],
+      "label": "A5_P1-P5_k_5",
+      "level_id": "level_l0",
+      "notes": [
+        "Adapter export derived from KEY_DISCOVERY_GRADE_JSON trajectory assignments."
+      ],
+      "parent_closure_id": null,
+      "resolution_id": "resolution_k_5",
+      "role": "adapter_closure",
+      "support_metadata": {
+        "closure_id": "closure_A5_P1-P5_pkg_k_5",
+        "frob": 1.1535767106379988,
+        "k": 5,
+        "lens_id": "lens_p5_k_5",
+        "level_id": "level_l0",
+        "macro_gap": 0.0,
+        "macro_n": 4,
+        "max_asym": 2.1562626174221142,
+        "protocol_step_id": "protocol_pica_multiscale_scan_step_2",
+        "resolution_id": "resolution_k_5",
+        "sigma_pi": 5.303765625162405e-118,
+        "step_entropy": 0.0,
+        "step_index": 2
+      }
+    },
+    {
+      "closure_id": "closure_A5_P1-P5_k_7",
+      "debug_metadata": {},
+      "flags": [],
+      "label": "A5_P1-P5_k_7",
+      "level_id": "level_l0",
+      "notes": [
+        "Adapter export derived from KEY_DISCOVERY_GRADE_JSON trajectory assignments."
+      ],
+      "parent_closure_id": null,
+      "resolution_id": "resolution_k_7",
+      "role": "adapter_closure",
+      "support_metadata": {
+        "closure_id": "closure_A5_P1-P5_k_7",
+        "frob": 1.1784738047030467,
+        "k": 7,
+        "lens_id": "lens_p4_k_7",
+        "level_id": "level_l0",
+        "macro_gap": 0.0,
+        "macro_n": 5,
+        "max_asym": 2.7768701728880028,
+        "protocol_step_id": "protocol_pica_multiscale_scan_step_3",
+        "resolution_id": "resolution_k_7",
+        "sigma_pi": 7.28653404874646e-118,
+        "step_entropy": 0.0,
+        "step_index": 3
+      }
+    },
+    {
+      "closure_id": "closure_A5_P1-P5_pkg_k_7",
+      "debug_metadata": {},
+      "flags": [],
+      "label": "A5_P1-P5_k_7",
+      "level_id": "level_l0",
+      "notes": [
+        "Adapter export derived from KEY_DISCOVERY_GRADE_JSON trajectory assignments."
+      ],
+      "parent_closure_id": null,
+      "resolution_id": "resolution_k_7",
+      "role": "adapter_closure",
+      "support_metadata": {
+        "closure_id": "closure_A5_P1-P5_pkg_k_7",
+        "frob": 1.1784738047030467,
+        "k": 7,
+        "lens_id": "lens_p5_k_7",
+        "level_id": "level_l0",
+        "macro_gap": 0.0,
+        "macro_n": 4,
+        "max_asym": 2.7768701728880028,
+        "protocol_step_id": "protocol_pica_multiscale_scan_step_3",
+        "resolution_id": "resolution_k_7",
+        "sigma_pi": 7.28653404874646e-118,
+        "step_entropy": 0.0,
+        "step_index": 3
+      }
+    }
+  ],
+  "flags": [
+    "adapter_export"
+  ],
+  "lenses": [
+    {
+      "ancestor_lens_id": null,
+      "closure_id": "closure_A5_P1-P5_k_2",
+      "debug_metadata": {},
+      "flags": [],
+      "label": "p4_k_2",
+      "lens_id": "lens_p4_k_2",
+      "level_id": "level_l0",
+      "notes": [],
+      "resolution_id": "resolution_k_2",
+      "role": "adapter_lens",
+      "support_metadata": {
+        "closure_id": "closure_A5_P1-P5_k_2",
+        "frob": 0.3381214645371871,
+        "k": 2,
+        "lens_id": "lens_p4_k_2",
+        "lens_source": "p4",
+        "level_id": "level_l0",
+        "macro_gap": 0.753973427378128,
+        "macro_n": 2,
+        "max_asym": 1.0052365096047624,
+        "protocol_step_id": "protocol_pica_multiscale_scan_step_0",
+        "resolution_id": "resolution_k_2",
+        "sigma_pi": 2.0344836926255994e-12,
+        "step_entropy": 0.1177795860079073,
+        "step_index": 0
+      }
+    },
+    {
+      "ancestor_lens_id": null,
+      "closure_id": "closure_A5_P1-P5_pkg_k_2",
+      "debug_metadata": {},
+      "flags": [],
+      "label": "p4_k_2",
+      "lens_id": "lens_p5_k_2",
+      "level_id": "level_l0",
+      "notes": [],
+      "resolution_id": "resolution_k_2",
+      "role": "adapter_lens",
+      "support_metadata": {
+        "closure_id": "closure_A5_P1-P5_pkg_k_2",
+        "frob": 0.3381214645371871,
+        "k": 2,
+        "lens_id": "lens_p5_k_2",
+        "lens_source": "p4",
+        "level_id": "level_l0",
+        "macro_gap": 0.753973427378128,
+        "macro_n": 2,
+        "max_asym": 1.0052365096047624,
+        "protocol_step_id": "protocol_pica_multiscale_scan_step_0",
+        "resolution_id": "resolution_k_2",
+        "sigma_pi": 2.0344836926255994e-12,
+        "step_entropy": 0.1177795860079073,
+        "step_index": 0
+      }
+    },
+    {
+      "ancestor_lens_id": null,
+      "closure_id": "closure_A5_P1-P5_k_4",
+      "debug_metadata": {},
+      "flags": [],
+      "label": "p4_k_4",
+      "lens_id": "lens_p4_k_4",
+      "level_id": "level_l0",
+      "notes": [],
+      "resolution_id": "resolution_k_4",
+      "role": "adapter_lens",
+      "support_metadata": {
+        "closure_id": "closure_A5_P1-P5_k_4",
+        "frob": 1.132999290266413,
+        "k": 4,
+        "lens_id": "lens_p4_k_4",
+        "lens_source": "p4",
+        "level_id": "level_l0",
+        "macro_gap": 0.0,
+        "macro_n": 4,
+        "max_asym": 1.7699320823080917,
+        "protocol_step_id": "protocol_pica_multiscale_scan_step_1",
+        "resolution_id": "resolution_k_4",
+        "sigma_pi": 3.832915908550104e-118,
+        "step_entropy": 0.0,
+        "step_index": 1
+      }
+    },
+    {
+      "ancestor_lens_id": null,
+      "closure_id": "closure_A5_P1-P5_pkg_k_4",
+      "debug_metadata": {},
+      "flags": [],
+      "label": "p4_k_4",
+      "lens_id": "lens_p5_k_4",
+      "level_id": "level_l0",
+      "notes": [],
+      "resolution_id": "resolution_k_4",
+      "role": "adapter_lens",
+      "support_metadata": {
+        "closure_id": "closure_A5_P1-P5_pkg_k_4",
+        "frob": 1.132999290266413,
+        "k": 4,
+        "lens_id": "lens_p5_k_4",
+        "lens_source": "p4",
+        "level_id": "level_l0",
+        "macro_gap": 0.0,
+        "macro_n": 4,
+        "max_asym": 1.7699320823080917,
+        "protocol_step_id": "protocol_pica_multiscale_scan_step_1",
+        "resolution_id": "resolution_k_4",
+        "sigma_pi": 3.832915908550104e-118,
+        "step_entropy": 0.0,
+        "step_index": 1
+      }
+    },
+    {
+      "ancestor_lens_id": null,
+      "closure_id": "closure_A5_P1-P5_k_5",
+      "debug_metadata": {},
+      "flags": [],
+      "label": "p4_k_5",
+      "lens_id": "lens_p4_k_5",
+      "level_id": "level_l0",
+      "notes": [],
+      "resolution_id": "resolution_k_5",
+      "role": "adapter_lens",
+      "support_metadata": {
+        "closure_id": "closure_A5_P1-P5_k_5",
+        "frob": 1.1535767106379988,
+        "k": 5,
+        "lens_id": "lens_p4_k_5",
+        "lens_source": "p4",
+        "level_id": "level_l0",
+        "macro_gap": 0.0,
+        "macro_n": 5,
+        "max_asym": 2.1562626174221142,
+        "protocol_step_id": "protocol_pica_multiscale_scan_step_2",
+        "resolution_id": "resolution_k_5",
+        "sigma_pi": 5.303765625162405e-118,
+        "step_entropy": 0.0,
+        "step_index": 2
+      }
+    },
+    {
+      "ancestor_lens_id": null,
+      "closure_id": "closure_A5_P1-P5_pkg_k_5",
+      "debug_metadata": {},
+      "flags": [],
+      "label": "p4_k_5",
+      "lens_id": "lens_p5_k_5",
+      "level_id": "level_l0",
+      "notes": [],
+      "resolution_id": "resolution_k_5",
+      "role": "adapter_lens",
+      "support_metadata": {
+        "closure_id": "closure_A5_P1-P5_pkg_k_5",
+        "frob": 1.1535767106379988,
+        "k": 5,
+        "lens_id": "lens_p5_k_5",
+        "lens_source": "p4",
+        "level_id": "level_l0",
+        "macro_gap": 0.0,
+        "macro_n": 4,
+        "max_asym": 2.1562626174221142,
+        "protocol_step_id": "protocol_pica_multiscale_scan_step_2",
+        "resolution_id": "resolution_k_5",
+        "sigma_pi": 5.303765625162405e-118,
+        "step_entropy": 0.0,
+        "step_index": 2
+      }
+    },
+    {
+      "ancestor_lens_id": null,
+      "closure_id": "closure_A5_P1-P5_k_7",
+      "debug_metadata": {},
+      "flags": [],
+      "label": "p4_k_7",
+      "lens_id": "lens_p4_k_7",
+      "level_id": "level_l0",
+      "notes": [],
+      "resolution_id": "resolution_k_7",
+      "role": "adapter_lens",
+      "support_metadata": {
+        "closure_id": "closure_A5_P1-P5_k_7",
+        "frob": 1.1784738047030467,
+        "k": 7,
+        "lens_id": "lens_p4_k_7",
+        "lens_source": "p4",
+        "level_id": "level_l0",
+        "macro_gap": 0.0,
+        "macro_n": 5,
+        "max_asym": 2.7768701728880028,
+        "protocol_step_id": "protocol_pica_multiscale_scan_step_3",
+        "resolution_id": "resolution_k_7",
+        "sigma_pi": 7.28653404874646e-118,
+        "step_entropy": 0.0,
+        "step_index": 3
+      }
+    },
+    {
+      "ancestor_lens_id": null,
+      "closure_id": "closure_A5_P1-P5_pkg_k_7",
+      "debug_metadata": {},
+      "flags": [],
+      "label": "p4_k_7",
+      "lens_id": "lens_p5_k_7",
+      "level_id": "level_l0",
+      "notes": [],
+      "resolution_id": "resolution_k_7",
+      "role": "adapter_lens",
+      "support_metadata": {
+        "closure_id": "closure_A5_P1-P5_pkg_k_7",
+        "frob": 1.1784738047030467,
+        "k": 7,
+        "lens_id": "lens_p5_k_7",
+        "lens_source": "p4",
+        "level_id": "level_l0",
+        "macro_gap": 0.0,
+        "macro_n": 4,
+        "max_asym": 2.7768701728880028,
+        "protocol_step_id": "protocol_pica_multiscale_scan_step_3",
+        "resolution_id": "resolution_k_7",
+        "sigma_pi": 7.28653404874646e-118,
+        "step_entropy": 0.0,
+        "step_index": 3
+      }
+    }
+  ],
+  "levels": [
+    {
+      "label": "L0",
+      "level_id": "level_l0",
+      "parent_level_id": null,
+      "role": "adapter_observed_level"
+    }
+  ],
+  "notes": [
+    "Adapter-exported closure metadata from multi-scale scan rows."
+  ],
+  "point_id": "point_exp130_packaging_surface_seed0",
+  "resolutions": [
+    {
+      "label": "scan_k_2",
+      "level_id": "level_l0",
+      "parent_resolution_id": null,
+      "resolution_id": "resolution_k_2",
+      "role": "adapter_resolution"
+    },
+    {
+      "label": "scan_k_4",
+      "level_id": "level_l0",
+      "parent_resolution_id": null,
+      "resolution_id": "resolution_k_4",
+      "role": "adapter_resolution"
+    },
+    {
+      "label": "scan_k_5",
+      "level_id": "level_l0",
+      "parent_resolution_id": null,
+      "resolution_id": "resolution_k_5",
+      "role": "adapter_resolution"
+    },
+    {
+      "label": "scan_k_7",
+      "level_id": "level_l0",
+      "parent_resolution_id": null,
+      "resolution_id": "resolution_k_7",
+      "role": "adapter_resolution"
+    }
+  ],
+  "run_id": "point_exp130_packaging_surface_seed0__seed_0",
+  "schema_version": "pica-closure-catalog.v1"
+}

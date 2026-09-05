@@ -1,0 +1,8 @@
+search_id,candidate_id,cluster_id,match_kind,is_exemplar,support_size,interface_count,carrier_family,route_update_family,observable_family,continuation_catalog_family,class_label,primary_interface_id,primary_current_quotient_size,primary_predictive_quotient_size,primary_max_fiber_size,primary_witness_count,primary_discrepancy_metric_value,primary_current_loop_score,primary_predictive_loop_score
+cyclic_memory_small,cand_0000,cluster_000,singleton,true,2,2,cyclic_z2,binary_swap,support_indicator_basis,forward_plus_loop,coherent_candidate,i0,1,2,2,1,1,0,1
+cyclic_memory_small,cand_0001,cluster_001,singleton,true,2,2,cyclic_z2,binary_swap,support_indicator_basis,two_step_with_loop,coherent_candidate,i0,1,2,2,1,1,0,1
+cyclic_memory_small,cand_0002,cluster_002,singleton,true,2,2,cyclic_z2,cyclic_shift,support_indicator_basis,forward_plus_loop,coherent_candidate,i0,1,2,2,1,1,0,1
+cyclic_memory_small,cand_0006,cluster_003,singleton,true,2,2,cyclic_z3,cyclic_shift,support_indicator_basis,forward_plus_loop,coherent_candidate,i0,1,2,2,1,1,0,1
+groupoid_probe_small,cand_0000,cluster_004,singleton,true,2,2,cyclic_z2,binary_swap,support_indicator_basis,forward_plus_loop,coherent_candidate,i0,2,3,2,1,1,0,0
+groupoid_probe_small,cand_0001,cluster_005,singleton,true,2,2,cyclic_z2,binary_swap,paired_partition,forward_plus_loop,coherent_candidate,i0,2,3,2,1,1,0,0
+groupoid_probe_small,cand_0004,cluster_006,singleton,true,2,2,pair_groupoid_2,binary_swap,support_indicator_basis,forward_plus_loop,coherent_candidate,i0,2,3,2,1,1,0,0

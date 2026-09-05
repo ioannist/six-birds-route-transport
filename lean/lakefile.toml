@@ -1,0 +1,6 @@
+name = "holonomy_memory_lean"
+version = "0.1.0"
+defaultTargets = ["HolonomyMemory"]
+
+[[lean_lib]]
+name = "HolonomyMemory"

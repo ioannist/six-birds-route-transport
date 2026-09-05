@@ -1,0 +1,74 @@
+{
+  "campaign_id": "pica_campaign_exp100_baseline_multiseed",
+  "campaign_label": "exp100_baseline_multiseed_adapter_campaign",
+  "flags": [
+    "adapter_export",
+    "multiseed"
+  ],
+  "mechanism_summary": {
+    "enable_matrix_id": "pica_exp100_baseline_matrix",
+    "mechanism_family_id": "pica_exp100_family",
+    "substrate_config_id": "pica_exp100_baseline"
+  },
+  "notes": [
+    "Committed multiseed campaign generated via repeated T37 wrapper logic."
+  ],
+  "path_policy": "repo_relative",
+  "point_inventory": [
+    {
+      "enable_matrix_id": "pica_exp100_baseline_matrix",
+      "mechanism_family_id": "pica_exp100_family",
+      "point_id": "point_exp100_baseline_seed0",
+      "preparation_id": "prep_pica_default",
+      "protocol_id": "protocol_pica_multiscale_scan",
+      "run_id": "run_exp100_baseline_seed0",
+      "seed": 0,
+      "substrate_config_id": "pica_exp100_baseline"
+    },
+    {
+      "enable_matrix_id": "pica_exp100_baseline_matrix",
+      "mechanism_family_id": "pica_exp100_family",
+      "point_id": "point_exp100_baseline_seed1",
+      "preparation_id": "prep_pica_default",
+      "protocol_id": "protocol_pica_multiscale_scan",
+      "run_id": "run_exp100_baseline_seed1",
+      "seed": 1,
+      "substrate_config_id": "pica_exp100_baseline"
+    },
+    {
+      "enable_matrix_id": "pica_exp100_baseline_matrix",
+      "mechanism_family_id": "pica_exp100_family",
+      "point_id": "point_exp100_baseline_seed2",
+      "preparation_id": "prep_pica_default",
+      "protocol_id": "protocol_pica_multiscale_scan",
+      "run_id": "run_exp100_baseline_seed2",
+      "seed": 2,
+      "substrate_config_id": "pica_exp100_baseline"
+    }
+  ],
+  "run_inventory": [
+    {
+      "closure_catalog_path": "experiments/contracts/pica/pilot/exp100_multiseed/pica-closure-catalog-seed0.json",
+      "observable_ledger_path": "experiments/contracts/pica/pilot/exp100_multiseed/pica-observable-ledger-seed0.json",
+      "point_id": "point_exp100_baseline_seed0",
+      "run_id": "run_exp100_baseline_seed0",
+      "run_ledger_path": "experiments/contracts/pica/pilot/exp100_multiseed/pica-run-ledger-seed0.json"
+    },
+    {
+      "closure_catalog_path": "experiments/contracts/pica/pilot/exp100_multiseed/pica-closure-catalog-seed1.json",
+      "observable_ledger_path": "experiments/contracts/pica/pilot/exp100_multiseed/pica-observable-ledger-seed1.json",
+      "point_id": "point_exp100_baseline_seed1",
+      "run_id": "run_exp100_baseline_seed1",
+      "run_ledger_path": "experiments/contracts/pica/pilot/exp100_multiseed/pica-run-ledger-seed1.json"
+    },
+    {
+      "closure_catalog_path": "experiments/contracts/pica/pilot/exp100_multiseed/pica-closure-catalog-seed2.json",
+      "observable_ledger_path": "experiments/contracts/pica/pilot/exp100_multiseed/pica-observable-ledger-seed2.json",
+      "point_id": "point_exp100_baseline_seed2",
+      "run_id": "run_exp100_baseline_seed2",
+      "run_ledger_path": "experiments/contracts/pica/pilot/exp100_multiseed/pica-run-ledger-seed2.json"
+    }
+  ],
+  "schema_version": "pica-campaign-export.v1",
+  "source_config_path": "experiments/configs/pica/pilot-campaign.json"
+}

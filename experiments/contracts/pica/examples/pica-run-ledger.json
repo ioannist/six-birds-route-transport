@@ -1,0 +1,32 @@
+{
+  "schema_version": "pica-run-ledger.v1",
+  "run_id": "run_triadic_branch_seed123",
+  "campaign_id": "campaign_example_v1",
+  "point_id": "point_triadic_branch_seed123",
+  "substrate_config_id": "substrate_config_triadic_branch_v1",
+  "mechanism_family_id": "mechanism_family_triadic_branch",
+  "enable_matrix_id": "enable_matrix_triadic_branch_default",
+  "preparation_id": "prep_default",
+  "protocol_id": "protocol_branch_hold_hold",
+  "seed": 123,
+  "trajectory_count": 2,
+  "protocol_steps": [
+    {
+      "step_index": 0,
+      "protocol_step_id": "protocol_branch_hold_hold_step_0",
+      "stage_label": "branch"
+    },
+    {
+      "step_index": 1,
+      "protocol_step_id": "protocol_branch_hold_hold_step_1",
+      "stage_label": "hold"
+    }
+  ],
+  "closure_catalog_id": "closure_catalog_run_triadic_branch_seed123",
+  "closure_catalog_path": "experiments/contracts/pica/examples/pica-closure-catalog.json",
+  "observable_ledger_id": "observable_ledger_run_triadic_branch_seed123",
+  "observable_ledger_path": "experiments/contracts/pica/examples/pica-observable-ledger.json",
+  "notes": [
+    "Contract example run only."
+  ]
+}

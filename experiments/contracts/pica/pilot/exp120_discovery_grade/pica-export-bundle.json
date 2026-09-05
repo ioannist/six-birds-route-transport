@@ -1,0 +1,46 @@
+{
+  "campaign_exports": [
+    {
+      "artifact_path": "experiments/contracts/pica/pilot/exp120_discovery_grade/pica-campaign-export.json",
+      "campaign_id": "pica_campaign_exp120_discovery_grade"
+    }
+  ],
+  "closure_catalogs": [
+    {
+      "artifact_path": "experiments/contracts/pica/pilot/exp120_discovery_grade/pica-closure-catalog.json",
+      "closure_catalog_id": "closure_catalog_point_exp120_discovery_grade_seed0__seed_0",
+      "run_id": "point_exp120_discovery_grade_seed0__seed_0"
+    }
+  ],
+  "debug_sidecars": [],
+  "export_bundle_id": "pica_pilot_exp120_discovery_grade_bundle",
+  "export_timestamp": "2026-03-28T01:05:00Z",
+  "flags": [
+    "adapter_export"
+  ],
+  "notes": [
+    "Thin subprocess wrapper adapter export from vendor/six-birds-pica runner output."
+  ],
+  "observable_ledgers": [
+    {
+      "artifact_path": "experiments/contracts/pica/pilot/exp120_discovery_grade/pica-observable-ledger.json",
+      "observable_ledger_id": "observable_ledger_point_exp120_discovery_grade_seed0__seed_0",
+      "run_id": "point_exp120_discovery_grade_seed0__seed_0"
+    }
+  ],
+  "path_policy": "repo_relative",
+  "producer": {
+    "build_label": "cargo_runner_release",
+    "commit": "9da175b",
+    "name": "pica",
+    "version": "pilot-wrapper"
+  },
+  "run_ledgers": [
+    {
+      "artifact_path": "experiments/contracts/pica/pilot/exp120_discovery_grade/pica-run-ledger.json",
+      "campaign_id": "pica_campaign_exp120_discovery_grade",
+      "run_id": "point_exp120_discovery_grade_seed0__seed_0"
+    }
+  ],
+  "schema_version": "pica-export-bundle.v1"
+}

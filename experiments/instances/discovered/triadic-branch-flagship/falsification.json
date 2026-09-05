@@ -1,0 +1,56 @@
+{
+  "falsification_format_version": "discovered-case-falsification.v1",
+  "falsification_id": "triadic_branch_flagship_falsification",
+  "selected_case": {
+    "case_id": "triadic_branch_multilens_seed123",
+    "event_package_artifact": "experiments/instances/discovered/triadic-branch-flagship/event-package.json",
+    "package_provenance_artifact": "experiments/instances/discovered/triadic-branch-flagship/package-provenance.json",
+    "raw_run_artifact": "experiments/instances/discovered/triadic-branch-flagship/raw-run.json",
+    "discovered_context_family_artifact": "experiments/instances/discovered/triadic-branch-flagship/discovered-context-family.json",
+    "shared_event_candidates_artifact": "experiments/instances/discovered/triadic-branch-flagship/shared-event-candidates.json",
+    "source_config_artifact": "experiments/configs/substrates/triadic-branch.json",
+    "selection_artifact": "experiments/instances/discovered/triadic-branch-flagship/selection.json"
+  },
+  "baseline_evaluation": {
+    "preparation_id": "prep0",
+    "protocol_id": "branch_hold_hold",
+    "trajectories": 30,
+    "seed": 123,
+    "event_basis_mode": "singleton_plus_small_unions",
+    "max_union_size": 2
+  },
+  "hidden_record": {
+    "applicable": false,
+    "intervention_artifact": null,
+    "reason": "selected_case_has_no_committed_route-residue hidden-record split semantics"
+  },
+  "flattening": {
+    "applicable": false,
+    "intervention_artifact": null,
+    "reason": "selected_case_has_no_committed_completion-policy flattening semantics"
+  },
+  "robustness": {
+    "noise_grid": [
+      0.0,
+      0.05,
+      0.1,
+      0.2,
+      0.3
+    ],
+    "noise_model": {
+      "base_seed": 1234,
+      "distribution_model": "independent_jitter_mix_v1",
+      "ccd_model": "singleton_corruption_v1"
+    },
+    "metric_thresholds": {
+      "gpd_stat_failure_threshold": 0.1,
+      "ccd_failure_threshold": 0.1,
+      "sec_failure_threshold": 0.1,
+      "rm_failure_threshold": 0.1
+    }
+  },
+  "verdict_rule_version": "discovered-case-falsification.v1",
+  "metadata": {
+    "selected_from_t31": true
+  }
+}

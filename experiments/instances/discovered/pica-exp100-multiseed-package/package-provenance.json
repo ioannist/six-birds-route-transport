@@ -1,0 +1,1092 @@
+{
+  "context_entries": [
+    {
+      "ancestor_context_id": null,
+      "context_id": "ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_2_closure_baseline_k_2_lens_p4_k_2_protocol_pica_multiscale_scan_step_0",
+      "notes": [],
+      "origin_kind": "derived_context",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/pica-exp100-multiseed-contexts/discovered-context-family.json",
+          "pica_ref": null,
+          "source_item_id": "ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_2_closure_baseline_k_2_lens_p4_k_2_protocol_pica_multiscale_scan_step_0",
+          "source_kind": "derived_context"
+        }
+      ]
+    },
+    {
+      "ancestor_context_id": null,
+      "context_id": "ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_4_closure_baseline_k_4_lens_p4_k_4_protocol_pica_multiscale_scan_step_1",
+      "notes": [],
+      "origin_kind": "derived_context",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/pica-exp100-multiseed-contexts/discovered-context-family.json",
+          "pica_ref": null,
+          "source_item_id": "ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_4_closure_baseline_k_4_lens_p4_k_4_protocol_pica_multiscale_scan_step_1",
+          "source_kind": "derived_context"
+        }
+      ]
+    },
+    {
+      "ancestor_context_id": null,
+      "context_id": "ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_8_closure_baseline_k_8_lens_p4_k_8_protocol_pica_multiscale_scan_step_2",
+      "notes": [],
+      "origin_kind": "derived_context",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/pica-exp100-multiseed-contexts/discovered-context-family.json",
+          "pica_ref": null,
+          "source_item_id": "ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_8_closure_baseline_k_8_lens_p4_k_8_protocol_pica_multiscale_scan_step_2",
+          "source_kind": "derived_context"
+        }
+      ]
+    }
+  ],
+  "event_entries": [
+    {
+      "ancestor_event_id": null,
+      "event_id": "event_ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_2_closure_baseline_k_2_lens_p4_k_2_protocol_pica_multiscale_scan_step_0_atom_macro_gap__0_35_to_0_5_1",
+      "notes": [
+        "event_kind:singleton",
+        "event_algebra_mode:full_powerset"
+      ],
+      "origin_kind": "derived_event",
+      "refinement": null,
+      "source_atom_ids": [
+        "atom_macro_gap__0_35_to_0_5_1"
+      ],
+      "source_context_id": "ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_2_closure_baseline_k_2_lens_p4_k_2_protocol_pica_multiscale_scan_step_0",
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/pica-exp100-multiseed-package/discovered-event-family.json",
+          "pica_ref": null,
+          "source_item_id": "event_ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_2_closure_baseline_k_2_lens_p4_k_2_protocol_pica_multiscale_scan_step_0_atom_macro_gap__0_35_to_0_5_1",
+          "source_kind": "derived_event_basis"
+        },
+        {
+          "artifact": "results/search/20260327T130000Z--pica_targeted_obstruction/derived/bundles/exp100_baseline_multiseed/pica-export-bundle.json",
+          "pica_ref": {
+            "campaign_id": "exp100_baseline_multiseed_campaign",
+            "closure_id": "closure_baseline_k_2",
+            "export_bundle_id": "exp100_baseline_multiseed_bundle",
+            "lens_id": "lens_p4_k_2",
+            "level_id": "level_l0",
+            "observable_ledger_id": "observable_ledger_point_exp100_baseline_seed0__seed_0",
+            "preparation_id": "prep_pica_default",
+            "protocol_id": "protocol_pica_multiscale_scan",
+            "protocol_step_id": "protocol_pica_multiscale_scan_step_0",
+            "resolution_id": "resolution_k_2",
+            "run_id": "point_exp100_baseline_seed0__seed_0",
+            "source_row_filters": {},
+            "step_index": 0
+          },
+          "source_item_id": "ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_2_closure_baseline_k_2_lens_p4_k_2_protocol_pica_multiscale_scan_step_0",
+          "source_kind": "pica_export_bundle"
+        },
+        {
+          "artifact": "experiments/instances/discovered/pica-exp100-multiseed-contexts/discovered-context-family.json",
+          "pica_ref": null,
+          "source_item_id": "ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_2_closure_baseline_k_2_lens_p4_k_2_protocol_pica_multiscale_scan_step_0::atom_macro_gap__0_35_to_0_5_1",
+          "source_kind": "derived_atomic_outcome"
+        }
+      ]
+    },
+    {
+      "ancestor_event_id": null,
+      "event_id": "event_ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_2_closure_baseline_k_2_lens_p4_k_2_protocol_pica_multiscale_scan_step_0_atom_macro_gap__0_5_to_0_65_2",
+      "notes": [
+        "event_kind:singleton",
+        "event_algebra_mode:full_powerset"
+      ],
+      "origin_kind": "derived_event",
+      "refinement": null,
+      "source_atom_ids": [
+        "atom_macro_gap__0_5_to_0_65_2"
+      ],
+      "source_context_id": "ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_2_closure_baseline_k_2_lens_p4_k_2_protocol_pica_multiscale_scan_step_0",
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/pica-exp100-multiseed-package/discovered-event-family.json",
+          "pica_ref": null,
+          "source_item_id": "event_ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_2_closure_baseline_k_2_lens_p4_k_2_protocol_pica_multiscale_scan_step_0_atom_macro_gap__0_5_to_0_65_2",
+          "source_kind": "derived_event_basis"
+        },
+        {
+          "artifact": "results/search/20260327T130000Z--pica_targeted_obstruction/derived/bundles/exp100_baseline_multiseed/pica-export-bundle.json",
+          "pica_ref": {
+            "campaign_id": "exp100_baseline_multiseed_campaign",
+            "closure_id": "closure_baseline_k_2",
+            "export_bundle_id": "exp100_baseline_multiseed_bundle",
+            "lens_id": "lens_p4_k_2",
+            "level_id": "level_l0",
+            "observable_ledger_id": "observable_ledger_point_exp100_baseline_seed0__seed_0",
+            "preparation_id": "prep_pica_default",
+            "protocol_id": "protocol_pica_multiscale_scan",
+            "protocol_step_id": "protocol_pica_multiscale_scan_step_0",
+            "resolution_id": "resolution_k_2",
+            "run_id": "point_exp100_baseline_seed0__seed_0",
+            "source_row_filters": {},
+            "step_index": 0
+          },
+          "source_item_id": "ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_2_closure_baseline_k_2_lens_p4_k_2_protocol_pica_multiscale_scan_step_0",
+          "source_kind": "pica_export_bundle"
+        },
+        {
+          "artifact": "experiments/instances/discovered/pica-exp100-multiseed-contexts/discovered-context-family.json",
+          "pica_ref": null,
+          "source_item_id": "ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_2_closure_baseline_k_2_lens_p4_k_2_protocol_pica_multiscale_scan_step_0::atom_macro_gap__0_5_to_0_65_2",
+          "source_kind": "derived_atomic_outcome"
+        }
+      ]
+    },
+    {
+      "ancestor_event_id": null,
+      "event_id": "event_ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_2_closure_baseline_k_2_lens_p4_k_2_protocol_pica_multiscale_scan_step_0_atom_macro_gap__ge_0_65_3",
+      "notes": [
+        "event_kind:singleton",
+        "event_algebra_mode:full_powerset"
+      ],
+      "origin_kind": "derived_event",
+      "refinement": null,
+      "source_atom_ids": [
+        "atom_macro_gap__ge_0_65_3"
+      ],
+      "source_context_id": "ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_2_closure_baseline_k_2_lens_p4_k_2_protocol_pica_multiscale_scan_step_0",
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/pica-exp100-multiseed-package/discovered-event-family.json",
+          "pica_ref": null,
+          "source_item_id": "event_ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_2_closure_baseline_k_2_lens_p4_k_2_protocol_pica_multiscale_scan_step_0_atom_macro_gap__ge_0_65_3",
+          "source_kind": "derived_event_basis"
+        },
+        {
+          "artifact": "results/search/20260327T130000Z--pica_targeted_obstruction/derived/bundles/exp100_baseline_multiseed/pica-export-bundle.json",
+          "pica_ref": {
+            "campaign_id": "exp100_baseline_multiseed_campaign",
+            "closure_id": "closure_baseline_k_2",
+            "export_bundle_id": "exp100_baseline_multiseed_bundle",
+            "lens_id": "lens_p4_k_2",
+            "level_id": "level_l0",
+            "observable_ledger_id": "observable_ledger_point_exp100_baseline_seed0__seed_0",
+            "preparation_id": "prep_pica_default",
+            "protocol_id": "protocol_pica_multiscale_scan",
+            "protocol_step_id": "protocol_pica_multiscale_scan_step_0",
+            "resolution_id": "resolution_k_2",
+            "run_id": "point_exp100_baseline_seed0__seed_0",
+            "source_row_filters": {},
+            "step_index": 0
+          },
+          "source_item_id": "ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_2_closure_baseline_k_2_lens_p4_k_2_protocol_pica_multiscale_scan_step_0",
+          "source_kind": "pica_export_bundle"
+        },
+        {
+          "artifact": "experiments/instances/discovered/pica-exp100-multiseed-contexts/discovered-context-family.json",
+          "pica_ref": null,
+          "source_item_id": "ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_2_closure_baseline_k_2_lens_p4_k_2_protocol_pica_multiscale_scan_step_0::atom_macro_gap__ge_0_65_3",
+          "source_kind": "derived_atomic_outcome"
+        }
+      ]
+    },
+    {
+      "ancestor_event_id": null,
+      "event_id": "event_ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_4_closure_baseline_k_4_lens_p4_k_4_protocol_pica_multiscale_scan_step_1_atom_macro_gap__0_35_to_0_5_1",
+      "notes": [
+        "event_kind:singleton",
+        "event_algebra_mode:full_powerset"
+      ],
+      "origin_kind": "derived_event",
+      "refinement": null,
+      "source_atom_ids": [
+        "atom_macro_gap__0_35_to_0_5_1"
+      ],
+      "source_context_id": "ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_4_closure_baseline_k_4_lens_p4_k_4_protocol_pica_multiscale_scan_step_1",
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/pica-exp100-multiseed-package/discovered-event-family.json",
+          "pica_ref": null,
+          "source_item_id": "event_ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_4_closure_baseline_k_4_lens_p4_k_4_protocol_pica_multiscale_scan_step_1_atom_macro_gap__0_35_to_0_5_1",
+          "source_kind": "derived_event_basis"
+        },
+        {
+          "artifact": "results/search/20260327T130000Z--pica_targeted_obstruction/derived/bundles/exp100_baseline_multiseed/pica-export-bundle.json",
+          "pica_ref": {
+            "campaign_id": "exp100_baseline_multiseed_campaign",
+            "closure_id": "closure_baseline_k_4",
+            "export_bundle_id": "exp100_baseline_multiseed_bundle",
+            "lens_id": "lens_p4_k_4",
+            "level_id": "level_l0",
+            "observable_ledger_id": "observable_ledger_point_exp100_baseline_seed0__seed_0",
+            "preparation_id": "prep_pica_default",
+            "protocol_id": "protocol_pica_multiscale_scan",
+            "protocol_step_id": "protocol_pica_multiscale_scan_step_1",
+            "resolution_id": "resolution_k_4",
+            "run_id": "point_exp100_baseline_seed0__seed_0",
+            "source_row_filters": {},
+            "step_index": 1
+          },
+          "source_item_id": "ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_4_closure_baseline_k_4_lens_p4_k_4_protocol_pica_multiscale_scan_step_1",
+          "source_kind": "pica_export_bundle"
+        },
+        {
+          "artifact": "experiments/instances/discovered/pica-exp100-multiseed-contexts/discovered-context-family.json",
+          "pica_ref": null,
+          "source_item_id": "ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_4_closure_baseline_k_4_lens_p4_k_4_protocol_pica_multiscale_scan_step_1::atom_macro_gap__0_35_to_0_5_1",
+          "source_kind": "derived_atomic_outcome"
+        }
+      ]
+    },
+    {
+      "ancestor_event_id": null,
+      "event_id": "event_ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_4_closure_baseline_k_4_lens_p4_k_4_protocol_pica_multiscale_scan_step_1_atom_macro_gap__ge_0_65_2",
+      "notes": [
+        "event_kind:singleton",
+        "event_algebra_mode:full_powerset"
+      ],
+      "origin_kind": "derived_event",
+      "refinement": null,
+      "source_atom_ids": [
+        "atom_macro_gap__ge_0_65_2"
+      ],
+      "source_context_id": "ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_4_closure_baseline_k_4_lens_p4_k_4_protocol_pica_multiscale_scan_step_1",
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/pica-exp100-multiseed-package/discovered-event-family.json",
+          "pica_ref": null,
+          "source_item_id": "event_ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_4_closure_baseline_k_4_lens_p4_k_4_protocol_pica_multiscale_scan_step_1_atom_macro_gap__ge_0_65_2",
+          "source_kind": "derived_event_basis"
+        },
+        {
+          "artifact": "results/search/20260327T130000Z--pica_targeted_obstruction/derived/bundles/exp100_baseline_multiseed/pica-export-bundle.json",
+          "pica_ref": {
+            "campaign_id": "exp100_baseline_multiseed_campaign",
+            "closure_id": "closure_baseline_k_4",
+            "export_bundle_id": "exp100_baseline_multiseed_bundle",
+            "lens_id": "lens_p4_k_4",
+            "level_id": "level_l0",
+            "observable_ledger_id": "observable_ledger_point_exp100_baseline_seed0__seed_0",
+            "preparation_id": "prep_pica_default",
+            "protocol_id": "protocol_pica_multiscale_scan",
+            "protocol_step_id": "protocol_pica_multiscale_scan_step_1",
+            "resolution_id": "resolution_k_4",
+            "run_id": "point_exp100_baseline_seed0__seed_0",
+            "source_row_filters": {},
+            "step_index": 1
+          },
+          "source_item_id": "ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_4_closure_baseline_k_4_lens_p4_k_4_protocol_pica_multiscale_scan_step_1",
+          "source_kind": "pica_export_bundle"
+        },
+        {
+          "artifact": "experiments/instances/discovered/pica-exp100-multiseed-contexts/discovered-context-family.json",
+          "pica_ref": null,
+          "source_item_id": "ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_4_closure_baseline_k_4_lens_p4_k_4_protocol_pica_multiscale_scan_step_1::atom_macro_gap__ge_0_65_2",
+          "source_kind": "derived_atomic_outcome"
+        }
+      ]
+    },
+    {
+      "ancestor_event_id": null,
+      "event_id": "event_ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_4_closure_baseline_k_4_lens_p4_k_4_protocol_pica_multiscale_scan_step_1_atom_macro_gap__neg_inf_to_0_35_3",
+      "notes": [
+        "event_kind:singleton",
+        "event_algebra_mode:full_powerset"
+      ],
+      "origin_kind": "derived_event",
+      "refinement": null,
+      "source_atom_ids": [
+        "atom_macro_gap__neg_inf_to_0_35_3"
+      ],
+      "source_context_id": "ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_4_closure_baseline_k_4_lens_p4_k_4_protocol_pica_multiscale_scan_step_1",
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/pica-exp100-multiseed-package/discovered-event-family.json",
+          "pica_ref": null,
+          "source_item_id": "event_ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_4_closure_baseline_k_4_lens_p4_k_4_protocol_pica_multiscale_scan_step_1_atom_macro_gap__neg_inf_to_0_35_3",
+          "source_kind": "derived_event_basis"
+        },
+        {
+          "artifact": "results/search/20260327T130000Z--pica_targeted_obstruction/derived/bundles/exp100_baseline_multiseed/pica-export-bundle.json",
+          "pica_ref": {
+            "campaign_id": "exp100_baseline_multiseed_campaign",
+            "closure_id": "closure_baseline_k_4",
+            "export_bundle_id": "exp100_baseline_multiseed_bundle",
+            "lens_id": "lens_p4_k_4",
+            "level_id": "level_l0",
+            "observable_ledger_id": "observable_ledger_point_exp100_baseline_seed0__seed_0",
+            "preparation_id": "prep_pica_default",
+            "protocol_id": "protocol_pica_multiscale_scan",
+            "protocol_step_id": "protocol_pica_multiscale_scan_step_1",
+            "resolution_id": "resolution_k_4",
+            "run_id": "point_exp100_baseline_seed0__seed_0",
+            "source_row_filters": {},
+            "step_index": 1
+          },
+          "source_item_id": "ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_4_closure_baseline_k_4_lens_p4_k_4_protocol_pica_multiscale_scan_step_1",
+          "source_kind": "pica_export_bundle"
+        },
+        {
+          "artifact": "experiments/instances/discovered/pica-exp100-multiseed-contexts/discovered-context-family.json",
+          "pica_ref": null,
+          "source_item_id": "ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_4_closure_baseline_k_4_lens_p4_k_4_protocol_pica_multiscale_scan_step_1::atom_macro_gap__neg_inf_to_0_35_3",
+          "source_kind": "derived_atomic_outcome"
+        }
+      ]
+    },
+    {
+      "ancestor_event_id": null,
+      "event_id": "event_ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_8_closure_baseline_k_8_lens_p4_k_8_protocol_pica_multiscale_scan_step_2_atom_macro_gap__0_5_to_0_65_1",
+      "notes": [
+        "event_kind:singleton",
+        "event_algebra_mode:full_powerset"
+      ],
+      "origin_kind": "derived_event",
+      "refinement": null,
+      "source_atom_ids": [
+        "atom_macro_gap__0_5_to_0_65_1"
+      ],
+      "source_context_id": "ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_8_closure_baseline_k_8_lens_p4_k_8_protocol_pica_multiscale_scan_step_2",
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/pica-exp100-multiseed-package/discovered-event-family.json",
+          "pica_ref": null,
+          "source_item_id": "event_ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_8_closure_baseline_k_8_lens_p4_k_8_protocol_pica_multiscale_scan_step_2_atom_macro_gap__0_5_to_0_65_1",
+          "source_kind": "derived_event_basis"
+        },
+        {
+          "artifact": "results/search/20260327T130000Z--pica_targeted_obstruction/derived/bundles/exp100_baseline_multiseed/pica-export-bundle.json",
+          "pica_ref": {
+            "campaign_id": "exp100_baseline_multiseed_campaign",
+            "closure_id": "closure_baseline_k_8",
+            "export_bundle_id": "exp100_baseline_multiseed_bundle",
+            "lens_id": "lens_p4_k_8",
+            "level_id": "level_l0",
+            "observable_ledger_id": "observable_ledger_point_exp100_baseline_seed0__seed_0",
+            "preparation_id": "prep_pica_default",
+            "protocol_id": "protocol_pica_multiscale_scan",
+            "protocol_step_id": "protocol_pica_multiscale_scan_step_2",
+            "resolution_id": "resolution_k_8",
+            "run_id": "point_exp100_baseline_seed0__seed_0",
+            "source_row_filters": {},
+            "step_index": 2
+          },
+          "source_item_id": "ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_8_closure_baseline_k_8_lens_p4_k_8_protocol_pica_multiscale_scan_step_2",
+          "source_kind": "pica_export_bundle"
+        },
+        {
+          "artifact": "experiments/instances/discovered/pica-exp100-multiseed-contexts/discovered-context-family.json",
+          "pica_ref": null,
+          "source_item_id": "ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_8_closure_baseline_k_8_lens_p4_k_8_protocol_pica_multiscale_scan_step_2::atom_macro_gap__0_5_to_0_65_1",
+          "source_kind": "derived_atomic_outcome"
+        }
+      ]
+    },
+    {
+      "ancestor_event_id": null,
+      "event_id": "event_ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_8_closure_baseline_k_8_lens_p4_k_8_protocol_pica_multiscale_scan_step_2_atom_macro_gap__neg_inf_to_0_35_2",
+      "notes": [
+        "event_kind:singleton",
+        "event_algebra_mode:full_powerset"
+      ],
+      "origin_kind": "derived_event",
+      "refinement": null,
+      "source_atom_ids": [
+        "atom_macro_gap__neg_inf_to_0_35_2"
+      ],
+      "source_context_id": "ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_8_closure_baseline_k_8_lens_p4_k_8_protocol_pica_multiscale_scan_step_2",
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/pica-exp100-multiseed-package/discovered-event-family.json",
+          "pica_ref": null,
+          "source_item_id": "event_ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_8_closure_baseline_k_8_lens_p4_k_8_protocol_pica_multiscale_scan_step_2_atom_macro_gap__neg_inf_to_0_35_2",
+          "source_kind": "derived_event_basis"
+        },
+        {
+          "artifact": "results/search/20260327T130000Z--pica_targeted_obstruction/derived/bundles/exp100_baseline_multiseed/pica-export-bundle.json",
+          "pica_ref": {
+            "campaign_id": "exp100_baseline_multiseed_campaign",
+            "closure_id": "closure_baseline_k_8",
+            "export_bundle_id": "exp100_baseline_multiseed_bundle",
+            "lens_id": "lens_p4_k_8",
+            "level_id": "level_l0",
+            "observable_ledger_id": "observable_ledger_point_exp100_baseline_seed0__seed_0",
+            "preparation_id": "prep_pica_default",
+            "protocol_id": "protocol_pica_multiscale_scan",
+            "protocol_step_id": "protocol_pica_multiscale_scan_step_2",
+            "resolution_id": "resolution_k_8",
+            "run_id": "point_exp100_baseline_seed0__seed_0",
+            "source_row_filters": {},
+            "step_index": 2
+          },
+          "source_item_id": "ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_8_closure_baseline_k_8_lens_p4_k_8_protocol_pica_multiscale_scan_step_2",
+          "source_kind": "pica_export_bundle"
+        },
+        {
+          "artifact": "experiments/instances/discovered/pica-exp100-multiseed-contexts/discovered-context-family.json",
+          "pica_ref": null,
+          "source_item_id": "ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_8_closure_baseline_k_8_lens_p4_k_8_protocol_pica_multiscale_scan_step_2::atom_macro_gap__neg_inf_to_0_35_2",
+          "source_kind": "derived_atomic_outcome"
+        }
+      ]
+    },
+    {
+      "ancestor_event_id": null,
+      "event_id": "event_ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_2_closure_baseline_k_2_lens_p4_k_2_protocol_pica_multiscale_scan_step_0__empty",
+      "notes": [
+        "event_kind:empty",
+        "event_algebra_mode:full_powerset",
+        "empty_event_from_retained_atom_set"
+      ],
+      "origin_kind": "derived_event",
+      "refinement": null,
+      "source_atom_ids": [],
+      "source_context_id": "ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_2_closure_baseline_k_2_lens_p4_k_2_protocol_pica_multiscale_scan_step_0",
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/pica-exp100-multiseed-package/discovered-event-family.json",
+          "pica_ref": null,
+          "source_item_id": "event_ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_2_closure_baseline_k_2_lens_p4_k_2_protocol_pica_multiscale_scan_step_0__empty",
+          "source_kind": "derived_event_basis"
+        },
+        {
+          "artifact": "results/search/20260327T130000Z--pica_targeted_obstruction/derived/bundles/exp100_baseline_multiseed/pica-export-bundle.json",
+          "pica_ref": {
+            "campaign_id": "exp100_baseline_multiseed_campaign",
+            "closure_id": "closure_baseline_k_2",
+            "export_bundle_id": "exp100_baseline_multiseed_bundle",
+            "lens_id": "lens_p4_k_2",
+            "level_id": "level_l0",
+            "observable_ledger_id": "observable_ledger_point_exp100_baseline_seed0__seed_0",
+            "preparation_id": "prep_pica_default",
+            "protocol_id": "protocol_pica_multiscale_scan",
+            "protocol_step_id": "protocol_pica_multiscale_scan_step_0",
+            "resolution_id": "resolution_k_2",
+            "run_id": "point_exp100_baseline_seed0__seed_0",
+            "source_row_filters": {},
+            "step_index": 0
+          },
+          "source_item_id": "ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_2_closure_baseline_k_2_lens_p4_k_2_protocol_pica_multiscale_scan_step_0",
+          "source_kind": "pica_export_bundle"
+        }
+      ]
+    },
+    {
+      "ancestor_event_id": null,
+      "event_id": "event_ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_2_closure_baseline_k_2_lens_p4_k_2_protocol_pica_multiscale_scan_step_0__union__atom_macro_gap__0_35_to_0_5_1__atom_macro_gap__0_5_to_0_65_2",
+      "notes": [
+        "event_kind:proper_coarse",
+        "event_algebra_mode:full_powerset",
+        "coarse_event_union_of_retained_atoms"
+      ],
+      "origin_kind": "derived_event",
+      "refinement": null,
+      "source_atom_ids": [
+        "atom_macro_gap__0_35_to_0_5_1",
+        "atom_macro_gap__0_5_to_0_65_2"
+      ],
+      "source_context_id": "ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_2_closure_baseline_k_2_lens_p4_k_2_protocol_pica_multiscale_scan_step_0",
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/pica-exp100-multiseed-package/discovered-event-family.json",
+          "pica_ref": null,
+          "source_item_id": "event_ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_2_closure_baseline_k_2_lens_p4_k_2_protocol_pica_multiscale_scan_step_0__union__atom_macro_gap__0_35_to_0_5_1__atom_macro_gap__0_5_to_0_65_2",
+          "source_kind": "derived_event_basis"
+        },
+        {
+          "artifact": "results/search/20260327T130000Z--pica_targeted_obstruction/derived/bundles/exp100_baseline_multiseed/pica-export-bundle.json",
+          "pica_ref": {
+            "campaign_id": "exp100_baseline_multiseed_campaign",
+            "closure_id": "closure_baseline_k_2",
+            "export_bundle_id": "exp100_baseline_multiseed_bundle",
+            "lens_id": "lens_p4_k_2",
+            "level_id": "level_l0",
+            "observable_ledger_id": "observable_ledger_point_exp100_baseline_seed0__seed_0",
+            "preparation_id": "prep_pica_default",
+            "protocol_id": "protocol_pica_multiscale_scan",
+            "protocol_step_id": "protocol_pica_multiscale_scan_step_0",
+            "resolution_id": "resolution_k_2",
+            "run_id": "point_exp100_baseline_seed0__seed_0",
+            "source_row_filters": {},
+            "step_index": 0
+          },
+          "source_item_id": "ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_2_closure_baseline_k_2_lens_p4_k_2_protocol_pica_multiscale_scan_step_0",
+          "source_kind": "pica_export_bundle"
+        }
+      ]
+    },
+    {
+      "ancestor_event_id": null,
+      "event_id": "event_ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_2_closure_baseline_k_2_lens_p4_k_2_protocol_pica_multiscale_scan_step_0__union__atom_macro_gap__0_35_to_0_5_1__atom_macro_gap__ge_0_65_3",
+      "notes": [
+        "event_kind:proper_coarse",
+        "event_algebra_mode:full_powerset",
+        "coarse_event_union_of_retained_atoms"
+      ],
+      "origin_kind": "derived_event",
+      "refinement": null,
+      "source_atom_ids": [
+        "atom_macro_gap__0_35_to_0_5_1",
+        "atom_macro_gap__ge_0_65_3"
+      ],
+      "source_context_id": "ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_2_closure_baseline_k_2_lens_p4_k_2_protocol_pica_multiscale_scan_step_0",
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/pica-exp100-multiseed-package/discovered-event-family.json",
+          "pica_ref": null,
+          "source_item_id": "event_ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_2_closure_baseline_k_2_lens_p4_k_2_protocol_pica_multiscale_scan_step_0__union__atom_macro_gap__0_35_to_0_5_1__atom_macro_gap__ge_0_65_3",
+          "source_kind": "derived_event_basis"
+        },
+        {
+          "artifact": "results/search/20260327T130000Z--pica_targeted_obstruction/derived/bundles/exp100_baseline_multiseed/pica-export-bundle.json",
+          "pica_ref": {
+            "campaign_id": "exp100_baseline_multiseed_campaign",
+            "closure_id": "closure_baseline_k_2",
+            "export_bundle_id": "exp100_baseline_multiseed_bundle",
+            "lens_id": "lens_p4_k_2",
+            "level_id": "level_l0",
+            "observable_ledger_id": "observable_ledger_point_exp100_baseline_seed0__seed_0",
+            "preparation_id": "prep_pica_default",
+            "protocol_id": "protocol_pica_multiscale_scan",
+            "protocol_step_id": "protocol_pica_multiscale_scan_step_0",
+            "resolution_id": "resolution_k_2",
+            "run_id": "point_exp100_baseline_seed0__seed_0",
+            "source_row_filters": {},
+            "step_index": 0
+          },
+          "source_item_id": "ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_2_closure_baseline_k_2_lens_p4_k_2_protocol_pica_multiscale_scan_step_0",
+          "source_kind": "pica_export_bundle"
+        }
+      ]
+    },
+    {
+      "ancestor_event_id": null,
+      "event_id": "event_ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_2_closure_baseline_k_2_lens_p4_k_2_protocol_pica_multiscale_scan_step_0__union__atom_macro_gap__0_5_to_0_65_2__atom_macro_gap__ge_0_65_3",
+      "notes": [
+        "event_kind:proper_coarse",
+        "event_algebra_mode:full_powerset",
+        "coarse_event_union_of_retained_atoms"
+      ],
+      "origin_kind": "derived_event",
+      "refinement": null,
+      "source_atom_ids": [
+        "atom_macro_gap__0_5_to_0_65_2",
+        "atom_macro_gap__ge_0_65_3"
+      ],
+      "source_context_id": "ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_2_closure_baseline_k_2_lens_p4_k_2_protocol_pica_multiscale_scan_step_0",
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/pica-exp100-multiseed-package/discovered-event-family.json",
+          "pica_ref": null,
+          "source_item_id": "event_ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_2_closure_baseline_k_2_lens_p4_k_2_protocol_pica_multiscale_scan_step_0__union__atom_macro_gap__0_5_to_0_65_2__atom_macro_gap__ge_0_65_3",
+          "source_kind": "derived_event_basis"
+        },
+        {
+          "artifact": "results/search/20260327T130000Z--pica_targeted_obstruction/derived/bundles/exp100_baseline_multiseed/pica-export-bundle.json",
+          "pica_ref": {
+            "campaign_id": "exp100_baseline_multiseed_campaign",
+            "closure_id": "closure_baseline_k_2",
+            "export_bundle_id": "exp100_baseline_multiseed_bundle",
+            "lens_id": "lens_p4_k_2",
+            "level_id": "level_l0",
+            "observable_ledger_id": "observable_ledger_point_exp100_baseline_seed0__seed_0",
+            "preparation_id": "prep_pica_default",
+            "protocol_id": "protocol_pica_multiscale_scan",
+            "protocol_step_id": "protocol_pica_multiscale_scan_step_0",
+            "resolution_id": "resolution_k_2",
+            "run_id": "point_exp100_baseline_seed0__seed_0",
+            "source_row_filters": {},
+            "step_index": 0
+          },
+          "source_item_id": "ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_2_closure_baseline_k_2_lens_p4_k_2_protocol_pica_multiscale_scan_step_0",
+          "source_kind": "pica_export_bundle"
+        }
+      ]
+    },
+    {
+      "ancestor_event_id": null,
+      "event_id": "event_ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_2_closure_baseline_k_2_lens_p4_k_2_protocol_pica_multiscale_scan_step_0__full",
+      "notes": [
+        "event_kind:full",
+        "event_algebra_mode:full_powerset",
+        "full_event_from_retained_atom_set"
+      ],
+      "origin_kind": "derived_event",
+      "refinement": null,
+      "source_atom_ids": [
+        "atom_macro_gap__0_35_to_0_5_1",
+        "atom_macro_gap__0_5_to_0_65_2",
+        "atom_macro_gap__ge_0_65_3"
+      ],
+      "source_context_id": "ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_2_closure_baseline_k_2_lens_p4_k_2_protocol_pica_multiscale_scan_step_0",
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/pica-exp100-multiseed-package/discovered-event-family.json",
+          "pica_ref": null,
+          "source_item_id": "event_ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_2_closure_baseline_k_2_lens_p4_k_2_protocol_pica_multiscale_scan_step_0__full",
+          "source_kind": "derived_event_basis"
+        },
+        {
+          "artifact": "results/search/20260327T130000Z--pica_targeted_obstruction/derived/bundles/exp100_baseline_multiseed/pica-export-bundle.json",
+          "pica_ref": {
+            "campaign_id": "exp100_baseline_multiseed_campaign",
+            "closure_id": "closure_baseline_k_2",
+            "export_bundle_id": "exp100_baseline_multiseed_bundle",
+            "lens_id": "lens_p4_k_2",
+            "level_id": "level_l0",
+            "observable_ledger_id": "observable_ledger_point_exp100_baseline_seed0__seed_0",
+            "preparation_id": "prep_pica_default",
+            "protocol_id": "protocol_pica_multiscale_scan",
+            "protocol_step_id": "protocol_pica_multiscale_scan_step_0",
+            "resolution_id": "resolution_k_2",
+            "run_id": "point_exp100_baseline_seed0__seed_0",
+            "source_row_filters": {},
+            "step_index": 0
+          },
+          "source_item_id": "ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_2_closure_baseline_k_2_lens_p4_k_2_protocol_pica_multiscale_scan_step_0",
+          "source_kind": "pica_export_bundle"
+        }
+      ]
+    },
+    {
+      "ancestor_event_id": null,
+      "event_id": "event_ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_4_closure_baseline_k_4_lens_p4_k_4_protocol_pica_multiscale_scan_step_1__empty",
+      "notes": [
+        "event_kind:empty",
+        "event_algebra_mode:full_powerset",
+        "empty_event_from_retained_atom_set"
+      ],
+      "origin_kind": "derived_event",
+      "refinement": null,
+      "source_atom_ids": [],
+      "source_context_id": "ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_4_closure_baseline_k_4_lens_p4_k_4_protocol_pica_multiscale_scan_step_1",
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/pica-exp100-multiseed-package/discovered-event-family.json",
+          "pica_ref": null,
+          "source_item_id": "event_ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_4_closure_baseline_k_4_lens_p4_k_4_protocol_pica_multiscale_scan_step_1__empty",
+          "source_kind": "derived_event_basis"
+        },
+        {
+          "artifact": "results/search/20260327T130000Z--pica_targeted_obstruction/derived/bundles/exp100_baseline_multiseed/pica-export-bundle.json",
+          "pica_ref": {
+            "campaign_id": "exp100_baseline_multiseed_campaign",
+            "closure_id": "closure_baseline_k_4",
+            "export_bundle_id": "exp100_baseline_multiseed_bundle",
+            "lens_id": "lens_p4_k_4",
+            "level_id": "level_l0",
+            "observable_ledger_id": "observable_ledger_point_exp100_baseline_seed0__seed_0",
+            "preparation_id": "prep_pica_default",
+            "protocol_id": "protocol_pica_multiscale_scan",
+            "protocol_step_id": "protocol_pica_multiscale_scan_step_1",
+            "resolution_id": "resolution_k_4",
+            "run_id": "point_exp100_baseline_seed0__seed_0",
+            "source_row_filters": {},
+            "step_index": 1
+          },
+          "source_item_id": "ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_4_closure_baseline_k_4_lens_p4_k_4_protocol_pica_multiscale_scan_step_1",
+          "source_kind": "pica_export_bundle"
+        }
+      ]
+    },
+    {
+      "ancestor_event_id": null,
+      "event_id": "event_ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_4_closure_baseline_k_4_lens_p4_k_4_protocol_pica_multiscale_scan_step_1__union__atom_macro_gap__0_35_to_0_5_1__atom_macro_gap__ge_0_65_2",
+      "notes": [
+        "event_kind:proper_coarse",
+        "event_algebra_mode:full_powerset",
+        "coarse_event_union_of_retained_atoms"
+      ],
+      "origin_kind": "derived_event",
+      "refinement": null,
+      "source_atom_ids": [
+        "atom_macro_gap__0_35_to_0_5_1",
+        "atom_macro_gap__ge_0_65_2"
+      ],
+      "source_context_id": "ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_4_closure_baseline_k_4_lens_p4_k_4_protocol_pica_multiscale_scan_step_1",
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/pica-exp100-multiseed-package/discovered-event-family.json",
+          "pica_ref": null,
+          "source_item_id": "event_ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_4_closure_baseline_k_4_lens_p4_k_4_protocol_pica_multiscale_scan_step_1__union__atom_macro_gap__0_35_to_0_5_1__atom_macro_gap__ge_0_65_2",
+          "source_kind": "derived_event_basis"
+        },
+        {
+          "artifact": "results/search/20260327T130000Z--pica_targeted_obstruction/derived/bundles/exp100_baseline_multiseed/pica-export-bundle.json",
+          "pica_ref": {
+            "campaign_id": "exp100_baseline_multiseed_campaign",
+            "closure_id": "closure_baseline_k_4",
+            "export_bundle_id": "exp100_baseline_multiseed_bundle",
+            "lens_id": "lens_p4_k_4",
+            "level_id": "level_l0",
+            "observable_ledger_id": "observable_ledger_point_exp100_baseline_seed0__seed_0",
+            "preparation_id": "prep_pica_default",
+            "protocol_id": "protocol_pica_multiscale_scan",
+            "protocol_step_id": "protocol_pica_multiscale_scan_step_1",
+            "resolution_id": "resolution_k_4",
+            "run_id": "point_exp100_baseline_seed0__seed_0",
+            "source_row_filters": {},
+            "step_index": 1
+          },
+          "source_item_id": "ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_4_closure_baseline_k_4_lens_p4_k_4_protocol_pica_multiscale_scan_step_1",
+          "source_kind": "pica_export_bundle"
+        }
+      ]
+    },
+    {
+      "ancestor_event_id": null,
+      "event_id": "event_ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_4_closure_baseline_k_4_lens_p4_k_4_protocol_pica_multiscale_scan_step_1__union__atom_macro_gap__0_35_to_0_5_1__atom_macro_gap__neg_inf_to_0_35_3",
+      "notes": [
+        "event_kind:proper_coarse",
+        "event_algebra_mode:full_powerset",
+        "coarse_event_union_of_retained_atoms"
+      ],
+      "origin_kind": "derived_event",
+      "refinement": null,
+      "source_atom_ids": [
+        "atom_macro_gap__0_35_to_0_5_1",
+        "atom_macro_gap__neg_inf_to_0_35_3"
+      ],
+      "source_context_id": "ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_4_closure_baseline_k_4_lens_p4_k_4_protocol_pica_multiscale_scan_step_1",
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/pica-exp100-multiseed-package/discovered-event-family.json",
+          "pica_ref": null,
+          "source_item_id": "event_ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_4_closure_baseline_k_4_lens_p4_k_4_protocol_pica_multiscale_scan_step_1__union__atom_macro_gap__0_35_to_0_5_1__atom_macro_gap__neg_inf_to_0_35_3",
+          "source_kind": "derived_event_basis"
+        },
+        {
+          "artifact": "results/search/20260327T130000Z--pica_targeted_obstruction/derived/bundles/exp100_baseline_multiseed/pica-export-bundle.json",
+          "pica_ref": {
+            "campaign_id": "exp100_baseline_multiseed_campaign",
+            "closure_id": "closure_baseline_k_4",
+            "export_bundle_id": "exp100_baseline_multiseed_bundle",
+            "lens_id": "lens_p4_k_4",
+            "level_id": "level_l0",
+            "observable_ledger_id": "observable_ledger_point_exp100_baseline_seed0__seed_0",
+            "preparation_id": "prep_pica_default",
+            "protocol_id": "protocol_pica_multiscale_scan",
+            "protocol_step_id": "protocol_pica_multiscale_scan_step_1",
+            "resolution_id": "resolution_k_4",
+            "run_id": "point_exp100_baseline_seed0__seed_0",
+            "source_row_filters": {},
+            "step_index": 1
+          },
+          "source_item_id": "ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_4_closure_baseline_k_4_lens_p4_k_4_protocol_pica_multiscale_scan_step_1",
+          "source_kind": "pica_export_bundle"
+        }
+      ]
+    },
+    {
+      "ancestor_event_id": null,
+      "event_id": "event_ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_4_closure_baseline_k_4_lens_p4_k_4_protocol_pica_multiscale_scan_step_1__union__atom_macro_gap__ge_0_65_2__atom_macro_gap__neg_inf_to_0_35_3",
+      "notes": [
+        "event_kind:proper_coarse",
+        "event_algebra_mode:full_powerset",
+        "coarse_event_union_of_retained_atoms"
+      ],
+      "origin_kind": "derived_event",
+      "refinement": null,
+      "source_atom_ids": [
+        "atom_macro_gap__ge_0_65_2",
+        "atom_macro_gap__neg_inf_to_0_35_3"
+      ],
+      "source_context_id": "ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_4_closure_baseline_k_4_lens_p4_k_4_protocol_pica_multiscale_scan_step_1",
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/pica-exp100-multiseed-package/discovered-event-family.json",
+          "pica_ref": null,
+          "source_item_id": "event_ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_4_closure_baseline_k_4_lens_p4_k_4_protocol_pica_multiscale_scan_step_1__union__atom_macro_gap__ge_0_65_2__atom_macro_gap__neg_inf_to_0_35_3",
+          "source_kind": "derived_event_basis"
+        },
+        {
+          "artifact": "results/search/20260327T130000Z--pica_targeted_obstruction/derived/bundles/exp100_baseline_multiseed/pica-export-bundle.json",
+          "pica_ref": {
+            "campaign_id": "exp100_baseline_multiseed_campaign",
+            "closure_id": "closure_baseline_k_4",
+            "export_bundle_id": "exp100_baseline_multiseed_bundle",
+            "lens_id": "lens_p4_k_4",
+            "level_id": "level_l0",
+            "observable_ledger_id": "observable_ledger_point_exp100_baseline_seed0__seed_0",
+            "preparation_id": "prep_pica_default",
+            "protocol_id": "protocol_pica_multiscale_scan",
+            "protocol_step_id": "protocol_pica_multiscale_scan_step_1",
+            "resolution_id": "resolution_k_4",
+            "run_id": "point_exp100_baseline_seed0__seed_0",
+            "source_row_filters": {},
+            "step_index": 1
+          },
+          "source_item_id": "ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_4_closure_baseline_k_4_lens_p4_k_4_protocol_pica_multiscale_scan_step_1",
+          "source_kind": "pica_export_bundle"
+        }
+      ]
+    },
+    {
+      "ancestor_event_id": null,
+      "event_id": "event_ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_4_closure_baseline_k_4_lens_p4_k_4_protocol_pica_multiscale_scan_step_1__full",
+      "notes": [
+        "event_kind:full",
+        "event_algebra_mode:full_powerset",
+        "full_event_from_retained_atom_set"
+      ],
+      "origin_kind": "derived_event",
+      "refinement": null,
+      "source_atom_ids": [
+        "atom_macro_gap__0_35_to_0_5_1",
+        "atom_macro_gap__ge_0_65_2",
+        "atom_macro_gap__neg_inf_to_0_35_3"
+      ],
+      "source_context_id": "ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_4_closure_baseline_k_4_lens_p4_k_4_protocol_pica_multiscale_scan_step_1",
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/pica-exp100-multiseed-package/discovered-event-family.json",
+          "pica_ref": null,
+          "source_item_id": "event_ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_4_closure_baseline_k_4_lens_p4_k_4_protocol_pica_multiscale_scan_step_1__full",
+          "source_kind": "derived_event_basis"
+        },
+        {
+          "artifact": "results/search/20260327T130000Z--pica_targeted_obstruction/derived/bundles/exp100_baseline_multiseed/pica-export-bundle.json",
+          "pica_ref": {
+            "campaign_id": "exp100_baseline_multiseed_campaign",
+            "closure_id": "closure_baseline_k_4",
+            "export_bundle_id": "exp100_baseline_multiseed_bundle",
+            "lens_id": "lens_p4_k_4",
+            "level_id": "level_l0",
+            "observable_ledger_id": "observable_ledger_point_exp100_baseline_seed0__seed_0",
+            "preparation_id": "prep_pica_default",
+            "protocol_id": "protocol_pica_multiscale_scan",
+            "protocol_step_id": "protocol_pica_multiscale_scan_step_1",
+            "resolution_id": "resolution_k_4",
+            "run_id": "point_exp100_baseline_seed0__seed_0",
+            "source_row_filters": {},
+            "step_index": 1
+          },
+          "source_item_id": "ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_4_closure_baseline_k_4_lens_p4_k_4_protocol_pica_multiscale_scan_step_1",
+          "source_kind": "pica_export_bundle"
+        }
+      ]
+    },
+    {
+      "ancestor_event_id": null,
+      "event_id": "event_ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_8_closure_baseline_k_8_lens_p4_k_8_protocol_pica_multiscale_scan_step_2__empty",
+      "notes": [
+        "event_kind:empty",
+        "event_algebra_mode:full_powerset",
+        "empty_event_from_retained_atom_set"
+      ],
+      "origin_kind": "derived_event",
+      "refinement": null,
+      "source_atom_ids": [],
+      "source_context_id": "ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_8_closure_baseline_k_8_lens_p4_k_8_protocol_pica_multiscale_scan_step_2",
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/pica-exp100-multiseed-package/discovered-event-family.json",
+          "pica_ref": null,
+          "source_item_id": "event_ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_8_closure_baseline_k_8_lens_p4_k_8_protocol_pica_multiscale_scan_step_2__empty",
+          "source_kind": "derived_event_basis"
+        },
+        {
+          "artifact": "results/search/20260327T130000Z--pica_targeted_obstruction/derived/bundles/exp100_baseline_multiseed/pica-export-bundle.json",
+          "pica_ref": {
+            "campaign_id": "exp100_baseline_multiseed_campaign",
+            "closure_id": "closure_baseline_k_8",
+            "export_bundle_id": "exp100_baseline_multiseed_bundle",
+            "lens_id": "lens_p4_k_8",
+            "level_id": "level_l0",
+            "observable_ledger_id": "observable_ledger_point_exp100_baseline_seed0__seed_0",
+            "preparation_id": "prep_pica_default",
+            "protocol_id": "protocol_pica_multiscale_scan",
+            "protocol_step_id": "protocol_pica_multiscale_scan_step_2",
+            "resolution_id": "resolution_k_8",
+            "run_id": "point_exp100_baseline_seed0__seed_0",
+            "source_row_filters": {},
+            "step_index": 2
+          },
+          "source_item_id": "ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_8_closure_baseline_k_8_lens_p4_k_8_protocol_pica_multiscale_scan_step_2",
+          "source_kind": "pica_export_bundle"
+        }
+      ]
+    },
+    {
+      "ancestor_event_id": null,
+      "event_id": "event_ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_8_closure_baseline_k_8_lens_p4_k_8_protocol_pica_multiscale_scan_step_2__full",
+      "notes": [
+        "event_kind:full",
+        "event_algebra_mode:full_powerset",
+        "full_event_from_retained_atom_set"
+      ],
+      "origin_kind": "derived_event",
+      "refinement": null,
+      "source_atom_ids": [
+        "atom_macro_gap__0_5_to_0_65_1",
+        "atom_macro_gap__neg_inf_to_0_35_2"
+      ],
+      "source_context_id": "ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_8_closure_baseline_k_8_lens_p4_k_8_protocol_pica_multiscale_scan_step_2",
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/pica-exp100-multiseed-package/discovered-event-family.json",
+          "pica_ref": null,
+          "source_item_id": "event_ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_8_closure_baseline_k_8_lens_p4_k_8_protocol_pica_multiscale_scan_step_2__full",
+          "source_kind": "derived_event_basis"
+        },
+        {
+          "artifact": "results/search/20260327T130000Z--pica_targeted_obstruction/derived/bundles/exp100_baseline_multiseed/pica-export-bundle.json",
+          "pica_ref": {
+            "campaign_id": "exp100_baseline_multiseed_campaign",
+            "closure_id": "closure_baseline_k_8",
+            "export_bundle_id": "exp100_baseline_multiseed_bundle",
+            "lens_id": "lens_p4_k_8",
+            "level_id": "level_l0",
+            "observable_ledger_id": "observable_ledger_point_exp100_baseline_seed0__seed_0",
+            "preparation_id": "prep_pica_default",
+            "protocol_id": "protocol_pica_multiscale_scan",
+            "protocol_step_id": "protocol_pica_multiscale_scan_step_2",
+            "resolution_id": "resolution_k_8",
+            "run_id": "point_exp100_baseline_seed0__seed_0",
+            "source_row_filters": {},
+            "step_index": 2
+          },
+          "source_item_id": "ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_8_closure_baseline_k_8_lens_p4_k_8_protocol_pica_multiscale_scan_step_2",
+          "source_kind": "pica_export_bundle"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "event_algebra_mode": "full_powerset",
+    "event_basis_mode": "singleton_plus_small_unions",
+    "observable_only": true
+  },
+  "package_artifact": "experiments/instances/discovered/pica-exp100-multiseed-package/event-package.json",
+  "package_id": "inst_pica_exp100_multiseed",
+  "proposal_entries": [
+    {
+      "ancestor_proposal_id": null,
+      "notes": [
+        "inference_mode:structural_primary",
+        "left_event_id:event_ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_2_closure_baseline_k_2_lens_p4_k_2_protocol_pica_multiscale_scan_step_0__union__atom_macro_gap__0_35_to_0_5_1__atom_macro_gap__0_5_to_0_65_2",
+        "right_event_id:event_ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_4_closure_baseline_k_4_lens_p4_k_4_protocol_pica_multiscale_scan_step_1__union__atom_macro_gap__0_35_to_0_5_1__atom_macro_gap__neg_inf_to_0_35_3",
+        "common_probe_id:ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_8_closure_baseline_k_8_lens_p4_k_8_protocol_pica_multiscale_scan_step_2",
+        "left_source_atom_id:atom_macro_gap__0_35_to_0_5_1",
+        "left_source_atom_id:atom_macro_gap__0_5_to_0_65_2",
+        "right_source_atom_id:atom_macro_gap__0_35_to_0_5_1",
+        "right_source_atom_id:atom_macro_gap__neg_inf_to_0_35_3"
+      ],
+      "origin_kind": "derived_proposal",
+      "proposal_id": "proposal_event_ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_2_closure_baseline_k_2_lens_p4_k_2_protocol_pica_multiscale_scan_step_0__union__atom_macro_gap__0_35_to_0_5_1__atom_macro_gap__0_5_to_0_65_2__event_ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_4_closure_baseline_k_4_lens_p4_k_4_protocol_pica_multiscale_scan_step_1__union__atom_macro_gap__0_35_to_0_5_1__atom_macro_gap__neg_inf_to_0_35_3",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/pica-exp100-multiseed-package/shared-event-candidates.json",
+          "pica_ref": null,
+          "source_item_id": "proposal_event_ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_2_closure_baseline_k_2_lens_p4_k_2_protocol_pica_multiscale_scan_step_0__union__atom_macro_gap__0_35_to_0_5_1__atom_macro_gap__0_5_to_0_65_2__event_ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_4_closure_baseline_k_4_lens_p4_k_4_protocol_pica_multiscale_scan_step_1__union__atom_macro_gap__0_35_to_0_5_1__atom_macro_gap__neg_inf_to_0_35_3",
+          "source_kind": "derived_shared_event_match"
+        },
+        {
+          "artifact": "experiments/contracts/pica/pilot/exp100_multiseed/pica-export-bundle.json",
+          "pica_ref": null,
+          "source_item_id": null,
+          "source_kind": "pica_export_bundle"
+        }
+      ]
+    },
+    {
+      "ancestor_proposal_id": null,
+      "notes": [
+        "inference_mode:structural_primary",
+        "left_event_id:event_ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_2_closure_baseline_k_2_lens_p4_k_2_protocol_pica_multiscale_scan_step_0__union__atom_macro_gap__0_5_to_0_65_2__atom_macro_gap__ge_0_65_3",
+        "right_event_id:event_ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_4_closure_baseline_k_4_lens_p4_k_4_protocol_pica_multiscale_scan_step_1__union__atom_macro_gap__0_35_to_0_5_1__atom_macro_gap__ge_0_65_2",
+        "common_probe_id:ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_8_closure_baseline_k_8_lens_p4_k_8_protocol_pica_multiscale_scan_step_2",
+        "left_source_atom_id:atom_macro_gap__0_5_to_0_65_2",
+        "left_source_atom_id:atom_macro_gap__ge_0_65_3",
+        "right_source_atom_id:atom_macro_gap__0_35_to_0_5_1",
+        "right_source_atom_id:atom_macro_gap__ge_0_65_2"
+      ],
+      "origin_kind": "derived_proposal",
+      "proposal_id": "proposal_event_ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_2_closure_baseline_k_2_lens_p4_k_2_protocol_pica_multiscale_scan_step_0__union__atom_macro_gap__0_5_to_0_65_2__atom_macro_gap__ge_0_65_3__event_ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_4_closure_baseline_k_4_lens_p4_k_4_protocol_pica_multiscale_scan_step_1__union__atom_macro_gap__0_35_to_0_5_1__atom_macro_gap__ge_0_65_2",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/pica-exp100-multiseed-package/shared-event-candidates.json",
+          "pica_ref": null,
+          "source_item_id": "proposal_event_ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_2_closure_baseline_k_2_lens_p4_k_2_protocol_pica_multiscale_scan_step_0__union__atom_macro_gap__0_5_to_0_65_2__atom_macro_gap__ge_0_65_3__event_ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_4_closure_baseline_k_4_lens_p4_k_4_protocol_pica_multiscale_scan_step_1__union__atom_macro_gap__0_35_to_0_5_1__atom_macro_gap__ge_0_65_2",
+          "source_kind": "derived_shared_event_match"
+        },
+        {
+          "artifact": "experiments/contracts/pica/pilot/exp100_multiseed/pica-export-bundle.json",
+          "pica_ref": null,
+          "source_item_id": null,
+          "source_kind": "pica_export_bundle"
+        }
+      ]
+    },
+    {
+      "ancestor_proposal_id": null,
+      "notes": [
+        "inference_mode:structural_primary",
+        "left_event_id:event_ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_2_closure_baseline_k_2_lens_p4_k_2_protocol_pica_multiscale_scan_step_0__union__atom_macro_gap__0_5_to_0_65_2__atom_macro_gap__ge_0_65_3",
+        "right_event_id:event_ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_8_closure_baseline_k_8_lens_p4_k_8_protocol_pica_multiscale_scan_step_2_atom_macro_gap__0_5_to_0_65_1",
+        "common_probe_id:ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_4_closure_baseline_k_4_lens_p4_k_4_protocol_pica_multiscale_scan_step_1",
+        "left_source_atom_id:atom_macro_gap__0_5_to_0_65_2",
+        "left_source_atom_id:atom_macro_gap__ge_0_65_3",
+        "right_source_atom_id:atom_macro_gap__0_5_to_0_65_1"
+      ],
+      "origin_kind": "derived_proposal",
+      "proposal_id": "proposal_event_ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_2_closure_baseline_k_2_lens_p4_k_2_protocol_pica_multiscale_scan_step_0__union__atom_macro_gap__0_5_to_0_65_2__atom_macro_gap__ge_0_65_3__event_ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_8_closure_baseline_k_8_lens_p4_k_8_protocol_pica_multiscale_scan_step_2_atom_macro_gap__0_5_to_0_65_1",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/pica-exp100-multiseed-package/shared-event-candidates.json",
+          "pica_ref": null,
+          "source_item_id": "proposal_event_ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_2_closure_baseline_k_2_lens_p4_k_2_protocol_pica_multiscale_scan_step_0__union__atom_macro_gap__0_5_to_0_65_2__atom_macro_gap__ge_0_65_3__event_ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_8_closure_baseline_k_8_lens_p4_k_8_protocol_pica_multiscale_scan_step_2_atom_macro_gap__0_5_to_0_65_1",
+          "source_kind": "derived_shared_event_match"
+        },
+        {
+          "artifact": "experiments/contracts/pica/pilot/exp100_multiseed/pica-export-bundle.json",
+          "pica_ref": null,
+          "source_item_id": null,
+          "source_kind": "pica_export_bundle"
+        }
+      ]
+    },
+    {
+      "ancestor_proposal_id": null,
+      "notes": [
+        "inference_mode:structural_primary",
+        "left_event_id:event_ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_4_closure_baseline_k_4_lens_p4_k_4_protocol_pica_multiscale_scan_step_1__union__atom_macro_gap__0_35_to_0_5_1__atom_macro_gap__ge_0_65_2",
+        "right_event_id:event_ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_8_closure_baseline_k_8_lens_p4_k_8_protocol_pica_multiscale_scan_step_2_atom_macro_gap__0_5_to_0_65_1",
+        "common_probe_id:ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_2_closure_baseline_k_2_lens_p4_k_2_protocol_pica_multiscale_scan_step_0",
+        "left_source_atom_id:atom_macro_gap__0_35_to_0_5_1",
+        "left_source_atom_id:atom_macro_gap__ge_0_65_2",
+        "right_source_atom_id:atom_macro_gap__0_5_to_0_65_1"
+      ],
+      "origin_kind": "derived_proposal",
+      "proposal_id": "proposal_event_ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_4_closure_baseline_k_4_lens_p4_k_4_protocol_pica_multiscale_scan_step_1__union__atom_macro_gap__0_35_to_0_5_1__atom_macro_gap__ge_0_65_2__event_ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_8_closure_baseline_k_8_lens_p4_k_8_protocol_pica_multiscale_scan_step_2_atom_macro_gap__0_5_to_0_65_1",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/pica-exp100-multiseed-package/shared-event-candidates.json",
+          "pica_ref": null,
+          "source_item_id": "proposal_event_ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_4_closure_baseline_k_4_lens_p4_k_4_protocol_pica_multiscale_scan_step_1__union__atom_macro_gap__0_35_to_0_5_1__atom_macro_gap__ge_0_65_2__event_ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_8_closure_baseline_k_8_lens_p4_k_8_protocol_pica_multiscale_scan_step_2_atom_macro_gap__0_5_to_0_65_1",
+          "source_kind": "derived_shared_event_match"
+        },
+        {
+          "artifact": "experiments/contracts/pica/pilot/exp100_multiseed/pica-export-bundle.json",
+          "pica_ref": null,
+          "source_item_id": null,
+          "source_kind": "pica_export_bundle"
+        }
+      ]
+    }
+  ],
+  "provenance_format_version": "package-provenance.v1",
+  "provenance_mode": "derived",
+  "source_artifacts": {
+    "discovered_context_family": "experiments/instances/discovered/pica-exp100-multiseed-contexts/discovered-context-family.json",
+    "discovered_event_family": "experiments/instances/discovered/pica-exp100-multiseed-package/discovered-event-family.json",
+    "event_package_skeleton": "experiments/instances/discovered/pica-exp100-multiseed-contexts/event-package-skeleton.json",
+    "pica_export_bundle": "results/search/20260327T130000Z--pica_targeted_obstruction/derived/bundles/exp100_baseline_multiseed/pica-export-bundle.json",
+    "shared_event_candidates": "experiments/instances/discovered/pica-exp100-multiseed-package/shared-event-candidates.json"
+  }
+}

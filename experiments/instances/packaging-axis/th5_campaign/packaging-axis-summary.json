@@ -1,0 +1,87 @@
+{
+  "adequacy_floor_result": {
+    "adequate": true,
+    "checks": {
+      "admissible_built_package_count": true,
+      "points_with_accepted_proper_coarse_structural_proposals": true,
+      "points_with_dual_mode_difference": true,
+      "points_with_nontrivial_quotient_result_recorded": true,
+      "points_with_proper_coarse_events": true,
+      "points_with_same_support_packaging_divergent_pairs": true,
+      "total_point_count": true
+    },
+    "counts": {
+      "admissible_built_package_count": 3,
+      "points_with_accepted_proper_coarse_structural_proposals": 1,
+      "points_with_dual_mode_difference": 1,
+      "points_with_nontrivial_quotient_result_recorded": 3,
+      "points_with_proper_coarse_events": 3,
+      "points_with_same_support_packaging_divergent_pairs": 3,
+      "total_point_count": 3
+    }
+  },
+  "adequacy_floor_thresholds": {
+    "min_admissible_built_package_count": 2,
+    "min_points_with_accepted_proper_coarse_structural_proposals": 1,
+    "min_points_with_dual_mode_difference": 1,
+    "min_points_with_nontrivial_quotient_result_recorded": 1,
+    "min_points_with_proper_coarse_events": 1,
+    "min_points_with_same_support_packaging_divergent_pairs": 1,
+    "min_total_point_count": 3
+  },
+  "best_point_id": "packaging_cross_res_k4_k20",
+  "claim_level_note": "Packaging-axis findings hold mechanism and primary lens fixed while varying packaging branch/operator/family identity on the same support object, then evaluate quotient-backed global realization under the current admissibility rules.",
+  "counts_by_candidate_class": {
+    "strongly_nonextendable_candidate": 1,
+    "weakly_frustrated_candidate": 2
+  },
+  "counts_by_claim_level": {
+    "packaging_conflict_tension": 2,
+    "provenance_admissible_packaging_obstruction": 1
+  },
+  "counts_by_quotient_witness_status": {
+    "accepted_proposal_obstruction": 1,
+    "candidate_subset_quotient_witness": 2
+  },
+  "design_inadequate": false,
+  "fixed_lens_projection_refs": {
+    "fixed_lens_label": "obs_primary_observation_label",
+    "fixed_projection_family_ids": [
+      "obs_primary"
+    ]
+  },
+  "fixed_mechanism_configuration_refs": {
+    "fixed_mechanism_label": "exp104_p6_row_all_n64",
+    "pilot_config_artifact": "experiments/configs/pica/pilot-exp104-p6-row-all-n64.json",
+    "preparation_id": "prep_pica_default",
+    "protocol_id": "protocol_pica_multiscale_scan"
+  },
+  "negative_result": false,
+  "output_paths": {
+    "manifest": "results/search/20260330T191000Z--packaging_axis/run-manifest.json",
+    "note": "results/search/20260330T191000Z--packaging_axis/packaging-axis-note.md",
+    "outcome": "results/search/20260330T191000Z--packaging_axis/best-candidate.json",
+    "package_conflict_diagnostics": "results/search/20260330T191000Z--packaging_axis/package-conflict-diagnostics.json",
+    "packaging_family_admissibility": "results/search/20260330T191000Z--packaging_axis/derived/packaging-family-admissibility.json",
+    "quotient_feasibility_diagnostics": "results/search/20260330T191000Z--packaging_axis/quotient-feasibility-diagnostics.json",
+    "result_note": "results/search/20260330T191000Z--packaging_axis/result-note.json",
+    "summary": "results/search/20260330T191000Z--packaging_axis/packaging-axis-summary.json",
+    "table_csv": "results/search/20260330T191000Z--packaging_axis/packaging-axis.csv",
+    "table_json": "results/search/20260330T191000Z--packaging_axis/packaging-axis.json"
+  },
+  "packaging_surface_summary": {
+    "points_with_cross_resolution_packaging_pairs": [
+      "packaging_cross_res_k4_k20"
+    ],
+    "selected_packaging_family_count": 1,
+    "selected_packaging_operator_count": 1,
+    "selected_packaging_sources": [
+      "p5_from_p4"
+    ],
+    "selector_branch_outcome_counts": {
+      "pre_selector_branch": 8,
+      "selected_packaging_branch": 8
+    }
+  },
+  "search_id": "packaging_axis_th5"
+}

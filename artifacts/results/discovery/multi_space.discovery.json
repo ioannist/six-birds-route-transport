@@ -1,0 +1,86 @@
+{
+  "seed": 0,
+  "search_ids": [
+    "fixed_support_core_small",
+    "cyclic_memory_small",
+    "groupoid_probe_small"
+  ],
+  "entries": [
+    {
+      "search_id": "fixed_support_core_small",
+      "atlas_json_path": "artifacts/results/discovery/fixed_support_core_small.atlas.json",
+      "atlas_csv_path": "artifacts/tables/discovery_fixed_support_core_small.csv",
+      "atlas_note_path": "docs/results/fixed_support_core_small.atlas.md",
+      "shortlist_json_path": "artifacts/results/discovery/fixed_support_core_small.shortlist.json",
+      "shortlist_csv_path": "artifacts/tables/discovery_fixed_support_core_small_shortlist.csv",
+      "shortlist_note_path": "docs/results/fixed_support_core_small.shortlist.md",
+      "attempted_candidate_count": 64,
+      "realized_candidate_count": 4,
+      "evaluated_candidate_count": 4,
+      "flat_count": 4,
+      "dissipative_count": 0,
+      "coherent_candidate_count": 0,
+      "nonflat_count": 0,
+      "shortlist_count": 0,
+      "all_flat": true,
+      "productive": false,
+      "warnings": []
+    },
+    {
+      "search_id": "cyclic_memory_small",
+      "atlas_json_path": "artifacts/results/discovery/cyclic_memory_small.atlas.json",
+      "atlas_csv_path": "artifacts/tables/discovery_cyclic_memory_small.csv",
+      "atlas_note_path": "docs/results/cyclic_memory_small.atlas.md",
+      "shortlist_json_path": "artifacts/results/discovery/cyclic_memory_small.shortlist.json",
+      "shortlist_csv_path": "artifacts/tables/discovery_cyclic_memory_small_shortlist.csv",
+      "shortlist_note_path": "docs/results/cyclic_memory_small.shortlist.md",
+      "attempted_candidate_count": 64,
+      "realized_candidate_count": 8,
+      "evaluated_candidate_count": 8,
+      "flat_count": 0,
+      "dissipative_count": 0,
+      "coherent_candidate_count": 8,
+      "nonflat_count": 8,
+      "shortlist_count": 4,
+      "all_flat": false,
+      "productive": true,
+      "warnings": []
+    },
+    {
+      "search_id": "groupoid_probe_small",
+      "atlas_json_path": "artifacts/results/discovery/groupoid_probe_small.atlas.json",
+      "atlas_csv_path": "artifacts/tables/discovery_groupoid_probe_small.csv",
+      "atlas_note_path": "docs/results/groupoid_probe_small.atlas.md",
+      "shortlist_json_path": "artifacts/results/discovery/groupoid_probe_small.shortlist.json",
+      "shortlist_csv_path": "artifacts/tables/discovery_groupoid_probe_small_shortlist.csv",
+      "shortlist_note_path": "docs/results/groupoid_probe_small.shortlist.md",
+      "attempted_candidate_count": 32,
+      "realized_candidate_count": 8,
+      "evaluated_candidate_count": 8,
+      "flat_count": 4,
+      "dissipative_count": 0,
+      "coherent_candidate_count": 4,
+      "nonflat_count": 4,
+      "shortlist_count": 3,
+      "all_flat": false,
+      "productive": true,
+      "warnings": []
+    }
+  ],
+  "aggregate_class_counts": {
+    "flat": 8,
+    "dissipative": 0,
+    "coherent_candidate": 12
+  },
+  "aggregate_evaluated_candidate_count": 20,
+  "aggregate_nonflat_count": 12,
+  "aggregate_shortlist_count": 7,
+  "all_flat_space_ids": [
+    "fixed_support_core_small"
+  ],
+  "productive_space_ids": [
+    "cyclic_memory_small",
+    "groupoid_probe_small"
+  ],
+  "warnings": []
+}

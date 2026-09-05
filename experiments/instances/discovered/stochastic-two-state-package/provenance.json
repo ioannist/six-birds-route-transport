@@ -1,0 +1,2535 @@
+{
+  "context_entries": [
+    {
+      "ancestor_context_id": null,
+      "context_id": "ctx_prep0_flip6_bias_step0",
+      "notes": [],
+      "origin_kind": "derived_context",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/smoke/discovered-contexts/stochastic-two-state-contexts.json",
+          "source_item_id": "ctx_prep0_flip6_bias_step0",
+          "source_kind": "derived_context"
+        }
+      ]
+    },
+    {
+      "ancestor_context_id": null,
+      "context_id": "ctx_prep0_flip6_bias_step1",
+      "notes": [],
+      "origin_kind": "derived_context",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/smoke/discovered-contexts/stochastic-two-state-contexts.json",
+          "source_item_id": "ctx_prep0_flip6_bias_step1",
+          "source_kind": "derived_context"
+        }
+      ]
+    },
+    {
+      "ancestor_context_id": null,
+      "context_id": "ctx_prep0_flip6_bias_step2",
+      "notes": [],
+      "origin_kind": "derived_context",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/smoke/discovered-contexts/stochastic-two-state-contexts.json",
+          "source_item_id": "ctx_prep0_flip6_bias_step2",
+          "source_kind": "derived_context"
+        }
+      ]
+    },
+    {
+      "ancestor_context_id": null,
+      "context_id": "ctx_prep0_flip6_bias_step3",
+      "notes": [],
+      "origin_kind": "derived_context",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/smoke/discovered-contexts/stochastic-two-state-contexts.json",
+          "source_item_id": "ctx_prep0_flip6_bias_step3",
+          "source_kind": "derived_context"
+        }
+      ]
+    },
+    {
+      "ancestor_context_id": null,
+      "context_id": "ctx_prep0_flip6_bias_step4",
+      "notes": [],
+      "origin_kind": "derived_context",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/smoke/discovered-contexts/stochastic-two-state-contexts.json",
+          "source_item_id": "ctx_prep0_flip6_bias_step4",
+          "source_kind": "derived_context"
+        }
+      ]
+    },
+    {
+      "ancestor_context_id": null,
+      "context_id": "ctx_prep0_flip6_bias_step5",
+      "notes": [],
+      "origin_kind": "derived_context",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/smoke/discovered-contexts/stochastic-two-state-contexts.json",
+          "source_item_id": "ctx_prep0_flip6_bias_step5",
+          "source_kind": "derived_context"
+        }
+      ]
+    },
+    {
+      "ancestor_context_id": null,
+      "context_id": "ctx_prep0_flip6_occupancy_step0",
+      "notes": [],
+      "origin_kind": "derived_context",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/smoke/discovered-contexts/stochastic-two-state-contexts.json",
+          "source_item_id": "ctx_prep0_flip6_occupancy_step0",
+          "source_kind": "derived_context"
+        }
+      ]
+    },
+    {
+      "ancestor_context_id": null,
+      "context_id": "ctx_prep0_flip6_occupancy_step1",
+      "notes": [],
+      "origin_kind": "derived_context",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/smoke/discovered-contexts/stochastic-two-state-contexts.json",
+          "source_item_id": "ctx_prep0_flip6_occupancy_step1",
+          "source_kind": "derived_context"
+        }
+      ]
+    },
+    {
+      "ancestor_context_id": null,
+      "context_id": "ctx_prep0_flip6_occupancy_step2",
+      "notes": [],
+      "origin_kind": "derived_context",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/smoke/discovered-contexts/stochastic-two-state-contexts.json",
+          "source_item_id": "ctx_prep0_flip6_occupancy_step2",
+          "source_kind": "derived_context"
+        }
+      ]
+    },
+    {
+      "ancestor_context_id": null,
+      "context_id": "ctx_prep0_flip6_occupancy_step3",
+      "notes": [],
+      "origin_kind": "derived_context",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/smoke/discovered-contexts/stochastic-two-state-contexts.json",
+          "source_item_id": "ctx_prep0_flip6_occupancy_step3",
+          "source_kind": "derived_context"
+        }
+      ]
+    },
+    {
+      "ancestor_context_id": null,
+      "context_id": "ctx_prep0_flip6_occupancy_step4",
+      "notes": [],
+      "origin_kind": "derived_context",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/smoke/discovered-contexts/stochastic-two-state-contexts.json",
+          "source_item_id": "ctx_prep0_flip6_occupancy_step4",
+          "source_kind": "derived_context"
+        }
+      ]
+    },
+    {
+      "ancestor_context_id": null,
+      "context_id": "ctx_prep0_flip6_occupancy_step5",
+      "notes": [],
+      "origin_kind": "derived_context",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/smoke/discovered-contexts/stochastic-two-state-contexts.json",
+          "source_item_id": "ctx_prep0_flip6_occupancy_step5",
+          "source_kind": "derived_context"
+        }
+      ]
+    }
+  ],
+  "event_entries": [
+    {
+      "ancestor_event_id": null,
+      "event_id": "event_ctx_prep0_flip6_bias_step0_atom_cold_1",
+      "notes": [],
+      "origin_kind": "derived_event",
+      "refinement": null,
+      "source_atom_ids": [
+        "atom_cold_1"
+      ],
+      "source_context_id": "ctx_prep0_flip6_bias_step0",
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/stochastic-two-state-package/discovered-event-family.json",
+          "source_item_id": "event_ctx_prep0_flip6_bias_step0_atom_cold_1",
+          "source_kind": "derived_event_basis"
+        },
+        {
+          "artifact": "experiments/instances/smoke/substrate-runs/stochastic-two-state-seed123.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        },
+        {
+          "artifact": "experiments/instances/smoke/discovered-contexts/stochastic-two-state-contexts.json",
+          "source_item_id": "ctx_prep0_flip6_bias_step0::atom_cold_1",
+          "source_kind": "derived_atomic_outcome"
+        }
+      ]
+    },
+    {
+      "ancestor_event_id": null,
+      "event_id": "event_ctx_prep0_flip6_bias_step0_atom_hot_2",
+      "notes": [],
+      "origin_kind": "derived_event",
+      "refinement": null,
+      "source_atom_ids": [
+        "atom_hot_2"
+      ],
+      "source_context_id": "ctx_prep0_flip6_bias_step0",
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/stochastic-two-state-package/discovered-event-family.json",
+          "source_item_id": "event_ctx_prep0_flip6_bias_step0_atom_hot_2",
+          "source_kind": "derived_event_basis"
+        },
+        {
+          "artifact": "experiments/instances/smoke/substrate-runs/stochastic-two-state-seed123.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        },
+        {
+          "artifact": "experiments/instances/smoke/discovered-contexts/stochastic-two-state-contexts.json",
+          "source_item_id": "ctx_prep0_flip6_bias_step0::atom_hot_2",
+          "source_kind": "derived_atomic_outcome"
+        }
+      ]
+    },
+    {
+      "ancestor_event_id": null,
+      "event_id": "event_ctx_prep0_flip6_bias_step1_atom_cold_1",
+      "notes": [],
+      "origin_kind": "derived_event",
+      "refinement": null,
+      "source_atom_ids": [
+        "atom_cold_1"
+      ],
+      "source_context_id": "ctx_prep0_flip6_bias_step1",
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/stochastic-two-state-package/discovered-event-family.json",
+          "source_item_id": "event_ctx_prep0_flip6_bias_step1_atom_cold_1",
+          "source_kind": "derived_event_basis"
+        },
+        {
+          "artifact": "experiments/instances/smoke/substrate-runs/stochastic-two-state-seed123.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        },
+        {
+          "artifact": "experiments/instances/smoke/discovered-contexts/stochastic-two-state-contexts.json",
+          "source_item_id": "ctx_prep0_flip6_bias_step1::atom_cold_1",
+          "source_kind": "derived_atomic_outcome"
+        }
+      ]
+    },
+    {
+      "ancestor_event_id": null,
+      "event_id": "event_ctx_prep0_flip6_bias_step1_atom_hot_2",
+      "notes": [],
+      "origin_kind": "derived_event",
+      "refinement": null,
+      "source_atom_ids": [
+        "atom_hot_2"
+      ],
+      "source_context_id": "ctx_prep0_flip6_bias_step1",
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/stochastic-two-state-package/discovered-event-family.json",
+          "source_item_id": "event_ctx_prep0_flip6_bias_step1_atom_hot_2",
+          "source_kind": "derived_event_basis"
+        },
+        {
+          "artifact": "experiments/instances/smoke/substrate-runs/stochastic-two-state-seed123.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        },
+        {
+          "artifact": "experiments/instances/smoke/discovered-contexts/stochastic-two-state-contexts.json",
+          "source_item_id": "ctx_prep0_flip6_bias_step1::atom_hot_2",
+          "source_kind": "derived_atomic_outcome"
+        }
+      ]
+    },
+    {
+      "ancestor_event_id": null,
+      "event_id": "event_ctx_prep0_flip6_bias_step2_atom_cold_1",
+      "notes": [],
+      "origin_kind": "derived_event",
+      "refinement": null,
+      "source_atom_ids": [
+        "atom_cold_1"
+      ],
+      "source_context_id": "ctx_prep0_flip6_bias_step2",
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/stochastic-two-state-package/discovered-event-family.json",
+          "source_item_id": "event_ctx_prep0_flip6_bias_step2_atom_cold_1",
+          "source_kind": "derived_event_basis"
+        },
+        {
+          "artifact": "experiments/instances/smoke/substrate-runs/stochastic-two-state-seed123.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        },
+        {
+          "artifact": "experiments/instances/smoke/discovered-contexts/stochastic-two-state-contexts.json",
+          "source_item_id": "ctx_prep0_flip6_bias_step2::atom_cold_1",
+          "source_kind": "derived_atomic_outcome"
+        }
+      ]
+    },
+    {
+      "ancestor_event_id": null,
+      "event_id": "event_ctx_prep0_flip6_bias_step2_atom_hot_2",
+      "notes": [],
+      "origin_kind": "derived_event",
+      "refinement": null,
+      "source_atom_ids": [
+        "atom_hot_2"
+      ],
+      "source_context_id": "ctx_prep0_flip6_bias_step2",
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/stochastic-two-state-package/discovered-event-family.json",
+          "source_item_id": "event_ctx_prep0_flip6_bias_step2_atom_hot_2",
+          "source_kind": "derived_event_basis"
+        },
+        {
+          "artifact": "experiments/instances/smoke/substrate-runs/stochastic-two-state-seed123.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        },
+        {
+          "artifact": "experiments/instances/smoke/discovered-contexts/stochastic-two-state-contexts.json",
+          "source_item_id": "ctx_prep0_flip6_bias_step2::atom_hot_2",
+          "source_kind": "derived_atomic_outcome"
+        }
+      ]
+    },
+    {
+      "ancestor_event_id": null,
+      "event_id": "event_ctx_prep0_flip6_bias_step3_atom_cold_1",
+      "notes": [],
+      "origin_kind": "derived_event",
+      "refinement": null,
+      "source_atom_ids": [
+        "atom_cold_1"
+      ],
+      "source_context_id": "ctx_prep0_flip6_bias_step3",
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/stochastic-two-state-package/discovered-event-family.json",
+          "source_item_id": "event_ctx_prep0_flip6_bias_step3_atom_cold_1",
+          "source_kind": "derived_event_basis"
+        },
+        {
+          "artifact": "experiments/instances/smoke/substrate-runs/stochastic-two-state-seed123.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        },
+        {
+          "artifact": "experiments/instances/smoke/discovered-contexts/stochastic-two-state-contexts.json",
+          "source_item_id": "ctx_prep0_flip6_bias_step3::atom_cold_1",
+          "source_kind": "derived_atomic_outcome"
+        }
+      ]
+    },
+    {
+      "ancestor_event_id": null,
+      "event_id": "event_ctx_prep0_flip6_bias_step3_atom_hot_2",
+      "notes": [],
+      "origin_kind": "derived_event",
+      "refinement": null,
+      "source_atom_ids": [
+        "atom_hot_2"
+      ],
+      "source_context_id": "ctx_prep0_flip6_bias_step3",
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/stochastic-two-state-package/discovered-event-family.json",
+          "source_item_id": "event_ctx_prep0_flip6_bias_step3_atom_hot_2",
+          "source_kind": "derived_event_basis"
+        },
+        {
+          "artifact": "experiments/instances/smoke/substrate-runs/stochastic-two-state-seed123.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        },
+        {
+          "artifact": "experiments/instances/smoke/discovered-contexts/stochastic-two-state-contexts.json",
+          "source_item_id": "ctx_prep0_flip6_bias_step3::atom_hot_2",
+          "source_kind": "derived_atomic_outcome"
+        }
+      ]
+    },
+    {
+      "ancestor_event_id": null,
+      "event_id": "event_ctx_prep0_flip6_bias_step4_atom_cold_1",
+      "notes": [],
+      "origin_kind": "derived_event",
+      "refinement": null,
+      "source_atom_ids": [
+        "atom_cold_1"
+      ],
+      "source_context_id": "ctx_prep0_flip6_bias_step4",
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/stochastic-two-state-package/discovered-event-family.json",
+          "source_item_id": "event_ctx_prep0_flip6_bias_step4_atom_cold_1",
+          "source_kind": "derived_event_basis"
+        },
+        {
+          "artifact": "experiments/instances/smoke/substrate-runs/stochastic-two-state-seed123.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        },
+        {
+          "artifact": "experiments/instances/smoke/discovered-contexts/stochastic-two-state-contexts.json",
+          "source_item_id": "ctx_prep0_flip6_bias_step4::atom_cold_1",
+          "source_kind": "derived_atomic_outcome"
+        }
+      ]
+    },
+    {
+      "ancestor_event_id": null,
+      "event_id": "event_ctx_prep0_flip6_bias_step4_atom_hot_2",
+      "notes": [],
+      "origin_kind": "derived_event",
+      "refinement": null,
+      "source_atom_ids": [
+        "atom_hot_2"
+      ],
+      "source_context_id": "ctx_prep0_flip6_bias_step4",
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/stochastic-two-state-package/discovered-event-family.json",
+          "source_item_id": "event_ctx_prep0_flip6_bias_step4_atom_hot_2",
+          "source_kind": "derived_event_basis"
+        },
+        {
+          "artifact": "experiments/instances/smoke/substrate-runs/stochastic-two-state-seed123.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        },
+        {
+          "artifact": "experiments/instances/smoke/discovered-contexts/stochastic-two-state-contexts.json",
+          "source_item_id": "ctx_prep0_flip6_bias_step4::atom_hot_2",
+          "source_kind": "derived_atomic_outcome"
+        }
+      ]
+    },
+    {
+      "ancestor_event_id": null,
+      "event_id": "event_ctx_prep0_flip6_bias_step5_atom_cold_1",
+      "notes": [],
+      "origin_kind": "derived_event",
+      "refinement": null,
+      "source_atom_ids": [
+        "atom_cold_1"
+      ],
+      "source_context_id": "ctx_prep0_flip6_bias_step5",
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/stochastic-two-state-package/discovered-event-family.json",
+          "source_item_id": "event_ctx_prep0_flip6_bias_step5_atom_cold_1",
+          "source_kind": "derived_event_basis"
+        },
+        {
+          "artifact": "experiments/instances/smoke/substrate-runs/stochastic-two-state-seed123.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        },
+        {
+          "artifact": "experiments/instances/smoke/discovered-contexts/stochastic-two-state-contexts.json",
+          "source_item_id": "ctx_prep0_flip6_bias_step5::atom_cold_1",
+          "source_kind": "derived_atomic_outcome"
+        }
+      ]
+    },
+    {
+      "ancestor_event_id": null,
+      "event_id": "event_ctx_prep0_flip6_bias_step5_atom_hot_2",
+      "notes": [],
+      "origin_kind": "derived_event",
+      "refinement": null,
+      "source_atom_ids": [
+        "atom_hot_2"
+      ],
+      "source_context_id": "ctx_prep0_flip6_bias_step5",
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/stochastic-two-state-package/discovered-event-family.json",
+          "source_item_id": "event_ctx_prep0_flip6_bias_step5_atom_hot_2",
+          "source_kind": "derived_event_basis"
+        },
+        {
+          "artifact": "experiments/instances/smoke/substrate-runs/stochastic-two-state-seed123.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        },
+        {
+          "artifact": "experiments/instances/smoke/discovered-contexts/stochastic-two-state-contexts.json",
+          "source_item_id": "ctx_prep0_flip6_bias_step5::atom_hot_2",
+          "source_kind": "derived_atomic_outcome"
+        }
+      ]
+    },
+    {
+      "ancestor_event_id": null,
+      "event_id": "event_ctx_prep0_flip6_occupancy_step0_atom_one_1",
+      "notes": [],
+      "origin_kind": "derived_event",
+      "refinement": null,
+      "source_atom_ids": [
+        "atom_one_1"
+      ],
+      "source_context_id": "ctx_prep0_flip6_occupancy_step0",
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/stochastic-two-state-package/discovered-event-family.json",
+          "source_item_id": "event_ctx_prep0_flip6_occupancy_step0_atom_one_1",
+          "source_kind": "derived_event_basis"
+        },
+        {
+          "artifact": "experiments/instances/smoke/substrate-runs/stochastic-two-state-seed123.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        },
+        {
+          "artifact": "experiments/instances/smoke/discovered-contexts/stochastic-two-state-contexts.json",
+          "source_item_id": "ctx_prep0_flip6_occupancy_step0::atom_one_1",
+          "source_kind": "derived_atomic_outcome"
+        }
+      ]
+    },
+    {
+      "ancestor_event_id": null,
+      "event_id": "event_ctx_prep0_flip6_occupancy_step0_atom_zero_2",
+      "notes": [],
+      "origin_kind": "derived_event",
+      "refinement": null,
+      "source_atom_ids": [
+        "atom_zero_2"
+      ],
+      "source_context_id": "ctx_prep0_flip6_occupancy_step0",
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/stochastic-two-state-package/discovered-event-family.json",
+          "source_item_id": "event_ctx_prep0_flip6_occupancy_step0_atom_zero_2",
+          "source_kind": "derived_event_basis"
+        },
+        {
+          "artifact": "experiments/instances/smoke/substrate-runs/stochastic-two-state-seed123.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        },
+        {
+          "artifact": "experiments/instances/smoke/discovered-contexts/stochastic-two-state-contexts.json",
+          "source_item_id": "ctx_prep0_flip6_occupancy_step0::atom_zero_2",
+          "source_kind": "derived_atomic_outcome"
+        }
+      ]
+    },
+    {
+      "ancestor_event_id": null,
+      "event_id": "event_ctx_prep0_flip6_occupancy_step1_atom_one_1",
+      "notes": [],
+      "origin_kind": "derived_event",
+      "refinement": null,
+      "source_atom_ids": [
+        "atom_one_1"
+      ],
+      "source_context_id": "ctx_prep0_flip6_occupancy_step1",
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/stochastic-two-state-package/discovered-event-family.json",
+          "source_item_id": "event_ctx_prep0_flip6_occupancy_step1_atom_one_1",
+          "source_kind": "derived_event_basis"
+        },
+        {
+          "artifact": "experiments/instances/smoke/substrate-runs/stochastic-two-state-seed123.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        },
+        {
+          "artifact": "experiments/instances/smoke/discovered-contexts/stochastic-two-state-contexts.json",
+          "source_item_id": "ctx_prep0_flip6_occupancy_step1::atom_one_1",
+          "source_kind": "derived_atomic_outcome"
+        }
+      ]
+    },
+    {
+      "ancestor_event_id": null,
+      "event_id": "event_ctx_prep0_flip6_occupancy_step1_atom_zero_2",
+      "notes": [],
+      "origin_kind": "derived_event",
+      "refinement": null,
+      "source_atom_ids": [
+        "atom_zero_2"
+      ],
+      "source_context_id": "ctx_prep0_flip6_occupancy_step1",
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/stochastic-two-state-package/discovered-event-family.json",
+          "source_item_id": "event_ctx_prep0_flip6_occupancy_step1_atom_zero_2",
+          "source_kind": "derived_event_basis"
+        },
+        {
+          "artifact": "experiments/instances/smoke/substrate-runs/stochastic-two-state-seed123.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        },
+        {
+          "artifact": "experiments/instances/smoke/discovered-contexts/stochastic-two-state-contexts.json",
+          "source_item_id": "ctx_prep0_flip6_occupancy_step1::atom_zero_2",
+          "source_kind": "derived_atomic_outcome"
+        }
+      ]
+    },
+    {
+      "ancestor_event_id": null,
+      "event_id": "event_ctx_prep0_flip6_occupancy_step2_atom_one_1",
+      "notes": [],
+      "origin_kind": "derived_event",
+      "refinement": null,
+      "source_atom_ids": [
+        "atom_one_1"
+      ],
+      "source_context_id": "ctx_prep0_flip6_occupancy_step2",
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/stochastic-two-state-package/discovered-event-family.json",
+          "source_item_id": "event_ctx_prep0_flip6_occupancy_step2_atom_one_1",
+          "source_kind": "derived_event_basis"
+        },
+        {
+          "artifact": "experiments/instances/smoke/substrate-runs/stochastic-two-state-seed123.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        },
+        {
+          "artifact": "experiments/instances/smoke/discovered-contexts/stochastic-two-state-contexts.json",
+          "source_item_id": "ctx_prep0_flip6_occupancy_step2::atom_one_1",
+          "source_kind": "derived_atomic_outcome"
+        }
+      ]
+    },
+    {
+      "ancestor_event_id": null,
+      "event_id": "event_ctx_prep0_flip6_occupancy_step2_atom_zero_2",
+      "notes": [],
+      "origin_kind": "derived_event",
+      "refinement": null,
+      "source_atom_ids": [
+        "atom_zero_2"
+      ],
+      "source_context_id": "ctx_prep0_flip6_occupancy_step2",
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/stochastic-two-state-package/discovered-event-family.json",
+          "source_item_id": "event_ctx_prep0_flip6_occupancy_step2_atom_zero_2",
+          "source_kind": "derived_event_basis"
+        },
+        {
+          "artifact": "experiments/instances/smoke/substrate-runs/stochastic-two-state-seed123.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        },
+        {
+          "artifact": "experiments/instances/smoke/discovered-contexts/stochastic-two-state-contexts.json",
+          "source_item_id": "ctx_prep0_flip6_occupancy_step2::atom_zero_2",
+          "source_kind": "derived_atomic_outcome"
+        }
+      ]
+    },
+    {
+      "ancestor_event_id": null,
+      "event_id": "event_ctx_prep0_flip6_occupancy_step3_atom_one_1",
+      "notes": [],
+      "origin_kind": "derived_event",
+      "refinement": null,
+      "source_atom_ids": [
+        "atom_one_1"
+      ],
+      "source_context_id": "ctx_prep0_flip6_occupancy_step3",
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/stochastic-two-state-package/discovered-event-family.json",
+          "source_item_id": "event_ctx_prep0_flip6_occupancy_step3_atom_one_1",
+          "source_kind": "derived_event_basis"
+        },
+        {
+          "artifact": "experiments/instances/smoke/substrate-runs/stochastic-two-state-seed123.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        },
+        {
+          "artifact": "experiments/instances/smoke/discovered-contexts/stochastic-two-state-contexts.json",
+          "source_item_id": "ctx_prep0_flip6_occupancy_step3::atom_one_1",
+          "source_kind": "derived_atomic_outcome"
+        }
+      ]
+    },
+    {
+      "ancestor_event_id": null,
+      "event_id": "event_ctx_prep0_flip6_occupancy_step3_atom_zero_2",
+      "notes": [],
+      "origin_kind": "derived_event",
+      "refinement": null,
+      "source_atom_ids": [
+        "atom_zero_2"
+      ],
+      "source_context_id": "ctx_prep0_flip6_occupancy_step3",
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/stochastic-two-state-package/discovered-event-family.json",
+          "source_item_id": "event_ctx_prep0_flip6_occupancy_step3_atom_zero_2",
+          "source_kind": "derived_event_basis"
+        },
+        {
+          "artifact": "experiments/instances/smoke/substrate-runs/stochastic-two-state-seed123.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        },
+        {
+          "artifact": "experiments/instances/smoke/discovered-contexts/stochastic-two-state-contexts.json",
+          "source_item_id": "ctx_prep0_flip6_occupancy_step3::atom_zero_2",
+          "source_kind": "derived_atomic_outcome"
+        }
+      ]
+    },
+    {
+      "ancestor_event_id": null,
+      "event_id": "event_ctx_prep0_flip6_occupancy_step4_atom_one_1",
+      "notes": [],
+      "origin_kind": "derived_event",
+      "refinement": null,
+      "source_atom_ids": [
+        "atom_one_1"
+      ],
+      "source_context_id": "ctx_prep0_flip6_occupancy_step4",
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/stochastic-two-state-package/discovered-event-family.json",
+          "source_item_id": "event_ctx_prep0_flip6_occupancy_step4_atom_one_1",
+          "source_kind": "derived_event_basis"
+        },
+        {
+          "artifact": "experiments/instances/smoke/substrate-runs/stochastic-two-state-seed123.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        },
+        {
+          "artifact": "experiments/instances/smoke/discovered-contexts/stochastic-two-state-contexts.json",
+          "source_item_id": "ctx_prep0_flip6_occupancy_step4::atom_one_1",
+          "source_kind": "derived_atomic_outcome"
+        }
+      ]
+    },
+    {
+      "ancestor_event_id": null,
+      "event_id": "event_ctx_prep0_flip6_occupancy_step4_atom_zero_2",
+      "notes": [],
+      "origin_kind": "derived_event",
+      "refinement": null,
+      "source_atom_ids": [
+        "atom_zero_2"
+      ],
+      "source_context_id": "ctx_prep0_flip6_occupancy_step4",
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/stochastic-two-state-package/discovered-event-family.json",
+          "source_item_id": "event_ctx_prep0_flip6_occupancy_step4_atom_zero_2",
+          "source_kind": "derived_event_basis"
+        },
+        {
+          "artifact": "experiments/instances/smoke/substrate-runs/stochastic-two-state-seed123.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        },
+        {
+          "artifact": "experiments/instances/smoke/discovered-contexts/stochastic-two-state-contexts.json",
+          "source_item_id": "ctx_prep0_flip6_occupancy_step4::atom_zero_2",
+          "source_kind": "derived_atomic_outcome"
+        }
+      ]
+    },
+    {
+      "ancestor_event_id": null,
+      "event_id": "event_ctx_prep0_flip6_occupancy_step5_atom_one_1",
+      "notes": [],
+      "origin_kind": "derived_event",
+      "refinement": null,
+      "source_atom_ids": [
+        "atom_one_1"
+      ],
+      "source_context_id": "ctx_prep0_flip6_occupancy_step5",
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/stochastic-two-state-package/discovered-event-family.json",
+          "source_item_id": "event_ctx_prep0_flip6_occupancy_step5_atom_one_1",
+          "source_kind": "derived_event_basis"
+        },
+        {
+          "artifact": "experiments/instances/smoke/substrate-runs/stochastic-two-state-seed123.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        },
+        {
+          "artifact": "experiments/instances/smoke/discovered-contexts/stochastic-two-state-contexts.json",
+          "source_item_id": "ctx_prep0_flip6_occupancy_step5::atom_one_1",
+          "source_kind": "derived_atomic_outcome"
+        }
+      ]
+    },
+    {
+      "ancestor_event_id": null,
+      "event_id": "event_ctx_prep0_flip6_occupancy_step5_atom_zero_2",
+      "notes": [],
+      "origin_kind": "derived_event",
+      "refinement": null,
+      "source_atom_ids": [
+        "atom_zero_2"
+      ],
+      "source_context_id": "ctx_prep0_flip6_occupancy_step5",
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/stochastic-two-state-package/discovered-event-family.json",
+          "source_item_id": "event_ctx_prep0_flip6_occupancy_step5_atom_zero_2",
+          "source_kind": "derived_event_basis"
+        },
+        {
+          "artifact": "experiments/instances/smoke/substrate-runs/stochastic-two-state-seed123.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        },
+        {
+          "artifact": "experiments/instances/smoke/discovered-contexts/stochastic-two-state-contexts.json",
+          "source_item_id": "ctx_prep0_flip6_occupancy_step5::atom_zero_2",
+          "source_kind": "derived_atomic_outcome"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "event_basis_mode": "singleton_only",
+    "observable_only": true
+  },
+  "package_artifact": "experiments/instances/discovered/stochastic-two-state-package/event-package.json",
+  "package_id": "inst_family_stochastic_two_state_seed123_built",
+  "proposal_entries": [
+    {
+      "ancestor_proposal_id": null,
+      "notes": [],
+      "origin_kind": "derived_proposal",
+      "proposal_id": "proposal_event_ctx_prep0_flip6_bias_step0_atom_cold_1__event_ctx_prep0_flip6_bias_step1_atom_hot_2",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/stochastic-two-state-package/shared-event-candidates.json",
+          "source_item_id": "proposal_event_ctx_prep0_flip6_bias_step0_atom_cold_1__event_ctx_prep0_flip6_bias_step1_atom_hot_2",
+          "source_kind": "derived_shared_event_match"
+        },
+        {
+          "artifact": "experiments/instances/smoke/substrate-runs/stochastic-two-state-seed123.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    },
+    {
+      "ancestor_proposal_id": null,
+      "notes": [],
+      "origin_kind": "derived_proposal",
+      "proposal_id": "proposal_event_ctx_prep0_flip6_bias_step0_atom_hot_2__event_ctx_prep0_flip6_bias_step1_atom_cold_1",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/stochastic-two-state-package/shared-event-candidates.json",
+          "source_item_id": "proposal_event_ctx_prep0_flip6_bias_step0_atom_hot_2__event_ctx_prep0_flip6_bias_step1_atom_cold_1",
+          "source_kind": "derived_shared_event_match"
+        },
+        {
+          "artifact": "experiments/instances/smoke/substrate-runs/stochastic-two-state-seed123.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    },
+    {
+      "ancestor_proposal_id": null,
+      "notes": [],
+      "origin_kind": "derived_proposal",
+      "proposal_id": "proposal_event_ctx_prep0_flip6_bias_step0_atom_cold_1__event_ctx_prep0_flip6_bias_step2_atom_cold_1",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/stochastic-two-state-package/shared-event-candidates.json",
+          "source_item_id": "proposal_event_ctx_prep0_flip6_bias_step0_atom_cold_1__event_ctx_prep0_flip6_bias_step2_atom_cold_1",
+          "source_kind": "derived_shared_event_match"
+        },
+        {
+          "artifact": "experiments/instances/smoke/substrate-runs/stochastic-two-state-seed123.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    },
+    {
+      "ancestor_proposal_id": null,
+      "notes": [],
+      "origin_kind": "derived_proposal",
+      "proposal_id": "proposal_event_ctx_prep0_flip6_bias_step0_atom_hot_2__event_ctx_prep0_flip6_bias_step2_atom_hot_2",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/stochastic-two-state-package/shared-event-candidates.json",
+          "source_item_id": "proposal_event_ctx_prep0_flip6_bias_step0_atom_hot_2__event_ctx_prep0_flip6_bias_step2_atom_hot_2",
+          "source_kind": "derived_shared_event_match"
+        },
+        {
+          "artifact": "experiments/instances/smoke/substrate-runs/stochastic-two-state-seed123.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    },
+    {
+      "ancestor_proposal_id": null,
+      "notes": [],
+      "origin_kind": "derived_proposal",
+      "proposal_id": "proposal_event_ctx_prep0_flip6_bias_step0_atom_cold_1__event_ctx_prep0_flip6_bias_step3_atom_hot_2",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/stochastic-two-state-package/shared-event-candidates.json",
+          "source_item_id": "proposal_event_ctx_prep0_flip6_bias_step0_atom_cold_1__event_ctx_prep0_flip6_bias_step3_atom_hot_2",
+          "source_kind": "derived_shared_event_match"
+        },
+        {
+          "artifact": "experiments/instances/smoke/substrate-runs/stochastic-two-state-seed123.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    },
+    {
+      "ancestor_proposal_id": null,
+      "notes": [],
+      "origin_kind": "derived_proposal",
+      "proposal_id": "proposal_event_ctx_prep0_flip6_bias_step0_atom_hot_2__event_ctx_prep0_flip6_bias_step3_atom_cold_1",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/stochastic-two-state-package/shared-event-candidates.json",
+          "source_item_id": "proposal_event_ctx_prep0_flip6_bias_step0_atom_hot_2__event_ctx_prep0_flip6_bias_step3_atom_cold_1",
+          "source_kind": "derived_shared_event_match"
+        },
+        {
+          "artifact": "experiments/instances/smoke/substrate-runs/stochastic-two-state-seed123.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    },
+    {
+      "ancestor_proposal_id": null,
+      "notes": [],
+      "origin_kind": "derived_proposal",
+      "proposal_id": "proposal_event_ctx_prep0_flip6_bias_step0_atom_hot_2__event_ctx_prep0_flip6_bias_step4_atom_hot_2",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/stochastic-two-state-package/shared-event-candidates.json",
+          "source_item_id": "proposal_event_ctx_prep0_flip6_bias_step0_atom_hot_2__event_ctx_prep0_flip6_bias_step4_atom_hot_2",
+          "source_kind": "derived_shared_event_match"
+        },
+        {
+          "artifact": "experiments/instances/smoke/substrate-runs/stochastic-two-state-seed123.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    },
+    {
+      "ancestor_proposal_id": null,
+      "notes": [],
+      "origin_kind": "derived_proposal",
+      "proposal_id": "proposal_event_ctx_prep0_flip6_bias_step0_atom_hot_2__event_ctx_prep0_flip6_bias_step5_atom_cold_1",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/stochastic-two-state-package/shared-event-candidates.json",
+          "source_item_id": "proposal_event_ctx_prep0_flip6_bias_step0_atom_hot_2__event_ctx_prep0_flip6_bias_step5_atom_cold_1",
+          "source_kind": "derived_shared_event_match"
+        },
+        {
+          "artifact": "experiments/instances/smoke/substrate-runs/stochastic-two-state-seed123.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    },
+    {
+      "ancestor_proposal_id": null,
+      "notes": [],
+      "origin_kind": "derived_proposal",
+      "proposal_id": "proposal_event_ctx_prep0_flip6_bias_step0_atom_cold_1__event_ctx_prep0_flip6_occupancy_step0_atom_zero_2",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/stochastic-two-state-package/shared-event-candidates.json",
+          "source_item_id": "proposal_event_ctx_prep0_flip6_bias_step0_atom_cold_1__event_ctx_prep0_flip6_occupancy_step0_atom_zero_2",
+          "source_kind": "derived_shared_event_match"
+        },
+        {
+          "artifact": "experiments/instances/smoke/substrate-runs/stochastic-two-state-seed123.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    },
+    {
+      "ancestor_proposal_id": null,
+      "notes": [],
+      "origin_kind": "derived_proposal",
+      "proposal_id": "proposal_event_ctx_prep0_flip6_bias_step0_atom_hot_2__event_ctx_prep0_flip6_occupancy_step0_atom_one_1",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/stochastic-two-state-package/shared-event-candidates.json",
+          "source_item_id": "proposal_event_ctx_prep0_flip6_bias_step0_atom_hot_2__event_ctx_prep0_flip6_occupancy_step0_atom_one_1",
+          "source_kind": "derived_shared_event_match"
+        },
+        {
+          "artifact": "experiments/instances/smoke/substrate-runs/stochastic-two-state-seed123.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    },
+    {
+      "ancestor_proposal_id": null,
+      "notes": [],
+      "origin_kind": "derived_proposal",
+      "proposal_id": "proposal_event_ctx_prep0_flip6_bias_step0_atom_cold_1__event_ctx_prep0_flip6_occupancy_step1_atom_one_1",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/stochastic-two-state-package/shared-event-candidates.json",
+          "source_item_id": "proposal_event_ctx_prep0_flip6_bias_step0_atom_cold_1__event_ctx_prep0_flip6_occupancy_step1_atom_one_1",
+          "source_kind": "derived_shared_event_match"
+        },
+        {
+          "artifact": "experiments/instances/smoke/substrate-runs/stochastic-two-state-seed123.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    },
+    {
+      "ancestor_proposal_id": null,
+      "notes": [],
+      "origin_kind": "derived_proposal",
+      "proposal_id": "proposal_event_ctx_prep0_flip6_bias_step0_atom_hot_2__event_ctx_prep0_flip6_occupancy_step1_atom_zero_2",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/stochastic-two-state-package/shared-event-candidates.json",
+          "source_item_id": "proposal_event_ctx_prep0_flip6_bias_step0_atom_hot_2__event_ctx_prep0_flip6_occupancy_step1_atom_zero_2",
+          "source_kind": "derived_shared_event_match"
+        },
+        {
+          "artifact": "experiments/instances/smoke/substrate-runs/stochastic-two-state-seed123.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    },
+    {
+      "ancestor_proposal_id": null,
+      "notes": [],
+      "origin_kind": "derived_proposal",
+      "proposal_id": "proposal_event_ctx_prep0_flip6_bias_step0_atom_cold_1__event_ctx_prep0_flip6_occupancy_step2_atom_zero_2",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/stochastic-two-state-package/shared-event-candidates.json",
+          "source_item_id": "proposal_event_ctx_prep0_flip6_bias_step0_atom_cold_1__event_ctx_prep0_flip6_occupancy_step2_atom_zero_2",
+          "source_kind": "derived_shared_event_match"
+        },
+        {
+          "artifact": "experiments/instances/smoke/substrate-runs/stochastic-two-state-seed123.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    },
+    {
+      "ancestor_proposal_id": null,
+      "notes": [],
+      "origin_kind": "derived_proposal",
+      "proposal_id": "proposal_event_ctx_prep0_flip6_bias_step0_atom_hot_2__event_ctx_prep0_flip6_occupancy_step2_atom_one_1",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/stochastic-two-state-package/shared-event-candidates.json",
+          "source_item_id": "proposal_event_ctx_prep0_flip6_bias_step0_atom_hot_2__event_ctx_prep0_flip6_occupancy_step2_atom_one_1",
+          "source_kind": "derived_shared_event_match"
+        },
+        {
+          "artifact": "experiments/instances/smoke/substrate-runs/stochastic-two-state-seed123.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    },
+    {
+      "ancestor_proposal_id": null,
+      "notes": [],
+      "origin_kind": "derived_proposal",
+      "proposal_id": "proposal_event_ctx_prep0_flip6_bias_step0_atom_cold_1__event_ctx_prep0_flip6_occupancy_step3_atom_one_1",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/stochastic-two-state-package/shared-event-candidates.json",
+          "source_item_id": "proposal_event_ctx_prep0_flip6_bias_step0_atom_cold_1__event_ctx_prep0_flip6_occupancy_step3_atom_one_1",
+          "source_kind": "derived_shared_event_match"
+        },
+        {
+          "artifact": "experiments/instances/smoke/substrate-runs/stochastic-two-state-seed123.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    },
+    {
+      "ancestor_proposal_id": null,
+      "notes": [],
+      "origin_kind": "derived_proposal",
+      "proposal_id": "proposal_event_ctx_prep0_flip6_bias_step0_atom_hot_2__event_ctx_prep0_flip6_occupancy_step3_atom_zero_2",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/stochastic-two-state-package/shared-event-candidates.json",
+          "source_item_id": "proposal_event_ctx_prep0_flip6_bias_step0_atom_hot_2__event_ctx_prep0_flip6_occupancy_step3_atom_zero_2",
+          "source_kind": "derived_shared_event_match"
+        },
+        {
+          "artifact": "experiments/instances/smoke/substrate-runs/stochastic-two-state-seed123.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    },
+    {
+      "ancestor_proposal_id": null,
+      "notes": [],
+      "origin_kind": "derived_proposal",
+      "proposal_id": "proposal_event_ctx_prep0_flip6_bias_step0_atom_hot_2__event_ctx_prep0_flip6_occupancy_step4_atom_one_1",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/stochastic-two-state-package/shared-event-candidates.json",
+          "source_item_id": "proposal_event_ctx_prep0_flip6_bias_step0_atom_hot_2__event_ctx_prep0_flip6_occupancy_step4_atom_one_1",
+          "source_kind": "derived_shared_event_match"
+        },
+        {
+          "artifact": "experiments/instances/smoke/substrate-runs/stochastic-two-state-seed123.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    },
+    {
+      "ancestor_proposal_id": null,
+      "notes": [],
+      "origin_kind": "derived_proposal",
+      "proposal_id": "proposal_event_ctx_prep0_flip6_bias_step0_atom_hot_2__event_ctx_prep0_flip6_occupancy_step5_atom_zero_2",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/stochastic-two-state-package/shared-event-candidates.json",
+          "source_item_id": "proposal_event_ctx_prep0_flip6_bias_step0_atom_hot_2__event_ctx_prep0_flip6_occupancy_step5_atom_zero_2",
+          "source_kind": "derived_shared_event_match"
+        },
+        {
+          "artifact": "experiments/instances/smoke/substrate-runs/stochastic-two-state-seed123.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    },
+    {
+      "ancestor_proposal_id": null,
+      "notes": [],
+      "origin_kind": "derived_proposal",
+      "proposal_id": "proposal_event_ctx_prep0_flip6_bias_step1_atom_cold_1__event_ctx_prep0_flip6_bias_step2_atom_hot_2",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/stochastic-two-state-package/shared-event-candidates.json",
+          "source_item_id": "proposal_event_ctx_prep0_flip6_bias_step1_atom_cold_1__event_ctx_prep0_flip6_bias_step2_atom_hot_2",
+          "source_kind": "derived_shared_event_match"
+        },
+        {
+          "artifact": "experiments/instances/smoke/substrate-runs/stochastic-two-state-seed123.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    },
+    {
+      "ancestor_proposal_id": null,
+      "notes": [],
+      "origin_kind": "derived_proposal",
+      "proposal_id": "proposal_event_ctx_prep0_flip6_bias_step1_atom_hot_2__event_ctx_prep0_flip6_bias_step2_atom_cold_1",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/stochastic-two-state-package/shared-event-candidates.json",
+          "source_item_id": "proposal_event_ctx_prep0_flip6_bias_step1_atom_hot_2__event_ctx_prep0_flip6_bias_step2_atom_cold_1",
+          "source_kind": "derived_shared_event_match"
+        },
+        {
+          "artifact": "experiments/instances/smoke/substrate-runs/stochastic-two-state-seed123.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    },
+    {
+      "ancestor_proposal_id": null,
+      "notes": [],
+      "origin_kind": "derived_proposal",
+      "proposal_id": "proposal_event_ctx_prep0_flip6_bias_step1_atom_cold_1__event_ctx_prep0_flip6_bias_step3_atom_cold_1",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/stochastic-two-state-package/shared-event-candidates.json",
+          "source_item_id": "proposal_event_ctx_prep0_flip6_bias_step1_atom_cold_1__event_ctx_prep0_flip6_bias_step3_atom_cold_1",
+          "source_kind": "derived_shared_event_match"
+        },
+        {
+          "artifact": "experiments/instances/smoke/substrate-runs/stochastic-two-state-seed123.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    },
+    {
+      "ancestor_proposal_id": null,
+      "notes": [],
+      "origin_kind": "derived_proposal",
+      "proposal_id": "proposal_event_ctx_prep0_flip6_bias_step1_atom_hot_2__event_ctx_prep0_flip6_bias_step3_atom_hot_2",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/stochastic-two-state-package/shared-event-candidates.json",
+          "source_item_id": "proposal_event_ctx_prep0_flip6_bias_step1_atom_hot_2__event_ctx_prep0_flip6_bias_step3_atom_hot_2",
+          "source_kind": "derived_shared_event_match"
+        },
+        {
+          "artifact": "experiments/instances/smoke/substrate-runs/stochastic-two-state-seed123.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    },
+    {
+      "ancestor_proposal_id": null,
+      "notes": [],
+      "origin_kind": "derived_proposal",
+      "proposal_id": "proposal_event_ctx_prep0_flip6_bias_step1_atom_cold_1__event_ctx_prep0_flip6_bias_step4_atom_hot_2",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/stochastic-two-state-package/shared-event-candidates.json",
+          "source_item_id": "proposal_event_ctx_prep0_flip6_bias_step1_atom_cold_1__event_ctx_prep0_flip6_bias_step4_atom_hot_2",
+          "source_kind": "derived_shared_event_match"
+        },
+        {
+          "artifact": "experiments/instances/smoke/substrate-runs/stochastic-two-state-seed123.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    },
+    {
+      "ancestor_proposal_id": null,
+      "notes": [],
+      "origin_kind": "derived_proposal",
+      "proposal_id": "proposal_event_ctx_prep0_flip6_bias_step1_atom_cold_1__event_ctx_prep0_flip6_occupancy_step0_atom_one_1",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/stochastic-two-state-package/shared-event-candidates.json",
+          "source_item_id": "proposal_event_ctx_prep0_flip6_bias_step1_atom_cold_1__event_ctx_prep0_flip6_occupancy_step0_atom_one_1",
+          "source_kind": "derived_shared_event_match"
+        },
+        {
+          "artifact": "experiments/instances/smoke/substrate-runs/stochastic-two-state-seed123.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    },
+    {
+      "ancestor_proposal_id": null,
+      "notes": [],
+      "origin_kind": "derived_proposal",
+      "proposal_id": "proposal_event_ctx_prep0_flip6_bias_step1_atom_hot_2__event_ctx_prep0_flip6_occupancy_step0_atom_zero_2",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/stochastic-two-state-package/shared-event-candidates.json",
+          "source_item_id": "proposal_event_ctx_prep0_flip6_bias_step1_atom_hot_2__event_ctx_prep0_flip6_occupancy_step0_atom_zero_2",
+          "source_kind": "derived_shared_event_match"
+        },
+        {
+          "artifact": "experiments/instances/smoke/substrate-runs/stochastic-two-state-seed123.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    },
+    {
+      "ancestor_proposal_id": null,
+      "notes": [],
+      "origin_kind": "derived_proposal",
+      "proposal_id": "proposal_event_ctx_prep0_flip6_bias_step1_atom_cold_1__event_ctx_prep0_flip6_occupancy_step1_atom_zero_2",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/stochastic-two-state-package/shared-event-candidates.json",
+          "source_item_id": "proposal_event_ctx_prep0_flip6_bias_step1_atom_cold_1__event_ctx_prep0_flip6_occupancy_step1_atom_zero_2",
+          "source_kind": "derived_shared_event_match"
+        },
+        {
+          "artifact": "experiments/instances/smoke/substrate-runs/stochastic-two-state-seed123.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    },
+    {
+      "ancestor_proposal_id": null,
+      "notes": [],
+      "origin_kind": "derived_proposal",
+      "proposal_id": "proposal_event_ctx_prep0_flip6_bias_step1_atom_hot_2__event_ctx_prep0_flip6_occupancy_step1_atom_one_1",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/stochastic-two-state-package/shared-event-candidates.json",
+          "source_item_id": "proposal_event_ctx_prep0_flip6_bias_step1_atom_hot_2__event_ctx_prep0_flip6_occupancy_step1_atom_one_1",
+          "source_kind": "derived_shared_event_match"
+        },
+        {
+          "artifact": "experiments/instances/smoke/substrate-runs/stochastic-two-state-seed123.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    },
+    {
+      "ancestor_proposal_id": null,
+      "notes": [],
+      "origin_kind": "derived_proposal",
+      "proposal_id": "proposal_event_ctx_prep0_flip6_bias_step1_atom_cold_1__event_ctx_prep0_flip6_occupancy_step2_atom_one_1",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/stochastic-two-state-package/shared-event-candidates.json",
+          "source_item_id": "proposal_event_ctx_prep0_flip6_bias_step1_atom_cold_1__event_ctx_prep0_flip6_occupancy_step2_atom_one_1",
+          "source_kind": "derived_shared_event_match"
+        },
+        {
+          "artifact": "experiments/instances/smoke/substrate-runs/stochastic-two-state-seed123.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    },
+    {
+      "ancestor_proposal_id": null,
+      "notes": [],
+      "origin_kind": "derived_proposal",
+      "proposal_id": "proposal_event_ctx_prep0_flip6_bias_step1_atom_hot_2__event_ctx_prep0_flip6_occupancy_step2_atom_zero_2",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/stochastic-two-state-package/shared-event-candidates.json",
+          "source_item_id": "proposal_event_ctx_prep0_flip6_bias_step1_atom_hot_2__event_ctx_prep0_flip6_occupancy_step2_atom_zero_2",
+          "source_kind": "derived_shared_event_match"
+        },
+        {
+          "artifact": "experiments/instances/smoke/substrate-runs/stochastic-two-state-seed123.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    },
+    {
+      "ancestor_proposal_id": null,
+      "notes": [],
+      "origin_kind": "derived_proposal",
+      "proposal_id": "proposal_event_ctx_prep0_flip6_bias_step1_atom_cold_1__event_ctx_prep0_flip6_occupancy_step3_atom_zero_2",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/stochastic-two-state-package/shared-event-candidates.json",
+          "source_item_id": "proposal_event_ctx_prep0_flip6_bias_step1_atom_cold_1__event_ctx_prep0_flip6_occupancy_step3_atom_zero_2",
+          "source_kind": "derived_shared_event_match"
+        },
+        {
+          "artifact": "experiments/instances/smoke/substrate-runs/stochastic-two-state-seed123.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    },
+    {
+      "ancestor_proposal_id": null,
+      "notes": [],
+      "origin_kind": "derived_proposal",
+      "proposal_id": "proposal_event_ctx_prep0_flip6_bias_step1_atom_hot_2__event_ctx_prep0_flip6_occupancy_step3_atom_one_1",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/stochastic-two-state-package/shared-event-candidates.json",
+          "source_item_id": "proposal_event_ctx_prep0_flip6_bias_step1_atom_hot_2__event_ctx_prep0_flip6_occupancy_step3_atom_one_1",
+          "source_kind": "derived_shared_event_match"
+        },
+        {
+          "artifact": "experiments/instances/smoke/substrate-runs/stochastic-two-state-seed123.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    },
+    {
+      "ancestor_proposal_id": null,
+      "notes": [],
+      "origin_kind": "derived_proposal",
+      "proposal_id": "proposal_event_ctx_prep0_flip6_bias_step1_atom_cold_1__event_ctx_prep0_flip6_occupancy_step4_atom_one_1",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/stochastic-two-state-package/shared-event-candidates.json",
+          "source_item_id": "proposal_event_ctx_prep0_flip6_bias_step1_atom_cold_1__event_ctx_prep0_flip6_occupancy_step4_atom_one_1",
+          "source_kind": "derived_shared_event_match"
+        },
+        {
+          "artifact": "experiments/instances/smoke/substrate-runs/stochastic-two-state-seed123.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    },
+    {
+      "ancestor_proposal_id": null,
+      "notes": [],
+      "origin_kind": "derived_proposal",
+      "proposal_id": "proposal_event_ctx_prep0_flip6_bias_step2_atom_cold_1__event_ctx_prep0_flip6_bias_step3_atom_hot_2",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/stochastic-two-state-package/shared-event-candidates.json",
+          "source_item_id": "proposal_event_ctx_prep0_flip6_bias_step2_atom_cold_1__event_ctx_prep0_flip6_bias_step3_atom_hot_2",
+          "source_kind": "derived_shared_event_match"
+        },
+        {
+          "artifact": "experiments/instances/smoke/substrate-runs/stochastic-two-state-seed123.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    },
+    {
+      "ancestor_proposal_id": null,
+      "notes": [],
+      "origin_kind": "derived_proposal",
+      "proposal_id": "proposal_event_ctx_prep0_flip6_bias_step2_atom_hot_2__event_ctx_prep0_flip6_bias_step3_atom_cold_1",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/stochastic-two-state-package/shared-event-candidates.json",
+          "source_item_id": "proposal_event_ctx_prep0_flip6_bias_step2_atom_hot_2__event_ctx_prep0_flip6_bias_step3_atom_cold_1",
+          "source_kind": "derived_shared_event_match"
+        },
+        {
+          "artifact": "experiments/instances/smoke/substrate-runs/stochastic-two-state-seed123.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    },
+    {
+      "ancestor_proposal_id": null,
+      "notes": [],
+      "origin_kind": "derived_proposal",
+      "proposal_id": "proposal_event_ctx_prep0_flip6_bias_step2_atom_hot_2__event_ctx_prep0_flip6_bias_step4_atom_hot_2",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/stochastic-two-state-package/shared-event-candidates.json",
+          "source_item_id": "proposal_event_ctx_prep0_flip6_bias_step2_atom_hot_2__event_ctx_prep0_flip6_bias_step4_atom_hot_2",
+          "source_kind": "derived_shared_event_match"
+        },
+        {
+          "artifact": "experiments/instances/smoke/substrate-runs/stochastic-two-state-seed123.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    },
+    {
+      "ancestor_proposal_id": null,
+      "notes": [],
+      "origin_kind": "derived_proposal",
+      "proposal_id": "proposal_event_ctx_prep0_flip6_bias_step2_atom_cold_1__event_ctx_prep0_flip6_occupancy_step0_atom_zero_2",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/stochastic-two-state-package/shared-event-candidates.json",
+          "source_item_id": "proposal_event_ctx_prep0_flip6_bias_step2_atom_cold_1__event_ctx_prep0_flip6_occupancy_step0_atom_zero_2",
+          "source_kind": "derived_shared_event_match"
+        },
+        {
+          "artifact": "experiments/instances/smoke/substrate-runs/stochastic-two-state-seed123.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    },
+    {
+      "ancestor_proposal_id": null,
+      "notes": [],
+      "origin_kind": "derived_proposal",
+      "proposal_id": "proposal_event_ctx_prep0_flip6_bias_step2_atom_hot_2__event_ctx_prep0_flip6_occupancy_step0_atom_one_1",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/stochastic-two-state-package/shared-event-candidates.json",
+          "source_item_id": "proposal_event_ctx_prep0_flip6_bias_step2_atom_hot_2__event_ctx_prep0_flip6_occupancy_step0_atom_one_1",
+          "source_kind": "derived_shared_event_match"
+        },
+        {
+          "artifact": "experiments/instances/smoke/substrate-runs/stochastic-two-state-seed123.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    },
+    {
+      "ancestor_proposal_id": null,
+      "notes": [],
+      "origin_kind": "derived_proposal",
+      "proposal_id": "proposal_event_ctx_prep0_flip6_bias_step2_atom_cold_1__event_ctx_prep0_flip6_occupancy_step1_atom_one_1",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/stochastic-two-state-package/shared-event-candidates.json",
+          "source_item_id": "proposal_event_ctx_prep0_flip6_bias_step2_atom_cold_1__event_ctx_prep0_flip6_occupancy_step1_atom_one_1",
+          "source_kind": "derived_shared_event_match"
+        },
+        {
+          "artifact": "experiments/instances/smoke/substrate-runs/stochastic-two-state-seed123.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    },
+    {
+      "ancestor_proposal_id": null,
+      "notes": [],
+      "origin_kind": "derived_proposal",
+      "proposal_id": "proposal_event_ctx_prep0_flip6_bias_step2_atom_hot_2__event_ctx_prep0_flip6_occupancy_step1_atom_zero_2",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/stochastic-two-state-package/shared-event-candidates.json",
+          "source_item_id": "proposal_event_ctx_prep0_flip6_bias_step2_atom_hot_2__event_ctx_prep0_flip6_occupancy_step1_atom_zero_2",
+          "source_kind": "derived_shared_event_match"
+        },
+        {
+          "artifact": "experiments/instances/smoke/substrate-runs/stochastic-two-state-seed123.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    },
+    {
+      "ancestor_proposal_id": null,
+      "notes": [],
+      "origin_kind": "derived_proposal",
+      "proposal_id": "proposal_event_ctx_prep0_flip6_bias_step2_atom_cold_1__event_ctx_prep0_flip6_occupancy_step2_atom_zero_2",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/stochastic-two-state-package/shared-event-candidates.json",
+          "source_item_id": "proposal_event_ctx_prep0_flip6_bias_step2_atom_cold_1__event_ctx_prep0_flip6_occupancy_step2_atom_zero_2",
+          "source_kind": "derived_shared_event_match"
+        },
+        {
+          "artifact": "experiments/instances/smoke/substrate-runs/stochastic-two-state-seed123.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    },
+    {
+      "ancestor_proposal_id": null,
+      "notes": [],
+      "origin_kind": "derived_proposal",
+      "proposal_id": "proposal_event_ctx_prep0_flip6_bias_step2_atom_hot_2__event_ctx_prep0_flip6_occupancy_step2_atom_one_1",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/stochastic-two-state-package/shared-event-candidates.json",
+          "source_item_id": "proposal_event_ctx_prep0_flip6_bias_step2_atom_hot_2__event_ctx_prep0_flip6_occupancy_step2_atom_one_1",
+          "source_kind": "derived_shared_event_match"
+        },
+        {
+          "artifact": "experiments/instances/smoke/substrate-runs/stochastic-two-state-seed123.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    },
+    {
+      "ancestor_proposal_id": null,
+      "notes": [],
+      "origin_kind": "derived_proposal",
+      "proposal_id": "proposal_event_ctx_prep0_flip6_bias_step2_atom_cold_1__event_ctx_prep0_flip6_occupancy_step3_atom_one_1",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/stochastic-two-state-package/shared-event-candidates.json",
+          "source_item_id": "proposal_event_ctx_prep0_flip6_bias_step2_atom_cold_1__event_ctx_prep0_flip6_occupancy_step3_atom_one_1",
+          "source_kind": "derived_shared_event_match"
+        },
+        {
+          "artifact": "experiments/instances/smoke/substrate-runs/stochastic-two-state-seed123.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    },
+    {
+      "ancestor_proposal_id": null,
+      "notes": [],
+      "origin_kind": "derived_proposal",
+      "proposal_id": "proposal_event_ctx_prep0_flip6_bias_step2_atom_hot_2__event_ctx_prep0_flip6_occupancy_step3_atom_zero_2",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/stochastic-two-state-package/shared-event-candidates.json",
+          "source_item_id": "proposal_event_ctx_prep0_flip6_bias_step2_atom_hot_2__event_ctx_prep0_flip6_occupancy_step3_atom_zero_2",
+          "source_kind": "derived_shared_event_match"
+        },
+        {
+          "artifact": "experiments/instances/smoke/substrate-runs/stochastic-two-state-seed123.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    },
+    {
+      "ancestor_proposal_id": null,
+      "notes": [],
+      "origin_kind": "derived_proposal",
+      "proposal_id": "proposal_event_ctx_prep0_flip6_bias_step2_atom_hot_2__event_ctx_prep0_flip6_occupancy_step4_atom_one_1",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/stochastic-two-state-package/shared-event-candidates.json",
+          "source_item_id": "proposal_event_ctx_prep0_flip6_bias_step2_atom_hot_2__event_ctx_prep0_flip6_occupancy_step4_atom_one_1",
+          "source_kind": "derived_shared_event_match"
+        },
+        {
+          "artifact": "experiments/instances/smoke/substrate-runs/stochastic-two-state-seed123.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    },
+    {
+      "ancestor_proposal_id": null,
+      "notes": [],
+      "origin_kind": "derived_proposal",
+      "proposal_id": "proposal_event_ctx_prep0_flip6_bias_step3_atom_cold_1__event_ctx_prep0_flip6_bias_step4_atom_hot_2",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/stochastic-two-state-package/shared-event-candidates.json",
+          "source_item_id": "proposal_event_ctx_prep0_flip6_bias_step3_atom_cold_1__event_ctx_prep0_flip6_bias_step4_atom_hot_2",
+          "source_kind": "derived_shared_event_match"
+        },
+        {
+          "artifact": "experiments/instances/smoke/substrate-runs/stochastic-two-state-seed123.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    },
+    {
+      "ancestor_proposal_id": null,
+      "notes": [],
+      "origin_kind": "derived_proposal",
+      "proposal_id": "proposal_event_ctx_prep0_flip6_bias_step3_atom_cold_1__event_ctx_prep0_flip6_bias_step5_atom_cold_1",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/stochastic-two-state-package/shared-event-candidates.json",
+          "source_item_id": "proposal_event_ctx_prep0_flip6_bias_step3_atom_cold_1__event_ctx_prep0_flip6_bias_step5_atom_cold_1",
+          "source_kind": "derived_shared_event_match"
+        },
+        {
+          "artifact": "experiments/instances/smoke/substrate-runs/stochastic-two-state-seed123.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    },
+    {
+      "ancestor_proposal_id": null,
+      "notes": [],
+      "origin_kind": "derived_proposal",
+      "proposal_id": "proposal_event_ctx_prep0_flip6_bias_step3_atom_cold_1__event_ctx_prep0_flip6_occupancy_step0_atom_one_1",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/stochastic-two-state-package/shared-event-candidates.json",
+          "source_item_id": "proposal_event_ctx_prep0_flip6_bias_step3_atom_cold_1__event_ctx_prep0_flip6_occupancy_step0_atom_one_1",
+          "source_kind": "derived_shared_event_match"
+        },
+        {
+          "artifact": "experiments/instances/smoke/substrate-runs/stochastic-two-state-seed123.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    },
+    {
+      "ancestor_proposal_id": null,
+      "notes": [],
+      "origin_kind": "derived_proposal",
+      "proposal_id": "proposal_event_ctx_prep0_flip6_bias_step3_atom_hot_2__event_ctx_prep0_flip6_occupancy_step0_atom_zero_2",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/stochastic-two-state-package/shared-event-candidates.json",
+          "source_item_id": "proposal_event_ctx_prep0_flip6_bias_step3_atom_hot_2__event_ctx_prep0_flip6_occupancy_step0_atom_zero_2",
+          "source_kind": "derived_shared_event_match"
+        },
+        {
+          "artifact": "experiments/instances/smoke/substrate-runs/stochastic-two-state-seed123.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    },
+    {
+      "ancestor_proposal_id": null,
+      "notes": [],
+      "origin_kind": "derived_proposal",
+      "proposal_id": "proposal_event_ctx_prep0_flip6_bias_step3_atom_cold_1__event_ctx_prep0_flip6_occupancy_step1_atom_zero_2",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/stochastic-two-state-package/shared-event-candidates.json",
+          "source_item_id": "proposal_event_ctx_prep0_flip6_bias_step3_atom_cold_1__event_ctx_prep0_flip6_occupancy_step1_atom_zero_2",
+          "source_kind": "derived_shared_event_match"
+        },
+        {
+          "artifact": "experiments/instances/smoke/substrate-runs/stochastic-two-state-seed123.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    },
+    {
+      "ancestor_proposal_id": null,
+      "notes": [],
+      "origin_kind": "derived_proposal",
+      "proposal_id": "proposal_event_ctx_prep0_flip6_bias_step3_atom_hot_2__event_ctx_prep0_flip6_occupancy_step1_atom_one_1",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/stochastic-two-state-package/shared-event-candidates.json",
+          "source_item_id": "proposal_event_ctx_prep0_flip6_bias_step3_atom_hot_2__event_ctx_prep0_flip6_occupancy_step1_atom_one_1",
+          "source_kind": "derived_shared_event_match"
+        },
+        {
+          "artifact": "experiments/instances/smoke/substrate-runs/stochastic-two-state-seed123.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    },
+    {
+      "ancestor_proposal_id": null,
+      "notes": [],
+      "origin_kind": "derived_proposal",
+      "proposal_id": "proposal_event_ctx_prep0_flip6_bias_step3_atom_cold_1__event_ctx_prep0_flip6_occupancy_step2_atom_one_1",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/stochastic-two-state-package/shared-event-candidates.json",
+          "source_item_id": "proposal_event_ctx_prep0_flip6_bias_step3_atom_cold_1__event_ctx_prep0_flip6_occupancy_step2_atom_one_1",
+          "source_kind": "derived_shared_event_match"
+        },
+        {
+          "artifact": "experiments/instances/smoke/substrate-runs/stochastic-two-state-seed123.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    },
+    {
+      "ancestor_proposal_id": null,
+      "notes": [],
+      "origin_kind": "derived_proposal",
+      "proposal_id": "proposal_event_ctx_prep0_flip6_bias_step3_atom_hot_2__event_ctx_prep0_flip6_occupancy_step2_atom_zero_2",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/stochastic-two-state-package/shared-event-candidates.json",
+          "source_item_id": "proposal_event_ctx_prep0_flip6_bias_step3_atom_hot_2__event_ctx_prep0_flip6_occupancy_step2_atom_zero_2",
+          "source_kind": "derived_shared_event_match"
+        },
+        {
+          "artifact": "experiments/instances/smoke/substrate-runs/stochastic-two-state-seed123.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    },
+    {
+      "ancestor_proposal_id": null,
+      "notes": [],
+      "origin_kind": "derived_proposal",
+      "proposal_id": "proposal_event_ctx_prep0_flip6_bias_step3_atom_cold_1__event_ctx_prep0_flip6_occupancy_step3_atom_zero_2",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/stochastic-two-state-package/shared-event-candidates.json",
+          "source_item_id": "proposal_event_ctx_prep0_flip6_bias_step3_atom_cold_1__event_ctx_prep0_flip6_occupancy_step3_atom_zero_2",
+          "source_kind": "derived_shared_event_match"
+        },
+        {
+          "artifact": "experiments/instances/smoke/substrate-runs/stochastic-two-state-seed123.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    },
+    {
+      "ancestor_proposal_id": null,
+      "notes": [],
+      "origin_kind": "derived_proposal",
+      "proposal_id": "proposal_event_ctx_prep0_flip6_bias_step3_atom_hot_2__event_ctx_prep0_flip6_occupancy_step3_atom_one_1",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/stochastic-two-state-package/shared-event-candidates.json",
+          "source_item_id": "proposal_event_ctx_prep0_flip6_bias_step3_atom_hot_2__event_ctx_prep0_flip6_occupancy_step3_atom_one_1",
+          "source_kind": "derived_shared_event_match"
+        },
+        {
+          "artifact": "experiments/instances/smoke/substrate-runs/stochastic-two-state-seed123.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    },
+    {
+      "ancestor_proposal_id": null,
+      "notes": [],
+      "origin_kind": "derived_proposal",
+      "proposal_id": "proposal_event_ctx_prep0_flip6_bias_step3_atom_cold_1__event_ctx_prep0_flip6_occupancy_step4_atom_one_1",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/stochastic-two-state-package/shared-event-candidates.json",
+          "source_item_id": "proposal_event_ctx_prep0_flip6_bias_step3_atom_cold_1__event_ctx_prep0_flip6_occupancy_step4_atom_one_1",
+          "source_kind": "derived_shared_event_match"
+        },
+        {
+          "artifact": "experiments/instances/smoke/substrate-runs/stochastic-two-state-seed123.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    },
+    {
+      "ancestor_proposal_id": null,
+      "notes": [],
+      "origin_kind": "derived_proposal",
+      "proposal_id": "proposal_event_ctx_prep0_flip6_bias_step3_atom_cold_1__event_ctx_prep0_flip6_occupancy_step5_atom_zero_2",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/stochastic-two-state-package/shared-event-candidates.json",
+          "source_item_id": "proposal_event_ctx_prep0_flip6_bias_step3_atom_cold_1__event_ctx_prep0_flip6_occupancy_step5_atom_zero_2",
+          "source_kind": "derived_shared_event_match"
+        },
+        {
+          "artifact": "experiments/instances/smoke/substrate-runs/stochastic-two-state-seed123.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    },
+    {
+      "ancestor_proposal_id": null,
+      "notes": [],
+      "origin_kind": "derived_proposal",
+      "proposal_id": "proposal_event_ctx_prep0_flip6_bias_step4_atom_cold_1__event_ctx_prep0_flip6_bias_step5_atom_hot_2",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/stochastic-two-state-package/shared-event-candidates.json",
+          "source_item_id": "proposal_event_ctx_prep0_flip6_bias_step4_atom_cold_1__event_ctx_prep0_flip6_bias_step5_atom_hot_2",
+          "source_kind": "derived_shared_event_match"
+        },
+        {
+          "artifact": "experiments/instances/smoke/substrate-runs/stochastic-two-state-seed123.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    },
+    {
+      "ancestor_proposal_id": null,
+      "notes": [],
+      "origin_kind": "derived_proposal",
+      "proposal_id": "proposal_event_ctx_prep0_flip6_bias_step4_atom_hot_2__event_ctx_prep0_flip6_occupancy_step0_atom_one_1",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/stochastic-two-state-package/shared-event-candidates.json",
+          "source_item_id": "proposal_event_ctx_prep0_flip6_bias_step4_atom_hot_2__event_ctx_prep0_flip6_occupancy_step0_atom_one_1",
+          "source_kind": "derived_shared_event_match"
+        },
+        {
+          "artifact": "experiments/instances/smoke/substrate-runs/stochastic-two-state-seed123.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    },
+    {
+      "ancestor_proposal_id": null,
+      "notes": [],
+      "origin_kind": "derived_proposal",
+      "proposal_id": "proposal_event_ctx_prep0_flip6_bias_step4_atom_hot_2__event_ctx_prep0_flip6_occupancy_step1_atom_zero_2",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/stochastic-two-state-package/shared-event-candidates.json",
+          "source_item_id": "proposal_event_ctx_prep0_flip6_bias_step4_atom_hot_2__event_ctx_prep0_flip6_occupancy_step1_atom_zero_2",
+          "source_kind": "derived_shared_event_match"
+        },
+        {
+          "artifact": "experiments/instances/smoke/substrate-runs/stochastic-two-state-seed123.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    },
+    {
+      "ancestor_proposal_id": null,
+      "notes": [],
+      "origin_kind": "derived_proposal",
+      "proposal_id": "proposal_event_ctx_prep0_flip6_bias_step4_atom_hot_2__event_ctx_prep0_flip6_occupancy_step2_atom_one_1",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/stochastic-two-state-package/shared-event-candidates.json",
+          "source_item_id": "proposal_event_ctx_prep0_flip6_bias_step4_atom_hot_2__event_ctx_prep0_flip6_occupancy_step2_atom_one_1",
+          "source_kind": "derived_shared_event_match"
+        },
+        {
+          "artifact": "experiments/instances/smoke/substrate-runs/stochastic-two-state-seed123.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    },
+    {
+      "ancestor_proposal_id": null,
+      "notes": [],
+      "origin_kind": "derived_proposal",
+      "proposal_id": "proposal_event_ctx_prep0_flip6_bias_step4_atom_hot_2__event_ctx_prep0_flip6_occupancy_step3_atom_zero_2",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/stochastic-two-state-package/shared-event-candidates.json",
+          "source_item_id": "proposal_event_ctx_prep0_flip6_bias_step4_atom_hot_2__event_ctx_prep0_flip6_occupancy_step3_atom_zero_2",
+          "source_kind": "derived_shared_event_match"
+        },
+        {
+          "artifact": "experiments/instances/smoke/substrate-runs/stochastic-two-state-seed123.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    },
+    {
+      "ancestor_proposal_id": null,
+      "notes": [],
+      "origin_kind": "derived_proposal",
+      "proposal_id": "proposal_event_ctx_prep0_flip6_bias_step4_atom_cold_1__event_ctx_prep0_flip6_occupancy_step4_atom_zero_2",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/stochastic-two-state-package/shared-event-candidates.json",
+          "source_item_id": "proposal_event_ctx_prep0_flip6_bias_step4_atom_cold_1__event_ctx_prep0_flip6_occupancy_step4_atom_zero_2",
+          "source_kind": "derived_shared_event_match"
+        },
+        {
+          "artifact": "experiments/instances/smoke/substrate-runs/stochastic-two-state-seed123.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    },
+    {
+      "ancestor_proposal_id": null,
+      "notes": [],
+      "origin_kind": "derived_proposal",
+      "proposal_id": "proposal_event_ctx_prep0_flip6_bias_step4_atom_hot_2__event_ctx_prep0_flip6_occupancy_step4_atom_one_1",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/stochastic-two-state-package/shared-event-candidates.json",
+          "source_item_id": "proposal_event_ctx_prep0_flip6_bias_step4_atom_hot_2__event_ctx_prep0_flip6_occupancy_step4_atom_one_1",
+          "source_kind": "derived_shared_event_match"
+        },
+        {
+          "artifact": "experiments/instances/smoke/substrate-runs/stochastic-two-state-seed123.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    },
+    {
+      "ancestor_proposal_id": null,
+      "notes": [],
+      "origin_kind": "derived_proposal",
+      "proposal_id": "proposal_event_ctx_prep0_flip6_bias_step4_atom_cold_1__event_ctx_prep0_flip6_occupancy_step5_atom_one_1",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/stochastic-two-state-package/shared-event-candidates.json",
+          "source_item_id": "proposal_event_ctx_prep0_flip6_bias_step4_atom_cold_1__event_ctx_prep0_flip6_occupancy_step5_atom_one_1",
+          "source_kind": "derived_shared_event_match"
+        },
+        {
+          "artifact": "experiments/instances/smoke/substrate-runs/stochastic-two-state-seed123.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    },
+    {
+      "ancestor_proposal_id": null,
+      "notes": [],
+      "origin_kind": "derived_proposal",
+      "proposal_id": "proposal_event_ctx_prep0_flip6_bias_step5_atom_cold_1__event_ctx_prep0_flip6_occupancy_step0_atom_one_1",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/stochastic-two-state-package/shared-event-candidates.json",
+          "source_item_id": "proposal_event_ctx_prep0_flip6_bias_step5_atom_cold_1__event_ctx_prep0_flip6_occupancy_step0_atom_one_1",
+          "source_kind": "derived_shared_event_match"
+        },
+        {
+          "artifact": "experiments/instances/smoke/substrate-runs/stochastic-two-state-seed123.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    },
+    {
+      "ancestor_proposal_id": null,
+      "notes": [],
+      "origin_kind": "derived_proposal",
+      "proposal_id": "proposal_event_ctx_prep0_flip6_bias_step5_atom_cold_1__event_ctx_prep0_flip6_occupancy_step3_atom_zero_2",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/stochastic-two-state-package/shared-event-candidates.json",
+          "source_item_id": "proposal_event_ctx_prep0_flip6_bias_step5_atom_cold_1__event_ctx_prep0_flip6_occupancy_step3_atom_zero_2",
+          "source_kind": "derived_shared_event_match"
+        },
+        {
+          "artifact": "experiments/instances/smoke/substrate-runs/stochastic-two-state-seed123.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    },
+    {
+      "ancestor_proposal_id": null,
+      "notes": [],
+      "origin_kind": "derived_proposal",
+      "proposal_id": "proposal_event_ctx_prep0_flip6_bias_step5_atom_hot_2__event_ctx_prep0_flip6_occupancy_step4_atom_zero_2",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/stochastic-two-state-package/shared-event-candidates.json",
+          "source_item_id": "proposal_event_ctx_prep0_flip6_bias_step5_atom_hot_2__event_ctx_prep0_flip6_occupancy_step4_atom_zero_2",
+          "source_kind": "derived_shared_event_match"
+        },
+        {
+          "artifact": "experiments/instances/smoke/substrate-runs/stochastic-two-state-seed123.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    },
+    {
+      "ancestor_proposal_id": null,
+      "notes": [],
+      "origin_kind": "derived_proposal",
+      "proposal_id": "proposal_event_ctx_prep0_flip6_bias_step5_atom_cold_1__event_ctx_prep0_flip6_occupancy_step5_atom_zero_2",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/stochastic-two-state-package/shared-event-candidates.json",
+          "source_item_id": "proposal_event_ctx_prep0_flip6_bias_step5_atom_cold_1__event_ctx_prep0_flip6_occupancy_step5_atom_zero_2",
+          "source_kind": "derived_shared_event_match"
+        },
+        {
+          "artifact": "experiments/instances/smoke/substrate-runs/stochastic-two-state-seed123.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    },
+    {
+      "ancestor_proposal_id": null,
+      "notes": [],
+      "origin_kind": "derived_proposal",
+      "proposal_id": "proposal_event_ctx_prep0_flip6_bias_step5_atom_hot_2__event_ctx_prep0_flip6_occupancy_step5_atom_one_1",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/stochastic-two-state-package/shared-event-candidates.json",
+          "source_item_id": "proposal_event_ctx_prep0_flip6_bias_step5_atom_hot_2__event_ctx_prep0_flip6_occupancy_step5_atom_one_1",
+          "source_kind": "derived_shared_event_match"
+        },
+        {
+          "artifact": "experiments/instances/smoke/substrate-runs/stochastic-two-state-seed123.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    },
+    {
+      "ancestor_proposal_id": null,
+      "notes": [],
+      "origin_kind": "derived_proposal",
+      "proposal_id": "proposal_event_ctx_prep0_flip6_occupancy_step0_atom_one_1__event_ctx_prep0_flip6_occupancy_step1_atom_zero_2",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/stochastic-two-state-package/shared-event-candidates.json",
+          "source_item_id": "proposal_event_ctx_prep0_flip6_occupancy_step0_atom_one_1__event_ctx_prep0_flip6_occupancy_step1_atom_zero_2",
+          "source_kind": "derived_shared_event_match"
+        },
+        {
+          "artifact": "experiments/instances/smoke/substrate-runs/stochastic-two-state-seed123.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    },
+    {
+      "ancestor_proposal_id": null,
+      "notes": [],
+      "origin_kind": "derived_proposal",
+      "proposal_id": "proposal_event_ctx_prep0_flip6_occupancy_step0_atom_zero_2__event_ctx_prep0_flip6_occupancy_step1_atom_one_1",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/stochastic-two-state-package/shared-event-candidates.json",
+          "source_item_id": "proposal_event_ctx_prep0_flip6_occupancy_step0_atom_zero_2__event_ctx_prep0_flip6_occupancy_step1_atom_one_1",
+          "source_kind": "derived_shared_event_match"
+        },
+        {
+          "artifact": "experiments/instances/smoke/substrate-runs/stochastic-two-state-seed123.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    },
+    {
+      "ancestor_proposal_id": null,
+      "notes": [],
+      "origin_kind": "derived_proposal",
+      "proposal_id": "proposal_event_ctx_prep0_flip6_occupancy_step0_atom_one_1__event_ctx_prep0_flip6_occupancy_step2_atom_one_1",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/stochastic-two-state-package/shared-event-candidates.json",
+          "source_item_id": "proposal_event_ctx_prep0_flip6_occupancy_step0_atom_one_1__event_ctx_prep0_flip6_occupancy_step2_atom_one_1",
+          "source_kind": "derived_shared_event_match"
+        },
+        {
+          "artifact": "experiments/instances/smoke/substrate-runs/stochastic-two-state-seed123.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    },
+    {
+      "ancestor_proposal_id": null,
+      "notes": [],
+      "origin_kind": "derived_proposal",
+      "proposal_id": "proposal_event_ctx_prep0_flip6_occupancy_step0_atom_zero_2__event_ctx_prep0_flip6_occupancy_step2_atom_zero_2",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/stochastic-two-state-package/shared-event-candidates.json",
+          "source_item_id": "proposal_event_ctx_prep0_flip6_occupancy_step0_atom_zero_2__event_ctx_prep0_flip6_occupancy_step2_atom_zero_2",
+          "source_kind": "derived_shared_event_match"
+        },
+        {
+          "artifact": "experiments/instances/smoke/substrate-runs/stochastic-two-state-seed123.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    },
+    {
+      "ancestor_proposal_id": null,
+      "notes": [],
+      "origin_kind": "derived_proposal",
+      "proposal_id": "proposal_event_ctx_prep0_flip6_occupancy_step0_atom_one_1__event_ctx_prep0_flip6_occupancy_step3_atom_zero_2",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/stochastic-two-state-package/shared-event-candidates.json",
+          "source_item_id": "proposal_event_ctx_prep0_flip6_occupancy_step0_atom_one_1__event_ctx_prep0_flip6_occupancy_step3_atom_zero_2",
+          "source_kind": "derived_shared_event_match"
+        },
+        {
+          "artifact": "experiments/instances/smoke/substrate-runs/stochastic-two-state-seed123.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    },
+    {
+      "ancestor_proposal_id": null,
+      "notes": [],
+      "origin_kind": "derived_proposal",
+      "proposal_id": "proposal_event_ctx_prep0_flip6_occupancy_step0_atom_zero_2__event_ctx_prep0_flip6_occupancy_step3_atom_one_1",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/stochastic-two-state-package/shared-event-candidates.json",
+          "source_item_id": "proposal_event_ctx_prep0_flip6_occupancy_step0_atom_zero_2__event_ctx_prep0_flip6_occupancy_step3_atom_one_1",
+          "source_kind": "derived_shared_event_match"
+        },
+        {
+          "artifact": "experiments/instances/smoke/substrate-runs/stochastic-two-state-seed123.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    },
+    {
+      "ancestor_proposal_id": null,
+      "notes": [],
+      "origin_kind": "derived_proposal",
+      "proposal_id": "proposal_event_ctx_prep0_flip6_occupancy_step0_atom_one_1__event_ctx_prep0_flip6_occupancy_step4_atom_one_1",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/stochastic-two-state-package/shared-event-candidates.json",
+          "source_item_id": "proposal_event_ctx_prep0_flip6_occupancy_step0_atom_one_1__event_ctx_prep0_flip6_occupancy_step4_atom_one_1",
+          "source_kind": "derived_shared_event_match"
+        },
+        {
+          "artifact": "experiments/instances/smoke/substrate-runs/stochastic-two-state-seed123.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    },
+    {
+      "ancestor_proposal_id": null,
+      "notes": [],
+      "origin_kind": "derived_proposal",
+      "proposal_id": "proposal_event_ctx_prep0_flip6_occupancy_step0_atom_one_1__event_ctx_prep0_flip6_occupancy_step5_atom_zero_2",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/stochastic-two-state-package/shared-event-candidates.json",
+          "source_item_id": "proposal_event_ctx_prep0_flip6_occupancy_step0_atom_one_1__event_ctx_prep0_flip6_occupancy_step5_atom_zero_2",
+          "source_kind": "derived_shared_event_match"
+        },
+        {
+          "artifact": "experiments/instances/smoke/substrate-runs/stochastic-two-state-seed123.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    },
+    {
+      "ancestor_proposal_id": null,
+      "notes": [],
+      "origin_kind": "derived_proposal",
+      "proposal_id": "proposal_event_ctx_prep0_flip6_occupancy_step1_atom_one_1__event_ctx_prep0_flip6_occupancy_step2_atom_zero_2",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/stochastic-two-state-package/shared-event-candidates.json",
+          "source_item_id": "proposal_event_ctx_prep0_flip6_occupancy_step1_atom_one_1__event_ctx_prep0_flip6_occupancy_step2_atom_zero_2",
+          "source_kind": "derived_shared_event_match"
+        },
+        {
+          "artifact": "experiments/instances/smoke/substrate-runs/stochastic-two-state-seed123.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    },
+    {
+      "ancestor_proposal_id": null,
+      "notes": [],
+      "origin_kind": "derived_proposal",
+      "proposal_id": "proposal_event_ctx_prep0_flip6_occupancy_step1_atom_zero_2__event_ctx_prep0_flip6_occupancy_step2_atom_one_1",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/stochastic-two-state-package/shared-event-candidates.json",
+          "source_item_id": "proposal_event_ctx_prep0_flip6_occupancy_step1_atom_zero_2__event_ctx_prep0_flip6_occupancy_step2_atom_one_1",
+          "source_kind": "derived_shared_event_match"
+        },
+        {
+          "artifact": "experiments/instances/smoke/substrate-runs/stochastic-two-state-seed123.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    },
+    {
+      "ancestor_proposal_id": null,
+      "notes": [],
+      "origin_kind": "derived_proposal",
+      "proposal_id": "proposal_event_ctx_prep0_flip6_occupancy_step1_atom_one_1__event_ctx_prep0_flip6_occupancy_step3_atom_one_1",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/stochastic-two-state-package/shared-event-candidates.json",
+          "source_item_id": "proposal_event_ctx_prep0_flip6_occupancy_step1_atom_one_1__event_ctx_prep0_flip6_occupancy_step3_atom_one_1",
+          "source_kind": "derived_shared_event_match"
+        },
+        {
+          "artifact": "experiments/instances/smoke/substrate-runs/stochastic-two-state-seed123.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    },
+    {
+      "ancestor_proposal_id": null,
+      "notes": [],
+      "origin_kind": "derived_proposal",
+      "proposal_id": "proposal_event_ctx_prep0_flip6_occupancy_step1_atom_zero_2__event_ctx_prep0_flip6_occupancy_step3_atom_zero_2",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/stochastic-two-state-package/shared-event-candidates.json",
+          "source_item_id": "proposal_event_ctx_prep0_flip6_occupancy_step1_atom_zero_2__event_ctx_prep0_flip6_occupancy_step3_atom_zero_2",
+          "source_kind": "derived_shared_event_match"
+        },
+        {
+          "artifact": "experiments/instances/smoke/substrate-runs/stochastic-two-state-seed123.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    },
+    {
+      "ancestor_proposal_id": null,
+      "notes": [],
+      "origin_kind": "derived_proposal",
+      "proposal_id": "proposal_event_ctx_prep0_flip6_occupancy_step1_atom_zero_2__event_ctx_prep0_flip6_occupancy_step4_atom_one_1",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/stochastic-two-state-package/shared-event-candidates.json",
+          "source_item_id": "proposal_event_ctx_prep0_flip6_occupancy_step1_atom_zero_2__event_ctx_prep0_flip6_occupancy_step4_atom_one_1",
+          "source_kind": "derived_shared_event_match"
+        },
+        {
+          "artifact": "experiments/instances/smoke/substrate-runs/stochastic-two-state-seed123.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    },
+    {
+      "ancestor_proposal_id": null,
+      "notes": [],
+      "origin_kind": "derived_proposal",
+      "proposal_id": "proposal_event_ctx_prep0_flip6_occupancy_step2_atom_one_1__event_ctx_prep0_flip6_occupancy_step3_atom_zero_2",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/stochastic-two-state-package/shared-event-candidates.json",
+          "source_item_id": "proposal_event_ctx_prep0_flip6_occupancy_step2_atom_one_1__event_ctx_prep0_flip6_occupancy_step3_atom_zero_2",
+          "source_kind": "derived_shared_event_match"
+        },
+        {
+          "artifact": "experiments/instances/smoke/substrate-runs/stochastic-two-state-seed123.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    },
+    {
+      "ancestor_proposal_id": null,
+      "notes": [],
+      "origin_kind": "derived_proposal",
+      "proposal_id": "proposal_event_ctx_prep0_flip6_occupancy_step2_atom_zero_2__event_ctx_prep0_flip6_occupancy_step3_atom_one_1",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/stochastic-two-state-package/shared-event-candidates.json",
+          "source_item_id": "proposal_event_ctx_prep0_flip6_occupancy_step2_atom_zero_2__event_ctx_prep0_flip6_occupancy_step3_atom_one_1",
+          "source_kind": "derived_shared_event_match"
+        },
+        {
+          "artifact": "experiments/instances/smoke/substrate-runs/stochastic-two-state-seed123.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    },
+    {
+      "ancestor_proposal_id": null,
+      "notes": [],
+      "origin_kind": "derived_proposal",
+      "proposal_id": "proposal_event_ctx_prep0_flip6_occupancy_step2_atom_one_1__event_ctx_prep0_flip6_occupancy_step4_atom_one_1",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/stochastic-two-state-package/shared-event-candidates.json",
+          "source_item_id": "proposal_event_ctx_prep0_flip6_occupancy_step2_atom_one_1__event_ctx_prep0_flip6_occupancy_step4_atom_one_1",
+          "source_kind": "derived_shared_event_match"
+        },
+        {
+          "artifact": "experiments/instances/smoke/substrate-runs/stochastic-two-state-seed123.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    },
+    {
+      "ancestor_proposal_id": null,
+      "notes": [],
+      "origin_kind": "derived_proposal",
+      "proposal_id": "proposal_event_ctx_prep0_flip6_occupancy_step3_atom_zero_2__event_ctx_prep0_flip6_occupancy_step4_atom_one_1",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/stochastic-two-state-package/shared-event-candidates.json",
+          "source_item_id": "proposal_event_ctx_prep0_flip6_occupancy_step3_atom_zero_2__event_ctx_prep0_flip6_occupancy_step4_atom_one_1",
+          "source_kind": "derived_shared_event_match"
+        },
+        {
+          "artifact": "experiments/instances/smoke/substrate-runs/stochastic-two-state-seed123.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    },
+    {
+      "ancestor_proposal_id": null,
+      "notes": [],
+      "origin_kind": "derived_proposal",
+      "proposal_id": "proposal_event_ctx_prep0_flip6_occupancy_step3_atom_zero_2__event_ctx_prep0_flip6_occupancy_step5_atom_zero_2",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/stochastic-two-state-package/shared-event-candidates.json",
+          "source_item_id": "proposal_event_ctx_prep0_flip6_occupancy_step3_atom_zero_2__event_ctx_prep0_flip6_occupancy_step5_atom_zero_2",
+          "source_kind": "derived_shared_event_match"
+        },
+        {
+          "artifact": "experiments/instances/smoke/substrate-runs/stochastic-two-state-seed123.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    },
+    {
+      "ancestor_proposal_id": null,
+      "notes": [],
+      "origin_kind": "derived_proposal",
+      "proposal_id": "proposal_event_ctx_prep0_flip6_occupancy_step4_atom_zero_2__event_ctx_prep0_flip6_occupancy_step5_atom_one_1",
+      "refinement": null,
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/discovered/stochastic-two-state-package/shared-event-candidates.json",
+          "source_item_id": "proposal_event_ctx_prep0_flip6_occupancy_step4_atom_zero_2__event_ctx_prep0_flip6_occupancy_step5_atom_one_1",
+          "source_kind": "derived_shared_event_match"
+        },
+        {
+          "artifact": "experiments/instances/smoke/substrate-runs/stochastic-two-state-seed123.json",
+          "source_item_id": null,
+          "source_kind": "raw_substrate_run"
+        }
+      ]
+    }
+  ],
+  "provenance_format_version": "package-provenance.v1",
+  "provenance_mode": "derived",
+  "source_artifacts": {
+    "discovered_context_family": "experiments/instances/smoke/discovered-contexts/stochastic-two-state-contexts.json",
+    "discovered_event_family": "experiments/instances/discovered/stochastic-two-state-package/discovered-event-family.json",
+    "event_package_skeleton": "experiments/instances/smoke/discovered-contexts/stochastic-two-state-skeleton.json",
+    "raw_substrate_run_1": "experiments/instances/smoke/substrate-runs/stochastic-two-state-seed123.json",
+    "shared_event_candidates": "experiments/instances/discovered/stochastic-two-state-package/shared-event-candidates.json"
+  }
+}

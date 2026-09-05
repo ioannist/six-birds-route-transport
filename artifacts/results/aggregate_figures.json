@@ -1,0 +1,109 @@
+{
+  "figures": [
+    {
+      "figure_id": "q_vs_m",
+      "figure_path": "artifacts/figures/q_vs_m.png",
+      "figure_kind": "scatter",
+      "source_artifact_paths": [
+        "artifacts/results/discovery/cyclic_memory_small.atlas.json",
+        "artifacts/results/discovery/fixed_support_core_small.atlas.json",
+        "artifacts/results/discovery/groupoid_probe_small.atlas.json",
+        "artifacts/results/dissipative_memory.result.json",
+        "artifacts/results/flat_control.result.json",
+        "artifacts/results/flattenable_completed.result.json",
+        "artifacts/results/flattenable_raw.result.json",
+        "artifacts/results/latent_memory_base.result.json",
+        "artifacts/results/latent_memory_refined.result.json",
+        "artifacts/results/memory_wheel.result.json",
+        "artifacts/results/protocol_trap_honest.result.json",
+        "artifacts/results/protocol_trap_naive.result.json"
+      ],
+      "source_record_types": [
+        "benchmark_interface",
+        "discovery_candidate"
+      ],
+      "description": "Current versus predictive quotient sizes for benchmark interfaces and discovery candidates."
+    },
+    {
+      "figure_id": "witness_counts",
+      "figure_path": "artifacts/figures/witness_counts.png",
+      "figure_kind": "bar",
+      "source_artifact_paths": [
+        "artifacts/results/dissipative_memory.result.json",
+        "artifacts/results/flat_control.result.json",
+        "artifacts/results/flattenable_completed.result.json",
+        "artifacts/results/flattenable_raw.result.json",
+        "artifacts/results/latent_memory_base.result.json",
+        "artifacts/results/latent_memory_refined.result.json",
+        "artifacts/results/memory_wheel.result.json",
+        "artifacts/results/protocol_trap_honest.result.json",
+        "artifacts/results/protocol_trap_naive.result.json"
+      ],
+      "source_record_types": [
+        "benchmark_interface"
+      ],
+      "description": "Witness counts across benchmark interfaces and promoted discovery exemplars."
+    },
+    {
+      "figure_id": "loop_action_scores",
+      "figure_path": "artifacts/figures/loop_action_scores.png",
+      "figure_kind": "grouped_bar",
+      "source_artifact_paths": [
+        "artifacts/results/discovery/promoted_exemplars.json",
+        "artifacts/results/dissipative_memory.result.json",
+        "artifacts/results/flat_control.result.json",
+        "artifacts/results/flattenable_completed.result.json",
+        "artifacts/results/flattenable_raw.result.json",
+        "artifacts/results/latent_memory_base.result.json",
+        "artifacts/results/latent_memory_refined.result.json",
+        "artifacts/results/memory_wheel.result.json",
+        "artifacts/results/protocol_trap_honest.result.json",
+        "artifacts/results/protocol_trap_naive.result.json"
+      ],
+      "source_record_types": [
+        "benchmark_interface",
+        "discovery_promoted_exemplar"
+      ],
+      "description": "Current versus predictive loop-action scores for benchmark interfaces and promoted exemplars."
+    },
+    {
+      "figure_id": "robustness_fractions",
+      "figure_path": "artifacts/figures/robustness_fractions.png",
+      "figure_kind": "bar",
+      "source_artifact_paths": [
+        "artifacts/results/discovery/cyclic_memory_small.shortlist_robustness.json",
+        "artifacts/results/discovery/groupoid_probe_small.cand_0000.promotion_robustness.json",
+        "artifacts/results/discovery/groupoid_probe_small.cand_0001.promotion_robustness.json",
+        "artifacts/results/discovery/groupoid_probe_small.cand_0004.promotion_robustness.json",
+        "artifacts/results/discovery/promoted_exemplars.json",
+        "artifacts/results/robustness/core_suite.robustness.json",
+        "artifacts/results/robustness/dissipative_memory.robustness.json",
+        "artifacts/results/robustness/flat_control.robustness.json",
+        "artifacts/results/robustness/flattenable_completed.robustness.json",
+        "artifacts/results/robustness/latent_memory_base.robustness.json",
+        "artifacts/results/robustness/latent_memory_refined.robustness.json",
+        "artifacts/results/robustness/memory_wheel.robustness.json",
+        "artifacts/results/robustness/protocol_trap_honest.robustness.json"
+      ],
+      "source_record_types": [
+        "benchmark_robustness",
+        "discovery_promoted_exemplar",
+        "discovery_promotion_robustness",
+        "discovery_shortlist_robustness"
+      ],
+      "description": "Benchmark and discovery robustness fractions from robustness summaries and promoted exemplars."
+    },
+    {
+      "figure_id": "class_distributions",
+      "figure_path": "artifacts/figures/class_distributions.png",
+      "figure_kind": "grouped_bar",
+      "source_artifact_paths": [
+        "artifacts/results/discovery/multi_space.discovery.json"
+      ],
+      "source_record_types": [
+        "discovery_space"
+      ],
+      "description": "Discovery class distributions by search space, including the all-flat control space."
+    }
+  ]
+}

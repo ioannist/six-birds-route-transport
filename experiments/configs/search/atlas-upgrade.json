@@ -1,0 +1,117 @@
+{
+  "atlas_format_version": "atlas-upgrade-config.v1",
+  "atlas_id": "atlas_upgrade",
+  "points": [
+    {
+      "point_id": "deterministic_cycle_seed0",
+      "config_artifact": "experiments/configs/substrates/deterministic-cycle.json",
+      "preparation_id": "prep0",
+      "protocol_id": "cycle5",
+      "trajectories": 4,
+      "seed": 0,
+      "figure_group": "controls",
+      "notes": [
+        "expected_trivial_or_nonrecording"
+      ]
+    },
+    {
+      "point_id": "stochastic_short_seed123",
+      "config_artifact": "experiments/configs/substrates/stochastic-two-state-short.json",
+      "preparation_id": "prep0",
+      "protocol_id": "flip2",
+      "trajectories": 20,
+      "seed": 123,
+      "figure_group": "stochastic",
+      "notes": [
+        "expected_nontrivial_extendable"
+      ]
+    },
+    {
+      "point_id": "triadic_branch_multilens_seed123",
+      "config_artifact": "experiments/configs/substrates/triadic-branch.json",
+      "preparation_id": "prep0",
+      "protocol_id": "branch_hold_hold",
+      "trajectories": 30,
+      "seed": 123,
+      "figure_group": "triadic",
+      "notes": [
+        "multilens_coarse_candidate"
+      ]
+    },
+    {
+      "point_id": "triadic_stable_single_lens_seed123",
+      "config_artifact": "experiments/configs/substrates/triadic-stable-single-lens.json",
+      "preparation_id": "prep0",
+      "protocol_id": "branch_hold_hold",
+      "trajectories": 30,
+      "seed": 123,
+      "figure_group": "triadic",
+      "notes": [
+        "compact_coarse_merge_control"
+      ]
+    },
+    {
+      "point_id": "triadic_cycle_single_lens_seed123",
+      "config_artifact": "experiments/configs/substrates/triadic-cycle-single-lens.json",
+      "preparation_id": "prep0",
+      "protocol_id": "branch_cycle_cycle",
+      "trajectories": 30,
+      "seed": 123,
+      "figure_group": "triadic",
+      "notes": [
+        "cycle_variation"
+      ]
+    },
+    {
+      "point_id": "triadic_swap_single_lens_seed123",
+      "config_artifact": "experiments/configs/substrates/triadic-swap-single-lens.json",
+      "preparation_id": "prep0",
+      "protocol_id": "branch_swap_swap",
+      "trajectories": 30,
+      "seed": 123,
+      "figure_group": "triadic",
+      "notes": [
+        "aliasing_variation"
+      ]
+    }
+  ],
+  "extraction_thresholds": {
+    "min_trajectory_count": 10,
+    "min_atom_count": 2,
+    "min_atom_support_count": 2,
+    "min_atom_support_fraction": 0.0,
+    "min_coverage": 0.9,
+    "max_batch_tv": 0.35,
+    "max_persistence_flip_rate": 0.8,
+    "batch_count": 2
+  },
+  "coarse_event_generation_thresholds": {
+    "event_basis_mode": "singleton_plus_small_unions",
+    "max_union_size": 2,
+    "min_event_support_count": 3,
+    "min_event_support_fraction": 0.1
+  },
+  "shared_event_inference_thresholds": {
+    "min_common_probes": 1,
+    "min_conditioning_count": 3,
+    "max_mean_tv": 0.15,
+    "exact_tolerance": 1e-06,
+    "proposal_constraint_kind": "soft"
+  },
+  "provenance_required": true,
+  "candidate_classification_thresholds": {
+    "strong_nonextendable_min_gpd_str": 1.0,
+    "near_zero_gpd_stat": 1e-06,
+    "min_accepted_coarse_proposal_count": 1
+  },
+  "figure_output_settings": {
+    "emit_regime_counts_csv": true,
+    "emit_atlas_points_csv": true,
+    "emit_threshold_summary_csv": true
+  },
+  "output_category": "search",
+  "output_label": "atlas-upgrade",
+  "metadata": {
+    "mode": "compact_atlas_upgrade"
+  }
+}

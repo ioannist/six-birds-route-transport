@@ -1,0 +1,6 @@
+# Keep build artifacts in paper/build
+$out_dir = 'build';
+$aux_dir = 'build';
+
+# After successful build, flatten .tex into a single file in build/
+$success_cmd = 'latexpand %S -o %Y/%R_flat.tex';

@@ -1,0 +1,101 @@
+{
+  "downstream_probes": [
+    {
+      "event_id": "event_a0",
+      "context_id": "ctx_a",
+      "probe_id": "probe_alpha",
+      "signature": "probe_alpha",
+      "outcome_probabilities": {
+        "hit": 0.9,
+        "miss": 0.1
+      }
+    },
+    {
+      "event_id": "event_b0",
+      "context_id": "ctx_b",
+      "probe_id": "probe_alpha",
+      "signature": "probe_alpha",
+      "outcome_probabilities": {
+        "hit": 0.84,
+        "miss": 0.16
+      }
+    },
+    {
+      "event_id": "event_a2",
+      "context_id": "ctx_a",
+      "probe_id": "probe_beta",
+      "signature": "probe_beta",
+      "outcome_probabilities": {
+        "closed": 0.8,
+        "open": 0.2
+      }
+    },
+    {
+      "event_id": "event_c2",
+      "context_id": "ctx_c",
+      "probe_id": "probe_beta",
+      "signature": "probe_beta",
+      "outcome_probabilities": {
+        "closed": 0.76,
+        "open": 0.24
+      }
+    },
+    {
+      "event_id": "event_a01",
+      "context_id": "ctx_a",
+      "probe_id": "probe_gamma",
+      "signature": "probe_gamma",
+      "outcome_probabilities": {
+        "high": 0.6,
+        "low": 0.4
+      }
+    },
+    {
+      "event_id": "event_c01",
+      "context_id": "ctx_c",
+      "probe_id": "probe_gamma",
+      "signature": "probe_gamma",
+      "outcome_probabilities": {
+        "high": 0.54,
+        "low": 0.46
+      }
+    },
+    {
+      "event_id": "event_a12",
+      "context_id": "ctx_a",
+      "probe_id": "probe_delta",
+      "signature": "probe_delta",
+      "outcome_probabilities": {
+        "left": 0.3,
+        "right": 0.7
+      }
+    },
+    {
+      "event_id": "event_b12",
+      "context_id": "ctx_b",
+      "probe_id": "probe_delta",
+      "signature": "probe_delta",
+      "outcome_probabilities": {
+        "left": 0.36,
+        "right": 0.64
+      }
+    }
+  ],
+  "instance_artifact": "experiments/instances/benchmarks/epistemic-six-state/instance.json",
+  "instance_id": "inst_epistemic_six_state",
+  "metadata": {
+    "benchmark_id": "epistemic-six-state",
+    "mode": "sec_noisy"
+  },
+  "observations": [
+    {
+      "context_id": "ctx_a",
+      "atom_ids": [
+        "a2"
+      ],
+      "count": 1
+    }
+  ],
+  "trace_format_version": "observation-trace.v1",
+  "trace_id": "trace_epistemic_six_state_sec_noisy"
+}

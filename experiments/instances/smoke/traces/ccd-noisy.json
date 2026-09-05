@@ -1,0 +1,88 @@
+{
+  "downstream_probes": [
+    {
+      "payload": {
+        "mode": "noisy"
+      },
+      "probe_id": "probe_ccd_noisy",
+      "signature": "ccd:noisy"
+    }
+  ],
+  "instance_artifact": "experiments/instances/smoke/exact-extendable.json",
+  "instance_id": "inst_smoke_exact_extendable",
+  "metadata": {
+    "generator": "ccd_noisy",
+    "seed": 11
+  },
+  "observations": [
+    {
+      "atom_ids": [
+        "a0"
+      ],
+      "context_id": "ctx_a",
+      "count": 9,
+      "status": "noisy"
+    },
+    {
+      "atom_ids": [
+        "b0"
+      ],
+      "context_id": "ctx_b",
+      "count": 8,
+      "status": "noisy"
+    }
+  ],
+  "repeated_read_sequences": [
+    {
+      "context_id": "ctx_a",
+      "reads": [
+        [
+          "a0"
+        ],
+        [
+          "a0",
+          "a1"
+        ],
+        [],
+        [
+          "a1"
+        ],
+        [
+          "a0"
+        ]
+      ]
+    },
+    {
+      "context_id": "ctx_b",
+      "reads": [
+        [
+          "b0"
+        ],
+        [
+          "b1"
+        ],
+        [
+          "b0"
+        ],
+        [
+          "b1"
+        ],
+        [
+          "b1"
+        ]
+      ]
+    }
+  ],
+  "route_trace": {
+    "notes": "noisy repeated-read smoke trace",
+    "route_id": "route_ccd_noisy",
+    "steps": [
+      "read",
+      "perturb",
+      "repeat",
+      "record"
+    ]
+  },
+  "trace_format_version": "observation-trace.v1",
+  "trace_id": "trace_ccd_noisy"
+}

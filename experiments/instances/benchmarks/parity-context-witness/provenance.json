@@ -1,0 +1,414 @@
+{
+  "context_entries": [
+    {
+      "context_id": "R1",
+      "notes": [],
+      "origin_kind": "designed_context",
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/benchmarks/parity-context-witness/instance.json",
+          "source_item_id": "R1",
+          "source_kind": "designed_context"
+        }
+      ]
+    },
+    {
+      "context_id": "R2",
+      "notes": [],
+      "origin_kind": "designed_context",
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/benchmarks/parity-context-witness/instance.json",
+          "source_item_id": "R2",
+          "source_kind": "designed_context"
+        }
+      ]
+    },
+    {
+      "context_id": "R3",
+      "notes": [],
+      "origin_kind": "designed_context",
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/benchmarks/parity-context-witness/instance.json",
+          "source_item_id": "R3",
+          "source_kind": "designed_context"
+        }
+      ]
+    },
+    {
+      "context_id": "C1",
+      "notes": [],
+      "origin_kind": "designed_context",
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/benchmarks/parity-context-witness/instance.json",
+          "source_item_id": "C1",
+          "source_kind": "designed_context"
+        }
+      ]
+    },
+    {
+      "context_id": "C2",
+      "notes": [],
+      "origin_kind": "designed_context",
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/benchmarks/parity-context-witness/instance.json",
+          "source_item_id": "C2",
+          "source_kind": "designed_context"
+        }
+      ]
+    },
+    {
+      "context_id": "C3",
+      "notes": [],
+      "origin_kind": "designed_context",
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/benchmarks/parity-context-witness/instance.json",
+          "source_item_id": "C3",
+          "source_kind": "designed_context"
+        }
+      ]
+    }
+  ],
+  "event_entries": [
+    {
+      "event_id": "event_r1_o11_plus",
+      "notes": [],
+      "origin_kind": "designed_event",
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/benchmarks/parity-context-witness/instance.json",
+          "source_item_id": "event_r1_o11_plus",
+          "source_kind": "designed_event"
+        }
+      ]
+    },
+    {
+      "event_id": "event_r1_o12_plus",
+      "notes": [],
+      "origin_kind": "designed_event",
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/benchmarks/parity-context-witness/instance.json",
+          "source_item_id": "event_r1_o12_plus",
+          "source_kind": "designed_event"
+        }
+      ]
+    },
+    {
+      "event_id": "event_r1_o13_plus",
+      "notes": [],
+      "origin_kind": "designed_event",
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/benchmarks/parity-context-witness/instance.json",
+          "source_item_id": "event_r1_o13_plus",
+          "source_kind": "designed_event"
+        }
+      ]
+    },
+    {
+      "event_id": "event_r2_o21_plus",
+      "notes": [],
+      "origin_kind": "designed_event",
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/benchmarks/parity-context-witness/instance.json",
+          "source_item_id": "event_r2_o21_plus",
+          "source_kind": "designed_event"
+        }
+      ]
+    },
+    {
+      "event_id": "event_r2_o22_plus",
+      "notes": [],
+      "origin_kind": "designed_event",
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/benchmarks/parity-context-witness/instance.json",
+          "source_item_id": "event_r2_o22_plus",
+          "source_kind": "designed_event"
+        }
+      ]
+    },
+    {
+      "event_id": "event_r2_o23_plus",
+      "notes": [],
+      "origin_kind": "designed_event",
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/benchmarks/parity-context-witness/instance.json",
+          "source_item_id": "event_r2_o23_plus",
+          "source_kind": "designed_event"
+        }
+      ]
+    },
+    {
+      "event_id": "event_r3_o31_plus",
+      "notes": [],
+      "origin_kind": "designed_event",
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/benchmarks/parity-context-witness/instance.json",
+          "source_item_id": "event_r3_o31_plus",
+          "source_kind": "designed_event"
+        }
+      ]
+    },
+    {
+      "event_id": "event_r3_o32_plus",
+      "notes": [],
+      "origin_kind": "designed_event",
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/benchmarks/parity-context-witness/instance.json",
+          "source_item_id": "event_r3_o32_plus",
+          "source_kind": "designed_event"
+        }
+      ]
+    },
+    {
+      "event_id": "event_r3_o33_plus",
+      "notes": [],
+      "origin_kind": "designed_event",
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/benchmarks/parity-context-witness/instance.json",
+          "source_item_id": "event_r3_o33_plus",
+          "source_kind": "designed_event"
+        }
+      ]
+    },
+    {
+      "event_id": "event_c1_o11_plus",
+      "notes": [],
+      "origin_kind": "designed_event",
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/benchmarks/parity-context-witness/instance.json",
+          "source_item_id": "event_c1_o11_plus",
+          "source_kind": "designed_event"
+        }
+      ]
+    },
+    {
+      "event_id": "event_c1_o21_plus",
+      "notes": [],
+      "origin_kind": "designed_event",
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/benchmarks/parity-context-witness/instance.json",
+          "source_item_id": "event_c1_o21_plus",
+          "source_kind": "designed_event"
+        }
+      ]
+    },
+    {
+      "event_id": "event_c1_o31_plus",
+      "notes": [],
+      "origin_kind": "designed_event",
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/benchmarks/parity-context-witness/instance.json",
+          "source_item_id": "event_c1_o31_plus",
+          "source_kind": "designed_event"
+        }
+      ]
+    },
+    {
+      "event_id": "event_c2_o12_plus",
+      "notes": [],
+      "origin_kind": "designed_event",
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/benchmarks/parity-context-witness/instance.json",
+          "source_item_id": "event_c2_o12_plus",
+          "source_kind": "designed_event"
+        }
+      ]
+    },
+    {
+      "event_id": "event_c2_o22_plus",
+      "notes": [],
+      "origin_kind": "designed_event",
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/benchmarks/parity-context-witness/instance.json",
+          "source_item_id": "event_c2_o22_plus",
+          "source_kind": "designed_event"
+        }
+      ]
+    },
+    {
+      "event_id": "event_c2_o32_plus",
+      "notes": [],
+      "origin_kind": "designed_event",
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/benchmarks/parity-context-witness/instance.json",
+          "source_item_id": "event_c2_o32_plus",
+          "source_kind": "designed_event"
+        }
+      ]
+    },
+    {
+      "event_id": "event_c3_o13_plus",
+      "notes": [],
+      "origin_kind": "designed_event",
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/benchmarks/parity-context-witness/instance.json",
+          "source_item_id": "event_c3_o13_plus",
+          "source_kind": "designed_event"
+        }
+      ]
+    },
+    {
+      "event_id": "event_c3_o23_plus",
+      "notes": [],
+      "origin_kind": "designed_event",
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/benchmarks/parity-context-witness/instance.json",
+          "source_item_id": "event_c3_o23_plus",
+          "source_kind": "designed_event"
+        }
+      ]
+    },
+    {
+      "event_id": "event_c3_o33_plus",
+      "notes": [],
+      "origin_kind": "designed_event",
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/benchmarks/parity-context-witness/instance.json",
+          "source_item_id": "event_c3_o33_plus",
+          "source_kind": "designed_event"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "provenance_style": "declared_designed_asset"
+  },
+  "package_artifact": "experiments/instances/benchmarks/parity-context-witness/instance.json",
+  "package_id": "inst_parity_context_witness",
+  "proposal_entries": [
+    {
+      "notes": [],
+      "origin_kind": "designed_proposal",
+      "proposal_id": "p_o11",
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/benchmarks/parity-context-witness/instance.json",
+          "source_item_id": "p_o11",
+          "source_kind": "designed_proposal"
+        }
+      ]
+    },
+    {
+      "notes": [],
+      "origin_kind": "designed_proposal",
+      "proposal_id": "p_o12",
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/benchmarks/parity-context-witness/instance.json",
+          "source_item_id": "p_o12",
+          "source_kind": "designed_proposal"
+        }
+      ]
+    },
+    {
+      "notes": [],
+      "origin_kind": "designed_proposal",
+      "proposal_id": "p_o13",
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/benchmarks/parity-context-witness/instance.json",
+          "source_item_id": "p_o13",
+          "source_kind": "designed_proposal"
+        }
+      ]
+    },
+    {
+      "notes": [],
+      "origin_kind": "designed_proposal",
+      "proposal_id": "p_o21",
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/benchmarks/parity-context-witness/instance.json",
+          "source_item_id": "p_o21",
+          "source_kind": "designed_proposal"
+        }
+      ]
+    },
+    {
+      "notes": [],
+      "origin_kind": "designed_proposal",
+      "proposal_id": "p_o22",
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/benchmarks/parity-context-witness/instance.json",
+          "source_item_id": "p_o22",
+          "source_kind": "designed_proposal"
+        }
+      ]
+    },
+    {
+      "notes": [],
+      "origin_kind": "designed_proposal",
+      "proposal_id": "p_o23",
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/benchmarks/parity-context-witness/instance.json",
+          "source_item_id": "p_o23",
+          "source_kind": "designed_proposal"
+        }
+      ]
+    },
+    {
+      "notes": [],
+      "origin_kind": "designed_proposal",
+      "proposal_id": "p_o31",
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/benchmarks/parity-context-witness/instance.json",
+          "source_item_id": "p_o31",
+          "source_kind": "designed_proposal"
+        }
+      ]
+    },
+    {
+      "notes": [],
+      "origin_kind": "designed_proposal",
+      "proposal_id": "p_o32",
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/benchmarks/parity-context-witness/instance.json",
+          "source_item_id": "p_o32",
+          "source_kind": "designed_proposal"
+        }
+      ]
+    },
+    {
+      "notes": [],
+      "origin_kind": "designed_proposal",
+      "proposal_id": "p_o33",
+      "source_refs": [
+        {
+          "artifact": "experiments/instances/benchmarks/parity-context-witness/instance.json",
+          "source_item_id": "p_o33",
+          "source_kind": "designed_proposal"
+        }
+      ]
+    }
+  ],
+  "provenance_format_version": "package-provenance.v1",
+  "provenance_mode": "designed_explicit_witness",
+  "source_artifacts": {
+    "designed_package": "experiments/instances/benchmarks/parity-context-witness/instance.json"
+  }
+}

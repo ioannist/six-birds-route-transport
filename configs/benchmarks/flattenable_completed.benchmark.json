@@ -1,0 +1,15 @@
+{
+  "schema_version": "benchmark-manifest.v1",
+  "benchmark_id": "flattenable_completed",
+  "transport_package_ref": "configs/benchmarks/toy_flat_signatures.json",
+  "interfaces_to_measure": [
+    "mid"
+  ],
+  "loops_to_test": [
+    "end_loop"
+  ],
+  "perturbation_sweep_ref": "configs/benchmarks/flattenable_completed.perturbation.json",
+  "tags": [
+    "flattenable"
+  ]
+}

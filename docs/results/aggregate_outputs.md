@@ -1,0 +1,23 @@
+# Aggregate Outputs
+
+- combined json path: artifacts/results/aggregate_outputs.json
+- combined csv path: artifacts/tables/aggregate_outputs.csv
+- figure manifest path: artifacts/results/aggregate_figures.json
+- row counts by record type:
+  - benchmark_interface: 10
+  - benchmark_robustness: 8
+  - discovery_space: 3
+  - discovery_candidate: 20
+  - discovery_shortlist_candidate: 7
+  - discovery_shortlist_robustness: 4
+  - discovery_dedup_member: 7
+  - discovery_promoted_exemplar: 2
+  - discovery_promotion_robustness: 3
+- generated figures:
+  - artifacts/figures/q_vs_m.png
+  - artifacts/figures/witness_counts.png
+  - artifacts/figures/loop_action_scores.png
+  - artifacts/figures/robustness_fractions.png
+  - artifacts/figures/class_distributions.png
+- source coverage summary: benchmark sources=17, discovery sources=14
+- conclusion: the implementation-facing aggregate is ready for follow-up writing work.

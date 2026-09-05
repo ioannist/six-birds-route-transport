@@ -1,0 +1,73 @@
+{
+  "seed": 0,
+  "command": "python -m holonomy_memory run-discovery-smoke --seed 0",
+  "primary_search_id": "cyclic_memory_small",
+  "search_ids": [
+    "fixed_support_core_small",
+    "cyclic_memory_small",
+    "groupoid_probe_small"
+  ],
+  "atlas_json_path": "artifacts/results/discovery/cyclic_memory_small.atlas.json",
+  "atlas_csv_path": "artifacts/tables/discovery_cyclic_memory_small.csv",
+  "atlas_note_path": "docs/results/cyclic_memory_small.atlas.md",
+  "shortlist_json_path": "artifacts/results/discovery/cyclic_memory_small.shortlist.json",
+  "shortlist_csv_path": "artifacts/tables/discovery_cyclic_memory_small_shortlist.csv",
+  "shortlist_note_path": "docs/results/cyclic_memory_small.shortlist.md",
+  "shortlist_robustness_json_path": "artifacts/results/discovery/cyclic_memory_small.shortlist_robustness.json",
+  "shortlist_robustness_csv_path": "artifacts/tables/discovery_cyclic_memory_small_shortlist_robustness.csv",
+  "shortlist_robustness_note_path": "docs/results/cyclic_memory_small.shortlist_robustness.md",
+  "multispace_json_path": "artifacts/results/discovery/multi_space.discovery.json",
+  "multispace_csv_path": "artifacts/tables/discovery_multi_space_summary.csv",
+  "multispace_note_path": "docs/results/multi_space.discovery.md",
+  "dedup_json_path": "artifacts/results/discovery/multi_space.dedup.json",
+  "dedup_csv_path": "artifacts/tables/discovery_multi_space_dedup.csv",
+  "dedup_note_path": "docs/results/multi_space.dedup.md",
+  "promoted_exemplars_json_path": "artifacts/results/discovery/promoted_exemplars.json",
+  "promoted_exemplars_csv_path": "artifacts/tables/discovery_promoted_exemplars.csv",
+  "promoted_exemplars_note_path": "docs/results/discovery_exemplars.md",
+  "class_counts": {
+    "flat": 0,
+    "dissipative": 0,
+    "coherent_candidate": 8
+  },
+  "combined_shortlist_ids": [
+    "cand_0000",
+    "cand_0001",
+    "cand_0002",
+    "cand_0006"
+  ],
+  "shortlisted_robustness": [
+    {
+      "candidate_id": "cand_0000",
+      "survival_fraction": 0.5,
+      "meets_threshold": true
+    },
+    {
+      "candidate_id": "cand_0001",
+      "survival_fraction": 0.625,
+      "meets_threshold": true
+    },
+    {
+      "candidate_id": "cand_0002",
+      "survival_fraction": 0.5,
+      "meets_threshold": true
+    },
+    {
+      "candidate_id": "cand_0006",
+      "survival_fraction": 0.75,
+      "meets_threshold": true
+    }
+  ],
+  "multispace_all_flat_space_ids": [
+    "fixed_support_core_small"
+  ],
+  "multispace_productive_space_ids": [
+    "cyclic_memory_small",
+    "groupoid_probe_small"
+  ],
+  "promoted_exemplar_qualified_ids": [
+    "cyclic_memory_small:cand_0006",
+    "cyclic_memory_small:cand_0001"
+  ],
+  "warnings": []
+}

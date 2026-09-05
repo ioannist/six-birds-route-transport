@@ -1,0 +1,36 @@
+{
+  "schema_version": "pica-packaging-selection-ledger.v1",
+  "packaging_selection_ledger_id": "packaging_selection_ledger_example",
+  "export_bundle_id": "pica_export_bundle_example_v1",
+  "campaign_id": "campaign_example_v1",
+  "run_id": "run_triadic_branch_seed123",
+  "point_id": "point_example_v1",
+  "row_count": 1,
+  "rows": [
+    {
+      "selection_row_id": "selection_row_example",
+      "run_id": "run_triadic_branch_seed123",
+      "point_id": "point_example_v1",
+      "preparation_id": "prep_default",
+      "protocol_id": "protocol_branch_hold_hold",
+      "protocol_step_id": "protocol_branch_hold_hold_step_0",
+      "step_index": 0,
+      "trajectory_id": "traj_0000",
+      "support_group_id": "run_triadic_branch_seed123:step0:closure_branch_record",
+      "level_id": "level_macro",
+      "resolution_id": "resolution_macro_r1",
+      "closure_id": "closure_branch_record",
+      "lens_id": "lens_record_main",
+      "packaging_operator_id": "packaging_operator_p5_from_p4",
+      "packaging_family_id": "packaging_family_p5",
+      "packaging_source": "p5_from_p4",
+      "selection_status": "selected",
+      "candidate_operator_ids": [
+        "packaging_operator_p5_from_p4"
+      ],
+      "support_scope_metadata": {
+        "observation_label": "obs_left_A"
+      }
+    }
+  ]
+}

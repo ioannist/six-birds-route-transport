@@ -1,0 +1,30 @@
+{
+  "schema_version": "benchmark-result-manifest.v1",
+  "manifest_id": "protocol_trap_naive.result",
+  "benchmark_id": "protocol_trap_naive",
+  "records": [
+    {
+      "benchmark_id": "protocol_trap_naive",
+      "interface_id": "mid",
+      "history_count": 2,
+      "current_quotient_size": 1,
+      "predictive_quotient_size": 2,
+      "witness_count": 1,
+      "max_fiber_size": 2,
+      "discrepancy_metric_name": "exact_max_abs_future_gap",
+      "discrepancy_metric_value": 1.0,
+      "loop_action_score_current_quotient": 0.0,
+      "loop_action_score_predictive_quotient": 0.0,
+      "support_fixation_status": "passed",
+      "currentization_status": "skipped",
+      "flattening_status": "skipped",
+      "robustness_fraction": 0.0,
+      "class_label": "artifact_trap",
+      "runtime": 0.0004929449642077088,
+      "seed": 0
+    }
+  ],
+  "tags": [
+    "protocol_trap"
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "adequacy_floor_result": {
+    "adequate": false,
+    "checks": {
+      "admissible_built_package_count": true,
+      "points_with_changed_packaging_surface_relative_to_control": true,
+      "points_with_dual_mode_difference": false,
+      "points_with_proper_coarse_events": true,
+      "total_point_count": true
+    },
+    "counts": {
+      "admissible_built_package_count": 3,
+      "points_with_changed_packaging_surface_relative_to_control": 1,
+      "points_with_dual_mode_difference": 0,
+      "points_with_proper_coarse_events": 2,
+      "total_point_count": 4
+    }
+  },
+  "adequacy_floor_thresholds": {
+    "min_admissible_built_package_count": 2,
+    "min_points_with_changed_packaging_surface_relative_to_control": 1,
+    "min_points_with_dual_mode_difference": 1,
+    "min_points_with_proper_coarse_events": 1,
+    "min_total_point_count": 4
+  },
+  "best_point_id": null,
+  "claim_ceiling_note": "Mechanism-axis findings are regime-selection evidence only and do not justify same-system contextuality or theorem-level obstruction claims.",
+  "config_family_covered": [
+    "experiments/configs/pica/pilot-exp120-frozen-slice-control.json",
+    "experiments/configs/pica/pilot-exp104-full-all-closure-diverse.json",
+    "experiments/configs/pica/pilot-exp121-packaging-p1p5.json",
+    "experiments/configs/pica/pilot-exp121-packaging-p2p5.json"
+  ],
+  "counts_by_candidate_class": {
+    "extendable_candidate": 3,
+    "trivial_or_nonrecording": 1
+  },
+  "counts_by_claim_level": {
+    "mechanism_dependence": 2,
+    "nontrivial_multicontext_structure": 2
+  },
+  "design_inadequate": true,
+  "fixed_search_settings": {
+    "active_projection_family_ids": [
+      "obs_primary"
+    ],
+    "axis": "mechanism",
+    "claim_ceiling": "package_conflict_tension",
+    "event_generation_thresholds": {
+      "event_algebra_mode": "full_powerset",
+      "event_basis_mode": "singleton_plus_small_unions",
+      "include_empty_and_full_in_truncation": true,
+      "match_empty_for_inference": false,
+      "match_full_for_inference": false,
+      "max_full_powerset_atom_count": 6,
+      "max_union_size": 3,
+      "min_event_support_count": 1,
+      "min_event_support_fraction": 0.0
+    },
+    "fixed_lens_family_label": "observable_row_record_algebra_v1",
+    "fixed_packaging_policy_label": "bridge_default_packaging_selector",
+    "selected_protocol_step_ids": [
+      "protocol_pica_multiscale_scan_step_1"
+    ],
+    "selected_step_indices": [
+      1
+    ],
+    "shared_event_inference_thresholds": {
+      "exact_tolerance": 1e-09,
+      "inference_mode": "structural_primary",
+      "max_mean_tv": 1.0,
+      "min_common_probes": 1,
+      "min_conditioning_count": 3,
+      "min_probe_atom_support_count": 1,
+      "proposal_constraint_kind": "soft"
+    }
+  },
+  "negative_result": false,
+  "output_paths": {
+    "manifest": "results/search/20260329T011000Z--mechanism_axis/run-manifest.json",
+    "note": "results/search/20260329T011000Z--mechanism_axis/mechanism-axis-note.md",
+    "outcome": "results/search/20260329T011000Z--mechanism_axis/design-inadequate-result.json",
+    "result_note": "results/search/20260329T011000Z--mechanism_axis/result-note.json",
+    "summary": "results/search/20260329T011000Z--mechanism_axis/mechanism-axis-summary.json",
+    "table_csv": "results/search/20260329T011000Z--mechanism_axis/mechanism-axis.csv",
+    "table_json": "results/search/20260329T011000Z--mechanism_axis/mechanism-axis.json"
+  },
+  "packaging_surface_diversity_summary": {
+    "points_with_changed_packaging_surface_relative_to_control": 1,
+    "selected_packaging_family_count_by_point": {
+      "mechanism_control": 1,
+      "mechanism_divergent_exp104": 0,
+      "mechanism_divergent_p1p5": 1,
+      "mechanism_richest_p2p5": 1
+    },
+    "selected_packaging_operator_count_by_point": {
+      "mechanism_control": 1,
+      "mechanism_divergent_exp104": 0,
+      "mechanism_divergent_p1p5": 1,
+      "mechanism_richest_p2p5": 1
+    },
+    "selected_packaging_sources_by_point": {
+      "mechanism_control": [
+        "p5_from_p4"
+      ],
+      "mechanism_divergent_exp104": [],
+      "mechanism_divergent_p1p5": [
+        "p5_from_p4"
+      ],
+      "mechanism_richest_p2p5": [
+        "p5_from_p4"
+      ]
+    }
+  },
+  "search_id": "mechanism_axis_th3"
+}

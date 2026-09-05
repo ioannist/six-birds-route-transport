@@ -1,0 +1,68 @@
+{
+  "instance_artifact": "experiments/instances/benchmarks/classical-master-test/instance.json",
+  "instance_id": "inst_classical_master_test",
+  "metadata": {
+    "benchmark_id": "classical-master-test",
+    "mode": "stat_clean"
+  },
+  "observations": [
+    {
+      "context_id": "ctx_binary",
+      "atom_ids": [
+        "x0"
+      ],
+      "count": 30
+    },
+    {
+      "context_id": "ctx_binary",
+      "atom_ids": [
+        "x1"
+      ],
+      "count": 70
+    },
+    {
+      "context_id": "ctx_left_refined",
+      "atom_ids": [
+        "l0"
+      ],
+      "count": 10
+    },
+    {
+      "context_id": "ctx_left_refined",
+      "atom_ids": [
+        "l1"
+      ],
+      "count": 20
+    },
+    {
+      "context_id": "ctx_left_refined",
+      "atom_ids": [
+        "l2"
+      ],
+      "count": 70
+    },
+    {
+      "context_id": "ctx_right_refined",
+      "atom_ids": [
+        "r0"
+      ],
+      "count": 30
+    },
+    {
+      "context_id": "ctx_right_refined",
+      "atom_ids": [
+        "r1"
+      ],
+      "count": 30
+    },
+    {
+      "context_id": "ctx_right_refined",
+      "atom_ids": [
+        "r2"
+      ],
+      "count": 40
+    }
+  ],
+  "trace_format_version": "observation-trace.v1",
+  "trace_id": "trace_classical_master_test_stat_clean"
+}

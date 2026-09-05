@@ -1,0 +1,124 @@
+{
+  "instance_format_version": "event-package-instance.v1",
+  "instance_id": "inst_classical_master_test",
+  "contexts": [
+    {
+      "context_id": "ctx_binary",
+      "atoms": [
+        {
+          "atom_id": "x0"
+        },
+        {
+          "atom_id": "x1"
+        }
+      ]
+    },
+    {
+      "context_id": "ctx_left_refined",
+      "atoms": [
+        {
+          "atom_id": "l0"
+        },
+        {
+          "atom_id": "l1"
+        },
+        {
+          "atom_id": "l2"
+        }
+      ]
+    },
+    {
+      "context_id": "ctx_right_refined",
+      "atoms": [
+        {
+          "atom_id": "r0"
+        },
+        {
+          "atom_id": "r1"
+        },
+        {
+          "atom_id": "r2"
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "event_id": "event_x0",
+      "context_id": "ctx_binary",
+      "atom_ids": [
+        "x0"
+      ]
+    },
+    {
+      "event_id": "event_x1",
+      "context_id": "ctx_binary",
+      "atom_ids": [
+        "x1"
+      ]
+    },
+    {
+      "event_id": "event_l01",
+      "context_id": "ctx_left_refined",
+      "atom_ids": [
+        "l0",
+        "l1"
+      ]
+    },
+    {
+      "event_id": "event_l2",
+      "context_id": "ctx_left_refined",
+      "atom_ids": [
+        "l2"
+      ]
+    },
+    {
+      "event_id": "event_r0",
+      "context_id": "ctx_right_refined",
+      "atom_ids": [
+        "r0"
+      ]
+    },
+    {
+      "event_id": "event_r12",
+      "context_id": "ctx_right_refined",
+      "atom_ids": [
+        "r1",
+        "r2"
+      ]
+    }
+  ],
+  "equality_proposals": [
+    {
+      "proposal_id": "p_x0_l01",
+      "left_event_id": "event_x0",
+      "right_event_id": "event_l01",
+      "constraint_kind": "hard"
+    },
+    {
+      "proposal_id": "p_x0_r0",
+      "left_event_id": "event_x0",
+      "right_event_id": "event_r0",
+      "constraint_kind": "hard"
+    },
+    {
+      "proposal_id": "p_x1_l2",
+      "left_event_id": "event_x1",
+      "right_event_id": "event_l2",
+      "constraint_kind": "hard"
+    },
+    {
+      "proposal_id": "p_x1_r12",
+      "left_event_id": "event_x1",
+      "right_event_id": "event_r12",
+      "constraint_kind": "hard"
+    }
+  ],
+  "weights": {},
+  "metadata": {
+    "benchmark_id": "classical-master-test"
+  },
+  "audit": {
+    "created_at": "2026-03-25T00:00:00Z"
+  }
+}

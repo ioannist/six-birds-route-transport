@@ -1,0 +1,67 @@
+{
+  "config_format_version": "substrate-config.v1",
+  "config_id": "cfg_stochastic_two_state_short",
+  "states": [
+    {
+      "state_id": "h0"
+    },
+    {
+      "state_id": "h1"
+    }
+  ],
+  "preparations": [
+    {
+      "preparation_id": "prep0",
+      "distribution": {
+        "h0": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "action_id": "flip",
+      "transition_kernel": {
+        "h0": {
+          "h0": 0.25,
+          "h1": 0.75
+        },
+        "h1": {
+          "h0": 0.6,
+          "h1": 0.4
+        }
+      }
+    }
+  ],
+  "lenses": [
+    {
+      "lens_id": "occupancy",
+      "readout_map": {
+        "h0": "zero",
+        "h1": "one"
+      }
+    },
+    {
+      "lens_id": "bias",
+      "readout_map": {
+        "h0": "cold",
+        "h1": "hot"
+      }
+    }
+  ],
+  "protocols": [
+    {
+      "protocol_id": "flip2",
+      "action_ids": [
+        "flip",
+        "flip"
+      ]
+    }
+  ],
+  "defaults": {
+    "trajectory_count": 20,
+    "seed": 123
+  },
+  "metadata": {
+    "mode": "stochastic_short"
+  }
+}

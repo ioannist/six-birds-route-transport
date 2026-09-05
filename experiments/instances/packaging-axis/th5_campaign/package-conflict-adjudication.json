@@ -1,0 +1,45 @@
+{
+  "relation_format_version": "package-conflict-relation.v1",
+  "relation_id": "th5_packaging_cross_res_k4_k20_adjudication",
+  "package_conflict_object_ref": "experiments/contracts/theory/examples/package-conflict-object.json",
+  "left_context_ref": "ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_20_closure_p6_row_all_k_20_lens_p4_k_20_protocol_pica_multiscale_scan_step_4__proj_obs_primary",
+  "right_context_ref": "ctx_pica_prep_pica_default_protocol_pica_multiscale_scan_level_l0_resolution_k_4_closure_p6_row_all_pkg_k_4_lens_p5_k_4_protocol_pica_multiscale_scan_step_1__proj_obs_primary",
+  "comparison_mode": "cross_resolution_strict_extension",
+  "same_frozen_support": true,
+  "same_evaluation_regime": true,
+  "divergence_fields": [
+    "selector_branch",
+    "resolution_id",
+    "lens_id"
+  ],
+  "package_action_evidence": [
+    "selector_branch_divergence",
+    "primary_packaging_conflict_admissible",
+    "accepted_packaging_divergent_proposals",
+    "accepted_proposal_obstruction"
+  ],
+  "relation_level": "packaging_obstruction",
+  "classification": "selector_branch_package_divergence",
+  "obstruction_status": "accepted_proposal_obstruction",
+  "primary_refs": [
+    "experiments/instances/packaging-axis/th5_campaign/packaging-axis-summary.json",
+    "experiments/instances/packaging-axis/th5_campaign/best-candidate.json",
+    "experiments/instances/packaging-axis/th5_campaign/package-conflict-diagnostics.json"
+  ],
+  "supporting_refs": [
+    "docs/runbooks/three-axis-context-memo.md",
+    "docs/runbooks/frozen-slice-shared-support-layer.md",
+    "docs/runbooks/hierarchy-proposition-layer.md",
+    "experiments/instances/hierarchy/three-axis-evidence-index.json"
+  ],
+  "caveat_flags": [
+    "selector_branch_divergence",
+    "fixed_operator_family_source",
+    "narrow_packaging_surface",
+    "not_broad_multi_family_packaging_landscape"
+  ],
+  "notes": [
+    "Current flagship is best read as a branch-driven package conflict on fixed support that does reach accepted obstruction.",
+    "This is stronger than lens mismatch and stronger than packaging surface metadata alone, but narrower than operator-or-family-divergent package conflict."
+  ]
+}

@@ -1,0 +1,5 @@
+search_id,candidate_id,class_label,primary_interface_id,threshold,trial_count,pass_count,survival_fraction,meets_threshold,primary_witness_count,primary_discrepancy_metric_value,primary_predictive_loop_score
+cyclic_memory_small,cand_0000,coherent_candidate,i0,0.5,8,4,0.5,true,1,1.0,1.0
+cyclic_memory_small,cand_0001,coherent_candidate,i0,0.5,8,5,0.625,true,1,1.0,1.0
+cyclic_memory_small,cand_0002,coherent_candidate,i0,0.5,8,4,0.5,true,1,1.0,1.0
+cyclic_memory_small,cand_0006,coherent_candidate,i0,0.5,8,6,0.75,true,1,1.0,1.0

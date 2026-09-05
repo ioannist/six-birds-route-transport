@@ -1,0 +1,38 @@
+{
+  "adequacy_floor_result": {
+    "adequate": true,
+    "checks": {
+      "admissible_built_package_count": true,
+      "points_with_accepted_proper_coarse_structural_proposals": true,
+      "points_with_dual_mode_difference": true,
+      "points_with_nontrivial_quotient_result_recorded": true,
+      "points_with_proper_coarse_events": true,
+      "points_with_same_slice_non_nested_lens_pairs": true,
+      "total_point_count": true
+    },
+    "counts": {
+      "admissible_built_package_count": 3,
+      "points_with_accepted_proper_coarse_structural_proposals": 3,
+      "points_with_dual_mode_difference": 3,
+      "points_with_nontrivial_quotient_result_recorded": 3,
+      "points_with_proper_coarse_events": 3,
+      "points_with_same_slice_non_nested_lens_pairs": 2,
+      "total_point_count": 3
+    },
+    "thresholds": {
+      "min_admissible_built_package_count": 2,
+      "min_points_with_accepted_proper_coarse_structural_proposals": 1,
+      "min_points_with_dual_mode_difference": 1,
+      "min_points_with_nontrivial_quotient_result_recorded": 1,
+      "min_points_with_proper_coarse_events": 1,
+      "min_points_with_same_slice_non_nested_lens_pairs": 1,
+      "min_total_point_count": 3
+    }
+  },
+  "best_point_id": null,
+  "counts_by_quotient_witness_status": {
+    "candidate_subset_quotient_witness": 3
+  },
+  "outcome_kind": "negative_result",
+  "search_id": "lens_axis_th4"
+}

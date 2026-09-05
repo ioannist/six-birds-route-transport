@@ -1,0 +1,47 @@
+{
+  "campaign_exports": [
+    {
+      "artifact_path": "experiments/contracts/pica/pilot/exp110_pairmatch/pica-campaign-export.json",
+      "campaign_id": "pica_campaign_exp110_pairmatch"
+    }
+  ],
+  "closure_catalogs": [
+    {
+      "artifact_path": "experiments/contracts/pica/pilot/exp110_pairmatch/pica-closure-catalog.json",
+      "closure_catalog_id": "closure_catalog_run_exp110_pairmatch_seed0",
+      "run_id": "run_exp110_pairmatch_seed0"
+    }
+  ],
+  "debug_sidecars": [],
+  "export_bundle_id": "pica_campaign_exp110_pairmatch_bundle",
+  "export_timestamp": "2026-03-27T06:15:00Z",
+  "flags": [
+    "contract_fixture",
+    "bounded_positive_case"
+  ],
+  "notes": [
+    "Committed bounded PICA export family for structural shared-event inference positive coverage."
+  ],
+  "observable_ledgers": [
+    {
+      "artifact_path": "experiments/contracts/pica/pilot/exp110_pairmatch/pica-observable-ledger.json",
+      "observable_ledger_id": "observable_ledger_run_exp110_pairmatch_seed0",
+      "run_id": "run_exp110_pairmatch_seed0"
+    }
+  ],
+  "path_policy": "repo_relative",
+  "producer": {
+    "build_label": "contract_fixture",
+    "commit": "workspace",
+    "name": "pica",
+    "version": "exp110-pairmatch"
+  },
+  "run_ledgers": [
+    {
+      "artifact_path": "experiments/contracts/pica/pilot/exp110_pairmatch/pica-run-ledger.json",
+      "campaign_id": "pica_campaign_exp110_pairmatch",
+      "run_id": "run_exp110_pairmatch_seed0"
+    }
+  ],
+  "schema_version": "pica-export-bundle.v1"
+}

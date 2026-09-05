@@ -1,0 +1,32 @@
+{
+  "rows": [
+    {
+      "accepted_only_survivor_count": 4,
+      "candidate_subset_witness_found": true,
+      "natural_pairing_survivor_count": 4,
+      "point_id": "lens_control_same_support",
+      "quotient_class_count": 4,
+      "quotient_feasibility_summary_path": "results/results/20260329T121000Z--lens_control_same_support_quotient_feasibility/quotient-feasibility-summary.json",
+      "quotient_witness_status": "candidate_subset_quotient_witness"
+    },
+    {
+      "accepted_only_survivor_count": 9,
+      "candidate_subset_witness_found": true,
+      "natural_pairing_survivor_count": 9,
+      "point_id": "lens_candidate_bins",
+      "quotient_class_count": 9,
+      "quotient_feasibility_summary_path": "results/results/20260329T121000Z--lens_candidate_bins_quotient_feasibility/quotient-feasibility-summary.json",
+      "quotient_witness_status": "candidate_subset_quotient_witness"
+    },
+    {
+      "accepted_only_survivor_count": 11,
+      "candidate_subset_witness_found": true,
+      "natural_pairing_survivor_count": 11,
+      "point_id": "lens_rich_same_support",
+      "quotient_class_count": 11,
+      "quotient_feasibility_summary_path": "results/results/20260329T121000Z--lens_rich_same_support_quotient_feasibility/quotient-feasibility-summary.json",
+      "quotient_witness_status": "candidate_subset_quotient_witness"
+    }
+  ],
+  "search_id": "lens_axis_th4"
+}

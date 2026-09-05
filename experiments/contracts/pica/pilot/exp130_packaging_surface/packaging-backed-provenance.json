@@ -1,0 +1,87 @@
+{
+  "provenance_format_version": "package-provenance.v1",
+  "package_artifact": "experiments/contracts/pica/pilot/exp130_packaging_surface/packaging-backed-event-package.json",
+  "package_id": "exp130_packaging_surface_demo_package",
+  "provenance_mode": "derived_from_pica_bundle",
+  "source_artifacts": {
+    "pica_bundle": "experiments/contracts/pica/pilot/exp130_packaging_surface/pica-export-bundle.json"
+  },
+  "context_entries": [
+    {
+      "context_id": "ctx_packaging_step_0",
+      "origin_kind": "pica_packaging_context",
+      "source_refs": [
+        {
+          "artifact": "experiments/contracts/pica/pilot/exp130_packaging_surface/pica-export-bundle.json",
+          "source_kind": "pica_packaging_scope",
+          "pica_ref": {
+            "export_bundle_id": "pica_pilot_exp130_packaging_surface_bundle",
+            "campaign_id": "pica_campaign_exp130_packaging_surface",
+            "run_id": "point_exp130_packaging_surface_seed0__seed_0",
+            "observable_ledger_id": "observable_ledger_point_exp130_packaging_surface_seed0__seed_0",
+            "closure_id": "closure_A5_P1-P5_pkg_k_2",
+            "lens_id": "lens_p5_k_2",
+            "level_id": "level_l0",
+            "resolution_id": "resolution_k_2",
+            "preparation_id": "prep_pica_default",
+            "protocol_id": "protocol_pica_multiscale_scan",
+            "protocol_step_id": "protocol_pica_multiscale_scan_step_0",
+            "step_index": 0,
+            "packaging_selection_ledger_id": "packaging_selection_ledger_point_exp130_packaging_surface_seed0__seed_0",
+            "packaging_selection_row_id": "packaging_selection_point_exp130_packaging_surface_seed0__seed_0_protocol_pica_multiscale_scan_step_0_traj_0000_closure_A5_P1-P5_pkg_k_2_lens_p5_k_2",
+            "packaging_operator_id": "packaging_operator_p5_from_p4",
+            "packaging_family_id": "packaging_family_p5",
+            "packaging_source": "p5_from_p4",
+            "source_row_filters": {
+              "trajectory_id": "traj_0000",
+              "observation_label": "package_0"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "event_entries": [
+    {
+      "event_id": "event_package_0",
+      "origin_kind": "pica_packaging_event",
+      "source_refs": [
+        {
+          "artifact": "experiments/contracts/pica/pilot/exp130_packaging_surface/pica-export-bundle.json",
+          "source_kind": "pica_packaging_row",
+          "pica_ref": {
+            "export_bundle_id": "pica_pilot_exp130_packaging_surface_bundle",
+            "campaign_id": "pica_campaign_exp130_packaging_surface",
+            "run_id": "point_exp130_packaging_surface_seed0__seed_0",
+            "observable_ledger_id": "observable_ledger_point_exp130_packaging_surface_seed0__seed_0",
+            "closure_id": "closure_A5_P1-P5_pkg_k_2",
+            "lens_id": "lens_p5_k_2",
+            "level_id": "level_l0",
+            "resolution_id": "resolution_k_2",
+            "preparation_id": "prep_pica_default",
+            "protocol_id": "protocol_pica_multiscale_scan",
+            "protocol_step_id": "protocol_pica_multiscale_scan_step_0",
+            "step_index": 0,
+            "packaging_selection_ledger_id": "packaging_selection_ledger_point_exp130_packaging_surface_seed0__seed_0",
+            "packaging_selection_row_id": "packaging_selection_point_exp130_packaging_surface_seed0__seed_0_protocol_pica_multiscale_scan_step_0_traj_0000_closure_A5_P1-P5_pkg_k_2_lens_p5_k_2",
+            "packaging_operator_id": "packaging_operator_p5_from_p4",
+            "packaging_family_id": "packaging_family_p5",
+            "packaging_source": "p5_from_p4",
+            "source_row_filters": {
+              "trajectory_id": "traj_0000",
+              "observation_label": "package_0"
+            }
+          }
+        }
+      ],
+      "source_context_id": "ctx_packaging_step_0",
+      "source_atom_ids": [
+        "atom_package_0"
+      ]
+    }
+  ],
+  "proposal_entries": [],
+  "metadata": {
+    "packaging_surface_demo": true
+  }
+}

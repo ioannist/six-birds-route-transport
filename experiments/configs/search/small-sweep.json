@@ -1,0 +1,63 @@
+{
+  "sweep_format_version": "search-sweep.v1",
+  "sweep_id": "small_sweep",
+  "points": [
+    {
+      "point_id": "deterministic_cycle_seed0",
+      "config_artifact": "experiments/configs/substrates/deterministic-cycle.json",
+      "preparation_id": "prep0",
+      "protocol_id": "cycle5",
+      "trajectories": 4,
+      "seed": 0,
+      "notes": [
+        "expected_trivial_or_nonrecording"
+      ]
+    },
+    {
+      "point_id": "stochastic_short_seed123",
+      "config_artifact": "experiments/configs/substrates/stochastic-two-state-short.json",
+      "preparation_id": "prep0",
+      "protocol_id": "flip2",
+      "trajectories": 20,
+      "seed": 123,
+      "notes": [
+        "expected_nontrivial_multi_context"
+      ]
+    },
+    {
+      "point_id": "stochastic_short_seed321",
+      "config_artifact": "experiments/configs/substrates/stochastic-two-state-short.json",
+      "preparation_id": "prep0",
+      "protocol_id": "flip2",
+      "trajectories": 20,
+      "seed": 321,
+      "notes": [
+        "seed_variation"
+      ]
+    }
+  ],
+  "extraction_thresholds": {
+    "min_trajectory_count": 10,
+    "min_atom_count": 2,
+    "min_atom_support_count": 2,
+    "min_atom_support_fraction": 0.0,
+    "min_coverage": 0.9,
+    "max_batch_tv": 0.35,
+    "max_persistence_flip_rate": 0.8,
+    "batch_count": 2
+  },
+  "shared_event_inference_thresholds": {
+    "min_common_probes": 1,
+    "min_conditioning_count": 3,
+    "max_mean_tv": 0.15,
+    "exact_tolerance": 1e-06,
+    "proposal_constraint_kind": "soft"
+  },
+  "classification_thresholds": {
+    "near_zero_gpd_stat": 1e-06,
+    "strong_nonextendable_min_gpd_str": 1.0
+  },
+  "metadata": {
+    "mode": "compact_search_sweep"
+  }
+}

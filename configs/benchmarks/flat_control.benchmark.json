@@ -1,0 +1,15 @@
+{
+  "schema_version": "benchmark-manifest.v1",
+  "benchmark_id": "flat_control",
+  "transport_package_ref": "configs/benchmarks/toy_flat_signatures.json",
+  "interfaces_to_measure": [
+    "mid"
+  ],
+  "loops_to_test": [
+    "end_loop"
+  ],
+  "perturbation_sweep_ref": "configs/benchmarks/flat_control.perturbation.json",
+  "tags": [
+    "baseline"
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "instance_format_version": "event-package-instance.v1",
+  "instance_id": "inst_demo_001",
+  "contexts": [
+    {
+      "context_id": "ctx_a",
+      "label": "context A",
+      "atoms": [
+        { "atom_id": "a1", "label": "atom 1" },
+        { "atom_id": "a2", "label": "atom 2" }
+      ]
+    },
+    {
+      "context_id": "ctx_b",
+      "label": "context B",
+      "atoms": [
+        { "atom_id": "b1", "label": "atom 1" }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "event_id": "ev_a_empty",
+      "context_id": "ctx_a",
+      "atom_ids": []
+    },
+    {
+      "event_id": "ev_b_single",
+      "context_id": "ctx_b",
+      "atom_ids": ["b1"]
+    }
+  ],
+  "equality_proposals": [
+    {
+      "proposal_id": "eq_001",
+      "left_event_id": "ev_a_empty",
+      "right_event_id": "ev_b_single",
+      "constraint_kind": "soft",
+      "weight_key": "w_eq_001"
+    }
+  ],
+  "weights": {
+    "w_eq_001": 0.25
+  },
+  "notes": "valid event package",
+  "metadata": {
+    "tag": "fixture"
+  },
+  "audit": {
+    "created_at": "2026-03-25T00:00:00Z",
+    "created_by": "tests",
+    "source": "fixture"
+  }
+}

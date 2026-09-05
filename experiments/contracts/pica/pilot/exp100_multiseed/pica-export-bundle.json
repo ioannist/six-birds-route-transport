@@ -1,0 +1,77 @@
+{
+  "campaign_exports": [
+    {
+      "artifact_path": "experiments/contracts/pica/pilot/exp100_multiseed/pica-campaign-export.json",
+      "campaign_id": "pica_campaign_exp100_baseline_multiseed"
+    }
+  ],
+  "closure_catalogs": [
+    {
+      "artifact_path": "experiments/contracts/pica/pilot/exp100_multiseed/pica-closure-catalog-seed0.json",
+      "closure_catalog_id": "closure_catalog_run_exp100_baseline_seed0",
+      "run_id": "run_exp100_baseline_seed0"
+    },
+    {
+      "artifact_path": "experiments/contracts/pica/pilot/exp100_multiseed/pica-closure-catalog-seed1.json",
+      "closure_catalog_id": "closure_catalog_run_exp100_baseline_seed1",
+      "run_id": "run_exp100_baseline_seed1"
+    },
+    {
+      "artifact_path": "experiments/contracts/pica/pilot/exp100_multiseed/pica-closure-catalog-seed2.json",
+      "closure_catalog_id": "closure_catalog_run_exp100_baseline_seed2",
+      "run_id": "run_exp100_baseline_seed2"
+    }
+  ],
+  "debug_sidecars": [],
+  "export_bundle_id": "pica_campaign_exp100_baseline_multiseed_bundle",
+  "export_timestamp": "2026-03-27T00:00:00Z",
+  "flags": [
+    "adapter_export",
+    "multiseed"
+  ],
+  "notes": [
+    "Committed multiseed export bundle for T38 PICA-native context discovery."
+  ],
+  "observable_ledgers": [
+    {
+      "artifact_path": "experiments/contracts/pica/pilot/exp100_multiseed/pica-observable-ledger-seed0.json",
+      "observable_ledger_id": "observable_ledger_run_exp100_baseline_seed0",
+      "run_id": "run_exp100_baseline_seed0"
+    },
+    {
+      "artifact_path": "experiments/contracts/pica/pilot/exp100_multiseed/pica-observable-ledger-seed1.json",
+      "observable_ledger_id": "observable_ledger_run_exp100_baseline_seed1",
+      "run_id": "run_exp100_baseline_seed1"
+    },
+    {
+      "artifact_path": "experiments/contracts/pica/pilot/exp100_multiseed/pica-observable-ledger-seed2.json",
+      "observable_ledger_id": "observable_ledger_run_exp100_baseline_seed2",
+      "run_id": "run_exp100_baseline_seed2"
+    }
+  ],
+  "path_policy": "repo_relative",
+  "producer": {
+    "build_label": "cargo_runner_release",
+    "commit": "9da175b",
+    "name": "pica",
+    "version": "pilot-wrapper"
+  },
+  "run_ledgers": [
+    {
+      "artifact_path": "experiments/contracts/pica/pilot/exp100_multiseed/pica-run-ledger-seed0.json",
+      "campaign_id": "pica_campaign_exp100_baseline_multiseed",
+      "run_id": "run_exp100_baseline_seed0"
+    },
+    {
+      "artifact_path": "experiments/contracts/pica/pilot/exp100_multiseed/pica-run-ledger-seed1.json",
+      "campaign_id": "pica_campaign_exp100_baseline_multiseed",
+      "run_id": "run_exp100_baseline_seed1"
+    },
+    {
+      "artifact_path": "experiments/contracts/pica/pilot/exp100_multiseed/pica-run-ledger-seed2.json",
+      "campaign_id": "pica_campaign_exp100_baseline_multiseed",
+      "run_id": "run_exp100_baseline_seed2"
+    }
+  ],
+  "schema_version": "pica-export-bundle.v1"
+}

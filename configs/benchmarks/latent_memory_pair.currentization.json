@@ -1,0 +1,11 @@
+{
+  "schema_version": "comparison-manifest.v1",
+  "manifest_id": "latent_memory_pair",
+  "base_benchmark_id": "latent_memory_base",
+  "refined_benchmark_id": "latent_memory_refined",
+  "same_support_required": true,
+  "expected_effect": "currentization",
+  "tags": [
+    "currentizable"
+  ]
+}

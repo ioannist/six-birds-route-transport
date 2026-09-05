@@ -1,0 +1,95 @@
+{
+  "instance_format_version": "event-package-instance.v1",
+  "instance_id": "inst_hidden_record_route_split_before",
+  "contexts": [
+    {
+      "context_id": "ctx_A",
+      "atoms": [
+        {
+          "atom_id": "a0"
+        },
+        {
+          "atom_id": "a1"
+        }
+      ]
+    },
+    {
+      "context_id": "ctx_B",
+      "atoms": [
+        {
+          "atom_id": "b0"
+        },
+        {
+          "atom_id": "b1"
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "event_id": "event_a0",
+      "context_id": "ctx_A",
+      "atom_ids": [
+        "a0"
+      ]
+    },
+    {
+      "event_id": "event_a1",
+      "context_id": "ctx_A",
+      "atom_ids": [
+        "a1"
+      ]
+    },
+    {
+      "event_id": "event_b0",
+      "context_id": "ctx_B",
+      "atom_ids": [
+        "b0"
+      ]
+    },
+    {
+      "event_id": "event_b1",
+      "context_id": "ctx_B",
+      "atom_ids": [
+        "b1"
+      ]
+    }
+  ],
+  "equality_proposals": [
+    {
+      "proposal_id": "p_r0_a0",
+      "left_event_id": "event_a0",
+      "right_event_id": "event_b0",
+      "constraint_kind": "hard",
+      "notes": "route r0 alignment"
+    },
+    {
+      "proposal_id": "p_r0_a1",
+      "left_event_id": "event_a1",
+      "right_event_id": "event_b1",
+      "constraint_kind": "hard",
+      "notes": "route r0 alignment"
+    },
+    {
+      "proposal_id": "p_r1_a0",
+      "left_event_id": "event_a0",
+      "right_event_id": "event_b1",
+      "constraint_kind": "hard",
+      "notes": "route r1 alignment"
+    },
+    {
+      "proposal_id": "p_r1_a1",
+      "left_event_id": "event_a1",
+      "right_event_id": "event_b0",
+      "constraint_kind": "hard",
+      "notes": "route r1 alignment"
+    }
+  ],
+  "weights": {},
+  "metadata": {
+    "example_kind": "hidden_record_route_split_before"
+  },
+  "audit": {
+    "created_at": "2026-03-25T00:00:00Z"
+  }
+}

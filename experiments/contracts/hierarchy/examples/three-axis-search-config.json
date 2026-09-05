@@ -1,0 +1,69 @@
+{
+  "config_format_version": "three-axis-search-config.v1",
+  "search_id": "hierarchy_packaging_contract_demo",
+  "axis": "packaging",
+  "axis_admissibility": {
+    "axis": "packaging",
+    "varied_fields": [
+      "packaging_operator_id",
+      "package_selector_branch"
+    ],
+    "fixed_fields": [
+      "mechanism_family_id",
+      "lens_family_id",
+      "protocol_step_id",
+      "step_index"
+    ],
+    "source_pair_match_fields": [
+      "preparation_id",
+      "protocol_id",
+      "protocol_step_id",
+      "step_index",
+      "trajectory_support_scope"
+    ],
+    "source_pair_variation_fields": [
+      "packaging_operator_id",
+      "package_selector_branch"
+    ],
+    "admissibility_requirements": [
+      "same_frozen_slice",
+      "same_support_scope",
+      "packaging_difference_required"
+    ],
+    "allowed_outcome_artifacts": [
+      "best-candidate",
+      "negative-result",
+      "design-inadequate-result"
+    ],
+    "max_claim_level": "provenance_admissible_strong_obstruction"
+  },
+  "shared_metric_surface_ref": "experiments/contracts/hierarchy/examples/shared-metric-surface.json",
+  "shared_metric_reporting": {
+    "required_metric_groups": [
+      "counts",
+      "dual_evaluation",
+      "audits",
+      "support",
+      "context_pair_structure",
+      "axis_admissibility"
+    ],
+    "explicit_statuses_required": true,
+    "preserve_dual_evaluation": true
+  },
+  "claim_ladder_ref": "experiments/contracts/hierarchy/examples/axis-claim-ladder.json",
+  "candidate_classification_config_ref": "docs/specs/packaging-conflict-search.md",
+  "adequacy_floor": {
+    "min_point_count": 3,
+    "min_admissible_points": 2,
+    "min_nontrivial_pairs": 1
+  },
+  "notes": [
+    "contract_only_example"
+  ],
+  "flags": [
+    "packaging_axis_demo"
+  ],
+  "metadata": {
+    "program": "three_axis_hierarchy"
+  }
+}

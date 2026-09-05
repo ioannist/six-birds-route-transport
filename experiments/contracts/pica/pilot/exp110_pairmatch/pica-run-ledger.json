@@ -1,0 +1,45 @@
+{
+  "campaign_id": "pica_campaign_exp110_pairmatch",
+  "closure_catalog_id": "closure_catalog_run_exp110_pairmatch_seed0",
+  "closure_catalog_path": "experiments/contracts/pica/pilot/exp110_pairmatch/pica-closure-catalog.json",
+  "debug_sidecars": [],
+  "enable_matrix_id": "enable_pairmatch_scan",
+  "flags": [
+    "contract_fixture",
+    "bounded_positive_case"
+  ],
+  "mechanism_family_id": "mechanism_pairmatch_scan",
+  "notes": [
+    "Single-run ledger for the bounded pairmatch structural-positive fixture."
+  ],
+  "observable_ledger_id": "observable_ledger_run_exp110_pairmatch_seed0",
+  "observable_ledger_path": "experiments/contracts/pica/pilot/exp110_pairmatch/pica-observable-ledger.json",
+  "point_id": "point_exp110_pairmatch_seed0",
+  "preparation_id": "prep_pairmatch",
+  "protocol_id": "protocol_pairmatch_scan",
+  "protocol_steps": [
+    {
+      "action_label": "observe_a",
+      "protocol_step_id": "protocol_pairmatch_step_0",
+      "stage_label": "scan",
+      "step_index": 0
+    },
+    {
+      "action_label": "observe_b",
+      "protocol_step_id": "protocol_pairmatch_step_1",
+      "stage_label": "scan",
+      "step_index": 1
+    },
+    {
+      "action_label": "probe",
+      "protocol_step_id": "protocol_pairmatch_step_2",
+      "stage_label": "probe",
+      "step_index": 2
+    }
+  ],
+  "run_id": "run_exp110_pairmatch_seed0",
+  "schema_version": "pica-run-ledger.v1",
+  "seed": 0,
+  "substrate_config_id": "substrate_exp110_pairmatch",
+  "trajectory_count": 6
+}

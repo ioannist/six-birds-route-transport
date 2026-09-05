@@ -1,0 +1,32 @@
+{
+  "admissibility_classification": "admissible",
+  "artifact_refs": {
+    "manifest": "results/search/20260329T210000Z--cross_res_all_steps_provenance/run-manifest.json",
+    "note": "results/search/20260329T210000Z--cross_res_all_steps_provenance/provenance-audit-note.md",
+    "result_note": "results/search/20260329T210000Z--cross_res_all_steps_provenance/result-note.json",
+    "summary": "results/search/20260329T210000Z--cross_res_all_steps_provenance/provenance-audit-summary.json"
+  },
+  "audit_format_version": "provenance-audit-result.v1",
+  "audit_status": "completed",
+  "context_covered_count": 10,
+  "context_missing_count": 0,
+  "context_total_count": 10,
+  "event_covered_count": 253,
+  "event_missing_count": 0,
+  "event_total_count": 253,
+  "missing_source_ref_count": 0,
+  "notes": [],
+  "package_artifact": "results/search/20260329T210000Z--cross_res_all_steps_package_build/event-package.json",
+  "package_id": "inst_cross_res_all_steps_lens_axis_contexts_built",
+  "proposal_covered_count": 237,
+  "proposal_missing_count": 0,
+  "proposal_total_count": 237,
+  "provenance_artifact": "results/search/20260329T210000Z--cross_res_all_steps_package_build/package-provenance.json",
+  "refinement_warning_count": 0,
+  "suspicious_refinement_flags": [],
+  "unknown_row_filter_field_count": 0,
+  "unresolved_source_ref_count": 0,
+  "unsupported_context_count": 0,
+  "unsupported_event_count": 0,
+  "unsupported_proposal_count": 0
+}
